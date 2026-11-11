@@ -45,16 +45,16 @@ Reference pages:
 Think like a research analyst rather than a day trader. Use an information hierarchy: **What changed? → Is the signal real? → Which sectors benefit? → Which company economics follow? → What price/valuation is justified?**
 
 **RESEARCH**
-- **Company Research** — \`index.html\`, existing Yatharth baseline, financial/forecast/decision views; later generalized company route.
-- **Sector Intelligence** — \`sector-intelligence.html\`, unit economics, sector-specific playbooks, peers, scoring and valuation evidence.
-- **Price × Volume** — \`company-signals.html\`, 22-company technical watch, only source-backed abnormal-volume / trend-reversal events; links back to valuation research.
+- **Company Research** — `index.html`, existing Yatharth baseline, financial/forecast/decision views; later generalized company route.
+- **Sector Intelligence** — `sector-intelligence.html`, unit economics, sector-specific playbooks, peers, scoring and valuation evidence.
+- **Price × Volume** — `company-signals.html`, 22-company technical watch, only source-backed abnormal-volume / trend-reversal events; links back to valuation research.
 
 **MARKETS**
-- **Morning Intelligence** — \`market-desk.html\`, sourced AI-reviewed 07:25/19:25 update, money flows vs price, risks and opportunities.
-- **Rotation × Odds** — \`signals.html\`, 1/3-month Indian NIFTY relative price performance plus Polymarket read-only binary event quotes.
-- **News Archive** — \`news-radar.html\`, historical source events, coverage comparisons, theme transmission and regime methodology.
+- **Morning Intelligence** — `market-desk.html`, sourced AI-reviewed 07:25/19:25 update, money flows vs price, risks and opportunities.
+- **Rotation × Odds** — `signals.html`, 1/3-month Indian NIFTY relative price performance plus Polymarket read-only binary event quotes.
+- **News Archive** — `news-radar.html`, historical source events, coverage comparisons, theme transmission and regime methodology.
 
-A universal top navigation is injected by \`assets/equity-shell.js\` and all pages import \`assets/equity-ui.css\`. Contextual sidebars keep local sub-tabs. The top nav provides plain \`<a href>\` links (no fake buttons) so navigation stays reliable after returning home. Future page additions require adding one entry to \`PAGES\` and following shared styling.
+A universal top navigation is injected by `assets/equity-shell.js` and all pages import `assets/equity-ui.css`. Contextual sidebars keep local sub-tabs. The top nav provides plain `<a href>` links (no fake buttons) so navigation stays reliable after returning home. Future page additions require adding one entry to `PAGES` and following shared styling.
 
 ## Visual hierarchy
 
@@ -73,13 +73,13 @@ Use dark neutrals and aqua accent for research focus, amber for caution, muted s
 - 14px regular text and 11–12px source metadata; financial values use tabular numerals.
 - Headings 18–24px for sections; 29–43px page heading. Avoid gratuitous giant headings.
 - Use an 8px-based spatial rhythm where possible. Borders and grouping establish hierarchy, not excessive shadows.
-- No background motion. Small :hover transitions are decorative only. Respect \`prefers-reduced-motion\`.
+- No background motion. Small :hover transitions are decorative only. Respect `prefers-reduced-motion`.
 
 ## Colors and dark/paper modes
 
-Shared tokens live in \`assets/equity-ui.css\`: \`--ea-bg\`, \`--ea-surface\`, \`--ea-raised\`, \`--ea-border\`, \`--ea-ink\`, \`--ea-subtle\`, \`--ea-accent\`, \`--ea-focus\`.
+Shared tokens live in `assets/equity-ui.css`: `--ea-bg`, `--ea-surface`, `--ea-raised`, `--ea-border`, `--ea-ink`, `--ea-subtle`, `--ea-accent`, `--ea-focus`.
 
-An optional **Paper** mode changes known legacy dark panels to light backgrounds using \`html[data-atlas-theme=paper]\`. It is user-local and saved with \`localStorage('equity-atlas-theme')\`. Dark is the default. Future panels must use shared semantic tokens for both themes rather than hard-code text colors.
+An optional **Paper** mode changes known legacy dark panels to light backgrounds using `html[data-atlas-theme=paper]`. It is user-local and saved with `localStorage('equity-atlas-theme')`. Dark is the default. Future panels must use shared semantic tokens for both themes rather than hard-code text colors.
 
 ## Tables and charts
 
@@ -90,12 +90,12 @@ An optional **Paper** mode changes known legacy dark panels to light backgrounds
 - Polymarket: exact question and event link must come before YES contract price; volume and liquidity are betting-market values.
 - Financial/hospital valuation: compare scenarios/peers on correct fiscal time frame, show enterprise/equity distinction and sourcing.
 
-Native SVG and HTML replace heavy chart libraries for current scope. Avoid adding multiple animation/tooltips frameworks; use native \`<title>\` descriptions or light JS if truly needed.
+Native SVG and HTML replace heavy chart libraries for current scope. Avoid adding multiple animation/tooltips frameworks; use native `<title>` descriptions or light JS if truly needed.
 
 ## Accessibility and mobile
 
-- Every global navigation item is a real anchor; active page uses \`aria-current=page\`.
-- Add skip link and strong \`:focus-visible\` outlines; do not rely only on color.
+- Every global navigation item is a real anchor; active page uses `aria-current=page`.
+- Add skip link and strong `:focus-visible` outlines; do not rely only on color.
 - Resize or horizontally scroll dense tables without clipping the main page.
 - Hide excessive secondary metadata under 620px while retaining source/status and essential controls.
 - Clicks on module sidebar must change the **actual content section**, not just active CSS. Regression test the Signal Lab .sigview class mismatch.
@@ -113,12 +113,12 @@ Native SVG and HTML replace heavy chart libraries for current scope. Avoid addin
 
 Each additional company should extend:
 1. the editable company/peer research rows and review ownership;
-2. \`data/market-signals/watch-universe.json\` for automated technical surveillance;
+2. `data/market-signals/watch-universe.json` for automated technical surveillance;
 3. independently sourced valuation assumptions and quarterly history;
 4. optional company-specific narrative/alert screens;
 5. monthly review accountability.
 
-Avoid creating one new giant copied HTML file for every company. A future data-driven company-detail route should reuse the same component contract and support \`?ticker=SYMBOL\` or hash deep links.
+Avoid creating one new giant copied HTML file for every company. A future data-driven company-detail route should reuse the same component contract and support `?ticker=SYMBOL` or hash deep links.
 
 ## Caution
 
