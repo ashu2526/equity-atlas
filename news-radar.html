@@ -12,7 +12,7 @@
 <div class="intro"><div><div class="eyebrow">MACRO → THEMES → SECTOR PROXIES → DEEP DIVES</div><h1>Market Regime & News Radar</h1><p>What changed since your last review? Detect rising market narratives, cooling trades and geopolitical/credit risks, then trace second-order effects into Indian listed sectors.</p></div><div><span class="count-pill">Research signals, not buy calls</span></div></div>
 <div class="filters"><label>Window start <input type="date" id="startDate"></label><label>Window end <input type="date" id="endDate"></label><div class="presets"><button class="preset" data-days="7">7 days</button><button class="preset active" data-days="14">14 days</button><button class="preset" data-days="30">30 days</button></div><button class="btn" id="applyDates">Apply dates</button><span class="subnote" id="rangeNote">The comparison window has the same number of calendar days.</span></div>
 <div id="hero"></div><div class="stats" id="stats"></div>
-<div class="panel" id="liveClimate" style="margin-bottom:16px"><div class="contenthead" style="margin:0 0 12px"><h2>Live News Climate & Market Sentiment Proxy</h2><span class="tag" id="pulseAsOf">Awaiting first computed snapshot</span></div><div id="climateBody" class="climate-row"><p class="muted">Loading latest archived headline-climate statistics…</p></div><p class="subnote" style="margin-top:10px">Automated sentiment is a source-balanced measure of headline wording, <b>not</b> an observed risk-on/risk-off market return index. No single theme is a buy signal; market confirmations remain separate.</p></div>
+<div class="panel" id="liveClimate" style="margin-bottom:16px"><div class="contenthead" style="margin:0 0 12px"><h2>Live News Climate & Market Sentiment Proxy</h2><span class="tag" id="pulseAsOf">Awaiting first computed snapshot</span></div><div id="climateBody" class="climate-row"><p class="muted">Loading latest archived headline-climate statistics…</p></div><div id="pulseTrend" style="margin-top:13px"></div><p class="subnote" style="margin-top:10px">Automated sentiment is a source-balanced measure of headline wording, <b>not</b> an observed risk-on/risk-off market return index. No single theme is a buy signal; market confirmations remain separate.</p></div>
 <section class="tab active" id="pulse"><div class="contenthead"><h2>What's moving the narrative?</h2><span class="tag">Evidence first · 11 Nov 2026 editorial baseline + future scans</span></div><div class="panel" style="margin-bottom:15px"><div class="contenthead"><h2>Sector Watchlist — tailwinds, proxies and cooling themes</h2><span class="tag">Analyst-curated as of 11 Nov 2026 · not current buy rankings</span></div><div class="grid2" id="sectorWatch"></div><p class="subnote">These are hypotheses and research priorities, not live sector recommendations. They remain at their dated review until re-checked against newer data.</p></div><div class="notice" id="coverageNote"></div><div class="grid2" style="margin-top:14px"><div class="panel"><h2>First-order sector map</h2><div id="pocketThemes" class="list"></div></div><div class="panel"><h2>Watch before allocating capital</h2><div id="pocketRisks" class="list"></div></div></div><div class="panel" style="margin-top:15px"><h2>Regime framework</h2><div class="grid3"><div class="theme"><h3>1. News-pressure shifts</h3><p>Do independently reported stories increase, decrease or persist across equal date windows? Track source diversity and missing coverage.</p></div><div class="theme"><h3>2. Economic transmission</h3><p>Translate each event into direct and second-order sector beneficiaries, downside exposure and an explicit invalidation condition.</p></div><div class="theme"><h3>3. Market confirmation</h3><p>Before calling a regime change, check credit spreads, commodity prices, rates, earnings revisions, sector-relative returns and breadth. Some data are not yet connected.</p></div></div></div></section>
 <section class="tab" id="themes"><div class="contenthead"><h2>Theme Transmission Map</h2><span class="tag" id="themeCount"></span></div><div class="grid2" id="themeCards"></div></section>
 <section class="tab" id="news"><div class="contenthead"><h2>News events and source links</h2><div class="selectrow"><select id="topicFilter"><option value="">All topics</option></select><input type="search" class="search" id="newsSearch" placeholder="Search titles or source…"></div></div><div class="notice" style="margin-bottom:14px">Automated items are unverified headline/link discovery, not full-text verified facts. Editorial notes separately identify what was actually checked. Displayed sentiment describes headline language only; it does not predict equity returns.</div><div id="newsList" class="grid2"></div></section>
@@ -31,7 +31,7 @@
 <script>(function appLogic(){
 "use strict";
 const ROOT="https://raw.githubusercontent.com/ashu2526/equity-atlas/main/data/news/";
-let editorial=null, config=null,archive={articles:[],firstScanAt:null},history={scans:[]},pulse=null, aiReports={schema:1,reviews:[]},dayStart=null,dayEnd=null,currentTab="pulse";
+let editorial=null, config=null,archive={articles:[],firstScanAt:null},history={scans:[]},pulse=null, aiReports={schema:1,reviews:[]},pulseHistory={schema:1,snapshots:[]},dayStart=null,dayEnd=null,currentTab="pulse";
 const $=s=>document.querySelector(s),$$=s=>Array.from(document.querySelectorAll(s));
 const esc=s=>String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const safeLink=s=>/^https:\/\/[a-z0-9.-]+\//i.test(String(s||""))?String(s):"#";
@@ -135,7 +135,15 @@ function renderMethods(){
 $("#methods").innerHTML=editorial.methodology.map(x=>'<tr><td><b>'+esc(x.Field)+'</b></td><td>'+esc(x.Rule)+'<br><span class="muted">'+esc(x.Reason)+'</span></td><td>'+esc(x["Implementation Status"])+'</td></tr>').join("");
 }
 function renderPulseAndAI(){
- const asOf=pulse?.generatedAt?.slice(0,16)?.replace("T"," ")||"Not computed";
+ const snapshots=(pulseHistory?.snapshots||[]).slice(0,30).reverse().filter(x=>Number.isFinite(x.overall?.languageIndex));
+if(snapshots.length){
+ const pos=snapshots.map((x,i)=>({x:snapshots.length===1?235:25+(i*440/(snapshots.length-1)),y:76-(x.overall.languageIndex*0.58),v:x.overall.languageIndex,d:String(x.generatedAt||"").slice(0,10)}));
+ const path=pos.map((p,i)=>(i?"L":"M")+p.x.toFixed(1)+" "+p.y.toFixed(1)).join(" ");
+ const dots=pos.map(p=>'<circle cx="'+p.x+'" cy="'+p.y+'" r="4" fill="#6ad6be"><title>'+esc(p.d)+' · headline index '+p.v+'</title></circle>').join("");
+ $("#pulseTrend").innerHTML='<div class="eyebrow">ARCHIVED DAILY NEWS-CLIMATE TREND · LAST '+snapshots.length+' SNAPSHOTS</div><svg viewBox="0 0 470 154" style="width:100%;max-width:680px;height:150px" role="img" aria-label="Daily source-balanced headline language trend"><line x1="15" x2="455" y1="76" y2="76" stroke="#6f8295" stroke-dasharray="4 4"/><text x="455" y="70" text-anchor="end" fill="#94a9b9" font-size="10">Neutral 0</text><path d="'+path+'" fill="none" stroke="#6ad6be" stroke-width="2.5"/>'+dots+'<text x="20" y="145" font-size="11" fill="#9fb7c3">'+esc(pos[0].d)+'</text><text x="450" y="145" text-anchor="end" font-size="11" fill="#9fb7c3">'+esc(pos[pos.length-1].d)+'</text></svg><p class="subnote">Historical title-language index is not market price performance. Do not interpret a single-day change as a regime shift.</p>';
+}else{$("#pulseTrend").innerHTML='<p class="subnote">Daily sentiment history will appear as the scanner accumulates snapshots.</p>';}
+
+const asOf=pulse?.generatedAt?.slice(0,16)?.replace("T"," ")||"Not computed";
  $("#pulseAsOf").textContent=pulse?"Snapshot "+asOf+" UTC · rules-based":"Automatic snapshot unavailable";
  if(!pulse){
  $("#climateBody").innerHTML='<div class="notice">Headline climate has not been computed or its archive is unavailable. No sentiment score is inferred.</div>';
@@ -164,7 +172,7 @@ function switchTab(id){if(!$("#"+id))return;currentTab=id;$$("#nav button").forE
 async function get(path){let urls=[ROOT+path+"?v="+Date.now(),"./data/news/"+path];let error=null;for(let u of urls){try{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return await r.json()}catch(e){error=e}}throw error||Error("Failed to load")}
 async function load(){
 $("#dataStatus").innerHTML='<span class="stat-dot"></span>Loading source archive';
-const res=await Promise.allSettled([get("editorial.json"),get("config.json"),get("articles.json"),get("scans.json"),get("market-pulse.json"),get("ai-reviews.json")]);
+const res=await Promise.allSettled([get("editorial.json"),get("config.json"),get("articles.json"),get("scans.json"),get("market-pulse.json"),get("ai-reviews.json"),get("pulse-history.json")]);
 if(res[0].status!=="fulfilled"||res[1].status!=="fulfilled"){
 $("#dataStatus").textContent="Cannot load baseline research data";
 $("#hero").innerHTML='<div class="notice">The editorial data archive could not be loaded. <a href="https://github.com/ashu2526/equity-atlas/tree/main/data/news">Open raw research files on GitHub</a>.</div>';
@@ -175,6 +183,7 @@ archive=res[2].status==="fulfilled"?res[2].value:{articles:[],firstScanAt:null};
 history=res[3].status==="fulfilled"?res[3].value:{scans:[]};
 pulse=res[4].status==="fulfilled"?res[4].value:null;
 aiReports=res[5].status==="fulfilled"?res[5].value:{schema:1,reviews:[]};
+pulseHistory=res[6].status==="fulfilled"?res[6].value:{schema:1,snapshots:[]};
 const selected=$("#topicFilter").value;
 $("#topicFilter").innerHTML='<option value="">All topics</option>'+(config.topics||[]).map(t=>'<option value="'+esc(t.id)+'">'+esc(t.label)+'</option>').join("");
 $("#topicFilter").value=selected;
