@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Equity Atlas price volume intelligence for Indian NSE stocks, breakout watches, distribution and long-term trend context."><title>Company Price × Volume — Equity Atlas</title><style>
+:root{--bg:#09131d;--panel:#112331;--edge:#355469;--fg:#e8f4f7;--muted:#9db8c7;--teal:#62e0be}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:#9dddf2;text-decoration:none}a:hover{text-decoration:underline}
+button,input,select{font:inherit}.app{display:grid;grid-template-columns:216px minmax(0,1fr);min-height:100vh}
+.side{background:#0c202b;border-right:1px solid var(--edge);height:100vh;position:sticky;top:0;padding:21px 13px}
+.brand{font-weight:850;color:#f3fcfa;letter-spacing:.045em;margin-bottom:25px}.brand b{background:#68dabc;color:#103342;border-radius:9px;padding:8px;margin-right:7px}
+.side nav a{display:block;padding:10px 12px;border-radius:9px;color:#b9d6df}.side nav a:hover{background:#204357;text-decoration:none}
+.side p{font-size:11px;color:#9dbac9;border:1px solid var(--edge);padding:12px;border-radius:9px;margin-top:30px}
+.main{padding:24px 30px 50px;width:100%;max-width:1610px;margin:0 auto}
+.eyebrow{color:#6cdec1;text-transform:uppercase;letter-spacing:.14em;font-weight:850;font-size:10px}
+h1,h2,h3{letter-spacing:-.03em}h1{font-size:clamp(29px,3vw,43px);margin:8px 0;line-height:1.15}
+.section-lead{color:#b9d2dc;max-width:920px;font-size:13px}
+.header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:17px 0}
+#timestamp{font-size:11px;color:#b3cbd3}
+@media(max-width:1020px){.app{grid-template-columns:1fr}.side{height:auto;position:relative;display:flex;align-items:center;gap:12px;overflow:auto;white-space:nowrap;padding:9px}.brand{margin:0}.side nav{display:flex}.side nav a{white-space:nowrap}.side p{display:none}}
+@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.main{padding:13px}}
+</style><link rel="stylesheet" href="./assets/company-signals.css"><link rel="stylesheet" href="./assets/equity-ui.css"></head><body>
+<div class="app"><aside class="side"><div class="brand"><b>◇</b>EQUITY ATLAS</div><nav aria-label="Company technical-analysis links"><a href="./index.html">Company dashboard</a><a href="./sector-intelligence.html">Sector deep dives</a><a href="./market-desk.html">Market intelligence</a><a href="./signals.html">Sector rotation</a></nav><p>Price movement and traded volume are not verified institutional net purchases. Every alert needs fundamentals and valuation confirmation.</p></aside>
+<main class="main"><div class="header"><div><div class="eyebrow">EQUITY ATLAS / STOCK TECHNICAL SURVEILLANCE</div><h1>Price × Volume Intelligence</h1><p class="section-lead">A research queue for trading-behaviour changes—not another screen of decorative indicators. Find 20/55-session breakouts, volume spikes, accumulation/distribution divergence and possible 200-day trend reversals.</p></div><button id="refresh" class="pv-btn" type="button">↻ Refresh published data</button></div>
+<p id="timestamp">Loading latest dated OHLCV snapshot…</p><div class="stats" id="headlineMetrics"></div>
+<div class="pv-layout">
+<div class="pv-panel"><div class="pv-section-head"><h2>Company coverage</h2><span id="stockCount" class="pv-tag">—</span></div><div class="pv-controls"><input type="search" id="search" placeholder="Search company or NSE ticker" aria-label="Search company"><select id="industry" aria-label="Select sector"><option value="">All industries</option></select><label><input type="checkbox" id="onlyAlerts">Alerts only</label></div><div class="pv-stock-list" id="stockList"></div></div>
+<div id="stockDetail" aria-live="polite"><div class="pv-panel"><h2>Loading price–volume evidence…</h2></div></div>
+</div>
+<section style="margin-top:21px"><h2>How to interpret these observations</h2><div class="pv-method"><div class="pv-panel"><h3>Short-term breakouts</h3><p>Compare the latest full-session close against previous 20- and 55-session highs, with relative volume versus the preceding 20 full sessions. Require follow-through and distinguish corporate-action distortions.</p></div><div class="pv-panel"><h3>Long-run reversals</h3><p>Use 20-, 50- and 200-session moving-average context. A reclaim or loss of the 200-day mean is a <em>watch</em>, not a forecast or an entry instruction.</p></div><div class="pv-panel"><h3>Accumulation / distribution</h3><p>Chaikin Money Flow (20) and a signed-volume OBV proxy can flag divergences between price and traded-share volume. Neither proves which institution bought the shares.</p></div><div class="pv-panel"><h3>Fundamentals before action</h3><p>Check company filings, sector relative strength, delivery data, earnings revisions and valuation before treating any chart pattern as decision-grade evidence. Missing or stale data suppress active signals.</p></div></div></section>
+<div class="pv-source-foot">Data: dated public Yahoo Finance daily-chart mirrors (best effort; unofficial), calculated without a broker or paid API. Not financial advice. Source, coverage and validity must be inspected for each company.</div>
+</main></div><script defer src="./assets/company-signals.js"></script><script defer src="./assets/equity-shell.js"></script></body></html>
