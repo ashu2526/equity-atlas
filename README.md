@@ -103,3 +103,18 @@ Live page: [Sector Rotation × Polymarket](https://ashu2526.github.io/equity-atl
 - The independent GitHub Action `.github/workflows/market-signals.yml` refreshes twice daily (03:35 and 15:15 UTC, i.e. about 09:05 and 20:45 IST) and supports manual runs. Runs can be inspected under **Actions**.
 - The **daily ChatGPT morning intelligence task** has been updated to review both datasets, check important global Polymarket odds and 3-month sector price leadership, and distinguish that from verified institutional sector/country fund flows.
 - Public GitHub Pages fetches the latest committed JSON; it does not call the trading venue from the user's browser.
+
+## Maintainer documentation and full-source handoff (11 Nov 2026)
+
+The project's reusable **repository-local maintainer skill** is [`.agents/skills/equity-atlas/SKILL.md`](.agents/skills/equity-atlas/SKILL.md), with [`AGENTS.md`](AGENTS.md) as an entry point. This is a version-controlled development skill, **not** an account-level ChatGPT plugin or a replacement for project source code.
+
+- [Current implementation and project progress](docs/PROJECT_STATUS.md)
+- [Architecture, pages, data contracts and Google Sheets](docs/ARCHITECTURE_AND_DATA.md)
+- [Quantitative methodology, source quality and important caveats](docs/METHODOLOGY_AND_GUARDRAILS.md)
+- [Operations, schedules, manual reruns and incident recovery](docs/OPERATIONS_RUNBOOK.md)
+- [Roadmap, known defects and regression checklist](docs/ROADMAP_AND_QA.md)
+- [Asset inventory and source ZIP guide](docs/ASSET_INVENTORY.md)
+
+To produce an up-to-date **whole-repository source/data archive**, run the `Equity Atlas Source & Documentation Backup` workflow under GitHub Actions. It exports all working HTML pages, Python scripts, public JSON datasets, workflows, documentation and the local skill, plus source commit/hash manifest. The linked Google Sheet remains external and is **not** uploaded to this public repository; an owner-only expanded ZIP can include a private Excel export separately.
+
+**Honest status:** At the 11 November 2026 handoff, both RSS and market-signals GitHub collectors had succeeded with real data, and the Signal Lab sidebar selector bug was fixed and Pages-deployed. The first automated ChatGPT 09:15 IST **AI-reviewed report write-back** had not yet occurred and should not be claimed as verified.
