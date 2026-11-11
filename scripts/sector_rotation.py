@@ -204,6 +204,7 @@ def main():
        "sourcePriority":["NSE official ind_close_all daily reports","Yahoo Finance chart mirror, tagged per-index when used"],
        "benchmarkIndex":"NIFTY 50",
        "benchmark":benchmark and {k:v for k,v in benchmark.items() if k!="path"},
+       "benchmarkPath":benchmark.get("path",[]) if benchmark else [],
        "sectors":ordered,
        "missingIndices":missing,
        "sourceDiagnostics":{"nseDailyFiles":len(daily),"nseAttemptedThisRun":len(dates),"nseFailedThisRun":len(errors),
