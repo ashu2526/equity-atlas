@@ -3,10 +3,23 @@
   "snapshots": [
     {
       "session": "2026-11-12_AM",
-      "generatedAt": "2026-11-11T18:49:12.647459+00:00",
-      "ready": 0,
+      "generatedAt": "2026-11-11T18:51:59.819145+00:00",
+      "ready": 22,
       "configured": 22,
-      "alerts": []
+      "alerts": [
+        {
+          "ticker": "HDFCBANK",
+          "asOf": "2026-11-11",
+          "signal": "200d_reclaim_watch",
+          "priority": "watch"
+        },
+        {
+          "ticker": "SBIN",
+          "asOf": "2026-11-11",
+          "signal": "200d_reclaim_watch",
+          "priority": "watch"
+        }
+      ]
     }
   ]
 }
