@@ -94,3 +94,23 @@ Every feature PR should answer:
 ## 5. Definition of done
 
 A feature is **complete** only if its code is committed, data can be reproduced/validated, browser controls work, sources/units/freshness are transparent, failure states are honest, GitHub Pages deploys, and the relevant maintainer documentation is updated. Scheduling a future agent run is not proof of successful publication.
+
+
+## 12 November 2026 — new completed items and acceptance tests
+
+- [x] Source collection scheduled at 07:00 and 19:00 IST (GitHub news, NSE rotation, Polymarket and stock technicals).
+- [x] AI AM/PM review scheduled at ~07:25 / ~19:25 IST, with future actual publishing verification still pending.
+- [x] First-of-month valuation research task scheduled at ~07:45 IST, future review/output verification pending.
+- [x] Stock OHLCV collector ran successfully: 22/22 NSE symbols as of 11 Nov 2026 using source-prioritized public historical data, preserving source, unit and freshness flags.
+- [x] New company technical dashboard with source-backed 20/55-session breakout/breakdown, CMF, OBV, SMA and 200-day reversal watch evidence.
+- [x] OpenDesign-informed shared root DESIGN.md, six-page Research/Markets navigation, accessible focus, compact paper/dark display and no heavy runtime dependencies.
+- [x] GitHub no-dependency quality-gate workflow executed successfully on its initial run.
+- [ ] Verify cross-page links and every tab, filter, input, chart selection and color mode in a live graphical browser on desktop and mobile; static JS tests alone do not prove browser UX works.
+- [ ] Verify scheduled AI morning AND evening publication each committed the correct session to daily-briefings.json and survived GitHub Pages deployment.
+- [ ] Verify a completed monthly valuation note actually updates appropriate Sheet research history, with source time alignment.
+- [ ] Verify NSE-derived third-party redistribution/licensing constraints and corporate-action-adjusted OHLCV against official exchange records, including a real Indian holiday calendar.
+- [ ] Add unit tests using frozen OHLCV fixtures for confirmed/failed breakout, duplicate breakouts, stale historical bars, splits, and 200-day cross logic.
+- [ ] Extend actual ownership/flow data so institutional accumulation can be separated from price-volume proxy and creator narratives.
+- [ ] Generalize company research page beyond the initial Yatharth baseline while retaining all prior valuation history.
+
+This section supersedes the earlier 11 November pending roadmap entries when they refer to features now implemented; see docs/REFRESH_AND_TECHNICAL.md for definitions.
