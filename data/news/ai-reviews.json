@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "meta": {
+    "description": "Reviewed market-regime commentary. These reports are separate from mechanical headline climate; each report states evidence and unverified assumptions.",
+    "source": "ChatGPT interactive or scheduled deep research",
+    "writeProtocol": "append newest review to reviews; preserve older reviews; do not overwrite existing IDs"
+  },
+  "reviews": [
+    {
+      "id": "2026-11-11-baseline",
+      "asOf": "2026-11-11",
+      "range": {
+        "start": "2026-10-29",
+        "end": "2026-11-11"
+      },
+      "kind": "initial_ai_research_baseline",
+      "reviewer": "ChatGPT analyst review (interactive)",
+      "status": "Provisional — limited cross-asset confirmation",
+      "headline": "India's domestic rotation is promising, but global risk remains two-sided",
+      "regime": {
+        "assessment": "Mixed / selectively constructive",
+        "confidence": "Low–moderate",
+        "confidenceReason": "Reviewed news links and initial editorial baseline, not a complete market pricing and consensus revision model.",
+        "verifiedFactors": [
+          "Dated articles describe renewed foreign attention to Indian equities and banking/auto performance.",
+          "Persistent oil-shipping and geopolitical headlines remain a macro uncertainty.",
+          "Central-bank inflation and AI-capex themes have competing directions."
+        ],
+        "missingFactors": [
+          "No validated daily Indian sector relative-strength breadth series.",
+          "No live sovereign/issuer CDS pricing or credit-spread timeseries.",
+          "No systematic analyst earnings revision changes or company valuation mapping.",
+          "No robust two-window news-history comparison yet."
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Indian banks / financial infrastructure",
+          "stance": "Watch for tailwind confirmation",
+          "strength": "Medium-low",
+          "why": "India inflows and liquid financials received attention; earnings quality and credit costs must confirm.",
+          "proxy": "Brokers; exchanges; select financing distributors",
+          "trigger": "FPI inflows repeat and bank earnings revisions improve with stable credit stress",
+          "risk": "Inflows reverse or funding costs remain elevated",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+          ]
+        },
+        {
+          "sector": "Autos and demand-linked supply chain",
+          "stance": "Conditional tailwind",
+          "strength": "Medium-low",
+          "why": "Domestic market leadership may extend into suppliers, but dealer inventory and raw-material margins matter.",
+          "proxy": "Tyres; auto ancillaries; vehicle finance",
+          "trigger": "Retail registrations, OEM dispatches and margins confirm demand",
+          "risk": "Higher funding costs and inputs erode affordability",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+          ]
+        },
+        {
+          "sector": "Crude-sensitive manufacturers and services",
+          "stance": "Second-order watch",
+          "strength": "Low",
+          "why": "Lower crude may relieve cost pressure; shipping disruptions and freight can offset savings.",
+          "proxy": "Paints; tyres; chemicals; airlines",
+          "trigger": "Lower oil AND lower landed inputs/freight show up in gross margins",
+          "risk": "Hormuz incidents, insurance costs and volatility",
+          "sources": [
+            "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+          ]
+        },
+        {
+          "sector": "AI / data-centre capital chain",
+          "stance": "Crowding / cooling risk to monitor",
+          "strength": "Low",
+          "why": "Valuation anxiety coexists with strong ongoing AI demand; do not declare a reversal without capex and earnings evidence.",
+          "proxy": "Data-centre power; grid equipment; software providers",
+          "trigger": "Order books and hyperscaler capex diverge materially from market expectations",
+          "risk": "Sector rebounds; hardware and software diverge",
+          "sources": [
+            "https://ddindia.co.in/2026/11/fpis-turn-net-buyers-invest-rs-53739-cr-in-indian-equities-in-first-9-days-of-nov/"
+          ]
+        },
+        {
+          "sector": "Hospitals / health services",
+          "stance": "Structural, not a fresh cyclical signal",
+          "strength": "Medium structural",
+          "why": "Industry bed expansion is an established investment story; only verified cash returns justify valuation.",
+          "proxy": "Diagnostics; medical technology",
+          "trigger": "Higher incremental hospital EBITDA and ROIC",
+          "risk": "Capex and dilution absorb growth",
+          "sources": [
+            "https://www.icra.in/Research/ViewResearchReport/strong-demand-and-6-8-rise-in-arpob-to-support-healthy-revenue-growth-of-13-15-in-fy2027/7044"
+          ]
+        }
+      ],
+      "topRisks": [
+        {
+          "risk": "Energy and geopolitics",
+          "signal": "Unresolved",
+          "transmission": "Crude, shipping, insurance, imported inputs",
+          "watch": "Physical disruption + freight or crude confirmation"
+        },
+        {
+          "risk": "Inflation and monetary policy",
+          "signal": "Elevated",
+          "transmission": "Discount rates, household purchasing power, funding costs",
+          "watch": "Official rates/inflation surprises, bond yields"
+        },
+        {
+          "risk": "Trade and export controls",
+          "signal": "Watch",
+          "transmission": "Export orders, duty costs, tariff exposure",
+          "watch": "Enacted rules and company revenue impact"
+        },
+        {
+          "risk": "Credit/CDS",
+          "signal": "Insufficient data",
+          "transmission": "Risk premium and refinancing availability",
+          "watch": "Issuer CDS requires specialist data; use verified rating events and public spread proxies"
+        }
+      ],
+      "sincePrevious": "Initial AI review; no earlier equivalent AI review exists.",
+      "whatToVerifyNext": [
+        "Daily FPI flow persistence and NSE sector breadth",
+        "Realized Brent, freight and Indian input-margin transmission",
+        "Bank asset quality and analyst revision changes",
+        "Actual AI capex and hardware order revisions",
+        "Primary tariff and elections-policy implementation"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+        "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+        "https://www.icra.in/Research/ViewResearchReport/strong-demand-and-6-8-rise-in-arpob-to-support-healthy-revenue-growth-of-13-15-in-fy2027/7044"
+      ],
+      "limitations": "Provisional interpretive baseline from a limited news and sector context sample. Cannot infer actual current financial conditions, full market sentiment, CDS levels or forward returns. No buy/sell recommendation."
+    }
+  ]
+}
