@@ -470,6 +470,93 @@
     "news": "Seven manually verified/publicly sourced research events plus a separately timestamped, sampled RSS article archive. It is not comprehensive.",
     "CDS": "No live entity or sovereign CDS quotes",
     "comparison": "Historical comparisons require actual overlapping source collection across both windows; a newly collected old RSS item is not evidence of complete older coverage.",
-    "marketConfirm": "No automated price/breadth/earnings factor yet"
-  }
+    "marketConfirm": "No automated price/breadth/earnings factor yet",
+    "sectorWatch": "Seven dated hypotheses are analyst-editorial prioritization, not automated investable ranks; confirm using primary earnings and market prices."
+  },
+  "watchCandidates": [
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "India banks and automobiles",
+      "Bucket": "Watch now — conditional tailwind",
+      "Investment Thesis To Watch": "Foreign flows are returning and domestic financials/autos have led recent performance; verify earnings and inflow persistence.",
+      "Direct Exposure": "Banks; Auto OEMs",
+      "Proxy / Second Order": "NBFCs; Brokers; Auto parts; Tyres",
+      "Confirmation Needed": "Repeat FPI inflows plus earnings revisions and strong retail registrations",
+      "Invalidate / Caution": "Higher US yields reverse flows; stretched valuations",
+      "Evidence URL": "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+      "Confidence": "Medium; recent evidence"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "Oil-importing and energy-cost-sensitive sectors",
+      "Bucket": "Conditional proxy",
+      "Investment Thesis To Watch": "Softer crude may improve input margins and inflation, but Hormuz insurance/shipping still volatile.",
+      "Direct Exposure": "Oil marketing; Airlines; Chemicals",
+      "Proxy / Second Order": "Tyres; Paints; Logistics; FX-sensitive consumption",
+      "Confirmation Needed": "Sustained oil relief and falling freight costs show in profit spreads",
+      "Invalidate / Caution": "Fresh tanker attacks, higher oil or price competition takes savings",
+      "Evidence URL": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+      "Confidence": "Medium; two-sided exposure"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "Hospitals, diagnostics and medical technology",
+      "Bucket": "Structural watch; not fresh regime signal",
+      "Investment Thesis To Watch": "Organised hospital bed supply and specialty care can support growth, but unit economics decide returns.",
+      "Direct Exposure": "Hospital operators",
+      "Proxy / Second Order": "Diagnostics; Medtech; Hospital suppliers",
+      "Confirmation Needed": "New-unit EBITDA, occupancy, cash ROIC and case mix improve faster than priced in",
+      "Invalidate / Caution": "Expensive acquisitions, excess capex, poor cash conversion",
+      "Evidence URL": "https://www.icra.in/Research/ViewResearchReport/strong-demand-and-6-8-rise-in-arpob-to-support-healthy-revenue-growth-of-13-15-in-fy2027/7044",
+      "Confidence": "Medium"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "AI infrastructure and capex-exposed technology",
+      "Bucket": "Cooling narrative watch",
+      "Investment Thesis To Watch": "Investors are reassessing AI investment returns. Do not conflate share-price cooling with cancellation of underlying orders.",
+      "Direct Exposure": "AI chips; Data centre providers",
+      "Proxy / Second Order": "Power grids; Cables; Cooling; Construction",
+      "Confirmation Needed": "Capex cuts / forecast revisions and relative price underperformance persist",
+      "Invalidate / Caution": "Capital spending and utilisation accelerate again",
+      "Evidence URL": "https://ddindia.co.in/2026/11/fpis-turn-net-buyers-invest-rs-53739-cr-in-indian-equities-in-first-9-days-of-nov/",
+      "Confidence": "Medium; sentiment not cash-flow proof"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "Trade-sensitive exporters and domestic-substitution plays",
+      "Bucket": "Monitor policy risk",
+      "Investment Thesis To Watch": "Trade enforcement disputes can change landed costs; a single dispute is not proof of general global tariff acceleration.",
+      "Direct Exposure": "Export manufacturers; Importers",
+      "Proxy / Second Order": "Solar; Chemicals; Auto ancillaries; Logistics",
+      "Confirmation Needed": "Official published duties + measurable issuer revenue exposure",
+      "Invalidate / Caution": "Negotiated carve-outs or reversal before margin effect",
+      "Evidence URL": "https://www.reuters.com/world/india/india-holds-pernod-diageo-scotch-shipments-investigators-seek-higher-tariff-2026-11-11/",
+      "Confidence": "Low for sector generalisation"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "Weather and rural demand proxies",
+      "Bucket": "Risk / watch",
+      "Investment Thesis To Watch": "RBI highlights El Niño, weaker monsoon and food inflation risks; rural cash incomes and affordability matter.",
+      "Direct Exposure": "Agri inputs; Rural FMCG",
+      "Proxy / Second Order": "Tractors; Rural 2W; Irrigation; Insurers",
+      "Confirmation Needed": "IMD realised weather and sowing data followed by verified consumption/price impact",
+      "Invalidate / Caution": "Forecast risk fails to materialise in crops or prices",
+      "Evidence URL": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=24516",
+      "Confidence": "Medium; policy source"
+    },
+    {
+      "As Of": "2026-11-11",
+      "Sector / Theme": "Defence and strategic logistics",
+      "Bucket": "Event-driven monitor",
+      "Investment Thesis To Watch": "Geopolitical escalation can support procurement needs, but news attention without contracts is not equity earnings.",
+      "Direct Exposure": "Defense equipment; Shipbuilders",
+      "Proxy / Second Order": "Marine services; Insurance; Specialty materials",
+      "Confirmation Needed": "Signed funded orders and delivery-margin conversion",
+      "Invalidate / Caution": "Ceasefire, cancelled tenders, expensive valuations",
+      "Evidence URL": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+      "Confidence": "Low; second-order hypothesis"
+    }
+  ]
 }
