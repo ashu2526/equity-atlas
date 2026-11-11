@@ -82,3 +82,16 @@ For forecasts: distinguish management guidance, sell-side estimates, scenario as
 - Automated regression/browser testing is limited; last Signal Lab bug was fixed on 2026-11-11.
 
 See `docs/ROADMAP_AND_QA.md` for prioritized work.
+
+
+## Updated working design and automation contract (12 November 2026)
+
+Before building new pages, read root DESIGN.md and docs/REFRESH_AND_TECHNICAL.md. The site has a unified RESEARCH / MARKETS navigation with six sections: Company Research, Sector Intelligence, Price × Volume, Morning Intelligence, Rotation × Odds, and News Archive.
+
+Use assets/equity-ui.css semantic tokens and assets/equity-shell.js navigation; do not reimplement each page header with incompatible links. The default appearance is restrained dark and the optional user-local Paper mode is intended for readability. No external fonts, charting framework or dependency-heavy frontend. Future companies should use data-driven research templates.
+
+Update markets and source data at 07:00 and 19:00 IST through existing GitHub Actions; source-verified AI interpretation follows at about 07:25 and 19:25. A separate monthly task reviews valuation theses and filings. Never assert a future AI write has succeeded without verifying the committed report, as-of timestamp and Pages deployment.
+
+Stock technical engine: scripts/stock_price_volume.py consumes data/market-signals/watch-universe.json, uses a labelled free NSE-derived source with labelled Yahoo fallback, and emits stock-price-volume.json plus price-volume-history.json. It computes price relative to 20/50/200 SMAs, 20/55-session high/low, 20-session relative share volume, CMF20, OBV proxy, RSI14 and watch alerts for abnormal-volume breaks and short/long trend conflict. All signals require corroboration by actual disclosed corporate data and valuation. Stale or split-affected data must not produce current alerts. New company dashboard is company-signals.html, which links to fundamentals and sector analysis.
+
+Quality-gate workflow runs scripts/validate_site.py across source JSON, website tab IDs, JS parsing and active cron; always inspect workflow results after edits.
