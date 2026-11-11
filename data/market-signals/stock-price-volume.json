@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T18:51:59.819145+00:00",
+  "generatedAt": "2026-11-11T18:53:49.526977+00:00",
   "asOf": "2026-11-11",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
@@ -8,7 +8,7 @@
   "coverage": {
     "configuredTickers": 22,
     "ready": 22,
-    "flaggedReadyStocks": 2,
+    "flaggedReadyStocks": 4,
     "partialOrUnavailable": 0
   },
   "stocks": [
@@ -41,7 +41,9 @@
         "ma50SlopeSessionPct": 0.1491,
         "prior20High": 1070.0,
         "prior55High": 1184.0,
-        "prior55Low": 846.0
+        "prior55Low": 846.0,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": 3.895
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -1045,11 +1047,24 @@
         "ma50SlopeSessionPct": -0.0724,
         "prior20High": 1952.9,
         "prior55High": 1952.9,
-        "prior55Low": 1622.8
+        "prior55Low": 1622.8,
+        "breakoutCountLast15": 2,
+        "longAverageSlope20dPct": -0.598
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [],
-      "signalCount": 0,
+      "signals": [
+        {
+          "id": "short_breakout_long_average_falling",
+          "priority": "watch",
+          "headline": "Short-term price leadership while the 200-DMA still slopes down",
+          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.60%.",
+          "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+          "invalidation": "Break below 200-DMA or momentum/volume fade.",
+          "horizon": "short_long_conflict",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        }
+      ],
+      "signalCount": 1,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -2049,7 +2064,9 @@
         "ma50SlopeSessionPct": -0.1823,
         "prior20High": 943.65,
         "prior55High": 1072.6,
-        "prior55Low": 797.0
+        "prior55Low": 797.0,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -1.68
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -3053,7 +3070,9 @@
         "ma50SlopeSessionPct": -0.0559,
         "prior20High": 8696.0,
         "prior55High": 9070.5,
-        "prior55Low": 7465.0
+        "prior55Low": 7465.0,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": 1.187
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -4057,7 +4076,9 @@
         "ma50SlopeSessionPct": -0.2446,
         "prior20High": 1297.0,
         "prior55High": 1505.0,
-        "prior55Low": 1151.9
+        "prior55Low": 1151.9,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -0.511
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -5061,7 +5082,9 @@
         "ma50SlopeSessionPct": -0.0631,
         "prior20High": 1451.5,
         "prior55High": 1544.0,
-        "prior55Low": 1165.0
+        "prior55Low": 1165.0,
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": 1.003
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -6065,7 +6088,9 @@
         "ma50SlopeSessionPct": -0.3786,
         "prior20High": 822.55,
         "prior55High": 941.9,
-        "prior55Low": 704.95
+        "prior55Low": 704.95,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -1.613
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -7069,7 +7094,9 @@
         "ma50SlopeSessionPct": -0.1113,
         "prior20High": 295.95,
         "prior55High": 318.3,
-        "prior55Low": 233.4
+        "prior55Low": 233.4,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -10.74
       },
       "trend": "Mixed",
       "signals": [],
@@ -8073,7 +8100,9 @@
         "ma50SlopeSessionPct": -0.1221,
         "prior20High": 746.8,
         "prior55High": 819.0,
-        "prior55Low": 655.05
+        "prior55Low": 655.05,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": 1.113
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -9077,7 +9106,9 @@
         "ma50SlopeSessionPct": -0.0326,
         "prior20High": 2435.5,
         "prior55High": 2435.5,
-        "prior55Low": 1964.7
+        "prior55Low": 1964.7,
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": -0.87
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -10081,7 +10112,9 @@
         "ma50SlopeSessionPct": -0.0799,
         "prior20High": 129200.0,
         "prior55High": 135800.0,
-        "prior55Low": 115190.0
+        "prior55Low": 115190.0,
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": -2.107
       },
       "trend": "Mixed",
       "signals": [],
@@ -11085,7 +11118,9 @@
         "ma50SlopeSessionPct": -0.0963,
         "prior20High": 438.45,
         "prior55High": 467.4,
-        "prior55Low": 375.0
+        "prior55Low": 375.0,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -2.433
       },
       "trend": "Mixed",
       "signals": [],
@@ -12089,7 +12124,9 @@
         "ma50SlopeSessionPct": 0.0232,
         "prior20High": 3585.3,
         "prior55High": 3633.8,
-        "prior55Low": 3012.6
+        "prior55Low": 3012.6,
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": -1.494
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -13093,7 +13130,9 @@
         "ma50SlopeSessionPct": -0.1209,
         "prior20High": 365.55,
         "prior55High": 386.85,
-        "prior55Low": 296.75
+        "prior55Low": 296.75,
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": -4.145
       },
       "trend": "Mixed",
       "signals": [],
@@ -14097,7 +14136,9 @@
         "ma50SlopeSessionPct": -0.433,
         "prior20High": 4514.3,
         "prior55High": 5760.0,
-        "prior55Low": 3980.0
+        "prior55Low": 3980.0,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": 0.158
       },
       "trend": "Mixed",
       "signals": [],
@@ -15101,7 +15142,9 @@
         "ma50SlopeSessionPct": 0.2409,
         "prior20High": 801.9,
         "prior55High": 801.9,
-        "prior55Low": 669.2
+        "prior55Low": 669.2,
+        "breakoutCountLast15": 5,
+        "longAverageSlope20dPct": -2.977
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -15114,9 +15157,19 @@
           "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
           "horizon": "long_term",
           "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        },
+        {
+          "id": "short_breakout_long_average_falling",
+          "priority": "watch",
+          "headline": "Short-term price leadership while the 200-DMA still slopes down",
+          "evidence": "5 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -2.98%.",
+          "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+          "invalidation": "Break below 200-DMA or momentum/volume fade.",
+          "horizon": "short_long_conflict",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
         }
       ],
-      "signalCount": 1,
+      "signalCount": 2,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -16116,7 +16169,9 @@
         "ma50SlopeSessionPct": 0.2144,
         "prior20High": 1592.0,
         "prior55High": 1592.0,
-        "prior55Low": 1291.0
+        "prior55Low": 1291.0,
+        "breakoutCountLast15": 4,
+        "longAverageSlope20dPct": 0.377
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -17120,7 +17175,9 @@
         "ma50SlopeSessionPct": 0.0279,
         "prior20High": 1048.6,
         "prior55High": 1062.3,
-        "prior55Low": 937.5
+        "prior55Low": 937.5,
+        "breakoutCountLast15": 3,
+        "longAverageSlope20dPct": -0.185
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -17133,9 +17190,19 @@
           "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
           "horizon": "long_term",
           "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        },
+        {
+          "id": "short_breakout_long_average_falling",
+          "priority": "watch",
+          "headline": "Short-term price leadership while the 200-DMA still slopes down",
+          "evidence": "3 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.18%.",
+          "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+          "invalidation": "Break below 200-DMA or momentum/volume fade.",
+          "horizon": "short_long_conflict",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
         }
       ],
-      "signalCount": 1,
+      "signalCount": 2,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -18135,11 +18202,24 @@
         "ma50SlopeSessionPct": 0.0783,
         "prior20High": 1330.2,
         "prior55High": 1333.0,
-        "prior55Low": 1152.2
+        "prior55Low": 1152.2,
+        "breakoutCountLast15": 2,
+        "longAverageSlope20dPct": -2.026
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [],
-      "signalCount": 0,
+      "signals": [
+        {
+          "id": "short_breakout_long_average_falling",
+          "priority": "watch",
+          "headline": "Short-term price leadership while the 200-DMA still slopes down",
+          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -2.03%.",
+          "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+          "invalidation": "Break below 200-DMA or momentum/volume fade.",
+          "horizon": "short_long_conflict",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        }
+      ],
+      "signalCount": 1,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -19139,7 +19219,9 @@
         "ma50SlopeSessionPct": 0.1135,
         "prior20High": 2625.0,
         "prior55High": 2625.0,
-        "prior55Low": 2032.4
+        "prior55Low": 2032.4,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -3.08
       },
       "trend": "Above 50/200 DMA",
       "signals": [],
@@ -20143,7 +20225,9 @@
         "ma50SlopeSessionPct": 0.0202,
         "prior20High": 1198.8,
         "prior55High": 1198.8,
-        "prior55Low": 980.4
+        "prior55Low": 980.4,
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": -3.905
       },
       "trend": "Mixed",
       "signals": [],
@@ -21147,7 +21231,9 @@
         "ma50SlopeSessionPct": -0.0022,
         "prior20High": 1099.0,
         "prior55High": 1107.0,
-        "prior55Low": 899.15
+        "prior55Low": 899.15,
+        "breakoutCountLast15": 2,
+        "longAverageSlope20dPct": 0.034
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],

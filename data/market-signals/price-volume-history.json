@@ -3,10 +3,16 @@
   "snapshots": [
     {
       "session": "2026-11-12_AM",
-      "generatedAt": "2026-11-11T18:51:59.819145+00:00",
+      "generatedAt": "2026-11-11T18:53:49.526977+00:00",
       "ready": 22,
       "configured": 22,
       "alerts": [
+        {
+          "ticker": "NH",
+          "asOf": "2026-11-11",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
         {
           "ticker": "HDFCBANK",
           "asOf": "2026-11-11",
@@ -14,9 +20,27 @@
           "priority": "watch"
         },
         {
+          "ticker": "HDFCBANK",
+          "asOf": "2026-11-11",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
+        {
           "ticker": "SBIN",
           "asOf": "2026-11-11",
           "signal": "200d_reclaim_watch",
+          "priority": "watch"
+        },
+        {
+          "ticker": "SBIN",
+          "asOf": "2026-11-11",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
+        {
+          "ticker": "RELIANCE",
+          "asOf": "2026-11-11",
+          "signal": "short_breakout_long_average_falling",
           "priority": "watch"
         }
       ]
