@@ -1,0 +1,54 @@
+name: Equity Atlas Source & Documentation Backup
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/workflows/documentation-export.yml"
+      - "scripts/create_handoff_snapshot.py"
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out all public project assets
+        uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Create canonical repository snapshot and hash manifest
+        run: python scripts/create_handoff_snapshot.py --output handoff-snapshot
+      - name: Validate ZIP structure, manifest and key assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          root=Path('handoff-snapshot')
+          man=json.loads((root/'FILE_SHA256_MANIFEST.json').read_text())
+          assert len(man['files'])>=25, 'Too few source files'
+          for row in man['files']:
+              p=root/row['path']
+              assert p.is_file(), row
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==row['sha256'], row
+          for path in ('.agents/skills/equity-atlas/SKILL.md','AGENTS.md','docs/OPERATIONS_RUNBOOK.md',
+                       'scripts/rss_scan.py','scripts/sector_rotation.py','scripts/polymarket_monitor.py',
+                       'signals.html','market-desk.html','data/news/daily-briefings.json',
+                       'data/market-signals/sector-rotation.json','data/market-signals/polymarket.json'):
+              assert (root/path).is_file(), 'Missing required '+path
+          files=list(root.parent.glob('Equity_Atlas_Source_*.zip'))
+          assert len(files)==1, files
+          with zipfile.ZipFile(files[0]) as z:
+              for item in z.infolist():
+                  assert '.git/' not in item.filename
+              assert z.testzip() is None
+          print('Validated',len(man['files']),'public source files and source manifest.')
+          PY
+      - name: Upload complete source backup ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: equity-atlas-source-handoff
+          path: Equity_Atlas_Source_*.zip
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
