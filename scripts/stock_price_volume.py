@@ -174,7 +174,12 @@ def analyse(item):
               "Verify exchange corporate action and adjusted OHLCV history before evaluating patterns.",
               "False split/price-feed artefact; don't use mechanical breakout classification.","data_quality")
     events.sort(key=lambda x:{"high":0,"watch":1,"info":2}.get(x["priority"],3))
-    isStale=(TODAY-dt.date.fromisoformat(last["date"])).days>6
+    lastDay=dt.date.fromisoformat(last["date"])
+    weekdaysSince=sum((lastDay+dt.timedelta(days=i)).weekday()<5
+                      for i in range(1,(TODAY-lastDay).days+1)) if TODAY>=lastDay else 99
+    # Early morning: a prior working day's close is normal. After two missed
+    # trading sessions, old price bars must not create current breakout alerts.
+    isStale=weekdaysSince>2
     if isStale:
         events=[]
     return {
@@ -196,6 +201,7 @@ def analyse(item):
       "trend":trend,"signals":events[:4],
       "signalCount":len(events),"dataQuality":{"majorSplitInRecent60Sessions":majorSplit,
           "unusuallyLargePriceGapRecent30Sessions":recentJump,
+          "tradingSessionsSinceLastBar":weekdaysSince,
           "signalsWithheld":suppress or isStale,
           "warning":"Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."},
       "recentBars":rows[-120:],
