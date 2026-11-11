@@ -1,4 +1,4 @@
-/* Equity Atlas global site navigation. No dependencies, no network calls, no tracking. */
+/* Equity Atlas global site navigation. No dependencies, no external UI network calls, no tracking. */
 (function(){
 "use strict";
 const PAGES=[
@@ -46,6 +46,28 @@ function init(){
  try{const saved=localStorage.getItem("equity-atlas-theme");if(saved==="paper")document.documentElement.dataset.atlasTheme="paper"}catch(_){}
  themeLabel();right.appendChild(btn);bar.appendChild(right);
  main.insertBefore(bar,main.firstChild);
+ // Home research queue: company technical signals, with source dates shown.
+ if(pathname==="index.html"){
+  const overview=document.querySelector("#overview");
+  if(overview){
+   const panel=document.createElement("section");panel.className="ea-home-hub";
+   panel.innerHTML='<div><div class="ea-group-label">RESEARCH DESK / PRICE × VOLUME</div><strong>Company signal surveillance</strong><p>Technical patterns are research leads, not buy calls. Daily bar freshness is shown per symbol.</p><div class="ea-home-alerts" id="ea-home-alerts">Loading published stock observations…</div></div><a class="ea-home-cta" href="./company-signals.html">Explore 22 stocks ↗</a>';
+   overview.insertBefore(panel,overview.firstChild);
+   fetch("./data/market-signals/stock-price-volume.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
+    const target=document.getElementById("ea-home-alerts");if(!target)return;
+    const valid=(data.stocks||[]).filter(s=>s.dataStatus==="ready"&&s.signals?.length);
+    target.textContent="";
+    if(!valid.length){target.textContent="No currently verified high-priority signals; check latest source dates.";return}
+    valid.slice(0,4).forEach(s=>{
+     const a=document.createElement("a");
+     a.href="./company-signals.html#"+encodeURIComponent(s.ticker);
+     a.className="ea-signal-link";
+     a.textContent=s.ticker+" · "+s.signals[0].priority.toUpperCase()+" · bars "+s.asOf;
+     target.appendChild(a);
+    });
+   }).catch(()=>{const t=document.getElementById("ea-home-alerts");if(t)t.textContent="Price-volume dataset not yet available";});
+  }
+ }
  const foot=document.createElement("div");foot.className="ea-page-footer";
  foot.textContent="Equity Atlas · Evidence-first research; figures are as of their displayed source date. ";
  const a=document.createElement("a");a.href="./market-desk.html#sources";a.textContent="Source coverage & limitations";foot.appendChild(a);
