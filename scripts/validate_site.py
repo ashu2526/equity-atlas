@@ -105,7 +105,7 @@ def validate_pages():
     script=read("assets/company-signals.js")
     ids=set(re.findall(r'id="([^"]+)"',page))
     for x in re.findall(r'\$\(["\']#([a-zA-Z0-9_-]+)["\']\)',script):
-        check(x in ids,"Price-volume widget missing DOM ID: "+x)
+        check(x in ids or ('id="'+x+'"') in script,"Price-volume widget missing static/dynamic DOM ID: "+x)
     shell=read("assets/equity-shell.js")
     for p in PAGES:
         check(p in shell,"Global site navigation missing "+p)
