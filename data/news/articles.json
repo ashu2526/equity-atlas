@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-11T15:38:40.000100Z",
+  "updatedAt": "2026-11-11T15:40:05.055732Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
-  "firstCoveredAt": "2026-07-29T18:00:00Z",
+  "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
     {
@@ -139,6 +139,25 @@
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "90b90fdcdff12f9ce40e",
+      "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T12:46:40Z",
+      "discovered": "2026-11-11T15:40:05.055732Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
