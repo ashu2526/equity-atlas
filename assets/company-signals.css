@@ -1,0 +1,57 @@
+/* Company price-volume research view, no framework. */
+.pv-hero{padding:18px 0 8px}
+.pv-hero h1{font-size:clamp(29px,3.3vw,42px);margin:6px 0}
+.pv-hero p{color:var(--muted);font-size:13px;max-width:900px}
+.pv-layout{display:grid;grid-template-columns:minmax(270px,.75fr) minmax(0,1.55fr);gap:14px}
+.pv-panel{background:#142b3a;border:1px solid #355468;border-radius:14px;padding:18px;margin:0 0 12px;min-width:0}
+.pv-panel h2{font-size:20px;margin:3px 0 13px}
+.pv-section-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.pv-section-head small{color:#70dcbf;font-size:11px;letter-spacing:.05em}
+.pv-section-head h2{margin:4px 0}
+.pv-section-head p{color:#abc5d0;font-size:12px;margin:5px 0}
+.pv-symbol{font-size:12px;color:#a5bfcd;letter-spacing:0}
+.pv-hero-meta{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.pv-btn{background:#215a4e;color:#e7fff3;border:1px solid #469c86;border-radius:9px;padding:9px 12px;cursor:pointer}
+.pv-btn:hover{background:#2c7968}
+.pv-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:15px 0}
+.pv-metric{background:#193746;border:1px solid #36566a;border-radius:10px;padding:12px;min-width:0}
+.pv-metric small{font-size:10px;color:#abc4cc;display:block}
+.pv-metric b{font-size:clamp(15px,1.7vw,23px);font-variant-numeric:tabular-nums;display:block;margin:5px 0;white-space:normal;overflow-wrap:anywhere}
+.pv-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.pv-controls input,.pv-controls select{background:#122b3c;border:1px solid #476779;border-radius:8px;padding:10px;color:#e8f4f7;min-height:40px}
+.pv-controls input{flex:1;min-width:100px}
+.pv-controls label{font-size:12px;color:#a7c9d4;display:inline-flex;align-items:center;gap:6px}
+.pv-stock-list{max-height:1120px;overflow:auto;scrollbar-width:thin}
+.pv-stock{display:flex;width:100%;gap:10px;align-items:center;justify-content:space-between;text-align:left;background:#1a3547;border:1px solid #38586c;border-radius:10px;color:#f0f6fa;padding:12px;margin:7px 0;cursor:pointer}
+.pv-stock:hover,.pv-stock.active{border-color:#69ddbe;background:#275365}
+.pv-stock b{display:block;font-size:14px}
+.pv-stock small{display:block;font-size:10px;color:#b3c6d0;margin-top:3px}
+.pv-stock-values{text-align:right;min-width:92px}
+.pv-stock-values strong{font-size:13px}
+.pv-stock-values i{font-style:normal;color:#c3d7dd;font-size:9px;text-transform:uppercase}
+.pv-tag{font-size:10px;border:1px solid #608292;color:#bed5db;border-radius:18px;padding:5px 9px;white-space:nowrap;display:inline-flex}
+.pv-tag.pv-important{border-color:#d7a26f;color:#f0c6a3}
+.pv-periods{display:flex;gap:6px}
+.pv-periods button{background:#1e3d4f;border:1px solid #4d6b7c;color:#d8e8ef;border-radius:7px;padding:7px 11px;cursor:pointer}
+.pv-periods button.active{background:#236e5f;border-color:#6edbbf}
+.pv-legend{font-size:11px;color:#abc7d1;display:flex;gap:15px;flex-wrap:wrap}
+.pv-legend span:first-child{color:#6ce6bf}
+#stockDetail svg{width:100%;max-height:420px;display:block;margin-top:8px}
+.pv-alert{padding:13px;background:#192f41;border:1px solid #486379;border-radius:10px;margin:9px 0}
+.pv-alert h3{font-size:15px;margin:9px 0}
+.pv-alert p,.pv-comparison p{font-size:12px;color:#c8dbe4;margin:6px 0}
+.pv-empty{padding:13px;border:1px solid #42665c;background:#173b38;color:#d7f3e8;border-radius:9px;font-size:12px}
+.pv-caution{padding:13px;border:1px solid #a17a54;background:#352e34;color:#f2d7c2;border-radius:9px;font-size:12px}
+.pv-comparison{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pv-comparison p{padding:12px;border:1px solid #405e70;border-radius:9px;background:#1c394b}
+.pv-note{color:#a7c5ce;font-size:12px}
+.pv-method{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pv-method p{font-size:13px;color:#c1d6df}
+.pv-source-foot{font-size:11px;color:#9fb9c7;margin:16px 0}
+html[data-atlas-theme="paper"] .pv-panel,html[data-atlas-theme="paper"] .pv-stock,
+html[data-atlas-theme="paper"] .pv-metric,html[data-atlas-theme="paper"] .pv-alert{background:#fff;color:#203f50;border-color:#d5e2e5}
+html[data-atlas-theme="paper"] .pv-panel p,html[data-atlas-theme="paper"] .pv-stock small{color:#466578!important}
+html[data-atlas-theme="paper"] .pv-stock.active{background:#dcf3ea}
+html[data-atlas-theme="paper"] .pv-comparison p{background:#eef6f5;color:#315466}
+@media(max-width:1000px){.pv-layout{grid-template-columns:1fr}.pv-stock-list{max-height:410px}.pv-metrics{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:530px){.pv-metrics,.pv-method,.pv-comparison{grid-template-columns:1fr}.pv-controls input{width:100%}.pv-panel{padding:13px}}
