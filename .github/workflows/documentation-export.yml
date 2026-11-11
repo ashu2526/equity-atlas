@@ -1,10 +1,17 @@
 name: Equity Atlas Source & Documentation Backup
 on:
+  schedule:
+    - cron: "30 1 1 * *"
   workflow_dispatch: {}
   push:
     paths:
       - ".github/workflows/documentation-export.yml"
       - "scripts/create_handoff_snapshot.py"
+      - "DESIGN.md"
+      - "docs/**"
+      - ".agents/skills/equity-atlas/SKILL.md"
+      - "assets/**"
+      - "company-signals.html"
 permissions:
   contents: read
 jobs:
@@ -33,7 +40,9 @@ jobs:
               assert hashlib.sha256(p.read_bytes()).hexdigest()==row['sha256'], row
           for path in ('.agents/skills/equity-atlas/SKILL.md','AGENTS.md','docs/OPERATIONS_RUNBOOK.md',
                        'scripts/rss_scan.py','scripts/sector_rotation.py','scripts/polymarket_monitor.py',
-                       'signals.html','market-desk.html','data/news/daily-briefings.json',
+                       'signals.html','market-desk.html','company-signals.html','DESIGN.md',
+                       'assets/equity-shell.js','assets/equity-ui.css','assets/company-signals.js',
+                       'data/market-signals/stock-price-volume.json','data/news/daily-briefings.json',
                        'data/market-signals/sector-rotation.json','data/market-signals/polymarket.json'):
               assert (root/path).is_file(), 'Missing required '+path
           files=list(root.parent.glob('Equity_Atlas_Source_*.zip'))
