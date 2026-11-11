@@ -68,12 +68,12 @@ def jlist(x):
 def parse_time(x):
     try:return dt.datetime.fromisoformat(str(x).replace("Z","+00:00")).astimezone(dt.timezone.utc)
     except (TypeError,ValueError):return None
-def get_events(limit=200,offset=0):
+def get_events(limit=50,offset=0):
     params=urlencode({"active":"true","closed":"false","order":"volume24hr",
                       "ascending":"false","limit":limit,"offset":offset})
     req=Request(API+"?"+params,headers={"User-Agent":"EquityAtlasResearch/1.1 (public market-data research)","Accept":"application/json"})
     with urlopen(req,timeout=20) as r:
-        raw=r.read(9_000_000)
+        raw=r.read(6_000_000)
     obj=json.loads(raw)
     if isinstance(obj,list):return obj
     if isinstance(obj,dict):return obj.get("events",[]) or obj.get("data",[])
@@ -106,11 +106,11 @@ def main():
     old=read("polymarket.json",{})
     hist=read("polymarket-history.json",{"snapshots":[]})
     gathered=[];errors=[]
-    for offset in (0,200,400):
+    for offset in (0,50,100,150,200,250,300,350):
         try:
-            part=get_events(200,offset)
+            part=get_events(50,offset)
             gathered.extend(part)
-            if len(part)<200:break
+            if len(part)<50:break
         except Exception as exc:
             errors.append(str(exc)[:200])
             if not gathered:break
@@ -185,7 +185,7 @@ def main():
            "Odds changes compare actual successful snapshots, not necessarily 24h or an entire calendar day. Check times.",
            "This is read-only market-data research. No orders, wallets, account credentials, trading or portfolio recommendation.",
            "Unmatched Indian-specific news may have no relevant market; no event is invented or force-matched."],
-         "selection":{"source":"Gamma top active events by volume24hr, up to 600",
+         "selection":{"source":"Gamma top active events by volume24hr, up to 400",
             "filter":"Macro, central bank, economics, trade, geopolitical, technology and other research-relevant terms; sports/entertainment excluded",
             "volume":"At least $250 24h market volume or $10k total, where available",
             "notComprehensive":"Top-volume event sampling may miss niche-but-important contracts; no feed represents all Polymarket markets."}}
