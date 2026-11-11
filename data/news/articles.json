@@ -1,12 +1,70 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-11T15:46:19.209557Z",
+  "updatedAt": "2026-11-11T16:46:57.013144Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "1fe3f9a589f33728ebfe",
+      "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/data-center-gas-plants-to-lift-us-power-emissions-10-bnef-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T16:40:54Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3e1b23c437f7ab7a6681",
+      "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T16:03:55Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a6382ec8f2f2d337af66",
+      "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T15:45:30Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "39145146529fb00f87aa",
       "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
@@ -114,7 +172,8 @@
       "published": "2026-11-11T13:28:45Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation"
+        "ai_rotation",
+        "elections_policy"
       ],
       "feedSources": [
         "Bloomberg Markets"
@@ -256,6 +315,25 @@
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fa6b7e13a77f4f455f50",
+      "title": "US Treasury Futures Retreat as Markets See More Fed Hikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T09:52:45Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -703,6 +781,44 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "71604c5614e2a6c5dad5",
+      "title": "Security Council LIVE: South Sudan’s first elections loom amid rising violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168774",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bbcb2ade08c42695ba52",
+      "title": "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "3ac6d44b8143ecac44b8",
       "title": "Trump says more US attacks on Iran 'highly unlikely'",
       "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
@@ -916,6 +1032,64 @@
       ],
       "feedSources": [
         "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f7cf26809a19ec8ddf6c",
+      "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168768",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0658f22a948d4ffc39b7",
+      "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168766",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "climate_agri",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "26f12835f322513844e4",
+      "title": "Security Council LIVE: Strikes on Ukraine’s power grid, as peace talks loom",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168761",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
@@ -1155,6 +1329,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "11c73ccebaec55fea5b0",
+      "title": "‘For the first time I have my own chair’: Gaza siblings find new freedom",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168759",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-07T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "883808700c68f10538c6",
       "title": "$2.5 trillion wiped off Nasdaq 100 as U.S. midterm outcome adds to AI stock slump",
       "url": "https://www.thehindu.com/business/us-midterm-results-add-to-global-ai-linked-stock-sell-off-25-trillion-wiped-off-nasdaq-100/article71674646.ece",
@@ -1250,6 +1443,25 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cf2d7ffe16d74414f4c2",
+      "title": "Sudan’s suffering is plain for all to see say aid teams, as brutal war continues",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168753",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -1403,6 +1615,25 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dc0eb08d973037a2e479",
+      "title": "Children at risk as war zone attacks on water and sanitation more than triple",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -3,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -1593,6 +1824,25 @@
       ],
       "feedSources": [
         "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ee2db3d547edf17ede00",
+      "title": "Gunfire damages tents at Rafah displacement site in Gaza, as aid teams prepare for winter storms",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168740",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T12:00:00Z",
+      "discovered": "2026-11-11T16:46:57.013144Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,

@@ -1,0 +1,892 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-11T16:46:57.013144Z",
+  "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
+  "mode": "observational_headline_proxy",
+  "window": {
+    "start": "2026-10-28",
+    "end": "2026-11-11",
+    "days": 14
+  },
+  "overall": {
+    "items": 126,
+    "publishers": 6,
+    "positive": 24,
+    "negative": 25,
+    "neutral": 77,
+    "languageIndex": -5.7,
+    "label": "Mixed headline language",
+    "sourceConcentration": 44.4,
+    "coverageSufficient": true
+  },
+  "topics": [
+    {
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "items": 32,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 12,
+      "neutral": 20,
+      "languageIndex": -53.8,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 56.2,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
+          "date": "2026-11-11T15:29:11Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T15:05:11Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T14:51:26Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "hypothesis": "Risk / volatility",
+      "potentialUpside": "Energy security and selected defence services",
+      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
+      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
+      "invalidation": "Peace deal plus actual trade-route normalization",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "inflation_rates",
+      "title": "Inflation and rates",
+      "items": 28,
+      "publishers": 5,
+      "positive": 2,
+      "negative": 4,
+      "neutral": 22,
+      "languageIndex": -23.5,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 35.7,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
+          "date": "2026-11-11T15:45:30Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
+          "date": "2026-11-11T15:33:03Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
+          "date": "2026-11-11T15:13:42Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "hypothesis": "Headwind / monitor",
+      "potentialUpside": "Pricing power and short-duration balance sheets",
+      "potentialDownside": "Funding cost hikes; weaker demand",
+      "confirmation": "Inflation expectations fall, yields and policy signals ease",
+      "invalidation": "Energy/food inflation accelerates",
+      "hypothesisAsOf": "2026-10-23"
+    },
+    {
+      "id": "india_flows",
+      "title": "India flows",
+      "items": 21,
+      "publishers": 1,
+      "positive": 14,
+      "negative": 3,
+      "neutral": 4,
+      "languageIndex": 52.4,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
+          "date": "2026-11-11T11:22:19Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar/article71689369.ece",
+          "date": "2026-11-11T11:19:54Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Stock markets hit eight-month high as foreign investors return",
+          "url": "https://www.thehindu.com/business/Industry/stock-markets-surge-in-early-trade-sensex-jumps-1097-points/article71688324.ece",
+          "date": "2026-11-11T08:11:23Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "hypothesis": "Emerging tailwind",
+      "potentialUpside": "Liquid large caps and domestic earnings",
+      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
+      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
+      "invalidation": "Two consecutive net-selling fortnights",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "ai_rotation",
+      "title": "AI rotation",
+      "items": 18,
+      "publishers": 3,
+      "positive": 2,
+      "negative": 1,
+      "neutral": 15,
+      "languageIndex": 6.7,
+      "label": "Mixed headline language",
+      "sourceConcentration": 44.4,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/data-center-gas-plants-to-lift-us-power-emissions-10-bnef-says",
+          "date": "2026-11-11T16:40:54Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+          "date": "2026-11-11T16:03:55Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
+          "date": "2026-11-11T13:28:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "hypothesis": "Cooling in crowded trades",
+      "potentialUpside": "Relative rotation to India; lower-multiple cash earners",
+      "potentialDownside": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "confirmation": "Capex guidance cuts; AI basket underperforms broad market",
+      "invalidation": "Capex/order data beats; risk appetite recovers",
+      "hypothesisAsOf": "2026-11-10"
+    },
+    {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 17,
+      "publishers": 4,
+      "positive": 1,
+      "negative": 2,
+      "neutral": 14,
+      "languageIndex": 0.6,
+      "label": "Mixed headline language",
+      "sourceConcentration": 41.2,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+          "date": "2026-11-11T16:03:55Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
+          "date": "2026-11-11T13:28:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Republican Lawmakers Follow Trump’s Lead After Midterm Rout",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/republican-lawmakers-follow-trump-s-lead-after-midterm-rout",
+          "date": "2026-11-11T12:19:30Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
+      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
+      "hypothesis": "Scenario uncertainty",
+      "potentialUpside": "Policy-backed order book after implementation",
+      "potentialDownside": "Reversal/delay and fiscal reprioritization",
+      "confirmation": "Official enacted measure and sector order/funding impact",
+      "invalidation": "Campaign rhetoric without enacted legislation",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "energy_shipping",
+      "title": "Oil and shipping",
+      "items": 14,
+      "publishers": 2,
+      "positive": 5,
+      "negative": 4,
+      "neutral": 5,
+      "languageIndex": 50.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 92.9,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
+          "date": "2026-11-11T12:46:40Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Strait of Hormuz LNG traffic hits highest in October since Iran war began",
+          "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
+          "date": "2026-11-10T04:48:53Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Nvidia plunges but tech shares rebound, oil prices slump",
+          "url": "https://www.thehindu.com/business/markets/nvidia-plunges-but-tech-shares-rebound-oil-prices-slump/article71683988.ece",
+          "date": "2026-11-09T21:13:33Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
+      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
+      "hypothesis": "Mixed / fragile",
+      "potentialUpside": "Lower crude can ease inflation and input costs",
+      "potentialDownside": "Shipping disruption can raise freight/insurance independent of crude",
+      "confirmation": "Sustained Brent easing AND freight/insurance normalization",
+      "invalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "climate_agri",
+      "title": "Monsoon and agriculture",
+      "items": 5,
+      "publishers": 3,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 5,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 40.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T00:18:07Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-10T15:21:18Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168768",
+          "date": "2026-11-09T12:00:00Z",
+          "publisher": "news.un.org"
+        }
+      ],
+      "directSectors": "Agri inputs; FMCG; Rural consumption",
+      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
+      "hypothesis": "Risk / proxy",
+      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
+      "potentialDownside": "Food-cost and rural income hit",
+      "confirmation": "Rainfall and sowing data consistent with demand",
+      "invalidation": "Weather forecast not realized in yields",
+      "hypothesisAsOf": "2026-10-23"
+    },
+    {
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 3,
+      "publishers": 2,
+      "positive": 0,
+      "negative": 2,
+      "neutral": 1,
+      "languageIndex": -50.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 66.7,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
+          "date": "2026-11-11T01:43:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian Push to Escape Dollar for Yuan Collapses Under Sanctions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russian-push-to-escape-dollar-for-yuan-collapses-under-sanctions",
+          "date": "2026-11-11T00:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "U.S. midterm elections impact on India: Faster trade deal talks and higher tariffs likely",
+          "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-impact-on-india-faster-trade-deal-talks-and-higher-tariffs-likely/article71665044.ece",
+          "date": "2026-11-04T12:42:46Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "hypothesis": "Fragmentation risk",
+      "potentialUpside": "Selective import substitution if capacity exists",
+      "potentialDownside": "Export barriers and retaliation; input import friction",
+      "confirmation": "Implemented change in tariff with company-level exposure",
+      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "auto_consumer",
+      "title": "Auto and demand",
+      "items": 2,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1,
+      "languageIndex": -50.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Automobile retail sales fall 24% in October on high base effect a year ago",
+          "url": "https://www.thehindu.com/business/Industry/automobile-retail-sales-fall-24-in-october-on-high-base-effect-a-year-ago/article71673102.ece",
+          "date": "2026-11-06T07:50:04Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "‘Best ever September’: Auto retail sales surge 32% year-on-year",
+          "url": "https://www.thehindu.com/business/Industry/best-ever-september-auto-retail-sales-surge-32-year-on-year/article71550095.ece",
+          "date": "2026-11-06T06:35:39Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Autos; Two-wheelers; Components",
+      "proxySectors": "Tyres; Vehicle financiers; Dealers; Steel",
+      "hypothesis": "Possible tailwind",
+      "potentialUpside": "OEM volume + replacement + supplier operating leverage",
+      "potentialDownside": "Input cost and credit-financing weakness",
+      "confirmation": "Retail registrations and wholesale volumes both improve",
+      "invalidation": "Dealer inventory rises faster than retail sales",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "healthcare",
+      "title": "Hospital sector",
+      "items": 1,
+      "publishers": 1,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": 100.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Apollo Hospitals’ Q2 revenue rises 23%; profit up 32% on broad-based growth",
+          "url": "https://www.thehindu.com/business/Industry/apollo-hospitals-q2-revenue-rises-23-profit-up-32-on-broad-based-growth/article71666462.ece",
+          "date": "2026-11-04T16:46:23Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Hospitals; Specialty care",
+      "proxySectors": "Diagnostics; Medtech; Hospital supply",
+      "hypothesis": "Structural watch",
+      "potentialUpside": "Incremental operating-bed cash returns",
+      "potentialDownside": "High capex and slower occupancy ramp",
+      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
+      "invalidation": "New beds fail to cover fixed overhead",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "tyre_inputs",
+      "title": "Tyres and inputs",
+      "items": 1,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "MRF’s Q2 profit skids 27% as raw material costs squeeze margins",
+          "url": "https://www.thehindu.com/business/Industry/mrfs-q2-profit-skids-27-as-raw-material-costs-squeeze-margins/article71685983.ece",
+          "date": "2026-11-10T12:04:26Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Tyres; Synthetic rubber",
+      "proxySectors": "Auto OEMs; Replacement retail; Carbon black suppliers",
+      "hypothesis": "Profit spread watch",
+      "potentialUpside": "Tyre makers where cost declines precede pricing erosion",
+      "potentialDownside": "Natural rubber cost shock or excess capacity",
+      "confirmation": "Input cost basket falls and margins outperform",
+      "invalidation": "Volume weak despite price hike",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 1,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T11:47:22Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Defence electronics; Aerospace",
+      "proxySectors": "Shipbuilders; Engineering; Components",
+      "hypothesis": "Watch",
+      "potentialUpside": "Confirmed order book and margin realization",
+      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
+      "confirmation": "Enacted procurement budgets, contracts, deliveries",
+      "invalidation": "Canceled tenders, delayed acceptance",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "credit_cds",
+      "title": "Credit/CDS news",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "Banks; NBFCs; Insurers",
+      "proxySectors": "Real estate; Leveraged industrials; Private credit",
+      "hypothesis": "Watch only; no live CDS quote feed",
+      "potentialUpside": "Healthy funding franchises if spreads stable",
+      "potentialDownside": "Refinancing-sensitive issuers if spreads blow out",
+      "confirmation": "Public reported credit events corroborated by rating/spread series",
+      "invalidation": "Coverage noise without measurable spread move",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "mega_credit",
+      "title": "Large bank credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
+      "id": "sovereign_credit",
+      "title": "Sovereign credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    }
+  ],
+  "risks": [
+    {
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "items": 32,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 12,
+      "neutral": 20,
+      "languageIndex": -53.8,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 56.2,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
+          "date": "2026-11-11T15:29:11Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T15:05:11Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T14:51:26Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "hypothesis": "Risk / volatility",
+      "potentialUpside": "Energy security and selected defence services",
+      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
+      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
+      "invalidation": "Peace deal plus actual trade-route normalization",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "inflation_rates",
+      "title": "Inflation and rates",
+      "items": 28,
+      "publishers": 5,
+      "positive": 2,
+      "negative": 4,
+      "neutral": 22,
+      "languageIndex": -23.5,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 35.7,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
+          "date": "2026-11-11T15:45:30Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
+          "date": "2026-11-11T15:33:03Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
+          "date": "2026-11-11T15:13:42Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "hypothesis": "Headwind / monitor",
+      "potentialUpside": "Pricing power and short-duration balance sheets",
+      "potentialDownside": "Funding cost hikes; weaker demand",
+      "confirmation": "Inflation expectations fall, yields and policy signals ease",
+      "invalidation": "Energy/food inflation accelerates",
+      "hypothesisAsOf": "2026-10-23"
+    },
+    {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 17,
+      "publishers": 4,
+      "positive": 1,
+      "negative": 2,
+      "neutral": 14,
+      "languageIndex": 0.6,
+      "label": "Mixed headline language",
+      "sourceConcentration": 41.2,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+          "date": "2026-11-11T16:03:55Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
+          "date": "2026-11-11T13:28:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Republican Lawmakers Follow Trump’s Lead After Midterm Rout",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/republican-lawmakers-follow-trump-s-lead-after-midterm-rout",
+          "date": "2026-11-11T12:19:30Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
+      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
+      "hypothesis": "Scenario uncertainty",
+      "potentialUpside": "Policy-backed order book after implementation",
+      "potentialDownside": "Reversal/delay and fiscal reprioritization",
+      "confirmation": "Official enacted measure and sector order/funding impact",
+      "invalidation": "Campaign rhetoric without enacted legislation",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 3,
+      "publishers": 2,
+      "positive": 0,
+      "negative": 2,
+      "neutral": 1,
+      "languageIndex": -50.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 66.7,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
+          "date": "2026-11-11T01:43:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian Push to Escape Dollar for Yuan Collapses Under Sanctions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russian-push-to-escape-dollar-for-yuan-collapses-under-sanctions",
+          "date": "2026-11-11T00:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "U.S. midterm elections impact on India: Faster trade deal talks and higher tariffs likely",
+          "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-impact-on-india-faster-trade-deal-talks-and-higher-tariffs-likely/article71665044.ece",
+          "date": "2026-11-04T12:42:46Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "hypothesis": "Fragmentation risk",
+      "potentialUpside": "Selective import substitution if capacity exists",
+      "potentialDownside": "Export barriers and retaliation; input import friction",
+      "confirmation": "Implemented change in tariff with company-level exposure",
+      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "credit_cds",
+      "title": "Credit/CDS news",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "Banks; NBFCs; Insurers",
+      "proxySectors": "Real estate; Leveraged industrials; Private credit",
+      "hypothesis": "Watch only; no live CDS quote feed",
+      "potentialUpside": "Healthy funding franchises if spreads stable",
+      "potentialDownside": "Refinancing-sensitive issuers if spreads blow out",
+      "confirmation": "Public reported credit events corroborated by rating/spread series",
+      "invalidation": "Coverage noise without measurable spread move",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "mega_credit",
+      "title": "Large bank credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
+      "id": "sovereign_credit",
+      "title": "Sovereign credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 0,
+      "publishers": 0,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": null,
+      "label": "Insufficient observations",
+      "sourceConcentration": null,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    }
+  ],
+  "topPublishers": [
+    {
+      "publisher": "www.thehindu.com",
+      "stories": 56
+    },
+    {
+      "publisher": "www.bbc.co.uk",
+      "stories": 30
+    },
+    {
+      "publisher": "www.bloomberg.com",
+      "stories": 21
+    },
+    {
+      "publisher": "www.ecb.europa.eu",
+      "stories": 9
+    },
+    {
+      "publisher": "news.un.org",
+      "stories": 9
+    },
+    {
+      "publisher": "www.federalreserve.gov",
+      "stories": 1
+    }
+  ],
+  "feedCoverage": {
+    "reportedScanCount": 4,
+    "latestAvailableFeeds": 15,
+    "latestConfiguredFeeds": 15
+  },
+  "historicalComparisonReady": false,
+  "historicalComparisonNote": "Two full 14-day monitoring periods needed; old items discovered in a recent RSS feed do not establish prior-day collection coverage.",
+  "marketRegime": "Unconfirmed — missing independently verified price/breadth/credit/earnings-revision factors",
+  "cdsStatus": "News coverage only; no issuer or sovereign CDS spread data.",
+  "disclaimer": "Headline language is a coarse lexical/source-balanced proxy. It is NOT actual market sentiment or a forward return estimate. Theme transmission hypotheses from editorial data are dated and not freshly validated. Do not rank investments from this index."
+}
