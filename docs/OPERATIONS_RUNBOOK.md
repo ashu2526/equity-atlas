@@ -13,18 +13,22 @@ Version: 2026-11-11. **Read `docs/PROJECT_STATUS.md` and `AGENTS.md` before edit
 
 The HTML pages are static; each page fetches its published JSON from the same repository (or raw.githubusercontent on the News Radar). Pages deployment lags a GitHub commit. Always inspect the build on the newest relevant SHA before telling anyone the website is live.
 
-## 2. Automated workflows (actual configured cron)
+## 2. Active automated workflows — 07:00 / 19:00 IST (updated 12 Nov 2026)
 
-| Update | Workflow | UTC | Asia/Kolkata | Inputs | Output |
-|---|---|---|---|---|---|
-| RSS + lexical climate + ranked feed | `.github/workflows/news-radar.yml` | 02:21 daily | **07:51 IST** | 15 configured RSS feeds and topic rules | `data/news/articles.json`, `scans.json`, `market-pulse.json`, `pulse-history.json`, `ranked-feed.json`, `ranked-feed-history.json` |
-| NSE + Polymarket signals | `.github/workflows/market-signals.yml` | 03:35 daily | **09:05 IST** | NSE daily all-index CSV, public Gamma API | `data/market-signals/index-history.json`, `sector-rotation.json`, `polymarket.json`, `polymarket-history.json` |
-| NSE + Polymarket signals | Same workflow | 15:15 daily | **20:45 IST** | Same | Same |
-| AI Morning Intelligence | **ChatGPT scheduled task, not GitHub Action** | Local task 09:15 IST | **09:15 IST** starting 2026-11-12 | Repo JSON + fresh verified primary/reporting sources | Intended `data/news/daily-briefings.json`, periodic `ai-reviews.json`, verified new flow observations if any |
+| Update | Mechanism | Target IST | Output |
+|---|---|---|---|
+| News RSS + source health + lexical climate + ranked stories | GitHub \`.github/workflows/news-radar.yml\`: \`cron: "30 1,13 * * *"\` | 07:00 / 19:00 | \`data/news/articles.json\`, \`scans.json\`, \`market-pulse.json\`, \`ranked-feed.json\` and history |
+| NSE sector prices + Polymarket event quotes + company OHLCV technical alerts | GitHub \`.github/workflows/market-signals.yml\`: \`30 1 * * *\` and \`30 13 * * *\` | 07:00 / 19:00 | \`data/market-signals/sector-rotation.json\`, \`polymarket.json\`, \`stock-price-volume.json\` and all histories |
+| Source-verified AI market interpretation, when connector succeeds | ChatGPT task "Equity Atlas AM/PM Market Intelligence", ID \`6af49cd9ea508191b74e1ba35e6f9d69\` | ~07:25 / ~19:25 | Intended append/upsert morning/evening \`data/news/daily-briefings.json\`; periodic \`ai-reviews.json\` |
+| Monthly company valuation review | ChatGPT task "Equity Atlas Monthly Valuation Review", ID \`Automation_a78b745ee3c48191a0e6219a52761360\` | First of month ~07:45 | Intended dated company/peer fair-value research note against Google Sheet; no blind overwrite of valuation assumptions |
+| Research integrity | GitHub \`.github/workflows/quality-gate.yml\` | On relevant pushes | Validates JSON, Python/JS syntax, six-page navigation bindings, alert freshness safeguards and cron |
+| Full-source snapshot | GitHub \`.github/workflows/documentation-export.yml\` | Manual or versioned exporter changes | Source ZIP with hash manifest, not Google Sheet or account automations |
 
-Task title **Equity Atlas Morning Intelligence**; task ID `6af49cd9ea508191b74e1ba35e6f9d69`. It is enabled and its next scheduled run was 2026-11-12 09:15 Asia/Kolkata at the time of this documentation. Its GitHub write-back behaviour was **not yet tested end to end**. The daily task was instructed to run a deeper fortnightly review approximately every 14 days; future actual reports must be checked.
+All market and news GitHub cron values are **UTC**; IST is UTC+05:30. GitHub hosted runner timing can lag, and the AI review may begin before fresh source jobs finish. It MUST check actual \`generatedAt\` and preserve yesterday's publication status if sources or connector writes fail.
 
-**Race and timing warning:** The 09:05 signals job may still be running at 09:15. The AI task must inspect `generatedAt`/source timestamps and mention if it analysed the prior signal snapshot. Flexible scheduled tasks can run around their target time, not with guaranteed second-level precision.
+The AI tasks are scheduled through ChatGPT and **are not GitHub Actions**. Scheduling is not proof of successful AI report publishing; the first AM/PM and monthly write-back executions still require explicit verification. Morning news refers to the prior full Indian trading session plus overnight global events. Evening news refers to the new Indian close where confirmed. Dates are stored in every dataset.
+
+Complete source, formulas, freshness status and company-watch instructions: [REFRESH_AND_TECHNICAL.md](REFRESH_AND_TECHNICAL.md). For navigation, dark/paper appearance and page categories: [../DESIGN.md](../DESIGN.md).
 
 ### Trigger manually
 
@@ -36,6 +40,8 @@ python scripts/build_regime_pulse.py
 python scripts/build_intelligence_feed.py
 python scripts/sector_rotation.py
 python scripts/polymarket_monitor.py
+python scripts/stock_price_volume.py
+python scripts/validate_site.py
 python -m compileall -q scripts
 ```
 
@@ -69,7 +75,7 @@ This is the highest-priority operational test after 11 November.
 ### NSE
 - Check `sector-rotation.json.status=ready`, `asOf`, `sourceDiagnostics.nseDailyFiles`, `missingIndices`, and exact `priceSource` for each sector.
 - Valid 3m returns need comparable historic close; `null` means unavailable, not flat.
-- If NSE blocks requests, inspect `nseErrorExamples` and tagged fallback indices. A fallback source must be visible in UI.
+- If the NSE index archive blocks requests, inspect `nseErrorExamples` and tagged fallback indices. A fallback source must be visible in UI.
 - Compare a few indices against NSE historical data. Correct index aliases, date alignment and outliers before public claims.
 
 ### Polymarket
@@ -116,3 +122,7 @@ This is the highest-priority operational test after 11 November.
 ## 7. Documentation and export policy
 
 A clean full-source ZIP can be created by `.github/workflows/documentation-export.yml` after docs are committed; the ZIP includes repository code, static HTML, workflows, data and local skill instructions. A conversation-level expanded archive can additionally include private, user-supplied research reports and an exported workbook **without** uploading them into public GitHub. Mark these extras as dated reference snapshots, not runtime source of truth.
+
+## November 2026 research data update
+
+The technical engine now prefers a public, keyless TejHQ NSE-bhavcopy-derived OHLCV source when it passes validation, with a source-labelled Yahoo Finance chart fallback. Initial complete dataset: 22/22 stocks with 11 November 2026 latest bars, with as-of dates, company signal sources, evidence and invalidation. It also retains old snapshots without false active alerts when source data become delayed. TejHQ data is still third-party redistributed market data and requires independent licensing/reconciliation checks before commercial use.
