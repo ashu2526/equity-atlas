@@ -23,7 +23,7 @@ const signed=x=>x==null?"—":(x>0?"+":"")+f(x)+"%";
 const pp=x=>x==null?"—":(x>0?"+":"")+f(x)+"pp";
 const usd=x=>x==null?"N/A":x>=1e6?"$"+(x/1e6).toFixed(2)+"m":x>=1000?"$"+(x/1000).toFixed(1)+"k":"$"+x.toFixed(0);
 let r={},p={},h={},n={},selected="",tab="sector";
-function goto(t){tab=t;$$(".view").forEach(x=>x.classList.toggle("active",x.id===t));$$("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.view===t));history.replaceState(null,"","#"+t);window.scrollTo(0,0);}
+function goto(t){tab=t;$$(".sigview").forEach(x=>x.classList.toggle("active",x.id===t));$$("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.view===t));history.replaceState(null,"","#"+t);window.scrollTo(0,0);}
 function top(){
  const sectors=r.sectors||[],markets=p.markets||[];
  $("#meta").textContent="NSE sector closes: "+(r.asOf||"unavailable")+" · Polymarket odds: "+(p.generatedAt?.slice(0,16)?.replace("T"," ")||"unavailable")+" UTC";
