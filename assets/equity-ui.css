@@ -1,0 +1,121 @@
+/* Equity Atlas unified design layer.
+   Inspired by OpenDesign's trading-analysis template patterns; implementation original.
+   Static CSS only, no font/CDN imports or frameworks. */
+:root{
+ --ea-bg:#09131d;--ea-surface:#112331;--ea-raised:#173145;
+ --ea-border:#2d4b5e;--ea-ink:#eef6f9;--ea-subtle:#a9c2cf;
+ --ea-accent:#5ce0bf;--ea-accent-soft:#173e3b;--ea-focus:#f4c77b;
+ --ea-radius:13px;--ea-top:58px;
+ --bg:var(--ea-bg);--surface:var(--ea-surface);--panel:var(--ea-surface);
+ --panel2:var(--ea-raised);--pane2:var(--ea-raised);--raised:var(--ea-raised);
+ --edge:var(--ea-border);--line:var(--ea-border);
+ --fg:var(--ea-ink);--txt:var(--ea-ink);--text:var(--ea-ink);
+ --muted:var(--ea-subtle);--teal:var(--ea-accent);--mint:var(--ea-accent);--aqua:var(--ea-accent);
+ color-scheme:dark;
+}
+body{background:var(--ea-bg);color:var(--ea-ink);font-size:14px;line-height:1.55}
+.main{padding-top:16px!important;max-width:1680px!important}
+.app .sidebar,.app .side{background:#0b1b28;border-right:1px solid var(--ea-border)}
+.app .sidebar,.app .side{overflow-x:hidden}
+.app .sidebar .nav,.app .side .nav{min-width:0}
+h1,h2,h3{letter-spacing:-.035em}h1{line-height:1.12}
+h2{font-size:clamp(18px,1.45vw,24px)}h3{line-height:1.32}
+.panel,.card,.stat,.metric,.theme,.money-card,.review-card,.market-card,.article-detail,.odds-card,
+.play-card,.stat-card,.track,.detail-card{
+ border-color:var(--ea-border);border-radius:var(--ea-radius);
+ box-shadow:0 2px 18px rgba(3,13,20,.08);
+}
+.panel,.card{background:var(--ea-surface)}
+.tophero,.s-hero,.wide-lead,.desk-hero,.intel-banner{border-radius:18px}
+input:not([type="checkbox"]),select,textarea{border-radius:10px}
+a{color:#9edaf4}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,
+[tabindex]:focus-visible{outline:2px solid var(--ea-focus);outline-offset:3px}
+table{border-collapse:collapse;max-width:100%;font-variant-numeric:tabular-nums}
+thead th{font-size:11px;letter-spacing:.055em;text-transform:uppercase}
+tbody tr:hover{background:rgba(106,214,190,.05)}
+small,.small,.muted{line-height:1.5}
+p{max-width:95ch}
+html{scroll-behavior:smooth}
+::selection{background:var(--ea-accent);color:#071a21}
+.ea-universal{position:relative;z-index:4;margin:0 0 17px;background:#102434;
+ border:1px solid var(--ea-border);border-radius:14px;padding:9px 12px;
+ display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0}
+.ea-group{display:flex;align-items:center;flex-wrap:wrap;gap:5px;min-width:0}
+.ea-group-label{font-size:10px;letter-spacing:.09em;font-weight:800;color:#83a5b6;padding:0 7px;text-transform:uppercase}
+.ea-nav-link{color:#c3d8e4;text-decoration:none;white-space:nowrap;font-size:12px;font-weight:650;
+ line-height:1;border:1px solid transparent;border-radius:9px;padding:10px 11px;transition:background .15s ease}
+.ea-nav-link:hover{background:#1c3a4a;color:#fff;text-decoration:none}
+.ea-nav-link[aria-current="page"]{background:#205249;color:#dcfff1;border-color:#387b69}
+.ea-nav-right{display:flex;align-items:center;justify-content:flex-end;gap:9px}
+.ea-cycle{white-space:nowrap;color:#95b8c7;font-size:11px}
+.ea-theme{display:inline-flex;align-items:center;gap:5px;color:#ddedf2;background:#1a3545;
+ padding:9px 12px;border:1px solid #496b7b;border-radius:9px;white-space:nowrap;font-size:11px;font-weight:750}
+.ea-theme:hover{background:#26495a}
+.ea-skip{position:absolute;left:-999px;top:10px;padding:10px 16px;background:#fff;color:#111;z-index:99;border-radius:7px}
+.ea-skip:focus{position:fixed;left:10px}
+.ea-page-footer{font-size:11px;color:#83a4b2;margin:20px 0 7px;padding:10px 0;
+ border-top:1px solid var(--ea-border)}
+.ea-page-footer a{font-size:11px}
+.ea-tag{display:inline-block;border:1px solid var(--ea-border);border-radius:8px;padding:4px 8px;font-size:11px}
+.ea-glow{background:radial-gradient(circle at top right,#1e485a,transparent 55%)}
+.ea-stale{border-left:3px solid #efbe7c;padding:9px 13px;background:#282d37;font-size:12px}
+.ea-money-interpretation{font-size:11px;color:var(--ea-subtle)}
+/* Optional paper mode. Force known hard-coded legacy dark surfaces to light,
+   while inheriting semantic typography and preserving colored status chips. */
+html[data-atlas-theme="paper"]{
+ --ea-bg:#f3f7f8;--ea-surface:#ffffff;--ea-raised:#eef4f5;--ea-border:#d6e1e5;
+ --ea-ink:#192e3c;--ea-subtle:#506979;--ea-accent:#087d6f;--ea-accent-soft:#e1f4ee;
+ --bg:var(--ea-bg);--surface:var(--ea-surface);--panel:var(--ea-surface);
+ --panel2:var(--ea-raised);--pane2:var(--ea-raised);--raised:var(--ea-raised);
+ --edge:var(--ea-border);--line:var(--ea-border);
+ --fg:var(--ea-ink);--txt:var(--ea-ink);--text:var(--ea-ink);
+ --muted:var(--ea-subtle);--teal:var(--ea-accent);--mint:var(--ea-accent);--aqua:var(--ea-accent);
+ color-scheme:light;
+}
+html[data-atlas-theme="paper"] body{color:#192e3c;background:#f3f7f8}
+html[data-atlas-theme="paper"] .sidebar,html[data-atlas-theme="paper"] .side{background:#e9f1f4;color:#203341}
+html[data-atlas-theme="paper"] .ea-universal{background:#fff}
+html[data-atlas-theme="paper"] .ea-group-label{color:#587484}
+html[data-atlas-theme="paper"] .ea-nav-link{color:#2c5264}
+html[data-atlas-theme="paper"] .ea-nav-link:hover{color:#083b38;background:#e7f2f2}
+html[data-atlas-theme="paper"] .ea-nav-link[aria-current="page"]{color:#055e52;background:#d9f3ea;border-color:#a8dccc}
+html[data-atlas-theme="paper"] .ea-theme{background:#eef6f8;color:#163e4d;border-color:#c1d5db}
+html[data-atlas-theme="paper"] .panel,html[data-atlas-theme="paper"] .card,
+html[data-atlas-theme="paper"] .stat,html[data-atlas-theme="paper"] .metric,
+html[data-atlas-theme="paper"] .theme,html[data-atlas-theme="paper"] .play-card,
+html[data-atlas-theme="paper"] .review-card,html[data-atlas-theme="paper"] .money-card,
+html[data-atlas-theme="paper"] .market-card,html[data-atlas-theme="paper"] .article-detail,
+html[data-atlas-theme="paper"] .odds-card,
+html[data-atlas-theme="paper"] .mini-event,html[data-atlas-theme="paper"] .sector-item{
+ background:#fff!important;color:#192e3c;border-color:#d2e1e6}
+html[data-atlas-theme="paper"] .panel p,html[data-atlas-theme="paper"] .card p,
+html[data-atlas-theme="paper"] .article-detail p,
+html[data-atlas-theme="paper"] .market-card p,html[data-atlas-theme="paper"] .odds-card p,
+html[data-atlas-theme="paper"] .play-card p,html[data-atlas-theme="paper"] .review-card p,
+html[data-atlas-theme="paper"] .mini-event p{color:#496878!important}
+html[data-atlas-theme="paper"] .tophero,html[data-atlas-theme="paper"] .s-hero,
+html[data-atlas-theme="paper"] .wide-lead,html[data-atlas-theme="paper"] .desk-hero{
+ background:linear-gradient(120deg,#fff,#dcefeb)!important;color:#153948}
+html[data-atlas-theme="paper"] .tophero p,html[data-atlas-theme="paper"] .s-hero p,
+html[data-atlas-theme="paper"] .wide-lead p{color:#456e7d!important}
+html[data-atlas-theme="paper"] a{color:#066988}
+html[data-atlas-theme="paper"] .sidebar .nav button,html[data-atlas-theme="paper"] .sidebar .nav a,
+html[data-atlas-theme="paper"] .side .nav button,html[data-atlas-theme="paper"] .side .nav a{color:#375b6d}
+html[data-atlas-theme="paper"] .nav button.active{background:#d3ede6;color:#0b6559}
+html[data-atlas-theme="paper"] .stat strong,html[data-atlas-theme="paper"] .metric strong{color:#123c4c}
+html[data-atlas-theme="paper"] input,html[data-atlas-theme="paper"] select{background:#fff!important;color:#153b48!important;border-color:#b4cbd3!important}
+html[data-atlas-theme="paper"] thead{background:#edf5f5}
+html[data-atlas-theme="paper"] tbody tr:hover{background:#e4f5f0}
+@media(max-width:1100px){
+ .ea-universal{overflow-x:auto;justify-content:flex-start;flex-wrap:nowrap;scrollbar-width:thin}
+ .ea-group{flex-wrap:nowrap}.ea-nav-right{margin-left:auto}
+}
+@media(max-width:620px){
+ .main{padding:14px 12px 42px!important}
+ .ea-universal{padding:7px 8px;border-radius:10px}
+ .ea-group-label,.ea-cycle{display:none}
+ .ea-nav-link{padding:9px 8px;font-size:11px}
+ .ea-theme{padding:8px;font-size:11px}
+ .panel,.card{padding:14px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
