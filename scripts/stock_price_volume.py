@@ -218,6 +218,25 @@ def analyse(item):
               f"20-session Chaikin Money Flow {cmf:+.2f} with latest volume {vr:.2f}× average.",
               "Watch for lower highs and support loss across several sessions.",
               "CMF normalizes or weakness stems from a non-recurring liquidity event.","short_medium")
+    # Repeated short-run price/volume breakouts vs an unconfirmed long-run trend.
+    repeated=sum(
+        cl[i]>max(hi[i-20:i])*1.002 and vol[i]>=(mean(vol[i-20:i]) or 1)*1.3
+        for i in range(max(21,n-15),n)
+    )
+    ma200past=mean(cl[-220:-20]) if n>=220 else None
+    longSlope200=round(100*(ma200/ma200past-1),3) if ma200 and ma200past else None
+    if not suppress and repeated>=2 and ma200 and p<ma200 and ret20 is not None and ret20>2:
+        alert("countertrend_repeated_breakouts","watch",
+              "Repeated short-term breakouts, but longer-term downtrend unresolved",
+              f"{repeated} volume-backed 20-session price breaks within the last 15 sessions; close remains below 200-DMA ₹{ma200:,.2f}.",
+              "Price and 50-DMA establish a sustained uptrend and the company earnings thesis improves.",
+              "Failed breakout, falling sector-relative strength or a renewed 200-DMA rejection.","short_long_conflict")
+    if not suppress and repeated>=2 and ma200 and p>ma200 and longSlope200 is not None and longSlope200<0 and ret20 is not None and ret20>5:
+        alert("short_breakout_long_average_falling","watch",
+              "Short-term price leadership while the 200-DMA still slopes down",
+              f"{repeated} volume-backed 20-session breaks; 200-DMA slope over ~20 sessions {longSlope200:+.2f}%.",
+              "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+              "Break below 200-DMA or momentum/volume fade.","short_long_conflict")
     if suppress:
         alert("corporate_action_or_gap_guard","info","Unusually large recent price move — signals withheld",
               "Recent split event or >38% single-session price gap in underlying series.",
@@ -247,7 +266,8 @@ def analyse(item):
                     "distance52wHighPct":round(100*(p/hi252-1),2) if hi252 else None,
                     "ma50SlopeSessionPct":round(ma50slope,4) if ma50slope is not None else None,
                     "prior20High":round(prev20,2) if prev20 else None,"prior55High":round(prev55,2) if prev55 else None,
-                    "prior55Low":round(low55,2) if low55 else None},
+                    "prior55Low":round(low55,2) if low55 else None,
+                    "breakoutCountLast15":repeated,"longAverageSlope20dPct":longSlope200},
       "trend":trend,"signals":events[:4],
       "signalCount":len(events),"dataQuality":{"majorSplitInRecent60Sessions":majorSplit,
           "unusuallyLargePriceGapRecent30Sessions":recentJump,
