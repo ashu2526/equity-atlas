@@ -17,14 +17,14 @@ The HTML pages are static; each page fetches its published JSON from the same re
 
 | Update | Mechanism | Target IST | Output |
 |---|---|---|---|
-| News RSS + source health + lexical climate + ranked stories | GitHub \`.github/workflows/news-radar.yml\`: \`cron: "30 1,13 * * *"\` | 07:00 / 19:00 | \`data/news/articles.json\`, \`scans.json\`, \`market-pulse.json\`, \`ranked-feed.json\` and history |
-| NSE sector prices + Polymarket event quotes + company OHLCV technical alerts | GitHub \`.github/workflows/market-signals.yml\`: \`30 1 * * *\` and \`30 13 * * *\` | 07:00 / 19:00 | \`data/market-signals/sector-rotation.json\`, \`polymarket.json\`, \`stock-price-volume.json\` and all histories |
-| Source-verified AI market interpretation, when connector succeeds | ChatGPT task "Equity Atlas AM/PM Market Intelligence", ID \`6af49cd9ea508191b74e1ba35e6f9d69\` | ~07:25 / ~19:25 | Intended append/upsert morning/evening \`data/news/daily-briefings.json\`; periodic \`ai-reviews.json\` |
-| Monthly company valuation review | ChatGPT task "Equity Atlas Monthly Valuation Review", ID \`Automation_a78b745ee3c48191a0e6219a52761360\` | First of month ~07:45 | Intended dated company/peer fair-value research note against Google Sheet; no blind overwrite of valuation assumptions |
-| Research integrity | GitHub \`.github/workflows/quality-gate.yml\` | On relevant pushes | Validates JSON, Python/JS syntax, six-page navigation bindings, alert freshness safeguards and cron |
-| Full-source snapshot | GitHub \`.github/workflows/documentation-export.yml\` | Manual or versioned exporter changes | Source ZIP with hash manifest, not Google Sheet or account automations |
+| News RSS + source health + lexical climate + ranked stories | GitHub `.github/workflows/news-radar.yml`: `cron: "30 1,13 * * *"` | 07:00 / 19:00 | `data/news/articles.json`, `scans.json`, `market-pulse.json`, `ranked-feed.json` and history |
+| NSE sector prices + Polymarket event quotes + company OHLCV technical alerts | GitHub `.github/workflows/market-signals.yml`: `30 1 * * *` and `30 13 * * *` | 07:00 / 19:00 | `data/market-signals/sector-rotation.json`, `polymarket.json`, `stock-price-volume.json` and all histories |
+| Source-verified AI market interpretation, when connector succeeds | ChatGPT task "Equity Atlas AM/PM Market Intelligence", ID `6af49cd9ea508191b74e1ba35e6f9d69` | ~07:25 / ~19:25 | Intended append/upsert morning/evening `data/news/daily-briefings.json`; periodic `ai-reviews.json` |
+| Monthly company valuation review | ChatGPT task "Equity Atlas Monthly Valuation Review", ID `Automation_a78b745ee3c48191a0e6219a52761360` | First of month ~07:45 | Intended dated company/peer fair-value research note against Google Sheet; no blind overwrite of valuation assumptions |
+| Research integrity | GitHub `.github/workflows/quality-gate.yml` | On relevant pushes | Validates JSON, Python/JS syntax, six-page navigation bindings, alert freshness safeguards and cron |
+| Full-source snapshot | GitHub `.github/workflows/documentation-export.yml` | Manual or versioned exporter changes | Source ZIP with hash manifest, not Google Sheet or account automations |
 
-All market and news GitHub cron values are **UTC**; IST is UTC+05:30. GitHub hosted runner timing can lag, and the AI review may begin before fresh source jobs finish. It MUST check actual \`generatedAt\` and preserve yesterday's publication status if sources or connector writes fail.
+All market and news GitHub cron values are **UTC**; IST is UTC+05:30. GitHub hosted runner timing can lag, and the AI review may begin before fresh source jobs finish. It MUST check actual `generatedAt` and preserve yesterday's publication status if sources or connector writes fail.
 
 The AI tasks are scheduled through ChatGPT and **are not GitHub Actions**. Scheduling is not proof of successful AI report publishing; the first AM/PM and monthly write-back executions still require explicit verification. Morning news refers to the prior full Indian trading session plus overnight global events. Evening news refers to the new Indian close where confirmed. Dates are stored in every dataset.
 
