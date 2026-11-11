@@ -92,7 +92,13 @@ TOPIC_MATCH={
 }
 REGEX={key:re.compile(value,re.I) for key,value in TOPIC_MATCH.items()}
 def topics(title):
-    return sorted(key for key,regex in REGEX.items() if regex.search(title))
+    matched={key for key,regex in REGEX.items() if regex.search(title)}
+    # A named bank or tech company's ordinary earnings/product headline is NOT a CDS alert.
+    credit=re.search(r"\b(?:cds|credit|debt|default|downgrade|liquidity|funding|spread|refinancing|bankruptcy)\b",title,re.I)
+    if not credit:
+        matched.discard("mega_credit")
+        matched.discard("tech_credit")
+    return sorted(matched)
 def feed_get(feed):
     req=urllib.request.Request(feed["url"],headers={
         "User-Agent":"EquityAtlasPersonalNewsReader/1.0 (contact: GitHub repo ashu2526/equity-atlas)",
@@ -107,7 +113,13 @@ def main():
     opts=cfg.get("scan",{})
     if not feeds:raise SystemExit("No RSS feeds configured")
     old=load("articles.json",{"articles":[]})
-    records={a["id"]:a for a in old.get("articles",[]) if a.get("id")}
+    records={}
+    for a in old.get("articles",[]):
+        if not a.get("id"):continue
+        fresh_topics=topics(a.get("title",""))
+        if not fresh_topics:continue
+        a["topics"]=fresh_topics
+        records[a["id"]]=a
     cutoff=NOW-dt.timedelta(days=int(opts.get("retentionDays",120)))
     max_items=int(opts.get("maxFeedItems",100))
     errors={}
