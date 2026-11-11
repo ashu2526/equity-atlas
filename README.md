@@ -41,3 +41,13 @@ Scenario equity value per share is `(EBITDA × EV/EBITDA − net debt + unspent 
 - No live market quote service, brokerage trading, authentication or secure editing backend is included.
 - Published GitHub Pages sites and published Sheets should be assumed public.
 - Only Yatharth is populated; later companies need new rows and company-selector support.
+
+## Sector Radar (added 11 November 2026)
+
+- **Sector Universe** tab in the Google Sheet is the editable source for ranked hospital and tyre-sector research candidates. Ranking numbers are qualitative **research priority**, not buy recommendations.
+- The live site includes a bundled snapshot of the 15 company profiles, so it works before the Sheet is published for anonymous reading.
+- Profile fields include competitive edge, main risk, dated trailing P/E, evidence URL, business archetype and deep-dive status.
+- Select **Sector Radar** in the navigation, switch between **Hospitals** and **Tyres**, select a company for the quick view, and use **Shortlist for Deep Dive**.
+- The shortlist is saved in `localStorage` of your own browser only; it does **not** automatically update Google Sheets or sync between devices. Export the shortlist as JSON or copy a research prompt.
+- To update the site from the Sheet later, share/publish the research-only tab for anonymous reading. Do not publish personal holdings, private trade information, API keys or personal details. GitHub Pages itself is public.
+- Research order can differ from portfolio allocation decisions: **BKT** is an off-highway specialist whereas **MRF / Apollo Tyres** are larger diversified businesses. Never infer a fixed portfolio weight from the ranking.
