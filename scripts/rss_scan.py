@@ -113,6 +113,7 @@ def main():
     errors={}
     successes={}
     new=0
+    new_by_topic={}
     for f in feeds:
         name=f["name"]
         try:
@@ -144,6 +145,7 @@ def main():
                 "evidenceType":"publisher RSS headline/link — source not full-text verified"
             }
             added+=1;new+=1
+            for tag in labels:new_by_topic[tag]=new_by_topic.get(tag,0)+1
         print(name,"items",len(items),"new tagged",added,flush=True)
         time.sleep(.2)
     if len(successes)<3:
@@ -165,7 +167,7 @@ def main():
         "collectionMethod":"Publisher + official RSS feeds; headline title/link only",
         "sourceFeedsConfigured":len(feeds),"queriesTotal":len(feeds),"queriesSucceeded":len(successes),
         "queriesFailed":errors,"feedItemsSeen":successes,"newUniqueArticles":new,
-        "retainedArticles":len(all_articles),"counts14d":counts,"oldestRetainedAt":coverage_start,
+        "retainedArticles":len(all_articles),"counts14d":counts,"newByTopic":new_by_topic,"oldestRetainedAt":coverage_start,
         "lookbackDays":int(opts.get("lookbackDays",14)),
         "coverageWarning":"Selected publisher feeds only; RSS feeds vary in update frequency and length, no exhaustive news or CDS price data.",
         "cdsStatus":"CDS-related press headlines; no verified live named-issuer CDS spreads"
@@ -177,7 +179,7 @@ def main():
         "schema":1,"source":"Publisher and institutional RSS feeds","updatedAt":scan["asOf"],
         "retentionDays":int(opts.get("retentionDays",120)),
         "firstScanAt":old.get("firstScanAt") or scan["asOf"],
-        "firstCoveredAt":min(filter(None,[old.get("firstCoveredAt"),coverage_start]),default=coverage_start),
+        "firstCoveredAt":old.get("firstScanAt") or scan["asOf"],
         "coverage":"Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
         "articles":all_articles
     })
