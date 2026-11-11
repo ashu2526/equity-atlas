@@ -1,0 +1,380 @@
+{
+  "schema": 2,
+  "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
+  "briefs": [
+    {
+      "id": "2026-11-11-initial",
+      "asOf": "2026-11-11",
+      "createdAt": "2026-11-11T16:45:00Z",
+      "author": "ChatGPT interactive research",
+      "reviewType": "initial_review",
+      "publicationStatus": "Reviewed provisional baseline; not a validated daily automated AI run",
+      "marketSession": "After Indian cash market close",
+      "coverageWindow": {
+        "start": "2026-11-10",
+        "end": "2026-11-11"
+      },
+      "sourceArchiveAsOf": "2026-11-11",
+      "headline": "Foreign capital is rotating toward India, but sector positioning and the global risk backdrop are not uniformly bullish",
+      "executiveSummary": "The clearest verified shift is renewed foreign institutional buying in India's broad equity market after October withdrawals. Indian bank and auto stocks led price gains, although the latest fortnightly published FPI-sector data showed prior investment interest in IT/telecom rather than confirmed November financial-sector inflows. Oil-price moderation helps some importers, but shipping/geopolitical and monetary-policy risks remain. A global AI capex/valuation debate adds potential rotation pressure without proving an AI downturn.",
+      "regime": {
+        "label": "Selectively constructive / crosscurrents",
+        "change": "Baseline — no earlier equivalent daily AI assessment",
+        "confidence": "Moderate for India cash-market flow; low for a global cross-asset regime shift",
+        "marketConfirmation": "India indices and bank/auto sector gains; no complete verified international breadth/earnings revision/credit spread matrix yet",
+        "contradictions": [
+          "India FII aggregate buying does not identify which sectors they purchased on 11 November.",
+          "Late-October sector allocations may not match November sector price leadership.",
+          "AI valuation cooling and stronger AI demand headlines coexist.",
+          "Lower oil prices may not translate to lower delivered energy costs if shipping insurance rises."
+        ],
+        "missingSignals": [
+          "Current country-by-country investment fund net flows",
+          "Verified live CDS spreads and changes",
+          "Broad cross-asset weekly returns and volatility regime",
+          "Comparable forward EPS revision datasets",
+          "November fortnightly sector NSDL exposures not yet published"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "India FII/FPI cash-market net",
+          "value": "+₹12,563.33 crore",
+          "period": "11 Nov 2026",
+          "dataClass": "Provisional aggregate cash transaction",
+          "source": "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html"
+        },
+        {
+          "name": "India DII cash-market net",
+          "value": "−₹8,434.53 crore",
+          "period": "11 Nov 2026",
+          "dataClass": "Provisional aggregate cash transaction",
+          "source": "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html"
+        },
+        {
+          "name": "India FII month-to-date reported",
+          "value": "+₹65,735.32 crore",
+          "period": "1–11 Nov 2026",
+          "dataClass": "Reported aggregate, source-dependent revision possible",
+          "source": "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html"
+        },
+        {
+          "name": "Indian bank sector performance",
+          "value": "+1.8%",
+          "period": "11 Nov 2026 session",
+          "dataClass": "Sector price return—not transaction flow",
+          "source": "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+        },
+        {
+          "name": "Indian auto sector performance",
+          "value": "+2.1%",
+          "period": "11 Nov 2026 session",
+          "dataClass": "Sector price return—not transaction flow",
+          "source": "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+        },
+        {
+          "name": "Reported late-October IT + telecom sector FPI net",
+          "value": "+₹21,980 crore",
+          "period": "16–31 Oct 2026",
+          "dataClass": "Fortnightly sector investment; lagged",
+          "source": "https://www.kotakneo.com/news/market-news/fiis-buy-it-and-telecom-stocks-as-financials-and-fmcg-see-outflows/"
+        }
+      ],
+      "stories": [
+        {
+          "id": "india-foreign-reversal",
+          "rank": 1,
+          "importance": "Major",
+          "theme": "Institutional flows",
+          "geography": "India",
+          "title": "Foreign buying shifts the marginal buyer in Indian equities",
+          "whatHappened": "Reported provisional FII purchases reached roughly ₹12,563 crore in the 11 November session; November buying reverses October's net withdrawals.",
+          "whyItMatters": [
+            "The investor base at the margin matters for liquid, heavily foreign-owned names.",
+            "Sustained flows may support relative valuation and market breadth, but the initial squeeze can overshoot fundamentals."
+          ],
+          "smartMoney": "Observed aggregate Indian cash-market net buying. No sector breakdown for 11 Nov is implied.",
+          "direct": "Large/liquid Indian equities, especially globally owned franchises",
+          "proxies": "Brokers, exchanges, select financial services, foreign-owned large caps",
+          "whatCouldChange": "Two weeks of persistent flow breadth and EPS revisions; verify NSDL sector release",
+          "caution": "FPI flows can reverse quickly if global yields or earnings outlook change.",
+          "sources": [
+            "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Observed flows + analyst interpretation"
+        },
+        {
+          "id": "sector-flow-vs-price",
+          "rank": 2,
+          "importance": "Major",
+          "theme": "Capital allocation",
+          "geography": "India",
+          "title": "Price leadership in banks and autos contrasts with lagged FPI sector positioning",
+          "whatHappened": "Banks and autos rallied on 11 November, but reported 16–31 October FPI sector flows showed buying in IT/telecom and withdrawals in financials and autos.",
+          "whyItMatters": [
+            "Price leadership may lead a sector-allocation turn, but it does not establish that institutions already rotated there.",
+            "The next NSDL fortnightly release is the crucial confirmation."
+          ],
+          "smartMoney": "Last available cited NSDL sector observation is from late October; current November sector flows not verified.",
+          "direct": "Financials, autos, IT and telecom",
+          "proxies": "Tyres, lenders, auto components, market intermediaries",
+          "whatCouldChange": "New NSDL fortnightly FPI allocations versus bank/auto relative strength",
+          "caution": "Mixed dates and definitions; trade and AUC data differ.",
+          "sources": [
+            "https://www.kotakneo.com/news/market-news/fiis-buy-it-and-telecom-stocks-as-financials-and-fmcg-see-outflows/",
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+          ],
+          "evidenceType": "Reported sector flows and observed price action"
+        },
+        {
+          "id": "oil-shipping-contradiction",
+          "rank": 3,
+          "importance": "High",
+          "theme": "Energy and geopolitical transmission",
+          "geography": "Global → India",
+          "title": "Lower crude offers input relief, but delivered-cost risks remain",
+          "whatHappened": "Brent oil prices eased while reported shipping/route risks around Hormuz persisted.",
+          "whyItMatters": [
+            "Fuel and petrochemical input users may see a margin tailwind after inventory and pricing lags.",
+            "Shipping insurance and freight can offset commodity price declines."
+          ],
+          "smartMoney": "Commodity-price narrative; no measured sector inflows yet.",
+          "direct": "Airlines, chemicals, oil-importing firms",
+          "proxies": "Paints, tyres, logistics, INR-sensitive demand",
+          "whatCouldChange": "Sustained landed input-cost relief and stronger gross margins",
+          "caution": "Conflict escalates, freight spikes or competitive price cuts remove margin relief.",
+          "sources": [
+            "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+          ],
+          "evidenceType": "Reported commodity/geopolitical developments + conditional sector model"
+        },
+        {
+          "id": "ai-bifurcation",
+          "rank": 4,
+          "importance": "High",
+          "theme": "AI investment cycle",
+          "geography": "US and global → India",
+          "title": "AI monetisation anxiety conflicts with continued AI infrastructure demand",
+          "whatHappened": "Market reporting noted renewed debate over returns on heavy AI capital spending, while newer articles also described enthusiasm for AI-related companies.",
+          "whyItMatters": [
+            "A crowded trade can see multiple compression before orders weaken.",
+            "AI data-centre grid, cooling and power suppliers may have different earnings sensitivity than GPU or software vendors."
+          ],
+          "smartMoney": "No verified cross-border fund-flow allocation toward or away from AI in this baseline.",
+          "direct": "AI infrastructure, semiconductors, data centres",
+          "proxies": "Indian grid equipment, cooling, electrical engineering, IT outsourcing",
+          "whatCouldChange": "Verified hyperscaler capex and order-book revisions relative to consensus",
+          "caution": "Equity volatility and headlines cannot establish a sector funding collapse.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+            "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation"
+          ],
+          "evidenceType": "Mixed reporting; analytical inference"
+        },
+        {
+          "id": "rates-inflation",
+          "rank": 5,
+          "importance": "High",
+          "theme": "Rates, credit and policy",
+          "geography": "US and India",
+          "title": "Inflation and funding costs could challenge a flow-led rally",
+          "whatHappened": "Central-bank inflation worries and policy narratives remain material; Federal Reserve and RBI signals require separate treatment.",
+          "whyItMatters": [
+            "Higher financing rates can pressure leveraged firms, real estate and valuation multiples.",
+            "Bank net-interest margins and deposit costs may diverge from broad credit growth."
+          ],
+          "smartMoney": "No verified changes in issuer CDS spreads or cross-country fixed-income flow data.",
+          "direct": "Banks, NBFCs, real estate, duration-sensitive businesses",
+          "proxies": "Homebuilding inputs, consumer durables",
+          "whatCouldChange": "Verified yields, spreads, RBI/Fed minutes, bond auctions and lending surveys",
+          "caution": "Headline mentions of an institution are not a change in its credit risk.",
+          "sources": [
+            "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=24516",
+            "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+          ],
+          "evidenceType": "Central-bank/risk monitoring; incomplete live spread observations"
+        },
+        {
+          "id": "global-policy",
+          "rank": 6,
+          "importance": "Moderate",
+          "theme": "Elections and trade",
+          "geography": "US, EU, China and India",
+          "title": "Trade and election decisions merit a policy implementation watch",
+          "whatHappened": "Changes in trade enforcement and policy debate are appearing across multiple markets.",
+          "whyItMatters": [
+            "Implemented changes can transfer margins among importers, exporters and local substitutes.",
+            "Market expectations often price announcements before orders or earnings adjust."
+          ],
+          "smartMoney": "No reliable country capital-flow conclusion from policy headlines alone.",
+          "direct": "Exporters, trade-sensitive manufacturers",
+          "proxies": "Contract manufacturers, logistics, solar, specialty chemicals",
+          "whatCouldChange": "Official tariff schedules, customs notices, orders and currency response",
+          "caution": "Do not extrapolate from one import shipment dispute to all sectors.",
+          "sources": [
+            "https://www.reuters.com/world/india/india-holds-pernod-diageo-scotch-shipments-investigators-seek-higher-tariff-2026-11-11/",
+            "https://www.wto.org/"
+          ],
+          "evidenceType": "Specific verified policy reporting, broader scenario unconfirmed"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Banking and liquid financials",
+          "signal": "Emerging watch",
+          "why": "Strong aggregate foreign buying and bank price action; sector-specific flows await confirmation.",
+          "confidence": "Moderate-low",
+          "confirmation": "Fortnightly NSDL sector flow + quarterly asset quality and EPS revisions",
+          "risk": "Global yield reversal, valuation overshoot",
+          "proxies": [
+            "Brokers",
+            "Exchanges",
+            "Financial distributors"
+          ]
+        },
+        {
+          "sector": "Autos and vehicle ecosystem",
+          "signal": "Emerging watch",
+          "why": "Sector price leadership and demand expectations, but late-October FPI allocations were negative.",
+          "confidence": "Low–moderate",
+          "confirmation": "Retail registrations, inventory, actual sector FPI direction",
+          "risk": "Funding costs and input inflation",
+          "proxies": [
+            "Tyres",
+            "Auto components",
+            "Vehicle finance"
+          ]
+        },
+        {
+          "sector": "Oil-sensitive importers",
+          "signal": "Conditional tailwind",
+          "why": "Potential cost relief from weaker crude if freight normalises.",
+          "confidence": "Low–moderate",
+          "confirmation": "Net input spread, landed cost and margins",
+          "risk": "Shipping or crude rebound",
+          "proxies": [
+            "Paints",
+            "Tyres",
+            "Airlines"
+          ]
+        },
+        {
+          "sector": "AI electrical/power supply chain",
+          "signal": "Split / monitor",
+          "why": "Possible structural orders but equity valuation/AI economics contested.",
+          "confidence": "Low",
+          "confirmation": "Capex orders, utilization and ROIC, relative price trend",
+          "risk": "Excess capacity, capex cancellations",
+          "proxies": [
+            "Transformers",
+            "Cooling",
+            "Cables"
+          ]
+        },
+        {
+          "sector": "Hospitals",
+          "signal": "Structural watch",
+          "why": "Strong long-term demand but not a confirmed fresh money-flow regime change.",
+          "confidence": "Moderate structural",
+          "confirmation": "Incremental occupancy and cash ROIC",
+          "risk": "Dilution and capex",
+          "proxies": [
+            "Diagnostics",
+            "Medtech"
+          ]
+        }
+      ],
+      "cooling": [
+        {
+          "theme": "Crowded global AI equity positioning",
+          "reason": "Questions about investment returns and valuations, not confirmed structural demand weakness.",
+          "disconfirm": "Rising actual orders/earnings and sustained relative strength"
+        },
+        {
+          "theme": "Domestic institutions as marginal buyer",
+          "reason": "Reported domestic institutional net selling in November contrasted with returning foreign buyers.",
+          "disconfirm": "Fresh DII buying and better domestic fund flows"
+        }
+      ],
+      "risks": [
+        {
+          "name": "Oil and Hormuz shipping",
+          "status": "Elevated uncertainty",
+          "why": "Potential delivered input-cost spike even when benchmark crude eases.",
+          "trigger": "Escalation and tanker disruptions"
+        },
+        {
+          "name": "Rates and global credit",
+          "status": "Unverified cross-asset direction",
+          "why": "No live cross-asset spread series or issuer CDS integrated.",
+          "trigger": "Validated HY spreads, government yields and CDS event evidence"
+        },
+        {
+          "name": "Trade and election implementation",
+          "status": "Watch",
+          "why": "Policy proposals differ from enacted tariffs and company exposure.",
+          "trigger": "Official enacted rule or material company disclosure"
+        },
+        {
+          "name": "High valuation versus flows",
+          "status": "Watch",
+          "why": "One-off foreign liquidity can improve prices faster than earnings.",
+          "trigger": "Earnings revision breadth and valuations"
+        },
+        {
+          "name": "AI capex spending reversal",
+          "status": "Ambiguous",
+          "why": "Risk to highly capital-intensive supply chains, evidence mixed.",
+          "trigger": "Capex cuts or falling orderbooks"
+        }
+      ],
+      "whatChanged": [
+        {
+          "signal": "India aggregate FII flows",
+          "direction": "Improving",
+          "basis": "Strong November purchases reverse October outflows",
+          "confidence": "Reported cash data"
+        },
+        {
+          "signal": "India bank and auto relative price action",
+          "direction": "Improving",
+          "basis": "Leaders in 11 November session",
+          "confidence": "Reported price action"
+        },
+        {
+          "signal": "Country/sector flow confirmation",
+          "direction": "Pending",
+          "basis": "Latest sector FPI observation is from late October",
+          "confidence": "Insufficient newer official sector data"
+        },
+        {
+          "signal": "Oil input cost",
+          "direction": "Potentially easing",
+          "basis": "Benchmark crude lower, freight uncertain",
+          "confidence": "Conditional"
+        },
+        {
+          "signal": "Global credit/CDS",
+          "direction": "Not measured",
+          "basis": "No issuer CDS time series connected",
+          "confidence": "Unavailable"
+        }
+      ],
+      "tomorrowChecklist": [
+        "NSE provisional FII/DII trade report",
+        "NSDL latest sector allocation when released",
+        "Bank/auto market breadth and post-earnings revisions",
+        "Brent and physical freight costs",
+        "Actual Fed/RBI rates and bond yield moves",
+        "Important tariffs/orders and disclosed company exposure"
+      ],
+      "sources": [
+        "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html",
+        "https://www.kotakneo.com/news/market-news/fiis-buy-it-and-telecom-stocks-as-financials-and-fmcg-see-outflows/",
+        "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+      ],
+      "limitations": "No continuous full-news coverage, global flow API, CDS price feed or validated systematic equity factor data. Distinguish reported flows, observed price, and analyst inference. All facts anchored to 11 Nov 2026."
+    }
+  ]
+}
