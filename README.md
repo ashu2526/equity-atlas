@@ -51,3 +51,22 @@ Scenario equity value per share is `(EBITDA × EV/EBITDA − net debt + unspent 
 - The shortlist is saved in `localStorage` of your own browser only; it does **not** automatically update Google Sheets or sync between devices. Export the shortlist as JSON or copy a research prompt.
 - To update the site from the Sheet later, share/publish the research-only tab for anonymous reading. Do not publish personal holdings, private trade information, API keys or personal details. GitHub Pages itself is public.
 - Research order can differ from portfolio allocation decisions: **BKT** is an off-highway specialist whereas **MRF / Apollo Tyres** are larger diversified businesses. Never infer a fixed portfolio weight from the ranking.
+
+## Market Regime & News Radar — 11 November 2026
+
+Open [Market & News Radar](https://ashu2526.github.io/equity-atlas/news-radar.html) from the main dashboard.
+
+**What is already built**
+- User-selected 7/14/30-day or custom date windows with the **equal-length preceding period** shown as a comparator.
+- 13 macro theme maps showing first-order sector effects, second-order/proxy opportunities, what would confirm the theme and what would invalidate it.
+- Curated, source-linked 11 Nov 2026 initial events and a separate source/provenance methodology.
+- Global risk board covering **sovereign/mega-company CDS headlines, credit stress proxies, elections, trade wars, conflict, energy shipping, weather and policy**. **No issuer or sovereign live CDS spreads.** US HY OAS may help as a stress proxy, not a CDS substitute.
+- A daily GitHub Actions RSS scanner and durable JSON storage in `data/news/articles.json` and `data/news/scans.json`. Source config: `data/news/config.json`. Schedule: 02:21 UTC daily (07:51 IST). Manual starts are possible on the workflow's **Actions → Run workflow** page.
+- First successful RSS scan: **11 Nov 2026 UTC**. It fetched 14 of 15 publisher/institution feeds, deduplicated 138 relevant headline links, and recorded the failed UN feed. The observed headline coverage is partial, not comprehensive.
+- Changing dates does **not** initiate a historical web crawl: it filters existing archived links. Publisher feeds don't expose every older article.
+- Headline `positive/negative/neutral` tone is a simple disclosed lexical count, *not* full-text sentiment or a recommendation. Topic-count changes are *attention signals*, not confirmed market regimes.
+- Compare `Since the previous archived scan` for newly discovered headlines. Matched-window regime comparison is flagged insufficient until sufficient actual continuously collected coverage exists.
+
+**Architecture and privacy:** GitHub Pages hosts static HTML; the page reads public JSON from the repository's `main` branch. Scheduled GitHub Actions commits public RSS metadata and scan histories. Google Sheets stores the manually curated thematic exposures and editorial source log; the GitHub `editorial.json` is its published, dated copy. Edits to the Sheet do **not** automatically flow into this news website. Never publish personal holdings, secrets or confidential notes. The site is public.
+
+**Limitations:** Publisher source availability, RSS headline length, keyword tagging, duplicate reporting and incomplete coverage create sampling biases. Coverage does not include full CDS pricing, an exhaustive global election calendar, verified company-wide credit spread moves, an authenticated sentiment model or automated cross-asset confirmation. Confirm major investment decisions with official filings, credit releases, central banks, exchange reports and market data.
