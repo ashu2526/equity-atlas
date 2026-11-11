@@ -79,3 +79,27 @@ Open [Market & News Radar](https://ashu2526.github.io/equity-atlas/news-radar.ht
 4. **Website:** [Market & News Radar](https://ashu2526.github.io/equity-atlas/news-radar.html) displays current news climate and separately dated AI-reviewed interpretations; [homepage](https://ashu2526.github.io/equity-atlas/) displays both summaries. The AI archive is versioned; an initial provisional assessment is seeded as of 11 Nov 2026.
 5. **Cost and safety:** This design requires no paid LLM API key and makes no GitHub Models calls. It does use GitHub Actions minutes and a ChatGPT automation (subject to plan and platform limits); public GitHub Pages and repository JSON expose published research. Do not put credentials, private holdings or sensitive data in the archive. RSS/metadata use and news source availability are subject to upstream conditions.
 6. **Validation:** AI conclusions must distinguish signal from speculation, source timestamps from discovery timestamps, news attention from cross-asset market regime evidence, and source-confirmed data from model-generated hypotheses.
+
+## NIFTY Sector Rotation and Polymarket — added 11 Nov 2026
+
+Live page: [Sector Rotation × Polymarket](https://ashu2526.github.io/equity-atlas/signals.html) — linked directly from the home page, Sector Intelligence and Market Intelligence Desk.
+
+### Sector leadership / momentum
+- [NSE official All Reports](https://www.nseindia.com/all-reports) contains daily **All Indices Daily Close** CSV files (`ind_close_all_DDMMYYYY.csv`). `scripts/sector_rotation.py` reconstructs approximately 120 calendar days of index closes, caching source series and updating recent sessions.
+- Coverage includes **NIFTY 50** plus 19 sector/industry indices (banks, PSU banks, private banks, media, metals, pharma, FMCG, auto, healthcare, consumer durables, etc.).
+- Calculates **7-day**, **30-day** and **91-day** price returns, sector vs NIFTY 50 three-month relative return (in *percentage points*), and **monthly momentum acceleration** (latest 30d price return minus preceding 30d). Returns use matched/as-available historical close dates, and the chart plots sector/NIFTY 50 common trading dates rebased to 100.
+- Ranks are **relative price leadership** only. Rising index values cannot establish where FPI/DII money actually flowed; use NSDL FPI sector data and NSE FII/DII turnover separately. Price indices exclude dividends, and index methodology/weights can change.
+- Source fallback to Yahoo Finance public chart is explicitly tagged for any instrument where NSE cannot supply sufficient history. Never fill missing historical price points with guesses. See `data/market-signals/sector-rotation.json` and `index-history.json`.
+
+### Polymarket public global-event market data
+- Official reference: [Polymarket Agent Skills / Market Data](https://github.com/Polymarket/agent-skills/blob/main/market-data.md). Discovery is through Polymarket's **unauthenticated, read-only Gamma API** (`https://gamma-api.polymarket.com/events`). We intentionally avoid wallet/trading/credential SDKs: the older official `py-clob-client` repository was archived during 2026.
+- `scripts/polymarket_monitor.py` samples active events ordered by reported trading activity; screens unresolved **binary YES/NO contracts** by relevance to interest rates, elections, trade policy, conflict, AI, energy and system risk; removes obviously unrelated sports/entertainment events.
+- The dashboard shows exact market question, outcome YES quote as a percentage, 24-hour trading volume, reported market liquidity, expiry, link to the actual contract and the economic sectors potentially exposed. It adds probability-change comparisons only between previously archived quote snapshots.
+- The **News × Event Odds** view associates specific macro-tagged news via conservative title-keyword overlap. These are *related stories*, not a certification that the article validates that contract's payout conditions.
+- Markets may be speculative, thinly traded or manipulated. YES quoted prices are **market-implied contract values**, not rigorously calibrated odds, certainty, verified news or investor flow. Polymarket trading volume is not equity fund flow. No betting or wallet functions are used.
+- Source data: `data/market-signals/polymarket.json` and `polymarket-history.json`.
+
+### Refresh / reliability
+- The independent GitHub Action `.github/workflows/market-signals.yml` refreshes twice daily (03:35 and 15:15 UTC, i.e. about 09:05 and 20:45 IST) and supports manual runs. Runs can be inspected under **Actions**.
+- The **daily ChatGPT morning intelligence task** has been updated to review both datasets, check important global Polymarket odds and 3-month sector price leadership, and distinguish that from verified institutional sector/country fund flows.
+- Public GitHub Pages fetches the latest committed JSON; it does not call the trading venue from the user's browser.
