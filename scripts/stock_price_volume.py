@@ -39,7 +39,57 @@ def good(v):
         return x if math.isfinite(x) else None
     except (ValueError,TypeError):return None
 
+def fetch_tej(ticker):
+    """Prefer open, keyless exchange-bhavcopy-derived daily OHLCV if reachable.
+
+    Provider: https://tejhq.dev/docs ; actual numerical rows must be checked
+    against official NSE for high-stakes use. Source does not claim licensed
+    exchange redistribution or real-time quotes.
+    """
+    start=(TODAY-dt.timedelta(days=560)).isoformat()
+    url="https://api.tejhq.dev/v1/ohlcv/nse/"+quote(ticker,safe="")+"?from="+start+"&to="+TODAY.isoformat()
+    req=Request(url,headers={"User-Agent":"EquityAtlas/1.0 (public research; no trading)",
+        "Accept":"application/json"})
+    try:
+        with urlopen(req,timeout=15) as resp:
+            root=json.loads(resp.read(3_500_000))
+        if isinstance(root,list):records=root
+        elif isinstance(root,dict):
+            records=root.get("data",root.get("rows",root.get("candles",[])))
+            if isinstance(records,dict):records=records.get("data",records.get("items",[]))
+        else:records=[]
+        if not isinstance(records,list):return None
+        data=[]
+        for row in records:
+            if not isinstance(row,dict):continue
+            def pick(*keys):
+                for key in keys:
+                    if row.get(key) is not None:return row[key]
+                return None
+            day=str(pick("date","Date","trade_date","tradeDate") or "")[:10]
+            if len(day)!=10 or day>TODAY.isoformat():continue
+            op=good(pick("open","OPEN","open_price","o"))
+            hi=good(pick("high","HIGH","high_price","h"))
+            lo=good(pick("low","LOW","low_price","l"))
+            cl=good(pick("close","CLOSE","close_price","c"))
+            vol=good(pick("volume","VOLUME","qty","traded_quantity","v"))
+            if None in (op,hi,lo,cl,vol) or min(op,hi,lo,cl)<=0 or hi<lo or vol<0:continue
+            data.append({"date":day,"open":round(op,4),"high":round(hi,4),
+                         "low":round(lo,4),"close":round(cl,4),"volume":int(vol)})
+        data=list(sorted({x["date"]:x for x in data}.values(),key=lambda x:x["date"]))
+        local=dt.datetime.now(ZoneInfo("Asia/Kolkata"))
+        if local.weekday()<5 and local.hour<16 and data and data[-1]["date"]==TODAY.isoformat():
+            data.pop()
+        if len(data)<MIN_HISTORY:return None
+        if (TODAY-dt.date.fromisoformat(data[-1]["date"])).days>7:return None
+        return {"ticker":ticker,"bars":data,
+                "source":"TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
+                "sourceUrl":"https://tejhq.dev/docs","splits":[]}
+    except Exception:return None
+
 def fetch(ticker):
+    tej=fetch_tej(ticker)
+    if tej:return tej
     symbol=ticker+".NS"
     error=[]
     for domain in ("query1.finance.yahoo.com","query2.finance.yahoo.com"):
