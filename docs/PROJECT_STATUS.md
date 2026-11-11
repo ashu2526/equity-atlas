@@ -65,3 +65,24 @@ A new theme should only be promoted after (i) clear evidence the event happened,
 ## 7. What to do next
 
 See [ROADMAP_AND_QA.md](ROADMAP_AND_QA.md): secure daily AI write-back reliability, actual capital-flow feeds and validation, data quality monitoring, more meaningful news/event linkage, and automated browser tests.
+
+
+## 12 November 2026 — expanded operating model
+
+A new coordinated twice-daily refresh has been implemented: RSS and market-signals collectors target 07:00 and 19:00 IST. ChatGPT morning/evening market intelligence is scheduled around 07:25/19:25 IST and is still subject to an actual source-verified GitHub write-back test. A monthly valuation audit is scheduled on the first day of each month, around 07:45 IST.
+
+New scalable stock technical surveillance:
+- 22 NSE company symbols defined in data/market-signals/watch-universe.json.
+- scripts/stock_price_volume.py automatically collects dated daily OHLCV, computes 20/50/200-session trend context, 20/55-session abnormal-volume breakouts, breakdowns, CMF/OBV divergence, RSI, and 200-DMA reclaim/loss and short/long conflict watches.
+- company-signals.html renders searchable watch universe, stock price/volume chart, alerts with confirming/invalidation criteria and direct market/sector research links.
+- First successful source-prioritized run retrieved 22/22 price series as of 11 Nov 2026 via a publicly accessible NSE-bhavcopy-derived third-party API; HDFC Bank and SBI showed possible 200-DMA reclaim watches. This is not institutional evidence or a buy signal.
+- If prices are delayed beyond two weekday trading sessions or appear split/distortion-affected, active alerts are withheld.
+
+UI redesign/information architecture:
+- Root DESIGN.md records OpenDesign trading/dashboard references and original Equity Atlas design tokens.
+- Universal Research/Markets navigation, contextual sidebars, optional Paper/dark mode and accessible focus states across six public pages, with no heavy frontend framework.
+- Home page adds dated links to current company technical research.
+
+CI quality gate: .github/workflows/quality-gate.yml checks scripts, public JSON, page controls, source staleness and schedules; its first run passed.
+
+Detailed formulas, provenance and remaining limitations are in docs/REFRESH_AND_TECHNICAL.md. Prior sections above are a historical 11 Nov baseline; this section supersedes their schedule/future-work descriptions.
