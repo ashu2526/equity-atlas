@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "asOf": "2026-11-12",
+  "description": "Technical-analysis watch universe. Extend by adding an NSE symbol with no .NS suffix and a display name; automatic OHLCV ingestion will start next twice-daily refresh.",
+  "source": "Existing Equity Atlas hospital and tyre sector coverage plus selected liquid Indian cross-sector reference companies.",
+  "stocks": [
+    {
+      "ticker": "YATHARTH",
+      "name": "Yatharth Hospital",
+      "sector": "Hospitals",
+      "primaryResearch": true
+    },
+    {
+      "ticker": "NH",
+      "name": "Narayana Hrudayalaya",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "MAXHEALTH",
+      "name": "Max Healthcare",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "RAINBOW",
+      "name": "Rainbow Children's Medicare",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "MEDANTA",
+      "name": "Global Health / Medanta",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "FORTIS",
+      "name": "Fortis Healthcare",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "JLHL",
+      "name": "Jupiter Life Line Hospitals",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "KIMS",
+      "name": "Krishna Institute of Medical Sciences",
+      "sector": "Hospitals"
+    },
+    {
+      "ticker": "BALKRISIND",
+      "name": "Balkrishna Industries",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "MRF",
+      "name": "MRF",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "APOLLOTYRE",
+      "name": "Apollo Tyres",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "CEATLTD",
+      "name": "CEAT",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "JKTYRE",
+      "name": "JK Tyre",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "TVSSRICHAK",
+      "name": "TVS Srichakra",
+      "sector": "Tyres"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Banking"
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Banking"
+    },
+    {
+      "ticker": "SBIN",
+      "name": "State Bank of India",
+      "sector": "Banking"
+    },
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries",
+      "sector": "Energy / Diversified"
+    },
+    {
+      "ticker": "TCS",
+      "name": "TCS",
+      "sector": "IT"
+    },
+    {
+      "ticker": "INFY",
+      "name": "Infosys",
+      "sector": "IT"
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "name": "Bajaj Finance",
+      "sector": "NBFC"
+    }
+  ],
+  "rules": {
+    "ticker": "NSE exchange symbol, alphanumeric only, mapped to {ticker}.NS by collector",
+    "noPositionData": true,
+    "technicalNotRecommendation": true
+  }
+}
