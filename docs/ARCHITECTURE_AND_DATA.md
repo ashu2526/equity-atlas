@@ -115,3 +115,16 @@ Google Sheets CSV fetch occurs **in the browser** and succeeds only if public-re
 - Data is globally readable once in public repo. **Never commit passwords, private notes, API keys or user finances**.
 
 For operations and recovery see [OPERATIONS_RUNBOOK.md](OPERATIONS_RUNBOOK.md).
+
+
+## 12 November 2026 — new architecture additions
+
+- Root DESIGN.md and assets/equity-ui.css define the shared appearance; assets/equity-shell.js injects grouped page navigation and optional paper/dark preference.
+- company-signals.html, assets/company-signals.css and assets/company-signals.js form a lightweight technical surveillance page for additional company research.
+- data/market-signals/watch-universe.json lists NSE symbols. Price-history collector scripts/stock_price_volume.py writes stock-price-volume.json (company metadata, last close, OHLCV, 20/50/200-day trend, volume, CMF, OBV, RSI and interpreted mechanical alerts with tests) and price-volume-history.json (AM/PM snapshots).
+- The signals Action runs the price-volume script after NSE and Polymarket collection and stages the new data. The independent news Action also runs twice daily. Both target 07:00 and 19:00 IST.
+- ChatGPT's AI AM/PM interpretation and monthly valuation review are external schedules; they require actual connector permission and a successful GitHub/Sheet write, distinct from GitHub Actions.
+- scripts/validate_site.py and .github/workflows/quality-gate.yml are the reusable code/data/UI validation gate.
+- See docs/REFRESH_AND_TECHNICAL.md and DESIGN.md for the exact contracts.
+
+The six-page taxonomy now groups Company Research, Sector Intelligence and Price × Volume under RESEARCH; Morning Intelligence, Rotation × Odds and News Archive under MARKETS. A future truly generic company research route should replace hard-coded Yatharth-specific pages gradually, not destroy baseline financial history.
