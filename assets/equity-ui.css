@@ -119,3 +119,19 @@ html[data-atlas-theme="paper"] tbody tr:hover{background:#e4f5f0}
  .panel,.card{padding:14px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+
+/* Home research summary — optional source-linked technical watch queue. */
+.ea-home-hub{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;
+ background:linear-gradient(105deg,#153d3d,#143244);padding:15px 18px;margin:0 0 14px;
+ border:1px solid #477c73;border-radius:13px}
+.ea-home-hub strong{font-size:16px}.ea-home-hub p{margin:4px 0 7px;font-size:12px;color:#b5d0d7}
+.ea-home-alerts{display:flex;flex-wrap:wrap;gap:7px;color:#c0d9df;font-size:11px}
+.ea-signal-link{border:1px solid #568781;padding:5px 8px;border-radius:8px;font-size:11px;color:#c4fcdf}
+.ea-home-cta{flex-shrink:0;text-decoration:none;background:#2c7b69;color:white;border-radius:9px;
+ padding:10px 12px;font-size:12px;font-weight:750}
+.ea-home-cta:hover{text-decoration:none;background:#338d78;color:#fff}
+html[data-atlas-theme="paper"] .ea-home-hub{background:#e8f6f0;color:#143d40}
+html[data-atlas-theme="paper"] .ea-home-hub p{color:#426b70}
+html[data-atlas-theme="paper"] .ea-signal-link{color:#086653;border-color:#a4cfbe}
+html[data-atlas-theme="paper"] .ea-home-cta{color:white}
