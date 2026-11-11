@@ -401,9 +401,9 @@
     },
     {
       "Field": "News source",
-      "Rule": "GDELT article-link discovery with dates, domains and headlines; source confirmation by analyst",
-      "Reason": "GDELT samples news monitoring, does not verify claims",
-      "Implementation Status": "Scheduled ingestion planned"
+      "Rule": "Publisher/primary-institution RSS feeds; keyword-tagged titles, article URLs, original publication timestamps; editorial claims still require source validation",
+      "Reason": "Publisher feeds have gaps, caps and potential access failures; headlines are not full-text evidence",
+      "Implementation Status": "Automatic daily collection active; feed failures visibly recorded"
     },
     {
       "Field": "Snapshot history",
@@ -467,9 +467,9 @@
     }
   ],
   "coverage": {
-    "news": "Seven manually curated events, not comprehensive",
+    "news": "Seven manually verified/publicly sourced research events plus a separately timestamped, sampled RSS article archive. It is not comprehensive.",
     "CDS": "No live entity or sovereign CDS quotes",
-    "comparison": "No valid change score until automated article archive spans both equal windows",
+    "comparison": "Historical comparisons require actual overlapping source collection across both windows; a newly collected old RSS item is not evidence of complete older coverage.",
     "marketConfirm": "No automated price/breadth/earnings factor yet"
   }
 }
