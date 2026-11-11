@@ -55,3 +55,10 @@ html[data-atlas-theme="paper"] .pv-stock.active{background:#dcf3ea}
 html[data-atlas-theme="paper"] .pv-comparison p{background:#eef6f5;color:#315466}
 @media(max-width:1000px){.pv-layout{grid-template-columns:1fr}.pv-stock-list{max-height:410px}.pv-metrics{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:530px){.pv-metrics,.pv-method,.pv-comparison{grid-template-columns:1fr}.pv-controls input{width:100%}.pv-panel{padding:13px}}
+
+.pv-actions{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.pv-actions a{font-size:12px}
+.pv-queue{border:1px solid #539481;background:#1f594f;color:#ecfff3;border-radius:9px;
+ padding:9px 12px;font-weight:750;font-size:12px;cursor:pointer}
+.pv-queue:hover{background:#287462}
+html[data-atlas-theme="paper"] .pv-queue{background:#08766c;color:#fff}
