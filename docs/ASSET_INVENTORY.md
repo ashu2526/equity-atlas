@@ -51,3 +51,17 @@ Such a combined private archive is for the owner only; sharing it can disclose t
 ## Future archive hygiene
 
 After major refinements: update this inventory, regenerate source ZIP from a specific commit, export current Sheet privately, and label old screenshots/reports by date. Preserve older analysis in the research history rather than silently altering the narrative.
+
+
+## 12 November 2026 additions to canonical source ZIP
+
+The current exporter now captures **all six public pages** (Yatharth/company research, Sector Intelligence, Company Price × Volume, Market Desk, News Archive and NIFTY Rotation × Polymarket), the portable root DESIGN.md, and all new assets under assets/:
+- equity-ui.css — common lightweight visual tokens and dark/paper themes.
+- equity-shell.js — global Research / Markets site navigation and homepage technical research link.
+- company-signals.css and company-signals.js — searchable company technical dashboard and shared research shortlist integration.
+
+New source data include watch-universe.json (22 NSE symbols), stock-price-volume.json (dated 20/55-breakout, relative-volume, CMF, OBV and 200-day trend context), and price-volume-history.json (AM/PM snapshots). The Python collector and source/status guards are in scripts/stock_price_volume.py. The new scripts/validate_site.py and quality-gate.yml provide automatic source and UI integrity checks.
+
+Backup automation now runs at **07:00 IST on the first calendar day of each month** and also when the exporter or core documentation/design files change. The ZIP intentionally excludes the private Google Sheet, user account automation definitions, credentials, untracked local working assets and Git history; they are separate external resources.
+
+Source output and formulas are documented by DESIGN.md and docs/REFRESH_AND_TECHNICAL.md.
