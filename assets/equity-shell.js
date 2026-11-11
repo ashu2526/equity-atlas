@@ -51,7 +51,7 @@ function init(){
   const overview=document.querySelector("#overview");
   if(overview){
    const panel=document.createElement("section");panel.className="ea-home-hub";
-   panel.innerHTML='<div><div class="ea-group-label">RESEARCH DESK / PRICE × VOLUME</div><strong>Company signal surveillance</strong><p>Technical patterns are research leads, not buy calls. Daily bar freshness is shown per symbol.</p><div class="ea-home-alerts" id="ea-home-alerts">Loading published stock observations…</div></div><a class="ea-home-cta" href="./company-signals.html">Explore 22 stocks ↗</a>';
+   panel.innerHTML='<div><div class="ea-group-label">RESEARCH DESK / PRICE × VOLUME</div><strong>Company signal surveillance</strong><p>Technical patterns are research leads, not buy calls. Daily bar freshness is shown per symbol.</p><div class="ea-home-alerts" id="ea-home-alerts">Loading published stock observations…</div></div><a class="ea-home-cta" href="./company-signals.html">Open technical research ↗</a>';
    overview.insertBefore(panel,overview.firstChild);
    fetch("./data/market-signals/stock-price-volume.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
     const target=document.getElementById("ea-home-alerts");if(!target)return;
