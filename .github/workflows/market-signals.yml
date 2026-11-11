@@ -9,6 +9,8 @@ on:
       - ".github/workflows/market-signals.yml"
       - "scripts/sector_rotation.py"
       - "scripts/polymarket_monitor.py"
+      - "scripts/stock_price_volume.py"
+      - "data/market-signals/watch-universe.json"
 permissions:
   contents: write
 concurrency:
@@ -34,6 +36,10 @@ jobs:
         id: polymarket
         continue-on-error: true
         run: python scripts/polymarket_monitor.py
+      - name: Refresh company price-volume surveillance and risk flags
+        id: stocksignals
+        continue-on-error: true
+        run: python scripts/stock_price_volume.py
       - name: Archive successful signals with source status
         run: |
           mkdir -p data/market-signals
@@ -46,7 +52,7 @@ jobs:
             git push origin "HEAD:${GITHUB_REF_NAME:-main}"
           fi
       - name: Report source availability
-        if: steps.nse.outcome != 'success' && steps.polymarket.outcome != 'success'
+        if: steps.nse.outcome != 'success' && steps.polymarket.outcome != 'success' && steps.stocksignals.outcome != 'success'
         run: |
-          echo "Both independent market signal collectors failed" >&2
+          echo "All three market signal collectors failed" >&2
           exit 1
