@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-11T15:40:05.055732Z",
+  "updatedAt": "2026-11-11T15:46:19.209557Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
@@ -20,6 +20,7 @@
         "inflation_rates"
       ],
       "feedSources": [
+        "Bloomberg Economics",
         "Bloomberg Markets"
       ],
       "headlineTone": "neutral",
@@ -59,6 +60,25 @@
       ],
       "feedSources": [
         "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3a270928c1cfd18b8d1b",
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T15:05:11Z",
+      "discovered": "2026-11-11T15:46:19.209557Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
@@ -440,8 +460,7 @@
       "published": "2026-11-10T22:52:15Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business",
@@ -461,8 +480,7 @@
       "published": "2026-11-10T21:08:00Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "Bloomberg Markets"
@@ -635,8 +653,7 @@
       "published": "2026-11-10T13:43:22Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "The Hindu Business",
@@ -714,8 +731,7 @@
       "published": "2026-11-10T09:23:55Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business",
@@ -754,8 +770,7 @@
       "published": "2026-11-10T08:23:21Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business",
@@ -816,8 +831,7 @@
       "published": "2026-11-09T21:52:28Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business",
@@ -838,8 +852,7 @@
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
         "ai_rotation",
-        "energy_shipping",
-        "tech_credit"
+        "energy_shipping"
       ],
       "feedSources": [
         "The Hindu Business",
@@ -859,8 +872,7 @@
       "published": "2026-11-09T19:58:01Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business",
@@ -900,8 +912,7 @@
       "published": "2026-11-09T14:50:35Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Technology"
@@ -979,8 +990,7 @@
       "published": "2026-11-09T07:48:39Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "The Hindu Business"
@@ -999,8 +1009,7 @@
       "published": "2026-11-09T07:10:11Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
-        "ai_rotation",
-        "tech_credit"
+        "ai_rotation"
       ],
       "feedSources": [
         "BBC Business"
@@ -1628,25 +1637,6 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
-      "id": "87f8c099ba59a62579d0",
-      "title": "Kotak Mahindra Bank gets CCI nod to acquire Deutsche Bank India's retail, private banking businesses",
-      "url": "https://www.thehindu.com/business/Industry/kotak-mahindra-bank-gets-cci-nod-to-acquire-deutsche-bank-indias-retail-private-banking-businesses/article71664408.ece",
-      "domain": "www.thehindu.com",
-      "sourcecountry": "",
-      "language": "English",
-      "published": "2026-11-04T06:53:01Z",
-      "discovered": "2026-11-11T15:38:40.000100Z",
-      "topics": [
-        "mega_credit"
-      ],
-      "feedSources": [
-        "The Hindu Industry"
-      ],
-      "headlineTone": "neutral",
-      "headlineLexicalScore": 0,
-      "evidenceType": "publisher RSS headline/link — source not full-text verified"
-    },
-    {
       "id": "a923f3ff90cd96b21bc0",
       "title": "Oil rises on Iran war uncertainty after Trump’s Republicans face election rout",
       "url": "https://www.thehindu.com/business/Economy/oil-rises-on-iran-war-uncertainty-after-trumps-republicans-face-election-rout/article71664204.ece",
@@ -1930,25 +1920,6 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
-      "evidenceType": "publisher RSS headline/link — source not full-text verified"
-    },
-    {
-      "id": "56774218fc2c39ccc769",
-      "title": "Why investors are worried despite Alphabet’s 25% revenue growth and Google Cloud’s revenue more than doubling | Explained",
-      "url": "https://www.thehindu.com/sci-tech/technology/why-investors-are-worried-despite-alphabets-25-revenue-growth-and-google-clouds-revenue-more-than-doubling-explained/article71648845.ece",
-      "domain": "www.thehindu.com",
-      "sourcecountry": "",
-      "language": "English",
-      "published": "2026-10-31T12:27:55Z",
-      "discovered": "2026-11-11T15:38:40.000100Z",
-      "topics": [
-        "tech_credit"
-      ],
-      "feedSources": [
-        "The Hindu Markets"
-      ],
-      "headlineTone": "positive",
-      "headlineLexicalScore": 1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
