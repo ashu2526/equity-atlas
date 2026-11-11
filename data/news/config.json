@@ -1,15 +1,16 @@
 {
   "schema": 1,
   "project": "Equity Atlas — Market Regime Radar",
-  "provider": "GDELT DOC 2.0 public API",
-  "providerDocs": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+  "provider": "Direct publisher and institutional RSS feeds",
+  "providerDocs": "https://www.federalreserve.gov/feeds/feeds.htm",
   "scan": {
     "lookbackDays": 14,
-    "requestIntervalSeconds": 6,
-    "maxRecordsPerTopic": 80,
+    "requestIntervalSeconds": 0.5,
+    "maxRecordsPerTopic": 100,
     "retentionDays": 120,
     "maxArchivedArticles": 6000,
-    "maxScanSummaries": 120
+    "maxScanSummaries": 120,
+    "maxFeedItems": 100
   },
   "topics": [
     {
@@ -92,5 +93,71 @@
       "query": "\"Nvidia\" \"debt\" AI OR \"data center\" \"financing\" credit",
       "label": "Technology credit"
     }
-  ]
+  ],
+  "feeds": [
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml"
+    },
+    {
+      "name": "BBC India",
+      "url": "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml"
+    },
+    {
+      "name": "BBC Middle East",
+      "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+    },
+    {
+      "name": "BBC Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "name": "The Hindu Business",
+      "url": "https://www.thehindu.com/business/feeder/default.rss"
+    },
+    {
+      "name": "The Hindu Markets",
+      "url": "https://www.thehindu.com/business/markets/feeder/default.rss"
+    },
+    {
+      "name": "The Hindu Economy",
+      "url": "https://www.thehindu.com/business/Economy/feeder/default.rss"
+    },
+    {
+      "name": "The Hindu Industry",
+      "url": "https://www.thehindu.com/business/Industry/feeder/default.rss"
+    },
+    {
+      "name": "Bloomberg Markets",
+      "url": "https://feeds.bloomberg.com/markets/news.rss"
+    },
+    {
+      "name": "Bloomberg Economics",
+      "url": "https://feeds.bloomberg.com/economics/news.rss"
+    },
+    {
+      "name": "Bloomberg Politics",
+      "url": "https://feeds.bloomberg.com/politics/news.rss"
+    },
+    {
+      "name": "UN News",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    },
+    {
+      "name": "Federal Reserve Monetary",
+      "url": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+    },
+    {
+      "name": "ECB Press",
+      "url": "https://www.ecb.europa.eu/rss/press.html"
+    }
+  ],
+  "matching": {
+    "method": "transparent headline keywords; multi-topic, no fulltext NLP",
+    "caveat": "Coverage limited to selected feeds and available RSS items; not all global news or CDS market prices."
+  }
 }
