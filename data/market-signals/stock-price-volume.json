@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T18:38:20.902591+00:00",
+  "generatedAt": "2026-11-11T18:49:12.647459+00:00",
   "asOf": "2026-11-09",
-  "status": "ready",
+  "status": "partial_or_unavailable",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
   "sourceNotice": "Public Yahoo Finance historical chart endpoint, unofficial; market data/licensing/continuity and split adjustment must be checked before live investment use.",
   "coverage": {
     "configuredTickers": 22,
-    "ready": 22,
-    "flaggedReadyStocks": 3,
-    "partialOrUnavailable": 0
+    "ready": 0,
+    "flaggedReadyStocks": 0,
+    "partialOrUnavailable": 22
   },
   "stocks": [
     {
@@ -18,7 +18,7 @@
       "sector": "Hospitals",
       "primaryResearch": true,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/YATHARTH.NS/history/",
       "observations": 373,
@@ -49,7 +49,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -1021,7 +1022,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/NH.NS/history/",
       "observations": 373,
@@ -1052,7 +1053,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -2024,7 +2026,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/MAXHEALTH.NS/history/",
       "observations": 373,
@@ -2055,7 +2057,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -3027,7 +3030,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/APOLLOHOSP.NS/history/",
       "observations": 373,
@@ -3058,7 +3061,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -4030,7 +4034,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/RAINBOW.NS/history/",
       "observations": 372,
@@ -4061,7 +4065,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -5033,7 +5038,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/MEDANTA.NS/history/",
       "observations": 373,
@@ -5064,7 +5069,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -6036,7 +6042,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/FORTIS.NS/history/",
       "observations": 373,
@@ -6067,7 +6073,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -7039,7 +7046,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/JLHL.NS/history/",
       "observations": 373,
@@ -7070,7 +7077,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -8042,7 +8050,7 @@
       "sector": "Hospitals",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/KIMS.NS/history/",
       "observations": 373,
@@ -8073,7 +8081,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -9045,7 +9054,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/BALKRISIND.NS/history/",
       "observations": 373,
@@ -9076,7 +9085,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -10048,7 +10058,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/MRF.NS/history/",
       "observations": 372,
@@ -10079,7 +10089,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -11051,7 +11062,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/APOLLOTYRE.NS/history/",
       "observations": 373,
@@ -11082,7 +11093,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -12054,7 +12066,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/CEATLTD.NS/history/",
       "observations": 373,
@@ -12085,7 +12097,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -13057,7 +13070,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/JKTYRE.NS/history/",
       "observations": 373,
@@ -13088,7 +13101,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -14060,7 +14074,7 @@
       "sector": "Tyres",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/TVSSRICHAK.NS/history/",
       "observations": 372,
@@ -14091,7 +14105,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -15063,7 +15078,7 @@
       "sector": "Banking",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/HDFCBANK.NS/history/",
       "observations": 373,
@@ -15089,33 +15104,13 @@
         "prior55Low": 669.2
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [
-        {
-          "id": "volume_confirmed_55d_breakout",
-          "priority": "high",
-          "headline": "55-session breakout on elevated volume",
-          "evidence": "Close ₹798.15 above prior 55-session high ₹788.25; last volume 1.89× previous 20-session mean; close in top 24% of day's range.",
-          "confirmation": "Sustain above former resistance on at least 2 further closes, with sector relative strength and earnings support.",
-          "invalidation": "Return below breakout level or company event/corporate action explains the jump.",
-          "horizon": "short_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        },
-        {
-          "id": "200d_reclaim_watch",
-          "priority": "watch",
-          "headline": "Possible longer-term upturn: 200-DMA reclaim",
-          "evidence": "Price recovered above 200-session average ₹784.01, with volume 1.89× normal.",
-          "confirmation": "Multiple closes above 200-DMA, rising 50-DMA and positive sector leadership.",
-          "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
-          "horizon": "long_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        }
-      ],
-      "signalCount": 2,
+      "signals": [],
+      "signalCount": 0,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -16087,7 +16082,7 @@
       "sector": "Banking",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/ICICIBANK.NS/history/",
       "observations": 373,
@@ -16113,23 +16108,13 @@
         "prior55Low": 1291.0
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [
-        {
-          "id": "volume_confirmed_55d_breakout",
-          "priority": "high",
-          "headline": "55-session breakout on elevated volume",
-          "evidence": "Close ₹1,589.00 above prior 55-session high ₹1,571.20; last volume 1.82× previous 20-session mean; close in top 15% of day's range.",
-          "confirmation": "Sustain above former resistance on at least 2 further closes, with sector relative strength and earnings support.",
-          "invalidation": "Return below breakout level or company event/corporate action explains the jump.",
-          "horizon": "short_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        }
-      ],
-      "signalCount": 1,
+      "signals": [],
+      "signalCount": 0,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -17101,7 +17086,7 @@
       "sector": "Banking",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/SBIN.NS/history/",
       "observations": 373,
@@ -17127,33 +17112,13 @@
         "prior55Low": 937.5
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [
-        {
-          "id": "volume_20d_breakout_watch",
-          "priority": "watch",
-          "headline": "20-session breakout — follow-through needed",
-          "evidence": "Close ₹1,042.00 above prior 20-session high ₹1,020.00, volume 2.10× 20-session mean.",
-          "confirmation": "Confirm 2–3-day follow-through and company-level catalysts.",
-          "invalidation": "Failed hold above resistance; volume spike unrelated to ownership interest.",
-          "horizon": "short_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        },
-        {
-          "id": "200d_reclaim_watch",
-          "priority": "watch",
-          "headline": "Possible longer-term upturn: 200-DMA reclaim",
-          "evidence": "Price recovered above 200-session average ₹1,038.69, with volume 2.10× normal.",
-          "confirmation": "Multiple closes above 200-DMA, rising 50-DMA and positive sector leadership.",
-          "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
-          "horizon": "long_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        }
-      ],
-      "signalCount": 2,
+      "signals": [],
+      "signalCount": 0,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -18125,7 +18090,7 @@
       "sector": "Energy / Diversified",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/RELIANCE.NS/history/",
       "observations": 373,
@@ -18156,7 +18121,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -19128,7 +19094,7 @@
       "sector": "IT",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/TCS.NS/history/",
       "observations": 373,
@@ -19159,7 +19125,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -20131,7 +20098,7 @@
       "sector": "IT",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/INFY.NS/history/",
       "observations": 373,
@@ -20162,7 +20129,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
@@ -21134,7 +21102,7 @@
       "sector": "NBFC",
       "primaryResearch": false,
       "asOf": "2026-11-09",
-      "dataStatus": "ready",
+      "dataStatus": "stale",
       "source": "Yahoo Finance chart (unofficial market-data mirror)",
       "sourceUrl": "https://finance.yahoo.com/quote/BAJFINANCE.NS/history/",
       "observations": 373,
@@ -21165,7 +21133,8 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "signalsWithheld": false,
+        "tradingSessionsSinceLastBar": 3,
+        "signalsWithheld": true,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [

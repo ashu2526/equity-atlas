@@ -3,41 +3,10 @@
   "snapshots": [
     {
       "session": "2026-11-12_AM",
-      "generatedAt": "2026-11-11T18:38:20.902591+00:00",
-      "ready": 22,
+      "generatedAt": "2026-11-11T18:49:12.647459+00:00",
+      "ready": 0,
       "configured": 22,
-      "alerts": [
-        {
-          "ticker": "HDFCBANK",
-          "asOf": "2026-11-09",
-          "signal": "volume_confirmed_55d_breakout",
-          "priority": "high"
-        },
-        {
-          "ticker": "HDFCBANK",
-          "asOf": "2026-11-09",
-          "signal": "200d_reclaim_watch",
-          "priority": "watch"
-        },
-        {
-          "ticker": "ICICIBANK",
-          "asOf": "2026-11-09",
-          "signal": "volume_confirmed_55d_breakout",
-          "priority": "high"
-        },
-        {
-          "ticker": "SBIN",
-          "asOf": "2026-11-09",
-          "signal": "volume_20d_breakout_watch",
-          "priority": "watch"
-        },
-        {
-          "ticker": "SBIN",
-          "asOf": "2026-11-09",
-          "signal": "200d_reclaim_watch",
-          "priority": "watch"
-        }
-      ]
+      "alerts": []
     }
   ]
 }
