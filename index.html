@@ -67,7 +67,7 @@ function calc(){valuation.ebitda=num($('#ebitdaSlider').value);valuation.multipl
       `<div class="radar-mini"><b>${sector==="Hospitals"?"Unit economics":"Category economics"}</b><span>KEY TO BETTER COMPARISONS</span></div>`
     ].join("");
     $("#radarList").innerHTML=visible.map(r=>`<button class="r-card ${selected===r.Ticker?"active":""}" data-ticker="${e(r.Ticker)}"><span class="r-rank">${e(r.Rank)}</span><span style="min-width:0"><span class="r-name">${e(r.Company)}</span><span class="r-sub">${e(r.Ticker)} · ${e(r["Business Model"])}</span></span><span class="r-pe">${e(r["P/E Snapshot"])}×<small>TTM P/E*</small></span></button>`).join("")||'<p class="muted">No matches.</p>';
-    $("#radarList button").forEach(b=>b.onclick=()=>{selected=b.dataset.ticker;showCheck=false;render()});
+    document.querySelectorAll("#radarList button").forEach(b=>b.onclick=()=>{selected=b.dataset.ticker;showCheck=false;render()});
     const c=items.find(r=>r.Ticker===selected);
     if(!c){$("#radarDetail").innerHTML="No companies found.";return}
     const pe=Number(c["P/E Snapshot"]),peers=items.map(r=>Number(r["P/E Snapshot"])).filter(x=>Number.isFinite(x)&&x>0).sort((a,b)=>a-b),mid=peers.length?peers[Math.floor(peers.length/2)]:null;
@@ -99,9 +99,9 @@ function calc(){valuation.ebitda=num($('#ebitdaSlider').value);valuation.multipl
     if(!chosen.length)return "Compare Indian listed hospital and tyre sector investment opportunities, ranking on segment economics, moat, ROIC, cash flow, downside valuation and earnings surprise potential. Use fresh sources.";
     return chosen.map(c=>`Prepare an institutional investment deep dive for ${c.Company} (${c.Ticker}), sector ${c.Sector}. Analyse moat, business segments, latest audited results, quarterly expectations versus actuals, 3-year fully diluted forecasts, FCF/ROIC, peer valuations, competitive strengths, downside risks, governance and entry strategy; assess Ignore, Hold & Monitor, Early Buy or Conviction Buy. Current screening edge: ${c["Competitive Edge"]}. Critical risk: ${c["Principal Risk"]}. Verify all financial data as of the analysis date.`).join("\n\n---\n\n");
   }
-  $("#sectorSwitch button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#sectorSwitch button").forEach(b=>b.onclick=()=>{
     sector=b.dataset.sector;$("#sectorSearch").value="";
-    $("#sectorSwitch button").forEach(x=>x.classList.toggle("active",x===b));showCheck=false;render();
+    document.querySelectorAll("#sectorSwitch button").forEach(x=>x.classList.toggle("active",x===b));showCheck=false;render();
   });
   $("#sectorSearch").oninput=render;
   $("#radarExport").onclick=()=>{
@@ -116,7 +116,7 @@ function calc(){valuation.ebitda=num($('#ebitdaSlider').value);valuation.multipl
   window.renderSector=render;
   render();
 })();
-function openResearchView(view){if(!document.getElementById(view))return;$('#nav button').forEach(x=>x.classList.toggle('active',x.dataset.view===view));$('.tabs').forEach(x=>x.classList.toggle('active',x.id===view));}
-$('#nav button').forEach(b=>b.onclick=()=>{openResearchView(b.dataset.view);if(window.history&&history.replaceState)history.replaceState(null,'','#'+b.dataset.view)});
+function openResearchView(view){if(!document.getElementById(view))return;document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('active',x.dataset.view===view));document.querySelectorAll('.tabs').forEach(x=>x.classList.toggle('active',x.id===view));}
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>{openResearchView(b.dataset.view);if(window.history&&history.replaceState)history.replaceState(null,'','#'+b.dataset.view)});
 const deepLinkView=window.location.hash.slice(1);if(deepLinkView&&document.getElementById(deepLinkView))openResearchView(deepLinkView);$('#quarter').onchange=render;$$('.range').forEach(x=>x.oninput=calc);$$('#scenarioButtons button').forEach(b=>b.onclick=()=>{scenario=b.dataset.scenario;$$('#scenarioButtons button').forEach(x=>x.classList.toggle('active',x===b));setupValuation(true)});$('#sync').onclick=sync;$('#retry').onclick=sync;render();sync();
 </script></body></html>
