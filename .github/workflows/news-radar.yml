@@ -40,7 +40,8 @@ jobs:
           git add data/news/articles.json data/news/scans.json
           if ! git diff --cached --quiet; then
             git commit -m "news: archive daily GDELT discovery and regime coverage snapshot"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            git push origin "HEAD:${GITHUB_REF_NAME:-main}"
           else
             echo "No changes to publish"
           fi
