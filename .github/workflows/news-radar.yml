@@ -1,0 +1,46 @@
+name: Market Regime Radar - source-linked news scans
+on:
+  schedule:
+    - cron: "21 2 * * *"
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "Collect headlines from past N days (1-40)"
+        required: false
+        default: "14"
+  push:
+    paths:
+      - ".github/workflows/news-radar.yml"
+      - "scripts/news_scan.py"
+      - "data/news/config.json"
+permissions:
+  contents: write
+concurrency:
+  group: market-regime-news-radar
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sample public GDELT news and append UTC-stamped observations
+        env:
+          NEWS_LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '14' }}
+        run: python scripts/news_scan.py
+      - name: Persist archive in GitHub repository
+        run: |
+          git config user.name "equity-atlas-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news/articles.json data/news/scans.json
+          if ! git diff --cached --quiet; then
+            git commit -m "news: archive daily GDELT discovery and regime coverage snapshot"
+            git push
+          else
+            echo "No changes to publish"
+          fi
