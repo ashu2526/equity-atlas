@@ -19,11 +19,11 @@ import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-INCLUDE_DIRS = [".github", ".agents", "docs", "scripts", "data"]
+INCLUDE_DIRS = [".github", ".agents", "docs", "scripts", "data", "assets"]
 INCLUDE_ROOT = [
-    "README.md", "AGENTS.md",
+    "README.md", "AGENTS.md", "DESIGN.md",
     "index.html", "sector.html", "sector-intelligence.html",
-    "market-desk.html", "news-radar.html", "signals.html",
+    "market-desk.html", "news-radar.html", "signals.html", "company-signals.html",
 ]
 FORBIDDEN_NAMES = {".env", ".env.local", "credentials.json", "secrets.json", ".git"}
 FORBIDDEN_PARTS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".venv", "venv", "node_modules"}
