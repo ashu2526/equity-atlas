@@ -1,0 +1,38 @@
+name: Equity Atlas Research and UI Quality Gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "sector-intelligence.html"
+      - "company-signals.html"
+      - "market-desk.html"
+      - "news-radar.html"
+      - "signals.html"
+      - "assets/**"
+      - "data/**"
+      - "scripts/**"
+      - "DESIGN.md"
+      - ".github/workflows/market-signals.yml"
+      - ".github/workflows/news-radar.yml"
+      - ".github/workflows/quality-gate.yml"
+  workflow_dispatch: {}
+permissions:
+  contents: read
+concurrency:
+  group: equity-atlas-research-quality
+  cancel-in-progress: true
+jobs:
+  source-and-ui-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify calculations, publisher sources, page selectors and schedules
+        run: python scripts/validate_site.py
