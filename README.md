@@ -118,3 +118,16 @@ The project's reusable **repository-local maintainer skill** is [`.agents/skills
 To produce an up-to-date **whole-repository source/data archive**, run the `Equity Atlas Source & Documentation Backup` workflow under GitHub Actions. It exports all working HTML pages, Python scripts, public JSON datasets, workflows, documentation and the local skill, plus source commit/hash manifest. The linked Google Sheet remains external and is **not** uploaded to this public repository; an owner-only expanded ZIP can include a private Excel export separately.
 
 **Honest status:** At the 11 November 2026 handoff, both RSS and market-signals GitHub collectors had succeeded with real data, and the Signal Lab sidebar selector bug was fixed and Pages-deployed. The first automated ChatGPT 09:15 IST **AI-reviewed report write-back** had not yet occurred and should not be claimed as verified.
+
+
+## November 2026 upgrade: 7 AM / 7 PM intelligence and company price-volume analysis
+
+All automatically collectible market/source data now target **07:00 and 19:00 IST** via the GitHub news and market-signals Actions. The AM/PM ChatGPT research task is scheduled at ~07:25 and ~19:25 IST to allow those collectors to finish, though task publication must be verified independently. A separate **first-of-month company valuation review** is scheduled for future company research updates.
+
+**New page:** [Price × Volume Company Signals](https://ashu2526.github.io/equity-atlas/company-signals.html). The public research universe begins with 22 tracked NSE companies across hospitals, tyres and liquid benchmark businesses. Source-dated EOD price-volume histories, 20/55-session breakouts, 20/50/200-day context, CMF, OBV, RSI and long-term trend reversal watches are published by scripts/stock_price_volume.py. The source provider is a free NSE-bhavcopy-derived third-party feed with an explicitly labelled Yahoo fallback. Data are best-effort, not an authorized real-time market terminal.
+
+**OpenDesign-informed design:** Read [DESIGN.md](DESIGN.md). All six public pages now share a lightweight Research / Markets navigation in assets/equity-shell.js and a design layer in assets/equity-ui.css, with dark and optional Paper themes. The project remains static HTML/CSS/JS with no new UI framework.
+
+**Quality checks:** [GitHub quality gate](https://github.com/ashu2526/equity-atlas/actions/workflows/quality-gate.yml) runs scripts/validate_site.py to check source JSON, JS syntax, page navigation, alert freshness and schedules.
+
+Detailed run times, formulas, source definitions, and future limitations: [docs/REFRESH_AND_TECHNICAL.md](docs/REFRESH_AND_TECHNICAL.md).
