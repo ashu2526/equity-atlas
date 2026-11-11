@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T17:13:50.726168Z",
+  "generatedAt": "2026-11-11T18:35:27.722068Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,28 +9,28 @@
     "days": 14
   },
   "overall": {
-    "items": 128,
-    "publishers": 6,
+    "items": 132,
+    "publishers": 5,
     "positive": 24,
-    "negative": 26,
+    "negative": 30,
     "neutral": 78,
-    "languageIndex": -6.3,
+    "languageIndex": -9.9,
     "label": "Mixed headline language",
-    "sourceConcentration": 43.8,
+    "sourceConcentration": 42.4,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 33,
+      "items": 34,
       "publishers": 4,
       "positive": 0,
-      "negative": 13,
+      "negative": 14,
       "neutral": 20,
       "languageIndex": -53.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.5,
+      "sourceConcentration": 52.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -67,13 +67,13 @@
       "id": "inflation_rates",
       "title": "Inflation and rates",
       "items": 28,
-      "publishers": 5,
+      "publishers": 4,
       "positive": 2,
-      "negative": 4,
-      "neutral": 22,
-      "languageIndex": -23.5,
+      "negative": 5,
+      "neutral": 21,
+      "languageIndex": -31.6,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 35.7,
+      "sourceConcentration": 39.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -105,6 +105,49 @@
       "confirmation": "Inflation expectations fall, yields and policy signals ease",
       "invalidation": "Energy/food inflation accelerates",
       "hypothesisAsOf": "2026-10-23"
+    },
+    {
+      "id": "ai_rotation",
+      "title": "AI rotation",
+      "items": 21,
+      "publishers": 3,
+      "positive": 2,
+      "negative": 2,
+      "neutral": 17,
+      "languageIndex": 0.0,
+      "label": "Mixed headline language",
+      "sourceConcentration": 38.1,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "JPMorgan, NVIDIA Leaders on Electrification",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/jpmorgan-nvidia-leaders-on-electrification-video",
+          "date": "2026-11-11T17:54:49Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
+          "date": "2026-11-11T16:59:18Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "date": "2026-11-11T16:49:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "hypothesis": "Cooling in crowded trades",
+      "potentialUpside": "Relative rotation to India; lower-multiple cash earners",
+      "potentialDownside": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "confirmation": "Capex guidance cuts; AI basket underperforms broad market",
+      "invalidation": "Capex/order data beats; risk appetite recovers",
+      "hypothesisAsOf": "2026-11-10"
     },
     {
       "id": "india_flows",
@@ -148,49 +191,6 @@
       "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
       "invalidation": "Two consecutive net-selling fortnights",
       "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "ai_rotation",
-      "title": "AI rotation",
-      "items": 19,
-      "publishers": 3,
-      "positive": 2,
-      "negative": 1,
-      "neutral": 16,
-      "languageIndex": 5.6,
-      "label": "Mixed headline language",
-      "sourceConcentration": 42.1,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
-          "date": "2026-11-11T16:59:18Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/data-center-gas-plants-to-lift-us-power-emissions-10-bnef-says",
-          "date": "2026-11-11T16:40:54Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
-          "date": "2026-11-11T16:03:55Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "hypothesis": "Cooling in crowded trades",
-      "potentialUpside": "Relative rotation to India; lower-multiple cash earners",
-      "potentialDownside": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "confirmation": "Capex guidance cuts; AI basket underperforms broad market",
-      "invalidation": "Capex/order data beats; risk appetite recovers",
-      "hypothesisAsOf": "2026-11-10"
     },
     {
       "id": "elections_policy",
@@ -324,18 +324,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 3,
+      "items": 4,
       "publishers": 2,
       "positive": 0,
-      "negative": 2,
+      "negative": 3,
       "neutral": 1,
       "languageIndex": -50.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 75.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
+          "date": "2026-11-11T14:53:13Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
@@ -347,12 +353,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/russian-push-to-escape-dollar-for-yuan-collapses-under-sanctions",
           "date": "2026-11-11T00:00:00Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "U.S. midterm elections impact on India: Faster trade deal talks and higher tariffs likely",
-          "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-impact-on-india-faster-trade-deal-talks-and-higher-tariffs-likely/article71665044.ece",
-          "date": "2026-11-04T12:42:46Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -495,6 +495,37 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 1,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "languageIndex": -100.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "date": "2026-11-11T16:49:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
       "id": "credit_cds",
       "title": "Credit/CDS news",
       "items": 0,
@@ -562,43 +593,20 @@
       "confirmation": "",
       "invalidation": "",
       "hypothesisAsOf": null
-    },
-    {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 0,
-      "publishers": 0,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 0,
-      "languageIndex": null,
-      "label": "Insufficient observations",
-      "sourceConcentration": null,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
     }
   ],
   "risks": [
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 33,
+      "items": 34,
       "publishers": 4,
       "positive": 0,
-      "negative": 13,
+      "negative": 14,
       "neutral": 20,
       "languageIndex": -53.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.5,
+      "sourceConcentration": 52.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -635,13 +643,13 @@
       "id": "inflation_rates",
       "title": "Inflation and rates",
       "items": 28,
-      "publishers": 5,
+      "publishers": 4,
       "positive": 2,
-      "negative": 4,
-      "neutral": 22,
-      "languageIndex": -23.5,
+      "negative": 5,
+      "neutral": 21,
+      "languageIndex": -31.6,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 35.7,
+      "sourceConcentration": 39.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -720,18 +728,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 3,
+      "items": 4,
       "publishers": 2,
       "positive": 0,
-      "negative": 2,
+      "negative": 3,
       "neutral": 1,
       "languageIndex": -50.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 75.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
+          "date": "2026-11-11T14:53:13Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
@@ -743,12 +757,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/russian-push-to-escape-dollar-for-yuan-collapses-under-sanctions",
           "date": "2026-11-11T00:00:00Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "U.S. midterm elections impact on India: Faster trade deal talks and higher tariffs likely",
-          "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-impact-on-india-faster-trade-deal-talks-and-higher-tariffs-likely/article71665044.ece",
-          "date": "2026-11-04T12:42:46Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -759,6 +767,37 @@
       "confirmation": "Implemented change in tariff with company-level exposure",
       "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
       "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 1,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "languageIndex": -100.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "date": "2026-11-11T16:49:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
     },
     {
       "id": "credit_cds",
@@ -828,29 +867,6 @@
       "confirmation": "",
       "invalidation": "",
       "hypothesisAsOf": null
-    },
-    {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 0,
-      "publishers": 0,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 0,
-      "languageIndex": null,
-      "label": "Insufficient observations",
-      "sourceConcentration": null,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
     }
   ],
   "topPublishers": [
@@ -864,7 +880,7 @@
     },
     {
       "publisher": "www.bloomberg.com",
-      "stories": 23
+      "stories": 28
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -873,15 +889,11 @@
     {
       "publisher": "news.un.org",
       "stories": 9
-    },
-    {
-      "publisher": "www.federalreserve.gov",
-      "stories": 1
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 5,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 6,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

@@ -2,23 +2,23 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-11T17:13:50.726168Z",
+      "generatedAt": "2026-11-11T18:35:27.722068Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 128,
-        "publishers": 6,
+        "items": 132,
+        "publishers": 5,
         "positive": 24,
-        "negative": 26,
+        "negative": 30,
         "neutral": 78,
-        "languageIndex": -6.3,
+        "languageIndex": -9.9,
         "label": "Mixed headline language",
-        "sourceConcentration": 43.8,
+        "sourceConcentration": 42.4,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "geopolitics",
-          "items": 33,
+          "items": 34,
           "publishers": 4,
           "languageIndex": -53.8,
           "attentionDeltaPct": null
@@ -26,8 +26,15 @@
         {
           "id": "inflation_rates",
           "items": 28,
-          "publishers": 5,
-          "languageIndex": -23.5,
+          "publishers": 4,
+          "languageIndex": -31.6,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "ai_rotation",
+          "items": 21,
+          "publishers": 3,
+          "languageIndex": 0.0,
           "attentionDeltaPct": null
         },
         {
@@ -35,13 +42,6 @@
           "items": 21,
           "publishers": 1,
           "languageIndex": 52.4,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "ai_rotation",
-          "items": 19,
-          "publishers": 3,
-          "languageIndex": 5.6,
           "attentionDeltaPct": null
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "id": "trade_policy",
-          "items": 3,
+          "items": 4,
           "publishers": 2,
           "languageIndex": -50.0,
           "attentionDeltaPct": null
@@ -101,6 +101,13 @@
           "attentionDeltaPct": null
         },
         {
+          "id": "tech_credit",
+          "items": 1,
+          "publishers": 1,
+          "languageIndex": -100.0,
+          "attentionDeltaPct": null
+        },
+        {
           "id": "credit_cds",
           "items": 0,
           "publishers": 0,
@@ -116,13 +123,6 @@
         },
         {
           "id": "sovereign_credit",
-          "items": 0,
-          "publishers": 0,
-          "languageIndex": null,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "tech_credit",
           "items": 0,
           "publishers": 0,
           "languageIndex": null,

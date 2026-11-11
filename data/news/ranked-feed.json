@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T17:13:50.726168Z",
+  "generatedAt": "2026-11-11T18:35:27.722068Z",
   "scope": {
     "windowStart": "2026-10-28",
     "windowEnd": "2026-11-11",
-    "headlineCount": 128,
-    "clusterCount": 120,
+    "headlineCount": 132,
+    "clusterCount": 124,
     "publishedCards": 80,
     "rankingMethod": "transparent keyword-materiality, source diversity and recency; not AI"
   },
   "topThemeCounts": [
     {
       "theme": "geopolitics",
-      "headlines": 33
+      "headlines": 34
     },
     {
       "theme": "inflation_rates",
@@ -24,7 +24,7 @@
     },
     {
       "theme": "ai_rotation",
-      "headlines": 19
+      "headlines": 21
     },
     {
       "theme": "elections_policy",
@@ -40,11 +40,15 @@
     },
     {
       "theme": "trade_policy",
-      "headlines": 3
+      "headlines": 4
     },
     {
       "theme": "auto_consumer",
       "headlines": 2
+    },
+    {
+      "theme": "tech_credit",
+      "headlines": 1
     },
     {
       "theme": "defence_capex",
@@ -67,7 +71,7 @@
     },
     {
       "geography": "United States",
-      "headlines": 23,
+      "headlines": 24,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
@@ -76,13 +80,13 @@
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
-      "geography": "China",
+      "geography": "Russia / Ukraine",
       "headlines": 8,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
-      "geography": "Russia / Ukraine",
-      "headlines": 7,
+      "geography": "China",
+      "headlines": 8,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
@@ -127,6 +131,45 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/markets/sensex-surges-905-pts-nifty-tops-22900-on-heavy-buying-in-banking-fmcg-stocks/article71640234.ece",
           "published": "2026-10-29T13:06:09Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "645fff3678b2bc323f03",
+      "published": "2026-11-11T16:49:45Z",
+      "priorityScore": 15.5,
+      "priority": "High — verify sources",
+      "headline": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "primaryTheme": "ai_rotation",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
+      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
+      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "published": "2026-11-11T16:49:45Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -243,6 +286,44 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
           "published": "2026-11-10T04:48:53Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "9521b6d90a5e6ac659ef",
+      "published": "2026-11-11T05:18:51Z",
+      "priorityScore": 13.5,
+      "priority": "High — verify sources",
+      "headline": "Russia’s Baltic Commodity Hub Set on Fire After Drone Attack",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Russia / Ukraine"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Russia’s Baltic Commodity Hub Set on Fire After Drone Attack",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/drone-attack-sparks-fire-at-russia-s-ust-luga-port-injures-3",
+          "published": "2026-11-11T05:18:51Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -472,6 +553,44 @@
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-paulson-says-gradual-tightening-seems-appropriate-for-now",
           "published": "2026-11-10T23:30:00Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "cef6e66475f5fd6b5685",
+      "published": "2026-11-10T23:33:04Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Gold Declines as Traders Assess US Inflation, Fed Remarks",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Gold Declines as Traders Assess US Inflation, Fed Remarks",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-loss-near-4-000-on-hot-us-inflation-fed-remarks",
+          "published": "2026-11-10T23:33:04Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1415,37 +1534,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "847a7abc2726921ccf5d",
-      "published": "2026-10-28T18:00:00Z",
-      "priorityScore": 8,
+      "id": "7e67bd82bfdc13af8b99",
+      "published": "2026-11-11T14:53:13Z",
+      "priorityScore": 8.5,
       "priority": "Context",
-      "headline": "Federal Reserve issues FOMC statement",
+      "headline": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.federalreserve.gov; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
       "topics": [
-        "inflation_rates"
+        "trade_policy"
       ],
-      "primaryTheme": "inflation_rates",
+      "primaryTheme": "trade_policy",
       "geographies": [
         "United States"
       ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "publisher": "www.federalreserve.gov",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "published": "2026-10-28T18:00:00Z"
+          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
+          "published": "2026-11-11T14:53:13Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1911,44 +2030,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "8664d2d6b12a828e4148",
-      "published": "2026-11-10T17:47:11Z",
-      "priorityScore": 6.5,
-      "priority": "Context",
-      "headline": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Russia / Ukraine"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/nmdc-said-to-be-in-talks-with-russias-rosatom-over-lithium-investments/article71687322.ece",
-          "published": "2026-11-10T17:47:11Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "237b220a24d7a752a29a",
       "published": "2026-11-10T21:08:00Z",
       "priorityScore": 6.5,
@@ -2170,6 +2251,44 @@
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
           "published": "2026-11-11T16:59:18Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "5b7cf18b4e6c450fa29d",
+      "published": "2026-11-11T17:54:49Z",
+      "priorityScore": 6.5,
+      "priority": "Context",
+      "headline": "JPMorgan, NVIDIA Leaders on Electrification",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "topics": [
+        "ai_rotation"
+      ],
+      "primaryTheme": "ai_rotation",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
+      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
+      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "JPMorgan, NVIDIA Leaders on Electrification",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/jpmorgan-nvidia-leaders-on-electrification-video",
+          "published": "2026-11-11T17:54:49Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -2885,6 +3004,44 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "8664d2d6b12a828e4148",
+      "published": "2026-11-10T17:47:11Z",
+      "priorityScore": 5.5,
+      "priority": "Context",
+      "headline": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Russia / Ukraine"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/nmdc-said-to-be-in-talks-with-russias-rosatom-over-lithium-investments/article71687322.ece",
+          "published": "2026-11-10T17:47:11Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "c1a8be3a6f4bc5abfd3c",
       "published": "2026-11-09T19:58:01Z",
       "priorityScore": 5.1,
@@ -3030,160 +3187,6 @@
           "publisher": "www.bbc.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
           "published": "2026-11-10T08:23:21Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "42ec1e7471a416705847",
-      "published": "2026-11-10T09:23:55Z",
-      "priorityScore": 5.1,
-      "priority": "Context",
-      "headline": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "United States",
-        "China"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T09:23:55Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "3ac6d44b8143ecac44b8",
-      "published": "2026-11-10T09:40:31Z",
-      "priorityScore": 5.1,
-      "priority": "Context",
-      "headline": "Trump says more US attacks on Iran 'highly unlikely'",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "United States",
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Trump says more US attacks on Iran 'highly unlikely'",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T09:40:31Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "87181a6313bc0c54194c",
-      "published": "2026-11-10T13:45:13Z",
-      "priorityScore": 5.1,
-      "priority": "Context",
-      "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Iran rejects French claims it was behind supermarket fridge hacking",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T13:45:13Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "928277f3a9d06586498a",
-      "published": "2026-11-10T14:45:46Z",
-      "priorityScore": 5.1,
-      "priority": "Context",
-      "headline": "US inflation higher than expected in October - here's what is happening with prices",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "US inflation higher than expected in October - here's what is happening with prices",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T14:45:46Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
