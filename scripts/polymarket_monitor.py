@@ -73,7 +73,7 @@ def get_events(limit=50,offset=0):
                       "ascending":"false","limit":limit,"offset":offset})
     req=Request(API+"?"+params,headers={"User-Agent":"EquityAtlasResearch/1.1 (public market-data research)","Accept":"application/json"})
     with urlopen(req,timeout=20) as r:
-        raw=r.read(6_000_000)
+        raw=r.read()  # Gamma event payloads can exceed 6MB due to nested markets
     obj=json.loads(raw)
     if isinstance(obj,list):return obj
     if isinstance(obj,dict):return obj.get("events",[]) or obj.get("data",[])
