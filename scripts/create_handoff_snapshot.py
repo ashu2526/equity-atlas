@@ -34,7 +34,7 @@ def safe(path: Path) -> bool:
     if any(part in FORBIDDEN_PARTS for part in path.parts):
         return False
     # Bundle code/data/docs only; prevent surprise release of credentials or personal attachments.
-    return path.suffix.lower() in {".md", ".py", ".yml", ".yaml", ".json", ".html", ".csv", ".txt"}
+    return path.suffix.lower() in {".md", ".py", ".yml", ".yaml", ".json", ".html", ".csv", ".txt", ".js", ".css"}
 
 def source_sha() -> str:
     if os.getenv("GITHUB_SHA"):
