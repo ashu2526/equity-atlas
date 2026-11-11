@@ -1,7 +1,2684 @@
 {
   "schema": 1,
-  "source": "GDELT",
-  "updatedAt": null,
-  "articles": [],
-  "dataAvailability": "Not yet collected; awaiting first scheduled or manual scanner run"
+  "source": "Publisher and institutional RSS feeds",
+  "updatedAt": "2026-11-11T15:38:40.000100Z",
+  "retentionDays": 120,
+  "firstScanAt": "2026-11-11T15:38:40.000100Z",
+  "firstCoveredAt": "2026-07-29T18:00:00Z",
+  "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
+  "articles": [
+    {
+      "id": "39145146529fb00f87aa",
+      "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T15:33:03Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3117d0112ab8dbaf8129",
+      "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T15:29:11Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bae940fa4b4b995c4110",
+      "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T15:13:42Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "45d5c49f84dac88b3ee7",
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T14:51:26Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East",
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "71ade603c25bcb3605d5",
+      "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T13:28:45Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5bc8db155f2f8b6273bb",
+      "title": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T13:17:14Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3578e4f7cecc27d3fe4b",
+      "title": "Saudi Oil Production Surged 26% Last Month to Pre-War Levels",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T13:00:06Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5528f12c933047e6aeab",
+      "title": "Republican Lawmakers Follow Trump’s Lead After Midterm Rout",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/republican-lawmakers-follow-trump-s-lead-after-midterm-rout",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T12:19:30Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fb5573ea532cc2666316",
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T11:47:22Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8b8d2d9591395f6efd48",
+      "title": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T11:22:19Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "eca0b3eef503b1852949",
+      "title": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar/article71689369.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T11:19:54Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d86276f0f3b9a9e3fe23",
+      "title": "Stock markets hit eight-month high as foreign investors return",
+      "url": "https://www.thehindu.com/business/Industry/stock-markets-surge-in-early-trade-sensex-jumps-1097-points/article71688324.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T08:11:23Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "88717cd980a585ddea17",
+      "title": "US warns Madagascar over growing military ties with Russia",
+      "url": "https://www.bbc.co.uk/news/articles/crkgv58pknyeo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T07:30:15Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2f577a455517449effa1",
+      "title": "Rupee rises 7 paise to 93.70 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/rupee-rises-7-paise-to-9370-against-us-dollar-in-early-trade/article71688350.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T05:12:44Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2bb2496f12b8d14c4e42",
+      "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion: Report",
+      "url": "https://www.thehindu.com/sci-tech/technology/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-report/article71688191.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T04:10:17Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dedf2cb37f915d46f992",
+      "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T01:43:19Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a1335fff0c31412d921b",
+      "title": "Fed’s Goolsbee Says October CPI Report ‘Borderline Disturbing’",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/fed-s-goolsbee-says-october-cpi-report-borderline-disturbing-mwbel9qz",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T00:51:18Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7afea9ada6ddd32c67ae",
+      "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T00:18:07Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "848e3f3388d6bc171c98",
+      "title": "Officials From Major Central Banks Signal More Rate Increases",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/officials-from-major-central-banks-signal-more-rate-increases",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T00:01:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8b06310e6260897dd24b",
+      "title": "Russian Push to Escape Dollar for Yuan Collapses Under Sanctions",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/russian-push-to-escape-dollar-for-yuan-collapses-under-sanctions",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T00:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4976b0078b9e02972e85",
+      "title": "Fed’s Paulson Says Gradual Tightening Seems Appropriate for Now",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-paulson-says-gradual-tightening-seems-appropriate-for-now",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T23:30:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d68f526af6ae195ea57b",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T22:52:15Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "237b220a24d7a752a29a",
+      "title": "Nvidia’s Bull Case Hinges on CEO Huang Surviving China Spy Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/nvidia-s-bull-case-hinges-on-ceo-huang-surviving-china-spy-probe",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T21:08:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "44e187b2758eb48db85a",
+      "title": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T20:30:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8664d2d6b12a828e4148",
+      "title": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
+      "url": "https://www.thehindu.com/business/nmdc-said-to-be-in-talks-with-russias-rosatom-over-lithium-investments/article71687322.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T17:47:11Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "71ab83aa7760a38c1a99",
+      "title": "Israel's new parliament sworn in as leaders compete to form government",
+      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T17:03:16Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ed73d7ea38c9583b2ccf",
+      "title": "Inside devastated front-line city that Russia wants Ukraine to give up",
+      "url": "https://www.bbc.co.uk/news/articles/cq0memrywvzro?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T17:00:11Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "380ce0e2b07203cc3335",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T16:45:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "81b80a14301a61e58acb",
+      "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T15:21:18Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "climate_agri",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "928277f3a9d06586498a",
+      "title": "US inflation higher than expected in October - here's what is happening with prices",
+      "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T14:45:46Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "87181a6313bc0c54194c",
+      "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T13:45:13Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ab6f63f189746b9295ea",
+      "title": "Google launches two AI chips as it seeks to challenge NVIDIA’s dominance",
+      "url": "https://www.thehindu.com/business/Industry/google-launches-two-ai-chips-as-it-seeks-to-challenge-nvidias-dominance/article71686071.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T13:43:22Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7521a0b9056a300ddb67",
+      "title": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/brazil-central-bank-sees-economy-slowing-as-inflation-rises",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T12:30:35Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d4c5911ad0e5aac7fbba",
+      "title": "MRF’s Q2 profit skids 27% as raw material costs squeeze margins",
+      "url": "https://www.thehindu.com/business/Industry/mrfs-q2-profit-skids-27-as-raw-material-costs-squeeze-margins/article71685983.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T12:04:26Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "tyre_inputs"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3ac6d44b8143ecac44b8",
+      "title": "Trump says more US attacks on Iran 'highly unlikely'",
+      "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T09:40:31Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "42ec1e7471a416705847",
+      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T09:23:55Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9e74e9c1e14abf28ba6b",
+      "title": "Rate-Hike Debate Ignited by Fed Officials as CPI Comes in Hot",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T09:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2eeebfe27c6adcbf3da4",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T08:23:21Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9caa9b54c50473c07efd",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T05:22:39Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "042cc04d3bd43a2b54b4",
+      "title": "Strait of Hormuz LNG traffic hits highest in October since Iran war began",
+      "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-10T04:48:53Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ed37d32e2c4addf927b1",
+      "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+      "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T21:52:28Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ae1f10fcabbc051ae84c",
+      "title": "Nvidia plunges but tech shares rebound, oil prices slump",
+      "url": "https://www.thehindu.com/business/markets/nvidia-plunges-but-tech-shares-rebound-oil-prices-slump/article71683988.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T21:13:33Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "energy_shipping",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c1a8be3a6f4bc5abfd3c",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T19:58:01Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a79c9bd87407202245df",
+      "title": "RBI extends Abhyudaya Bank supersession by another year",
+      "url": "https://www.thehindu.com/business/rbi-extends-abhyudaya-bank-supersession-by-another-year/article71683422.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T16:05:05Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "45c537ea2364815716f4",
+      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T14:50:35Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b7e80b8dce229df9f208",
+      "title": "Rupee rises 5 paise to close at 93.93 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/Industry/rupee-rises-5-paise-to-close-at-9393-against-us-dollar/article71682383.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T11:51:38Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "25d0f965843203ec2947",
+      "title": "Stock markets end higher amid easing crude oil prices, buying in banks",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-amid-easing-crude-oil-prices-buying-in-banks/article71682332.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T11:28:56Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "160d26aeef613bb44d0d",
+      "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+      "url": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T10:41:57Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ba5fef4757ffe590cf72",
+      "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T07:48:39Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "eda661cf2b574c462d00",
+      "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+      "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T07:10:11Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4c9ad04a67a83295037d",
+      "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade/article71681429.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T04:47:16Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f8f8756e5fb13ed0b3f7",
+      "title": "Oil falls as Donald Trump says new Iran attacks ‘unlikely’",
+      "url": "https://www.thehindu.com/business/Economy/oil-falls-as-donald-trump-says-new-iran-attacks-unlikely/article71681302.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-09T02:18:42Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "221e80597e10ac16d9d4",
+      "title": "Iran executes three men for 'armed unrest' after January protests",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-08T13:37:50Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "86d94aa9eecbf2e43a2d",
+      "title": "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
+      "url": "https://www.thehindu.com/business/Industry/ioc-to-buy-crude-lpg-ships-as-west-asia-crisis-exposes-shipping-risks/article71680603.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-08T06:15:41Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6f06cf85fa1170a401f2",
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-07T22:19:59Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c334eb223f39033666fe",
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-07T17:58:41Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7a363668aac9c6727a86",
+      "title": "Tens of thousands of tents flooded after heavy rains in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cx240e5py64jo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-07T16:25:55Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "883808700c68f10538c6",
+      "title": "$2.5 trillion wiped off Nasdaq 100 as U.S. midterm outcome adds to AI stock slump",
+      "url": "https://www.thehindu.com/business/us-midterm-results-add-to-global-ai-linked-stock-sell-off-25-trillion-wiped-off-nasdaq-100/article71674646.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T16:05:13Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "15536122e1b083f6b0b8",
+      "title": "ADNOC inks 10-year LNG supply and purchase agreement with Gujarat Energy",
+      "url": "https://www.thehindu.com/business/Industry/adnoc-inks-10-year-lng-supply-and-purchase-agreement-with-gujarat-energy/article71674806.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T15:57:52Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bd251553ea29dd55d547",
+      "title": "US midterm results spark fears in Israel over future of two countries' ties",
+      "url": "https://www.bbc.co.uk/news/articles/cx30ee8018lvo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T13:23:44Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ad0e1247d7490f9164fd",
+      "title": "Stock markets on fire; Sensex jumps 1,718 points, Nifty reclaims 25,000",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-on-fire-sensex-jumps-1718-points-nifty-reclaims-25000/article71674151.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T12:31:15Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "64add7d0a143ecee628b",
+      "title": "Rupee surges 52 points to close at 93.89 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-surges-52-points-to-close-at-9389-against-us-dollar/article71674023.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T12:21:50Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "46e9c7984e27c263c166",
+      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T09:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2f408a279bc76b691123",
+      "title": "Automobile retail sales fall 24% in October on high base effect a year ago",
+      "url": "https://www.thehindu.com/business/Industry/automobile-retail-sales-fall-24-in-october-on-high-base-effect-a-year-ago/article71673102.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T07:50:04Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "78cae43d14cc926e6080",
+      "title": "‘Best ever September’: Auto retail sales surge 32% year-on-year",
+      "url": "https://www.thehindu.com/business/Industry/best-ever-september-auto-retail-sales-surge-32-year-on-year/article71550095.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T06:35:39Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ac3a489d8020da9a4a9c",
+      "title": "Rupee falls 9 paise to 94.50 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/Industry/rupee-falls-9-paise-to-9450-against-us-dollar-in-early-trade/article71672841.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-06T04:46:12Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4b657726626081d4f41e",
+      "title": "OpenAI formalises future U.S. data-centre safeguards; pledges union engagement, environmental disclosures",
+      "url": "https://www.thehindu.com/business/Industry/openai-formalises-future-us-data-centre-safeguards-pledges-union-engagement-environmental-disclosures/article71670304.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T18:10:01Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "15ef09439f89891210e6",
+      "title": "ONGC Q2 net profit jumps 57% on higher crude, gas realisations",
+      "url": "https://www.thehindu.com/business/Economy/ongc-q2-net-profit-jumps-57-on-higher-crude-gas-realisations/article71670861.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T17:13:19Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "58b59f8c4cc4e278ee91",
+      "title": "Markets surge for sixth day; Sensex jumps 2,009 points",
+      "url": "https://www.thehindu.com/business/markets/markets-surge-for-sixth-day-and-sensex-jumps-many-points/article71669748.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T12:29:54Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b69ce50596e11e86f261",
+      "title": "Rupee settles flat at 94.46 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-settles-flat-at-9446-against-us-dollar/article71669674.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T12:25:38Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ae12e9ef0f2f5cc2bb0d",
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T08:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b771a6c058e0c24b4c87",
+      "title": "Markets on spree after crude tumbles 9% following Trump’s midterm fallout",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-on-november-5-2026-sensex-and-nifty-oil-prices/article71668596.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T07:11:47Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2b1ec905bc13843eb886",
+      "title": "Rupee falls 9 paise to 94.55 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-9-paise-to-9455-against-us-dollar-in-early-trade/article71668649.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T05:03:19Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "87bc0bb3c93a229ce037",
+      "title": "U.S. midterm elections: An economy under pressure, political shift and the road ahead",
+      "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-an-economy-under-pressure-political-shift-and-the-road-ahead/article71667011.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T03:20:49Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f87f88c7bada10462dc8",
+      "title": "Oil prices hit two-month low after U.S. Democratic win",
+      "url": "https://www.thehindu.com/business/Economy/oil-prices-hit-two-month-low-after-us-democratic-win/article71668473.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-05T02:52:17Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d63b26db861f17033722",
+      "title": "Could Democrats in Congress end the war in Iran?",
+      "url": "https://www.bbc.co.uk/news/videos/cqg7xkv1rze1o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T22:14:41Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "719874b90f95fb9c90fa",
+      "title": "What the US midterm results mean for the Middle East",
+      "url": "https://www.bbc.co.uk/news/videos/cq74pedvwlw8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T17:57:03Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "23eb529421f6ccc68a49",
+      "title": "Apollo Hospitals’ Q2 revenue rises 23%; profit up 32% on broad-based growth",
+      "url": "https://www.thehindu.com/business/Industry/apollo-hospitals-q2-revenue-rises-23-profit-up-32-on-broad-based-growth/article71666462.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T16:46:23Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0327557cf1d30f43fc86",
+      "title": "Gold shines as dollar slips to 5-week low, investors await U.S. midterm election results",
+      "url": "https://www.thehindu.com/business/markets/gold-shines-as-dollar-slips-to-5-week-low-investors-await-us-midterm-election-results/article71665738.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T14:34:46Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4db500eec81314c53560",
+      "title": "U.S. midterm elections impact on India: Faster trade deal talks and higher tariffs likely",
+      "url": "https://www.thehindu.com/business/Economy/us-midterm-elections-impact-on-india-faster-trade-deal-talks-and-higher-tariffs-likely/article71665044.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T12:42:46Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f4b0b05328768528e091",
+      "title": "Rupee gains 17 paise to settle at 94.58 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-gains-17-paise-to-settle-at-9458-against-us-dollar/article71665235.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T11:55:14Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "49e4666581a44f4c5054",
+      "title": "RBI constitutes Technical Consultative Committee for Financial Markets",
+      "url": "https://www.thehindu.com/business/markets/rbi-constitutes-technical-consultative-committee-for-financial-markets/article71664423.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T09:11:55Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "87f8c099ba59a62579d0",
+      "title": "Kotak Mahindra Bank gets CCI nod to acquire Deutsche Bank India's retail, private banking businesses",
+      "url": "https://www.thehindu.com/business/Industry/kotak-mahindra-bank-gets-cci-nod-to-acquire-deutsche-bank-indias-retail-private-banking-businesses/article71664408.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T06:53:01Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "mega_credit"
+      ],
+      "feedSources": [
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a923f3ff90cd96b21bc0",
+      "title": "Oil rises on Iran war uncertainty after Trump’s Republicans face election rout",
+      "url": "https://www.thehindu.com/business/Economy/oil-rises-on-iran-war-uncertainty-after-trumps-republicans-face-election-rout/article71664204.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T06:21:22Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "196b7a71b75772b8ed52",
+      "title": "Stock markets rally in early trade on foreign fund inflows, easing crude oil prices",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-rally-in-early-trade-on-foreign-fund-inflows-easing-crude-oil-prices/article71664174.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T06:06:53Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "839b6fc0062d9623ba64",
+      "title": "Rupee rises 14 paise to 94.61 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-14-paise-to-9461-against-us-dollar-in-early-trade/article71664175.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T06:03:36Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c244f5f62d65c4a8d593",
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-04T00:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6f6cc7df539ebb13e2e8",
+      "title": "After 22 years, RBI reopens UCB licensing: can new audit rules ensure a safer banking sector? | Explained",
+      "url": "https://www.thehindu.com/business/Economy/after-22-years-rbi-reopens-ucb-licensing-can-new-audit-rules-ensure-a-safer-banking-sector-explained/article71659655.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-03T07:03:43Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c7ce18783b7dfc152cd9",
+      "title": "Stock markets extend rally in early trade; Sensex jumps 615 points",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-extend-rally-in-early-trade-sensex-jumps-615-points/article71659466.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-03T05:02:01Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ab31c6197a0f92af79d8",
+      "title": "Rupee rises 12 paise to 94.72 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-12-paise-to-9472-against-us-dollar-in-early-trade/article71659450.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-03T04:49:49Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a0ef9a6021d1982b9814",
+      "title": "Petronet LNG reports 52.3% growth in net profits, in talks for availing undelivered cargoes",
+      "url": "https://www.thehindu.com/business/Industry/petronet-lng-reports-523-growth-in-net-profits-in-talks-for-availing-undelivered-cargoes/article71658131.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T23:00:32Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b3c82a8e6fa15d5554ce",
+      "title": "Congress seeks JPC probe into IDBI Bank sale, alleges valuation irregularities",
+      "url": "https://www.thehindu.com/news/national/congress-seeks-jpc-probe-into-idbi-bank-sale-alleges-valuation-irregularities/article71657915.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T17:04:12Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f3f6c3d1fba6be9e3a53",
+      "title": "Iran killed her teenage daughter - now she is facing up to the regime",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T06:00:54Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bf87ce5fb02bc3ef2b26",
+      "title": "Markets open higher following AI-selling in Wall Street, fall in crude",
+      "url": "https://www.thehindu.com/business/markets/sensex-jumps-765-points-during-early-trade-on-sharp-rally-in-reliance-shares-decline-in-oil-prices/article71655320.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T05:30:32Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1046e9cb6906d42c00c0",
+      "title": "Rupee falls 21 paise to 94.97 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade/article71655318.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T04:52:14Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9935c4e4c107c114a26f",
+      "title": "Coal India’s production increases 19% as mining recovers after monsoon slump",
+      "url": "https://www.thehindu.com/business/Economy/coal-indias-production-increases-19-as-mining-recovers-after-monsoon-slump/article71652572.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-01T16:36:30Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "32f4d2fc6a455df102d7",
+      "title": "Playbook to overcome inflation",
+      "url": "https://www.thehindu.com/business/Economy/playbook-to-overcome-inflation/article71651980.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-01T02:04:03Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8b5ab8f55e3563190f98",
+      "title": "IOC says crude Q2 price volatile as procurement swings between discounts and premiums",
+      "url": "https://www.thehindu.com/business/Economy/crude-oil-prices-very-volatile-in-q2-carried-both-discounts-premium-at-varying-intervals-iocl-official/article71650317.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-31T16:09:42Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "56774218fc2c39ccc769",
+      "title": "Why investors are worried despite Alphabet’s 25% revenue growth and Google Cloud’s revenue more than doubling | Explained",
+      "url": "https://www.thehindu.com/sci-tech/technology/why-investors-are-worried-despite-alphabets-25-revenue-growth-and-google-clouds-revenue-more-than-doubling-explained/article71648845.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-31T12:27:55Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "tech_credit"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a664ad024dba66cc6894",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-30T14:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e362e4d7ebda355d9261",
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-30T09:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7b0086faf27ee0fa4601",
+      "title": "Rupee rises 7 paise to 95.19 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-9519-against-us-dollar-in-early-trade/article71643608.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-30T04:24:49Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e199bca473c62ef08bf1",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T14:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8be498015a196c0860d4",
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T13:15:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d01ff1bdeeb201152a1a",
+      "title": "Stock markets rebound over 1% on Fed pause, but rupee and crude keep investors on edge",
+      "url": "https://www.thehindu.com/business/markets/sensex-surges-905-pts-nifty-tops-22900-on-heavy-buying-in-banking-fmcg-stocks/article71640234.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T13:06:09Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping",
+        "india_flows",
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b0ca121b3040998ffc88",
+      "title": "U.S. Fed holds rates steady; pressure on emerging markets expected with stronger dollar outlook",
+      "url": "https://www.thehindu.com/business/Economy/fed-holds-rates-steady-and-cuts-future-meetings-stronger-dollar-outlook-pressures-emerging-markets/article71639815.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T10:21:53Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Economy",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5e25e64b9fc731963dba",
+      "title": "ECB President Lagarde to step down on 7 February 2027",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T10:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4429b62108edaad2dfee",
+      "title": "How could Israel break election deadlock? Here are four scenarios",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T09:06:48Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2556f533cb0c86424090",
+      "title": "U.S. Fed holds interest rates steady despite surging inflation",
+      "url": "https://www.thehindu.com/business/Economy/federal-reserve-likely-to-skip-rate-hike-despite-elevated-inflation/article71634402.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T06:18:28Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "32283c18b7f7cf51e9d3",
+      "title": "Sensex, Nifty rise in early trade on Reliance buying, foreign inflows",
+      "url": "https://www.thehindu.com/business/markets/sensex-nifty-rise-in-early-trade-on-reliance-buying-foreign-inflows/article71639074.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T05:42:55Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "19e924ee25df3b150392",
+      "title": "Rupee rises 11 paise to 95.17 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-11-paise-against-us-dollar-in-early-trade-on-thursday/article71639047.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-29T05:22:33Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e17af4c0d470e46e9fca",
+      "title": "Israel's election deadlock is a sign of the country's deep divisions",
+      "url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-28T20:53:02Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "847a7abc2726921ccf5d",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "domain": "www.federalreserve.gov",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-28T18:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Federal Reserve Monetary"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "56fd053b1ea772e88483",
+      "title": "Markets plunge nearly 1%; rise in crude, FOMC decision weigh on investor sentiments",
+      "url": "https://www.thehindu.com/business/markets/markets-plunge-rising-crude-oil-prices-fomc-decision-investor-sentiments/article71634407.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-28T06:16:36Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "20b07c61a0126bef9e8c",
+      "title": "Rupee rises 4 paise to 95.03 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-against-usd-in-early-trade-on-wednesday/article71634342.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-28T05:32:39Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a5d236af617afc0cf8e5",
+      "title": "Rupee falls 7 paise to 95.22 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-against-us-dollar-in-early-trade-on-october-27-2026/article71629928.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-27T06:22:13Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1f17b78ed48b6090490f",
+      "title": "Stock markets fall in early trade amid persistently elevated crude oil prices, IT selling",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-on-tuesday-amid-elevated-crude-oil-prices-and-it-selling/article71629855.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-27T05:50:57Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ad06f78c525a0d83f30f",
+      "title": "BPCL shifts crude sourcing towards Middle East as Russian oil loses price edge",
+      "url": "https://www.thehindu.com/business/Economy/bpcl-shifts-crude-sourcing-towards-middle-east-as-russian-oil-loses-price-edge/article71628150.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-26T16:33:28Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c0ac1c1bf1fbb41aea16",
+      "title": "Rupee falls 29 paise to close at 95.22 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-29-paise-to-close-at-9522-against-us-dollar/article71626594.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-26T11:12:18Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "32819da67a1c5ede31d7",
+      "title": "Rupee falls 5 paise to 94.98 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-5-paise-to-9498-against-us-dollar-in-early-trade/article71625708.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-26T06:19:04Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c743e30d4964c352e60d",
+      "title": "Stock markets decline in early trade; Sensex drops over 500 points",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-decline-in-early-trade-sensex-drops-over-500-points/article71625671.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-26T05:38:36Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e0b5f02f260b2b5b2d0f",
+      "title": "FPIs withdraw ₹48,056 cr from equities in October so far amid elevated crude oil prices",
+      "url": "https://www.thehindu.com/business/markets/fpis-withdraw-48056-cr-from-equities-in-october-so-far-amid-elevated-crude-oil-prices/article71622798.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-25T08:26:33Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7b01f4c967190623029a",
+      "title": "The bitter row over military service that could shape Israel's future",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-24T23:03:21Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1c71af3605bb23528b26",
+      "title": "Indian markets snap 1-week rally following surge in crude, FII outflows",
+      "url": "https://www.thehindu.com/business/markets/indian-markets-snap-1-week-rally-following-surge-in-crude-fii-outflows/article71615820.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-23T11:54:04Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping",
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9723a70aac147494d4e0",
+      "title": "Rupee falls 12 paise to close at 94.93 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-12-paise-to-close-at-9493-against-us-dollar/article71615832.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-23T11:21:01Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9d6b1867e0c6c83a24ea",
+      "title": "Sensex, Nifty rebound after 3-day fall on IT stocks buying",
+      "url": "https://www.thehindu.com/business/markets/sensex-nifty-opening-on-october-23-2026/article71614681.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-23T06:47:56Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d607e691512a8c991fe6",
+      "title": "Rupee rises 3 paise to 94.78 against USD in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-against-us-dollar-on-october-23-2026/article71614598.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-23T06:13:24Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d60689df4b69703a5afc",
+      "title": "India's West Asia oil imports return to pre-war levels in September",
+      "url": "https://www.thehindu.com/business/markets/indias-west-asia-oil-imports-return-to-pre-war-levels-in-september/article71610506.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-22T09:14:44Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c71dec0cc1c14b6b59e0",
+      "title": "How Arab parties could hold critical balance of power in Israeli election",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-22T05:30:22Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "50747765b1cec4cfab15",
+      "title": "Sensex, Nifty decline in early trade as power, metal stocks drag markets lower",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-sensex-and-nifty-on-october-22-2026/article71610117.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-22T04:57:18Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a98f1a3c1856570ff2ce",
+      "title": "Rupee falls 12 paise to 94.50 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/indian-rupee-us-dollar-forex-markets-october-22-2026/article71610102.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-22T04:50:36Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "93df1e07c7d55a8d8f5f",
+      "title": "Rupee strengthens for eighth consecutive day on IPO inflows; rise in crude prices cap gains",
+      "url": "https://www.thehindu.com/business/markets/rupee-closes-at-six-week-high-of-9443-driven-by-jio-ipo-rbi-intervention/article71607257.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-21T14:12:18Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "energy_shipping",
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0c757df81c8be6ab0106",
+      "title": "Rupee rises 29 paise to 94.62 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-rises-29-paise-to-9462-against-us-dollar-in-early-trade/article71606541.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-21T06:43:30Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "25295fece9bed86dc315",
+      "title": "Israel's far right find fertile ground among first-time voters",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg632xgndeo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-10-20T08:53:06Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "23e684d3f686d389cf1e",
+      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-09-25T08:31:56Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fe283a4d738a52f3965c",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "domain": "www.federalreserve.gov",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-09-16T18:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Federal Reserve Monetary"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "96bceaa064dff21599f1",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "domain": "www.federalreserve.gov",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-09-16T18:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Federal Reserve Monetary"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b31df595e972b0680bcb",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "domain": "www.federalreserve.gov",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-07-29T18:00:00Z",
+      "discovered": "2026-11-11T15:38:40.000100Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Federal Reserve Monetary"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    }
+  ]
 }
