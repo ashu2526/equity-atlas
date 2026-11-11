@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "project": "Equity Atlas — Market Regime Radar",
+  "provider": "GDELT DOC 2.0 public API",
+  "providerDocs": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+  "scan": {
+    "lookbackDays": 14,
+    "requestIntervalSeconds": 6,
+    "maxRecordsPerTopic": 80,
+    "retentionDays": 120,
+    "maxArchivedArticles": 6000,
+    "maxScanSummaries": 120
+  },
+  "topics": [
+    {
+      "id": "india_flows",
+      "query": "\"foreign investors\" India stocks OR \"FPI inflows\" India",
+      "label": "India flows"
+    },
+    {
+      "id": "energy_shipping",
+      "query": "\"Brent crude\" \"Hormuz\" OR \"oil prices\" \"shipping\"",
+      "label": "Oil and shipping"
+    },
+    {
+      "id": "inflation_rates",
+      "query": "\"RBI\" inflation repo rate OR \"Fed\" yields inflation",
+      "label": "Inflation and rates"
+    },
+    {
+      "id": "ai_rotation",
+      "query": "\"AI capex\" stocks OR \"artificial intelligence\" \"valuation\"",
+      "label": "AI rotation"
+    },
+    {
+      "id": "trade_policy",
+      "query": "\"trade tariffs\" India China OR \"export controls\" tariffs",
+      "label": "Trade policy"
+    },
+    {
+      "id": "geopolitics",
+      "query": "\"Middle East\" conflict \"shipping\" OR \"Ukraine\" \"sanctions\"",
+      "label": "Geopolitics"
+    },
+    {
+      "id": "credit_cds",
+      "query": "\"credit default swaps\" OR \"sovereign CDS\" OR \"bank CDS\"",
+      "label": "Credit/CDS news"
+    },
+    {
+      "id": "elections_policy",
+      "query": "\"election\" \"markets\" policy OR \"midterm\" tariff",
+      "label": "Elections and policy"
+    },
+    {
+      "id": "auto_consumer",
+      "query": "\"India\" \"auto sales\" OR \"consumer demand\" India",
+      "label": "Auto and demand"
+    },
+    {
+      "id": "healthcare",
+      "query": "\"India\" \"hospital\" \"earnings\" OR \"healthcare\" \"insurance\" India",
+      "label": "Hospital sector"
+    },
+    {
+      "id": "tyre_inputs",
+      "query": "\"natural rubber\" tyre industry OR \"Balkrishna Industries\" tyres",
+      "label": "Tyres and inputs"
+    },
+    {
+      "id": "defence_capex",
+      "query": "\"India\" \"defence\" \"contracts\" OR \"defense spending\" procurement",
+      "label": "Defense"
+    },
+    {
+      "id": "climate_agri",
+      "query": "\"India\" \"El Nino\" \"monsoon\" OR \"food inflation\" India",
+      "label": "Monsoon and agriculture"
+    },
+    {
+      "id": "mega_credit",
+      "query": "\"JPMorgan\" \"credit default swaps\" OR \"Deutsche Bank\" \"credit risk\"",
+      "label": "Large bank credit"
+    },
+    {
+      "id": "sovereign_credit",
+      "query": "\"sovereign debt\" \"downgrade\" OR \"credit spreads\" \"sovereign\"",
+      "label": "Sovereign credit"
+    },
+    {
+      "id": "tech_credit",
+      "query": "\"Nvidia\" \"debt\" AI OR \"data center\" \"financing\" credit",
+      "label": "Technology credit"
+    }
+  ]
+}
