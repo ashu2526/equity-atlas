@@ -2,23 +2,23 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-11T16:46:57.013144Z",
+      "generatedAt": "2026-11-11T17:13:50.726168Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 126,
+        "items": 128,
         "publishers": 6,
         "positive": 24,
-        "negative": 25,
-        "neutral": 77,
-        "languageIndex": -5.7,
+        "negative": 26,
+        "neutral": 78,
+        "languageIndex": -6.3,
         "label": "Mixed headline language",
-        "sourceConcentration": 44.4,
+        "sourceConcentration": 43.8,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "geopolitics",
-          "items": 32,
+          "items": 33,
           "publishers": 4,
           "languageIndex": -53.8,
           "attentionDeltaPct": null
@@ -39,9 +39,9 @@
         },
         {
           "id": "ai_rotation",
-          "items": 18,
+          "items": 19,
           "publishers": 3,
-          "languageIndex": 6.7,
+          "languageIndex": 5.6,
           "attentionDeltaPct": null
         },
         {

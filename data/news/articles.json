@@ -1,12 +1,50 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-11T16:46:57.013144Z",
+  "updatedAt": "2026-11-11T17:13:50.726168Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "b7d7c0457e3cd53f66d3",
+      "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T16:59:18Z",
+      "discovered": "2026-11-11T17:13:50.726168Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "19c94d71caf18caaccaa",
+      "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-11T16:47:45Z",
+      "discovered": "2026-11-11T17:13:50.726168Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "1fe3f9a589f33728ebfe",
       "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",

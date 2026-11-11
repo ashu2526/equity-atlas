@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T16:46:57.013144Z",
+  "generatedAt": "2026-11-11T17:13:50.726168Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,32 +9,38 @@
     "days": 14
   },
   "overall": {
-    "items": 126,
+    "items": 128,
     "publishers": 6,
     "positive": 24,
-    "negative": 25,
-    "neutral": 77,
-    "languageIndex": -5.7,
+    "negative": 26,
+    "neutral": 78,
+    "languageIndex": -6.3,
     "label": "Mixed headline language",
-    "sourceConcentration": 44.4,
+    "sourceConcentration": 43.8,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 32,
+      "items": 33,
       "publishers": 4,
       "positive": 0,
-      "negative": 12,
+      "negative": 13,
       "neutral": 20,
       "languageIndex": -53.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 56.2,
+      "sourceConcentration": 54.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
+          "date": "2026-11-11T16:47:45Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
@@ -45,12 +51,6 @@
           "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
           "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-11T15:05:11Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T14:51:26Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -152,18 +152,24 @@
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 18,
+      "items": 19,
       "publishers": 3,
       "positive": 2,
       "negative": 1,
-      "neutral": 15,
-      "languageIndex": 6.7,
+      "neutral": 16,
+      "languageIndex": 5.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 44.4,
+      "sourceConcentration": 42.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
+          "date": "2026-11-11T16:59:18Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/data-center-gas-plants-to-lift-us-power-emissions-10-bnef-says",
@@ -174,12 +180,6 @@
           "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
           "date": "2026-11-11T16:03:55Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
-          "date": "2026-11-11T13:28:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -591,18 +591,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 32,
+      "items": 33,
       "publishers": 4,
       "positive": 0,
-      "negative": 12,
+      "negative": 13,
       "neutral": 20,
       "languageIndex": -53.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 56.2,
+      "sourceConcentration": 54.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
+          "date": "2026-11-11T16:47:45Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
@@ -613,12 +619,6 @@
           "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
           "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-11T15:05:11Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T14:51:26Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -864,7 +864,7 @@
     },
     {
       "publisher": "www.bloomberg.com",
-      "stories": 21
+      "stories": 23
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -880,7 +880,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 4,
+    "reportedScanCount": 5,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },

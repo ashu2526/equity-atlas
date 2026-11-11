@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "snapshots": [
+    {
+      "asOf": "2026-11-11",
+      "headlines": 128,
+      "clusters": 120,
+      "topicCounts": {
+        "energy_shipping": 14,
+        "india_flows": 21,
+        "inflation_rates": 28,
+        "trade_policy": 3,
+        "elections_policy": 17,
+        "geopolitics": 33,
+        "ai_rotation": 19,
+        "climate_agri": 5,
+        "defence_capex": 1,
+        "tyre_inputs": 1,
+        "auto_consumer": 2,
+        "healthcare": 1
+      },
+      "geoMentions": {
+        "India": 25,
+        "United States": 23,
+        "Middle East": 19,
+        "Russia / Ukraine": 7,
+        "Europe": 7,
+        "China": 8
+      }
+    }
+  ]
+}
