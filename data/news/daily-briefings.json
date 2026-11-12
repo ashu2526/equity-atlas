@@ -3,6 +3,461 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-12-pm",
+      "asOf": "2026-11-12",
+      "createdAt": "2026-11-12T13:57:38Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published research — provisional: current-day NSE FII/DII gross transactions and official MoSPI CPI release not independently retrieved",
+      "marketSession": "PM — 12 Nov 2026 India cash close; global developments through approximately 19:27 IST",
+      "coverageWindow": {
+        "start": "2026-10-29",
+        "end": "2026-11-12T19:27:38+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-12T08:40:32.434871Z",
+      "headline": "India inflation breaches 6% as foreign-led rally pauses; MSCI rebalancing and Hormuz risk complicate sector leadership",
+      "executiveSummary": "Material PM change versus morning: Reuters reports October India CPI 6.09% (food 8.94%), breaching RBI upper tolerance band and increasing rate-sensitive downside risk. NIFTY closed +0.18% at 25,299.35; financials outperformed while autos declined. MSCI announced index additions/removal effective 30 Nov, a possible passive-flow event not observed buying. October AMFI equity fund subscriptions stayed positive but fell 13.9% MoM. Reuters reported Brent near $92.22 intraday amid persistent Hormuz shipping risks. Prior 11 Nov NSE-derived FII/DII turnover remains the latest independently retrievable gross transaction table; 12 Nov figures and primary NSDL sector allocations are unavailable. The repository's 14:10 IST automated snapshots are older than today's India close. Sector leadership and priced event-risk: as of 11 Nov private banks 3m +9.26%, +5.91pp vs NIFTY 50; pharma +7.53%, +4.18pp; autos -2.86%, -6.21pp. At 12 Nov 08:39 UTC Polymarket Dec Fed +25bp YES was 86.5¢ (+1.0pp versus stored previous snapshot; 24h betting volume $208,160; liquidity $788,374); Iran invasion before 2027 YES 7.5¢ (+1.0pp; 24h volume $239,870; liquidity $351,160). These quotes are not probabilities, policy forecasts, equity cash flows or evidence of today's later CPI repricing.",
+      "regime": {
+        "label": "Selective Indian equity resilience / rising domestic inflation and geopolitical tail risk",
+        "change": "Downgraded from morning's selectively constructive framing to mixed with explicit rate/inflation vulnerability after October CPI breach; new MSCI event catalyst but no proven passive purchases.",
+        "confidence": "Moderate for 12 Nov reported CPI/index close; low for inferred future rates, sector fund flows and later-evening event pricing",
+        "marketConfirmation": [
+          "Reuters: NIFTY 50 25,299.35 (+0.18%), Sensex 81,911.01 (+0.04%), financials +1.4%, autos -1% on 12 Nov.",
+          "Repository NSE price indices as-of 11 Nov: private banks +5.91pp and pharma +4.18pp relative 3m; autos -6.21pp.",
+          "AMFI October category subscriptions positive but below September."
+        ],
+        "contradictions": [
+          "Foreign buying narrative coexists with 11 Nov DII net selling; 12 Nov official cash gross buy/sell unavailable.",
+          "Index strength does not confirm sector FPI purchases; NSDL fortnightly sector allocations not verified.",
+          "Crude eased intraday while shipping attacks and physical disruption persisted.",
+          "AI demand continues but Nebius delivery delays and SoftBank equipment cancellations expose over-ordering risk."
+        ],
+        "missingSignals": [
+          "12 Nov NSE FII/DII provisional buy, sell and net; no substitute inferred from index price.",
+          "Original MoSPI October 2026 CPI PDF and component-level official reconciliation; Reuters 6.09% secondary report.",
+          "Latest NSDL fortnightly FPI sector transactions; AMFI original monthly table not directly inspected.",
+          "Latest CFTC weekly commitments, US Treasury TIC country flow vintages, verified sovereign/issuer CDS spread events and current credit OAS.",
+          "12 Nov completed NSE index OHLCV and company 12 Nov closing volume; Polymarket snapshot after CPI publication."
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "India October headline CPI",
+          "value": "6.09% YoY vs September 5.54%; food 8.94%",
+          "period": "October 2026, reported 12 Nov",
+          "dataClass": "Reported official statistics via Reuters; original PDF not retrieved",
+          "source": "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/"
+        },
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,299.35 (+0.18%)",
+          "period": "12 Nov 2026 close",
+          "dataClass": "Reported index price, not capital flow",
+          "source": "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/"
+        },
+        {
+          "name": "Sensex close",
+          "value": "81,911.01 (+0.04%)",
+          "period": "12 Nov 2026 close",
+          "dataClass": "Reported index price",
+          "source": "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/"
+        },
+        {
+          "name": "NSE FII provisional cash gross buy/sell/net",
+          "value": "₹30,087 / ₹17,524 / +₹12,563 crore",
+          "period": "11 Nov 2026 (12 Nov unavailable)",
+          "dataClass": "Secondary NSE-derived provisional cash transactions",
+          "source": "https://finbiznet.com/data/fii-dii-activity"
+        },
+        {
+          "name": "NSE DII provisional cash gross buy/sell/net",
+          "value": "₹19,704 / ₹28,139 / −₹8,435 crore",
+          "period": "11 Nov 2026 (12 Nov unavailable)",
+          "dataClass": "Secondary NSE-derived provisional cash transactions",
+          "source": "https://finbiznet.com/data/fii-dii-activity"
+        },
+        {
+          "name": "AMFI open-end equity MF net subscriptions",
+          "value": "₹32,993.64 crore, -13.87% MoM",
+          "period": "October 2026 vs September",
+          "dataClass": "Reported mutual fund category net subscriptions; not direct secondary-market sector purchases",
+          "source": "https://www.ndtvprofit.com/markets/amfi-data-october-2026-sip-inflows-rise-to-rs-32-160-in-october-equity-mf-inflows-fall-14-percent-equity-large-caps-small-caps-12311489"
+        },
+        {
+          "name": "MSCI EM India index weight",
+          "value": "12.9% to 13.15% indicated",
+          "period": "12 Nov review, effective after 30 Nov close",
+          "dataClass": "Index weight announcement, not observed purchases",
+          "source": "https://www.reuters.com/world/india/msci-adds-four-indian-stocks-key-global-index-part-november-review-2026-11-12/"
+        },
+        {
+          "name": "Brent intraday",
+          "value": "$92.22/bbl (-0.58%)",
+          "period": "12 Nov 2026, 12:22 GMT Reuters observation",
+          "dataClass": "Intraday futures quote; not settlement",
+          "source": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/"
+        },
+        {
+          "name": "Private bank 3m relative price return",
+          "value": "+5.91 percentage points (absolute +9.26%)",
+          "period": "NSE indices as of 11 Nov",
+          "dataClass": "Price-only, not sector FPI cash flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Pharma 3m relative price return",
+          "value": "+4.18 percentage points (absolute +7.53%)",
+          "period": "NSE indices as of 11 Nov",
+          "dataClass": "Price-only, not sector FPI cash flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Polymarket Dec Fed +25bp YES",
+          "value": "86.5¢, +1.0pp vs prior stored snapshot; $208,160 24h betting volume, $788,374 liquidity",
+          "period": "12 Nov 08:39:02 UTC",
+          "dataClass": "Betting market quote, not objective probability or equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Polymarket US invasion Iran before 2027 YES",
+          "value": "7.5¢, +1.0pp vs prior stored snapshot; $239,870 24h betting volume, $351,160 liquidity",
+          "period": "12 Nov 08:39:02 UTC",
+          "dataClass": "Betting market quote, not objective probability or equity flow",
+          "source": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
+        }
+      ],
+      "stories": [
+        {
+          "id": "india-cpi-20261112",
+          "rank": 1,
+          "importance": "High",
+          "theme": "inflation_rates",
+          "geography": "India",
+          "title": "October CPI 6.09% breaches RBI upper tolerance band",
+          "whatHappened": "On 12 Nov Reuters reported October CPI 6.09% YoY versus September 5.54%, above the 5.93% poll; food inflation 8.94%. MoSPI original PDF not independently downloaded in this review.",
+          "whyItMatters": [
+            "Higher food prices pressure discretionary spending and may increase wage/operating cost pressure.",
+            "Inflation above 6% raises the probability of tighter RBI policy, increasing discount rates and funding costs; this is a scenario, not a policy decision."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "Consumer staples, consumer discretionary, rate-sensitive NBFCs, housing and banks",
+          "proxies": "Food supply chain, agri-inputs, logistics, packaging; fixed-income duration",
+          "whatCouldChange": "RBI reaction, food-price trajectory, 10-year G-sec yields, credit spreads, NIM and retail volume",
+          "caution": "Some syndicated snippets disagree (6.9% typo); Reuters and multiple data sources consistently report 6.09%. Verify original MoSPI release and future revisions; lower crude may offset food pressure.",
+          "sources": [
+            "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/",
+            "https://www.reuters.com/world/india/view-indias-october-retail-inflation-609-on-year-2026-11-12/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "india-close-20261112",
+          "rank": 2,
+          "importance": "High",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Indian benchmark gains stall despite November foreign-led rally",
+          "whatHappened": "Reuters 12 Nov close: NIFTY 50 25,299.35 (+0.18%), Sensex 81,911.01 (+0.04%), financials +1.4%, autos -1%; Reuters cites $6.43bn November-to-date foreign purchases but this is not today's verified NSE provisional gross turnover.",
+          "whyItMatters": [
+            "Stalling index breadth after a large rally makes earnings and rates more important than momentum extrapolation.",
+            "Financial leadership alongside auto weakness implies sector differentiation; one day's index return does not reveal investor identity."
+          ],
+          "smartMoney": "11 Nov secondary NSE-derived provisional gross: FII buy ₹30,087cr, sell ₹17,524cr, net +₹12,563cr; DII buy ₹19,704cr, sell ₹28,139cr, net -₹8,435cr. 12 Nov buy/sell/net unavailable.",
+          "direct": "Banks, diversified Indian equities, auto OEMs",
+          "proxies": "Brokers, exchanges, NBFCs, auto components and tyres",
+          "whatCouldChange": "12 Nov official NSE buy/sell/net, 13 Nov breadth, earnings revisions and deposit costs",
+          "caution": "Latest directly inspectable daily provisional gross FII/DII buy/sell/net remains 11 Nov; do not claim 12 Nov figures. Reuters MTD flow and NSE provisional turnover use different bases.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://finbiznet.com/data/fii-dii-activity"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "msci-review-20261112",
+          "rank": 3,
+          "importance": "High",
+          "theme": "index_flows",
+          "geography": "India/global",
+          "title": "MSCI adds four Indian names; November 30 effective date",
+          "whatHappened": "Reuters 12 Nov: Adani Green Energy, Coforge, LIC and Meesho added to MSCI Global Standard; PI Industries removed. India EM index weight projected 12.9% to 13.15%, changes effective after 30 Nov close.",
+          "whyItMatters": [
+            "Benchmark-tracking portfolios may rebalance near effective date, creating event-driven demand/supply distinct from earnings upgrades.",
+            "Index-weight changes can affect liquidity and short-term spreads but are not proof that active institutions have already purchased the additions."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "Named inclusions/removal and existing index constituents",
+          "proxies": "Brokers, custodians, index funds, market makers",
+          "whatCouldChange": "MSCI final implementation file, passive tracking estimates, exchange block transactions, price-volume at rebalance",
+          "caution": "Potential passive flows not yet measured; predicted weight is not cash flow; corporate fundamentals unchanged by index membership alone.",
+          "sources": [
+            "https://www.reuters.com/world/india/msci-adds-four-indian-stocks-key-global-index-part-november-review-2026-11-12/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "oil-hormuz-20261112",
+          "rank": 4,
+          "importance": "High",
+          "theme": "energy_shipping",
+          "geography": "Middle East/global/India",
+          "title": "Crude eases while Hormuz shipping threat persists",
+          "whatHappened": "Reuters 12 Nov intraday Brent $92.22 (-0.58%) and WTI $85.86 (-0.77%); Iran reported naval-mine damage to two tankers, with shipping incidents and unresolved regional conflict. Prices are timestamped intraday, not settlement.",
+          "whyItMatters": [
+            "Lower spot crude can reduce Indian fuel, freight and feedstock import bills if sustained and passed through.",
+            "Maritime insurance, rerouting and physical supply disruption can negate spot-price relief; geopolitical escalation may lift FX and inflation risk premia."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "Oil marketing, airlines, chemicals, paint and logistics",
+          "proxies": "Tyres, packaging, fertilisers, consumer demand and shipping insurance",
+          "whatCouldChange": "Brent settlement, tanker AIS traffic, freight/insurance premiums, actual import costs and company gross margins",
+          "caution": "Reuters independently notes uncertain damage assessment for navigation attacks; neither a ceasefire quote nor falling crude proves secure shipping.",
+          "sources": [
+            "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/",
+            "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "amfi-october-20261111",
+          "rank": 5,
+          "importance": "High",
+          "theme": "domestic_fund_flows",
+          "geography": "India",
+          "title": "October equity MF subscriptions remain positive but decelerate",
+          "whatHappened": "AMFI October figures reported 11 Nov: open-end equity net subscriptions ₹32,993.64cr versus ₹38,306.55cr September (-13.87%); small-cap ₹6,407.50cr vs ₹9,038.57cr; mid-cap ₹4,892.62cr vs ₹7,834.84cr; large+mid-cap ₹8,484.23cr vs ₹4,271.22cr.",
+          "whyItMatters": [
+            "AUM subscriptions are genuine fund-category cash flows, but not direct proof of fund managers' equity purchases in specific sectors.",
+            "Lower small/mid subscriptions could reduce marginal liquidity support in less-liquid stocks; large+mid category growth changes the funding mix."
+          ],
+          "smartMoney": "Reported AMFI category fund subscriptions with exact October/September periods; not sector FPI transactions.",
+          "direct": "Domestic mutual funds, mid/small caps, liquid large caps",
+          "proxies": "AMCs, exchanges, registrars, wealth managers",
+          "whatCouldChange": "AMFI monthly subscriptions, category deployment, NSE liquidity and fund holdings",
+          "caution": "SIP contribution ₹32,160cr is a contribution series, not identical to net equity fund inflow; aggregate fund inflows differ from secondary market DII transactions. Primary AMFI tables not directly downloaded.",
+          "sources": [
+            "https://www.ndtvprofit.com/markets/amfi-data-october-2026-sip-inflows-rise-to-rs-32-160-in-october-equity-mf-inflows-fall-14-percent-equity-large-caps-small-caps-12311489",
+            "https://upstox.com/news/personal-finance/mutual-funds/amfi-october-2026-data-8-key-takeaways-on-equity-mf-inflows-debt-funds-gold-and-silver-et-fs/article-203285/",
+            "https://www.amfiindia.com/research-information/mf-summaries"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "bajaj-qip-20261112",
+          "rank": 6,
+          "importance": "High",
+          "theme": "corporate_financing",
+          "geography": "India",
+          "title": "Bajaj Finance institutional equity raise tests funding appetite",
+          "whatHappened": "Reuters 11 Nov reported QIP launched with ₹992.25 floor and previously approved ceiling up to ₹117bn (~$1.25bn); September-quarter AUM +26% YoY. Reuters 12 Nov said shares +3.4% after the announcement.",
+          "whyItMatters": [
+            "New equity could fund credit growth and protect capital ratios, but dilutes existing shareholders.",
+            "Institutional subscription at final issue price would be directly observed capital allocation, unlike a bank index rally; allotment details are not yet verified."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "Bajaj Finance, NBFC credit growth, institutional equity issuance",
+          "proxies": "Fintech lenders, credit bureaus, distribution and capital-market intermediaries",
+          "whatCouldChange": "Final allotment, investor disclosures, dilution, cost of funds, NIM and loan delinquencies",
+          "caution": "QIP launch is not proof the entire approved amount has been placed; avoid claiming final investor identities or executed allocation.",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-bajaj-finance-launches-over-1-billion-share-sale-institutional-investors-2026-11-11/",
+            "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "ai-nebius-20261112",
+          "rank": 7,
+          "importance": "High",
+          "theme": "ai_rotation",
+          "geography": "US/global/India",
+          "title": "Nebius AI-capex growth faces capacity and financing execution risk",
+          "whatHappened": "Reuters 12 Nov: Nebius projected 2026 revenue at low end of previous range owing to capacity delays; 2026 capex ~$27bn versus analyst ~$22bn, and 2027 capex $40–45bn, with customer prepayments/asset-backed finance expected to cover 75–85%.",
+          "whyItMatters": [
+            "Infrastructure delays can push revenue recognition out despite robust contracted demand, affecting cash conversion and capital intensity.",
+            "Large capex financed by prepayments and asset-backed debt exposes lenders and suppliers to utilization and refinancing risk."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "AI cloud infrastructure, chips, data-centre power/cooling",
+          "proxies": "Indian electrical equipment, transformers, engineering services, IT outsourcing and grid equipment",
+          "whatCouldChange": "Capacity commissioned, GPU utilization, cash receipts, customer commitments, financing terms and credit spreads",
+          "caution": "No direct Indian order-book confirmation; projected spending is not realized revenue; SoftBank's turbine cancellations offer counterevidence to extrapolating all AI infrastructure demand.",
+          "sources": [
+            "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/",
+            "https://www.reuters.com/commentary/breakingviews/softbanks-turbine-snafu-spins-ai-trade-around-2026-11-11/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        },
+        {
+          "id": "reliance-gasification-20261112",
+          "rank": 8,
+          "importance": "High",
+          "theme": "energy_capex",
+          "geography": "India",
+          "title": "Reliance draft coal-to-gas plan is contingent capex, not committed earnings",
+          "whatHappened": "Reuters 12 Nov reported a draft Andhra Pradesh agreement for two-phase coal gasification, approximately ₹430bn ($4.59bn); initial ₹30bn feasibility/pilot, subsequent ~₹400bn contingent on trials and approvals.",
+          "whyItMatters": [
+            "Successful domestic feedstock substitution could alter long-run import exposure and chemicals/energy input economics.",
+            "The phased structure means current capex, financing needs and returns cannot be inferred from the headline project value."
+          ],
+          "smartMoney": "Not measured for this event; price action is not transaction-level institutional evidence.",
+          "direct": "Reliance energy and chemicals",
+          "proxies": "Industrial gases, EPC, mining equipment, process controls, logistics",
+          "whatCouldChange": "Signed agreement, feasibility, environmental approvals, capex sanction, cost curve and unit economics",
+          "caution": "Draft agreement and aspirational larger investment figures are not sanctioned spend or guaranteed jobs/cash flow.",
+          "sources": [
+            "https://www.reuters.com/business/energy/indias-reliance-plans-46-billion-coal-gasification-project-andhra-pradesh-state-2026-11-12/"
+          ],
+          "evidenceType": "Dated contemporaneous reporting with explicitly conditional earnings/valuation transmission; source status as cited"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks / PSU banks",
+          "status": "Accelerating prices, but CPI policy risk newly elevated",
+          "evidence": "11 Nov private banks 3m +9.26% / +5.91pp vs NIFTY; 12 Nov financials +1.4%. 12 Nov CPI 6.09%.",
+          "proxies": "NBFCs, brokers, insurers",
+          "counterevidence": "Deposit repricing, credit cost and rate sensitivity; no NSDL sector FPI purchase figures",
+          "earningsTransmission": "NIM, loan growth, funding costs, provisioning",
+          "next": "RBI policy, G-sec yield, deposit pricing, bank earnings revisions and NSDL sector flow"
+        },
+        {
+          "sector": "Pharma",
+          "status": "Price leadership, earnings catalyst not proven",
+          "evidence": "11 Nov 3m +7.53%, +4.18pp relative; 1m +10.34%.",
+          "proxies": "CDMO, hospital suppliers",
+          "counterevidence": "US pricing and regulatory risk; no current order/earnings breadth confirmation",
+          "earningsTransmission": "Export realizations, regulatory compliance costs",
+          "next": "Company filings, USFDA developments, margin revisions"
+        },
+        {
+          "sector": "Auto / tyres / components",
+          "status": "Cooling after recent rebound",
+          "evidence": "11 Nov 3m -2.86%, -6.21pp relative despite 1m +13.71%; 12 Nov auto index -1%.",
+          "proxies": "Tyres, batteries, auto finance",
+          "counterevidence": "1m rebound and lower crude could aid demand; CPI may hurt purchasing power",
+          "earningsTransmission": "Volumes, discounts, financing costs and rubber/feedstock input margins",
+          "next": "Registrations, dealer inventory, retail loan rates and price-volume"
+        },
+        {
+          "sector": "Energy importers / airlines / chemicals",
+          "status": "Conditional input-cost relief, not confirmed",
+          "evidence": "12 Nov intraday Brent $92.22 while Hormuz tanker threats persist.",
+          "proxies": "Paint, packaging, logistics, fertilisers",
+          "counterevidence": "Freight and insurance can rise despite falling spot crude",
+          "earningsTransmission": "Landed fuel/feedstock, freight and gross margins",
+          "next": "Freight/insurance, crude settlement, oil marketing margins"
+        },
+        {
+          "sector": "FMCG / rural consumption",
+          "status": "Cooling real purchasing-power backdrop",
+          "evidence": "Oct CPI 6.09%, food 8.94%; 11 Nov FMCG 3m -2.56%, -5.91pp relative.",
+          "proxies": "Rural distribution, packaging",
+          "counterevidence": "Lower energy and targeted food measures could reverse inflation",
+          "earningsTransmission": "Volume growth, gross margins, pricing power",
+          "next": "Food CPI categories, rural sales, quarterly company volumes"
+        },
+        {
+          "sector": "Capital markets / index inclusions",
+          "status": "Specific late-month event catalyst, not proven fund buying",
+          "evidence": "MSCI four India additions and one removal effective 30 Nov; India weight indicated +0.25pp.",
+          "proxies": "Brokers, custodians, index fund administrators",
+          "counterevidence": "Event front-running and liquidity reversals; fundamentals unchanged",
+          "earningsTransmission": "Turnover/fees and short-lived rebalance liquidity",
+          "next": "MSCI final files, actual block trades and effective-date volumes"
+        },
+        {
+          "sector": "AI infrastructure / Indian electrical suppliers",
+          "status": "Spending remains large, cash conversion cooling",
+          "evidence": "Nebius 2026 capex ~$27bn and delivery slippage; SoftBank cancelled surplus turbine orders.",
+          "proxies": "Transformers, grid equipment, power EPC, cooling, data-centre REITs",
+          "counterevidence": "Orders may be options rather than committed utilization; Indian supplier exposure not verified",
+          "earningsTransmission": "Order conversion, margins, receivables, ROIC",
+          "next": "Executed orders, commissioning, free cash flow and capex funding"
+        },
+        {
+          "sector": "India energy / coal gasification",
+          "status": "Long-duration optionality, not sanctioned return",
+          "evidence": "Reliance draft ₹430bn phased proposal with ₹30bn feasibility and contingent later phase.",
+          "proxies": "EPC, mining, industrial gases",
+          "counterevidence": "Regulatory, feasibility, carbon and cost-curve risks",
+          "earningsTransmission": "Future feedstock costs, capex and depreciation only after approval",
+          "next": "Signed agreement, approvals and economic feasibility"
+        }
+      ],
+      "cooling": [
+        "Auto index -1% on 12 Nov after eight-session advance, despite strong prior-month rebound; retail demand confirmation needed.",
+        "October domestic equity fund subscriptions -13.87% versus September, especially mid/small-cap category net subscriptions; not negative aggregate fund flows.",
+        "AI infrastructure near-term revenue conversion: Nebius capacity slippage and SoftBank turbine cancellations contrast with announced capex.",
+        "FMCG three-month relative weakness (-5.91pp to NIFTY as of 11 Nov) faces added October food inflation pressure."
+      ],
+      "risks": [
+        "October CPI >6% persists into November and RBI tightens more than discounted; monitor G-sec yield and bank funding costs.",
+        "Hormuz tanker attacks cause sustained oil, insurance or freight shock despite 12 Nov spot easing.",
+        "12 Nov official FII/DII cash data contradicts prior foreign-buying streak; distinguish NSE provisional vs NSDL custody bases.",
+        "MSCI rebalance front-running reverses or passive demand differs materially from estimates.",
+        "AI capacity utilization/cash flow underperforms while capex financing costs rise.",
+        "Rupee depreciation, Treasury yields or global credit spreads tighten India financial conditions; no verified CDS quote used.",
+        "Weak food inflation adjustment impairs rural demand and discretionary consumption.",
+        "Company OHLCV source remains 11 Nov as of evening, making fresh 12 Nov technical alerts unverified."
+      ],
+      "whatChanged": [
+        "New 12 Nov inflation shock: October CPI 6.09% versus 5.54% September and 5.93% consensus, above RBI upper tolerance; morning note had only forecast risk.",
+        "12 Nov cash market closed nearly flat after rally (NIFTY +0.18%, Sensex +0.04%); financials +1.4%, autos -1%.",
+        "MSCI November review adds Adani Green, Coforge, LIC, Meesho; removes PI Industries, effective after 30 Nov close; passive demand remains prospective.",
+        "AMFI October category data: equity subscriptions remain positive but 13.9% below September, with small/mid weakening and large+mid improving.",
+        "12 Nov Nebius earnings/capex report and Reliance draft gasification project create differentiated capex execution questions.",
+        "Repository RSS refreshed 12 Nov 08:40:32 UTC (15/15 feeds), sector/Polymarket at 08:39 UTC, technical at 08:39 UTC, but all NSE price/volume bars still 11 Nov; no fresh 12 Nov technical signal is claimed.",
+        "Polymarket comparison is versus 11 Nov stored snapshot, not a post-CPI quote; no causal inference from 12 Nov CPI to the 08:39 UTC Fed price."
+      ],
+      "tomorrowChecklist": [
+        "Retrieve MoSPI official October CPI PDF and validate 6.09% headline, 8.94% food and core subgroups; note conflicting 6.9% syndicated typo.",
+        "Retrieve official NSE 12 Nov FII and DII provisional gross buy/sell/net; compare with NSDL FPI custody flow, label methodologies.",
+        "Obtain 12 Nov NSE sector closing files and updated OHLCV for all 22 companies; check new 20/55-day breakout, relative volume, 200-DMA reclaim/loss against 11 Nov alert baseline; no repeat stale flags.",
+        "Verify NSDL latest dated fortnightly sector FPI allocation; do not equate NIFTY price leadership with sector capital flows.",
+        "Compare new post-CPI Fed Polymarket contract and US-Iran contract to archived 12 Nov 08:39 UTC quotes, checking liquidity and exact question.",
+        "Check RBI/India G-sec yields, USD/INR, Brent settlement, Hormuz traffic and insurance; source any genuine credit/CDS events before quoting.",
+        "Check MSCI implementation notices and exchange filings for Bajaj QIP allotment and Reliance signed feasibility milestones.",
+        "Retrieve dated CFTC positioning and US Treasury TIC country-flow vintages if released; avoid extrapolating lagged data to today."
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/",
+        "https://www.reuters.com/world/india/view-indias-october-retail-inflation-609-on-year-2026-11-12/",
+        "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://finbiznet.com/data/fii-dii-activity",
+        "https://www.reuters.com/world/india/msci-adds-four-indian-stocks-key-global-index-part-november-review-2026-11-12/",
+        "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/",
+        "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/",
+        "https://www.ndtvprofit.com/markets/amfi-data-october-2026-sip-inflows-rise-to-rs-32-160-in-october-equity-mf-inflows-fall-14-percent-equity-large-caps-small-caps-12311489",
+        "https://upstox.com/news/personal-finance/mutual-funds/amfi-october-2026-data-8-key-takeaways-on-equity-mf-inflows-debt-funds-gold-and-silver-et-fs/article-203285/",
+        "https://www.amfiindia.com/research-information/mf-summaries",
+        "https://www.reuters.com/world/india/indias-bajaj-finance-launches-over-1-billion-share-sale-institutional-investors-2026-11-11/",
+        "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/",
+        "https://www.reuters.com/commentary/breakingviews/softbanks-turbine-snafu-spins-ai-trade-around-2026-11-11/",
+        "https://www.reuters.com/business/energy/indias-reliance-plans-46-billion-coal-gasification-project-andhra-pradesh-state-2026-11-12/",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+        "https://www.fpi.nsdl.co.in/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+      ],
+      "limitations": [
+        "Evening research uses Reuters and publicly accessible secondary reports; original MoSPI CPI and AMFI primary downloadable tables not retrieved, so their figures are reported as secondary verification.",
+        "12 Nov NSE provisional cash gross buy/sell/net unavailable at review time; 11 Nov values retained explicitly as stale, not represented as today's transactions.",
+        "NSDL sector FPI, current CFTC futures positioning, Treasury TIC country flows, issuer CDS event quotes and current US HY OAS were not numerically retrieved; no invented amounts.",
+        "RSS feed collection last completed 12 Nov 08:40:32 UTC, 15/15 feeds; this predates India market close and later CPI news. Contemporary Reuters research supplements but is not exhaustive.",
+        "Sector rotation and stock OHLCV 11 Nov latest trading bar despite collector 12 Nov 08:39 UTC; no new 12 Nov stock breakout claimed. Existing HDFCBANK/SBIN/NH/RELIANCE flags unchanged and intentionally not reannounced.",
+        "Polymarket 12 Nov 08:39 UTC quotes predate October CPI release and later evening; event market odds are speculative prices, not factual probabilities or equity institutional flows.",
+        "Reported MSCI changes, Reliance draft capex and Bajaj QIP are not verified as completed institutional trades or executed project spending.",
+        "US and global rates, tariffs and election policy changes not independently established as new 12 Nov enacted developments; not fabricated to fill story quotas.",
+        "Fortnightly deep audit is next due approximately 25 Nov relative to 11 Nov baseline; not due today."
+      ]
+    },
+    {
       "id": "2026-11-12-am",
       "asOf": "2026-11-12",
       "createdAt": "2026-11-12T01:55:00Z",
