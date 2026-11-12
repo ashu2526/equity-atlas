@@ -2,60 +2,60 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-12T08:40:32.434871Z",
+      "generatedAt": "2026-11-12T20:59:52.567727Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 150,
-        "publishers": 5,
-        "positive": 23,
-        "negative": 36,
-        "neutral": 91,
-        "languageIndex": -10.4,
+        "items": 178,
+        "publishers": 6,
+        "positive": 26,
+        "negative": 46,
+        "neutral": 106,
+        "languageIndex": -8.0,
         "label": "Mixed headline language",
-        "sourceConcentration": 37.3,
+        "sourceConcentration": 35.4,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "geopolitics",
-          "items": 39,
+          "items": 45,
           "publishers": 4,
-          "languageIndex": -45.9,
+          "languageIndex": -38.2,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 33,
-          "publishers": 4,
-          "languageIndex": -32.3,
+          "items": 42,
+          "publishers": 5,
+          "languageIndex": -30.5,
           "attentionDeltaPct": null
         },
         {
           "id": "ai_rotation",
-          "items": 30,
+          "items": 35,
           "publishers": 3,
-          "languageIndex": -6.7,
+          "languageIndex": -6.2,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 20,
+          "items": 21,
           "publishers": 1,
-          "languageIndex": 40.0,
+          "languageIndex": 38.1,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 16,
+          "items": 19,
           "publishers": 4,
-          "languageIndex": -7.7,
+          "languageIndex": -8.6,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
-          "items": 15,
+          "items": 16,
           "publishers": 2,
-          "languageIndex": 50.0,
+          "languageIndex": 53.3,
           "attentionDeltaPct": null
         },
         {
@@ -94,6 +94,13 @@
           "attentionDeltaPct": null
         },
         {
+          "id": "credit_cds",
+          "items": 1,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
           "id": "tyre_inputs",
           "items": 1,
           "publishers": 1,
@@ -105,13 +112,6 @@
           "items": 1,
           "publishers": 1,
           "languageIndex": -100.0,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "credit_cds",
-          "items": 0,
-          "publishers": 0,
-          "languageIndex": null,
           "attentionDeltaPct": null
         },
         {

@@ -1,12 +1,664 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-12T08:40:32.434871Z",
+  "updatedAt": "2026-11-12T20:59:52.567727Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "8c4de1508a96a507619e",
+      "title": "Jensen Huang has resigned, what's next for Nvidia?",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T20:21:03Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3e15adc9684a805a6230",
+      "title": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-s-goolsbee-says-inflation-inching-into-tough-spot-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:36:20Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a071c05d950f2fa941aa",
+      "title": "Jensen Huang has resigned, what's next for Nvidia?",
+      "url": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:33:37Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "249c768dcfe2bf8c3acd",
+      "title": "Daly Says More Fed Rates Hikes Likely Needed",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/daly-says-more-fed-rates-hikes-likely-needed-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:31:57Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e122b4edb786fdf2b468",
+      "title": "December Fed-Hike Priced In: JPMorgan’s Kelsey Berro",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/december-fed-hike-priced-in-jpmorgan-s-kelsey-berro-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:25:07Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "258f3c60fde9c91f4280",
+      "title": "Argentina Inflation Ticked Up More Than Expected in October",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/argentina-s-inflation-ticked-up-more-than-expected-in-october",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:23:45Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6c586358422f876ddb27",
+      "title": "Fed Drops October 2027 FOMC Rate Meeting",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-drops-october-2027-fomc-rate-meeting-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T19:21:17Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "235928a34224b43394cc",
+      "title": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:54:22Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4c62fb8a886ebe0ad497",
+      "title": "Two men guilty of spying for Iran over plan to target journalists and lawyer",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8g8209l2o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:54:00Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b2a849cb17105da8e06e",
+      "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:47:35Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "55006f5148297c54888b",
+      "title": "Senate Democrat Defends Oversight After US Attorney Threat",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/senate-democrat-defends-oversight-after-us-attorney-threat",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:40:47Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8fb4b471b110bfde1448",
+      "title": "Senate Democrats Open Probe Into RFK Jr.’s Measles Statements",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/senate-democrats-open-probe-into-rfk-jr-s-measles-statements",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:17:49Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "454f422b1fca6d12711b",
+      "title": "Dutch Lawmakers Back Controversial Bill, Threatening Coalition",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/dutch-premier-jetten-tries-to-save-coalition-before-tax-votes",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T18:06:18Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "45946eb84d550a46a707",
+      "title": "What Is Nvidia Without Jensen Huang?",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/what-is-nvidia-without-jensen-huang-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T17:47:31Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b8182560b02548a62262",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "domain": "www.federalreserve.gov",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T17:45:00Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Federal Reserve Monetary"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "86e80b2bbf25b428c7a9",
+      "title": "Germany Denies Report Macron, Merz Agree on de Cos for ECB Job",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/macron-merz-agree-de-cos-should-succeed-lagarde-le-point-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T16:40:27Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f8c656d28eef39a94e2c",
+      "title": "Retail inflation crosses RBI’s upper limit for first time in two years, comes in at 6.1% in October 2026",
+      "url": "https://www.thehindu.com/business/Economy/retail-inflation-crosses-rbis-upper-limit-for-first-time-in-two-years-comes-in-at-61-in-october-2026/article71693503.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T15:24:17Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a020bde73133da7371ae",
+      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T15:10:32Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "85694569735130e1b41f",
+      "title": "Fed’s Hammack Says More Restrictive Rates Are Needed",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-hammack-says-more-restrictive-rates-are-needed",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T14:31:52Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "81158fafc19ec1f59fc0",
+      "title": "Trump Says No Need for Iran Deal, Vance Should Focus on US",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-says-no-need-for-iran-deal-vance-should-focus-on-us",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T13:47:41Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5fd9f6f02361ce22a624",
+      "title": "Europe Split Over Presence at New Russia-Ukraine Peace Talks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/europe-split-over-presence-at-new-russia-ukraine-peace-talks",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T13:40:15Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3ecc6beec0a53e05a1c7",
+      "title": "Why RBI wants to cap select overseas remittances at ₹50 Lakh to save rupees | Explained",
+      "url": "https://www.thehindu.com/business/Economy/why-rbi-wants-to-cap-select-overseas-remittances-at-50-lakh-to-save-rupees-explained/article71693547.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T13:38:06Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b7b3e22b29c4288d90d0",
+      "title": "Oil Rises After Trump Declares US Doesn’t Need a Deal With Iran",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T13:14:35Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "82ef7ede2f056a2b2909",
+      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T13:02:46Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9931ee2155b500964ced",
+      "title": "Brazil’s Inflation Ticks Up After Lula’s Win Rattles Markets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/brazilian-inflation-ticks-up-after-lula-s-win-rattles-markets",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T12:23:20Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "52d3cf7bbca32a644d5c",
+      "title": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
+      "url": "https://www.thehindu.com/business/auto-stocks-skid-1-on-profit-booking-despite-softer-crude-firm-markets/article71693492.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T12:17:59Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8844cb902d4e1cd1a2f5",
+      "title": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
+      "url": "https://www.thehindu.com/business/markets-extend-gains-for-3rd-day-sensex-ends-above-81900-on-fii-inflows-lower-crude-oil/article71693356.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T11:51:50Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "energy_shipping",
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "598eb03c7e5caffbf8c7",
+      "title": "Rupee falls 33 paise to close at 94.04 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693331.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T11:24:55Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "00b75a5f6e006adbdbeb",
+      "title": "Sri Lanka Budget Targets Growth, Investment After Debt Crisis",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/sri-lanka-budget-targets-growth-investment-after-debt-crisis",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T11:02:11Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "credit_cds"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3d08989cba42f2683541",
+      "title": "Democrats’ Affordability Vows Face Reality Test in Congress",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/democrats-affordability-vows-face-reality-test-in-new-congress",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T11:00:00Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e6fb1a7774a80b12a4d5",
+      "title": "India’s Inflation Rises, Keeping Rate-Hike Pressure on RBI",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/india-s-inflation-accelerates-keeping-rate-hike-pressure-on-rbi",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T10:33:00Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4edf3c6ca444fce521bc",
+      "title": "Peru Interest Rates: First Hike Since 2023 Expected on High Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/peru-likely-to-raise-rate-for-first-time-since-2023-day-guide",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T10:00:00Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9c94ebd817ecb6862018",
+      "title": "Russia Steps Up Attacks on Ukraine’s Vital Food Factories",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/russia-steps-up-attacks-on-ukraine-s-vital-food-factories",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T09:36:47Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "25b3b93c9a97d7053951",
+      "title": "OpenAI now allows enterprises to process AI requests within India",
+      "url": "https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T09:29:59Z",
+      "discovered": "2026-11-12T20:59:52.567727Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "a60a84ee6d12b6b756b7",
       "title": "Why The Fed Is A Bigger Risk For The AI Boom Than Nvidia",

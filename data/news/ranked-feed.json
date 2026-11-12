@@ -1,38 +1,38 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T08:40:32.434871Z",
+  "generatedAt": "2026-11-12T20:59:52.567727Z",
   "scope": {
     "windowStart": "2026-10-29",
     "windowEnd": "2026-11-12",
-    "headlineCount": 150,
-    "clusterCount": 143,
+    "headlineCount": 178,
+    "clusterCount": 169,
     "publishedCards": 80,
     "rankingMethod": "transparent keyword-materiality, source diversity and recency; not AI"
   },
   "topThemeCounts": [
     {
       "theme": "geopolitics",
-      "headlines": 39
+      "headlines": 45
     },
     {
       "theme": "inflation_rates",
-      "headlines": 33
+      "headlines": 42
     },
     {
       "theme": "ai_rotation",
-      "headlines": 30
+      "headlines": 35
     },
     {
       "theme": "india_flows",
-      "headlines": 20
+      "headlines": 21
     },
     {
       "theme": "elections_policy",
-      "headlines": 16
+      "headlines": 19
     },
     {
       "theme": "energy_shipping",
-      "headlines": 15
+      "headlines": 16
     },
     {
       "theme": "climate_agri",
@@ -55,6 +55,10 @@
       "headlines": 2
     },
     {
+      "theme": "credit_cds",
+      "headlines": 1
+    },
+    {
       "theme": "tech_credit",
       "headlines": 1
     },
@@ -66,17 +70,22 @@
   "geographyMentions": [
     {
       "geography": "United States",
-      "headlines": 26,
+      "headlines": 30,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
       "geography": "India",
-      "headlines": 24,
+      "headlines": 29,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
       "geography": "Middle East",
-      "headlines": 19,
+      "headlines": 21,
+      "warning": "NEWS MENTIONS, not fund flows"
+    },
+    {
+      "geography": "Russia / Ukraine",
+      "headlines": 13,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
@@ -85,23 +94,56 @@
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
-      "geography": "Russia / Ukraine",
-      "headlines": 10,
-      "warning": "NEWS MENTIONS, not fund flows"
-    },
-    {
       "geography": "Europe",
-      "headlines": 8,
+      "headlines": 9,
       "warning": "NEWS MENTIONS, not fund flows"
     }
   ],
   "cards": [
     {
-      "id": "d01ff1bdeeb201152a1a",
-      "published": "2026-10-29T13:06:09Z",
-      "priorityScore": 15.5,
+      "id": "00b75a5f6e006adbdbeb",
+      "published": "2026-11-12T11:02:11Z",
+      "priorityScore": 21.5,
       "priority": "High — verify sources",
-      "headline": "Stock markets rebound over 1% on Fed pause, but rupee and crude keep investors on edge",
+      "headline": "Sri Lanka Budget Targets Growth, Investment After Debt Crisis",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Widening financing costs can precede stress for leveraged sectors; issuer CDS headlines alone do not establish spread levels.",
+      "transmissionChannel": "Credit availability and refinancing",
+      "watchNext": "Verified CDS/bond observations, credit ratings and funding maturities",
+      "topics": [
+        "credit_cds"
+      ],
+      "primaryTheme": "credit_cds",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Banks; NBFCs; Insurers",
+      "proxySectors": "Real estate; Leveraged industrials; Private credit",
+      "possibleBeneficiaries": "Healthy funding franchises if spreads stable",
+      "possibleLosers": "Refinancing-sensitive issuers if spreads blow out",
+      "thesisTest": "Public reported credit events corroborated by rating/spread series",
+      "thesisInvalidation": "Coverage noise without measurable spread move",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Sri Lanka Budget Targets Growth, Investment After Debt Crisis",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/sri-lanka-budget-targets-growth-investment-after-debt-crisis",
+          "published": "2026-11-12T11:02:11Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "8844cb902d4e1cd1a2f5",
+      "published": "2026-11-12T11:51:50Z",
+      "priorityScore": 19.5,
+      "priority": "High — verify sources",
+      "headline": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
       "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
@@ -109,13 +151,11 @@
       "watchNext": "Brent, actual freight/insurance routes and company gross margins",
       "topics": [
         "energy_shipping",
-        "india_flows",
-        "inflation_rates"
+        "india_flows"
       ],
       "primaryTheme": "energy_shipping",
       "geographies": [
-        "India",
-        "United States"
+        "India"
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
       "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
@@ -127,10 +167,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Stock markets rebound over 1% on Fed pause, but rupee and crude keep investors on edge",
+          "title": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
           "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/sensex-surges-905-pts-nifty-tops-22900-on-heavy-buying-in-banking-fmcg-stocks/article71640234.ece",
-          "published": "2026-10-29T13:06:09Z"
+          "url": "https://www.thehindu.com/business/markets-extend-gains-for-3rd-day-sensex-ends-above-81900-on-fii-inflows-lower-crude-oil/article71693356.ece",
+          "published": "2026-11-12T11:51:50Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -140,7 +180,7 @@
     {
       "id": "645fff3678b2bc323f03",
       "published": "2026-11-11T16:49:45Z",
-      "priorityScore": 15.5,
+      "priorityScore": 14.5,
       "priority": "High — verify sources",
       "headline": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
       "headlineType": "Unverified publisher RSS headline",
@@ -293,126 +333,11 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "3578e4f7cecc27d3fe4b",
-      "published": "2026-11-11T13:00:06Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Saudi Oil Production Surged 26% Last Month to Pre-War Levels",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Saudi Oil Production Surged 26% Last Month to Pre-War Levels",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high",
-          "published": "2026-11-11T13:00:06Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "3117d0112ab8dbaf8129",
-      "published": "2026-11-11T15:29:11Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Russia / Ukraine"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
-          "published": "2026-11-11T15:29:11Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "19c94d71caf18caaccaa",
-      "published": "2026-11-11T16:47:45Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Iran War Leaves Europe Vulnerable To Harsh Winter",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Europe",
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
-          "published": "2026-11-11T16:47:45Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "3a270928c1cfd18b8d1b",
-      "published": "2026-11-11T15:05:11Z",
+      "id": "b2a849cb17105da8e06e",
+      "published": "2026-11-12T18:47:35Z",
       "priorityScore": 13.1,
       "priority": "High — verify sources",
-      "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "headline": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
       "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
@@ -423,7 +348,7 @@
       ],
       "primaryTheme": "geopolitics",
       "geographies": [
-        "Russia / Ukraine"
+        "Unspecified / cross-border"
       ],
       "directSectors": "Energy; Shipping; Defence",
       "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
@@ -435,10 +360,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
           "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-11T15:05:11Z"
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-12T18:47:35Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -523,6 +448,121 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "3578e4f7cecc27d3fe4b",
+      "published": "2026-11-11T13:00:06Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Saudi Oil Production Surged 26% Last Month to Pre-War Levels",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Middle East"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Saudi Oil Production Surged 26% Last Month to Pre-War Levels",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high",
+          "published": "2026-11-11T13:00:06Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "3117d0112ab8dbaf8129",
+      "published": "2026-11-11T15:29:11Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Russia / Ukraine"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
+          "published": "2026-11-11T15:29:11Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "19c94d71caf18caaccaa",
+      "published": "2026-11-11T16:47:45Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Europe",
+        "Middle East"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
+          "published": "2026-11-11T16:47:45Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "a60a84ee6d12b6b756b7",
       "published": "2026-11-12T08:01:42Z",
       "priorityScore": 12.5,
@@ -562,13 +602,51 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "fa6b7e13a77f4f455f50",
-      "published": "2026-11-11T09:52:45Z",
-      "priorityScore": 11.5,
+      "id": "3a270928c1cfd18b8d1b",
+      "published": "2026-11-11T15:05:11Z",
+      "priorityScore": 12.1,
       "priority": "Medium — monitor",
-      "headline": "US Treasury Futures Retreat as Markets See More Fed Hikes",
+      "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Russia / Ukraine"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "publisher": "www.bbc.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-11T15:05:11Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "b8182560b02548a62262",
+      "published": "2026-11-12T17:45:00Z",
+      "priorityScore": 12,
+      "priority": "Medium — monitor",
+      "headline": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.federalreserve.gov; full event details require reading source article.",
       "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
       "transmissionChannel": "Discount rate and funding cost",
       "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
@@ -589,124 +667,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "US Treasury Futures Retreat as Markets See More Fed Hikes",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow",
-          "published": "2026-11-11T09:52:45Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "bae940fa4b4b995c4110",
-      "published": "2026-11-11T15:13:42Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
-          "published": "2026-11-11T15:13:42Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "39145146529fb00f87aa",
-      "published": "2026-11-11T15:33:03Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
-          "published": "2026-11-11T15:33:03Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "a6382ec8f2f2d337af66",
-      "published": "2026-11-11T15:45:30Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
-          "published": "2026-11-11T15:45:30Z"
+          "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+          "publisher": "www.federalreserve.gov",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+          "published": "2026-11-12T17:45:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -790,37 +754,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "bbcb2ade08c42695ba52",
-      "published": "2026-11-10T12:00:00Z",
-      "priorityScore": 11,
+      "id": "e6fb1a7774a80b12a4d5",
+      "published": "2026-11-12T10:33:00Z",
+      "priorityScore": 11.5,
       "priority": "Medium — monitor",
-      "headline": "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm",
+      "headline": "India’s Inflation Rises, Keeping Rate-Hike Pressure on RBI",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by news.un.org; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
       "topics": [
-        "geopolitics"
+        "inflation_rates"
       ],
-      "primaryTheme": "geopolitics",
+      "primaryTheme": "inflation_rates",
       "geographies": [
-        "Unspecified / cross-border"
+        "India"
       ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm",
-          "publisher": "news.un.org",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
-          "published": "2026-11-10T12:00:00Z"
+          "title": "India’s Inflation Rises, Keeping Rate-Hike Pressure on RBI",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/india-s-inflation-accelerates-keeping-rate-hike-pressure-on-rbi",
+          "published": "2026-11-12T10:33:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -828,11 +792,163 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "9e74e9c1e14abf28ba6b",
-      "published": "2026-11-10T09:00:00Z",
-      "priorityScore": 10.5,
+      "id": "3ecc6beec0a53e05a1c7",
+      "published": "2026-11-12T13:38:06Z",
+      "priorityScore": 11.5,
       "priority": "Medium — monitor",
-      "headline": "Rate-Hike Debate Ignited by Fed Officials as CPI Comes in Hot",
+      "headline": "Why RBI wants to cap select overseas remittances at ₹50 Lakh to save rupees | Explained",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Why RBI wants to cap select overseas remittances at ₹50 Lakh to save rupees | Explained",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/Economy/why-rbi-wants-to-cap-select-overseas-remittances-at-50-lakh-to-save-rupees-explained/article71693547.ece",
+          "published": "2026-11-12T13:38:06Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "85694569735130e1b41f",
+      "published": "2026-11-12T14:31:52Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Fed’s Hammack Says More Restrictive Rates Are Needed",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Fed’s Hammack Says More Restrictive Rates Are Needed",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-hammack-says-more-restrictive-rates-are-needed",
+          "published": "2026-11-12T14:31:52Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "f8c656d28eef39a94e2c",
+      "published": "2026-11-12T15:24:17Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Retail inflation crosses RBI’s upper limit for first time in two years, comes in at 6.1% in October 2026",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Retail inflation crosses RBI’s upper limit for first time in two years, comes in at 6.1% in October 2026",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/Economy/retail-inflation-crosses-rbis-upper-limit-for-first-time-in-two-years-comes-in-at-61-in-october-2026/article71693503.ece",
+          "published": "2026-11-12T15:24:17Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "235928a34224b43394cc",
+      "published": "2026-11-12T18:54:22Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation",
+          "published": "2026-11-12T18:54:22Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "6c586358422f876ddb27",
+      "published": "2026-11-12T19:21:17Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Fed Drops October 2027 FOMC Rate Meeting",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
@@ -855,10 +971,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Rate-Hike Debate Ignited by Fed Officials as CPI Comes in Hot",
+          "title": "Fed Drops October 2027 FOMC Rate Meeting",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
-          "published": "2026-11-10T09:00:00Z"
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-drops-october-2027-fomc-rate-meeting-video",
+          "published": "2026-11-12T19:21:17Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -866,11 +982,11 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "7521a0b9056a300ddb67",
-      "published": "2026-11-10T12:30:35Z",
-      "priorityScore": 10.5,
+      "id": "e122b4edb786fdf2b468",
+      "published": "2026-11-12T19:25:07Z",
+      "priorityScore": 11.5,
       "priority": "Medium — monitor",
-      "headline": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
+      "headline": "December Fed-Hike Priced In: JPMorgan’s Kelsey Berro",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
@@ -893,10 +1009,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
+          "title": "December Fed-Hike Priced In: JPMorgan’s Kelsey Berro",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-10/brazil-central-bank-sees-economy-slowing-as-inflation-rises",
-          "published": "2026-11-10T12:30:35Z"
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/december-fed-hike-priced-in-jpmorgan-s-kelsey-berro-video",
+          "published": "2026-11-12T19:25:07Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -904,11 +1020,49 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "44e187b2758eb48db85a",
-      "published": "2026-11-10T20:30:00Z",
-      "priorityScore": 10.5,
+      "id": "249c768dcfe2bf8c3acd",
+      "published": "2026-11-12T19:31:57Z",
+      "priorityScore": 11.5,
       "priority": "Medium — monitor",
-      "headline": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+      "headline": "Daly Says More Fed Rates Hikes Likely Needed",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Daly Says More Fed Rates Hikes Likely Needed",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/daly-says-more-fed-rates-hikes-likely-needed-video",
+          "published": "2026-11-12T19:31:57Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "3e15adc9684a805a6230",
+      "published": "2026-11-12T19:36:20Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
@@ -931,10 +1085,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+          "title": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out",
-          "published": "2026-11-10T20:30:00Z"
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-s-goolsbee-says-inflation-inching-into-tough-spot-video",
+          "published": "2026-11-12T19:36:20Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1056,6 +1210,158 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "fa6b7e13a77f4f455f50",
+      "published": "2026-11-11T09:52:45Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "US Treasury Futures Retreat as Markets See More Fed Hikes",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "US Treasury Futures Retreat as Markets See More Fed Hikes",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow",
+          "published": "2026-11-11T09:52:45Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "bae940fa4b4b995c4110",
+      "published": "2026-11-11T15:13:42Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
+          "published": "2026-11-11T15:13:42Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "39145146529fb00f87aa",
+      "published": "2026-11-11T15:33:03Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
+          "published": "2026-11-11T15:33:03Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "a6382ec8f2f2d337af66",
+      "published": "2026-11-11T15:45:30Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
+          "published": "2026-11-11T15:45:30Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "e26a4323c02c9b23b247",
       "published": "2026-11-12T04:58:38Z",
       "priorityScore": 10.5,
@@ -1087,6 +1393,44 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/markets/stock-markets-climb-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil-prices/article71692361.ece",
           "published": "2026-11-12T04:58:38Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "52d3cf7bbca32a644d5c",
+      "published": "2026-11-12T12:17:59Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
+      "transmissionChannel": "Landed energy and freight costs",
+      "watchNext": "Brent, actual freight/insurance routes and company gross margins",
+      "topics": [
+        "energy_shipping"
+      ],
+      "primaryTheme": "energy_shipping",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
+      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
+      "possibleBeneficiaries": "Lower crude can ease inflation and input costs",
+      "possibleLosers": "Shipping disruption can raise freight/insurance independent of crude",
+      "thesisTest": "Sustained Brent easing AND freight/insurance normalization",
+      "thesisInvalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/auto-stocks-skid-1-on-profit-booking-despite-softer-crude-firm-markets/article71693492.ece",
+          "published": "2026-11-12T12:17:59Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1133,6 +1477,44 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "bbcb2ade08c42695ba52",
+      "published": "2026-11-10T12:00:00Z",
+      "priorityScore": 10,
+      "priority": "Medium — monitor",
+      "headline": "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by news.un.org; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm",
+          "publisher": "news.un.org",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
+          "published": "2026-11-10T12:00:00Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "a79c9bd87407202245df",
       "published": "2026-11-09T16:05:05Z",
       "priorityScore": 9.5,
@@ -1171,37 +1553,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "90b90fdcdff12f9ce40e",
-      "published": "2026-11-11T12:46:40Z",
+      "id": "9e74e9c1e14abf28ba6b",
+      "published": "2026-11-10T09:00:00Z",
       "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
+      "headline": "Rate-Hike Debate Ignited by Fed Officials as CPI Comes in Hot",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
-      "transmissionChannel": "Landed energy and freight costs",
-      "watchNext": "Brent, actual freight/insurance routes and company gross margins",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
       "topics": [
-        "energy_shipping"
+        "inflation_rates"
       ],
-      "primaryTheme": "energy_shipping",
+      "primaryTheme": "inflation_rates",
       "geographies": [
-        "Middle East"
+        "United States"
       ],
-      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
-      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
-      "possibleBeneficiaries": "Lower crude can ease inflation and input costs",
-      "possibleLosers": "Shipping disruption can raise freight/insurance independent of crude",
-      "thesisTest": "Sustained Brent easing AND freight/insurance normalization",
-      "thesisInvalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
+          "title": "Rate-Hike Debate Ignited by Fed Officials as CPI Comes in Hot",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
-          "published": "2026-11-11T12:46:40Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move",
+          "published": "2026-11-10T09:00:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1209,37 +1591,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "5bc8db155f2f8b6273bb",
-      "published": "2026-11-11T13:17:14Z",
+      "id": "7521a0b9056a300ddb67",
+      "published": "2026-11-10T12:30:35Z",
       "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
+      "headline": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
       "topics": [
-        "ai_rotation"
+        "inflation_rates"
       ],
-      "primaryTheme": "ai_rotation",
+      "primaryTheme": "inflation_rates",
       "geographies": [
         "Unspecified / cross-border"
       ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
+          "title": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed",
-          "published": "2026-11-11T13:17:14Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/brazil-central-bank-sees-economy-slowing-as-inflation-rises",
+          "published": "2026-11-10T12:30:35Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1247,38 +1629,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "71ab83aa7760a38c1a99",
-      "published": "2026-11-10T17:03:16Z",
-      "priorityScore": 9.1,
+      "id": "44e187b2758eb48db85a",
+      "published": "2026-11-10T20:30:00Z",
+      "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "Israel's new parliament sworn in as leaders compete to form government",
+      "headline": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
-      "transmissionChannel": "Policy credibility and fiscal allocation",
-      "watchNext": "Official legislation and funding; real orders and currency/rate response",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
       "topics": [
-        "elections_policy",
-        "geopolitics"
+        "inflation_rates"
       ],
-      "primaryTheme": "elections_policy",
+      "primaryTheme": "inflation_rates",
       "geographies": [
-        "Middle East"
+        "Unspecified / cross-border"
       ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "possibleBeneficiaries": "Policy-backed order book after implementation",
-      "possibleLosers": "Reversal/delay and fiscal reprioritization",
-      "thesisTest": "Official enacted measure and sector order/funding impact",
-      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Israel's new parliament sworn in as leaders compete to form government",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T17:03:16Z"
+          "title": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out",
+          "published": "2026-11-10T20:30:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1286,13 +1667,13 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "dc0eb08d973037a2e479",
-      "published": "2026-11-05T12:00:00Z",
-      "priorityScore": 9,
+      "id": "b7b3e22b29c4288d90d0",
+      "published": "2026-11-12T13:14:35Z",
+      "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "Children at risk as war zone attacks on water and sanitation more than triple",
+      "headline": "Oil Rises After Trump Declares US Doesn’t Need a Deal With Iran",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by news.un.org; full event details require reading source article.",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
       "transmissionChannel": "Geopolitical disruption and risk premiums",
       "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
@@ -1301,7 +1682,8 @@
       ],
       "primaryTheme": "geopolitics",
       "geographies": [
-        "Unspecified / cross-border"
+        "United States",
+        "Middle East"
       ],
       "directSectors": "Energy; Shipping; Defence",
       "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
@@ -1313,10 +1695,49 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Children at risk as war zone attacks on water and sanitation more than triple",
-          "publisher": "news.un.org",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
-          "published": "2026-11-05T12:00:00Z"
+          "title": "Oil Rises After Trump Declares US Doesn’t Need a Deal With Iran",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
+          "published": "2026-11-12T13:14:35Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "81158fafc19ec1f59fc0",
+      "published": "2026-11-12T13:47:41Z",
+      "priorityScore": 9.5,
+      "priority": "Medium — monitor",
+      "headline": "Trump Says No Need for Iran Deal, Vance Should Focus on US",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "United States",
+        "Middle East"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Trump Says No Need for Iran Deal, Vance Should Focus on US",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-says-no-need-for-iran-deal-vance-should-focus-on-us",
+          "published": "2026-11-12T13:47:41Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1517,131 +1938,75 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "eca0b3eef503b1852949",
-      "published": "2026-11-11T11:19:54Z",
+      "id": "90b90fdcdff12f9ce40e",
+      "published": "2026-11-11T12:46:40Z",
       "priorityScore": 8.5,
       "priority": "Context",
-      "headline": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
-      "transmissionChannel": "Cross-border equity allocation",
-      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
-      "topics": [
-        "india_flows"
-      ],
-      "primaryTheme": "india_flows",
-      "geographies": [
-        "India"
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
-      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
-      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
-      "thesisInvalidation": "Two consecutive net-selling fortnights",
-      "sourceCount": 4,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar/article71689369.ece",
-          "published": "2026-11-11T11:19:54Z"
-        },
-        {
-          "title": "Rupee rises 7 paise to 93.70 against U.S. dollar in early trade",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/rupee-rises-7-paise-to-9370-against-us-dollar-in-early-trade/article71688350.ece",
-          "published": "2026-11-11T05:12:44Z"
-        },
-        {
-          "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade/article71681429.ece",
-          "published": "2026-11-09T04:47:16Z"
-        },
-        {
-          "title": "Rupee rises 5 paise to close at 93.93 against U.S. dollar",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/Industry/rupee-rises-5-paise-to-close-at-9393-against-us-dollar/article71682383.ece",
-          "published": "2026-11-09T11:51:38Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "8b8d2d9591395f6efd48",
-      "published": "2026-11-11T11:22:19Z",
-      "priorityScore": 8.5,
-      "priority": "Context",
-      "headline": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
-      "transmissionChannel": "Cross-border equity allocation",
-      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
-      "topics": [
-        "india_flows"
-      ],
-      "primaryTheme": "india_flows",
-      "geographies": [
-        "India"
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
-      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
-      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
-      "thesisInvalidation": "Two consecutive net-selling fortnights",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
-          "published": "2026-11-11T11:22:19Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "7e67bd82bfdc13af8b99",
-      "published": "2026-11-11T14:53:13Z",
-      "priorityScore": 8.5,
-      "priority": "Context",
-      "headline": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+      "headline": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
+      "transmissionChannel": "Landed energy and freight costs",
+      "watchNext": "Brent, actual freight/insurance routes and company gross margins",
       "topics": [
-        "trade_policy"
+        "energy_shipping"
       ],
-      "primaryTheme": "trade_policy",
+      "primaryTheme": "energy_shipping",
       "geographies": [
-        "United States"
+        "Middle East"
       ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
+      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
+      "possibleBeneficiaries": "Lower crude can ease inflation and input costs",
+      "possibleLosers": "Shipping disruption can raise freight/insurance independent of crude",
+      "thesisTest": "Sustained Brent easing AND freight/insurance normalization",
+      "thesisInvalidation": "Fresh vessel attacks; Brent rises; route closures",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+          "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
-          "published": "2026-11-11T14:53:13Z"
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
+          "published": "2026-11-11T12:46:40Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "5bc8db155f2f8b6273bb",
+      "published": "2026-11-11T13:17:14Z",
+      "priorityScore": 8.5,
+      "priority": "Context",
+      "headline": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "topics": [
+        "ai_rotation"
+      ],
+      "primaryTheme": "ai_rotation",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
+      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
+      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed",
+          "published": "2026-11-11T13:17:14Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1672,7 +2037,7 @@
       "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
       "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
       "thesisInvalidation": "Two consecutive net-selling fortnights",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "independentDomains": 1,
       "sources": [
         {
@@ -1680,6 +2045,57 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/markets/rupee-falls-6-paise-to-9377-against-us-dollar-in-early-trade/article71692324.ece",
           "published": "2026-11-12T04:47:39Z"
+        },
+        {
+          "title": "Rupee falls 33 paise to close at 94.04 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693331.ece",
+          "published": "2026-11-12T11:24:55Z"
+        },
+        {
+          "title": "Rupee rises 7 paise to 93.70 against U.S. dollar in early trade",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/rupee-rises-7-paise-to-9370-against-us-dollar-in-early-trade/article71688350.ece",
+          "published": "2026-11-11T05:12:44Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "71ab83aa7760a38c1a99",
+      "published": "2026-11-10T17:03:16Z",
+      "priorityScore": 8.1,
+      "priority": "Context",
+      "headline": "Israel's new parliament sworn in as leaders compete to form government",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
+      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
+      "transmissionChannel": "Policy credibility and fiscal allocation",
+      "watchNext": "Official legislation and funding; real orders and currency/rate response",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "primaryTheme": "elections_policy",
+      "geographies": [
+        "Middle East"
+      ],
+      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
+      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
+      "possibleBeneficiaries": "Policy-backed order book after implementation",
+      "possibleLosers": "Reversal/delay and fiscal reprioritization",
+      "thesisTest": "Official enacted measure and sector order/funding impact",
+      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Israel's new parliament sworn in as leaders compete to form government",
+          "publisher": "www.bbc.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-10T17:03:16Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1727,37 +2143,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "b0ca121b3040998ffc88",
-      "published": "2026-10-29T10:21:53Z",
-      "priorityScore": 7.5,
+      "id": "dc0eb08d973037a2e479",
+      "published": "2026-11-05T12:00:00Z",
+      "priorityScore": 8,
       "priority": "Context",
-      "headline": "U.S. Fed holds rates steady; pressure on emerging markets expected with stronger dollar outlook",
+      "headline": "Children at risk as war zone attacks on water and sanitation more than triple",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "whatWeKnow": "Headline reported by news.un.org; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
       "topics": [
-        "inflation_rates"
+        "geopolitics"
       ],
-      "primaryTheme": "inflation_rates",
+      "primaryTheme": "geopolitics",
       "geographies": [
-        "United States"
+        "Unspecified / cross-border"
       ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "U.S. Fed holds rates steady; pressure on emerging markets expected with stronger dollar outlook",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/Economy/fed-holds-rates-steady-and-cuts-future-meetings-stronger-dollar-outlook-pressures-emerging-markets/article71639815.ece",
-          "published": "2026-10-29T10:21:53Z"
+          "title": "Children at risk as war zone attacks on water and sanitation more than triple",
+          "publisher": "news.un.org",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168743",
+          "published": "2026-11-05T12:00:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1880,44 +2296,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "15ef09439f89891210e6",
-      "published": "2026-11-05T17:13:19Z",
-      "priorityScore": 7.5,
-      "priority": "Context",
-      "headline": "ONGC Q2 net profit jumps 57% on higher crude, gas realisations",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
-      "transmissionChannel": "Landed energy and freight costs",
-      "watchNext": "Brent, actual freight/insurance routes and company gross margins",
-      "topics": [
-        "energy_shipping"
-      ],
-      "primaryTheme": "energy_shipping",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
-      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
-      "possibleBeneficiaries": "Lower crude can ease inflation and input costs",
-      "possibleLosers": "Shipping disruption can raise freight/insurance independent of crude",
-      "thesisTest": "Sustained Brent easing AND freight/insurance normalization",
-      "thesisInvalidation": "Fresh vessel attacks; Brent rises; route closures",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "ONGC Q2 net profit jumps 57% on higher crude, gas realisations",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/Economy/ongc-q2-net-profit-jumps-57-on-higher-crude-gas-realisations/article71670861.ece",
-          "published": "2026-11-05T17:13:19Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "86d94aa9eecbf2e43a2d",
       "published": "2026-11-08T06:15:41Z",
       "priorityScore": 7.5,
@@ -1994,38 +2372,125 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "3e1b23c437f7ab7a6681",
-      "published": "2026-11-11T16:03:55Z",
+      "id": "eca0b3eef503b1852949",
+      "published": "2026-11-11T11:19:54Z",
       "priorityScore": 7.5,
       "priority": "Context",
-      "headline": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+      "headline": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
+      "transmissionChannel": "Cross-border equity allocation",
+      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
       "topics": [
-        "ai_rotation",
-        "elections_policy"
+        "india_flows"
       ],
-      "primaryTheme": "ai_rotation",
+      "primaryTheme": "india_flows",
       "geographies": [
-        "Unspecified / cross-border"
+        "India"
       ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
+      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
+      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
+      "thesisInvalidation": "Two consecutive net-selling fortnights",
+      "sourceCount": 3,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar/article71689369.ece",
+          "published": "2026-11-11T11:19:54Z"
+        },
+        {
+          "title": "Rupee rises 24 paise to 93.74 against U.S. dollar in early trade",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade/article71681429.ece",
+          "published": "2026-11-09T04:47:16Z"
+        },
+        {
+          "title": "Rupee rises 5 paise to close at 93.93 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/Industry/rupee-rises-5-paise-to-close-at-9393-against-us-dollar/article71682383.ece",
+          "published": "2026-11-09T11:51:38Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "8b8d2d9591395f6efd48",
+      "published": "2026-11-11T11:22:19Z",
+      "priorityScore": 7.5,
+      "priority": "Context",
+      "headline": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
+      "transmissionChannel": "Cross-border equity allocation",
+      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
+      "topics": [
+        "india_flows"
+      ],
+      "primaryTheme": "india_flows",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
+      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
+      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
+      "thesisInvalidation": "Two consecutive net-selling fortnights",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
+          "title": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
+          "published": "2026-11-11T11:22:19Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "7e67bd82bfdc13af8b99",
+      "published": "2026-11-11T14:53:13Z",
+      "priorityScore": 7.5,
+      "priority": "Context",
+      "headline": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "United States"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
-          "published": "2026-11-11T16:03:55Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
+          "published": "2026-11-11T14:53:13Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -2186,6 +2651,44 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "15ef09439f89891210e6",
+      "published": "2026-11-05T17:13:19Z",
+      "priorityScore": 6.5,
+      "priority": "Context",
+      "headline": "ONGC Q2 net profit jumps 57% on higher crude, gas realisations",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Fuel, freight and insurance pass through to corporate gross margins with lags.",
+      "transmissionChannel": "Landed energy and freight costs",
+      "watchNext": "Brent, actual freight/insurance routes and company gross margins",
+      "topics": [
+        "energy_shipping"
+      ],
+      "primaryTheme": "energy_shipping",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
+      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
+      "possibleBeneficiaries": "Lower crude can ease inflation and input costs",
+      "possibleLosers": "Shipping disruption can raise freight/insurance independent of crude",
+      "thesisTest": "Sustained Brent easing AND freight/insurance normalization",
+      "thesisInvalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "ONGC Q2 net profit jumps 57% on higher crude, gas realisations",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/Economy/ongc-q2-net-profit-jumps-57-on-higher-crude-gas-realisations/article71670861.ece",
+          "published": "2026-11-05T17:13:19Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "15536122e1b083f6b0b8",
       "published": "2026-11-06T15:57:52Z",
       "priorityScore": 6.5,
@@ -2224,133 +2727,20 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "5528f12c933047e6aeab",
-      "published": "2026-11-11T12:19:30Z",
+      "id": "3e1b23c437f7ab7a6681",
+      "published": "2026-11-11T16:03:55Z",
       "priorityScore": 6.5,
       "priority": "Context",
-      "headline": "Republican Lawmakers Follow Trump’s Lead After Midterm Rout",
+      "headline": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
-      "transmissionChannel": "Policy credibility and fiscal allocation",
-      "watchNext": "Official legislation and funding; real orders and currency/rate response",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
       "topics": [
+        "ai_rotation",
         "elections_policy"
       ],
-      "primaryTheme": "elections_policy",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "possibleBeneficiaries": "Policy-backed order book after implementation",
-      "possibleLosers": "Reversal/delay and fiscal reprioritization",
-      "thesisTest": "Official enacted measure and sector order/funding impact",
-      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Republican Lawmakers Follow Trump’s Lead After Midterm Rout",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/republican-lawmakers-follow-trump-s-lead-after-midterm-rout",
-          "published": "2026-11-11T12:19:30Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "71ade603c25bcb3605d5",
-      "published": "2026-11-11T13:28:45Z",
-      "priorityScore": 6.5,
-      "priority": "Context",
-      "headline": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
-          "published": "2026-11-11T13:28:45Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "1fe3f9a589f33728ebfe",
-      "published": "2026-11-11T16:40:54Z",
-      "priorityScore": 6.5,
-      "priority": "Context",
-      "headline": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/data-center-gas-plants-to-lift-us-power-emissions-10-bnef-says",
-          "published": "2026-11-11T16:40:54Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "b7d7c0457e3cd53f66d3",
-      "published": "2026-11-11T16:59:18Z",
-      "priorityScore": 6.5,
-      "priority": "Context",
-      "headline": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
       "primaryTheme": "ai_rotation",
       "geographies": [
         "Unspecified / cross-border"
@@ -2365,48 +2755,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
+          "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
-          "published": "2026-11-11T16:59:18Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "5b7cf18b4e6c450fa29d",
-      "published": "2026-11-11T17:54:49Z",
-      "priorityScore": 6.5,
-      "priority": "Context",
-      "headline": "JPMorgan, NVIDIA Leaders on Electrification",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "JPMorgan, NVIDIA Leaders on Electrification",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/jpmorgan-nvidia-leaders-on-electrification-video",
-          "published": "2026-11-11T17:54:49Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
+          "published": "2026-11-11T16:03:55Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -2796,244 +3148,13 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "4429b62108edaad2dfee",
-      "published": "2026-10-29T09:06:48Z",
-      "priorityScore": 6.1,
+      "id": "25b3b93c9a97d7053951",
+      "published": "2026-11-12T09:29:59Z",
+      "priorityScore": 6.5,
       "priority": "Context",
-      "headline": "How could Israel break election deadlock? Here are four scenarios",
+      "headline": "OpenAI now allows enterprises to process AI requests within India",
       "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
-      "transmissionChannel": "Policy credibility and fiscal allocation",
-      "watchNext": "Official legislation and funding; real orders and currency/rate response",
-      "topics": [
-        "elections_policy",
-        "geopolitics"
-      ],
-      "primaryTheme": "elections_policy",
-      "geographies": [
-        "Middle East"
-      ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "possibleBeneficiaries": "Policy-backed order book after implementation",
-      "possibleLosers": "Reversal/delay and fiscal reprioritization",
-      "thesisTest": "Official enacted measure and sector order/funding impact",
-      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "How could Israel break election deadlock? Here are four scenarios",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-10-29T09:06:48Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "6f06cf85fa1170a401f2",
-      "published": "2026-11-07T22:19:59Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "Israel's president tasks opposition leader Eisenkot with forming government",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-07T22:19:59Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "81b80a14301a61e58acb",
-      "published": "2026-11-10T15:21:18Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Weather outcomes can affect farm cash flows, food prices, FMCG demand and agricultural equipment.",
-      "transmissionChannel": "Crop income and input-price supply",
-      "watchNext": "IMD realised weather, crop output, CPI, rural volumes",
-      "topics": [
-        "climate_agri",
-        "geopolitics"
-      ],
-      "primaryTheme": "climate_agri",
-      "geographies": [
-        "Middle East"
-      ],
-      "directSectors": "Agri inputs; FMCG; Rural consumption",
-      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
-      "possibleBeneficiaries": "Irrigation/replacement agriculture if demand holds",
-      "possibleLosers": "Food-cost and rural income hit",
-      "thesisTest": "Rainfall and sowing data consistent with demand",
-      "thesisInvalidation": "Weather forecast not realized in yields",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-10T15:21:18Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "fb5573ea532cc2666316",
-      "published": "2026-11-11T11:47:22Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Geopolitical risks matter to listed firms only through funded contracts and realized cash returns.",
-      "transmissionChannel": "Defence funding and execution",
-      "watchNext": "Defence budgets, contract awards, shipments and receivables",
-      "topics": [
-        "defence_capex"
-      ],
-      "primaryTheme": "defence_capex",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Defence electronics; Aerospace",
-      "proxySectors": "Shipbuilders; Engineering; Components",
-      "possibleBeneficiaries": "Confirmed order book and margin realization",
-      "possibleLosers": "Valuation ahead of delivery and working-capital pressure",
-      "thesisTest": "Enacted procurement budgets, contracts, deliveries",
-      "thesisInvalidation": "Canceled tenders, delayed acceptance",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-11T11:47:22Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "45d5c49f84dac88b3ee7",
-      "published": "2026-11-11T14:51:26Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "United States",
-        "Middle East"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-11T14:51:26Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "e4a5945bc19cd4a58cc5",
-      "published": "2026-11-12T04:00:30Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
-      "transmissionChannel": "Policy credibility and fiscal allocation",
-      "watchNext": "Official legislation and funding; real orders and currency/rate response",
-      "topics": [
-        "elections_policy"
-      ],
-      "primaryTheme": "elections_policy",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "possibleBeneficiaries": "Policy-backed order book after implementation",
-      "possibleLosers": "Reversal/delay and fiscal reprioritization",
-      "thesisTest": "Official enacted measure and sector order/funding impact",
-      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-12T04:00:30Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "2965feb8b5ecf244bb99",
-      "published": "2026-11-12T04:18:33Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
       "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
       "transmissionChannel": "Global technology capex economics",
       "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
@@ -3042,7 +3163,7 @@
       ],
       "primaryTheme": "ai_rotation",
       "geographies": [
-        "Unspecified / cross-border"
+        "India"
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
       "proxySectors": "India domestic financials; IT Services; Grid equipment",
@@ -3054,124 +3175,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-12T04:18:33Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "6a0680b3fc1b96b10824",
-      "published": "2026-11-12T07:59:33Z",
-      "priorityScore": 6.1,
-      "priority": "Context",
-      "headline": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bbc.co.uk; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "Russia / Ukraine"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-          "publisher": "www.bbc.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-          "published": "2026-11-12T07:59:33Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "5e25e64b9fc731963dba",
-      "published": "2026-10-29T10:00:00Z",
-      "priorityScore": 6,
-      "priority": "Context",
-      "headline": "ECB President Lagarde to step down on 7 February 2027",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.ecb.europa.eu; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "Europe"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "ECB President Lagarde to step down on 7 February 2027",
-          "publisher": "www.ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-          "published": "2026-10-29T10:00:00Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "380ce0e2b07203cc3335",
-      "published": "2026-11-10T16:45:00Z",
-      "priorityScore": 6,
-      "priority": "Context",
-      "headline": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.ecb.europa.eu; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "Europe"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-          "publisher": "www.ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-          "published": "2026-11-10T16:45:00Z"
+          "title": "OpenAI now allows enterprises to process AI requests within India",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece",
+          "published": "2026-11-12T09:29:59Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
