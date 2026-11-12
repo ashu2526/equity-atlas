@@ -2,6 +2,62 @@
   "schema": 1,
   "snapshots": [
     {
+      "session": "2026-11-13_AM",
+      "generatedAt": "2026-11-12T21:00:28.115014+00:00",
+      "ready": 22,
+      "configured": 22,
+      "alerts": [
+        {
+          "ticker": "NH",
+          "asOf": "2026-11-12",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
+        {
+          "ticker": "KIMS",
+          "asOf": "2026-11-12",
+          "signal": "200d_loss_watch",
+          "priority": "watch"
+        },
+        {
+          "ticker": "TVSSRICHAK",
+          "asOf": "2026-11-12",
+          "signal": "distribution_risk",
+          "priority": "watch"
+        },
+        {
+          "ticker": "HDFCBANK",
+          "asOf": "2026-11-12",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
+        {
+          "ticker": "SBIN",
+          "asOf": "2026-11-12",
+          "signal": "volume_confirmed_55d_breakout",
+          "priority": "high"
+        },
+        {
+          "ticker": "SBIN",
+          "asOf": "2026-11-12",
+          "signal": "200d_reclaim_watch",
+          "priority": "watch"
+        },
+        {
+          "ticker": "SBIN",
+          "asOf": "2026-11-12",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        },
+        {
+          "ticker": "RELIANCE",
+          "asOf": "2026-11-12",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        }
+      ]
+    },
+    {
       "session": "2026-11-12_PM",
       "generatedAt": "2026-11-12T08:39:09.368366+00:00",
       "ready": 22,
