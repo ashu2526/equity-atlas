@@ -1,57 +1,57 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T18:35:27.722068Z",
+  "generatedAt": "2026-11-12T08:40:32.434871Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-10-28",
-    "end": "2026-11-11",
+    "start": "2026-10-29",
+    "end": "2026-11-12",
     "days": 14
   },
   "overall": {
-    "items": 132,
+    "items": 150,
     "publishers": 5,
-    "positive": 24,
-    "negative": 30,
-    "neutral": 78,
-    "languageIndex": -9.9,
+    "positive": 23,
+    "negative": 36,
+    "neutral": 91,
+    "languageIndex": -10.4,
     "label": "Mixed headline language",
-    "sourceConcentration": 42.4,
+    "sourceConcentration": 37.3,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 34,
+      "items": 39,
       "publishers": 4,
       "positive": 0,
-      "negative": 14,
-      "neutral": 20,
-      "languageIndex": -53.8,
+      "negative": 15,
+      "neutral": 24,
+      "languageIndex": -45.9,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 52.9,
+      "sourceConcentration": 48.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
-          "date": "2026-11-11T16:47:45Z",
+          "title": "Turkey Raises Inflation Forecasts on War, Fund-Rout Effects",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/turkey-central-bank-raises-end-2027-inflation-forecast-to-21",
+          "date": "2026-11-12T08:01:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
-          "date": "2026-11-11T15:29:11Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T15:05:11Z",
+          "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T07:59:33Z",
           "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
+          "date": "2026-11-12T07:00:45Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 28,
+      "items": 33,
       "publishers": 4,
       "positive": 2,
-      "negative": 5,
-      "neutral": 21,
-      "languageIndex": -31.6,
+      "negative": 7,
+      "neutral": 24,
+      "languageIndex": -32.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 39.3,
+      "sourceConcentration": 51.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
-          "date": "2026-11-11T15:45:30Z",
+          "title": "Why The Fed Is A Bigger Risk For The AI Boom Than Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/insight-with-haslinda-amin-11-12-2026-video",
+          "date": "2026-11-12T08:01:42Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
-          "date": "2026-11-11T15:33:03Z",
+          "title": "Turkey Raises Inflation Forecasts on War, Fund-Rout Effects",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/turkey-central-bank-raises-end-2027-inflation-forecast-to-21",
+          "date": "2026-11-12T08:01:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
-          "date": "2026-11-11T15:13:42Z",
+          "title": "France May Be Backing Spain’s de Cos for ECB Top Job, Papers Say",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/france-spain-pablo-hernandez-de-cos-european-central-bank-presidency-lagarde-ecb",
+          "date": "2026-11-12T06:56:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,35 +109,35 @@
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 21,
+      "items": 30,
       "publishers": 3,
-      "positive": 2,
-      "negative": 2,
-      "neutral": 17,
-      "languageIndex": 0.0,
+      "positive": 3,
+      "negative": 6,
+      "neutral": 21,
+      "languageIndex": -6.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 38.1,
+      "sourceConcentration": 50.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "JPMorgan, NVIDIA Leaders on Electrification",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/jpmorgan-nvidia-leaders-on-electrification-video",
-          "date": "2026-11-11T17:54:49Z",
+          "title": "Why The Fed Is A Bigger Risk For The AI Boom Than Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/insight-with-haslinda-amin-11-12-2026-video",
+          "date": "2026-11-12T08:01:42Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Officials Work to Speed Grid Connection Amid Data Center Buildout",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/officials-work-to-speed-up-data-center-grid-connection-video",
-          "date": "2026-11-11T16:59:18Z",
+          "title": "Alibaba Shares Drop 7% as Nvidia Saga Triggers Chip Access Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/alibaba-shares-drop-7-as-nvidia-saga-triggers-chip-access-fears",
+          "date": "2026-11-12T07:00:44Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
-          "date": "2026-11-11T16:49:45Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of U.S. curbs",
+          "url": "https://www.thehindu.com/sci-tech/technology/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/article71692635.ece",
+          "date": "2026-11-12T06:51:06Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -152,18 +152,24 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 21,
+      "items": 20,
       "publishers": 1,
-      "positive": 14,
-      "negative": 3,
+      "positive": 12,
+      "negative": 4,
       "neutral": 4,
-      "languageIndex": 52.4,
+      "languageIndex": 40.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee falls 6 paise to 93.77 against U.S. dollar in early trade",
+          "url": "https://www.thehindu.com/business/markets/rupee-falls-6-paise-to-9377-against-us-dollar-in-early-trade/article71692324.ece",
+          "date": "2026-11-12T04:47:39Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
           "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
@@ -174,12 +180,6 @@
           "title": "Rupee rises 7 paise to close at 93.70 against U.S. dollar",
           "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar/article71689369.ece",
           "date": "2026-11-11T11:19:54Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets hit eight-month high as foreign investors return",
-          "url": "https://www.thehindu.com/business/Industry/stock-markets-surge-in-early-trade-sensex-jumps-1097-points/article71688324.ece",
-          "date": "2026-11-11T08:11:23Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -195,28 +195,28 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 17,
+      "items": 16,
       "publishers": 4,
-      "positive": 1,
+      "positive": 0,
       "negative": 2,
       "neutral": 14,
-      "languageIndex": 0.6,
+      "languageIndex": -7.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 41.2,
+      "sourceConcentration": 43.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T04:00:30Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
           "date": "2026-11-11T16:03:55Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
-          "date": "2026-11-11T13:28:45Z",
           "publisher": "www.bloomberg.com"
         },
         {
@@ -238,18 +238,24 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 14,
+      "items": 15,
       "publishers": 2,
       "positive": 5,
       "negative": 4,
-      "neutral": 5,
+      "neutral": 6,
       "languageIndex": 50.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 92.9,
+      "sourceConcentration": 93.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Stock markets climb in early trade led by foreign fund inflows, lower crude oil prices",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-climb-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil-prices/article71692361.ece",
+          "date": "2026-11-12T04:58:38Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
@@ -260,12 +266,6 @@
           "title": "Strait of Hormuz LNG traffic hits highest in October since Iran war began",
           "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
           "date": "2026-11-10T04:48:53Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Nvidia plunges but tech shares rebound, oil prices slump",
-          "url": "https://www.thehindu.com/business/markets/nvidia-plunges-but-tech-shares-rebound-oil-prices-slump/article71683988.ece",
-          "date": "2026-11-09T21:13:33Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -365,6 +365,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "healthcare",
+      "title": "Hospital sector",
+      "items": 3,
+      "publishers": 3,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2,
+      "languageIndex": 33.3,
+      "label": "Insufficient observations",
+      "sourceConcentration": 33.3,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
+          "date": "2026-11-12T07:00:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T06:12:05Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Apollo Hospitals’ Q2 revenue rises 23%; profit up 32% on broad-based growth",
+          "url": "https://www.thehindu.com/business/Industry/apollo-hospitals-q2-revenue-rises-23-profit-up-32-on-broad-based-growth/article71666462.ece",
+          "date": "2026-11-04T16:46:23Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Hospitals; Specialty care",
+      "proxySectors": "Diagnostics; Medtech; Hospital supply",
+      "hypothesis": "Structural watch",
+      "potentialUpside": "Incremental operating-bed cash returns",
+      "potentialDownside": "High capex and slower occupancy ramp",
+      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
+      "invalidation": "New beds fail to cover fixed overhead",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "auto_consumer",
       "title": "Auto and demand",
       "items": 2,
@@ -402,14 +445,14 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "healthcare",
-      "title": "Hospital sector",
-      "items": 1,
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 2,
       "publishers": 1,
-      "positive": 1,
+      "positive": 0,
       "negative": 0,
-      "neutral": 0,
-      "languageIndex": 100.0,
+      "neutral": 2,
+      "languageIndex": 0.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -417,19 +460,25 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Apollo Hospitals’ Q2 revenue rises 23%; profit up 32% on broad-based growth",
-          "url": "https://www.thehindu.com/business/Industry/apollo-hospitals-q2-revenue-rises-23-profit-up-32-on-broad-based-growth/article71666462.ece",
-          "date": "2026-11-04T16:46:23Z",
-          "publisher": "www.thehindu.com"
+          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T06:12:05Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T11:47:22Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
-      "directSectors": "Hospitals; Specialty care",
-      "proxySectors": "Diagnostics; Medtech; Hospital supply",
-      "hypothesis": "Structural watch",
-      "potentialUpside": "Incremental operating-bed cash returns",
-      "potentialDownside": "High capex and slower occupancy ramp",
-      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
-      "invalidation": "New beds fail to cover fixed overhead",
+      "directSectors": "Defence electronics; Aerospace",
+      "proxySectors": "Shipbuilders; Engineering; Components",
+      "hypothesis": "Watch",
+      "potentialUpside": "Confirmed order book and margin realization",
+      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
+      "confirmation": "Enacted procurement budgets, contracts, deliveries",
+      "invalidation": "Canceled tenders, delayed acceptance",
       "hypothesisAsOf": "2026-11-11"
     },
     {
@@ -461,37 +510,6 @@
       "potentialDownside": "Natural rubber cost shock or excess capacity",
       "confirmation": "Input cost basket falls and margins outperform",
       "invalidation": "Volume weak despite price hike",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 1,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T11:47:22Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Defence electronics; Aerospace",
-      "proxySectors": "Shipbuilders; Engineering; Components",
-      "hypothesis": "Watch",
-      "potentialUpside": "Confirmed order book and margin realization",
-      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
-      "confirmation": "Enacted procurement budgets, contracts, deliveries",
-      "invalidation": "Canceled tenders, delayed acceptance",
       "hypothesisAsOf": "2026-11-11"
     },
     {
@@ -599,35 +617,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 34,
+      "items": 39,
       "publishers": 4,
       "positive": 0,
-      "negative": 14,
-      "neutral": 20,
-      "languageIndex": -53.8,
+      "negative": 15,
+      "neutral": 24,
+      "languageIndex": -45.9,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 52.9,
+      "sourceConcentration": 48.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
-          "date": "2026-11-11T16:47:45Z",
+          "title": "Turkey Raises Inflation Forecasts on War, Fund-Rout Effects",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/turkey-central-bank-raises-end-2027-inflation-forecast-to-21",
+          "date": "2026-11-12T08:01:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/over-11-000-foreign-military-deaths-recorded-by-russia-in-war-on-ukraine",
-          "date": "2026-11-11T15:29:11Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T15:05:11Z",
+          "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T07:59:33Z",
           "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
+          "date": "2026-11-12T07:00:45Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -642,34 +660,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 28,
+      "items": 33,
       "publishers": 4,
       "positive": 2,
-      "negative": 5,
-      "neutral": 21,
-      "languageIndex": -31.6,
+      "negative": 7,
+      "neutral": 24,
+      "languageIndex": -32.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 39.3,
+      "sourceConcentration": 51.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/marsh-says-fed-should-ease-up-on-banks-that-insure-ai-loans",
-          "date": "2026-11-11T15:45:30Z",
+          "title": "Why The Fed Is A Bigger Risk For The AI Boom Than Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/insight-with-haslinda-amin-11-12-2026-video",
+          "date": "2026-11-12T08:01:42Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Retirement Rules Spark Exit Date Debate for NY Fed’s Williams",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/retirement-rules-spark-exit-date-debate-for-ny-fed-s-williams",
-          "date": "2026-11-11T15:33:03Z",
+          "title": "Turkey Raises Inflation Forecasts on War, Fund-Rout Effects",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/turkey-central-bank-raises-end-2027-inflation-forecast-to-21",
+          "date": "2026-11-12T08:01:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Inflation Report Doesn't Warrant 50 Bps Fed Rate Hike, David Rosenberg Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
-          "date": "2026-11-11T15:13:42Z",
+          "title": "France May Be Backing Spain’s de Cos for ECB Top Job, Papers Say",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/france-spain-pablo-hernandez-de-cos-european-central-bank-presidency-lagarde-ecb",
+          "date": "2026-11-12T06:56:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -685,28 +703,28 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 17,
+      "items": 16,
       "publishers": 4,
-      "positive": 1,
+      "positive": 0,
       "negative": 2,
       "neutral": 14,
-      "languageIndex": 0.6,
+      "languageIndex": -7.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 41.2,
+      "sourceConcentration": 43.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T04:00:30Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Congress Set to Subpoena Nvidia’s Jensen Huang, Republican Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/congress-set-to-subpoena-nvidia-s-jensen-huang-republican-says",
           "date": "2026-11-11T16:03:55Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Stocks Rise as CoreWeave Outlook, Anthropic Revive AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
-          "date": "2026-11-11T13:28:45Z",
           "publisher": "www.bloomberg.com"
         },
         {
@@ -875,25 +893,25 @@
       "stories": 56
     },
     {
-      "publisher": "www.bbc.co.uk",
-      "stories": 30
+      "publisher": "www.bloomberg.com",
+      "stories": 42
     },
     {
-      "publisher": "www.bloomberg.com",
-      "stories": 28
+      "publisher": "www.bbc.co.uk",
+      "stories": 33
+    },
+    {
+      "publisher": "news.un.org",
+      "stories": 10
     },
     {
       "publisher": "www.ecb.europa.eu",
       "stories": 9
-    },
-    {
-      "publisher": "news.un.org",
-      "stories": 9
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 6,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 7,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
