@@ -3,6 +3,394 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-12-am",
+      "asOf": "2026-11-12",
+      "createdAt": "2026-11-12T01:55:00Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published research — provisional; primary datasets incomplete",
+      "marketSession": "AM — overnight global and 11 Nov India cash close",
+      "coverageWindow": {
+        "start": "2026-10-29",
+        "end": "2026-11-12T07:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-11T18:35:27.722068Z",
+      "headline": "India's foreign-led rally broadens, but dollar, inflation and energy risk constrain conviction",
+      "executiveSummary": "11 Nov foreign cash net buying of approximately ₹12,563 crore contrasted with domestic institutional net selling of ₹8,435 crore. Moody's raised India's FY27 growth forecast to 7%; private banks led three-month NIFTY relative returns while autos remain negative on that horizon despite a sharp monthly rebound. US AI infrastructure shares recovered after CoreWeave guidance, complicating a simple AI-to-India rotation story. Oil relief is conditional on freight and Iran security. The 07:00 IST source refresh has not been confirmed complete: repository archives and signal snapshots remain dated 11 Nov 18:35–18:53 UTC; do not infer fresh 12 Nov bars or betting quotes.",
+      "regime": {
+        "label": "India selectively constructive; global crosscurrents / incomplete confirmation",
+        "change": "Compared with 11 Nov baseline: growth forecast upgraded, US AI-capex rebound challenges pure rotation thesis; sector relative-return evidence now quantified, but no new India session has occurred.",
+        "confidence": "Moderate for prior-session aggregate India flows and index prices; low for global regime attribution",
+        "marketConfirmation": "11 Nov NIFTY 50 25,255.05 (+0.84%) per Reuters; 13/16 sectors advanced. Repo and dollar headwinds persist.",
+        "contradictions": [
+          "Foreign cash buying coincides with DII selling and reportedly net-short FII index futures.",
+          "Private banks lead over three months, but autos' one-month surge does not erase three-month underperformance.",
+          "CoreWeave revenue strength conflicts with a blanket AI-capex bust thesis.",
+          "Polymarket Fed outcomes are market quotes, not macro forecasts."
+        ],
+        "missingSignals": [
+          "Fresh primary NSE gross turnover audit",
+          "Updated NSDL fortnightly sector transactions",
+          "Latest AMFI monthly subscriptions and redemptions",
+          "CFTC positioning and US Treasury TIC country data aligned by observation date",
+          "Current issuer CDS and global credit spread series",
+          "Completed 12 Nov 07:00 IST source pipeline and fresh 12 Nov market signal snapshot"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "FII cash gross buy/sell/net",
+          "value": "₹30,087 / ₹17,524 / +₹12,563 crore",
+          "period": "11 Nov 2026",
+          "dataClass": "Provisional cash transaction, secondary NSE-derived table",
+          "source": "https://www.quantsapp.com/fii-dii"
+        },
+        {
+          "name": "DII cash gross buy/sell/net",
+          "value": "₹19,704 / ₹28,139 / −₹8,435 crore",
+          "period": "11 Nov 2026",
+          "dataClass": "Provisional cash transaction",
+          "source": "https://www.quantsapp.com/fii-dii"
+        },
+        {
+          "name": "NIFTY 50",
+          "value": "25,255.05 (+0.84%)",
+          "period": "11 Nov 2026 close",
+          "dataClass": "Index price, Reuters; conflicts with some secondary displays",
+          "source": "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+        },
+        {
+          "name": "Moody's India FY27 GDP forecast",
+          "value": "7.0%, raised from 6.5%",
+          "period": "11 Nov 2026",
+          "dataClass": "Forecast revision, not realized GDP",
+          "source": "https://www.reuters.com/world/india/moodys-lifts-india-growth-forecast-sees-economy-well-positioned-sustain-near-7-2026-11-11/"
+        },
+        {
+          "name": "Private bank relative 3m",
+          "value": "+5.91 percentage points",
+          "period": "11 Nov 2026 index snapshot",
+          "dataClass": "Price return minus NIFTY 50, not flows",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Auto relative 3m",
+          "value": "−6.21 percentage points",
+          "period": "11 Nov 2026 index snapshot",
+          "dataClass": "Price relative return, not flows",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Polymarket Dec Fed +25bp YES",
+          "value": "85.5¢; 24h volume $253,963.94; liquidity $705,448.39",
+          "period": "11 Nov 2026 18:53:44 UTC snapshot",
+          "dataClass": "Betting contract quote; not calibrated probability or institutional flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Polymarket US invasion Iran before 2027 YES",
+          "value": "6.5¢; 24h volume $479,553.88; liquidity $381,125.95",
+          "period": "11 Nov 2026 18:53:44 UTC snapshot",
+          "dataClass": "Betting contract quote; not objective probability",
+          "source": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
+        }
+      ],
+      "stories": [
+        {
+          "id": "fpi-cash-1111",
+          "rank": 1,
+          "importance": "High",
+          "theme": "flows",
+          "geography": "India",
+          "title": "Foreign cash buying persists, domestic institutions sell",
+          "whatHappened": "11 Nov provisional FII gross buy ₹30,087 crore, gross sell ₹17,524 crore, net +₹12,563 crore; DII buy ₹19,704 crore, sell ₹28,139 crore, net −₹8,435 crore.",
+          "whyItMatters": [
+            "Eight-session foreign buying streak supports liquid equity demand, but turnover is not a sector allocation.",
+            "Opposing domestic sales mean marginal buyer composition changed, not necessarily total fundamental demand."
+          ],
+          "smartMoney": "Observed aggregate provisional cash turnover; sector flows not measured.",
+          "direct": "Liquid Indian equities",
+          "proxies": "Banks; brokers; exchanges",
+          "whatCouldChange": "Repeat flows and broader participation could support multiples; earnings must catch up.",
+          "caution": "Provisional exchange figures may be revised; depository cash flows differ by basis.",
+          "sources": [
+            "https://www.quantsapp.com/fii-dii",
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "oil-hormuz-1111",
+          "rank": 2,
+          "importance": "High",
+          "theme": "geopolitics_energy",
+          "geography": "Middle East / India",
+          "title": "Crude relief remains fragile amid Iran and shipping uncertainty",
+          "whatHappened": "11 Nov Brent reported around $92–93/bbl as Iran escalation concerns eased; shipping disruptions remain a separate risk.",
+          "whyItMatters": [
+            "India's imported fuel bill and inflation depend on sustained landed-cost relief, not one quote.",
+            "Freight and marine insurance can offset lower crude, delaying gross-margin recovery."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "Airlines; oil marketing; petrochemicals",
+          "proxies": "Tyres; paints; logistics; fertilisers",
+          "whatCouldChange": "Input margins, rupee and policy-rate expectations if landed oil and freight normalize.",
+          "caution": "Renewed attacks, route closures or freight premium reversals invalidate relief.",
+          "sources": [
+            "https://timesofindia.indiatimes.com/business/international-business/crude-cools-off-oil-prices-hold-near-90-per-barrel-as-us-iran-war-tensions-ease/articleshow/135722706.cms",
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+            "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "india-growth-moodys",
+          "rank": 3,
+          "importance": "High",
+          "theme": "growth_policy",
+          "geography": "India",
+          "title": "Moody's upgrades FY27 India growth outlook",
+          "whatHappened": "11 Nov Moody's raised its FY2026–27 India GDP growth forecast to 7% from 6.5%.",
+          "whyItMatters": [
+            "A firmer capex cycle could lift industrial utilization and private credit.",
+            "Inflation and tighter policy can still impair discretionary spending and financing margins."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "Capital goods; industrial lenders",
+          "proxies": "Cement; electrical equipment; logistics",
+          "whatCouldChange": "Order conversion, credit growth and operating leverage; verify monthly industrial output.",
+          "caution": "A forecast revision is not realized GDP; weak monsoon and inflation challenge it.",
+          "sources": [
+            "https://www.reuters.com/world/india/moodys-lifts-india-growth-forecast-sees-economy-well-positioned-sustain-near-7-2026-11-11/"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "coreweave-ai-rebound",
+          "rank": 4,
+          "importance": "High",
+          "theme": "ai_capex_credit",
+          "geography": "United States / India",
+          "title": "AI infrastructure rebounds on CoreWeave results",
+          "whatHappened": "11 Nov CoreWeave beat quarterly revenue expectations and lifted 2026 sales guidance; its shares rose more than 25% according to WSJ.",
+          "whyItMatters": [
+            "AI compute demand may remain robust despite financing and valuation concerns.",
+            "High debt costs and concentration in hyperscaler clients can weaken equity returns even with revenue growth."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "AI infrastructure; chips; data centres",
+          "proxies": "Indian electrical equipment; cooling; IT services",
+          "whatCouldChange": "Order books, contracted utilization, interest expense and free cash flow.",
+          "caution": "One earnings beat does not validate every AI capex project; issuer CDS spread not verified.",
+          "sources": [
+            "https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "rbi-inflation",
+          "rank": 5,
+          "importance": "High",
+          "theme": "rates_inflation",
+          "geography": "India",
+          "title": "RBI tightening meets imminent October CPI release",
+          "whatHappened": "RBI raised repo 25bp to 5.50% on 7 Oct; October CPI scheduled for 12 Nov, not yet released at morning review.",
+          "whyItMatters": [
+            "Higher funding costs pressure leveraged consumers, real estate and NBFC spreads.",
+            "Persistently high food and energy inflation could limit easing and compress valuation multiples."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "Banks; NBFCs; real estate",
+          "proxies": "Autos; consumer durables; housing materials",
+          "whatCouldChange": "Deposit pricing, loan yields, CPI and RBI guidance.",
+          "caution": "Do not cite an unreleased October CPI as actual; bank NIM response varies.",
+          "sources": [
+            "https://www.reuters.com/world/india/india-raises-policy-rate-by-25-bps-first-hike-nearly-four-years-2026-10-07/",
+            "https://www.mospi.gov.in/"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "india-blackstone-iifl",
+          "rank": 6,
+          "importance": "High",
+          "theme": "corporate_transactions",
+          "geography": "India",
+          "title": "Blackstone-linked IIFL stake transaction",
+          "whatHappened": "Reuters 11 Nov reported Blackstone agreed to acquire roughly 16% of IIFL Finance; stock rose 6.3%.",
+          "whyItMatters": [
+            "Strategic capital can alter funding access and governance expectations for the target.",
+            "Transaction-specific pricing cannot establish broad NBFC institutional inflows."
+          ],
+          "smartMoney": "Announced strategic stake transaction; no settled transaction amount independently verified.",
+          "direct": "IIFL Finance",
+          "proxies": "NBFC funding platforms; loan distribution",
+          "whatCouldChange": "Completion terms, regulatory approvals and credit-cost trajectory.",
+          "caution": "Deal announcement is not completed cash settlement; examine exchange filings.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+            "https://www.bseindia.com/corporates/ann.html"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "global-rates-dollar",
+          "rank": 7,
+          "importance": "High",
+          "theme": "global_rates_fx",
+          "geography": "United States / India",
+          "title": "US inflation anxiety and stronger dollar complicate India rotation",
+          "whatHappened": "WSJ 11 Nov reports dollar at a 19-month high and preceding US bond selloff after hotter inflation; US bond market closed Veterans Day.",
+          "whyItMatters": [
+            "Higher global discount rates can counteract Indian equity inflows and raise external borrowing costs.",
+            "Stronger dollar pressures imported commodities and unhedged corporate FX liabilities."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "Indian rate-sensitive equities; dollar borrowers",
+          "proxies": "Exporters; IT; pharma; imported-input manufacturers",
+          "whatCouldChange": "Verify next US Treasury yield session, INR and spreads before concluding rate regime.",
+          "caution": "No fresh US Treasury close on holiday; live CDS quotes unavailable.",
+          "sources": [
+            "https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62",
+            "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        },
+        {
+          "id": "sector-rotation",
+          "rank": 8,
+          "importance": "High",
+          "theme": "sector_rotation",
+          "geography": "India",
+          "title": "Banking leadership exceeds broad-market three-month returns",
+          "whatHappened": "11 Nov NIFTY PRIVATE BANK three-month +9.26% versus NIFTY 50 +3.35%, relative +5.91pp; NIFTY AUTO −2.86%, relative −6.21pp despite strong one-month rebound.",
+          "whyItMatters": [
+            "Bank leadership aligns with liquid equity rotation but does not identify FPI purchases.",
+            "Auto's +13.71% one-month move against negative three-month relative return indicates recovery rather than established long-run leadership."
+          ],
+          "smartMoney": "Not measured at the sector/company level; no purchase inferred from price.",
+          "direct": "Private banks; auto OEMs",
+          "proxies": "Insurance; auto suppliers; vehicle financiers",
+          "whatCouldChange": "Sustained relative breadth, credit costs, auto registrations and earnings revisions.",
+          "caution": "Historical index price returns are not institutional flow; source mirrors may differ.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/signals.html",
+            "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/"
+          ],
+          "evidenceType": "Dated reporting plus conditional analyst transmission; not a verified forecast"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "status": "Accelerating price leadership",
+          "evidence": "3m +9.26%; +5.91pp vs NIFTY; 1m +10.41%",
+          "next": "Deposit costs, NIM, credit costs and NSDL sector allocation; no fresh allocation verified"
+        },
+        {
+          "sector": "PSU banks",
+          "status": "Short-term accelerating, long-term less proven",
+          "evidence": "1m +14.15%; 3m +3.97%; +0.62pp relative",
+          "next": "Asset quality, funding costs and continued relative breadth"
+        },
+        {
+          "sector": "Pharma and hospitals",
+          "status": "Relative strength with mixed fundamentals",
+          "evidence": "Pharma 3m +7.53%, +4.18pp relative; healthcare +1.00pp relative",
+          "next": "Earnings, payer mix, regulatory approvals and utilization"
+        },
+        {
+          "sector": "Autos and suppliers",
+          "status": "Rebounding, not yet 3m leader",
+          "evidence": "1m +13.71%, 3m −2.86%; −6.21pp relative",
+          "next": "VAHAN registrations, OEM inventory, input costs and retail financing"
+        },
+        {
+          "sector": "IT / AI services",
+          "status": "Short-term recovery; 3m lag",
+          "evidence": "NIFTY IT 1m +13.92%, 3m +3.07%, relative −0.28pp",
+          "next": "Deal wins, client budgets, AI monetization, US rates"
+        },
+        {
+          "sector": "Energy importers / tyres / paints",
+          "status": "Conditional input-cost tailwind",
+          "evidence": "Brent near $92–93 on 11 Nov; freight insurance not verified",
+          "next": "Delivered crude, freight, rubber and gross margins"
+        },
+        {
+          "sector": "Capital goods and electrical equipment",
+          "status": "Growth outlook improves; not confirmed orders",
+          "evidence": "Moody's FY27 upgrade; NIFTY infrastructure 3m relative −1.85pp",
+          "next": "Orders, execution and private capex"
+        },
+        {
+          "sector": "Real estate / NBFCs",
+          "status": "Price recovery versus rate headwind",
+          "evidence": "NIFTY Realty 3m relative −2.88pp; RBI repo 5.50%",
+          "next": "October CPI, yields, lending spreads and presales"
+        }
+      ],
+      "cooling": [
+        "FMCG: 3m −2.56%, −5.91pp relative; verify volume and rural demand before calling structural weakness.",
+        "Metals: 3m −2.93%, −6.28pp relative; China demand and commodity spreads unconfirmed.",
+        "Energy: 3m −3.17%, −6.52pp relative; oil direction and downstream economics diverge.",
+        "Global AI valuation certainty: CoreWeave rebound refutes one-way bearish narratives but funding and credit risk remain."
+      ],
+      "risks": [
+        "12 Nov October CPI above expectations could increase RBI tightening odds.",
+        "Brent/freight/insurance re-acceleration after Iran incidents.",
+        "US dollar and Treasury yields rise when bond trading resumes.",
+        "Foreign cash purchases reverse while domestic selling persists.",
+        "AI infrastructure debt funding stress or issuer credit deterioration; CDS quotes not verified.",
+        "NIFTY 50/sector breadth fails to confirm price rally.",
+        "Technical 200DMA reclaims fail on falling volume.",
+        "Policy/tariff/election headlines without enacted text are not confirmed catalysts."
+      ],
+      "whatChanged": [
+        "Moody's raised FY27 GDP forecast 6.5% to 7% on 11 Nov.",
+        "11 Nov FII buying remained strong, but this repeats yesterday's direction rather than proving new sector allocation.",
+        "CoreWeave's 11 Nov earnings-driven AI rebound challenges a simplistic global AI-to-India capital migration explanation.",
+        "New sector-relative data distinguishes private-bank 3m leadership (+5.91pp) from auto's 3m lag (−6.21pp).",
+        "HDFCBANK and SBIN mechanical 200DMA reclaim watches exist as of 11 Nov; no newly observed 12 Nov signal, and their long-term averages remain falling.",
+        "Polymarket snapshot as of 11 Nov 18:53 UTC: Dec Fed +25bp YES 85.5¢ and US invasion Iran YES 6.5¢; no verified new morning quote change; betting volume is not equity flow."
+      ],
+      "tomorrowChecklist": [
+        "After 16:00 IST 12 Nov obtain official MoSPI October CPI; compare headline, core and food drivers.",
+        "Check NSE 12 Nov close, gross FII/DII purchases and sales and reconcile depository methodology.",
+        "Verify 07:00/19:00 pipeline completion timestamps before claiming new market signals.",
+        "Compare fresh NIFTY private bank, auto, IT and pharma 1w/1m/3m relative returns and breadth.",
+        "Verify 12 Nov FX, Brent, freight, US yields, and central bank statements.",
+        "Inspect HDFCBANK/SBIN 200DMA holds with exchange-quality OHLCV and bank fundamentals.",
+        "Compare actual new Polymarket snapshots, contract resolution rules and liquidity, not odds as forecasts.",
+        "Retrieve latest dated NSDL sector, AMFI, CFTC and TIC releases before using country/sector flow labels."
+      ],
+      "sources": [
+        "https://www.quantsapp.com/fii-dii",
+        "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+        "https://www.reuters.com/world/india/moodys-lifts-india-growth-forecast-sees-economy-well-positioned-sustain-near-7-2026-11-11/",
+        "https://timesofindia.indiatimes.com/business/international-business/crude-cools-off-oil-prices-hold-near-90-per-barrel-as-us-iran-war-tensions-ease/articleshow/135722706.cms",
+        "https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62",
+        "https://www.reuters.com/world/india/india-raises-policy-rate-by-25-bps-first-hike-nearly-four-years-2026-10-07/",
+        "https://www.reuters.com/world/india/indian-stocks-poised-higher-open-softer-crude-robust-foreign-buying-2026-11-11/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.amfiindia.com/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "Archive articles latest 11 Nov 18:35:27 UTC, sector and Polymarket snapshots 11 Nov 18:53 UTC, stock signals 11 Nov 18:53 UTC; scheduled 12 Nov 07:00 IST refresh not independently confirmed successful.",
+        "No fresh 12 Nov Indian trading bars yet; 11 Nov stock alerts are not new AM breakouts. HDFCBANK 1.57× and SBIN 2.07× 20-session volume on 200DMA reclaim watches, but 200DMA slopes still negative.",
+        "Polymarket history has 7 stored snapshots; no morning-to-prior-session verified new quote comparison. Contract quotes are not scientific probabilities.",
+        "NSDL sector latest referenced 16–31 Oct, no independently verified new 1–15 Nov data. AMFI, TIC and CFTC latest numeric observations not retrieved; do not infer them.",
+        "NIFTY closing values conflict across secondary data (25,214.20 vs Reuters/sector snapshot 25,255.05); use dated Reuters figure provisionally, audit official NSE close.",
+        "Issuer CDS quotes, trade execution and primary exchange filings not independently checked; reporting and conditional theses are explicitly distinguished."
+      ]
+    },
+    {
       "id": "2026-11-11-initial",
       "asOf": "2026-11-11",
       "createdAt": "2026-11-11T16:45:00Z",
