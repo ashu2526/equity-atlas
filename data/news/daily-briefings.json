@@ -3,6 +3,453 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-13-am",
+      "asOf": "2026-11-13",
+      "createdAt": "2026-11-13T01:50:24Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published research — provisional: official 12 Nov FII/DII gross transactions, NSDL fortnightly allocation, fresh CFTC/TIC and company filings not retrieved; all pricing snapshots dated 12 Nov",
+      "marketSession": "AM — Friday 13 Nov 2026 India pre-open; overnight global 12 Nov and prior full 12 Nov India cash session",
+      "coverageWindow": {
+        "start": "2026-10-30",
+        "end": "2026-11-13T07:20:24+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-12T20:59:52.567727Z",
+      "headline": "Nvidia leadership shock adds a global AI risk to India's verified 6.09% inflation breach; bank price leadership persists without confirmed fresh sector inflows",
+      "executiveSummary": "New overnight catalyst versus the 12 Nov PM note: Reuters confirms Nvidia co-founder Jensen Huang stepped down as CEO on 12 Nov; CFO Colette Kress became interim CEO, introducing execution, governance and AI capex-counterparty risk, not proof of cancelled orders. India's October CPI 6.09% YoY and food inflation 8.94% are now verified against the 12 Nov MoSPI/PIB primary release, upgrading evidence quality from yesterday's secondary report without changing the numeric print. Fed speakers discussed further tightening, but this is commentary, not a rate decision. India's rupee was reported at ₹94.04/USD on 12 Nov. Latest official-index-derived 12 Nov price snapshot: NIFTY 50 three-month +3.7%; private banks +10.8% (+7.1 percentage points relative), pharma +7.45% (+3.75pp), energy -3.36% (-7.06pp); price leadership does not establish FPI sector buying. Latest 12 Nov 21:00 UTC Polymarket Fed +25bp December YES 87.5% quote, 24h contract betting volume $992,974, liquidity $489,584, +1pp against the preceding stored quote; neither a calibrated forecast nor an equity flow. The latest archived FII/DII provisional gross table is still 11 Nov; 12 Nov official buy/sell/net is unavailable. No 13 Nov Indian market trading has occurred at the briefing cutoff.",
+      "regime": {
+        "label": "Mixed / selectively resilient Indian price action amid higher domestic inflation and global AI governance shock",
+        "change": "Compared with 12 Nov PM, AI hardware governance/succession becomes a new high-impact risk; primary MoSPI CPI release confirms the previously reported inflation print. Fresh 12 Nov sector/technical snapshots replace 11 Nov data, but do not justify stronger institutional-flow conclusions.",
+        "confidence": "Moderate on official Indian CPI and 12 Nov index price snapshots; moderate on Nvidia succession reporting; low on rate-path inference, unverified institutional allocations and global positioning",
+        "marketConfirmation": [
+          "NIFTY 50 as-of 12 Nov close 25299.35; 3m +3.7%.",
+          "Private banks 3m +10.8%, +7.1pp vs NIFTY 50; pharma +3.75pp; energy -7.06pp.",
+          "MoSPI official 12 Nov release confirms October CPI 6.09% and food CPI 8.94%."
+        ],
+        "contradictions": [
+          "12 Nov equity index resilience is not proof that investors ignored inflation; post-release price discovery is limited.",
+          "Nvidia leadership departure is material but no verified reduction in AI accelerator purchase orders was established.",
+          "Positive private-bank relative returns are not NSDL FPI sector purchases.",
+          "Latest reported 11 Nov FII buying coexisted with DII selling; next-day turnover unavailable."
+        ],
+        "missingSignals": [
+          "12 Nov NSE provisional FII/DII gross buy/sell/net and verified 13 Nov trading after open.",
+          "Current NSDL FPI fortnightly sector transactions and holdings, with correct lag.",
+          "AMFI original October category table, latest CFTC speculative positioning and US Treasury TIC country-flow vintage.",
+          "Issuer-specific CDS quotes or verified new credit spread event; none asserted.",
+          "Primary Nvidia company SEC/IR succession filing and actual updated customer purchase/capex guidance.",
+          "13 Nov fresh Indian sector/stock close; 12 Nov snapshot cannot establish an intraday breakout today."
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "India October CPI and food CPI",
+          "value": "6.09% YoY / 8.94% YoY",
+          "period": "October 2026, official release 12 Nov 16:00 IST",
+          "dataClass": "Official national price statistics; not market positioning",
+          "source": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416"
+        },
+        {
+          "name": "NIFTY 50 12 Nov close",
+          "value": "25299.35",
+          "period": "12 Nov 2026 cash close",
+          "dataClass": "NSE-derived index price",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "NIFTY private-bank 3m relative return",
+          "value": "+7.1 percentage points (absolute 10.8%)",
+          "period": "3m through 12 Nov 2026",
+          "dataClass": "Sector index price return minus NIFTY 50, not institutional flows",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "NIFTY pharma 3m relative return",
+          "value": "+3.75pp (absolute +7.45%)",
+          "period": "3m through 12 Nov 2026",
+          "dataClass": "Sector price return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "NIFTY energy 3m relative return",
+          "value": "-7.06pp (absolute -3.36%)",
+          "period": "3m through 12 Nov 2026",
+          "dataClass": "Sector price return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Rupee reported close",
+          "value": "₹94.04 per USD, down 33 paise",
+          "period": "12 Nov 2026",
+          "dataClass": "Reported spot FX close; primary quote not retrieved",
+          "source": "https://www.thehindu.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693331.ece"
+        },
+        {
+          "name": "FII provisional cash gross buy/sell/net",
+          "value": "₹30,087 / ₹17,524 / +₹12,563 crore",
+          "period": "11 Nov 2026; 12 Nov unavailable",
+          "dataClass": "Secondary-reported provisional exchange gross cash turnover",
+          "source": "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html"
+        },
+        {
+          "name": "DII provisional cash gross buy/sell/net",
+          "value": "₹19,704 / ₹28,139 / −₹8,435 crore",
+          "period": "11 Nov 2026; 12 Nov unavailable",
+          "dataClass": "Secondary-reported provisional exchange gross cash turnover",
+          "source": "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html"
+        },
+        {
+          "name": "Polymarket Fed December +25bp YES",
+          "value": "87.5¢; +1pp vs stored previous; 24h betting volume $992974; liquidity $489584",
+          "period": "2026-11-12T21:00:19.574608+00:00",
+          "dataClass": "Prediction contract quote and betting volume, not objective probability or institutional equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "AMFI October equity category flows",
+          "value": "₹32,994 crore reported; original category table not independently retrieved in this run",
+          "period": "October 2026",
+          "dataClass": "Fund subscriptions/redemptions, not stock-exchange turnover",
+          "source": "https://www.amfiindia.com/research-information/mf-industry-data"
+        },
+        {
+          "name": "NSDL FPI fortnightly sector purchases",
+          "value": "Unavailable in current primary-source verification",
+          "period": "Latest fortnight not confirmed",
+          "dataClass": "Missing direct sector transaction data",
+          "source": "https://www.fpi.nsdl.co.in/"
+        },
+        {
+          "name": "CFTC/TIC country positioning",
+          "value": "Latest dated numeric values unavailable",
+          "period": "Latest weekly CFTC/monthly TIC vintage not confirmed",
+          "dataClass": "Missing derivatives positioning and cross-border securities transactions",
+          "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+        }
+      ],
+      "stories": [
+        {
+          "id": "nvidia-ceo-20261112",
+          "rank": 1,
+          "importance": "High",
+          "theme": "ai_rotation",
+          "geography": "US/global/India IT supply chain",
+          "title": "Nvidia founder-CEO exits; AI infrastructure governance and counterparty risk reprice",
+          "whatHappened": "Reuters reported on 12 Nov that Jensen Huang stepped down and CFO Colette Kress became interim CEO; reports describe governance controversy. This is a confirmed leadership transition, not a confirmed demand collapse.",
+          "whyItMatters": [
+            "Concentrated AI hardware leadership raises succession and customer contracting execution risk.",
+            "AI capex-linked suppliers may face valuation discount-rate sensitivity before any actual order change."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "Nvidia governance, accelerator roadmap, supply contracts, AI cloud customer budgets",
+          "proxies": "Potential substitution opportunities for AMD/Broadcom; India IT engineering, data-center infrastructure, electrical equipment, cooling and power remain indirect proxies",
+          "whatCouldChange": "Check Nvidia official IR/SEC filings, customer capex guidance, confirmed order lead times, AI credit spreads and Indian IT results.",
+          "caution": "No verified order cancellations or Indian supplier revenue loss; a share-price reaction alone cannot establish earnings transmission.",
+          "sources": [
+            "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/",
+            "https://www.reuters.com/business/view-nvidia-ceo-jensen-huang-steps-down-2026-11-12/"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "india-cpi-primary-20261112",
+          "rank": 2,
+          "importance": "High",
+          "theme": "inflation_rates",
+          "geography": "India",
+          "title": "MoSPI confirms October CPI 6.09% and food inflation 8.94%",
+          "whatHappened": "Official MoSPI/PIB release dated 12 Nov at 16:00 IST confirms the figures first covered in yesterday's PM secondary report.",
+          "whyItMatters": [
+            "Inflation above RBI 6% upper tolerance affects real consumption and rate expectations.",
+            "Food price pressure can compress household discretionary demand and margins in consumer businesses."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "Banks/NBFCs funding costs, consumer staples input costs, auto/real-estate financing affordability",
+          "proxies": "Food logistics, supply-chain productivity, defensive healthcare and select cash-generative businesses may be less exposed",
+          "whatCouldChange": "Track November CPI, core components, RBI statements, sovereign yield curve, deposit repricing and earnings commentary.",
+          "caution": "A single print does not prove an RBI rate increase; base effects and food reversal could moderate the next release.",
+          "sources": [
+            "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "fed-speakers-20261112",
+          "rank": 3,
+          "importance": "High",
+          "theme": "inflation_rates",
+          "geography": "US/global",
+          "title": "Fed officials signal tightening concern; policy decision remains pending",
+          "whatHappened": "12 Nov Bloomberg coverage reports Daly arguing more hikes may be needed; Fed separately announced a revised tentative 2027 meeting calendar, which is administrative and not a rate decision.",
+          "whyItMatters": [
+            "Higher expected US rates can increase global equity discount rates and dollar financing costs.",
+            "Dollar strength may affect emerging-market FX, foreign portfolio flows and India imported inflation."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "US duration-sensitive technology, credit borrowers, Indian rate-sensitive financials",
+          "proxies": "Exporters with USD receipts may benefit from FX mechanically, offset by weak US demand",
+          "whatCouldChange": "Verify FOMC minutes, actual US Treasury yields, Fed funds futures, dollar index and official policy vote.",
+          "caution": "Speaker remarks and betting odds are not a unanimous Fed decision; the calendar update is not policy tightening.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation",
+            "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "iran-energy-20261112",
+          "rank": 4,
+          "importance": "Material watch",
+          "theme": "energy_shipping",
+          "geography": "Middle East/India",
+          "title": "Iran diplomacy rhetoric keeps shipping and crude tail risks elevated",
+          "whatHappened": "12 Nov Bloomberg reported oil rising after Trump said a US-Iran deal was unnecessary; the direction of crude prices varied across the day.",
+          "whyItMatters": [
+            "Hormuz disruption can increase freight/insurance and landed energy costs.",
+            "India's net oil-import exposure transmits into inflation, rupee pressure and oil-consuming margins."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "Indian oil marketing companies, airlines, tyres, paints, chemicals and logistics",
+          "proxies": "Upstream energy producers and alternative sourcing or efficiency providers are conditional proxies",
+          "whatCouldChange": "Watch Brent dated futures, tanker freight/insurance, verified shipping incidents, refinery margins and INR.",
+          "caution": "Rhetoric does not prove a new shipping closure or persistent oil price shock.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "rupee-20261112",
+          "rank": 5,
+          "importance": "Material watch",
+          "theme": "fx_rates",
+          "geography": "India/global",
+          "title": "Rupee weakens to reported ₹94.04/USD",
+          "whatHappened": "The Hindu reported the rupee declined 33 paise to close at 94.04 against the US dollar on 12 Nov.",
+          "whyItMatters": [
+            "FX depreciation raises INR costs of dollar-denominated energy, components and debt service.",
+            "USD revenues translate to more INR for exporters, subject to hedges and volume elasticity."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "Oil importers, airlines, electronics, external-debt borrowers",
+          "proxies": "IT services, pharma exporters and select global-revenue businesses may see translation benefits",
+          "whatCouldChange": "Verify RBI reference rate, forward premium, corporate hedge disclosures and USD demand.",
+          "caution": "One-day FX movement does not establish capital flight or a lasting exporter earnings boost.",
+          "sources": [
+            "https://www.thehindu.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693331.ece"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "india-flow-gap-20261112",
+          "rank": 6,
+          "importance": "Material watch",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Index resilience persists but latest institutional cash flow remains unverified",
+          "whatHappened": "The 12 Nov NIFTY close is 25,299.35 in repository NSE-derived data; latest dated retrievable 11 Nov provisional FII net buying was ₹12,563.33 crore, with DII net selling ₹8,434.53 crore.",
+          "whyItMatters": [
+            "A single-day foreign cash inflow can be distorted by blocks and rebalancing.",
+            "Index price strength cannot identify which sectors received FPI purchases."
+          ],
+          "smartMoney": "11 Nov provisional FII net +₹12,563.33 crore and DII net −₹8,434.53 crore, secondary-reported exchange transactions; 12 Nov direct flow not measured.",
+          "direct": "Liquid large-cap banks, brokerages, exchange infrastructure",
+          "proxies": "Custodians, clearing and market infrastructure are proxies for sustained turnover, not automatic beneficiaries",
+          "whatCouldChange": "Retrieve official 12 Nov NSE gross buy/sell/net, NSDL sector fortnight and block-deal registers.",
+          "caution": "No 12 Nov sector-wise institutional purchases or 13 Nov trading confirmed.",
+          "sources": [
+            "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html",
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://ashu2526.github.io/equity-atlas/signals.html"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "msci-20261112",
+          "rank": 7,
+          "importance": "Material watch",
+          "theme": "corporate_transactions",
+          "geography": "India/global passive funds",
+          "title": "MSCI index rebalance creates potential closing-auction flow event, not yet measured",
+          "whatHappened": "12 Nov market reporting cited announced MSCI constituent changes expected effective after 30 Nov close; issuer-level effective weights and official MSCI notice were not retrieved here.",
+          "whyItMatters": [
+            "Passive index trackers may need to rebalance at implementation, affecting temporary liquidity and spreads.",
+            "Index inclusion does not alter underlying sales, margins or cash flows by itself."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "Affected index constituents and broker execution desks",
+          "proxies": "Custodians, market makers and exchange infrastructure conditional on actual turnover",
+          "whatCouldChange": "Obtain MSCI official announcement and effective weights, NSE block/auction turnover and ownership filings.",
+          "caution": "Treat the names and amounts as unverified until official constituent release is inspected; do not predict passive flow size.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        },
+        {
+          "id": "ai-capex-credit-20261112",
+          "rank": 8,
+          "importance": "Material watch",
+          "theme": "tech_credit",
+          "geography": "US/global/India",
+          "title": "AI capex financing remains sensitive to rate and execution risks",
+          "whatHappened": "Reuters 11 Nov review of US equity turbulence and 12 Nov Nvidia leadership reporting show a sector exposed to both macro discount rates and company-specific governance.",
+          "whyItMatters": [
+            "AI data-center growth requires financing, grid capacity and hardware delivery, creating credit/capex timing risks.",
+            "A slowdown in hyperscaler orders could affect upstream semiconductors and downstream power/cooling equipment at different speeds."
+          ],
+          "smartMoney": "Not measured: no verified security-level institutional transaction or sector allocation attributable to this event.",
+          "direct": "US AI infrastructure debt, chip vendors, India data-center and electrical capex",
+          "proxies": "Power transmission, grid equipment and efficiency providers may benefit if buildouts proceed",
+          "whatCouldChange": "Verify actual hyperscaler capex guidance, issuer debt pricing, customer contracts, utility interconnection and earnings revisions.",
+          "caution": "No issuer CDS quote, sector-wide capex cancellation or default event independently verified.",
+          "sources": [
+            "https://www.reuters.com/business/finance/after-us-market-shake-out-signs-suggest-too-soon-say-worst-is-over-2026-11-11/",
+            "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
+          ],
+          "evidenceType": "Dated primary release or attributed public reporting; economic transmission is analyst hypothesis, not observed causation"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "state": "Price leadership; earnings not yet proven",
+          "evidence": "12 Nov 3m +10.8%, relative +7.1pp; 1m +10.55%",
+          "transmission": "Deposit costs, loan growth and credit quality determine earnings",
+          "counterevidence": "6.09% CPI could sustain high rates and deposit competition; NSDL purchases unavailable",
+          "change": "12 Nov sector snapshot updated; leadership persisted from PM",
+          "nextData": "NIM, deposits, credit cost, official NSDL sector purchases"
+        },
+        {
+          "sector": "Pharma",
+          "state": "Relative leadership",
+          "evidence": "3m +7.45%, relative +3.75pp",
+          "transmission": "USD revenues and product mix may support exporter margins",
+          "counterevidence": "US pricing and regulatory risk",
+          "change": "12 Nov updated return, not a new capital-flow claim",
+          "nextData": "USFDA filings, quarterly product margins, FX hedge notes"
+        },
+        {
+          "sector": "PSU banks",
+          "state": "Short-term acceleration / rate-sensitive",
+          "evidence": "3m 5.88%, 1m 14.23%",
+          "transmission": "Credit growth and treasury duration exposure",
+          "counterevidence": "Rising yields can impair bond books",
+          "change": "12 Nov closing snapshot replaces 11 Nov",
+          "nextData": "Treasury P&L, GNPA, bond yields, credit growth"
+        },
+        {
+          "sector": "Healthcare services",
+          "state": "Watch, not proven",
+          "evidence": "NIFTY healthcare 3m +4.33%, relative +0.63pp",
+          "transmission": "Occupancy, ARPOB, new beds and case mix",
+          "counterevidence": "Wage inflation and capex financing",
+          "change": "No material thesis upgrade from yesterday",
+          "nextData": "Hospital Q2 results and payer mix"
+        },
+        {
+          "sector": "IT and AI supply chain",
+          "state": "New governance risk",
+          "evidence": "NIFTY IT 3m 2.26%, relative -1.44pp; Nvidia succession 12 Nov",
+          "transmission": "Cloud capex and enterprise discretionary projects",
+          "counterevidence": "Nvidia leadership change is not a confirmed cut to AI spending",
+          "change": "New overnight catalyst",
+          "nextData": "Nvidia filings, hyperscaler budgets, India IT deal conversion"
+        },
+        {
+          "sector": "Energy / oil importers",
+          "state": "Cooling longer-term; oil risk",
+          "evidence": "NIFTY energy 3m -3.36%, relative -7.06pp",
+          "transmission": "Crude, refinery margin and freight pass-through",
+          "counterevidence": "Iran diplomacy rhetoric may reverse oil relief",
+          "change": "12 Nov updated sector relative lag",
+          "nextData": "Brent, shipping rates, refinery GRMs"
+        },
+        {
+          "sector": "Autos / tyres",
+          "state": "Unproven rebound",
+          "evidence": "NIFTY AUTO 3m -3.95%, relative -7.65pp",
+          "transmission": "Fuel, rubber, demand and loan costs",
+          "counterevidence": "Inflation and higher financing costs; tyres' raw materials can move independently",
+          "change": "No new volume-backed broad thesis",
+          "nextData": "OEM dispatches, retail registrations, rubber costs, finance rates"
+        },
+        {
+          "sector": "Media",
+          "state": "Price leadership without confirmed fundamental breadth",
+          "evidence": "3m +11.83%, relative +8.13pp",
+          "transmission": "Advertising revenue and consumer spend",
+          "counterevidence": "Concentrated constituents and discretionary budgets",
+          "change": "New 12 Nov top rank; not a sector flow",
+          "nextData": "Ad spending, earnings breadth, constituent weights"
+        }
+      ],
+      "cooling": [
+        "NIFTY energy 3m relative −7.06pp despite a strong recent monthly rebound; distinguish trend reversal from recovery.",
+        "Autos and tyre businesses face CPI and financing headwinds; sector-specific volume/earnings confirmation pending.",
+        "AI risk appetite faces a newly confirmed Nvidia governance shock, but downstream orders have not been measured."
+      ],
+      "risks": [
+        "Indian CPI stays above RBI tolerance and domestic bond yields rise.",
+        "Oil/Hormuz insurance or freight costs rise with verified physical disruption.",
+        "Nvidia governance transition causes verifiable contract delays or AI capex guidance cuts.",
+        "US rate repricing pushes up yields/dollar and weakens INR.",
+        "Indian official FII cash turnover reverses for multiple sessions.",
+        "Private-bank index leadership fails while deposit costs and credit losses worsen.",
+        "Corporate-action-adjusted price histories invalidate apparent stock breakouts.",
+        "Passive index rebalancing creates temporary price distortions mistaken for earnings momentum."
+      ],
+      "whatChanged": [
+        "NEW: 12 Nov Nvidia founder-CEO departure verified by Reuters; AI infrastructure succession and governance added as a distinct high-impact story.",
+        "UPGRADED VERIFICATION: 12 Nov official MoSPI/PIB CPI 6.09% / food 8.94% replaces yesterday's reliance on secondary reporting; economic print unchanged.",
+        "DATA REFRESH: 12 Nov 21:00 UTC sector and company OHLCV snapshots available; prior PM report had 11 Nov index and stock data.",
+        "SECTOR: private-bank 3m relative return now +7.1pp, pharma +3.75pp, energy -7.06pp; all price observations, not flows.",
+        "POLYMARKET: December Fed +25bp YES 87.5% (+1pp versus stored previous), source as-of 2026-11-12T21:00:19.574608+00:00; quote is not a forecast.",
+        "FLOW GAP PERSISTS: 12 Nov official NSE FII/DII gross table, NSDL fortnightly allocations, CFTC and TIC numeric vintages not retrieved.",
+        "TECHNICAL: 12 Nov refreshed watch flags: NH: short_breakout_long_average_falling (relative volume 0.7x, as-of 2026-11-12); KIMS: 200d_loss_watch (relative volume 1.5x, as-of 2026-11-12); TVSSRICHAK: distribution_risk (relative volume 4.07x, as-of 2026-11-12); HDFCBANK: short_breakout_long_average_falling (relative volume 1.01x, as-of 2026-11-12); SBIN: volume_confirmed_55d_breakout, 200d_reclaim_watch, short_breakout_long_average_falling (relative volume 2.1x, as-of 2026-11-12); RELIANCE: short_breakout_long_average_falling (relative volume 0.65x, as-of 2026-11-12). SBIN 55-session volume-backed breakout is a watch, not a trade recommendation."
+      ],
+      "tomorrowChecklist": [
+        "Retrieve 12 Nov official NSE FII/DII gross buy/sell/net and reconcile any NSE/NSDL reporting differences.",
+        "After 13 Nov Indian close, compare NIFTY sector breadth and volume with 12 Nov and verify whether bank relative leadership persists.",
+        "Check official RBI commentary and India sovereign curve after MoSPI 6.09% CPI release.",
+        "Check Nvidia IR/SEC succession release and actual customer capex/order commentary; separate governance from orders.",
+        "Check 13 Nov USD/INR, Brent and verified Gulf shipping events.",
+        "Inspect 13 Nov SBIN, KIMS and TVSSRICHAK volume/close against 12 Nov technical flags and corporate actions.",
+        "Retrieve AMFI October source table, NSDL fortnightly sector transactions, CFTC weekly positions and Treasury TIC vintage.",
+        "Check new Polymarket snapshots against stored prior market ID only, with contract terms and liquidity."
+      ],
+      "sources": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416",
+        "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/",
+        "https://www.reuters.com/business/view-nvidia-ceo-jensen-huang-steps-down-2026-11-12/",
+        "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+        "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
+        "https://www.thehindu.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693331.ece",
+        "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+        "https://www.moneycontrol.com/news/business/fiis-net-buy-rs-12-563-crore-in-indian-equities-on-november-11-third-highest-daily-inflow-of-2026-14077375.html",
+        "https://www.thehindu.com/business/markets-extend-gains-for-3rd-day-sensex-ends-above-81900-on-fii-inflows-lower-crude-oil/article71693356.ece",
+        "https://www.amfiindia.com/research-information/mf-industry-data",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://www.reuters.com/business/finance/after-us-market-shake-out-signs-suggest-too-soon-say-worst-is-over-2026-11-11/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://polymarket.com/event/next-ceo-of-nvidia"
+      ],
+      "limitations": [
+        "RSS archive updated 2026-11-12T20:59:52.567727Z; latest scan 2026-11-12T20:59:52.567727Z, 15/15 feeds; keyword/ranked headline climate is not independent verification.",
+        "Sector rotation generated 2026-11-12T21:00:19.494274+00:00, as-of 2026-11-12; stock OHLCV generated 2026-11-12T21:00:28.115014+00:00, as-of 2026-11-12; Polymarket generated 2026-11-12T21:00:19.574608+00:00. Source pipelines may not yet have completed 13 Nov 07:00 IST run.",
+        "12 Nov NSE FII/DII primary gross turnover unavailable; 11 Nov gross figures are secondary-reported and not today's flow.",
+        "NSDL FPI fortnightly sector purchase values, AMFI primary category figures, CFTC positioning, TIC country flows and issuer CDS changes not independently retrieved; no fabricated amounts.",
+        "Reuters/Bloomberg publisher reporting and repository market-data mirrors are not equivalent to an official issuer filing or licensed exchange feed.",
+        "All 12 Nov technical signals are mechanical watches. No new 13 Nov completed daily bar or verified company earnings revision."
+      ]
+    },
+    {
       "id": "2026-11-12-pm",
       "asOf": "2026-11-12",
       "createdAt": "2026-11-12T13:57:38Z",
