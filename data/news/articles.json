@@ -1,12 +1,534 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-13T08:30:20.096979Z",
+  "updatedAt": "2026-11-13T20:36:08.326911Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "535f87f91e0ed5817563",
+      "title": "Lutnick Under Fire in Nvidia Crisis",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-early-edition-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T19:56:03Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "742e32c8731b6e703c1c",
+      "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T19:55:01Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dabb9c42293eb206d2f8",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T19:53:57Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2a86b7c29b9f58038f7a",
+      "title": "Democratic Senate leader Schumer set to face leadership challenge",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T19:03:10Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "eba4193c8b4b8393a21b",
+      "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T18:32:51Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ce4d94476b3f73488b69",
+      "title": "Customers Buying NVIDIA Dip: Guild",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/customers-buying-nvidia-dip-guild-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T18:32:08Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "24f022714735f775d136",
+      "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T18:24:41Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f5c1b49b8c7cab2680e4",
+      "title": "Nvidia’s Ousted CEO Gets Fresh Subpoena Threat From House GOP",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-s-ousted-ceo-gets-fresh-subpoena-threat-from-house-gop",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T18:04:05Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "daff1b3a52ca98f6cf0c",
+      "title": "Trump to Extend Shipping Waiver for Oil, Fertilizer for 90 Days",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T17:47:45Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "314ecab0411c4796223f",
+      "title": "Senators Ask Trump Administration to Preserve Nvidia Documents",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/senators-ask-trump-admin-to-preserve-nvidia-documents-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T17:39:23Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "505c29f1ec842ac218fe",
+      "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
+      "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T17:34:21Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4e3472af1ded738d6b98",
+      "title": "Oil India on track for 4 MMT crude oil production this fiscal, officials state",
+      "url": "https://www.thehindu.com/business/Industry/oil-india-on-track-for-4-mmt-crude-oil-production-this-fiscal-officials-state/article71699134.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:51:54Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "137ec25bd2e7242667eb",
+      "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:50:48Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cf424e9a6376bf507efa",
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:40:31Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f92152ec5a5d5c627135",
+      "title": "Nagel Says ‘Highly Probable’ That ECB Will Have to Act Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:32:05Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cff587b64194a1f6d396",
+      "title": "Copper prices slid to near four-month low amid fears of hike in U.S. interest rates, lower AI demand",
+      "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:16:57Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d4b59c10abc7e6c3d6fc",
+      "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T16:04:20Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "sovereign_credit"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d1aa8f29f03e5f56c009",
+      "title": "Fed’s Logan Calls for Clearer Separation of Market Operations",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-logan-calls-for-clearer-separation-of-market-operations",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T14:40:00Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2dff92e351f389a05251",
+      "title": "Goolsbee Says Fed Must Reestablish Its Inflation Credibility",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/goolsbee-says-fed-must-reestablish-its-inflation-credibility",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T13:59:19Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b52ebd649efe4395fb94",
+      "title": "US Wholesale Inflation Picks Up to Fastest Pace Since 2022",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/us-wholesale-inflation-remained-elevated-in-october",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T13:33:25Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "550e92ef1f1a88030c46",
+      "title": "Paytm gets RBI’s in-principle nod to revive wallet business; shares hit record high",
+      "url": "https://www.thehindu.com/business/indias-paytm-gets-preliminary-rbi-nod-for-wallet-licence-shares-hit-record-high/article71697554.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T13:00:55Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e30bcbeb1d1deb911864",
+      "title": "Merz Says German Proposal for Top ECB Jobs Coming Next Week",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/germany-to-make-proposal-for-top-ecb-jobs-next-week-merz-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:59:18Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7ed19effff532e6f494f",
+      "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+      "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:28:28Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b11f78109a56b0bd45d0",
+      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:22:30Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "73c1a58bb258b5b99def",
+      "title": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
+      "url": "https://www.thehindu.com/business/markets/markets-snap-3-day-rally-sensex-drops-318-points-nifty-slips-below-25150/article71697688.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:10:40Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "962899796aca2d522104",
+      "title": "Rupee falls 8 paise to close at 94.20 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-falls-8-paise-to-close-at-9420-against-us-dollar/article71697687.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:03:18Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7ec7cd53e74253844df1",
+      "title": "Euro-Zone Shows Solid Growth as ECB Weighs Another Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/euro-zone-shows-solid-growth-as-ecb-weighs-another-rate-hike",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T10:05:32Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "41cab3fceb1e1efa118e",
       "title": "Hidary: Investors See Anthropic IPO as Key Bellwether",
@@ -356,6 +878,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "5a2a146e81eeb09a56a4",
+      "title": "Why midterm vote-counting is taking so long in America's largest state",
+      "url": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T00:35:05Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "7e9551deed1b02fac035",
       "title": "Nvidia Fallout Looms Over Trump-Xi Meeting",
       "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-late-edition-11-12-2026-video",
@@ -432,6 +973,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "ac60736c5d4229d56b55",
+      "title": "Gold Set for Worst Week Since June as Fed Rate Hike Bets Mount",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-drop-to-near-one-year-low-as-rate-hike-bets-increase",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T23:58:45Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "a4d3d3284d104a811d5b",
       "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
       "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
@@ -498,7 +1058,8 @@
       "published": "2026-11-12T22:17:13Z",
       "discovered": "2026-11-13T08:30:20.096979Z",
       "topics": [
-        "ai_rotation"
+        "ai_rotation",
+        "inflation_rates"
       ],
       "feedSources": [
         "Bloomberg Markets"
@@ -3789,6 +4350,25 @@
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b6dbdc2a654220005313",
+      "title": "ETF Anthropic Exposure, Political Funds, BOJ Unwinds ETFs",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-02/etf-iq-10-2-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-02T20:56:03Z",
+      "discovered": "2026-11-13T20:36:08.326911Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {

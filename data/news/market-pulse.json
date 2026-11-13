@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T08:30:20.096979Z",
+  "generatedAt": "2026-11-13T20:36:08.326911Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,91 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 205,
+    "items": 233,
     "publishers": 6,
-    "positive": 28,
-    "negative": 53,
-    "neutral": 124,
-    "languageIndex": -7.4,
+    "positive": 30,
+    "negative": 58,
+    "neutral": 145,
+    "languageIndex": -5.5,
     "label": "Mixed headline language",
-    "sourceConcentration": 41.5,
+    "sourceConcentration": 44.2,
     "coverageSufficient": true
   },
   "topics": [
     {
-      "id": "geopolitics",
-      "title": "Geopolitics",
-      "items": 52,
-      "publishers": 4,
-      "positive": 3,
-      "negative": 20,
-      "neutral": 29,
-      "languageIndex": -36.7,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 44.2,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Nvidia Names Kress Interim CEO After Huang Exit as Trump Cools on Iran Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/horizons-middle-east-africa-11-13-2026-video",
-          "date": "2026-11-13T07:35:24Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russia’s Economy Slows as Ukrainian Attacks Damage Industry",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/russia-s-economy-slows-as-ukrainian-attacks-damage-industry",
-          "date": "2026-11-13T05:15:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Foreign Businesses Putin Seized Help Fund Russia’s War Machine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/foreign-businesses-putin-seized-help-fund-russia-s-war-machine",
-          "date": "2026-11-13T04:00:00Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "hypothesis": "Risk / volatility",
-      "potentialUpside": "Energy security and selected defence services",
-      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
-      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
-      "invalidation": "Peace deal plus actual trade-route normalization",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 50,
+      "items": 58,
       "publishers": 3,
       "positive": 5,
-      "negative": 9,
-      "neutral": 36,
-      "languageIndex": -4.4,
+      "negative": 11,
+      "neutral": 42,
+      "languageIndex": -5.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 60.0,
+      "sourceConcentration": 62.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Hidary: Investors See Anthropic IPO as Key Bellwether",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/hidary-investors-see-anthropic-ipo-as-key-bellwether-video",
-          "date": "2026-11-13T08:17:22Z",
+          "title": "Lutnick Under Fire in Nvidia Crisis",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-early-edition-11-13-2026-video",
+          "date": "2026-11-13T19:56:03Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia Replaces Huang as Lutnick Faces Scrutiny on China",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/daybreak-europe-11-13-2026-video",
-          "date": "2026-11-13T07:53:43Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T19:53:57Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Nvidia Names Kress Interim CEO After Huang Exit as Trump Cools on Iran Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/horizons-middle-east-africa-11-13-2026-video",
-          "date": "2026-11-13T07:35:24Z",
+          "title": "Customers Buying NVIDIA Dip: Guild",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-13/customers-buying-nvidia-dip-guild-video",
+          "date": "2026-11-13T18:32:08Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -107,37 +64,80 @@
       "hypothesisAsOf": "2026-11-10"
     },
     {
-      "id": "inflation_rates",
-      "title": "Inflation and rates",
-      "items": 44,
-      "publishers": 5,
-      "positive": 2,
-      "negative": 15,
-      "neutral": 27,
-      "languageIndex": -30.7,
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "items": 56,
+      "publishers": 4,
+      "positive": 3,
+      "negative": 20,
+      "neutral": 33,
+      "languageIndex": -35.2,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 68.2,
+      "sourceConcentration": 44.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
-          "date": "2026-11-13T00:05:34Z",
+          "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
+          "date": "2026-11-13T18:32:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Peru Lifts Interest Rate for First Time in Nearly Four Years",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/peru-raises-interest-rates-for-first-time-in-nearly-four-years",
-          "date": "2026-11-12T23:04:02Z",
+          "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
+          "date": "2026-11-13T16:50:48Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-s-goolsbee-says-inflation-inching-into-tough-spot-video",
-          "date": "2026-11-12T19:36:20Z",
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T16:40:31Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "hypothesis": "Risk / volatility",
+      "potentialUpside": "Energy security and selected defence services",
+      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
+      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
+      "invalidation": "Peace deal plus actual trade-route normalization",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "inflation_rates",
+      "title": "Inflation and rates",
+      "items": 53,
+      "publishers": 5,
+      "positive": 4,
+      "negative": 18,
+      "neutral": 31,
+      "languageIndex": -24.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 73.6,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
+          "date": "2026-11-13T19:55:01Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nagel Says ‘Highly Probable’ That ECB Will Have to Act Again",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
+          "date": "2026-11-13T16:32:05Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Copper prices slid to near four-month low amid fears of hike in U.S. interest rates, lower AI demand",
+          "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
+          "date": "2026-11-13T16:16:57Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -150,57 +150,14 @@
       "hypothesisAsOf": "2026-10-23"
     },
     {
-      "id": "elections_policy",
-      "title": "Elections and policy",
-      "items": 22,
-      "publishers": 4,
-      "positive": 0,
-      "negative": 2,
-      "neutral": 20,
-      "languageIndex": -7.7,
-      "label": "Mixed headline language",
-      "sourceConcentration": 36.4,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T03:57:01Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
-          "date": "2026-11-13T02:12:31Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Bets Shaky Iran Status Quo Will Hold After Midterm Loss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-bets-shaky-iran-status-quo-will-hold-after-midterm-loss",
-          "date": "2026-11-12T21:21:11Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "hypothesis": "Scenario uncertainty",
-      "potentialUpside": "Policy-backed order book after implementation",
-      "potentialDownside": "Reversal/delay and fiscal reprioritization",
-      "confirmation": "Official enacted measure and sector order/funding impact",
-      "invalidation": "Campaign rhetoric without enacted legislation",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "india_flows",
       "title": "India flows",
-      "items": 22,
+      "items": 25,
       "publishers": 1,
       "positive": 13,
-      "negative": 5,
-      "neutral": 4,
-      "languageIndex": 36.4,
+      "negative": 6,
+      "neutral": 6,
+      "languageIndex": 28.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +165,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Rupee rises 7 paise to 94.05 against U.S. dollar in early trade",
-          "url": "https://www.thehindu.com/business/Industry/rupee-rises-7-paise-to-9405-against-us-dollar-in-early-trade/article71696547.ece",
-          "date": "2026-11-13T05:54:43Z",
+          "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
+          "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
+          "date": "2026-11-13T17:34:21Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Markets fall in early trade after three-day rally; Sensex tumbles 460 points",
-          "url": "https://www.thehindu.com/business/markets/markets-fall-in-early-trade-after-three-day-rally/article71696558.ece",
-          "date": "2026-11-13T04:56:15Z",
+          "title": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
+          "url": "https://www.thehindu.com/business/markets/markets-snap-3-day-rally-sensex-drops-318-points-nifty-slips-below-25150/article71697688.ece",
+          "date": "2026-11-13T12:10:40Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/markets-extend-gains-for-3rd-day-sensex-ends-above-81900-on-fii-inflows-lower-crude-oil/article71693356.ece",
-          "date": "2026-11-12T11:51:50Z",
+          "title": "Rupee falls 8 paise to close at 94.20 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-falls-8-paise-to-close-at-9420-against-us-dollar/article71697687.ece",
+          "date": "2026-11-13T12:03:18Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -236,36 +193,79 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 24,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 2,
+      "neutral": 22,
+      "languageIndex": -6.7,
+      "label": "Mixed headline language",
+      "sourceConcentration": 33.3,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Democratic Senate leader Schumer set to face leadership challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T19:03:10Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T03:57:01Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
+          "date": "2026-11-13T02:12:31Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
+      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
+      "hypothesis": "Scenario uncertainty",
+      "potentialUpside": "Policy-backed order book after implementation",
+      "potentialDownside": "Reversal/delay and fiscal reprioritization",
+      "confirmation": "Official enacted measure and sector order/funding impact",
+      "invalidation": "Campaign rhetoric without enacted legislation",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 16,
+      "items": 18,
       "publishers": 2,
       "positive": 6,
       "negative": 4,
-      "neutral": 6,
-      "languageIndex": 53.3,
+      "neutral": 8,
+      "languageIndex": 28.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 93.8,
+      "sourceConcentration": 88.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Trump to Extend Shipping Waiver for Oil, Fertilizer for 90 Days",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days",
+          "date": "2026-11-13T17:47:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Oil India on track for 4 MMT crude oil production this fiscal, officials state",
+          "url": "https://www.thehindu.com/business/Industry/oil-india-on-track-for-4-mmt-crude-oil-production-this-fiscal-officials-state/article71699134.ece",
+          "date": "2026-11-13T16:51:54Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
           "title": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
           "url": "https://www.thehindu.com/business/auto-stocks-skid-1-on-profit-booking-despite-softer-crude-firm-markets/article71693492.ece",
           "date": "2026-11-12T12:17:59Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/markets-extend-gains-for-3rd-day-sensex-ends-above-81900-on-fii-inflows-lower-crude-oil/article71693356.ece",
-          "date": "2026-11-12T11:51:50Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets climb in early trade led by foreign fund inflows, lower crude oil prices",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-climb-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil-prices/article71692361.ece",
-          "date": "2026-11-12T04:58:38Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -276,6 +276,49 @@
       "potentialDownside": "Shipping disruption can raise freight/insurance independent of crude",
       "confirmation": "Sustained Brent easing AND freight/insurance normalization",
       "invalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 6,
+      "publishers": 2,
+      "positive": 0,
+      "negative": 4,
+      "neutral": 2,
+      "languageIndex": -40.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 83.3,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+          "date": "2026-11-13T18:24:41Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
+          "date": "2026-11-12T23:46:08Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
+          "date": "2026-11-11T14:53:13Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "hypothesis": "Fragmentation risk",
+      "potentialUpside": "Selective import substitution if capacity exists",
+      "potentialDownside": "Export barriers and retaliation; input import friction",
+      "confirmation": "Implemented change in tariff with company-level exposure",
+      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
       "hypothesisAsOf": "2026-11-11"
     },
     {
@@ -320,49 +363,6 @@
       "confirmation": "Rainfall and sowing data consistent with demand",
       "invalidation": "Weather forecast not realized in yields",
       "hypothesisAsOf": "2026-10-23"
-    },
-    {
-      "id": "trade_policy",
-      "title": "Trade policy",
-      "items": 5,
-      "publishers": 2,
-      "positive": 0,
-      "negative": 3,
-      "neutral": 2,
-      "languageIndex": -37.5,
-      "label": "Insufficient observations",
-      "sourceConcentration": 80.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
-          "date": "2026-11-12T23:46:08Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
-          "date": "2026-11-11T14:53:13Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
-          "date": "2026-11-11T01:43:19Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "hypothesis": "Fragmentation risk",
-      "potentialUpside": "Selective import substitution if capacity exists",
-      "potentialDownside": "Export barriers and retaliation; input import friction",
-      "confirmation": "Implemented change in tariff with company-level exposure",
-      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "hypothesisAsOf": "2026-11-11"
     },
     {
       "id": "healthcare",
@@ -482,6 +482,43 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "sovereign_credit",
+      "title": "Sovereign credit",
+      "items": 2,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
+          "date": "2026-11-13T16:04:20Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
+          "date": "2026-11-13T06:00:17Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
       "id": "credit_cds",
       "title": "Credit/CDS news",
       "items": 1,
@@ -544,37 +581,6 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "sovereign_credit",
-      "title": "Sovereign credit",
-      "items": 1,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-          "date": "2026-11-13T06:00:17Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
-    },
-    {
       "id": "tech_credit",
       "title": "Technology credit",
       "items": 1,
@@ -633,35 +639,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 52,
+      "items": 56,
       "publishers": 4,
       "positive": 3,
       "negative": 20,
-      "neutral": 29,
-      "languageIndex": -36.7,
+      "neutral": 33,
+      "languageIndex": -35.2,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 44.2,
+      "sourceConcentration": 44.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Nvidia Names Kress Interim CEO After Huang Exit as Trump Cools on Iran Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/horizons-middle-east-africa-11-13-2026-video",
-          "date": "2026-11-13T07:35:24Z",
+          "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
+          "date": "2026-11-13T18:32:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Russia’s Economy Slows as Ukrainian Attacks Damage Industry",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/russia-s-economy-slows-as-ukrainian-attacks-damage-industry",
-          "date": "2026-11-13T05:15:00Z",
+          "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
+          "date": "2026-11-13T16:50:48Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Foreign Businesses Putin Seized Help Fund Russia’s War Machine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/foreign-businesses-putin-seized-help-fund-russia-s-war-machine",
-          "date": "2026-11-13T04:00:00Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T16:40:31Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -676,35 +682,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 44,
+      "items": 53,
       "publishers": 5,
-      "positive": 2,
-      "negative": 15,
-      "neutral": 27,
-      "languageIndex": -30.7,
+      "positive": 4,
+      "negative": 18,
+      "neutral": 31,
+      "languageIndex": -24.2,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 68.2,
+      "sourceConcentration": 73.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
-          "date": "2026-11-13T00:05:34Z",
+          "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
+          "date": "2026-11-13T19:55:01Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Peru Lifts Interest Rate for First Time in Nearly Four Years",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/peru-raises-interest-rates-for-first-time-in-nearly-four-years",
-          "date": "2026-11-12T23:04:02Z",
+          "title": "Nagel Says ‘Highly Probable’ That ECB Will Have to Act Again",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
+          "date": "2026-11-13T16:32:05Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-s-goolsbee-says-inflation-inching-into-tough-spot-video",
-          "date": "2026-11-12T19:36:20Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Copper prices slid to near four-month low amid fears of hike in U.S. interest rates, lower AI demand",
+          "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
+          "date": "2026-11-13T16:16:57Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -719,18 +725,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 22,
+      "items": 24,
       "publishers": 4,
       "positive": 0,
       "negative": 2,
-      "neutral": 20,
-      "languageIndex": -7.7,
+      "neutral": 22,
+      "languageIndex": -6.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 36.4,
+      "sourceConcentration": 33.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Democratic Senate leader Schumer set to face leadership challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T19:03:10Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
           "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
@@ -741,12 +753,6 @@
           "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
           "date": "2026-11-13T02:12:31Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Bets Shaky Iran Status Quo Will Hold After Midterm Loss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-bets-shaky-iran-status-quo-will-hold-after-midterm-loss",
-          "date": "2026-11-12T21:21:11Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -762,18 +768,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 5,
+      "items": 6,
       "publishers": 2,
       "positive": 0,
-      "negative": 3,
+      "negative": 4,
       "neutral": 2,
-      "languageIndex": -37.5,
+      "languageIndex": -40.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 80.0,
+      "sourceConcentration": 83.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+          "date": "2026-11-13T18:24:41Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
           "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
@@ -785,12 +797,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
           "date": "2026-11-11T14:53:13Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Ternium Says Mexico Steel Imports Need Strict Tariff Enforcement",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/ternium-says-mexico-steel-imports-need-strict-tariff-enforcement",
-          "date": "2026-11-11T01:43:19Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -801,6 +807,43 @@
       "confirmation": "Implemented change in tariff with company-level exposure",
       "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
       "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "sovereign_credit",
+      "title": "Sovereign credit",
+      "items": 2,
+      "publishers": 1,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
+          "date": "2026-11-13T16:04:20Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
+          "date": "2026-11-13T06:00:17Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
     },
     {
       "id": "credit_cds",
@@ -832,37 +875,6 @@
       "confirmation": "Public reported credit events corroborated by rating/spread series",
       "invalidation": "Coverage noise without measurable spread move",
       "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "sovereign_credit",
-      "title": "Sovereign credit",
-      "items": 1,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 1,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-          "date": "2026-11-13T06:00:17Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
     },
     {
       "id": "tech_credit",
@@ -922,15 +934,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 85
+      "stories": 103
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 61
+      "stories": 67
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 41
+      "stories": 47
     },
     {
       "publisher": "news.un.org",
@@ -938,7 +950,7 @@
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 6
+      "stories": 4
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -946,8 +958,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 9,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 10,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

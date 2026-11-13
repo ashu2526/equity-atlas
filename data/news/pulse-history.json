@@ -2,60 +2,67 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-13T08:30:20.096979Z",
+      "generatedAt": "2026-11-13T20:36:08.326911Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 205,
+        "items": 233,
         "publishers": 6,
-        "positive": 28,
-        "negative": 53,
-        "neutral": 124,
-        "languageIndex": -7.4,
+        "positive": 30,
+        "negative": 58,
+        "neutral": 145,
+        "languageIndex": -5.5,
         "label": "Mixed headline language",
-        "sourceConcentration": 41.5,
+        "sourceConcentration": 44.2,
         "coverageSufficient": true
       },
       "topics": [
         {
-          "id": "geopolitics",
-          "items": 52,
-          "publishers": 4,
-          "languageIndex": -36.7,
+          "id": "ai_rotation",
+          "items": 58,
+          "publishers": 3,
+          "languageIndex": -5.6,
           "attentionDeltaPct": null
         },
         {
-          "id": "ai_rotation",
-          "items": 50,
-          "publishers": 3,
-          "languageIndex": -4.4,
+          "id": "geopolitics",
+          "items": 56,
+          "publishers": 4,
+          "languageIndex": -35.2,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 44,
+          "items": 53,
           "publishers": 5,
-          "languageIndex": -30.7,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "elections_policy",
-          "items": 22,
-          "publishers": 4,
-          "languageIndex": -7.7,
+          "languageIndex": -24.2,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 22,
+          "items": 25,
           "publishers": 1,
-          "languageIndex": 36.4,
+          "languageIndex": 28.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "elections_policy",
+          "items": 24,
+          "publishers": 4,
+          "languageIndex": -6.7,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
-          "items": 16,
+          "items": 18,
           "publishers": 2,
-          "languageIndex": 53.3,
+          "languageIndex": 28.1,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "trade_policy",
+          "items": 6,
+          "publishers": 2,
+          "languageIndex": -40.0,
           "attentionDeltaPct": null
         },
         {
@@ -63,13 +70,6 @@
           "items": 5,
           "publishers": 3,
           "languageIndex": 0.0,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "trade_policy",
-          "items": 5,
-          "publishers": 2,
-          "languageIndex": -37.5,
           "attentionDeltaPct": null
         },
         {
@@ -94,6 +94,13 @@
           "attentionDeltaPct": null
         },
         {
+          "id": "sovereign_credit",
+          "items": 2,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
           "id": "credit_cds",
           "items": 1,
           "publishers": 1,
@@ -102,13 +109,6 @@
         },
         {
           "id": "tyre_inputs",
-          "items": 1,
-          "publishers": 1,
-          "languageIndex": 0.0,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "sovereign_credit",
           "items": 1,
           "publishers": 1,
           "languageIndex": 0.0,

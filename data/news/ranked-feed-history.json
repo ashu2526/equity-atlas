@@ -3,19 +3,19 @@
   "snapshots": [
     {
       "asOf": "2026-11-13",
-      "headlines": 205,
-      "clusters": 196,
+      "headlines": 233,
+      "clusters": 222,
       "topicCounts": {
         "credit_cds": 1,
-        "energy_shipping": 16,
-        "india_flows": 22,
-        "ai_rotation": 50,
+        "energy_shipping": 18,
+        "india_flows": 25,
+        "ai_rotation": 58,
+        "trade_policy": 6,
+        "inflation_rates": 53,
+        "elections_policy": 24,
+        "geopolitics": 56,
         "tech_credit": 1,
-        "elections_policy": 22,
-        "geopolitics": 52,
-        "inflation_rates": 44,
-        "trade_policy": 5,
-        "sovereign_credit": 1,
+        "sovereign_credit": 2,
         "defence_capex": 2,
         "healthcare": 4,
         "climate_agri": 5,
@@ -23,12 +23,13 @@
         "auto_consumer": 2
       },
       "geoMentions": {
-        "India": 30,
-        "Middle East": 23,
-        "Russia / Ukraine": 16,
-        "Europe": 10,
-        "United States": 32,
-        "China": 14
+        "India": 35,
+        "Middle East": 24,
+        "Russia / Ukraine": 19,
+        "Europe": 13,
+        "United States": 37,
+        "China": 14,
+        "Japan": 1
       }
     },
     {
