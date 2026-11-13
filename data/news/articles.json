@@ -1,12 +1,532 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-12T20:59:52.567727Z",
+  "updatedAt": "2026-11-13T08:30:20.096979Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "41cab3fceb1e1efa118e",
+      "title": "Hidary: Investors See Anthropic IPO as Key Bellwether",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/hidary-investors-see-anthropic-ipo-as-key-bellwether-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T08:17:22Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9e443b6d82a980b9c8f0",
+      "title": "Nvidia Replaces Huang as Lutnick Faces Scrutiny on China",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/daybreak-europe-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T07:53:43Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7ff652d4dc90f2f631cc",
+      "title": "Nvidia Names Kress Interim CEO After Huang Exit as Trump Cools on Iran Deal",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/horizons-middle-east-africa-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T07:35:24Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2c2333fbac409d0c2112",
+      "title": "Nvidia Crisis to Bring More US Chip Regulation, Says DWS's Ronner",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/ronner-says-nvidia-turmoil-so-far-appears-idiosyncratic-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T07:15:41Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bf0aadb64396428bc1f6",
+      "title": "Traders Digest Jensen Huang's Exit from Nvidia",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-china-show-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T06:40:22Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cc3b6dfe9accc64a501c",
+      "title": "Billionaire KoGuan Vows Not to Buy Nvidia Stock After Huang Exit",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/billionaire-koguan-vows-not-to-buy-nvidia-stock-as-huang-quits",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T06:30:43Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "242da0c0776f790258b4",
+      "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T06:00:17Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "sovereign_credit"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "282c8e1175ea81c6a06d",
+      "title": "Rupee rises 7 paise to 94.05 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/Industry/rupee-rises-7-paise-to-9405-against-us-dollar-in-early-trade/article71696547.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T05:54:43Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f39446b25d896bc15092",
+      "title": "Russia’s Economy Slows as Ukrainian Attacks Damage Industry",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/russia-s-economy-slows-as-ukrainian-attacks-damage-industry",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T05:15:00Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6fef369eb9d2199c468d",
+      "title": "Markets fall in early trade after three-day rally; Sensex tumbles 460 points",
+      "url": "https://www.thehindu.com/business/markets/markets-fall-in-early-trade-after-three-day-rally/article71696558.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T04:56:15Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9ce0f2e630f14ebd4f02",
+      "title": "Jensen Huang Saga Tests AI Trade Ahead of Anthropic IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-asia-trade-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T04:41:48Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dab1f420e3b502e0d2e4",
+      "title": "Foreign Businesses Putin Seized Help Fund Russia’s War Machine",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/foreign-businesses-putin-seized-help-fund-russia-s-war-machine",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T04:00:00Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ea7faee116327d54f8f0",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T03:57:01Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6e9f50d72e0603e5804e",
+      "title": "Copper Set for Worst Run in Two Years on Nvidia and Rates Unease",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/copper-climbs-from-three-month-low-after-rough-week-for-metals",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T03:44:36Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "88888e1752b7bb72d2c9",
+      "title": "How Huang’s Exit Could Lead to Nvidia Slowdown",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/how-huang-s-exit-could-lead-to-nvidia-slowdown-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T02:37:30Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a1c8316ed734859f1c62",
+      "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T02:12:31Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "af7b2cf6eba9b4c23983",
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T02:01:35Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "506a922cd99af3f252bf",
+      "title": "Nvidia Crisis Prompts Scrutiny of Lutnick’s Role in Chip Policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-crisis-prompts-scrutiny-of-lutnick-s-role-in-chip-policy",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T01:23:20Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7e9551deed1b02fac035",
+      "title": "Nvidia Fallout Looms Over Trump-Xi Meeting",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-late-edition-11-12-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T00:21:10Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0b8313c2139d12a71b79",
+      "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T00:20:24Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6ddd38789c004d78ea60",
+      "title": "China Internet Stock Gains Face Reality Check in Nvidia Fallout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/china-internet-stock-gains-face-reality-check-in-nvidia-fallout",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T00:07:02Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "02c70d498a135bac88c8",
+      "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T00:05:34Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a4d3d3284d104a811d5b",
+      "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T23:46:08Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2585d4d0fee0a2cac066",
+      "title": "Rep. Meeks Says Questions Remain Over Nvidia Warning",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/rep-meeks-says-questions-remain-over-nvidia-warning-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T23:40:17Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ecd185d80c0498a0d23a",
+      "title": "Peru Lifts Interest Rate for First Time in Nearly Four Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/peru-raises-interest-rates-for-first-time-in-nearly-four-years",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T23:04:02Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6488d894062848daf7bf",
+      "title": "Stocks Slip as Nvidia Jitters Linger, Bonds Slump: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T22:17:13Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5f169fa3e6dd43da4876",
+      "title": "Trump Bets Shaky Iran Status Quo Will Hold After Midterm Loss",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-bets-shaky-iran-status-quo-will-hold-after-midterm-loss",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T21:21:11Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "elections_policy",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "8c4de1508a96a507619e",
       "title": "Jensen Huang has resigned, what's next for Nvidia?",
@@ -499,6 +1019,26 @@
       ],
       "feedSources": [
         "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "df288b099f8e8d971d6f",
+      "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-12T12:00:00Z",
+      "discovered": "2026-11-13T08:30:20.096979Z",
+      "topics": [
+        "geopolitics",
+        "healthcare"
+      ],
+      "feedSources": [
+        "UN News"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
