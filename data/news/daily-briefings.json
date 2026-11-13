@@ -3,6 +3,469 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-13-pm",
+      "asOf": "2026-11-13",
+      "createdAt": "2026-11-13T14:00:27Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published research — provisional; 19:00 IST source collectors not yet reflected in repository; 13 Nov NSE FII/DII official gross transactions, NSDL fortnightly sector allocations, CFTC/TIC latest positioning and 13 Nov sector/company OHLCV not independently retrieved",
+      "marketSession": "PM — Friday 13 Nov 2026 India post-close; global information through approximately 19:30 IST",
+      "coverageWindow": {
+        "start": "2026-10-30",
+        "end": "2026-11-13T19:30:27+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-13T08:30:20.096979Z",
+      "headline": "India's inflation-and-oil repricing interrupts bank-led rally; European fund inflows surge while Hormuz shipping risk and AI earnings diverge",
+      "executiveSummary": "New since the 13 Nov AM report: Reuters confirms NIFTY 50 fell 0.61% to 25,144.3 on 13 Nov, the rupee weakened near ₹94.24/USD and the 10-year Indian yield rose to about 7.31%; the October 6.09% CPI is yesterday's known release, not a fresh print. New global capital-flow evidence: LSEG Lipper reports $50.99bn net global equity-fund subscriptions for week ended 11 Nov, of which Europe $35.13bn, US $6.6bn, Asia $6.15bn and emerging-market equities $4.65bn. This is fund subscription evidence, NOT India-specific NSE sector purchases. IEA projects Q4 oil surplus of 1.7m bpd while Iranian authorities reported a new LNG tanker mine incident in Hormuz; the latter requires independent verification. Cerebras unexpectedly profitable with raised guidance challenges a blanket AI capex collapse narrative. Sector rotation and Polymarket data remain as-of 12 Nov and 13 Nov 08:28 UTC, respectively, because evening refresh was not yet observed. Last stored 12 Nov sector snapshot shows private banks +7.10pp and pharma +3.75pp vs NIFTY 50 over three months, versus energy -7.06pp and auto -7.65pp; no 13 Nov technical alert asserted. 13 Nov official NSE FII/DII buy/sell/net cannot be verified and is unavailable.",
+      "regime": {
+        "label": "Mixed / near-term inflation, oil and rate pressure with divergent global fund demand",
+        "change": "Shift from morning's AI governance shock and bank-price leadership to a confirmed 13 Nov Indian equity drawdown, rupee/yield pressure, newly reported European-led fund inflows and contrasting IEA surplus versus Hormuz shipping hazard.",
+        "confidence": "Moderate on Reuters/LSEG fund-flow reporting, 13 Nov index close and official October CPI; low on sector institutional positioning, issuer-level technical changes and unverified shipping incident",
+        "marketConfirmation": [
+          "13 Nov Reuters: NIFTY 50 25,144.3 (-0.61%), Sensex 81,592.45 (-0.39%).",
+          "13 Nov Reuters: INR about 94.24/USD, Indian 10-year yield ~7.31%.",
+          "12 Nov latest stored NSE index data: private banks +7.10pp, pharma +3.75pp vs NIFTY 50 over three months; NOT 13 Nov price returns.",
+          "LSEG Lipper via Reuters: global equity fund net subscriptions $50.99bn, week to 11 Nov."
+        ],
+        "contradictions": [
+          "Europe leads weekly fund subscriptions, not India; no country-specific India sector flow confirmation.",
+          "IEA oil surplus forecast conflicts with physical shipping disruption risk; both may coexist.",
+          "Positive Cerebras guidance conflicts with simplistic AI-capex collapse thesis.",
+          "12 Nov banking price leadership did not prevent 13 Nov bank-led decline."
+        ],
+        "missingSignals": [
+          "Official NSE 13 Nov FII/DII gross buy/sell/net; third-party re-used 11 Nov figures misdated as 13 Nov must be rejected.",
+          "Fresh NSDL fortnightly FPI sector purchases and holdings/AUC with correct dates.",
+          "Primary AMFI October net equity subscription table; AMFI AUM ₹83,38,858 crore is stock of assets, not flow.",
+          "Fresh CFTC weekly speculative contracts, US Treasury TIC country flows, issuer CDS spread quotes.",
+          "19:00 IST collector completion and 13 Nov NSE sector/company closing OHLCV; last snapshots 12 Nov.",
+          "Independent maritime incident verification and new issuer filings."
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,144.3 (-0.61%)",
+          "period": "13 Nov 2026 cash close",
+          "dataClass": "Reported equity index closing price",
+          "source": "https://www.reuters.com/world/india/indian-shares-likely-open-flat-oil-surge-counters-strong-foreign-inflows-2026-11-13/"
+        },
+        {
+          "name": "India October CPI",
+          "value": "6.09% YoY; food 8.94%",
+          "period": "October 2026; official release 12 Nov",
+          "dataClass": "Official consumer-price statistics",
+          "source": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416"
+        },
+        {
+          "name": "INR/USD and India 10Y",
+          "value": "₹94.24/USD; ~7.31% 10Y",
+          "period": "13 Nov 2026 Reuters observation",
+          "dataClass": "Reported FX and sovereign yield, not flow",
+          "source": "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+        },
+        {
+          "name": "Global equity-fund net inflow",
+          "value": "US$50.99bn",
+          "period": "Week ended 11 Nov 2026",
+          "dataClass": "LSEG Lipper fund subscriptions via Reuters",
+          "source": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+        },
+        {
+          "name": "Europe / US / Asia equity-fund subscriptions",
+          "value": "US$35.13bn / $6.6bn / $6.15bn",
+          "period": "Week ended 11 Nov 2026",
+          "dataClass": "Regional fund net subscriptions; not equity trades",
+          "source": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+        },
+        {
+          "name": "Emerging-market equity fund subscriptions",
+          "value": "US$4.65bn",
+          "period": "Week ended 11 Nov 2026",
+          "dataClass": "Fund subscriptions; no India split",
+          "source": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+        },
+        {
+          "name": "IEA expected Q4 oil supply surplus",
+          "value": "1.7m barrels/day",
+          "period": "Q4 2026 forecast published 13 Nov",
+          "dataClass": "Agency forecast, not realized flow",
+          "source": "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/"
+        },
+        {
+          "name": "Private bank vs NIFTY 50 3m",
+          "value": "+7.10 percentage points (absolute +10.80%)",
+          "period": "Through 12 Nov 2026",
+          "dataClass": "Index price relative return, not institutional allocation",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Pharma vs NIFTY 50 3m",
+          "value": "+3.75 percentage points (absolute +7.45%)",
+          "period": "Through 12 Nov 2026",
+          "dataClass": "Index price relative return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Energy vs NIFTY 50 3m",
+          "value": "-7.06 percentage points (absolute -3.36%)",
+          "period": "Through 12 Nov 2026",
+          "dataClass": "Index price relative return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Fed Dec +25bp Polymarket YES",
+          "value": "88.5¢; +1.0pp vs preceding stored snapshot; 24h betting volume $1,016,776.65; liquidity $835,865.33",
+          "period": "13 Nov 2026 08:28:38 UTC",
+          "dataClass": "Prediction-market contract quote, not objective probability or institutional equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "India official FII/DII 13 Nov",
+          "value": "Unavailable: gross buy/sell/net not independently retrieved",
+          "period": "13 Nov 2026",
+          "dataClass": "Missing primary cash transaction evidence",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        },
+        {
+          "name": "October mutual fund AUM",
+          "value": "₹83,38,858 crore",
+          "period": "31 Oct 2026",
+          "dataClass": "AMFI AUM stock; NOT net equity subscriptions",
+          "source": "https://www.amfiindia.com/articles/indian-mutual"
+        }
+      ],
+      "stories": [
+        {
+          "id": "20261113pm-india-inflation-equities",
+          "rank": 1,
+          "importance": "High",
+          "theme": "India inflation and equity repricing",
+          "geography": "India",
+          "title": "Indian stocks retreat as CPI and oil reprice rate-sensitive sectors",
+          "whatHappened": "13 Nov 2026: Reuters reports NIFTY 50 fell 0.61% to 25,144.3 and Sensex 0.39% to 81,592.45. October CPI released 12 Nov was 6.09% year-on-year (food 8.94%).",
+          "whyItMatters": [
+            "Inflation above the upper monthly tolerance level can lift bond yields and compress equity duration multiples; one monthly breach is not the statutory multi-quarter failure test.",
+            "Higher funding and food costs may erode household discretionary demand and NBFC lending spreads."
+          ],
+          "smartMoney": "Reuters describes strong November foreign investment but latest 13 Nov NSE provisional gross FII/DII buy/sell/net could not be independently read.",
+          "direct": "Banks, NBFCs, realty, autos and consumer discretionary",
+          "proxies": "Vehicle finance, building materials, brokerages, staples pricing power",
+          "whatCouldChange": "RBI policy expectations, 10Y yields, credit spreads, bank NIMs and loan demand; next CPI and actual MPC decision",
+          "caution": "The inflation release is not new today; the fresh evidence is 13 Nov price response. Avoid causal certainty from one session.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-likely-open-flat-oil-surge-counters-strong-foreign-inflows-2026-11-13/",
+            "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-global-funds",
+          "rank": 2,
+          "importance": "High",
+          "theme": "Cross-border fund subscriptions",
+          "geography": "Europe, US, Asia, emerging markets",
+          "title": "Europe dominates newly reported global equity fund inflows",
+          "whatHappened": "13 Nov Reuters/LSEG Lipper: global equity funds received $50.99bn in week ending 11 Nov; Europe $35.13bn, US $6.6bn, Asia $6.15bn, EM equity $4.65bn; global bond funds lost $0.508bn.",
+          "whyItMatters": [
+            "These are actual fund subscriptions/redemptions by region, not NSE cash trades or a country-specific India allocation.",
+            "Regional imbalance can affect relative valuations and dollar liquidity; Europe is receiving more subscriptions than US/Asia in this reporting window."
+          ],
+          "smartMoney": "Measured weekly fund subscriptions by region (LSEG Lipper via Reuters); no issuer holdings or country-specific India purchases confirmed.",
+          "direct": "European equities and global asset allocators",
+          "proxies": "India large caps through relative EM allocations; brokers and cross-border custodians",
+          "whatCouldChange": "Next Lipper/EPFR country detail, persistence of flows, Europe earnings and EUR/USD",
+          "caution": "No India-specific flow can be inferred from the Asia or EM aggregate; fund flows differ from underlying stock trades.",
+          "sources": [
+            "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-hormuz",
+          "rank": 3,
+          "importance": "High",
+          "theme": "Geopolitics and physical shipping",
+          "geography": "Iran, Gulf, India",
+          "title": "Reported Hormuz LNG tanker explosion complicates oil-surplus narrative",
+          "whatHappened": "13 Nov Reuters: Iranian authorities reported a mine explosion involving an LNG tanker in Hormuz; independent vessel/damage verification incomplete. Separately Reuters reports an IEA expectation of Q4 oil supply surplus.",
+          "whyItMatters": [
+            "Even with a global oil surplus, local LNG, freight, war-risk insurance and tanker rerouting can push up landed import costs.",
+            "India's refiners, fertiliser makers, airlines and gas-dependent industries face asymmetric supply-chain and currency risk."
+          ],
+          "smartMoney": "No verified equity-sector buying; physical tanker incident reported by Iranian officials.",
+          "direct": "LNG importers, OMCs, airlines, chemicals, fertilisers",
+          "proxies": "Tyres, paints, power generation, port logistics and insurers",
+          "whatCouldChange": "Verified AIS/vessel incident, LNG spot spreads, Brent, war-risk premiums and shipping transit volumes",
+          "caution": "Iranian claim is not independently confirmed; IEA projected surplus is not guaranteed realized supply. No CDS quote inferred.",
+          "sources": [
+            "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
+            "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-iea-oil",
+          "rank": 4,
+          "importance": "High",
+          "theme": "Commodities and supply balance",
+          "geography": "Global energy, India",
+          "title": "IEA sees Q4 oil supply surplus while security risks remain",
+          "whatHappened": "13 Nov Reuters citing IEA: expected Q4 global oil supply around 105m barrels/day, about 1.7m bpd above demand; OPEC+ October output approximately 41.23m bpd; Brent near $95–96 during the session.",
+          "whyItMatters": [
+            "A sustained supply cushion may relieve input inflation and India's oil import bill despite a still-elevated absolute crude price.",
+            "The same surplus can pressure upstream earnings while benefiting downstream consumers only when product prices, FX and freight transmit."
+          ],
+          "smartMoney": "Not measured at issuer/sector transaction level; do not infer purchases from price action.",
+          "direct": "Upstream energy producers, OMCs, oil-sensitive manufacturers",
+          "proxies": "Airlines, paints, tyres, chemicals, logistics",
+          "whatCouldChange": "Physical inventory builds, landed crude costs, refining margins, pump prices and gross-margin results",
+          "caution": "Forecasted balances are not observed inventories; Hormuz mine and blockade risks can dominate near-term prices.",
+          "sources": [
+            "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/",
+            "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-fx-yields",
+          "rank": 5,
+          "importance": "High",
+          "theme": "FX, rates and trade balance",
+          "geography": "India, US",
+          "title": "Rupee weakens and Indian yields rise despite reported November foreign buying",
+          "whatHappened": "13 Nov Reuters: INR around 94.24/USD, 10-year Indian sovereign yield around 7.31%, up over six basis points; US yields and oil rose; October India merchandise trade deficit reportedly widened.",
+          "whyItMatters": [
+            "Higher imported-energy and dollar liabilities can pressure current-account and issuer cash flows even when foreign equity purchases are positive.",
+            "Rising sovereign yields reprice bank treasury books, NBFC funding and long-duration equity valuations."
+          ],
+          "smartMoney": "Reuters reports November foreign equity buying >$8bn and debt buying ~$0.8bn, not an official daily NSE gross table.",
+          "direct": "Importers, dollar-debt issuers, banks, NBFCs",
+          "proxies": "IT exporters and pharma with net dollar revenue; hedging providers",
+          "whatCouldChange": "RBI reserves release, USD/INR official reference, sovereign yield, import bill and forward hedging",
+          "caution": "FX figures differ across Reuters and some domestic closing reports; use Reuters observation and mark quote convention/timing; no causal attribution of RBI trades.",
+          "sources": [
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-ai-cerebras",
+          "rank": 6,
+          "importance": "Medium-high",
+          "theme": "AI earnings and capex",
+          "geography": "United States, Taiwan, India",
+          "title": "Cerebras guidance raises challenge to blanket AI-spending slowdown thesis",
+          "whatHappened": "13 Nov Reuters: Cerebras reported an unexpected profit and raised annual revenue guidance; shares rose more than 14% premarket after Nvidia leadership disruption news.",
+          "whyItMatters": [
+            "A positive AI-chip supplier earnings surprise demonstrates that demand may be shifting among vendors rather than disappearing.",
+            "Indian grid equipment, cooling, data-centre developers and IT services benefit only if capex translates into paid orders, utilization and cash collections."
+          ],
+          "smartMoney": "Not measured at issuer/sector transaction level; do not infer purchases from price action.",
+          "direct": "Semiconductors, AI compute infrastructure",
+          "proxies": "Power transmission, cooling, electrical equipment, data-centre REITs, IT services",
+          "whatCouldChange": "Confirmed full-year guidance, hyperscaler capex, backlog conversion, receivables and energy capacity",
+          "caution": "Premarket move is not closing price; no assumption that all AI infrastructure vendors benefit or that Nvidia orders were cancelled.",
+          "sources": [
+            "https://www.reuters.com/technology/cerebras-shares-surge-profit-surprise-forecast-raise-ease-ai-spending-worries-2026-11-13/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-iifl",
+          "rank": 7,
+          "importance": "Medium-high",
+          "theme": "Verified corporate capital transaction",
+          "geography": "India, US, Canada",
+          "title": "Blackstone IIFL capital commitment and Fairfax exit possibility are distinct flows",
+          "whatHappened": "Reuters 10–11 Nov: Blackstone agreed to invest ₹50bn for approximately 16% in IIFL Finance through convertible securities; Fairfax was reported considering sale of nearly 11% holding, not a completed disposal.",
+          "whyItMatters": [
+            "Primary capital can improve lender capital adequacy and lending capacity; company indicated potential capital adequacy near 30% versus 17%.",
+            "A possible secondary stake sale could offset near-term stock demand without reversing the benefit of new capital."
+          ],
+          "smartMoney": "Company-specific announced capital commitment ₹50bn; no verified completed Fairfax sale.",
+          "direct": "IIFL Finance secured and gold lending",
+          "proxies": "NBFC capital markets, co-lending banks, credit rating-sensitive funding franchises",
+          "whatCouldChange": "Exchange allotment filing, regulatory approvals, actual Fairfax block transaction, GNPA and funding spread",
+          "caution": "Blackstone investment is announced/committed, not necessarily fully settled cash purchase; Fairfax disposal is reported intention, not executed transaction.",
+          "sources": [
+            "https://www.reuters.com/world/india/blackstone-buy-about-16-stake-indias-iifl-finance-535-million-2026-11-10/",
+            "https://www.reuters.com/world/india/canadas-fairfax-likely-exit-indias-iifl-finance-sources-say-2026-11-11/"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        },
+        {
+          "id": "20261113pm-policy-fed",
+          "rank": 8,
+          "importance": "Medium-high",
+          "theme": "Central banks, US policy and event markets",
+          "geography": "US, India",
+          "title": "US yields and Fed-tightening bets challenge emerging-market duration",
+          "whatHappened": "13 Nov Reuters: dollar index approached 103.19 and US bond yields rose amid hawkish Fed expectations. Repo Polymarket snapshot 13 Nov 08:28 UTC: exact December Fed +25bp YES contract 88.5¢, +1 percentage point versus prior stored observation, $1.017m 24h betting volume and $835,865 liquidity.",
+          "whyItMatters": [
+            "Higher US yields can raise the hurdle rate for emerging-market equities and increase INR hedging costs.",
+            "Indian rate-sensitive businesses face both domestic CPI and global discount-rate pressure; realized RBI and Fed decisions remain unknown."
+          ],
+          "smartMoney": "Not measured as equity flow; event-market quoted contract price only.",
+          "direct": "Indian banks, NBFCs, realty, long-duration equities",
+          "proxies": "Exporters, duration-sensitive infrastructure and utilities",
+          "whatCouldChange": "FOMC decision, Treasury curve, USD/INR, primary Fed communication and actual Indian FPI turnover",
+          "caution": "Polymarket contract YES quote is not objective probability; its betting volume is not equity flow. Quoted market snapshot predates 19:30 IST and is not a fresh evening price.",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/",
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+          ],
+          "evidenceType": "Dated Reuters reporting with interpretation separated"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "bucket": "Accelerating price leadership, fundamental confirmation needed",
+          "evidence": "12 Nov 3m +10.80%, +7.10pp vs NIFTY 50; 1m +10.55%, 7d +5.68%; 13 Nov financials sold off",
+          "transmission": "Loan growth and NIM/credit-cost revisions",
+          "proxies": "Brokers, wealth managers, secured NBFCs",
+          "counterevidence": "October CPI and higher sovereign yields; 13 Nov weakness",
+          "nextData": "Bank NIMs, deposits, 13 Nov sector close, NSDL allocations",
+          "confidence": "Moderate on 12 Nov price, low on positioning"
+        },
+        {
+          "sector": "PSU banks",
+          "bucket": "Accelerating into a rate headwind",
+          "evidence": "12 Nov 3m +5.88%, +2.18pp relative; 1m +14.23%; 7d +8.69%",
+          "transmission": "Credit costs, treasury marks and loan yields",
+          "proxies": "Bank technology and corporate credit",
+          "counterevidence": "Rising yields may impair bond-book MTM",
+          "nextData": "13 Nov close, yields, credit-cost disclosures",
+          "confidence": "Moderate"
+        },
+        {
+          "sector": "Pharma and healthcare",
+          "bucket": "Accelerating but stock-specific",
+          "evidence": "12 Nov pharma 3m +7.45%, +3.75pp relative; 1m +9.97%; healthcare +0.63pp relative",
+          "transmission": "US pricing, product launches and hospital occupancy",
+          "proxies": "CDMOs, diagnostics, medical devices",
+          "counterevidence": "FX and US pricing/reimbursement",
+          "nextData": "Issuer earnings, USFDA filings, volumes",
+          "confidence": "Moderate"
+        },
+        {
+          "sector": "Oil importers, paints and tyres",
+          "bucket": "Not yet proven margin tailwind",
+          "evidence": "IEA projects Q4 surplus; Hormuz incidents remain",
+          "transmission": "Landed energy/freight cost to gross margin",
+          "proxies": "Airlines, chemicals, logistics",
+          "counterevidence": "Brent around $95-96 and INR weakness",
+          "nextData": "Landed crude/LNG, freight and quarterly margins",
+          "confidence": "Low"
+        },
+        {
+          "sector": "IT services and AI infrastructure",
+          "bucket": "Cooling in Indian price, demand not uniformly cooling",
+          "evidence": "Reuters says NIFTY IT -3.2% week to 13 Nov; Cerebras earnings positive",
+          "transmission": "Client budgets, AI inference capex and order conversion",
+          "proxies": "Power T&D, data-centre cooling",
+          "counterevidence": "AI chip guidance improving; vendor divergence",
+          "nextData": "Hyperscaler capex, Indian IT deal wins, pricing",
+          "confidence": "Moderate on price, low on order transmission"
+        },
+        {
+          "sector": "Autos and consumer durables",
+          "bucket": "Cooling",
+          "evidence": "12 Nov auto 3m -3.95%, -7.65pp vs NIFTY 50; consumer durables -7.76pp",
+          "transmission": "Financing costs and household purchasing power",
+          "proxies": "Tyres, components, vehicle finance",
+          "counterevidence": "Some OEMs may retain strong registrations",
+          "nextData": "VAHAN retail, dealer stocks, OEM margins",
+          "confidence": "Moderate"
+        },
+        {
+          "sector": "FMCG",
+          "bucket": "Cooling in price, inflation impact mixed",
+          "evidence": "12 Nov 3m -4.09%, -7.79pp relative",
+          "transmission": "Input inflation and price elasticity",
+          "proxies": "Packaging, distributors, agri supply chain",
+          "counterevidence": "Defensive demand and price increases",
+          "nextData": "Food CPI, volume growth and gross margins",
+          "confidence": "Moderate"
+        },
+        {
+          "sector": "NBFC gold/secured lending",
+          "bucket": "Not yet proven broad re-rating",
+          "evidence": "IIFL announced ₹50bn primary capital from Blackstone; possible Fairfax stake exit not completed",
+          "transmission": "Capital adequacy, borrowing cost, loan book growth",
+          "proxies": "Co-lending banks, gold-loan service providers",
+          "counterevidence": "Funding cost and credit cycle risk",
+          "nextData": "IIFL allotment/ownership filing, quarterly GNPA, 13 Nov closes",
+          "confidence": "Moderate on deal announcement, low on sector extrapolation"
+        }
+      ],
+      "cooling": [
+        "Indian IT index reportedly fell 3.2% during week ended 13 Nov; this is price weakness, not a measured withdrawal of foreign capital.",
+        "Autos, FMCG and consumer durables lag NIFTY 50 over three months through 12 Nov; price underperformance is not a confirmed earnings contraction.",
+        "Indian bank-led index rally paused on 13 Nov after higher CPI; prior 12 Nov leadership remains a historical comparison, not an active close."
+      ],
+      "risks": [
+        "Another verified Hormuz vessel incident or rise in war-risk insurance despite IEA surplus projections.",
+        "Indian 10-year yield rising materially beyond ~7.31% with sticky CPI and bank NIM/treasury exposure.",
+        "INR weakness and widening merchandise trade deficit despite reported foreign equity buying.",
+        "Reversal of foreign equity inflows; obtain official NSE gross table and NSDL fortnightly sector transactions.",
+        "US Treasury yield spike or unexpectedly restrictive Fed decision; betting-market quotes are not official policy.",
+        "AI hyperscaler guidance cuts or supplier receivable stress despite Cerebras positive results.",
+        "Unconfirmed secondary stake sale pressure in IIFL and financing/credit-quality deterioration."
+      ],
+      "whatChanged": [
+        "13 Nov Indian close now confirms a -0.61% NIFTY session versus 13 Nov AM pre-open.",
+        "Reuters/LSEG Lipper provides NEW geographically segmented actual weekly fund subscription figures: Europe $35.13bn, US $6.6bn, Asia $6.15bn.",
+        "IEA Q4 oil surplus forecast and reported Hormuz LNG mine incident introduce conflicting supply versus transit signals.",
+        "Cerebras positive earnings and guidance counterbalance the previous Nvidia succession shock.",
+        "13 Nov Reuters rupee/yield observations add macro price confirmation, but new 13 Nov sector/stock OHLCV and official cash-flow tables remain missing.",
+        "Sector leadership and priced event-risk: last 12 Nov private banks +7.10pp and pharma +3.75pp relative over 3m, while energy -7.06pp; Polymarket December Fed +25bp YES 88.5¢ as-of 08:28 UTC, +1pp against stored prior snapshot, not a probability."
+      ],
+      "tomorrowChecklist": [
+        "Next trading session: compare NIFTY, bank, IT and energy official closes with Friday's decline; do not treat weekend as trading session.",
+        "Retrieve NSE 13 Nov FII/DII gross buy/sell/net and reconcile with NSDL settlement methodology; flag third-party date mismatches.",
+        "Check 19:00 source job outputs and exact generatedAt; rerun technical 20/55-session alerts only after complete 13 Nov OHLCV.",
+        "Check NSDL fortnightly sector FPI transaction data, separate from AUC; primary AMFI October equity subscriptions, separate from AUM.",
+        "Verify IEA full oil market report and independently confirm vessel incident, Brent, LNG spot and shipping insurance.",
+        "Compare next Lipper/EPFR country breakdown, CFTC positioning and Treasury TIC vintage; do not map regional flows to India.",
+        "Monitor RBI/US Fed policy releases, Indian bond yields, INR and credit spreads; do not invent CDS marks.",
+        "Verify Cerebras earnings release and IIFL exchange capital issuance before treating reported transactions as settled."
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-shares-likely-open-flat-oil-surge-counters-strong-foreign-inflows-2026-11-13/",
+        "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+        "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/",
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416",
+        "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/",
+        "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
+        "https://www.reuters.com/world/india/blackstone-buy-about-16-stake-indias-iifl-finance-535-million-2026-11-10/",
+        "https://www.reuters.com/technology/cerebras-shares-surge-profit-surprise-forecast-raise-ease-ai-spending-worries-2026-11-13/",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/",
+        "https://www.amfiindia.com/articles/indian-mutual",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://ticdata.treasury.gov/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://www.fpi.nsdl.co.in/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.reuters.com/world/india/canadas-fairfax-likely-exit-indias-iifl-finance-sources-say-2026-11-11/"
+      ],
+      "limitations": [
+        "This is an evening report despite the older automation instruction calling every run a morning report; the AM record is preserved separately.",
+        "The latest RSS scan is 2026-11-13T08:30:20Z (14:00 IST), 15/15 feeds successful; RSS headline clusters are not independent full-text fact checks.",
+        "Latest sector and company OHLCV as-of 12 Nov (collector generated 2026-11-13T08:28Z), not 13 Nov; do not repeat unchanged SBIN/HDFCBANK mechanical alerts.",
+        "Latest Polymarket data as-of 2026-11-13T08:28:38Z; 19:00 refresh not present. Event price is a quote, not objective probability; betting volume is not stock flow.",
+        "NSE 13 Nov official gross FII/DII, NSDL sector data, CFTC and TIC numeric series unavailable; no invented values.",
+        "A third-party 13 Nov report appears to recycle 11 Nov FII/DII net ₹12,563.33cr / -₹8,434.53cr and conflicts with Reuters 13 Nov NIFTY close; excluded as unreliable.",
+        "No independently verified issuer CDS levels, so no issuer CDS pricing claim.",
+        "Reuters-reported ship incident is attributed to Iranian authorities, not independently verified."
+      ]
+    },
+    {
       "id": "2026-11-13-am",
       "asOf": "2026-11-13",
       "createdAt": "2026-11-13T01:50:24Z",
