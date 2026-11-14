@@ -1,12 +1,221 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-13T20:36:08.326911Z",
+  "updatedAt": "2026-11-14T07:51:51.254275Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "d6d7f4c154f2335720c9",
+      "title": "Blackstone’s AirTrunk Advances $11 Billion India Data Center Bet",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/blackstone-s-airtrunk-advances-11-billion-india-data-center-bet",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T06:08:44Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7a0f2804685f3a772194",
+      "title": "Tata Motors Passenger Vehicles reports Q2 net loss of ₹5,531 crore",
+      "url": "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T04:18:11Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cefb442920cd08b7dcbc",
+      "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T01:31:24Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "aaf74065bc48b2f0a4a8",
+      "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T00:29:03Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "74b55e8c260c6d4614d8",
+      "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T00:00:00Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a42ac41ae5384a9f60ee",
+      "title": "Nvidia’s Board CEO Hunt, Stocks Finish Week Higher, Retail in Focus",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T23:48:58Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ce97a4956c73eb8515b8",
+      "title": "Bloomberg Businessweek Daily Podcast: Jensen’s Nvidia Departure",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/businessweek-daily-podcast-jensen-s-nvidia-departure-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T23:39:32Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bc7743e4e6b5d959848c",
+      "title": "Nvidia’s Board Failed Jensen Huang: Randall Peterson",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/nvidia-s-board-failed-jensen-huang-randall-peterson-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T23:20:08Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "80ecb5572a4966e88414",
+      "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T22:33:48Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b73c774bffc67f3037bb",
+      "title": "Three Issues Where Congress Could Strike a Deal Next Year",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T21:35:44Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "659272299b89b3a0066a",
+      "title": "Deciphering Nvidia Noise, US Retirement Gets C+, Anthropic IPO Ahead",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-money-11-13-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T21:27:39Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "535f87f91e0ed5817563",
       "title": "Lutnick Under Fire in Nvidia Crisis",
@@ -508,6 +717,44 @@
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3446f253b8be783b3dbf",
+      "title": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168804",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:00:00Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "103108477fca8c37757a",
+      "title": "‘Lives are at stake’: Humanitarians call for swift entry of winter supplies in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168799",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-13T12:00:00Z",
+      "discovered": "2026-11-14T07:51:51.254275Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -1058,8 +1305,7 @@
       "published": "2026-11-12T22:17:13Z",
       "discovered": "2026-11-13T08:30:20.096979Z",
       "topics": [
-        "ai_rotation",
-        "inflation_rates"
+        "ai_rotation"
       ],
       "feedSources": [
         "Bloomberg Markets"

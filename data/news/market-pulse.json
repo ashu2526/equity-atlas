@@ -1,56 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T20:36:08.326911Z",
+  "generatedAt": "2026-11-14T07:51:51.254275Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-10-30",
-    "end": "2026-11-13",
+    "start": "2026-10-31",
+    "end": "2026-11-14",
     "days": 14
   },
   "overall": {
-    "items": 233,
+    "items": 246,
     "publishers": 6,
-    "positive": 30,
-    "negative": 58,
-    "neutral": 145,
-    "languageIndex": -5.5,
+    "positive": 31,
+    "negative": 59,
+    "neutral": 156,
+    "languageIndex": -4.5,
     "label": "Mixed headline language",
-    "sourceConcentration": 44.2,
+    "sourceConcentration": 45.9,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 58,
+      "items": 63,
       "publishers": 3,
       "positive": 5,
       "negative": 11,
-      "neutral": 42,
-      "languageIndex": -5.6,
+      "neutral": 47,
+      "languageIndex": -4.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 62.1,
+      "sourceConcentration": 65.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Lutnick Under Fire in Nvidia Crisis",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-early-edition-11-13-2026-video",
-          "date": "2026-11-13T19:56:03Z",
+          "title": "Blackstone’s AirTrunk Advances $11 Billion India Data Center Bet",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/blackstone-s-airtrunk-advances-11-billion-india-data-center-bet",
+          "date": "2026-11-14T06:08:44Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T19:53:57Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Nvidia’s Board CEO Hunt, Stocks Finish Week Higher, Retail in Focus",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-13-2026-video",
+          "date": "2026-11-13T23:48:58Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Customers Buying NVIDIA Dip: Guild",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/customers-buying-nvidia-dip-guild-video",
-          "date": "2026-11-13T18:32:08Z",
+          "title": "Bloomberg Businessweek Daily Podcast: Jensen’s Nvidia Departure",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-13/businessweek-daily-podcast-jensen-s-nvidia-departure-video",
+          "date": "2026-11-13T23:39:32Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,18 +66,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 56,
+      "items": 58,
       "publishers": 4,
       "positive": 3,
       "negative": 20,
-      "neutral": 33,
-      "languageIndex": -35.2,
+      "neutral": 35,
+      "languageIndex": -33.9,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 44.6,
+      "sourceConcentration": 43.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
+          "date": "2026-11-14T01:31:24Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
@@ -89,12 +95,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
           "date": "2026-11-13T16:50:48Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T16:40:31Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -122,6 +122,12 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
+          "date": "2026-11-14T00:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
           "date": "2026-11-13T19:55:01Z",
@@ -132,12 +138,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
           "date": "2026-11-13T16:32:05Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Copper prices slid to near four-month low amid fears of hike in U.S. interest rates, lower AI demand",
-          "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
-          "date": "2026-11-13T16:16:57Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -148,6 +148,49 @@
       "confirmation": "Inflation expectations fall, yields and policy signals ease",
       "invalidation": "Energy/food inflation accelerates",
       "hypothesisAsOf": "2026-10-23"
+    },
+    {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 25,
+      "publishers": 4,
+      "positive": 1,
+      "negative": 2,
+      "neutral": 22,
+      "languageIndex": -3.9,
+      "label": "Mixed headline language",
+      "sourceConcentration": 36.0,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Three Issues Where Congress Could Strike a Deal Next Year",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
+          "date": "2026-11-13T21:35:44Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Democratic Senate leader Schumer set to face leadership challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T19:03:10Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-13T03:57:01Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
+      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
+      "hypothesis": "Scenario uncertainty",
+      "potentialUpside": "Policy-backed order book after implementation",
+      "potentialDownside": "Reversal/delay and fiscal reprioritization",
+      "confirmation": "Official enacted measure and sector order/funding impact",
+      "invalidation": "Campaign rhetoric without enacted legislation",
+      "hypothesisAsOf": "2026-11-11"
     },
     {
       "id": "india_flows",
@@ -193,80 +236,37 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "elections_policy",
-      "title": "Elections and policy",
-      "items": 24,
-      "publishers": 4,
-      "positive": 0,
-      "negative": 2,
-      "neutral": 22,
-      "languageIndex": -6.7,
-      "label": "Mixed headline language",
-      "sourceConcentration": 33.3,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Democratic Senate leader Schumer set to face leadership challenge",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T19:03:10Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T03:57:01Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
-          "date": "2026-11-13T02:12:31Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "hypothesis": "Scenario uncertainty",
-      "potentialUpside": "Policy-backed order book after implementation",
-      "potentialDownside": "Reversal/delay and fiscal reprioritization",
-      "confirmation": "Official enacted measure and sector order/funding impact",
-      "invalidation": "Campaign rhetoric without enacted legislation",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 18,
-      "publishers": 2,
+      "items": 21,
+      "publishers": 3,
       "positive": 6,
       "negative": 4,
-      "neutral": 8,
-      "languageIndex": 28.1,
+      "neutral": 11,
+      "languageIndex": 10.4,
       "label": "Insufficient observations",
-      "sourceConcentration": 88.9,
+      "sourceConcentration": 76.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
+          "date": "2026-11-14T00:29:03Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
+          "date": "2026-11-13T22:33:48Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Trump to Extend Shipping Waiver for Oil, Fertilizer for 90 Days",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days",
           "date": "2026-11-13T17:47:45Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Oil India on track for 4 MMT crude oil production this fiscal, officials state",
-          "url": "https://www.thehindu.com/business/Industry/oil-india-on-track-for-4-mmt-crude-oil-production-this-fiscal-officials-state/article71699134.ece",
-          "date": "2026-11-13T16:51:54Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
-          "url": "https://www.thehindu.com/business/auto-stocks-skid-1-on-profit-booking-despite-softer-crude-firm-markets/article71693492.ece",
-          "date": "2026-11-12T12:17:59Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -410,18 +410,24 @@
     {
       "id": "auto_consumer",
       "title": "Auto and demand",
-      "items": 2,
+      "items": 3,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 1,
-      "languageIndex": -50.0,
+      "neutral": 2,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Tata Motors Passenger Vehicles reports Q2 net loss of ₹5,531 crore",
+          "url": "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece",
+          "date": "2026-11-14T04:18:11Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Automobile retail sales fall 24% in October on high base effect a year ago",
           "url": "https://www.thehindu.com/business/Industry/automobile-retail-sales-fall-24-in-october-on-high-base-effect-a-year-ago/article71673102.ece",
@@ -639,18 +645,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 56,
+      "items": 58,
       "publishers": 4,
       "positive": 3,
       "negative": 20,
-      "neutral": 33,
-      "languageIndex": -35.2,
+      "neutral": 35,
+      "languageIndex": -33.9,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 44.6,
+      "sourceConcentration": 43.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
+          "date": "2026-11-14T01:31:24Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
@@ -662,12 +674,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
           "date": "2026-11-13T16:50:48Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T16:40:31Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -695,6 +701,12 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
+          "date": "2026-11-14T00:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
           "date": "2026-11-13T19:55:01Z",
@@ -705,12 +717,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
           "date": "2026-11-13T16:32:05Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Copper prices slid to near four-month low amid fears of hike in U.S. interest rates, lower AI demand",
-          "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
-          "date": "2026-11-13T16:16:57Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -725,18 +731,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 24,
+      "items": 25,
       "publishers": 4,
-      "positive": 0,
+      "positive": 1,
       "negative": 2,
       "neutral": 22,
-      "languageIndex": -6.7,
+      "languageIndex": -3.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 33.3,
+      "sourceConcentration": 36.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Three Issues Where Congress Could Strike a Deal Next Year",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
+          "date": "2026-11-13T21:35:44Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Democratic Senate leader Schumer set to face leadership challenge",
           "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
@@ -748,12 +760,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-13T03:57:01Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Van Hollen Challenges Schumer for Senate Leader in New Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/van-hollen-challenges-schumer-for-senate-leader-in-new-congress",
-          "date": "2026-11-13T02:12:31Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -934,11 +940,11 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 103
+      "stories": 113
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 67
+      "stories": 68
     },
     {
       "publisher": "www.bbc.co.uk",
@@ -946,7 +952,7 @@
     },
     {
       "publisher": "news.un.org",
-      "stories": 11
+      "stories": 13
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -958,8 +964,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 10,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 11,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
