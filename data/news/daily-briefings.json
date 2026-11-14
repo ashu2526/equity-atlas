@@ -3,6 +3,356 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-14-pm",
+      "asOf": "2026-11-14",
+      "createdAt": "2026-11-14T13:54:24Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published research — provisional; Saturday non-trading day, source collectors latest completed morning UTC 07:51 / 07:49; NSE daily gross figures cross-checked against secondary NSE-derived tables, not independently retrieved from NSE primary; NSDL sector, CFTC, TIC unavailable",
+      "marketSession": "PM — Saturday 14 Nov 2026 India non-trading day; weekend news since AM briefing, Friday 13 Nov Indian cash close",
+      "coverageWindow": {
+        "start": "2026-10-31",
+        "end": "2026-11-14T19:24:24+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-14T07:51:51.254275Z",
+      "headline": "Blackstone-backed AirTrunk files $11bn India data-centre proposal; Friday FII buying persists as Fed inflation disagreement keeps funding risk elevated",
+      "executiveSummary": "NEW since AM: Bloomberg/ET reports Blackstone-backed AirTrunk filed detailed plans for two Andhra Pradesh data-centre campuses up to 1.8GW and roughly $11bn, still awaiting state consideration; this is proposed investment, not booked capex or listed-company orders. Newly cross-checked NSE-derived Friday 13 Nov cash turnover shows FII gross purchases ₹18,339.57cr, sales ₹12,603.02cr, net +₹5,736.55cr; DII purchases ₹11,745.95cr, sales ₹13,999.53cr, net -₹2,253.58cr. These secondary figures were not directly validated against the NSE primary release. Reuters reports disagreement between US Treasury Secretary Bessent and Fed's Goolsbee over whether energy-driven inflation warrants tighter rates, underscoring uncertainty in rate-sensitive India assets. No new India trading session occurred Saturday. Friday sector prices and OHLCV are unchanged; no fresh technical alerts or Polymarket movements are asserted. Sentiment remains mixed despite reported foreign cash purchases, with oil, INR and yields acting as counterweights.",
+      "regime": {
+        "label": "Mixed: foreign cash buying versus inflation, crude and duration risk",
+        "change": "Weekend adds proposed Indian AI infrastructure scale and a verified debate over inflation persistence; Friday cash flow figures now cross-checked against two NSE-derived secondary tables, but not primary-verified. No new Saturday price session.",
+        "confidence": "Moderate for dated reported developments and repository price snapshots; low for sector-specific institutional positioning and any proposed-capex earnings impact.",
+        "marketConfirmation": "NIFTY 50 Friday 13 Nov close 25,144.3 (-0.61%) and 3-month private bank +6.83pp / pharma +4.71pp relative to NIFTY 50 from stored 13 Nov data; these predate weekend news.",
+        "contradictions": [
+          "FII provisional net buying alongside negative NIFTY Friday return; DII net selling",
+          "Large AI data-centre proposal has no verified contracts, commissioning dates or financing completion",
+          "Positive sector index price leadership cannot prove sector FPI buying"
+        ],
+        "missingSignals": [
+          "Primary NSE 13 Nov gross turnover confirmation",
+          "NSDL latest fortnightly FPI sector allocation",
+          "Current CFTC weekly positioning and Treasury TIC country flows",
+          "Monday 16 Nov market response, updated company OHLCV and any corporate orders"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "13 Nov FII gross cash buy",
+          "value": "₹18,339.57 crore",
+          "period": "2026-11-13",
+          "dataClass": "NSE provisional reproduced by secondary data service; primary not independently checked",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "13 Nov FII gross cash sell",
+          "value": "₹12,603.02 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional turnover",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "13 Nov FII cash net",
+          "value": "+₹5,736.55 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional cash transactions",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "13 Nov DII gross buy / sell",
+          "value": "₹11,745.95cr / ₹13,999.53cr",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional cash turnover",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "13 Nov DII cash net",
+          "value": "−₹2,253.58 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional cash transactions",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "AirTrunk proposed campus capacity",
+          "value": "Up to 1.8 GW; about $11bn proposal",
+          "period": "reported 2026-11-14",
+          "dataClass": "proposed project, not completed investment",
+          "source": "https://economictimes.indiatimes.com/tech/technology/blackstones-airtrunk-advances-11-billion-india-data-centre-bet/articleshow/135826981.cms"
+        },
+        {
+          "name": "NIFTY private bank relative 3m",
+          "value": "+6.83 percentage points",
+          "period": "through 2026-11-13",
+          "dataClass": "NSE index relative price performance; not flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "NIFTY pharma relative 3m",
+          "value": "+4.71 percentage points",
+          "period": "through 2026-11-13",
+          "dataClass": "NSE index relative price performance; not flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "October equity mutual fund net subscriptions",
+          "value": "₹32,993.64 crore (−13.87% month-on-month)",
+          "period": "2026-10",
+          "dataClass": "AMFI monthly mutual-fund subscriptions, not daily equity trading",
+          "source": "https://www.reuters.com/business/indias-gold-etf-inflows-drop-22-october-fund-houses-halt-bulk-subscriptions-2026-11-11/"
+        },
+        {
+          "name": "USD/INR Friday",
+          "value": "₹94.24 per US dollar",
+          "period": "2026-11-13",
+          "dataClass": "reported FX spot level",
+          "source": "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-14-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "ai_capex",
+          "geography": "India / Andhra Pradesh",
+          "title": "AirTrunk advances proposed $11bn India data-centre investment",
+          "whatHappened": "14 Nov: Blackstone-backed AirTrunk filed detailed project reports for two Andhra Pradesh hyperscale campuses with up to 1.8GW capacity and roughly ₹1.03 lakh crore / $11bn indicative investment; authorities are still considering the proposal.",
+          "whyItMatters": [
+            "A 1.8GW prospective load would require significant grid, transmission and power-supply capacity if built.",
+            "Electrical equipment, cooling, backup power and engineering revenue depends on awarded contracts and phased commissioning rather than announced project value."
+          ],
+          "smartMoney": "Not measured for this event; do not infer purchases from prices or proposed investment.",
+          "direct": "Hyperscale data centres, power transmission and grid infrastructure",
+          "proxies": "Transformers, switchgear, power-quality systems, BESS, cooling, engineering, renewable power and water infrastructure",
+          "whatCouldChange": "Project sanction, financing, utility power agreements, procurement awards and supplier margins",
+          "caution": "Do not book $11bn as realized spending; approval, power/water availability, commissioning, financing and margins are unproven.",
+          "sources": [
+            "https://economictimes.indiatimes.com/tech/technology/blackstones-airtrunk-advances-11-billion-india-data-centre-bet/articleshow/135826981.cms"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Friday FII net buying remains positive, but DII net selling and falling NIFTY challenge breadth",
+          "whatHappened": "13 Nov NSE-derived secondary tables report FII +₹5,736.55cr (buy ₹18,339.57cr; sell ₹12,603.02cr) and DII −₹2,253.58cr (buy ₹11,745.95cr; sell ₹13,999.53cr). Friday NIFTY fell 0.61%.",
+          "whyItMatters": [
+            "Cash buying by foreign investors is directly observed in reproduced provisional transaction data, but does not identify sectors.",
+            "Index weakness despite foreign net buying suggests valuation, domestic selling or intraday supply may matter; it does not establish causality."
+          ],
+          "smartMoney": "Provisional gross and net institutional cash transactions reported by NSE-derived secondary tables; primary NSE not independently accessed.",
+          "direct": "Broad Indian cash equities; liquid large caps",
+          "proxies": "Private banks, brokerages, exchanges, mutual funds; no sector purchases verified",
+          "whatCouldChange": "Primary NSE reconciliation, NSDL depository series, sector allocations and Monday market breadth",
+          "caution": "Source is secondary NSE-derived provisional data; other market pages show rounded values. Gross buy/sell and net are transactions, not holdings or fund subscriptions.",
+          "sources": [
+            "https://indmarket.in/fii-dii-activity",
+            "https://patternsradar.com/market"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "inflation_rates",
+          "geography": "United States / India",
+          "title": "Fed inflation debate adds uncertainty to US rates and Indian discount rates",
+          "whatHappened": "13–14 Nov Reuters: Treasury Secretary Bessent opposed raising rates solely for an energy shock, while Chicago Fed President Goolsbee highlighted broader services inflation and policy credibility risks.",
+          "whyItMatters": [
+            "A persistent US yield increase raises global duration discount rates and can pressure emerging-market funding and currency stability.",
+            "If inflation is primarily supply-driven, aggressive rate hikes may weaken growth without quickly resolving oil supply constraints."
+          ],
+          "smartMoney": "Not measured for this event; do not infer purchases from prices or proposed investment.",
+          "direct": "US monetary policy expectations, Indian banks/NBFC funding, INR and sovereign bonds",
+          "proxies": "Long-duration growth companies, imported equipment users, export sectors with dollar revenue",
+          "whatCouldChange": "Upcoming US CPI/PPI, Treasury yields, Fed communications, India 10-year yield and USD/INR",
+          "caution": "Officials disagree; neither quote constitutes a new FOMC decision. No issuer CDS quote was retrieved.",
+          "sources": [
+            "https://www.reuters.com/business/us-treasury-chief-says-fed-should-not-hike-rates-over-energy-shock-tied-iran-war-2026-11-13/",
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-4",
+          "rank": 4,
+          "importance": "medium",
+          "theme": "corporate_earnings",
+          "geography": "India",
+          "title": "Tata Motors Passenger Vehicles reports material Q2 loss",
+          "whatHappened": "14 Nov The Hindu RSS reported Tata Motors Passenger Vehicles Q2 net loss of ₹5,531 crore; detailed filing adjustments, one-offs and period comparability not independently verified.",
+          "whyItMatters": [
+            "A large reported loss requires separating operational margin deterioration from accounting, restructuring and exceptional charges.",
+            "Autos' weak 3-month relative sector performance raises the importance of demand, pricing and financing-cost evidence."
+          ],
+          "smartMoney": "publisher headline; detailed earnings bridge not independently verified",
+          "direct": "Passenger vehicle manufacturers and auto OEM margins",
+          "proxies": "Auto component suppliers, dealers, vehicle finance and steel demand",
+          "whatCouldChange": "Exchange-filed quarterly financials, JLR/domestic segment bridge, cash flow, dealer inventory and order trends",
+          "caution": "Headline-only report; do not attribute loss to core operations without the official financial statements.",
+          "sources": [
+            "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "corporate_credit",
+          "geography": "India / Aviation",
+          "title": "SpiceJet filing and suspension warning expose issuer-specific funding risk",
+          "whatHappened": "13 Nov Reuters: SpiceJet said overdue March and June results would be filed by 7 Dec; BSE warned of trading suspension from 10 Dec if requirements are not met; company board scheduled 18 Nov to consider capital raising.",
+          "whyItMatters": [
+            "Reporting delays can reduce access to funding and raise refinancing or counterparty risk.",
+            "Higher fuel costs and restricted airspace compound operating pressure; aircraft capacity and supplier terms can affect service continuity."
+          ],
+          "smartMoney": "Not measured for this event; do not infer purchases from prices or proposed investment.",
+          "direct": "SpiceJet equity and creditors; aviation operating cash flow",
+          "proxies": "Airports, lessors, maintenance suppliers, rival airlines",
+          "whatCouldChange": "Actual exchange filings, audited results, cash position, board capital-raise terms and BSE compliance notice",
+          "caution": "Suspension is conditional, not already enacted; no issuer CDS market quote was retrieved.",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-spicejet-file-overdue-results-after-exchanges-suspension-warning-2026-11-13/"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-6",
+          "rank": 6,
+          "importance": "high",
+          "theme": "india_fx_energy",
+          "geography": "India / Global",
+          "title": "Rupee and yields reflect oil and Fed pressure despite November foreign buying",
+          "whatHappened": "13 Nov Reuters: INR weakened to ₹94.24/USD; Indian 10-year sovereign yield rose to about 7.31%; India's October merchandise trade deficit widened to a one-year high.",
+          "whyItMatters": [
+            "Higher crude import bills and a weaker INR can lift input costs and reduce importer margins.",
+            "Higher government bond yields can affect bank treasury marks, NBFC cost of funds and discounted valuations."
+          ],
+          "smartMoney": "Not measured for this event; do not infer purchases from prices or proposed investment.",
+          "direct": "Oil importers, refiners, airlines, rate-sensitive lenders",
+          "proxies": "Paints, tyres, chemicals, logistics, export-oriented pharma and IT as potential FX offsets",
+          "whatCouldChange": "Brent, USD/INR, 10Y yield, RBI reserve data, fuel pass-through and corporate hedges",
+          "caution": "FX translation benefit to exporters is not automatic profit; contractual hedging and input mix matter.",
+          "sources": [
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "policy_governance",
+          "geography": "India / Digital platforms",
+          "title": "Forged court orders prompt telecom takedown investigation",
+          "whatHappened": "14 Nov Reuters: PM office summoned telecom secretary after reports that forged judicial orders were used to block 129 betting websites; government and police investigations are underway.",
+          "whyItMatters": [
+            "Authentication controls in digital enforcement affect legal and operational reliability of online services.",
+            "Stricter verification can change compliance burden for telecom providers, intermediaries and platform operators."
+          ],
+          "smartMoney": "Reuters reporting on investigation, not proven commercial loss",
+          "direct": "Telecom and internet platform compliance",
+          "proxies": "Cybersecurity, digital identity and legal workflow vendors",
+          "whatCouldChange": "Formal ministry findings, court records and remedial authentication procedures",
+          "caution": "Not evidence of enacted new sector policy or an earnings catalyst; financial impact unmeasured.",
+          "sources": [
+            "https://www.reuters.com/world/modi-summons-telecom-secretary-over-website-takedowns-sources-say-2026-11-14/"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        },
+        {
+          "id": "2026-11-14-pm-8",
+          "rank": 8,
+          "importance": "high",
+          "theme": "sector_rotation_event_risk",
+          "geography": "India / United States",
+          "title": "Sector leadership and priced Fed event risk remain Friday snapshots, not Saturday transactions",
+          "whatHappened": "13 Nov NSE index prices: NIFTY Media +7.35pp, Private Bank +6.83pp, Pharma +4.71pp versus NIFTY 50 over 3 months; Energy -6.19pp and Auto -7.57pp. Stored Polymarket question \"Will the Fed increase interest rates by 25 bps after the December 2026 meeting?\" YES 88.5¢ at 2026-11-14T07:49:19.445171+00:00, 24h betting volume $473,657 and liquidity $686,056.",
+          "whyItMatters": [
+            "Relative index price performance is evidence of leadership dispersion, not NSDL sector FPI allocation.",
+            "Fed contract prices indicate traded risk opinions, not calibrated economic probabilities; Indian lenders and INR are rate-sensitive."
+          ],
+          "smartMoney": "stored price-return observations and event-contract quote",
+          "direct": "India sector price indices and US Fed event contract",
+          "proxies": "Bank/financial funding, IT discount rates, energy users, export earnings",
+          "whatCouldChange": "Monday index closes and breadth, NSDL sector FPI data and next actual Polymarket snapshot; prior stored YES quote unavailable.",
+          "caution": "No new Saturday snapshot; do not claim weekend odds change. Prediction-market betting volume is not equity cash flow.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/signals.html",
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+          ],
+          "evidenceType": "dated public reporting plus explicitly labelled transmission hypothesis"
+        }
+      ],
+      "watchNow": [
+        "Accelerating/conditional: hyperscale power infrastructure, switchgear, transformers and cooling after AirTrunk's proposed campuses; await approvals and binding orders.",
+        "Selective price leadership: private banks +6.83pp relative 3m, but rising bond yields and domestic institutional selling are counterevidence; require net interest margin and credit cost confirmation.",
+        "Pharma +4.71pp relative 3m; verify US generics pricing, product launches, FX hedge and quarterly margins before treating leadership as earnings acceleration.",
+        "Media +7.35pp relative 3m but sector fundamentals and NSDL flow not established; verify advertising, subscription and earnings breadth.",
+        "Power/renewables/BESS are second-order data-centre candidates; compare actual procurement awards, ROIC and debt costs rather than capacity announcements.",
+        "Aviation and autos cooling: SpiceJet liquidity/compliance risk and reported Tata Motors PV loss; require issuer filings and unit economics.",
+        "Rate-sensitive NBFCs/realty unproven: US and India yields offset nominal growth; watch funding spreads and sales conversions.",
+        "Energy and oil-sensitive chemicals/tyres unproven: oil supply surplus thesis conflicts with shipping/geopolitical risk; verify input cost pass-through."
+      ],
+      "cooling": [
+        "October Indian equity MF net subscriptions were down 13.87% MoM even though still positive; small/mid-cap fund categories slowed.",
+        "Friday NIFTY declined 0.61% despite positive provisional foreign net buying.",
+        "Autos lagged NIFTY 50 by 7.57pp over three months; issuer earnings and fuel financing risk require cross-check."
+      ],
+      "risks": [
+        "US yields rise further on sticky inflation and policy hawkishness.",
+        "Oil shipping disruption lifts crude and import bill despite expected supply surplus.",
+        "USD/INR depreciation and Indian 10-year yields raise imported cost and financing stress.",
+        "FII buying reverses or concentrated market leadership fails to broaden.",
+        "Data-centre proposals fail to obtain power/water permits or financing; capex orders do not materialize.",
+        "SpiceJet compliance deadline and corporate funding risk worsen.",
+        "Price-volume signals are distorted by unadjusted corporate actions or stale provider data."
+      ],
+      "whatChanged": [
+        "NEW weekend: Blackstone-backed AirTrunk filed proposed $11bn/1.8GW India data-centre plans, not approved spending.",
+        "NEW evidence coverage: 13 Nov NSE-derived secondary gross FII/DII buy/sell/net figures now cross-checked; primary NSE not independently retrieved.",
+        "NEW Fed-policy nuance: Bessent/Goolsbee publicly disagree over energy-driven versus broad inflation response.",
+        "NEW issuer-specific items: SpiceJet suspension warning and Tata Motors PV loss headline; filings require verification.",
+        "NO new Saturday India cash session; sector rotation, company technical flags and Polymarket quotes unchanged from 13/14 Nov stored snapshots."
+      ],
+      "tomorrowChecklist": [
+        "Monday 16 Nov: obtain official NSE FII/DII provisional gross and net and reconcile 13 Nov secondary figures.",
+        "Read AirTrunk/state approvals and confirm any named Indian supplier orders, project phasing and power/water sourcing.",
+        "Verify Tata Motors PV Q2 official financial filing and exceptional-item bridge; read SpiceJet BSE compliance notice.",
+        "Watch US Treasury 10Y, Brent, USD/INR, India 10Y, RBI reserve release and market breadth.",
+        "Retrieve NSDL fortnightly sector FPI transactions, AMFI primary October release, latest CFTC COT and Treasury TIC releases; mark missing until sourced.",
+        "Refresh NSE sector 1w/1m/3m relative returns and Monday completed 22-stock OHLCV before surfacing new alerts.",
+        "Check relevant Fed Polymarket YES contract with new dated snapshot; compare identical market ID only.",
+        "Verify whether Nvidia/AI infrastructure headlines translate into signed orders and quarterly margins, not just market commentary."
+      ],
+      "sources": [
+        "https://economictimes.indiatimes.com/tech/technology/blackstones-airtrunk-advances-11-billion-india-data-centre-bet/articleshow/135826981.cms",
+        "https://indmarket.in/fii-dii-activity",
+        "https://patternsradar.com/market",
+        "https://www.reuters.com/business/us-treasury-chief-says-fed-should-not-hike-rates-over-energy-shock-tied-iran-war-2026-11-13/",
+        "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+        "https://www.reuters.com/business/indias-gold-etf-inflows-drop-22-october-fund-houses-halt-bulk-subscriptions-2026-11-11/",
+        "https://www.reuters.com/world/india/indias-spicejet-file-overdue-results-after-exchanges-suspension-warning-2026-11-13/",
+        "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece",
+        "https://www.reuters.com/world/modi-summons-telecom-secretary-over-website-takedowns-sources-say-2026-11-14/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "As of 14 Nov 19:24 IST the latest repository RSS scan is 14 Nov 07:51 UTC (13:21 IST); evening 19:00 IST source collector has not yet appeared in repository; market signals last generated 07:49 UTC.",
+        "Saturday 14 Nov has no Indian cash trading session; Friday 13 Nov is the last completed session.",
+        "13 Nov FII/DII gross/net figures cross-checked via two secondary NSE-derived tables; official NSE page not independently retrieved. NSDL sector FPI, Treasury TIC country flows, CFTC weekly positions and major new verified stake transactions not obtained.",
+        "No direct exchange issuer financial filing retrieved for Tata Motors PV headline; its reported net loss must be checked against official filing before attributing causes.",
+        "No new Saturday technical breakout: 13 Nov stocks snapshot has existing NH, KIMS, HDFCBANK, SBIN and RELIANCE watch flags; repeat alerts suppressed.",
+        "Polymarket snapshot dated 14 Nov 07:49 UTC; quoted YES price is not objective probability, 24h betting volume is not institutional flow.",
+        "No new issuer CDS event or primary CDS spread verified; none claimed."
+      ]
+    },
+    {
       "id": "2026-11-14-am",
       "asOf": "2026-11-14",
       "createdAt": "2026-11-14T01:51:22Z",
