@@ -3,6 +3,451 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-14-am",
+      "asOf": "2026-11-14",
+      "createdAt": "2026-11-14T01:51:22Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published research — provisional: latest source collection 13 Nov 20:36 UTC (14 Nov 02:06 IST); official 13 Nov NSE gross FII/DII and fresh NSDL/CFTC/TIC series not independently retrieved; US PPI and Jones Act waiver verified via contemporaneous Reuters reporting",
+      "marketSession": "AM — Saturday 14 Nov 2026 India non-trading day; overnight global developments and Friday 13 Nov India cash close",
+      "coverageWindow": {
+        "start": "2026-10-31",
+        "end": "2026-11-14T07:21:22+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-13T20:36:08.326911Z",
+      "headline": "US producer inflation broadens and shipping relief is extended; Friday India sector rotation shows selective leadership, not verified institutional buying",
+      "executiveSummary": "NEW overnight: Reuters reports US October PPI +0.3% month-on-month but +6.5% year-on-year, raising the importance of global rate and dollar transmission; US extended a case-by-case Jones Act shipping waiver for 90 days, which addresses US domestic transport bottlenecks rather than Hormuz risk. Nvidia succession search broadens while South Korea says previously pledged 260,000 GPUs remain on track, countering simplistic capex-collapse claims. India's 13 Nov NIFTY 50 close was 25,144.3 (-0.61%); this and India's October CPI 6.09% were already known in prior PM briefing. NEW source refresh now provides completed 13 Nov NSE sector prices: media +7.35pp, private banks +6.83pp and pharma +4.71pp vs NIFTY 50 over three months, while auto -7.57pp and energy -6.19pp. This is price leadership, not institutional buying. 22-company 13 Nov OHLCV flags KIMS price-volume divergence for fundamental verification; no new high-volume breakout asserted. LSEG Lipper's Europe-led $50.99bn global fund subscriptions remain the latest verified regional flow (week ended 11 Nov), not fresh overnight Indian flows. US PPI and Friday market confirmation suggest mixed/rate-constrained risk, not a defensible broad risk-on call.",
+      "regime": {
+        "label": "Mixed / inflation- and dollar-sensitive, with selective Indian price leadership",
+        "change": "Compared with 13 Nov PM: new US October producer inflation, a 90-day US shipping waiver, and a completed 13 Nov NSE sector/company price refresh; Europe-led weekly fund flows and India's October CPI are not new.",
+        "confidence": "Moderate on dated Reuters reports and 13 Nov repository closing-price observations; low on unverified primary sector purchases, CDS and forward earnings transmission",
+        "marketConfirmation": [
+          "NIFTY 50 13 Nov close 25,144.3; 3m +3.19% per repository NSE sector snapshot generated 13 Nov 20:36:50 UTC.",
+          "Private banks 3m +10.02%, +6.83pp relative; pharma +7.90%, +4.71pp; media +10.54%, +7.35pp.",
+          "US October PPI reported 13 Nov +0.3% MoM and +6.5% YoY.",
+          "Latest actual global fund subscriptions: LSEG Lipper $50.99bn week to 11 Nov, Europe $35.13bn."
+        ],
+        "contradictions": [
+          "US PPI monthly headline was below forecast, but year-on-year inflation broadened.",
+          "Europe-led equity-fund inflows coexist with US technology volatility; not evidence of India sector buying.",
+          "US shipping waiver may lower domestic freight friction, while Hormuz transit/insurance risk persists.",
+          "Nvidia management risk contrasts with reported South Korean GPU commitment continuity.",
+          "India private-bank price leadership coexists with higher CPI and Friday weakness."
+        ],
+        "missingSignals": [
+          "Official NSE 13 Nov FII/DII gross buy/sell/net with reliable date; no recycled 11 Nov figures.",
+          "NSDL latest fortnightly sector FPI net purchases versus AUC holdings, verified with vintage.",
+          "Primary AMFI October monthly category sheet; published figures independently corroborated only by secondary sources.",
+          "CFTC weekly net speculative futures positions and US Treasury TIC dated country flow table; numeric series not retrieved.",
+          "Verified issuer CDS event/quote and broad Indian earnings revisions; none fabricated.",
+          "Independent verification of Hormuz vessel incident and complete corporate-action-adjusted OHLCV."
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "US October producer price inflation",
+          "value": "+0.3% MoM; +6.5% YoY",
+          "period": "October 2026; reported 13 Nov",
+          "dataClass": "US official statistical release as reported by Reuters",
+          "source": "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/"
+        },
+        {
+          "name": "NIFTY 50 closing price",
+          "value": "25,144.3; -0.61% session; +3.19% 3m",
+          "period": "13 Nov 2026",
+          "dataClass": "Indian equity index price, not capital flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Private banks relative to NIFTY 50",
+          "value": "+6.83 percentage points (3m)",
+          "period": "13 Nov 2026 closing snapshot",
+          "dataClass": "NSE price-index relative return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Pharma relative to NIFTY 50",
+          "value": "+4.71 percentage points (3m)",
+          "period": "13 Nov 2026 closing snapshot",
+          "dataClass": "NSE price-index relative return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Media relative to NIFTY 50",
+          "value": "+7.35 percentage points (3m)",
+          "period": "13 Nov 2026 closing snapshot",
+          "dataClass": "NSE price-index relative return",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Global / Europe equity-fund subscriptions",
+          "value": "US$50.99bn / US$35.13bn",
+          "period": "Week ended 11 Nov 2026",
+          "dataClass": "LSEG Lipper fund subscriptions; not direct share trades",
+          "source": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+        },
+        {
+          "name": "India open-ended equity mutual-fund subscriptions",
+          "value": "₹32,993.64 crore; September ₹38,306.55 crore",
+          "period": "October 2026",
+          "dataClass": "AMFI-reported monthly fund subscriptions via secondary reporting",
+          "source": "https://www.moneycontrol.com/news/business/personal-finance/equity-mutual-fund-inflows-fall-14-to-rs-32-994-crore-in-october-debt-funds-see-sharp-rebound-14077014.html/amp"
+        },
+        {
+          "name": "US shipping waiver",
+          "value": "90-day extension, case-by-case",
+          "period": "Announced 13 Nov 2026",
+          "dataClass": "Reported enacted policy",
+          "source": "https://www.reuters.com/world/us/us-extends-shipping-law-waiver-90-days-allow-freer-movement-oil-commodities-2026-11-13/"
+        },
+        {
+          "name": "Polymarket December Fed 50+bp hike YES",
+          "value": "9.7¢; +0.45pp stored change; $708,104 24h volume; $305,307 liquidity",
+          "period": "Snapshot 13 Nov 20:36:50 UTC",
+          "dataClass": "Betting contract quote, not probability or institutional equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "NSE FII/DII gross turnover",
+          "value": "Unavailable — 13 Nov buy/sell/net not independently verified",
+          "period": "13 Nov 2026",
+          "dataClass": "Missing provisional direct equity transaction data",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        }
+      ],
+      "stories": [
+        {
+          "id": "20261114am-1",
+          "rank": 1,
+          "importance": "High",
+          "theme": "US producer inflation / Fed rates",
+          "geography": "United States; global",
+          "title": "US October PPI adds a NEW broad inflation signal to restrictive-rate risk",
+          "whatHappened": "13 Nov US October producer-price release reported by Reuters: headline PPI +0.3% month on month, below +0.4% forecast, but +6.5% year on year, the highest since November 2022; goods +10.2% YoY. Fed's Williams said further inflation work was needed.",
+          "whyItMatters": [
+            "The modest monthly headline surprise conflicts with a broadening annual inflation impulse, so extrapolating a benign rate path from +0.3% alone is unsafe.",
+            "Higher US discount rates can raise dollar funding costs and reduce valuation support for Indian duration-sensitive equities even without a direct India earnings change."
+          ],
+          "smartMoney": "Not measured for this event; no verified issuer/sector transaction attribution.",
+          "direct": "US Treasuries, global duration, Indian banks/NBFCs, real estate and growth equities",
+          "proxies": "Export-oriented IT, bond-sensitive infrastructure and capital-market intermediaries",
+          "whatCouldChange": "US core PCE, Treasury 2Y/10Y yields, USD/INR, RBI policy expectations and Indian credit spreads",
+          "caution": "PPI is upstream and not identical to CPI/PCE; one month does not determine a Fed hike.",
+          "sources": [
+            "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/",
+            "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-2",
+          "rank": 2,
+          "importance": "High",
+          "theme": "AI governance / export controls",
+          "geography": "US, China, South Korea, Taiwan, India",
+          "title": "Nvidia succession broadens into policy and supplier execution questions",
+          "whatHappened": "13 Nov Reuters reported Nvidia's board approached Arm CEO Rene Haas as part of succession discussions; South Korea's science minister said Nvidia would maintain a prior 260,000 GPU supply pledge. This follows the 12 Nov Jensen Huang resignation, already covered in prior reports.",
+          "whyItMatters": [
+            "Succession uncertainty may affect long-duration chip roadmaps, cross-border export compliance and customer concentration; no verified order cancellations follow automatically.",
+            "South Korea's reported GPU pledge continuation is counterevidence to treating leadership disruption as an immediate collapse in AI hardware demand."
+          ],
+          "smartMoney": "Not measured; retail dip-buying reports are not verified institutional purchases.",
+          "direct": "AI chip design, semiconductor suppliers, hyperscaler capex and US tech valuations",
+          "proxies": "Indian data-centre power equipment, cooling, transformers, software services and electronics manufacturing",
+          "whatCouldChange": "Nvidia board appointment, confirmed export-rule changes, customer procurement, backlog, working-capital disclosures",
+          "caution": "Reported CEO outreach is not a signed appointment; political investigations and unverified allegations are not established operating losses.",
+          "sources": [
+            "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
+            "https://www.aol.com/articles/south-korea-says-nvidia-keep-100409000.html"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-3",
+          "rank": 3,
+          "importance": "High",
+          "theme": "Shipping and enacted policy",
+          "geography": "United States, Middle East, India",
+          "title": "US extends domestic shipping waiver for 90 days while oil-route uncertainty persists",
+          "whatHappened": "13 Nov Reuters: US administration extended Jones Act shipping waiver for another 90 days, permitting case-by-case foreign-flagged carriage between US ports. White House said earlier waivers enabled additional 90m barrels of petroleum movements since March.",
+          "whyItMatters": [
+            "Waiver may relieve US coastal logistics bottlenecks, but the 90m barrels is cumulative reported transport volume, not new global oil production.",
+            "Lower US transport friction could moderate refined-product dislocations while Hormuz insurance and supply shocks still threaten India's landed energy costs."
+          ],
+          "smartMoney": "Not measured for this event; no verified issuer/sector transaction attribution.",
+          "direct": "US coastal fuel distribution, shipping and refiners; India fuel import economics",
+          "proxies": "Indian airlines, tyre makers, paints, chemicals, fertilizer and logistics",
+          "whatCouldChange": "Brent/Dubai spreads, freight/war-risk premiums, LNG landing prices and refinery product margins",
+          "caution": "The policy is US domestic shipping relief, not a verified reopening of Hormuz or proof that India landed crude will decline.",
+          "sources": [
+            "https://www.reuters.com/world/us/us-extends-shipping-law-waiver-90-days-allow-freer-movement-oil-commodities-2026-11-13/",
+            "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-4",
+          "rank": 4,
+          "importance": "Medium",
+          "theme": "Cross-border capital subscriptions",
+          "geography": "Europe, US, Asia, emerging markets",
+          "title": "European fund subscriptions dominate global equity inflows; geographic divergence remains",
+          "whatHappened": "13 Nov LSEG Lipper figures via Reuters: week ended 11 Nov global equity fund subscriptions +$50.99bn, Europe +$35.13bn, US +$6.60bn, Asia +$6.15bn, emerging-market equities +$4.65bn; global bond funds -$0.508bn.",
+          "whyItMatters": [
+            "Regional fund subscriptions are actual investor flow into fund vehicles, but cannot be allocated to India sectors or equated with underlying cash trades.",
+            "Europe's disproportionate share may alter comparative equity demand and currency exposure; this is not yet proof of sustained valuation re-rating."
+          ],
+          "smartMoney": "$50.99bn global, $35.13bn Europe, $6.60bn US, $6.15bn Asia are LSEG Lipper weekly net fund subscriptions, not India equity trades.",
+          "direct": "European equity funds and global asset managers",
+          "proxies": "Indian exporters to Europe, domestic brokers, global bank and insurer exposure",
+          "whatCouldChange": "Subsequent weekly subscriptions, India-specific country funds, NSDL purchases and FX hedging",
+          "caution": "Week ended 11 Nov was already cited in 13 Nov PM; the new analytical distinction is that US PPI and Friday pricing have not confirmed a sustained geographic regime change.",
+          "sources": [
+            "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-5",
+          "rank": 5,
+          "importance": "Medium",
+          "theme": "India inflation / domestic liquidity",
+          "geography": "India",
+          "title": "Indian October CPI breach and mutual-fund moderation remain an unresolved domestic tension",
+          "whatHappened": "Official 12 Nov India October CPI +6.09% YoY, food +8.94%; Reuters 13 Nov NIFTY close 25,144.3 (-0.61%). October open-ended equity mutual-fund net subscriptions ₹32,993.64 crore, down from ₹38,306.55 crore in September, per AMFI-derived reporting.",
+          "whyItMatters": [
+            "Higher food prices can pressure discretionary volumes and monetary-policy room, with direct sensitivity in housing finance, banks and consumer staples.",
+            "Positive monthly mutual-fund subscriptions can coexist with falling weekly index prices and foreign turnover; AUM and SIP contributions are separate measures."
+          ],
+          "smartMoney": "October ₹32,993.64 crore is fund subscription flow, not sector allocation or daily DII turnover.",
+          "direct": "Indian banks, consumer staples, autos, NBFCs and property",
+          "proxies": "Brokers, insurance distribution, building materials, medical demand resilience",
+          "whatCouldChange": "Next CPI, 10Y yields, earnings NIM/credit costs, AMFI November subscriptions and actual NSE gross FII/DII turnover",
+          "caution": "No new CPI or AMFI release overnight; the new development is US producer inflation and US policy repricing, not a second Indian inflation shock.",
+          "sources": [
+            "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416",
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+            "https://www.moneycontrol.com/news/business/personal-finance/equity-mutual-fund-inflows-fall-14-to-rs-32-994-crore-in-october-debt-funds-see-sharp-rebound-14077014.html/amp"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-6",
+          "rank": 6,
+          "importance": "Medium",
+          "theme": "Sector price leadership / rotation",
+          "geography": "India",
+          "title": "Friday sector refresh confirms dispersion, not new institutional sector buying",
+          "whatHappened": "Repository NSE sector snapshot generated 13 Nov 20:36:50 UTC, as-of 13 Nov close: NIFTY 50 3m +3.19%; private banks +10.02% (+6.83pp relative), pharma +7.90% (+4.71pp), media +10.54% (+7.35pp); energy -3.00% (-6.19pp), auto -4.38% (-7.57pp).",
+          "whyItMatters": [
+            "Relative-price strength can identify where valuation expectations are concentrating, but not who bought the shares.",
+            "Private-bank 1m +10.35% versus 7d +1.61% suggests an established rally with deceleration risk; pharma 1m +10.87%, 7d +2.13% requires earnings support."
+          ],
+          "smartMoney": "NSDL fortnightly sector purchase figures unavailable; no actor-level sector attribution.",
+          "direct": "Private banks, pharma, media, autos, energy",
+          "proxies": "NBFCs, hospitals, CDMOs, vehicle financiers, petrochemicals",
+          "whatCouldChange": "Sector breadth, constituent results, valuation revisions and independently dated NSDL FPI sector transactions",
+          "caution": "Media leadership may reflect concentrated constituents and does not imply improved advertising fundamentals; relative index return is not capital flow.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/signals.html"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-7",
+          "rank": 7,
+          "importance": "Medium",
+          "theme": "Prediction-market priced event risk",
+          "geography": "United States; India transmission",
+          "title": "Stored Fed hike contracts show restrictive-policy pricing but not objective odds",
+          "whatHappened": "Polymarket snapshot 13 Nov 20:36:50 UTC: exact question 'Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?' YES 9.7¢, 24h betting volume $708,104, liquidity $305,307, +0.45 percentage points versus stored prior snapshot; 25bp cut YES 0.6¢, volume $991,663.",
+          "whyItMatters": [
+            "Contract prices are speculative market quotes affected by liquidity and settlement wording, not an official Fed forecast.",
+            "Restrictive-rate pricing, alongside October US PPI, warrants monitoring dollar funding and Indian discount rates; betting turnover is not FII or bond flow."
+          ],
+          "smartMoney": "Not measured as equity flow; 24h Polymarket volume is wagering turnover.",
+          "direct": "US rates, USD/INR, Indian rate-sensitive equities",
+          "proxies": "IT valuation, realty, NBFC funding, importers",
+          "whatCouldChange": "FOMC decision, US CPI/PCE, Treasury curve, and contract liquidity-adjusted follow-through",
+          "caution": "Event wording is exact; quoted prices need not sum to one across separate contracts, and snapshot is older than this morning.",
+          "sources": [
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+            "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/",
+            "https://ashu2526.github.io/equity-atlas/signals.html"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        },
+        {
+          "id": "20261114am-8",
+          "rank": 8,
+          "importance": "Medium",
+          "theme": "Company price-volume surveillance",
+          "geography": "India",
+          "title": "New KIMS price-volume divergence warrants fundamental cross-check, not a buy/sell inference",
+          "whatHappened": "13 Nov 20:36:58 UTC stock collector, as-of 13 Nov close, 22/22 names ready. KIMS newly appears in flagged list with price_volume_divergence, while NH, HDFCBANK, SBIN and RELIANCE retain previously noted trend-conflict flags; SBIN volume ratio now 1.16x.",
+          "whyItMatters": [
+            "An OBV/price divergence can indicate weaker participation in a rally but cannot identify a seller or predict reversal alone.",
+            "Hospital pricing, occupancy, case mix and capex cash conversion must corroborate any technical deterioration before valuation changes."
+          ],
+          "smartMoney": "No institution-level transaction measured; no new verified volume-backed 55-session breakout claimed.",
+          "direct": "KIMS and Indian listed hospital peers",
+          "proxies": "Medical devices, diagnostics, hospital suppliers",
+          "whatCouldChange": "Check KIMS chart and prior snapshot, earnings/cash flow, 20/55-session OHLCV and 200DMA slope",
+          "caution": "KIMS flag is a mechanical observation, not a verified institutional exit; source is third-party redistributed OHLCV and needs split/corporate-action validation.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/company-signals.html"
+          ],
+          "evidenceType": "Dated reporting and/or public snapshot; economic transmission is conditional analyst interpretation"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "bucket": "Leading but short-term cooling",
+          "evidence": "13 Nov 3m +10.02%, +6.83pp vs NIFTY 50; 1m +10.35%, 7d +1.61%",
+          "transmission": "NIM, deposit cost, credit growth and bond MTM",
+          "proxies": "NBFCs, brokers, capital-market services",
+          "counterevidence": "US/India inflation, rising yields, Friday index retreat",
+          "nextData": "NSE cash FII/DII, NSDL sector purchases, deposit growth and bank earnings",
+          "confidence": "Moderate price, low flow"
+        },
+        {
+          "sector": "Pharma",
+          "bucket": "Accelerating relative strength",
+          "evidence": "3m +7.90%, +4.71pp relative; 1m +10.87%, 7d +2.13%",
+          "transmission": "US pricing, launches and gross margins",
+          "proxies": "CDMO, hospital supply and specialty packaging",
+          "counterevidence": "US regulation, product-specific competition",
+          "nextData": "Company guidance, USFDA filings, margin bridge",
+          "confidence": "Moderate price"
+        },
+        {
+          "sector": "Media",
+          "bucket": "New top relative-price leader, fundamentals unproven",
+          "evidence": "3m +10.54%, +7.35pp relative; 7d +5.22%",
+          "transmission": "Ad spending and subscription economics",
+          "proxies": "Content, broadcast infrastructure",
+          "counterevidence": "Index concentration and cyclical advertising",
+          "nextData": "Ad-volume growth and earnings breadth",
+          "confidence": "Low fundamental"
+        },
+        {
+          "sector": "PSU banks",
+          "bucket": "Strong 1m momentum, rate-sensitive",
+          "evidence": "3m +5.95%, +2.76pp relative; 1m +13.36%, 7d +7.50%",
+          "transmission": "Loan repricing versus bond treasury loss",
+          "proxies": "Corporate lending, loan servicing",
+          "counterevidence": "Yield spike and credit-cost lag",
+          "nextData": "RBI yields, NPA trends, bank results",
+          "confidence": "Moderate price"
+        },
+        {
+          "sector": "Hospitals and medical devices",
+          "bucket": "Selective, not broad breakout",
+          "evidence": "Healthcare +1.22pp relative; KIMS mechanical divergence flag on 13 Nov",
+          "transmission": "Occupancy, case mix, EBITDA per bed and device import cost",
+          "proxies": "Diagnostics, medical consumables",
+          "counterevidence": "High valuation, capex funding, KIMS divergence",
+          "nextData": "Company quarterly filings and chart verification",
+          "confidence": "Low–moderate"
+        },
+        {
+          "sector": "IT / AI infrastructure",
+          "bucket": "Cooling Indian IT price, AI capex mixed",
+          "evidence": "NIFTY IT -1.36pp 3m relative, 7d -3.17%; Nvidia succession, Korean GPU pledge reportedly maintained",
+          "transmission": "Client spending, data-center capex, export demand",
+          "proxies": "Power equipment, cooling, transformers",
+          "counterevidence": "GPU commitment continues; no blanket capex cancellation",
+          "nextData": "Hyperscaler capex and supplier orderbooks",
+          "confidence": "Low–moderate"
+        },
+        {
+          "sector": "Autos / consumer durables",
+          "bucket": "1m rebound, 3m lag remains",
+          "evidence": "Auto 3m -7.57pp relative but 1m +11.02%; durables -8.54pp relative",
+          "transmission": "Financing rates, food inflation and real disposable income",
+          "proxies": "Tyres, auto finance, electrical components",
+          "counterevidence": "US PPI and Indian CPI rate pressure",
+          "nextData": "Festive retail registrations, volume and margin reports",
+          "confidence": "Moderate price, low earnings"
+        },
+        {
+          "sector": "Energy importers / chemicals",
+          "bucket": "Conditional margin benefit not proven",
+          "evidence": "Energy 3m -6.19pp relative; oil surplus projection vs Hormuz risk",
+          "transmission": "Crude, freight, INR and feedstock spreads",
+          "proxies": "Paints, tyres, airlines, chemicals",
+          "counterevidence": "War-risk insurance and INR weakness",
+          "nextData": "Brent/Dubai, freight, realized input prices",
+          "confidence": "Low"
+        }
+      ],
+      "cooling": [
+        "Indian IT 13 Nov 7d -3.17%, 3m -1.36pp relative; pricing not a verified foreign sale.",
+        "Energy 3m -6.19pp and autos -7.57pp relative despite 1m auto rebound +11.02%.",
+        "October Indian open-ended equity fund subscriptions slowed versus September despite remaining positive.",
+        "Private banks remain 3m leaders, but 7d +1.61% trails the stronger 1m +10.35% trend; verify breadth before calling acceleration."
+      ],
+      "risks": [
+        "US PCE/core inflation confirms or contradicts broad October PPI pressures; sharp 2Y/10Y yield repricing.",
+        "INR weakens beyond 13 Nov ~₹94.24/USD with Brent/freight rising, hurting importer margins.",
+        "Next Indian CPI stays above 6% with rising domestic 10Y yields and worsening NBFC funding costs.",
+        "Another independently verified Hormuz vessel attack or freight/insurance shock overwhelms oil surplus relief.",
+        "Nvidia succession/export rules disrupt contracted GPU shipments despite Korea commitment.",
+        "Verified NSE/NSDL foreign net selling reverses the previously reported 11 Nov cash inflow; do not use price as proxy.",
+        "Hospital company technical divergence accompanied by deteriorating occupancy, margins or cash conversion."
+      ],
+      "whatChanged": [
+        "NEW 13 Nov US October PPI +0.3% MoM but +6.5% YoY; adds global inflation evidence to already-known Indian CPI pressure.",
+        "NEW 13 Nov US case-by-case Jones Act waiver extension for 90 days; domestic US shipping relief is not Hormuz de-escalation.",
+        "NEW 13 Nov Nvidia succession search reporting and South Korea's reported maintenance of 260,000 GPU pledge; AI supply execution remains two-sided.",
+        "NEW 13 Nov NSE sector close now available: media +7.35pp, private banks +6.83pp, pharma +4.71pp relative 3m; energy -6.19pp, auto -7.57pp.",
+        "NEW 13 Nov OHLCV snapshot: KIMS divergence flagged; previously existing SBIN/NH/HDFCBANK/RELIANCE trend-conflict watches are not repeated as fresh breakouts.",
+        "UNCHANGED: LSEG Lipper regional subscriptions, AMFI October, India's October CPI; official 13 Nov NSE FII/DII gross turnover and NSDL sector transactions still missing.",
+        "Sector leadership and priced event-risk: December Fed +50bp YES 9.7¢, $708,104 24h betting volume, +0.45pp from stored previous snapshot; betting quote not calibrated probability."
+      ],
+      "tomorrowChecklist": [
+        "Monday 16 Nov India session: check NIFTY, private banks, pharma, media and energy against 13 Nov official closes; Saturday 14 Nov is non-trading.",
+        "Obtain 13 Nov NSE official provisional FII/DII gross buy, sell and net with timestamp; compare to NSDL settlement data without treating them as interchangeable.",
+        "Retrieve NSDL latest fortnightly sector FPI net transactions, distinguishing purchase flow from AUC; refresh AMFI primary October category table.",
+        "Check US core PCE, 2Y/10Y yields, USD/INR, RBI releases, CFTC dated positioning and Treasury TIC release vintage.",
+        "Verify Nvidia CEO appointment/export restrictions and South Korea GPU supply announcements with company/government statements.",
+        "Verify Jones Act waiver text, IEA oil outlook, Brent/Dubai and Gulf shipping insurance; don't equate US waiver with global oil supply.",
+        "Review KIMS divergence against earnings, corporate actions, and prior 20-session OHLCV; no automatic valuation revision.",
+        "Check next 07:00/19:00 source jobs and data generatedAt before claiming fresh Sunday/Monday price action."
+      ],
+      "sources": [
+        "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/",
+        "https://www.reuters.com/world/us/us-extends-shipping-law-waiver-90-days-allow-freer-movement-oil-commodities-2026-11-13/",
+        "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
+        "https://www.aol.com/articles/south-korea-says-nvidia-keep-100409000.html",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/",
+        "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/",
+        "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416",
+        "https://www.moneycontrol.com/news/business/personal-finance/equity-mutual-fund-inflows-fall-14-to-rs-32-994-crore-in-october-debt-funds-see-sharp-rebound-14077014.html/amp",
+        "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/",
+        "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://ticdata.treasury.gov/",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+      ],
+      "limitations": [
+        "RSS archive updated 2026-11-13T20:36:08Z, with 14/15 feeds successful (UN News XML failure); archive has selective headline coverage, not verified full articles.",
+        "Market sector snapshot generated 2026-11-13T20:36:50Z and stock OHLCV 2026-11-13T20:36:58Z, both as-of 13 Nov; no Saturday cash session.",
+        "Polymarket quote snapshot generated 2026-11-13T20:36:50Z; price and change are only versus stored earlier snapshots, not objective probabilities.",
+        "Official NSE 13 Nov gross FII/DII, fresh NSDL sector allocations, CFTC numeric net positioning and US TIC country figures not independently retrieved; values intentionally omitted.",
+        "No issuer CDS quote or independently confirmed issuer CDS event; no quote manufactured.",
+        "AMFI reported monthly subscriptions via corroborating secondary reporting; direct AMFI source table not retrieved.",
+        "Nvidia CEO search and GPU pledge are attributed to Reuters reporting; not treated as a signed appointment or fully audited orderbook.",
+        "Third-party OHLCV may have adjustment/corporate-action issues; KIMS technical signal is provisional."
+      ]
+    },
+    {
       "id": "2026-11-13-pm",
       "asOf": "2026-11-13",
       "createdAt": "2026-11-13T14:00:27Z",
