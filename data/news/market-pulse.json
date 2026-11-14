@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T07:51:51.254275Z",
+  "generatedAt": "2026-11-14T18:48:22.701726Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 246,
+    "items": 261,
     "publishers": 6,
     "positive": 31,
-    "negative": 59,
-    "neutral": 156,
+    "negative": 63,
+    "neutral": 167,
     "languageIndex": -4.5,
     "label": "Mixed headline language",
-    "sourceConcentration": 45.9,
+    "sourceConcentration": 48.3,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 63,
+      "items": 68,
       "publishers": 3,
       "positive": 5,
       "negative": 11,
-      "neutral": 47,
-      "languageIndex": -4.9,
+      "neutral": 52,
+      "languageIndex": -4.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 65.1,
+      "sourceConcentration": 66.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Blackstone’s AirTrunk Advances $11 Billion India Data Center Bet",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/blackstone-s-airtrunk-advances-11-billion-india-data-center-bet",
-          "date": "2026-11-14T06:08:44Z",
+          "title": "Anthropic’s valuation can’t secure its moat",
+          "url": "https://www.thehindu.com/business/Industry/anthropics-valuation-cant-secure-its-moat/article71702866.ece",
+          "date": "2026-11-14T18:21:19Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
+          "date": "2026-11-14T16:45:01Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia’s Board CEO Hunt, Stocks Finish Week Higher, Retail in Focus",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-13-2026-video",
-          "date": "2026-11-13T23:48:58Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Bloomberg Businessweek Daily Podcast: Jensen’s Nvidia Departure",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/businessweek-daily-podcast-jensen-s-nvidia-departure-video",
-          "date": "2026-11-13T23:39:32Z",
+          "title": "Bessent, Lutnick Clash Over Nvidia China Curbs",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/bessent-lutnick-clash-over-nvidia-china-curbs-video",
+          "date": "2026-11-14T14:30:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 58,
+      "items": 63,
       "publishers": 4,
       "positive": 3,
-      "negative": 20,
-      "neutral": 35,
-      "languageIndex": -33.9,
+      "negative": 21,
+      "neutral": 39,
+      "languageIndex": -33.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 43.1,
+      "sourceConcentration": 41.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
-          "date": "2026-11-14T01:31:24Z",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-14T15:15:57Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "The Stadium Bidding War Shaking Up the Midwest",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+          "date": "2026-11-14T15:04:14Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
-          "date": "2026-11-13T18:32:51Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
-          "date": "2026-11-13T16:50:48Z",
+          "title": "Ukraine Peace Push Turns to NATO and Donbas",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/ukraine-peace-push-turns-to-nato-and-donbas-video",
+          "date": "2026-11-14T13:30:12Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,34 +109,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 53,
+      "items": 55,
       "publishers": 5,
       "positive": 4,
-      "negative": 18,
-      "neutral": 31,
-      "languageIndex": -24.2,
+      "negative": 19,
+      "neutral": 32,
+      "languageIndex": -24.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 73.6,
+      "sourceConcentration": 74.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
+          "date": "2026-11-14T15:08:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
+          "date": "2026-11-14T10:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
           "date": "2026-11-14T00:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
-          "date": "2026-11-13T19:55:01Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nagel Says ‘Highly Probable’ That ECB Will Have to Act Again",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
-          "date": "2026-11-13T16:32:05Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 25,
+      "items": 26,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 22,
-      "languageIndex": -3.9,
+      "neutral": 23,
+      "languageIndex": -4.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 36.0,
+      "sourceConcentration": 38.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
+          "date": "2026-11-14T17:46:23Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Three Issues Where Congress Could Strike a Deal Next Year",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
@@ -174,12 +180,6 @@
           "title": "Democratic Senate leader Schumer set to face leadership challenge",
           "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-13T19:03:10Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T03:57:01Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -238,34 +238,34 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 21,
-      "publishers": 3,
+      "items": 22,
+      "publishers": 4,
       "positive": 6,
-      "negative": 4,
+      "negative": 5,
       "neutral": 11,
-      "languageIndex": 10.4,
-      "label": "Insufficient observations",
-      "sourceConcentration": 76.2,
-      "coverageSufficient": false,
+      "languageIndex": 1.7,
+      "label": "Mixed headline language",
+      "sourceConcentration": 68.2,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-14T11:30:10Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
+          "date": "2026-11-14T08:30:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
           "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
           "date": "2026-11-14T00:29:03Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
-          "date": "2026-11-13T22:33:48Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump to Extend Shipping Waiver for Oil, Fertilizer for 90 Days",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days",
-          "date": "2026-11-13T17:47:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -281,18 +281,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 6,
+      "items": 7,
       "publishers": 2,
       "positive": 0,
-      "negative": 4,
+      "negative": 5,
       "neutral": 2,
-      "languageIndex": -40.0,
+      "languageIndex": -41.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.3,
+      "sourceConcentration": 85.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council",
+          "date": "2026-11-14T07:46:24Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
@@ -303,12 +309,6 @@
           "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
           "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
           "date": "2026-11-12T23:46:08Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
-          "date": "2026-11-11T14:53:13Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -645,34 +645,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 58,
+      "items": 63,
       "publishers": 4,
       "positive": 3,
-      "negative": 20,
-      "neutral": 35,
-      "languageIndex": -33.9,
+      "negative": 21,
+      "neutral": 39,
+      "languageIndex": -33.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 43.1,
+      "sourceConcentration": 41.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
-          "date": "2026-11-14T01:31:24Z",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-14T15:15:57Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "The Stadium Bidding War Shaking Up the Midwest",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+          "date": "2026-11-14T15:04:14Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
-          "date": "2026-11-13T18:32:51Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/europe-taps-national-security-advisers-for-russia-ukraine-talks",
-          "date": "2026-11-13T16:50:48Z",
+          "title": "Ukraine Peace Push Turns to NATO and Donbas",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/ukraine-peace-push-turns-to-nato-and-donbas-video",
+          "date": "2026-11-14T13:30:12Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -688,34 +688,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 53,
+      "items": 55,
       "publishers": 5,
       "positive": 4,
-      "negative": 18,
-      "neutral": 31,
-      "languageIndex": -24.2,
+      "negative": 19,
+      "neutral": 32,
+      "languageIndex": -24.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 73.6,
+      "sourceConcentration": 74.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
+          "date": "2026-11-14T15:08:45Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
+          "date": "2026-11-14T10:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
           "date": "2026-11-14T00:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed Set to Raise Interest Rates Next Month as Debate Moves to January",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-set-to-raise-interest-rates-next-month-as-debate-moves-to-january",
-          "date": "2026-11-13T19:55:01Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nagel Says ‘Highly Probable’ That ECB Will Have to Act Again",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nagel-says-highly-probable-that-ecb-will-have-to-act-again",
-          "date": "2026-11-13T16:32:05Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -731,18 +731,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 25,
+      "items": 26,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 22,
-      "languageIndex": -3.9,
+      "neutral": 23,
+      "languageIndex": -4.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 36.0,
+      "sourceConcentration": 38.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
+          "date": "2026-11-14T17:46:23Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Three Issues Where Congress Could Strike a Deal Next Year",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
@@ -753,12 +759,6 @@
           "title": "Democratic Senate leader Schumer set to face leadership challenge",
           "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-13T19:03:10Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T03:57:01Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -774,18 +774,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 6,
+      "items": 7,
       "publishers": 2,
       "positive": 0,
-      "negative": 4,
+      "negative": 5,
       "neutral": 2,
-      "languageIndex": -40.0,
+      "languageIndex": -41.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.3,
+      "sourceConcentration": 85.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council",
+          "date": "2026-11-14T07:46:24Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
@@ -796,12 +802,6 @@
           "title": "The Debrief: Lutnick Faces Scrutiny Over Chip Export Controls",
           "url": "https://www.bloomberg.com/news/videos/2026-11-12/lutnick-faces-scrutiny-over-chip-export-controls-video",
           "date": "2026-11-12T23:46:08Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/lithium-americas-shares-sink-as-us-backed-mine-costs-rise",
-          "date": "2026-11-11T14:53:13Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -940,7 +940,7 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 113
+      "stories": 126
     },
     {
       "publisher": "www.thehindu.com",
@@ -948,7 +948,7 @@
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 47
+      "stories": 49
     },
     {
       "publisher": "news.un.org",
@@ -964,7 +964,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 11,
+    "reportedScanCount": 12,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },

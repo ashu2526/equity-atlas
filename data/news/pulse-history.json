@@ -2,46 +2,46 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-14T07:51:51.254275Z",
+      "generatedAt": "2026-11-14T18:48:22.701726Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 246,
+        "items": 261,
         "publishers": 6,
         "positive": 31,
-        "negative": 59,
-        "neutral": 156,
+        "negative": 63,
+        "neutral": 167,
         "languageIndex": -4.5,
         "label": "Mixed headline language",
-        "sourceConcentration": 45.9,
+        "sourceConcentration": 48.3,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 63,
+          "items": 68,
           "publishers": 3,
-          "languageIndex": -4.9,
+          "languageIndex": -4.4,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 58,
+          "items": 63,
           "publishers": 4,
-          "languageIndex": -33.9,
+          "languageIndex": -33.4,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 53,
+          "items": 55,
           "publishers": 5,
-          "languageIndex": -24.2,
+          "languageIndex": -24.3,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 25,
+          "items": 26,
           "publishers": 4,
-          "languageIndex": -3.9,
+          "languageIndex": -4.2,
           "attentionDeltaPct": null
         },
         {
@@ -53,16 +53,16 @@
         },
         {
           "id": "energy_shipping",
-          "items": 21,
-          "publishers": 3,
-          "languageIndex": 10.4,
+          "items": 22,
+          "publishers": 4,
+          "languageIndex": 1.7,
           "attentionDeltaPct": null
         },
         {
           "id": "trade_policy",
-          "items": 6,
+          "items": 7,
           "publishers": 2,
-          "languageIndex": -40.0,
+          "languageIndex": -41.7,
           "attentionDeltaPct": null
         },
         {
