@@ -3,6 +3,382 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-15-pm",
+      "asOf": "2026-11-15",
+      "createdAt": "2026-11-15T13:56:17Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published research — provisional; Sunday India non-trading day; no new Indian cash-session OHLCV; key primary institution flow series not independently retrieved",
+      "marketSession": "PM — Sunday 15 Nov 2026, 19:26 IST; Gulf Sunday trading and new Middle East developments; last completed Indian cash session Friday 13 Nov",
+      "coverageWindow": {
+        "start": "2026-11-01",
+        "end": "2026-11-15T19:26:17+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-15T08:12:15.250536Z",
+      "headline": "Sunday Gulf equity declines and Bahrain drone interceptions sharpen India's energy-risk test; November FPI buying remains aggregate, not sector evidence",
+      "executiveSummary": "NEW since 15 Nov AM: Reuters reported Sunday declines across Gulf bourses amid Houthi attacks and Hormuz mine claims; Bahrain said it intercepted Iranian aerial attacks, while the Iranian claim of hitting a US base was not independently confirmed. Sunday reporting put India November-to-13th FPI equity purchases at ₹84,290 crore, but the figure is secondary and its coverage is not directly comparable with provisional NSE cash turnover. This adds a dated aggregate-flow observation, not sector attribution. India's Friday 13 Nov sector prices, CPI and trade deficit remain the relevant last-completed macro/market baseline. The 15 Nov 08:12 UTC RSS scan and 08:08 UTC signals finished, but the scheduled 19:00 IST collector has not appeared in these snapshots. Sunday has no NSE trading session. The Fed December 25bp hike YES contract declined to 86.5¢ in the stored 08:08 UTC quote, 1.0 percentage point below its preceding stored observation; no later quote verified. Distinguish directly observed Sunday Gulf market reaction from unobserved Monday Indian market reaction.",
+      "regime": {
+        "label": "Mixed / geopolitical-energy stress with unconfirmed India price response",
+        "change": "Higher evidence of Sunday regional-market stress and Bahrain defensive interceptions since morning; no new India cash price confirmation; secondary November aggregate FPI buying report, not fresh NSE flow.",
+        "confidence": "Moderate for dated Reuters Sunday Gulf index and Bahrain statements; low for India market extrapolation, claimed Iranian attack damage, sector FPI attribution and unrefreshed evening datasets.",
+        "marketConfirmation": "Sunday Gulf: Reuters reported Saudi index -0.7%, Qatar -1.8% on 15 Nov. India NSE closed Sunday; Friday 13 Nov NIFTY 50 25,144.3 (-0.61%) and sector relative-price data remain last available.",
+        "contradictions": [
+          "November-to-date aggregate FPI buying versus Friday NIFTY weakness",
+          "Energy supply-surplus discussion versus escalating Gulf shipping/security events",
+          "Private-bank price leadership versus domestic CPI above RBI tolerance and higher funding risk",
+          "Strong AI investment proposals versus uncertain monetization, funding spreads and supplier orders"
+        ],
+        "missingSignals": [
+          "Monday 16 Nov Indian spot/forward FX, Brent, shipping insurance, NSE price breadth and cash-session confirmation",
+          "Primary NSE 13 Nov FII/DII gross buy/sell/net",
+          "NSDL latest sector FPI allocation and dated depository total reconciliation",
+          "October AMFI monthly equity subscriptions primary PDF/table",
+          "Latest CFTC positioning and US Treasury TIC country-flow amounts",
+          "New post-08:08 UTC Polymarket snapshot and 19:00 IST signal refresh"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "Saudi benchmark Sunday move",
+          "value": "-0.7%",
+          "period": "2026-11-15 Sunday session",
+          "dataClass": "reported regional equity price return",
+          "source": "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/"
+        },
+        {
+          "name": "Qatar benchmark Sunday move",
+          "value": "-1.8%",
+          "period": "2026-11-15 Sunday session",
+          "dataClass": "reported regional equity price return",
+          "source": "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/"
+        },
+        {
+          "name": "India FPI equity buying reported MTD",
+          "value": "₹84,290 crore",
+          "period": "2026-11-01 to 2026-11-13",
+          "dataClass": "secondary-reported aggregate FPI equity net flow; primary reconciliation unavailable",
+          "source": "https://timesofindia.indiatimes.com/business/india-business/fpis-pump-rs-84290-crore-into-indian-equities-in-november-after-two-months-of-outflows/articleshow/135850868.cms"
+        },
+        {
+          "name": "India merchandise trade deficit",
+          "value": "US$39.88 billion",
+          "period": "October 2026",
+          "dataClass": "reported official goods trade balance; not services-inclusive",
+          "source": "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/"
+        },
+        {
+          "name": "India October CPI YoY",
+          "value": "6.09%",
+          "period": "October 2026",
+          "dataClass": "official CPI reported by Reuters",
+          "source": "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/"
+        },
+        {
+          "name": "NIFTY Private Bank 3m relative return",
+          "value": "+6.83 percentage points",
+          "period": "3m through 2026-11-13",
+          "dataClass": "NSE index price relative performance; not FPI sector flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "NIFTY Pharma 3m relative return",
+          "value": "+4.71 percentage points",
+          "period": "3m through 2026-11-13",
+          "dataClass": "NSE index price relative performance; not FPI sector flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "NIFTY Energy 3m relative return",
+          "value": "-6.19 percentage points",
+          "period": "3m through 2026-11-13",
+          "dataClass": "NSE index price relative performance; not FPI sector flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "Fed December 25bp increase YES",
+          "value": "86.5¢; -1.0 pp versus prior stored quote",
+          "period": "2026-11-15 08:08:58 UTC; previous 2026-11-14 18:48:48 UTC",
+          "dataClass": "Polymarket betting contract quote; not calibrated probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Fed December 25bp YES market 24h betting volume",
+          "value": "US$382,043.80; liquidity US$795,775.15",
+          "period": "2026-11-15 08:08:58 UTC",
+          "dataClass": "prediction-market contract volume and liquidity; not equity capital flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "NIFTY 50 Friday close",
+          "value": "25,144.3 (-0.61%)",
+          "period": "2026-11-13",
+          "dataClass": "prior completed cash session price",
+          "source": "https://www.nseindia.com/"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-15-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "geopolitics_energy",
+          "geography": "Gulf / India",
+          "title": "Gulf equity markets decline as Hormuz and Houthi threats intensify",
+          "whatHappened": "15 Nov Reuters: Saudi benchmark -0.7% and Qatar -1.8%; reports of Houthi attacks on Saudi facilities and Iranian claims of tanker mine strikes. Claims about tanker damage remain attribution-dependent.",
+          "whyItMatters": [
+            "A sustained disruption to crude/LNG routes can raise India's energy import bill, current-account financing need and FX pressure.",
+            "Shipping insurance, rerouting and fuel surcharges can hurt aviation, logistics, chemicals and downstream manufacturers even without a sustained Brent spike."
+          ],
+          "smartMoney": "Not measured: no attributable cash-equity sector transactions verified for this event.",
+          "direct": "Oil marketing companies, airlines, paint/chemical feedstock users, shipping and gas importers; near-term margin sensitivity depends on pass-through.",
+          "proxies": "Domestic upstream oil producers, select refiners and energy infrastructure suppliers may respond differently; not an automatic beneficiary.",
+          "whatCouldChange": "Confirm independently documented vessel damage, Brent/Dubai spreads, freight insurance, Monday INR, OMC margins and corporate procurement costs.",
+          "caution": "Saudi/Qatar declines may reflect regional idiosyncratic risk; reported mine strikes are not independently confirmed; no Indian Sunday equity price.",
+          "sources": [
+            "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/",
+            "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/"
+          ],
+          "evidenceType": "Dated publisher report; market transmission is conditional research inference"
+        },
+        {
+          "id": "2026-11-15-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "geopolitics_credit",
+          "geography": "Bahrain / Iran / US",
+          "title": "Bahrain reports intercepting Iranian aerial attacks; US-base damage unverified",
+          "whatHappened": "15 Nov Reuters: Bahrain said air defences intercepted aerial attacks; Iran's IRGC claimed a strike against radar at a US-linked base. US/Bahraini confirmation of damage was not available.",
+          "whyItMatters": [
+            "Direct military escalation can increase energy-risk premia and uncertainty in global inflation expectations.",
+            "Risk-off positioning could affect emerging-market currencies and credit funding even when oil physical supply is unchanged."
+          ],
+          "smartMoney": "Not measured: no attributable cash-equity sector transactions verified for this event.",
+          "direct": "India-imported energy, aviation, high-beta finance, global EM debt; rate and FX sensitivity.",
+          "proxies": "Defence systems, cybersecurity and insurance pricing are conditional proxies, not established contracts or profit uplifts.",
+          "whatCouldChange": "Watch US/Bahrain official statements, vessel traffic, sovereign yields, CDS event news from verified sources and Monday India spreads.",
+          "caution": "An intercepted attack is not evidence of facility damage; no sovereign/issuer CDS quote verified.",
+          "sources": [
+            "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+            "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/"
+          ],
+          "evidenceType": "Dated publisher report; market transmission is conditional research inference"
+        },
+        {
+          "id": "2026-11-15-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Secondary report puts November-to-13th FPI equity net buying at ₹84,290 crore",
+          "whatHappened": "15 Nov Times of India reported ₹84,290 crore aggregate FPI equity inflow for 1–13 Nov, after two months of selling; NSDL and NSE primary transaction series were not independently reconciled.",
+          "whyItMatters": [
+            "A sustained aggregate foreign demand reversal could ease equity risk premia and support liquidity.",
+            "Daily provisional NSE FII/DII cash trading, depository FPI purchases and sector allocations have different coverage and must not be merged without reconciliation."
+          ],
+          "smartMoney": "Secondary-reported aggregate FPI equity net inflow ₹84,290 crore, 1–13 Nov; primary source not retrieved; sector split not measured.",
+          "direct": "Broad India large caps and market liquidity; no named industry net buying established.",
+          "proxies": "Brokers and capital-market intermediaries may benefit only if turnover, client additions and AUM confirm.",
+          "whatCouldChange": "Reconcile primary NSDL fortnightly equity flows with NSE daily buy/sell/net and inspect sector allocations by publication period.",
+          "caution": "Secondary ₹84,290 crore is not evidence of bank/IT/auto purchases; do not add it to 13 Nov NSE provisional figures.",
+          "sources": [
+            "https://timesofindia.indiatimes.com/business/india-business/fpis-pump-rs-84290-crore-into-indian-equities-in-november-after-two-months-of-outflows/articleshow/135850868.cms",
+            "https://www.fpi.nsdl.co.in/",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Secondary reported fund flow; primary verification pending"
+        },
+        {
+          "id": "2026-11-15-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "india_external",
+          "geography": "India / USD",
+          "title": "October merchandise deficit and rupee vulnerability remain central to Monday setup",
+          "whatHappened": "13 Nov Reuters reported October goods deficit US$39.88bn vs September US$30.21bn, petroleum imports US$22.82bn, and goods exports US$49.47bn. No new Sunday India balance release.",
+          "whyItMatters": [
+            "Larger imported-energy and gold bills increase FX demand even alongside record merchandise exports.",
+            "Rupee depreciation can increase imported input costs and unhedged foreign-currency debt service; exporter translation benefit depends on hedges."
+          ],
+          "smartMoney": "Not measured: no attributable cash-equity sector transactions verified for this event.",
+          "direct": "Oil-importing manufacturers, airlines, OMCs, NBFC foreign borrowings; FX pass-through and working capital.",
+          "proxies": "IT services, pharma exporters and selective engineering exporters may benefit from INR translation if overseas demand holds.",
+          "whatCouldChange": "Verify Monday INR spot/forward, RBI intervention disclosures where available, export orders, input costs and oil landed prices.",
+          "caution": "Do not confuse goods deficit with goods-plus-services balance; October gold imports were seasonal.",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/",
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+          ],
+          "evidenceType": "Dated publisher report; market transmission is conditional research inference"
+        },
+        {
+          "id": "2026-11-15-pm-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "inflation_rates",
+          "geography": "India / US",
+          "title": "India's 6.09% CPI breach keeps rate-sensitive valuations vulnerable",
+          "whatHappened": "12 Nov official CPI as reported by Reuters: October 6.09% YoY, food 8.94%, versus 5.54% September. No new CPI print on Sunday.",
+          "whyItMatters": [
+            "Persistently high inflation may raise deposit costs and delay rate relief, challenging leveraged businesses.",
+            "Higher discount rates reduce present values of long-duration cash flows and can weaken consumer discretionary purchasing power."
+          ],
+          "smartMoney": "Not measured: no attributable cash-equity sector transactions verified for this event.",
+          "direct": "Banks, NBFCs, realty, autos and consumption; deposit repricing, NIM, funding and demand.",
+          "proxies": "Food supply chains, inventory management and pricing-power companies could outperform selectively if volumes hold.",
+          "whatCouldChange": "Check RBI communication, government food measures, bond yields, bank deposit-rate changes and November CPI components.",
+          "caution": "Single-month breach is not an automatic policy decision; monetary-policy transmission may be delayed.",
+          "sources": [
+            "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/",
+            "https://www.rbi.org.in/"
+          ],
+          "evidenceType": "Dated publisher report; market transmission is conditional research inference"
+        },
+        {
+          "id": "2026-11-15-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "ai_credit",
+          "geography": "US / India",
+          "title": "AI infrastructure spending and credit appetite diverge; new Sunday valuation debate is not capex evidence",
+          "whatHappened": "14 Nov Bloomberg credit weekly described attraction of high-yield credit amid Nvidia-related volatility; 14 Nov The Hindu industry opinion questioned Anthropic's valuation moat. These are commentary and valuation discussions, not signed procurement or observed cash flows.",
+          "whyItMatters": [
+            "If AI infrastructure funding spreads widen, data-centre project discount rates and financing capacity may change.",
+            "India power equipment, cooling, transformers and stationary storage benefit only through funded, contracted construction and procurement."
+          ],
+          "smartMoney": "Not measured: no attributable cash-equity sector transactions verified for this event.",
+          "direct": "Global AI-linked credit, data-centre developers, India capital goods and electrical equipment; financing and order-book sensitivity.",
+          "proxies": "Power transmission, cooling, grid-scale storage and construction are second-order watch candidates.",
+          "whatCouldChange": "Require signed contracts, funding disclosures, data-centre commissioning schedules, capex guidance and actual supplier order inflows.",
+          "caution": "No issuer CDS quote, AI capex cancellation, Indian supplier contract or primary credit spread series verified.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+            "https://www.thehindu.com/business/Industry/anthropics-valuation-cant-secure-its-moat/article71702866.ece"
+          ],
+          "evidenceType": "Dated publisher report; market transmission is conditional research inference"
+        },
+        {
+          "id": "2026-11-15-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "asia_defence_policy",
+          "geography": "Australia / Philippines / China",
+          "title": "Australia and Philippines upgrade defence ties with China focus",
+          "whatHappened": "15 Nov Bloomberg RSS reports an Australia–Philippines defence-ties upgrade; full policy instrument, budgets and implementation terms were not independently verified.",
+          "whyItMatters": [
+            "Regional defence cooperation could change procurement priorities and Indo-Pacific shipping-risk assessments over time.",
+            "Near-term Indian defence earnings cannot be inferred without awarded orders, export permits and procurement schedules."
+          ],
+          "smartMoney": "Not measured; no documented institutional transactions or awarded contracts.",
+          "direct": "Asia defence contractors and regional maritime logistics; India exporters only where tenders are documented.",
+          "proxies": "Indian electronics, surveillance and shipbuilding suppliers are potential indirect candidates, not confirmed winners.",
+          "whatCouldChange": "Find official joint communiqué, budget appropriations, procurement tenders and Indian exporter disclosures.",
+          "caution": "RSS headline only; not verified enacted policy or booked revenue.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+          ],
+          "evidenceType": "Publisher RSS headline only; details unverified"
+        },
+        {
+          "id": "2026-11-15-pm-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "global_rates_event_risk",
+          "geography": "US / India",
+          "title": "Fed event-risk quote falls despite hawkish macro backdrop",
+          "whatHappened": "15 Nov 08:08 UTC stored Polymarket YES quote for 'Will the Fed increase interest rates by 25 bps after the December 2026 meeting?' was 86.5¢, down 1.0 pp versus 14 Nov 18:48 UTC stored snapshot; 24h betting volume $382,043.80 and liquidity $795,775.15.",
+          "whyItMatters": [
+            "Rate expectations can transmit through US Treasury yields, USD/INR, foreign portfolio discount rates and India credit costs.",
+            "A contract price move is one market's risk pricing, not an official FOMC forecast or direct foreign buying/selling."
+          ],
+          "smartMoney": "Not measured for equity; observed betting-market contract volume is not institutional equity flow.",
+          "direct": "US duration, India banks, NBFCs, real estate and leveraged capex.",
+          "proxies": "Long-duration infrastructure and housing supply chains respond to yields and credit costs, subject to financing mix.",
+          "whatCouldChange": "Verify actual FOMC statement, Fed funds futures, US Treasury curve and a new Polymarket snapshot before claiming a further move.",
+          "caution": "Quote is not an objective probability; Sunday evening quote unavailable; betting volume is not equity flow.",
+          "sources": [
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+            "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+          ],
+          "evidenceType": "Dated stored prediction-market quote, not official rate guidance"
+        }
+      ],
+      "watchNow": [
+        "Accelerating conditionally — PSU banks: 3m +2.76pp relative to NIFTY 50, 1m +13.36%, 7d +7.50% through 13 Nov; inspect deposit costs, NIM and asset quality; no new Sunday price or NSDL bank flows.",
+        "Accelerating conditionally — Pharma: 3m +4.71pp, 1m +10.87%, 7d +2.13%; export translation and domestic demand could help but US price pressure/regulatory risks persist; verify Q2 margins, USFDA and product approvals.",
+        "Selective leadership — Private banks: 3m +6.83pp, 1m +10.35%, 7d +1.61%; unchanged since AM; reconcile Friday reported FPI buying with actual NSDL sector allocation before attributing flows.",
+        "Unproven earnings conversion — Data-centre power/cooling/transformers/BESS: India AI infrastructure proposals are not contracts; verify capex funding, transformer orders, utilisation and project commissioning.",
+        "Cooling / lagging — Energy index: 3m -6.19pp vs NIFTY; Gulf risk could favour upstream but hurt downstream importers; verify crude, refining cracks and sector earnings rather than assuming uniform gain.",
+        "Cooling / lagging — Auto index: 3m -7.57pp despite 1m +11.19%; demand rebound unproven against financing, fuel and imported inputs; check retail registrations, inventory and margins.",
+        "Not yet proven — Media: 3m +7.35pp but 1m relative -4.06pp; high absolute 7d return does not validate ad-growth recovery; verify ad pricing, subscription ARPU and earnings breadth.",
+        "Not yet proven — Realty/NBFC: 1m rebound with inflation and bond-yield headwinds; verify mortgage disbursements, funding spreads, pre-sales and delinquency before upgrading thesis."
+      ],
+      "cooling": [
+        "Sunday Indian cash market closed; no new NIFTY, sector, company OHLCV or NSE cash-turnover observation.",
+        "Media relative 1m return -4.06pp despite 3m leadership; needs revenue confirmation.",
+        "Energy and autos remain negative 3m relative performers, though Friday is last completed session.",
+        "No fresh institutional sector purchase confirmation; November aggregate FPI figure remains secondary and non-sectoral."
+      ],
+      "risks": [
+        "Brent, Gulf shipping insurance or freight jump after verified damage to energy routes.",
+        "Fresh military escalation affecting Bahrain/Saudi/Qatar infrastructure, with independently verified physical damage.",
+        "USD/INR and India sovereign yields reprice sharply following inflation and trade-deficit data.",
+        "Monday NIFTY breadth weakens while private-bank price leadership fails.",
+        "NSDL/NSE primary cash-flow data contradict secondary reported ₹84,290 crore FPI total.",
+        "Fed yields rise despite the observed decline in the stored December 25bp betting contract.",
+        "AI credit spreads widen or capex project funding fails to translate into supplier orders."
+      ],
+      "whatChanged": [
+        "NEW Sunday: Reuters reported Saudi benchmark -0.7% and Qatar -1.8% in actual regional trading amid Hormuz/Houthi risk; unlike AM, there is observable regional price reaction.",
+        "NEW Sunday: Bahrain reported intercepting Iranian aerial attacks; Tehran's claim of a successful US-base radar strike is not independently verified.",
+        "NEW secondary aggregate-flow report: November 1–13 India FPI equity buying ₹84,290 crore; primary depository reconciliation and sector attribution remain unavailable.",
+        "Source refresh: 15 Nov 08:12:15 UTC RSS archive (14/15 feeds successful); 08:08:58 UTC NSE sector and Polymarket collector; 08:09:11 UTC company technical collector. No 19:00 IST refresh yet present.",
+        "UNCHANGED from AM: last Indian session 13 Nov; private banks +6.83pp and pharma +4.71pp 3m relative; no new company daily bar or new technical alert.",
+        "Stored Fed December 25bp YES quote 86.5¢, down 1.0pp vs 14 Nov 18:48 UTC snapshot; not a new Sunday evening price."
+      ],
+      "tomorrowChecklist": [
+        "Monday 16 Nov: collect official NSE FII/DII cash gross buys, gross sells and net for Friday and Monday, with exact periods.",
+        "Reconcile reported November ₹84,290 crore FPI equity net flow with primary NSDL depository daily/fortnightly data; do not double-count provisional NSE turnover.",
+        "Check official NSDL sector FPI allocation publication dates and latest available sector net flows.",
+        "Track Monday Brent/Dubai crude, INR spot/forward, 10y India G-sec, shipping-insurance premium and Gulf incident confirmations.",
+        "Refresh 16 Nov NIFTY sector index 1w/1m/3m relative returns and monitor private-bank/pharma leadership breadth.",
+        "Check company 20/55-session volume-backed breakouts, 200-DMA crossings, CMF/OBV divergence only after a completed 16 Nov bar; no Sunday technical alert.",
+        "Retrieve primary AMFI October equity scheme net inflows, CFTC latest weekly positions and US Treasury TIC latest country holdings/transactions, with differing lags and units.",
+        "Recheck Fed December contract quote, event resolution terms, 24h betting volume and liquidity against actual next stored Polymarket snapshot."
+      ],
+      "sources": [
+        "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/",
+        "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+        "https://timesofindia.indiatimes.com/business/india-business/fpis-pump-rs-84290-crore-into-indian-equities-in-november-after-two-months-of-outflows/articleshow/135850868.cms",
+        "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/",
+        "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/",
+        "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+        "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+        "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.nseindia.com/all-reports",
+        "https://tejhq.dev/docs",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "Sunday 15 Nov is a non-trading day in India; no new NSE cash market close, provisional cash flows or completed company OHLCV.",
+        "Repository RSS 15 Nov 08:12:15 UTC: 14 of 15 feeds succeeded; UN News failed; headline archive is not comprehensive and RSS items are not independently verified full-text.",
+        "Repository market rotation 15 Nov 08:08:58 UTC and company OHLCV 08:09:11 UTC contain last Indian trading bars 13 Nov; 19:00 IST refresh not present.",
+        "Official primary NSE 13 Nov gross FII/DII buy/sell/net not retrieved. Secondary November ₹84,290 crore FPI report not reconciled with primary NSDL series.",
+        "Latest primary NSDL sector allocations, AMFI October scheme flows, CFTC positioning and US Treasury TIC country flow numbers not retrieved; no invented amounts.",
+        "Reuters Sunday Gulf reports contain official claims of attacks; independent confirmation of tanker mine strikes and US-base damage is unavailable.",
+        "Polymarket 08:08 UTC quotes are event betting-market prices; 19:26 IST live odds not measured, and volume is not institutional equity flow.",
+        "Company technical flags in Friday bars (KIMS divergence; SBIN 200-DMA watch) were present previously; no unchanged alert repeated as newly triggered.",
+        "No verified issuer CDS prices or new CDS event observations; no credit default quote inferred from bond commentary.",
+        "India market sentiment assessment based on dated prices, CPI, FX risk and regional developments, not the archive's keyword-based headline-tone index."
+      ]
+    },
+    {
       "id": "2026-11-15-am",
       "asOf": "2026-11-15",
       "createdAt": "2026-11-15T01:55:00Z",
