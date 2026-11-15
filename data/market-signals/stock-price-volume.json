@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T08:09:11.198347+00:00",
+  "generatedAt": "2026-11-15T19:26:26.578618+00:00",
   "asOf": "2026-11-13",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
@@ -51,7 +51,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -1068,7 +1068,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -2074,7 +2074,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -3080,7 +3080,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -4086,7 +4086,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -5092,7 +5092,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -6098,7 +6098,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -7104,7 +7104,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -8121,7 +8121,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -9127,7 +9127,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -10133,7 +10133,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -11139,7 +11139,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -12145,7 +12145,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -13151,7 +13151,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -14157,7 +14157,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -15174,7 +15174,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -16180,7 +16180,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -17207,7 +17207,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -18224,7 +18224,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -19230,7 +19230,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -20236,7 +20236,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -21242,7 +21242,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 0,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },

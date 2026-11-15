@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T08:08:58.356366+00:00",
+  "generatedAt": "2026-11-15T19:26:24.751079+00:00",
   "asOf": "2026-11-13",
   "market": "India (NSE NIFTY sector price-return indices)",
   "status": "ready",
@@ -5945,9 +5945,13 @@
   "missingIndices": [],
   "sourceDiagnostics": {
     "nseDailyFiles": 81,
-    "nseAttemptedThisRun": 1,
-    "nseFailedThisRun": 1,
+    "nseAttemptedThisRun": 2,
+    "nseFailedThisRun": 2,
     "nseErrorExamples": [
+      [
+        "2026-11-16",
+        "HTTP Error 404: Not Found"
+      ],
       [
         "2026-11-10",
         "HTTP Error 404: Not Found"
