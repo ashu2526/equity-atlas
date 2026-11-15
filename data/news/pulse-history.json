@@ -2,46 +2,46 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-15T08:12:15.250536Z",
+      "generatedAt": "2026-11-15T19:25:48.590700Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 266,
+        "items": 282,
         "publishers": 6,
-        "positive": 33,
-        "negative": 63,
-        "neutral": 170,
+        "positive": 35,
+        "negative": 68,
+        "neutral": 179,
         "languageIndex": -4.0,
         "label": "Mixed headline language",
-        "sourceConcentration": 49.2,
+        "sourceConcentration": 51.4,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 69,
+          "items": 78,
           "publishers": 3,
-          "languageIndex": -3.6,
+          "languageIndex": -3.7,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 64,
+          "items": 68,
           "publishers": 4,
-          "languageIndex": -33.1,
+          "languageIndex": -32.0,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 55,
+          "items": 57,
           "publishers": 5,
-          "languageIndex": -22.1,
+          "languageIndex": -22.3,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 27,
+          "items": 30,
           "publishers": 4,
-          "languageIndex": -4.4,
+          "languageIndex": -4.9,
           "attentionDeltaPct": null
         },
         {
@@ -69,7 +69,7 @@
           "id": "climate_agri",
           "items": 5,
           "publishers": 3,
-          "languageIndex": 0.0,
+          "languageIndex": -33.3,
           "attentionDeltaPct": null
         },
         {

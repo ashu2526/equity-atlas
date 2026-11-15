@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T08:12:15.250536Z",
+  "generatedAt": "2026-11-15T19:25:48.590700Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 266,
+    "items": 282,
     "publishers": 6,
-    "positive": 33,
-    "negative": 63,
-    "neutral": 170,
+    "positive": 35,
+    "negative": 68,
+    "neutral": 179,
     "languageIndex": -4.0,
     "label": "Mixed headline language",
-    "sourceConcentration": 49.2,
+    "sourceConcentration": 51.4,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 69,
+      "items": 78,
       "publishers": 3,
-      "positive": 6,
-      "negative": 11,
-      "neutral": 52,
-      "languageIndex": -3.6,
+      "positive": 7,
+      "negative": 13,
+      "neutral": 58,
+      "languageIndex": -3.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 69.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-          "date": "2026-11-14T20:00:00Z",
+          "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
+          "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
+          "date": "2026-11-15T19:00:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic’s valuation can’t secure its moat",
-          "url": "https://www.thehindu.com/business/Industry/anthropics-valuation-cant-secure-its-moat/article71702866.ece",
-          "date": "2026-11-14T18:21:19Z",
-          "publisher": "www.thehindu.com"
+          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
+          "date": "2026-11-15T18:12:47Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
-          "date": "2026-11-14T16:45:01Z",
+          "title": "Nvidia Fallout, Next Mega IPO, FAA Router Failure",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-15/bloomberg-this-weekend-11-15-2026-video",
+          "date": "2026-11-15T16:53:51Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,35 +66,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 64,
+      "items": 68,
       "publishers": 4,
-      "positive": 3,
-      "negative": 21,
-      "neutral": 40,
-      "languageIndex": -33.1,
+      "positive": 4,
+      "negative": 22,
+      "neutral": 42,
+      "languageIndex": -32.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 40.6,
+      "sourceConcentration": 41.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
-          "date": "2026-11-14T21:47:26Z",
+          "title": "Estonia to Close Border With Russia After Sabotage Attempt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker",
+          "date": "2026-11-15T13:43:59Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-14T15:15:57Z",
+          "title": "Iran targets US military base in Bahrain with drone attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-15T13:42:58Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "The Stadium Bidding War Shaking Up the Midwest",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
-          "date": "2026-11-14T15:04:14Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-15T08:17:41Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -109,34 +109,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 55,
+      "items": 57,
       "publishers": 5,
       "positive": 4,
-      "negative": 19,
-      "neutral": 32,
-      "languageIndex": -22.1,
+      "negative": 20,
+      "neutral": 33,
+      "languageIndex": -22.3,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.4,
+      "sourceConcentration": 77.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Schmid Says Fed Has More Work To Do to Bring Down Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/schmid-says-fed-has-more-work-to-do-to-bring-down-inflation",
+          "date": "2026-11-15T18:40:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ECB Tools Can’t Replace Sound Fiscal Policy, Knot Tells Corriere",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere",
+          "date": "2026-11-15T07:58:02Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
           "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
           "date": "2026-11-15T02:22:27Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
-          "date": "2026-11-14T15:08:45Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
-          "date": "2026-11-14T10:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 27,
+      "items": 30,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 24,
-      "languageIndex": -4.4,
+      "neutral": 27,
+      "languageIndex": -4.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 40.7,
+      "sourceConcentration": 46.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anwar’s Coalition Suffers Third Straight Regional Poll Defeat",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/anwar-s-coalition-suffers-third-straight-regional-poll-defeat",
-          "date": "2026-11-15T01:45:48Z",
+          "title": "Latvian Premier Says Agreement Reached for New Government",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/latvian-premier-says-agreement-reached-for-new-government",
+          "date": "2026-11-15T18:20:06Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
-          "date": "2026-11-14T17:46:23Z",
+          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
+          "date": "2026-11-15T18:12:47Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Three Issues Where Congress Could Strike a Deal Next Year",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
-          "date": "2026-11-13T21:35:44Z",
+          "title": "Congress Presses Nvidia Over China Chip Access",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
+          "date": "2026-11-15T14:50:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -327,15 +327,21 @@
       "items": 5,
       "publishers": 3,
       "positive": 0,
-      "negative": 0,
-      "neutral": 5,
-      "languageIndex": 0.0,
+      "negative": 1,
+      "neutral": 4,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 40.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+          "date": "2026-11-15T12:30:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
           "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
@@ -347,12 +353,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-10T15:21:18Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "World News in Brief: El Niño’s $11 trillion price tag, Mozambique and Yemen updates",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168768",
-          "date": "2026-11-09T12:00:00Z",
-          "publisher": "news.un.org"
         }
       ],
       "directSectors": "Agri inputs; FMCG; Rural consumption",
@@ -657,35 +657,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 64,
+      "items": 68,
       "publishers": 4,
-      "positive": 3,
-      "negative": 21,
-      "neutral": 40,
-      "languageIndex": -33.1,
+      "positive": 4,
+      "negative": 22,
+      "neutral": 42,
+      "languageIndex": -32.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 40.6,
+      "sourceConcentration": 41.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
-          "date": "2026-11-14T21:47:26Z",
+          "title": "Estonia to Close Border With Russia After Sabotage Attempt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker",
+          "date": "2026-11-15T13:43:59Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-14T15:15:57Z",
+          "title": "Iran targets US military base in Bahrain with drone attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-15T13:42:58Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "The Stadium Bidding War Shaking Up the Midwest",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
-          "date": "2026-11-14T15:04:14Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-15T08:17:41Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -700,34 +700,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 55,
+      "items": 57,
       "publishers": 5,
       "positive": 4,
-      "negative": 19,
-      "neutral": 32,
-      "languageIndex": -22.1,
+      "negative": 20,
+      "neutral": 33,
+      "languageIndex": -22.3,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.4,
+      "sourceConcentration": 77.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Schmid Says Fed Has More Work To Do to Bring Down Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/schmid-says-fed-has-more-work-to-do-to-bring-down-inflation",
+          "date": "2026-11-15T18:40:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ECB Tools Can’t Replace Sound Fiscal Policy, Knot Tells Corriere",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere",
+          "date": "2026-11-15T07:58:02Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
           "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
           "date": "2026-11-15T02:22:27Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
-          "date": "2026-11-14T15:08:45Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
-          "date": "2026-11-14T10:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 27,
+      "items": 30,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 24,
-      "languageIndex": -4.4,
+      "neutral": 27,
+      "languageIndex": -4.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 40.7,
+      "sourceConcentration": 46.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anwar’s Coalition Suffers Third Straight Regional Poll Defeat",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/anwar-s-coalition-suffers-third-straight-regional-poll-defeat",
-          "date": "2026-11-15T01:45:48Z",
+          "title": "Latvian Premier Says Agreement Reached for New Government",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/latvian-premier-says-agreement-reached-for-new-government",
+          "date": "2026-11-15T18:20:06Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
-          "date": "2026-11-14T17:46:23Z",
+          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
+          "date": "2026-11-15T18:12:47Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Three Issues Where Congress Could Strike a Deal Next Year",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
-          "date": "2026-11-13T21:35:44Z",
+          "title": "Congress Presses Nvidia Over China Chip Access",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
+          "date": "2026-11-15T14:50:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 131
+      "stories": 145
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 67
+      "stories": 66
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 50
+      "stories": 53
     },
     {
       "publisher": "news.un.org",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 13,
+    "reportedScanCount": 14,
     "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },

@@ -1,12 +1,339 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-15T08:12:15.250536Z",
+  "updatedAt": "2026-11-15T19:25:48.590700Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "e5fa88dfe9df2efa5190",
+      "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
+      "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T19:00:20Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d1e6e041c3e6876bceb4",
+      "title": "Schmid Says Fed Has More Work To Do to Bring Down Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/schmid-says-fed-has-more-work-to-do-to-bring-down-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T18:40:00Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2e0aadcbf6466508220a",
+      "title": "Latvian Premier Says Agreement Reached for New Government",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/latvian-premier-says-agreement-reached-for-new-government",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T18:20:06Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "05cbc6d66bf3877024a2",
+      "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T18:12:47Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ead6782502a4785796c9",
+      "title": "Nvidia Fallout, Next Mega IPO, FAA Router Failure",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/bloomberg-this-weekend-11-15-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T16:53:51Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c859c44f40a35bece3ce",
+      "title": "Traders Turn to Kalshi Stock ‘Perps’ on Nvidia and SpaceX as Leverage Fears Grow",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/traders-turn-to-kalshi-stock-perps-on-nvidia-and-spacex-as-leverage-fears-grow",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T15:00:00Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c6f717fdbe762fddb3c8",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T14:56:21Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "96729bb4c2683040b729",
+      "title": "Congress Presses Nvidia Over China Chip Access",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T14:50:56Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5adbfdd679d54cde2677",
+      "title": "Nvidia Crisis Reshapes Washington’s Tech Debate",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-reshapes-washington-s-tech-debate-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T14:10:32Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fea53d89c39220245c15",
+      "title": "Estonia to Close Border With Russia After Sabotage Attempt",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T13:43:59Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c7e011fee4e7d91b1050",
+      "title": "Iran targets US military base in Bahrain with drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T13:42:58Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8a5d1dd5f54833d6302e",
+      "title": "Anthropic IPO Arrives at a Pivotal AI Moment",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/anthropic-ipo-arrives-at-a-pivotal-ai-moment-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T13:17:16Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "685b1d7cd447525c625c",
+      "title": "Nvidia Crisis Complicates Trump’s China Trip",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-complicates-trump-s-china-trip-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T13:05:46Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "be678f2389f4c938c8e2",
+      "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T12:30:00Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "96e3b3873fda3826fff0",
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T08:17:41Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4809d9a5dfd836289cc9",
+      "title": "Iran Targets Bahrain Base But Says Path to US Deal Is Open",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T08:14:04Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1e17a359140c9c786db9",
+      "title": "ECB Tools Can’t Replace Sound Fiscal Policy, Knot Tells Corriere",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T07:58:02Z",
+      "discovered": "2026-11-15T19:25:48.590700Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "1ad27f367e2b3baf2010",
       "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
