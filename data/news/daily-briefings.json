@@ -3,6 +3,384 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-15-am",
+      "asOf": "2026-11-15",
+      "createdAt": "2026-11-15T01:55:00Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published research — provisional; Sunday non-trading day; market source snapshots dated Friday 13 Nov; primary NSE/NSDL/AMFI/CFTC/TIC numeric updates not independently retrieved",
+      "marketSession": "AM — Sunday 15 Nov 2026 India non-trading day; Saturday global/India developments and Friday 13 Nov completed Indian cash session",
+      "coverageWindow": {
+        "start": "2026-11-01",
+        "end": "2026-11-15T07:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-14T18:48:22.701726Z",
+      "headline": "Fed Collins favors gradual tightening as India’s $39.88bn trade deficit and renewed Hormuz mine claims challenge the foreign-flow rally",
+      "executiveSummary": "NEW since Saturday PM: Reuters reported Boston Fed President Collins favors gradual further hikes; Reuters detailed the FAA's multi-day US flight disruption and India telecom blocking-order forgery inquiry; AP reported new Iranian state-TV claims of three tankers hitting mines, unverified independently. India's 13 Nov $39.88bn merchandise deficit and 12 Nov 6.09% CPI remain the primary macro anchors, not new Sunday prints. Friday NIFTY/sector prices and reported provisional FII/DII transactions predate the weekend. The 14 Nov 18:48 UTC RSS archive and 18:48 UTC market signals have completed, but no Sunday market session exists. Distinguish weekend event risk from unobserved Monday pricing. Sector price leadership and Polymarket odds do not demonstrate institutional cash allocation.",
+      "regime": {
+        "label": "Mixed / inflation-and-energy-sensitive; weekend price confirmation unavailable",
+        "change": "Incremental hawkish Fed commentary and operational/geopolitical event risks; no new Indian equity session or independently verified sector capital flows since previous PM note.",
+        "confidence": "Moderate for directly dated Reuters/FT/AP reports and Friday repository index prices; low for sector capital-flow inference, unverified tanker claims and weekend market pricing.",
+        "marketConfirmation": "Last India cash session 13 Nov: NIFTY 50 25,144.3 (-0.61%); 3m private banks +6.83pp, pharma +4.71pp versus NIFTY 50, energy -6.19pp, autos -7.57pp. No weekend Indian market prices.",
+        "contradictions": [
+          "Reported Friday FII net buying alongside negative NIFTY price action",
+          "Oil supply surplus narrative versus renewed Hormuz security threats",
+          "Private-bank price leadership while inflation and yields pressure funding",
+          "AI hyperscale project proposals lack signed supplier contracts"
+        ],
+        "missingSignals": [
+          "Primary NSE Friday FII/DII buy/sell/net",
+          "Latest NSDL fortnightly FPI sector transactions",
+          "AMFI October monthly primary numeric tables",
+          "CFTC latest weekly contracts and US Treasury TIC country holdings/flows",
+          "Monday 16 Nov cash-market price/volume and actual tanker incident confirmation"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "India October merchandise trade deficit",
+          "value": "US$39.88 billion",
+          "period": "2026-10",
+          "dataClass": "reported official merchandise trade statistics",
+          "source": "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/"
+        },
+        {
+          "name": "India October exports",
+          "value": "US$49.47 billion",
+          "period": "2026-10",
+          "dataClass": "reported merchandise exports",
+          "source": "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/"
+        },
+        {
+          "name": "India October petroleum imports",
+          "value": "US$22.82 billion",
+          "period": "2026-10",
+          "dataClass": "reported import value",
+          "source": "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/"
+        },
+        {
+          "name": "India October CPI inflation",
+          "value": "6.09% y/y",
+          "period": "2026-10",
+          "dataClass": "government CPI as reported by Reuters",
+          "source": "https://www.reuters.com/world/india/view-indias-october-retail-inflation-609-on-year-2026-11-12/"
+        },
+        {
+          "name": "India 13 Nov FII gross buy",
+          "value": "₹18,339.57 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional; primary not retrieved",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "India 13 Nov FII gross sell",
+          "value": "₹12,603.02 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional; primary not retrieved",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "India 13 Nov FII net",
+          "value": "+₹5,736.55 crore",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional; primary not retrieved",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "India 13 Nov DII net",
+          "value": "−₹2,254 crore (secondary rounded)",
+          "period": "2026-11-13",
+          "dataClass": "secondary NSE-derived provisional; DII gross buy/sell unavailable",
+          "source": "https://indmarket.in/fii-dii-activity"
+        },
+        {
+          "name": "NIFTY Private Banks relative to NIFTY 50",
+          "value": "+6.83 percentage points (3m); +10.02% absolute",
+          "period": "as-of 2026-11-13",
+          "dataClass": "NSE sector index price returns; NOT flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "NIFTY Pharma relative to NIFTY 50",
+          "value": "+4.71 percentage points (3m); +7.90% absolute",
+          "period": "as-of 2026-11-13",
+          "dataClass": "NSE sector index price returns; NOT flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "NIFTY Auto relative to NIFTY 50",
+          "value": "−7.57 percentage points (3m); +11.02% last 1m",
+          "period": "as-of 2026-11-13",
+          "dataClass": "NSE sector index price returns; NOT flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "Polymarket Dec 2026 Fed +50bp or more YES",
+          "value": "9.35¢; +1.50pp vs prior stored snapshot; 24h betting volume $384,841.63; liquidity $361,288.61",
+          "period": "2026-11-14T18:48:48.262382Z",
+          "dataClass": "prediction-market quote, NOT objective probability, NOT institutional equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-15-am-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "rates",
+          "geography": "United States",
+          "title": "Fed Collins favors gradual additional rate hikes",
+          "whatHappened": "14 Nov: Boston Fed President Susan Collins said steady, modest additional rate rises best manage uncertainty; Vice Chair Jefferson separately stressed inflation data rather than a fixed path.",
+          "whyItMatters": [
+            "A higher US risk-free rate raises discount rates for long-duration Indian equities and increases external dollar funding costs.",
+            "A gradual path is less disruptive than a large surprise move, but sticky inflation reduces the scope for rapid easing."
+          ],
+          "smartMoney": "Not measured; no CFTC positioning, primary bond-flow or FPI sector purchases verified.",
+          "direct": "US rate-sensitive credit, Treasuries, USD funding",
+          "proxies": "Indian NBFCs, banks, REITs, exporters and IT valuations",
+          "whatCouldChange": "US 2y/10y yields, dollar, next CPI/PCE and Fed communication",
+          "caution": "Statements are not a policy decision; a softer inflation print or falling yields would weaken tightening thesis.",
+          "sources": [
+            "https://www.reuters.com/business/feds-collins-says-gradual-rate-hikes-best-manage-economic-risks-2026-11-14/",
+            "https://www.reuters.com/business/feds-jefferson-says-he-is-taking-his-policy-cues-inflation-2026-11-14/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "trade_fx",
+          "geography": "India",
+          "title": "India October goods deficit reaches one-year high",
+          "whatHappened": "13 Nov official-data reporting: merchandise deficit $39.88bn in October versus $30.21bn September; imports $89.35bn, exports $49.47bn, petroleum imports $22.82bn and gold $5.51bn.",
+          "whyItMatters": [
+            "A wider merchandise deficit increases external dollar demand and can pressure the rupee when oil is elevated.",
+            "Record exports partially offset import pressure; services surplus matters for the overall current account."
+          ],
+          "smartMoney": "Aggregate FPI reported buying in November, but no verified transaction specifically linked to the trade print.",
+          "direct": "Importers, refiners, gems/jewellery, FX-sensitive borrowers",
+          "proxies": "IT/pharma exporters may benefit from INR weakness; airlines, paints and chemicals vulnerable to imported costs",
+          "whatCouldChange": "Monthly trade balance, services balance, oil import bill and INR/USD",
+          "caution": "Festival gold imports can be temporary; merchandise deficit is not current-account deficit.",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/",
+            "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "geopolitics_energy",
+          "geography": "Middle East / India",
+          "title": "Oil surplus competes with renewed Hormuz mine threats",
+          "whatHappened": "13 Nov FT reported October oil supply exceeding demand by nearly 2m bpd; 14 Nov AP reported Iranian state TV claims three tankers hit mines near Hormuz, without independently identifying vessels.",
+          "whyItMatters": [
+            "Physical supply recovery could reduce India's crude bill, imported inflation and refinery feedstock pressure.",
+            "Mine threats can raise freight, war-risk insurance and refined-product costs even when crude supply is abundant."
+          ],
+          "smartMoney": "No verified shipping-insurer pricing, tanker trade flows or institutional energy-sector purchases measured.",
+          "direct": "Crude producers, refiners, tankers and shipping insurers",
+          "proxies": "Indian airlines, OMCs, tyres, paints, specialty chemicals, logistics and inflation-sensitive consumption",
+          "whatCouldChange": "Verified vessel incident reports, Brent/diesel spreads, tanker freight, actual Gulf loadings",
+          "caution": "Iranian TV vessel claims are not independently corroborated; a projected surplus is not guaranteed cheap refined products.",
+          "sources": [
+            "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823",
+            "https://apnews.com/article/ade76bebaf22135168aac6eb3016bc19"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-4",
+          "rank": 4,
+          "importance": "medium",
+          "theme": "infrastructure_disruption",
+          "geography": "United States",
+          "title": "FAA communications failure creates large airline operational disruption",
+          "whatHappened": "14 Nov Reuters: US aviation disruption after Friday nationwide ground stop; more than 6,150 Saturday cancellations and 7,300 delays; officials attributed outage to a router at contractor facility and expected gradual Sunday recovery.",
+          "whyItMatters": [
+            "Airlines face rebooking, staffing, fuel and compensation costs from network-wide schedule disruption.",
+            "Failure of a critical communications system highlights possible infrastructure-modernization demand, but budget authorization is not an awarded contract."
+          ],
+          "smartMoney": "No measured institutional buying or airline fund flows.",
+          "direct": "US airlines, airports, aviation systems",
+          "proxies": "Indian aviation software and communications-equipment suppliers only as unproven second-order candidates",
+          "whatCouldChange": "FAA recovery, airline earnings cost estimates, verified procurement funding",
+          "caution": "One-off outage may normalize rapidly; do not extrapolate a durable earnings impairment or supplier windfall.",
+          "sources": [
+            "https://www.reuters.com/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-5",
+          "rank": 5,
+          "importance": "medium",
+          "theme": "india_policy",
+          "geography": "India",
+          "title": "Forged website-blocking orders expose telecom compliance weakness",
+          "whatHappened": "14 Nov Reuters: India's PMO sought explanation after telecom authorities acted on 129 website-blocking orders using forged court documents; investigations ongoing.",
+          "whyItMatters": [
+            "Authentication failures can raise compliance and legal-risk costs for telecom and internet intermediaries.",
+            "Stronger digital verification and government workflow controls could eventually create demand for secure identity and document infrastructure."
+          ],
+          "smartMoney": "Not measured; no related listed-company orders or stake transactions established.",
+          "direct": "Telecom ISPs, digital compliance and cybersecurity",
+          "proxies": "Document authentication, legal-tech and identity-verification vendors are conditional proxies",
+          "whatCouldChange": "Official investigation, revised blocking protocols and actual procurement",
+          "caution": "Investigation is not enacted regulation or a confirmed earnings catalyst.",
+          "sources": [
+            "https://www.reuters.com/world/modi-summons-telecom-secretary-over-website-takedowns-sources-say-2026-11-14/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "ai_power_capex",
+          "geography": "India / Andhra Pradesh",
+          "title": "AirTrunk's $11bn campus proposal remains an option, not an order book",
+          "whatHappened": "14 Nov ET reported Blackstone-backed AirTrunk advanced proposals for two Andhra Pradesh data-centre campuses, up to 1.8GW and $11bn indicative capital spending, subject to approval.",
+          "whyItMatters": [
+            "A project of this scale would materially increase power-connection, grid, cooling and transformer requirements if built.",
+            "Supplier revenue depends on signed EPC contracts, financing and phasing, not the announcement's headline value."
+          ],
+          "smartMoney": "No verified purchases of listed equipment shares or executed supplier contracts.",
+          "direct": "Hyperscale data centres, power utilities and grid infrastructure",
+          "proxies": "Transformers, switchgear, BESS, cooling, water treatment, construction and grid engineering",
+          "whatCouldChange": "State approvals, power PPAs, land and water permits, binding contracts and capex timelines",
+          "caution": "Proposed investment is not committed spending; possible cost inflation and power constraints.",
+          "sources": [
+            "https://economictimes.indiatimes.com/tech/technology/blackstones-airtrunk-advances-11-billion-india-data-centre-bet/articleshow/135826981.cms"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "india_rates",
+          "geography": "India",
+          "title": "October CPI breach remains the Indian rates anchor",
+          "whatHappened": "12 Nov: October India CPI inflation 6.09% y/y, up from 5.54% in September, above the RBI 6% tolerance ceiling; no new CPI release occurred on Sunday.",
+          "whyItMatters": [
+            "Higher inflation can delay RBI easing or increase funding costs, pressuring leveraged borrowers.",
+            "Food and energy cost pressure can compress consumer margins and real purchasing power."
+          ],
+          "smartMoney": "13 Nov FII/DII reported secondary turnover exists, but no primary daily NSE gross data independently checked in this run.",
+          "direct": "Banks, NBFCs, consumer staples, rate-sensitive realty",
+          "proxies": "Retail, consumer durables and logistics exposed to cost pass-through; select deposit franchises relatively resilient",
+          "whatCouldChange": "RBI commentary, food prices, bond yields, next CPI and company gross margins",
+          "caution": "Single CPI print is not a sustained regime shift; avoid double-counting as a new weekend development.",
+          "sources": [
+            "https://www.reuters.com/world/india/view-indias-october-retail-inflation-609-on-year-2026-11-12/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        },
+        {
+          "id": "2026-11-15-am-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "global_flows",
+          "geography": "India / global",
+          "title": "Friday FII inflows and weak prices remain a cross-market divergence",
+          "whatHappened": "13 Nov reported NSE-derived secondary turnover: FII buy ₹18,339.57cr, sell ₹12,603.02cr, net +₹5,736.55cr; DII net −₹2,254cr; NIFTY fell 0.61%. No Indian cash session occurred Saturday or Sunday.",
+          "whyItMatters": [
+            "Net foreign purchases can coexist with falling prices if domestic sellers, derivatives hedging or broader selling dominate.",
+            "Actual sector allocation requires NSDL fortnightly evidence, not index returns."
+          ],
+          "smartMoney": "Provisional secondary-reproduced gross/net values; NSE primary confirmation not independently obtained; NSDL sector flow unavailable.",
+          "direct": "Indian large-cap equities and brokerage turnover",
+          "proxies": "Banks and capital markets intermediaries are possible transmission channels, not verified recipients",
+          "whatCouldChange": "Monday 16 Nov NSE gross transactions, breadth, delivery data and NSDL sector allocation",
+          "caution": "Single-session FII net buy is not a stable country allocation trend; differing reported investor classifications require reconciliation.",
+          "sources": [
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/"
+          ],
+          "evidenceType": "dated public reporting; transmission scenarios labelled as hypotheses; market-data limitations explicit"
+        }
+      ],
+      "watchNow": [
+        "Accelerating conditionally — private banks: 3m +6.83pp vs NIFTY, 1m +10.35%, 7d +1.61%; validate deposit costs, NIM and Monday breadth before upgrading earnings outlook; unchanged leadership from PM.",
+        "Accelerating conditionally — pharma: 3m +4.71pp, 1m +10.87%, 7d +2.13%; verify USFDA/US generics pricing and earnings revisions, not just price momentum; no sector FPI verification.",
+        "Accelerating conditionally — PSU banks: 1m +13.36%, 7d +7.50%, 3m +2.76pp vs benchmark; check credit quality, deposit repricing and loan growth; rate hikes may offset gains.",
+        "New verification emphasis — export-oriented IT/pharma: weaker INR may support translation, but US discount-rate and demand pressure can offset; next FX, guidance and deal wins.",
+        "Conditional project opportunity — data-centre grid, transformers, cooling, BESS: AirTrunk proposal is not revenue; watch signed orders, financing and power PPAs.",
+        "Not proven — autos: 1m +11.02% recovery but 3m -7.57pp relative; need registrations, inventories, margin evidence and repeated volume breadth.",
+        "Not proven — energy/OMCs and airlines: oil surplus could help margins but mine threats and diesel/jet fuel constraints conflict; check verified freight and spreads.",
+        "Cooling — IT near-term: 7d -3.17%, 3m -1.36pp relative; assess US tech spending and company guidance before treating as structural deterioration."
+      ],
+      "cooling": [
+        "India equities are closed Sunday; no new price or FPI transaction trend can be asserted.",
+        "Autos' recent 1m rebound has not erased 3m relative underperformance; institutional purchases unmeasured.",
+        "Energy index 3m -6.19pp versus benchmark despite recent 7d +1.44%; crude supply and transport risks offset.",
+        "US flight disruption is potentially temporary; await operational recovery rather than infer a permanent aviation capex cycle."
+      ],
+      "risks": [
+        "US 2y/10y yields or USD rise sharply after Collins/Jefferson hawkish commentary.",
+        "Verified Hormuz tanker damage, new mine incidents, higher insurance or diesel cracks reverse crude-supply relief.",
+        "India inflation persistence or RBI hawkishness raises NBFC funding costs and consumer margin pressure.",
+        "Monday FII flow reversal or broad negative market breadth despite recent foreign inflows.",
+        "India rupee depreciation and import bill worsen after October merchandise deficit.",
+        "Data-centre grid commitments face power, water, approvals or financing bottlenecks.",
+        "Fresh US aviation outage reveals prolonged airline disruption beyond expected Sunday recovery."
+      ],
+      "whatChanged": [
+        "NEW since 14 Nov PM: Fed Collins publicly favored gradual further rate increases on 14 Nov; no new Fed decision.",
+        "NEW: Reuters detailed FAA nationwide ground-stop consequences and tentative Sunday recovery; no demonstrated India earnings impact.",
+        "NEW: Reuters detailed forged telecom takedown orders and government investigation; policy/procurement impact unproven.",
+        "NEW: AP reported Iranian state-TV claim of three mined tankers near Hormuz; identities and losses independently unverified.",
+        "REFRESHED: RSS archive completed 14 Nov 18:48:22 UTC and sector/Polymarket/technical collectors at ~18:48 UTC, but latest Indian OHLCV and NSE index dates remain 13 Nov.",
+        "UNCHANGED: India 13 Nov CPI/trade and cash-flow observations, AirTrunk proposal, relative sector leadership; no Sunday Indian trading session."
+      ],
+      "tomorrowChecklist": [
+        "Monday 16 Nov: reconcile official NSE FII/DII gross buy, gross sell, net against secondary Friday 13 Nov figures and Monday session.",
+        "Retrieve NSDL fortnightly sector-wise FPI purchases/sales; distinguish holdings/AUC from flows.",
+        "Retrieve AMFI October monthly primary equity mutual fund net subscriptions and subcategory table.",
+        "Verify latest CFTC COT positions and Treasury TIC country holdings with publication/reference dates; do not substitute prices.",
+        "Monitor Monday NIFTY breadth, private banks/pharma/PSU bank relative performance, auto recovery and INR/USD with US yields.",
+        "Recheck KIMS divergence, SBI 200DMA reclaim and other 13 Nov technical alerts only after completed 16 Nov bars; no stale repeated alerts.",
+        "Check independent maritime incident confirmations, Brent/diesel spreads and freight/insurance costs.",
+        "Check AirTrunk approvals and signed supplier orders; FAA operational recovery and India telecom investigation."
+      ],
+      "sources": [
+        "https://www.reuters.com/business/feds-collins-says-gradual-rate-hikes-best-manage-economic-risks-2026-11-14/",
+        "https://www.reuters.com/business/feds-jefferson-says-he-is-taking-his-policy-cues-inflation-2026-11-14/",
+        "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/",
+        "https://www.reuters.com/world/india/rupees-faltering-rally-faces-returning-oil-pressure-surging-us-yields-2026-11-13/",
+        "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823",
+        "https://apnews.com/article/ade76bebaf22135168aac6eb3016bc19",
+        "https://www.reuters.com/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/",
+        "https://www.reuters.com/world/modi-summons-telecom-secretary-over-website-takedowns-sources-say-2026-11-14/",
+        "https://economictimes.indiatimes.com/tech/technology/blackstones-airtrunk-advances-11-billion-india-data-centre-bet/articleshow/135826981.cms",
+        "https://www.reuters.com/world/india/view-indias-october-retail-inflation-609-on-year-2026-11-12/",
+        "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+        "https://www.reuters.com/",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.nseindia.com/all-reports",
+        "https://tejhq.dev/docs"
+      ],
+      "limitations": [
+        "Sunday 15 Nov is a non-trading day in India. No new NSE cash prices, daily FII/DII transaction totals or daily OHLCV are available.",
+        "RSS archive updated 2026-11-14T18:48:22.701726Z (00:18 IST Sunday); sector and prediction-market snapshots generated 2026-11-14T18:48:48Z; company technical generated 2026-11-14T18:48:55Z. No subsequent 07:00 IST Sunday source collector has yet been observed.",
+        "Primary NSE FII/DII gross tables, NSDL fortnightly sector flows, AMFI primary monthly numeric file, CFTC numeric positioning and Treasury TIC country flows were not independently obtained; secondary Friday turnover must not be labelled primary-verified.",
+        "Market index returns are price observations, not investor purchases. Polymarket 24h volume is betting volume, not securities flows.",
+        "Polymarket +50bp YES 9.35¢ at 14 Nov 18:48:48Z versus previous stored snapshot +1.5pp; quote is not objective event probability.",
+        "Company OHLCV is from a third-party bhavcopy-derived mirror dated 13 Nov; pre-existing NH, KIMS, HDFCBANK, SBIN and RELIANCE watch flags are not new Sunday breakouts. No fresh signals are asserted.",
+        "Oil tanker mine claims were attributed to Iranian state media and not independently corroborated; no invented CDS prices, block trades or company contracts.",
+        "Fortnightly deep audit not due until approximately 25 Nov relative to 11 Nov baseline."
+      ]
+    },
+    {
       "id": "2026-11-14-pm",
       "asOf": "2026-11-14",
       "createdAt": "2026-11-14T13:54:24Z",
