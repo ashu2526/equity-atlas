@@ -2,6 +2,65 @@
   "schema": 1,
   "scans": [
     {
+      "id": "20261115T081215Z",
+      "asOf": "2026-11-15T08:12:15.250536Z",
+      "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
+      "sourceFeedsConfigured": 15,
+      "queriesTotal": 15,
+      "queriesSucceeded": 14,
+      "queriesFailed": {
+        "UN News": "not well-formed (invalid token): line 1, column 0"
+      },
+      "feedItemsSeen": {
+        "BBC World": 23,
+        "BBC Business": 57,
+        "BBC India": 20,
+        "BBC Middle East": 26,
+        "BBC Technology": 21,
+        "The Hindu Business": 60,
+        "The Hindu Markets": 60,
+        "The Hindu Economy": 60,
+        "The Hindu Industry": 60,
+        "Bloomberg Markets": 20,
+        "Bloomberg Economics": 10,
+        "Bloomberg Politics": 12,
+        "Federal Reserve Monetary": 15,
+        "ECB Press": 15
+      },
+      "newUniqueArticles": 6,
+      "retainedArticles": 307,
+      "counts14d": {
+        "defence_capex": 3,
+        "inflation_rates": 55,
+        "elections_policy": 27,
+        "energy_shipping": 23,
+        "geopolitics": 64,
+        "ai_rotation": 69,
+        "tech_credit": 2,
+        "trade_policy": 7,
+        "auto_consumer": 3,
+        "india_flows": 25,
+        "sovereign_credit": 2,
+        "healthcare": 4,
+        "credit_cds": 1,
+        "climate_agri": 5,
+        "tyre_inputs": 1
+      },
+      "newByTopic": {
+        "energy_shipping": 1,
+        "ai_rotation": 1,
+        "tech_credit": 1,
+        "inflation_rates": 1,
+        "defence_capex": 1,
+        "elections_policy": 1,
+        "geopolitics": 1
+      },
+      "oldestRetainedAt": "2026-07-29T18:00:00Z",
+      "lookbackDays": 14,
+      "coverageWarning": "Selected publisher feeds only; RSS feeds vary in update frequency and length, no exhaustive news or CDS price data.",
+      "cdsStatus": "CDS-related press headlines; no verified live named-issuer CDS spreads"
+    },
+    {
       "id": "20261114T184822Z",
       "asOf": "2026-11-14T18:48:22.701726Z",
       "collectionMethod": "Publisher + official RSS feeds; headline title/link only",

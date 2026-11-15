@@ -1,12 +1,127 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-14T18:48:22.701726Z",
+  "updatedAt": "2026-11-15T08:12:15.250536Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "1ad27f367e2b3baf2010",
+      "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T04:29:19Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7a644f822dd36567d7b5",
+      "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T02:22:27Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1c737b864675ad88048a",
+      "title": "Anwar’s Coalition Suffers Third Straight Regional Poll Defeat",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/anwar-s-coalition-suffers-third-straight-regional-poll-defeat",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T01:45:48Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cba5f678d19e1e1ca68f",
+      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+      "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T22:27:06Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "03ff74b2c580b0ea7e26",
+      "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T21:47:26Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "99892725955d150fd647",
+      "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T20:00:00Z",
+      "discovered": "2026-11-15T08:12:15.250536Z",
+      "topics": [
+        "ai_rotation",
+        "tech_credit"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "510e7117af6d2f837a27",
       "title": "Anthropic’s valuation can’t secure its moat",

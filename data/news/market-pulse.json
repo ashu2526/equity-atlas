@@ -1,40 +1,46 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T18:48:22.701726Z",
+  "generatedAt": "2026-11-15T08:12:15.250536Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-10-31",
-    "end": "2026-11-14",
+    "start": "2026-11-01",
+    "end": "2026-11-15",
     "days": 14
   },
   "overall": {
-    "items": 261,
+    "items": 266,
     "publishers": 6,
-    "positive": 31,
+    "positive": 33,
     "negative": 63,
-    "neutral": 167,
-    "languageIndex": -4.5,
+    "neutral": 170,
+    "languageIndex": -4.0,
     "label": "Mixed headline language",
-    "sourceConcentration": 48.3,
+    "sourceConcentration": 49.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 68,
+      "items": 69,
       "publishers": 3,
-      "positive": 5,
+      "positive": 6,
       "negative": 11,
       "neutral": 52,
-      "languageIndex": -4.4,
+      "languageIndex": -3.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 66.2,
+      "sourceConcentration": 66.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "date": "2026-11-14T20:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Anthropic’s valuation can’t secure its moat",
           "url": "https://www.thehindu.com/business/Industry/anthropics-valuation-cant-secure-its-moat/article71702866.ece",
@@ -45,12 +51,6 @@
           "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
           "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
           "date": "2026-11-14T16:45:01Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Bessent, Lutnick Clash Over Nvidia China Curbs",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/bessent-lutnick-clash-over-nvidia-china-curbs-video",
-          "date": "2026-11-14T14:30:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,18 +66,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 63,
+      "items": 64,
       "publishers": 4,
       "positive": 3,
       "negative": 21,
-      "neutral": 39,
-      "languageIndex": -33.4,
+      "neutral": 40,
+      "languageIndex": -33.1,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.3,
+      "sourceConcentration": 40.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
+          "date": "2026-11-14T21:47:26Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
           "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
@@ -88,12 +94,6 @@
           "title": "The Stadium Bidding War Shaking Up the Midwest",
           "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
           "date": "2026-11-14T15:04:14Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Ukraine Peace Push Turns to NATO and Donbas",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/ukraine-peace-push-turns-to-nato-and-donbas-video",
-          "date": "2026-11-14T13:30:12Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -114,13 +114,19 @@
       "positive": 4,
       "negative": 19,
       "neutral": 32,
-      "languageIndex": -24.3,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 74.5,
-      "coverageSufficient": true,
+      "languageIndex": -22.1,
+      "label": "Insufficient observations",
+      "sourceConcentration": 76.4,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
+          "date": "2026-11-15T02:22:27Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
@@ -131,12 +137,6 @@
           "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
           "date": "2026-11-14T10:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
-          "date": "2026-11-14T00:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 26,
+      "items": 27,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 23,
-      "languageIndex": -4.2,
+      "neutral": 24,
+      "languageIndex": -4.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 38.5,
+      "sourceConcentration": 40.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Anwar’s Coalition Suffers Third Straight Regional Poll Defeat",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/anwar-s-coalition-suffers-third-straight-regional-poll-defeat",
+          "date": "2026-11-15T01:45:48Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
@@ -175,12 +181,6 @@
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
           "date": "2026-11-13T21:35:44Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Democratic Senate leader Schumer set to face leadership challenge",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T19:03:10Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -238,18 +238,24 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 22,
+      "items": 23,
       "publishers": 4,
       "positive": 6,
       "negative": 5,
-      "neutral": 11,
+      "neutral": 12,
       "languageIndex": 1.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 68.2,
+      "sourceConcentration": 65.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-14T22:27:06Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
           "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
@@ -260,12 +266,6 @@
           "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
           "date": "2026-11-14T08:30:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
-          "date": "2026-11-14T00:29:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -408,6 +408,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 3,
+      "publishers": 2,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 2,
+      "languageIndex": 50.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 66.7,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
+          "date": "2026-11-15T04:29:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-12T06:12:05Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-11T11:47:22Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Defence electronics; Aerospace",
+      "proxySectors": "Shipbuilders; Engineering; Components",
+      "hypothesis": "Watch",
+      "potentialUpside": "Confirmed order book and margin realization",
+      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
+      "confirmation": "Enacted procurement budgets, contracts, deliveries",
+      "invalidation": "Canceled tenders, delayed acceptance",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "auto_consumer",
       "title": "Auto and demand",
       "items": 3,
@@ -451,43 +494,6 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 2,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 0,
-      "neutral": 2,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-12T06:12:05Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T11:47:22Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Defence electronics; Aerospace",
-      "proxySectors": "Shipbuilders; Engineering; Components",
-      "hypothesis": "Watch",
-      "potentialUpside": "Confirmed order book and margin realization",
-      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
-      "confirmation": "Enacted procurement budgets, contracts, deliveries",
-      "invalidation": "Canceled tenders, delayed acceptance",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
       "items": 2,
@@ -512,6 +518,43 @@
           "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
           "date": "2026-11-13T06:00:17Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 2,
+      "publishers": 1,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 0,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "date": "2026-11-14T20:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "date": "2026-11-11T16:49:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -587,37 +630,6 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 1,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 0,
-      "languageIndex": -100.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
-          "date": "2026-11-11T16:49:45Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
-    },
-    {
       "id": "mega_credit",
       "title": "Large bank credit",
       "items": 0,
@@ -645,18 +657,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 63,
+      "items": 64,
       "publishers": 4,
       "positive": 3,
       "negative": 21,
-      "neutral": 39,
-      "languageIndex": -33.4,
+      "neutral": 40,
+      "languageIndex": -33.1,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.3,
+      "sourceConcentration": 40.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
+          "date": "2026-11-14T21:47:26Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
           "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
@@ -667,12 +685,6 @@
           "title": "The Stadium Bidding War Shaking Up the Midwest",
           "url": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
           "date": "2026-11-14T15:04:14Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Ukraine Peace Push Turns to NATO and Donbas",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-14/ukraine-peace-push-turns-to-nato-and-donbas-video",
-          "date": "2026-11-14T13:30:12Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -693,13 +705,19 @@
       "positive": 4,
       "negative": 19,
       "neutral": 32,
-      "languageIndex": -24.3,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 74.5,
-      "coverageSufficient": true,
+      "languageIndex": -22.1,
+      "label": "Insufficient observations",
+      "sourceConcentration": 76.4,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
+          "date": "2026-11-15T02:22:27Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate",
@@ -710,12 +728,6 @@
           "title": "World Economy Latest: US Inflation Report Supports Fed Rate Hike",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/world-economy-latest-us-inflation-report-supports-fed-rate-hike",
           "date": "2026-11-14T10:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Jefferson Says Inflation Will Determine Rate Decisions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-jefferson-says-inflation-will-determine-rate-decisions",
-          "date": "2026-11-14T00:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -731,18 +743,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 26,
+      "items": 27,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 23,
-      "languageIndex": -4.2,
+      "neutral": 24,
+      "languageIndex": -4.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 38.5,
+      "sourceConcentration": 40.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Anwar’s Coalition Suffers Third Straight Regional Poll Defeat",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/anwar-s-coalition-suffers-third-straight-regional-poll-defeat",
+          "date": "2026-11-15T01:45:48Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
@@ -754,12 +772,6 @@
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
           "date": "2026-11-13T21:35:44Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Democratic Senate leader Schumer set to face leadership challenge",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-13T19:03:10Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -852,6 +864,43 @@
       "hypothesisAsOf": null
     },
     {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 2,
+      "publishers": 1,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 0,
+      "languageIndex": 0.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "date": "2026-11-14T20:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
+          "date": "2026-11-11T16:49:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
       "id": "credit_cds",
       "title": "Credit/CDS news",
       "items": 1,
@@ -883,37 +932,6 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 1,
-      "publishers": 1,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 0,
-      "languageIndex": -100.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
-          "date": "2026-11-11T16:49:45Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
-    },
-    {
       "id": "mega_credit",
       "title": "Large bank credit",
       "items": 0,
@@ -940,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 126
+      "stories": 131
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 68
+      "stories": 67
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 49
+      "stories": 50
     },
     {
       "publisher": "news.un.org",
@@ -964,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 12,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 13,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
