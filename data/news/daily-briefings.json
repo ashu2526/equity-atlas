@@ -3,6 +3,433 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-16-pm",
+      "asOf": "2026-11-16",
+      "createdAt": "2026-11-16T14:32:09Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published research — provisional: primary NSE gross cash flows and 16 Nov automated market-price collector not yet confirmed",
+      "marketSession": "PM — Monday 16 Nov 2026, 20:02 IST; completed India cash session and available global news",
+      "coverageWindow": {
+        "start": "2026-11-02",
+        "end": "2026-11-16T20:02:09+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-16T08:19:38.131186Z",
+      "headline": "India's wholesale inflation hits 12.29% while NIFTY rises on narrow breadth; JLR downgrade and persistent foreign buying split the tape",
+      "executiveSummary": "NEW since the morning: India's October WPI was released at 12.29% YoY, fuel/power 32.84%; NIFTY closed +0.58% at 25,291.10 but midcaps -0.51% and smallcaps -1.10%, making broad risk-on unproven. Reuters reports JLR cut FY27 margin guidance to 2–3% from 4%, with Tata Motors PV down around 8.7%. Two secondary NSE-derived tables report 16 Nov provisional FII net +₹4,865cr, DII -₹3,519cr (gross figures recorded separately), but primary NSE verification is unavailable. Reuters separately reports November FPI equity flows $9.53bn on its own reporting period and definition; these series are not additive. The stored 16 Nov 08:17 UTC sector/Polymarket refresh still uses Indian price bars through 13 Nov, and the 08:19 UTC news scan does not capture all evening releases. No fresh 16 Nov stock OHLCV breakout is claimed. Regime is selective large-cap resilience with deteriorating wholesale cost pressure and narrow breadth; confidence low-to-moderate.",
+      "regime": {
+        "label": "Selective large-cap rebound / narrow breadth and wholesale-cost inflation pressure",
+        "change": "Versus AM: India cash session is now complete; WPI 12.29% is new, breadth split is observable, JLR earnings guidance is downgraded, and secondary provisional FII/DII flows are dated 16 Nov.",
+        "confidence": "Moderate for WPI and cross-reported index close; low-to-moderate for aggregate flows pending primary NSE, low for sector-specific flow attribution.",
+        "marketConfirmation": "NIFTY +0.58% to 25,291.10, Bank +0.89%, FMCG +1.87%, Pharma -1.53%, Auto -1.29%; midcap -0.51%, smallcap -1.10% (16 Nov secondary NSE-derived reporting).",
+        "contradictions": [
+          "FII net buying alongside domestic institutional net selling",
+          "Large-cap index rise alongside declining mid/small-cap indices",
+          "FMCG daily rebound versus longer-term underperformance and high fuel WPI",
+          "India capex ambitions versus AI equity valuation pressure",
+          "Global crude physical supply not independently disrupted despite Gulf headlines"
+        ],
+        "missingSignals": [
+          "Official NSE 16 Nov gross FII/DII downloadable record and reconciliation",
+          "NSDL 1–15 Nov fortnightly sector allocations",
+          "Primary AMFI October monthly equity fund subscriptions table",
+          "Current CFTC position quantities and US Treasury TIC country holdings/flows",
+          "16 Nov NSE sector rotation and company completed OHLCV bars",
+          "Primary issuer filings confirming all company earnings guidance; no issuer CDS price verified"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "India October WPI",
+          "value": "12.29% YoY",
+          "period": "Oct 2026 released 16 Nov",
+          "dataClass": "government macro release reported",
+          "source": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+        },
+        {
+          "name": "WPI fuel and power",
+          "value": "32.84% YoY",
+          "period": "Oct 2026",
+          "dataClass": "government macro release reported",
+          "source": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+        },
+        {
+          "name": "NIFTY 50",
+          "value": "25,291.10 (+0.58%)",
+          "period": "16 Nov 2026 close",
+          "dataClass": "index close secondary NSE-derived",
+          "source": "https://www.oquilia.com/markets/today/2026-11-16"
+        },
+        {
+          "name": "NIFTY Midcap 100",
+          "value": "-0.51%",
+          "period": "16 Nov 2026 close",
+          "dataClass": "index price return",
+          "source": "https://www.oquilia.com/markets/today/2026-11-16"
+        },
+        {
+          "name": "NIFTY Smallcap 100",
+          "value": "-1.10%",
+          "period": "16 Nov 2026 close",
+          "dataClass": "index price return",
+          "source": "https://www.oquilia.com/markets/today/2026-11-16"
+        },
+        {
+          "name": "FII provisional gross buy / sell / net",
+          "value": "₹15,637cr / ₹10,772cr / +₹4,865cr",
+          "period": "16 Nov 2026",
+          "dataClass": "secondary NSE-derived provisional cash transactions; primary unverified",
+          "source": "https://strota.in/fii-dii-data"
+        },
+        {
+          "name": "DII provisional gross buy / sell / net",
+          "value": "₹11,752cr / ₹15,271cr / -₹3,519cr",
+          "period": "16 Nov 2026",
+          "dataClass": "secondary NSE-derived provisional cash transactions; primary unverified",
+          "source": "https://tbtflow.com/daily/fii-dii/2026-11-16"
+        },
+        {
+          "name": "JLR FY27 core margin forecast",
+          "value": "2–3% (previously 4%)",
+          "period": "Reuters 16 Nov 2026",
+          "dataClass": "corporate earnings guidance reported",
+          "source": "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/"
+        },
+        {
+          "name": "NIFTY Private Bank 3m relative return",
+          "value": "+6.83 percentage points",
+          "period": "through 13 Nov 2026",
+          "dataClass": "stored NSE index price, not flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "NIFTY Pharma 3m relative return",
+          "value": "+4.71 percentage points",
+          "period": "through 13 Nov 2026",
+          "dataClass": "stored NSE index price, not flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Fed December +25bp YES contract",
+          "value": "87.5¢; 24h betting $102,915; liquidity $756,198",
+          "period": "16 Nov 08:17:05 UTC stored snapshot",
+          "dataClass": "Polymarket betting contract quote, not probability or equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "wpi-1116",
+          "rank": 1,
+          "importance": "high",
+          "theme": "inflation_rates",
+          "geography": "India",
+          "title": "October WPI accelerates to 12.29%; fuel and power at 32.84%",
+          "whatHappened": "16 Nov release: October WPI 12.29% YoY versus 11.39% September; fuel and power 32.84% versus 25.85%.",
+          "whyItMatters": [
+            "Wholesale energy inflation raises industrial input costs even where headline consumer pricing adjusts slowly.",
+            "Higher input inflation can compress margins and complicate discount-rate expectations, but WPI is not CPI."
+          ],
+          "smartMoney": "not measured",
+          "direct": "Chemicals, transport, cement, manufacturing input buyers; regulated utilities",
+          "proxies": "Power equipment efficiency, fuel hedging, cost-pass-through businesses",
+          "whatCouldChange": "Next CPI, input-cost disclosures, diesel and freight prices; watch gross margin changes",
+          "caution": "Some categories have contractual pass-through; a one-month WPI increase does not prove persistent inflation.",
+          "sources": [
+            "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        },
+        {
+          "id": "breadth-1116",
+          "rank": 2,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "NIFTY gains 0.58% while the wider market falls",
+          "whatHappened": "16 Nov NIFTY 50 closed 25,291.10 (+0.58%); NIFTY Midcap 100 -0.51%, Smallcap 100 -1.10%; NIFTY 500 only +0.08%.",
+          "whyItMatters": [
+            "Large-cap index gain is not broad participation; breadth is a more discriminating risk appetite test.",
+            "Concentrated gains can coexist with reduced liquidity in smaller companies."
+          ],
+          "smartMoney": "not measured",
+          "direct": "Liquid banks, FMCG, large-cap healthcare",
+          "proxies": "Exchange/broker turnover, small-cap fund liquidity, distributors",
+          "whatCouldChange": "Advance/decline, NIFTY 500 breadth and next three sessions of relative performance",
+          "caution": "A single-day breadth split can reverse; do not equate an index rise with universal earnings improvement.",
+          "sources": [
+            "https://www.oquilia.com/markets/today/2026-11-16"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        },
+        {
+          "id": "flows-1116",
+          "rank": 3,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Secondary provisional FII net buying persists, DII selling offsets",
+          "whatHappened": "16 Nov secondary NSE-derived tables: FII gross buy ₹15,637cr, gross sell ₹10,772cr, net +₹4,865cr; DII buy ₹11,752cr, sell ₹15,271cr, net -₹3,519cr.",
+          "whyItMatters": [
+            "Cash equity transactions are observable but cannot identify sector allocations or ultimate beneficial ownership.",
+            "DII selling against foreign buying makes concentration and domestic fund deployment important."
+          ],
+          "smartMoney": "Secondary reported provisional cash transactions; primary exchange confirmation unavailable",
+          "direct": "Indian cash equities, particularly liquid index names",
+          "proxies": "Brokerage volumes, market infrastructure, passive flows",
+          "whatCouldChange": "Obtain official exchange CSV; reconcile NSDL depository and secondary reports, test breadth persistence",
+          "caution": "Primary NSE record not independently retrieved; secondary tables may be revised. Reuters' monthly FPI data use a different scope and cannot be directly added.",
+          "sources": [
+            "https://strota.in/fii-dii-data",
+            "https://tbtflow.com/daily/fii-dii/2026-11-16",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Provisional secondary transaction report"
+        },
+        {
+          "id": "jlr-1116",
+          "rank": 4,
+          "importance": "high",
+          "theme": "corporate_earnings",
+          "geography": "India / UK / China",
+          "title": "JLR cuts FY27 margin outlook as China weakness hits Tata Motors PV",
+          "whatHappened": "Reuters 16 Nov: JLR core margin forecast cut to 2–3% from 4%; Tata Motors PV fell about 8.7% by close; China competition and restructuring charges matter.",
+          "whyItMatters": [
+            "A company-specific earnings revision is stronger evidence than an industry headline for profit expectations.",
+            "China competition can affect pricing power and inventory, with spillovers into premium auto suppliers."
+          ],
+          "smartMoney": "not measured",
+          "direct": "Tata Motors PV/JLR, luxury autos, China-exposed suppliers",
+          "proxies": "Indian auto components, tyre manufacturers, logistics",
+          "whatCouldChange": "JLR wholesale volumes, China dealer inventories, actual quarterly margin and restructuring cash cost",
+          "caution": "Do not extrapolate a JLR-specific warning to all Indian auto manufacturers; domestic sales reportedly grew.",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        },
+        {
+          "id": "ai-1116",
+          "rank": 5,
+          "importance": "high",
+          "theme": "ai_rotation",
+          "geography": "US / Taiwan / Korea / India",
+          "title": "AI chip repricing ahead of Nvidia results and Anthropic listing",
+          "whatHappened": "Reuters 16 Nov reports tech wobble ahead of Nvidia results and Anthropic IPO; stored news archive reports renewed pressure in Asian chip stocks.",
+          "whyItMatters": [
+            "High valuations and capex financing can transmit into global discount rates before any confirmed AI order cancellation.",
+            "India's data-centre capex proposals remain opportunities only if converted into financed projects and signed procurement."
+          ],
+          "smartMoney": "not measured",
+          "direct": "Semiconductors, cloud capex, data centres",
+          "proxies": "India transformers, cooling, power transmission, BESS, IT services",
+          "whatCouldChange": "Nvidia guidance, hyperscaler cash flow, equipment orders, data-centre power agreements",
+          "caution": "An equity selloff is not proof AI investment is falling; financing, chip orders and utilization require separate verification.",
+          "sources": [
+            "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-16/",
+            "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        },
+        {
+          "id": "gulf-1116",
+          "rank": 6,
+          "importance": "high",
+          "theme": "energy_shipping",
+          "geography": "Gulf / India",
+          "title": "Gulf escalation remains a shipping and imported-cost risk, not a verified supply outage",
+          "whatHappened": "16 Nov Bloomberg headline reports Iranian targeting of Bahrain and a third US aircraft carrier deployment; previous incident claims remain partly unverified.",
+          "whyItMatters": [
+            "Shipping insurance and route risk can affect landed crude costs even without physical production loss.",
+            "Indian oil import dependence transmits through the trade balance, FX and transport margins."
+          ],
+          "smartMoney": "not measured",
+          "direct": "Refiners, airlines, chemicals, OMCs, shipping",
+          "proxies": "Domestic gas, energy efficiency, select freight providers",
+          "whatCouldChange": "Verified tanker movements, Brent forward curve, insurance premia and physical disruption",
+          "caution": "Do not infer a blockade, successful attack or supply outage from headline reporting; crude can decline despite security risks.",
+          "sources": [
+            "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+            "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        },
+        {
+          "id": "fpi-month-1116",
+          "rank": 7,
+          "importance": "medium-high",
+          "theme": "india_flows",
+          "geography": "India / Global",
+          "title": "Reuters reports record November FPI equity inflows; scope differs from daily exchange data",
+          "whatHappened": "Reuters 16 Nov reports November-to-date foreign equity investment of $9.53bn, and $10.33bn including bonds, while citing a substantial year-to-date net outflow.",
+          "whyItMatters": [
+            "The monthly flow is a material capital-allocation observation, unlike sector price leadership.",
+            "It can support liquid large-cap valuations but does not prove bank or auto sector buying without NSDL allocation."
+          ],
+          "smartMoney": "Reuters reported aggregate foreign portfolio flows, not sector allocations",
+          "direct": "Indian large caps, banking and market infrastructure",
+          "proxies": "Domestic brokerage, custody, passive index services",
+          "whatCouldChange": "Verify precise cut-off date, NSDL reconciliations, valuation and earnings revisions",
+          "caution": "Do not add this monthly amount to daily FII turnover; periods and data systems differ.",
+          "sources": [
+            "https://www.reuters.com/world/india/record-foreign-inflows-fuel-indian-stocks-november-surge-2026-11-16/",
+            "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx"
+          ],
+          "evidenceType": "Dated Reuters flow reporting"
+        },
+        {
+          "id": "global-rates-1116",
+          "rank": 8,
+          "importance": "medium-high",
+          "theme": "inflation_rates",
+          "geography": "US / UK / India",
+          "title": "Global rates and FX remain restrictive despite India's large-cap rebound",
+          "whatHappened": "16 Nov Reuters notes renewed global technology valuation concerns; Bloomberg RSS notes UK rate-hike bets and Indonesian rupiah weakness amid Fed-dollar repricing.",
+          "whyItMatters": [
+            "Higher global discount rates affect duration-sensitive technology and Indian NBFC funding.",
+            "FX depreciation can offset import-cost relief and complicate external financing."
+          ],
+          "smartMoney": "not measured",
+          "direct": "NBFCs, IT, property, dollar debt",
+          "proxies": "Exporters with natural hedges, domestic funding franchises",
+          "whatCouldChange": "US Treasury yields, DXY, USD/INR, CFTC USD positioning, TIC cross-border holdings",
+          "caution": "No current issuer CDS quote or verified cross-border transaction amount was obtained; headline rate bets are not policy decisions.",
+          "sources": [
+            "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-16/",
+            "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
+            "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+            "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+          ],
+          "evidenceType": "Dated public reporting; investment transmission is conditional"
+        }
+      ],
+      "watchNow": [
+        {
+          "name": "Large private banks",
+          "state": "relative leadership; breadth not proven",
+          "evidence": "13 Nov 3m +10.02%, +6.83pp vs NIFTY 50; 16 Nov Bank index +0.89%",
+          "earnings": "Deposit pricing, credit costs and treasury duration",
+          "counter": "October WPI and global yields; late-Oct NSDL financial sector selling",
+          "next": "15-day sector FPI table, NIM and deposit-cost guidance"
+        },
+        {
+          "name": "Hospitals",
+          "state": "accelerating in daily price, fundamentals pending",
+          "evidence": "16 Nov NIFTY Hospitals +3.73%; Max Healthcare +6.6% secondary reports",
+          "earnings": "Occupancy, ARPOB, operating leverage",
+          "counter": "Premium valuations and no new hospital company OHLCV close in repository",
+          "next": "16 Nov adjusted company bars and latest hospital quarterly filings"
+        },
+        {
+          "name": "FMCG",
+          "state": "daily rebound not structural reversal",
+          "evidence": "16 Nov NIFTY FMCG +1.87%; prior 3m -3.66% and -6.85pp relative",
+          "earnings": "Gross margins and volume elasticity",
+          "counter": "WPI fuel inflation 32.84%, weak longer-term relative trend",
+          "next": "Company gross margins, rural volume and raw material prices"
+        },
+        {
+          "name": "Pharma",
+          "state": "long-term leader, short-term cooling",
+          "evidence": "13 Nov 3m +7.90% (+4.71pp relative); 16 Nov -1.53% day",
+          "earnings": "US generics, India formulations and currency",
+          "counter": "Single-day reversal and regulatory exposure",
+          "next": "Export realizations and FDA/earnings releases"
+        },
+        {
+          "name": "Autos",
+          "state": "cooling with JLR-specific warning",
+          "evidence": "13 Nov 3m -4.38% (-7.57pp relative); 16 Nov NIFTY Auto -1.29%; JLR downgrade",
+          "earnings": "Mix, China pricing, component margins",
+          "counter": "Domestic volume demand may differ from JLR",
+          "next": "Company-wise November sales, JLR China orders"
+        },
+        {
+          "name": "Power equipment / data centres",
+          "state": "not yet proven",
+          "evidence": "Previously reported large Indian data-centre proposal, no signed procurement established",
+          "earnings": "Transformers, grid EPC, cooling and BESS orders",
+          "counter": "Power availability, funding and project execution",
+          "next": "Awarded orders, financing, grid connection"
+        },
+        {
+          "name": "IT and AI infrastructure",
+          "state": "cooling in price, capex unresolved",
+          "evidence": "13 Nov IT 3m +1.83%, -1.36pp relative; 7d -3.17%",
+          "earnings": "Cloud bookings, pricing and utilization",
+          "counter": "AI capex could remain high despite equity correction",
+          "next": "Nvidia guidance, hyperscaler orders and Indian IT commentary"
+        },
+        {
+          "name": "Energy / airlines / chemicals",
+          "state": "unproven relief",
+          "evidence": "13 Nov Energy 3m -3.00% (-6.19pp relative); Gulf headline risk remains",
+          "earnings": "Crude spreads, insurance, fuel costs",
+          "counter": "Physical supply loss not independently verified",
+          "next": "Brent, marine insurance, USD/INR, refinery cracks"
+        }
+      ],
+      "cooling": [
+        "Auto / JLR earnings downgrade and -1.29% auto index on 16 Nov",
+        "Mid/small-cap market participation (-0.51%/-1.10%)",
+        "Pharma daily index -1.53% despite 3m relative strength",
+        "IT 7-day return -3.17% through 13 Nov amid AI valuation repricing"
+      ],
+      "risks": [
+        "Oil/shipping: verified disruption or sustained Brent jump raises India import and inflation pressure",
+        "Inflation: WPI fuel pass-through into CPI or company gross margins",
+        "Breadth: NIFTY 500 and smallcaps fail to participate for several sessions",
+        "Flows: primary NSE reverses or contradicts secondary provisional buying",
+        "FX/rates: USD/INR weakness and US yields lift domestic discount rates",
+        "Corporate: JLR guidance revision broadens into other global auto supply chains",
+        "AI: weak chip orders/financing rather than equity-only repricing"
+      ],
+      "whatChanged": [
+        "New 16 Nov WPI 12.29%, fuel/power 32.84% versus morning pre-release",
+        "NIFTY close +0.58% but mid/small-cap losses, replacing AM market-response pending",
+        "JLR FY27 margin forecast cut to 2–3%; Tata Motors PV sharp decline",
+        "16 Nov provisional FII +₹4,865cr / DII -₹3,519cr from two secondary tables, primary outstanding",
+        "Fresh sector price and stock OHLCV not yet available: prior 13 Nov leadership and alerts unchanged",
+        "16 Nov stored Polymarket Fed +25bp YES 87.5¢, +1.0pp vs actual previous snapshot; contract volume is not stock flow"
+      ],
+      "tomorrowChecklist": [
+        "Retrieve official 16 Nov NSE FII/DII CSV and reconcile ₹ crore gross buy/sell",
+        "Refresh 16 Nov completed sector indices and stock OHLCV; compare new signals to 13 Nov",
+        "Verify NSDL 1–15 Nov sector allocation rather than infer bank purchases from index returns",
+        "Compare WPI fuel/power against Brent, INR and company gross margin exposures",
+        "Track NIFTY 500 breadth and bank/healthcare/FMCG relative strength",
+        "Check JLR issuer filing, China demand and component supplier earnings",
+        "Check Fed/Treasury yields, CFTC positions, US TIC release calendar and genuine credit events",
+        "Monitor Polymarket exact event questions and quote changes only on a new stored snapshot"
+      ],
+      "sources": [
+        "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+        "https://www.oquilia.com/markets/today/2026-11-16",
+        "https://strota.in/fii-dii-data",
+        "https://tbtflow.com/daily/fii-dii/2026-11-16",
+        "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/",
+        "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-16/",
+        "https://www.reuters.com/world/india/record-foreign-inflows-fuel-indian-stocks-november-surge-2026-11-16/",
+        "https://www.reuters.com/world/india/indias-october-merchandise-trade-deficit-rose-one-year-high-3988-billion-2026-11-13/",
+        "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx",
+        "https://www.amfiindia.com/research-information/other-data/mf-industry-data",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+      ],
+      "limitations": [
+        "No primary NSE 16 Nov transaction file retrieved; cash flows are secondary provisional reports.",
+        "The official NSDL sector, AMFI monthly, CFTC and TIC numeric series were not retrieved; not presented as fresh transactions.",
+        "Stored sector and company OHLCV are as of 13 Nov despite collector generated 16 Nov 08:17 UTC; do not assert a 16 Nov technical breakout.",
+        "16 Nov 08:19 UTC RSS scan predates WPI and market close; supplementary reporting used.",
+        "Polymarket event contracts are betting prices with contract-specific rules and are not objective probabilities.",
+        "No verified issuer CDS quote or fresh credit-event pricing was available.",
+        "Sector watchlist is conditional research, not recommendation or observed sector institutional buying."
+      ]
+    },
+    {
       "id": "2026-11-16-am",
       "asOf": "2026-11-16",
       "createdAt": "2026-11-16T01:55:00Z",
