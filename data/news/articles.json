@@ -1,12 +1,377 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-15T19:25:48.590700Z",
+  "updatedAt": "2026-11-16T08:19:38.131186Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "bce6e007863b7207b545",
+      "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/ukraine-hits-crimean-bridge-in-record-drone-strike-on-russia",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T07:50:37Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "80bb1439e2d3fd27a135",
+      "title": "UK Rate-Hike Bets Are Picking Up With Key Inflation Data Due",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/uk-rate-hike-bets-are-picking-up-with-key-inflation-data-due",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T07:48:49Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f81ac3cdc137384aee2a",
+      "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T07:37:38Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "defence_capex",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8c5ce8c671be83ac8f7e",
+      "title": "Wholesale inflation surges to 12.29% in October, fuel and power prices lead rise",
+      "url": "https://www.thehindu.com/business/Economy/wholesale-price-inflation-october-government-data/article71707046.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T07:20:06Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "88b1f3d836c3898db957",
+      "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T07:04:30Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "defence_capex",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ef66db5032fd38f1da96",
+      "title": "YTL Power Scrutinized Amid Nvidia Turmoil, Alleged China Links",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T06:52:36Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "587bbee92d51d1dcc41a",
+      "title": "Nvidia Fallout, Anthropic IPO Squeeze Asian Chip Stocks Anew",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T06:51:43Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ba5c88181097aa47010e",
+      "title": "IDR/USD: Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T06:50:34Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c97b95c7fff9ebd259dc",
+      "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T06:15:00Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cf1722ba3eaa4a4e62c6",
+      "title": "Stock markets rally in early trade led by foreign fund inflows, lower crude oil",
+      "url": "https://www.thehindu.com/business/stock-markets-rally-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil/article71706819.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T05:15:00Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "396caf8bcd373eb18794",
+      "title": "Wife of assassinated ex-Haitian leader registers for presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T05:06:59Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1d73a76fd81c15bbd07f",
+      "title": "Rupee rises 6 paise to 94.13 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/Industry/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade/article71706772.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T04:53:41Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "10043c884668fa91fb5d",
+      "title": "Modi Heads to Manila With Maritime, Trade, Trump on Agenda",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/modi-heads-to-manila-with-maritime-trade-trump-on-agenda",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T03:14:33Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "60504510472a61cdd810",
+      "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T03:09:49Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e4120d2333e38dbdfd2c",
+      "title": "Trump Looks to Flex Power at Xi, Putin Summit After Midterm Loss",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/weakened-at-home-trump-looks-to-flex-power-at-putin-xi-summit",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T01:00:45Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1e5d8f925bad106f5d61",
+      "title": "Russia's mega-rich are already imagining a future after Putin",
+      "url": "https://www.bbc.co.uk/news/articles/c60733mxm0x0o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T00:13:14Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "17e4ee8ba1e7a3b03c36",
+      "title": "Canada bars Russia from Junior World Championships",
+      "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T22:01:16Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a5d843ad810ea56ad113",
+      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T22:00:24Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5b9aec90bcd587156ef4",
+      "title": "'You're going to win the war': Harry praises war veterans on surprise Ukraine visit",
+      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T22:00:13Z",
+      "discovered": "2026-11-16T08:19:38.131186Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "e5fa88dfe9df2efa5190",
       "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
@@ -214,6 +579,7 @@
         "geopolitics"
       ],
       "feedSources": [
+        "BBC Middle East",
         "BBC World"
       ],
       "headlineTone": "negative",
@@ -290,6 +656,7 @@
         "geopolitics"
       ],
       "feedSources": [
+        "BBC Middle East",
         "BBC World"
       ],
       "headlineTone": "neutral",

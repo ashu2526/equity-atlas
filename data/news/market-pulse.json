@@ -1,56 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T19:25:48.590700Z",
+  "generatedAt": "2026-11-16T08:19:38.131186Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-01",
-    "end": "2026-11-15",
+    "start": "2026-11-02",
+    "end": "2026-11-16",
     "days": 14
   },
   "overall": {
-    "items": 282,
+    "items": 298,
     "publishers": 6,
-    "positive": 35,
-    "negative": 68,
-    "neutral": 179,
-    "languageIndex": -4.0,
+    "positive": 39,
+    "negative": 69,
+    "neutral": 190,
+    "languageIndex": -3.1,
     "label": "Mixed headline language",
-    "sourceConcentration": 51.4,
+    "sourceConcentration": 52.0,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 78,
+      "items": 80,
       "publishers": 3,
       "positive": 7,
       "negative": 13,
-      "neutral": 58,
-      "languageIndex": -3.7,
+      "neutral": 60,
+      "languageIndex": -3.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.2,
+      "sourceConcentration": 70.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "YTL Power Scrutinized Amid Nvidia Turmoil, Alleged China Links",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links",
+          "date": "2026-11-16T06:52:36Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nvidia Fallout, Anthropic IPO Squeeze Asian Chip Stocks Anew",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
+          "date": "2026-11-16T06:51:43Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
           "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
           "date": "2026-11-15T19:00:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
-          "date": "2026-11-15T18:12:47Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nvidia Fallout, Next Mega IPO, FAA Router Failure",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-15/bloomberg-this-weekend-11-15-2026-video",
-          "date": "2026-11-15T16:53:51Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,35 +66,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 68,
+      "items": 73,
       "publishers": 4,
-      "positive": 4,
-      "negative": 22,
-      "neutral": 42,
-      "languageIndex": -32.0,
+      "positive": 5,
+      "negative": 23,
+      "neutral": 45,
+      "languageIndex": -31.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.2,
+      "sourceConcentration": 41.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Estonia to Close Border With Russia After Sabotage Attempt",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker",
-          "date": "2026-11-15T13:43:59Z",
+          "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/ukraine-hits-crimean-bridge-in-record-drone-strike-on-russia",
+          "date": "2026-11-16T07:50:37Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran targets US military base in Bahrain with drone attack",
-          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-15T13:42:58Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
+          "date": "2026-11-16T07:37:38Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-15T08:17:41Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+          "date": "2026-11-16T07:04:30Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -109,34 +109,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 57,
+      "items": 60,
       "publishers": 5,
-      "positive": 4,
-      "negative": 20,
-      "neutral": 33,
-      "languageIndex": -22.3,
+      "positive": 5,
+      "negative": 21,
+      "neutral": 34,
+      "languageIndex": -22.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.2,
+      "sourceConcentration": 76.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Schmid Says Fed Has More Work To Do to Bring Down Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/schmid-says-fed-has-more-work-to-do-to-bring-down-inflation",
-          "date": "2026-11-15T18:40:00Z",
+          "title": "UK Rate-Hike Bets Are Picking Up With Key Inflation Data Due",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/uk-rate-hike-bets-are-picking-up-with-key-inflation-data-due",
+          "date": "2026-11-16T07:48:49Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB Tools Can’t Replace Sound Fiscal Policy, Knot Tells Corriere",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere",
-          "date": "2026-11-15T07:58:02Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Wholesale inflation surges to 12.29% in October, fuel and power prices lead rise",
+          "url": "https://www.thehindu.com/business/Economy/wholesale-price-inflation-october-government-data/article71707046.ece",
+          "date": "2026-11-16T07:20:06Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
-          "date": "2026-11-15T02:22:27Z",
+          "title": "IDR/USD: Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
+          "date": "2026-11-16T06:50:34Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 30,
+      "items": 34,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 27,
-      "languageIndex": -4.9,
+      "neutral": 31,
+      "languageIndex": -4.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 46.7,
+      "sourceConcentration": 47.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Latvian Premier Says Agreement Reached for New Government",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/latvian-premier-says-agreement-reached-for-new-government",
-          "date": "2026-11-15T18:20:06Z",
+          "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
+          "date": "2026-11-16T06:15:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
-          "date": "2026-11-15T18:12:47Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Wife of assassinated ex-Haitian leader registers for presidential election",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T05:06:59Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Congress Presses Nvidia Over China Chip Access",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
-          "date": "2026-11-15T14:50:56Z",
+          "title": "Trump Looks to Flex Power at Xi, Putin Summit After Midterm Loss",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/weakened-at-home-trump-looks-to-flex-power-at-putin-xi-summit",
+          "date": "2026-11-16T01:00:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -197,16 +197,22 @@
       "title": "India flows",
       "items": 25,
       "publishers": 1,
-      "positive": 13,
-      "negative": 6,
+      "positive": 14,
+      "negative": 5,
       "neutral": 6,
-      "languageIndex": 28.0,
+      "languageIndex": 36.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee rises 6 paise to 94.13 against U.S. dollar in early trade",
+          "url": "https://www.thehindu.com/business/Industry/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade/article71706772.ece",
+          "date": "2026-11-16T04:53:41Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
           "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
@@ -217,12 +223,6 @@
           "title": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
           "url": "https://www.thehindu.com/business/markets/markets-snap-3-day-rally-sensex-drops-318-points-nifty-slips-below-25150/article71697688.ece",
           "date": "2026-11-13T12:10:40Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee falls 8 paise to close at 94.20 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-falls-8-paise-to-close-at-9420-against-us-dollar/article71697687.ece",
-          "date": "2026-11-13T12:03:18Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,35 +238,35 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 23,
+      "items": 24,
       "publishers": 4,
-      "positive": 6,
-      "negative": 5,
-      "neutral": 12,
-      "languageIndex": 1.7,
+      "positive": 7,
+      "negative": 4,
+      "neutral": 13,
+      "languageIndex": 5.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 65.2,
+      "sourceConcentration": 62.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Stock markets rally in early trade led by foreign fund inflows, lower crude oil",
+          "url": "https://www.thehindu.com/business/stock-markets-rally-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil/article71706819.ece",
+          "date": "2026-11-16T05:15:00Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Modi Heads to Manila With Maritime, Trade, Trump on Agenda",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/modi-heads-to-manila-with-maritime-trade-trump-on-agenda",
+          "date": "2026-11-16T03:14:33Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
           "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-14T22:27:06Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-14T11:30:10Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
-          "date": "2026-11-14T08:30:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -322,6 +322,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "healthcare",
+      "title": "Hospital sector",
+      "items": 5,
+      "publishers": 4,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 3,
+      "languageIndex": 12.5,
+      "label": "Insufficient observations",
+      "sourceConcentration": 40.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T03:09:49Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
+          "date": "2026-11-12T12:00:00Z",
+          "publisher": "news.un.org"
+        },
+        {
+          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
+          "date": "2026-11-12T07:00:45Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Hospitals; Specialty care",
+      "proxySectors": "Diagnostics; Medtech; Hospital supply",
+      "hypothesis": "Structural watch",
+      "potentialUpside": "Incremental operating-bed cash returns",
+      "potentialDownside": "High capex and slower occupancy ramp",
+      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
+      "invalidation": "New beds fail to cover fixed overhead",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "climate_agri",
       "title": "Monsoon and agriculture",
       "items": 5,
@@ -365,80 +408,37 @@
       "hypothesisAsOf": "2026-10-23"
     },
     {
-      "id": "healthcare",
-      "title": "Hospital sector",
-      "items": 4,
-      "publishers": 4,
-      "positive": 1,
-      "negative": 0,
-      "neutral": 3,
-      "languageIndex": 25.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 25.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
-          "date": "2026-11-12T12:00:00Z",
-          "publisher": "news.un.org"
-        },
-        {
-          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
-          "date": "2026-11-12T07:00:45Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-12T06:12:05Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Hospitals; Specialty care",
-      "proxySectors": "Diagnostics; Medtech; Hospital supply",
-      "hypothesis": "Structural watch",
-      "potentialUpside": "Incremental operating-bed cash returns",
-      "potentialDownside": "High capex and slower occupancy ramp",
-      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
-      "invalidation": "New beds fail to cover fixed overhead",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 3,
+      "items": 5,
       "publishers": 2,
       "positive": 1,
       "negative": 0,
-      "neutral": 2,
-      "languageIndex": 50.0,
+      "neutral": 4,
+      "languageIndex": 16.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 60.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
+          "date": "2026-11-16T07:37:38Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+          "date": "2026-11-16T07:04:30Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
           "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
           "date": "2026-11-15T04:29:19Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-12T06:12:05Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T11:47:22Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -657,35 +657,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 68,
+      "items": 73,
       "publishers": 4,
-      "positive": 4,
-      "negative": 22,
-      "neutral": 42,
-      "languageIndex": -32.0,
+      "positive": 5,
+      "negative": 23,
+      "neutral": 45,
+      "languageIndex": -31.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.2,
+      "sourceConcentration": 41.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Estonia to Close Border With Russia After Sabotage Attempt",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker",
-          "date": "2026-11-15T13:43:59Z",
+          "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/ukraine-hits-crimean-bridge-in-record-drone-strike-on-russia",
+          "date": "2026-11-16T07:50:37Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran targets US military base in Bahrain with drone attack",
-          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-15T13:42:58Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
+          "date": "2026-11-16T07:37:38Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-15T08:17:41Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
+          "date": "2026-11-16T07:04:30Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -700,34 +700,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 57,
+      "items": 60,
       "publishers": 5,
-      "positive": 4,
-      "negative": 20,
-      "neutral": 33,
-      "languageIndex": -22.3,
+      "positive": 5,
+      "negative": 21,
+      "neutral": 34,
+      "languageIndex": -22.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.2,
+      "sourceConcentration": 76.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Schmid Says Fed Has More Work To Do to Bring Down Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/schmid-says-fed-has-more-work-to-do-to-bring-down-inflation",
-          "date": "2026-11-15T18:40:00Z",
+          "title": "UK Rate-Hike Bets Are Picking Up With Key Inflation Data Due",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/uk-rate-hike-bets-are-picking-up-with-key-inflation-data-due",
+          "date": "2026-11-16T07:48:49Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB Tools Can’t Replace Sound Fiscal Policy, Knot Tells Corriere",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere",
-          "date": "2026-11-15T07:58:02Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Wholesale inflation surges to 12.29% in October, fuel and power prices lead rise",
+          "url": "https://www.thehindu.com/business/Economy/wholesale-price-inflation-october-government-data/article71707046.ece",
+          "date": "2026-11-16T07:20:06Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Thai Central Bank Chairman Rebukes Slow Reform, SME Credit Slump",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/thai-central-bank-chairman-rebukes-slow-reform-sme-credit-slump",
-          "date": "2026-11-15T02:22:27Z",
+          "title": "IDR/USD: Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
+          "date": "2026-11-16T06:50:34Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 30,
+      "items": 34,
       "publishers": 4,
       "positive": 1,
       "negative": 2,
-      "neutral": 27,
-      "languageIndex": -4.9,
+      "neutral": 31,
+      "languageIndex": -4.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 46.7,
+      "sourceConcentration": 47.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Latvian Premier Says Agreement Reached for New Government",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/latvian-premier-says-agreement-reached-for-new-government",
-          "date": "2026-11-15T18:20:06Z",
+          "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
+          "date": "2026-11-16T06:15:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Senate Republicans Seek Lutnick Testimony on Nvidia Enforcement",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement",
-          "date": "2026-11-15T18:12:47Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Wife of assassinated ex-Haitian leader registers for presidential election",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T05:06:59Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Congress Presses Nvidia Over China Chip Access",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
-          "date": "2026-11-15T14:50:56Z",
+          "title": "Trump Looks to Flex Power at Xi, Putin Summit After Midterm Loss",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/weakened-at-home-trump-looks-to-flex-power-at-putin-xi-summit",
+          "date": "2026-11-16T01:00:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 145
+      "stories": 155
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 66
+      "stories": 67
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 53
+      "stories": 58
     },
     {
       "publisher": "news.un.org",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 14,
+    "reportedScanCount": 15,
     "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
