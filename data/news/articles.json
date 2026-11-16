@@ -1,12 +1,645 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-16T08:19:38.131186Z",
+  "updatedAt": "2026-11-16T22:58:27.323992Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "63c277f8e1ac02af4e51",
+      "title": "Billionaire Rinehart Boosts US Defense and SpaceX Holdings",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/billionaire-rinehart-boosts-us-defense-and-spacex-holdings",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T22:26:51Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "349134aed1b0ce2a1a88",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T22:21:27Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a07d443e3a1472b19e7e",
+      "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T22:06:51Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "955ea5c60d994a852e55",
+      "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-earnings-are-sideshow-as-huang-s-ouster-looms-over-market",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T21:31:41Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "70a90226f94c9bbbed4d",
+      "title": "Nvidia Fallout Raises Stakes for Trump-Xi Meeting",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/nvidia-fallout-raises-stakes-for-trump-xi-meeting",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T21:28:52Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9c92a44a825cf09a2548",
+      "title": "Anthropic Fervor, Vanguard's 'Hot Sauce,' \"ETIFs\" Emerge",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/etf-iq-11-16-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T21:06:58Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "715c3dc355512030910d",
+      "title": "Cleveland Fed's Hammack on Rate Policy, Inflation Targets, AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/fed-s-hammack-on-rate-policy-inflation-targets-ai-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T20:09:53Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8bd1eeb5a4863f4522bc",
+      "title": "Trump Backs Huang’s Return to Nvidia",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/balance-of-power-early-edition-11-16-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T20:02:04Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f2d492f603f7f6b13af7",
+      "title": "Fed’s Hammack Prefers Small Hikes, Sees Risk of Bigger Moves",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T19:26:58Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5304cb3755e8f7aa4d65",
+      "title": "Zelenskyy Says US, Europe Delegates to Meet on Peace Talks Goal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/zelenskyy-says-us-europe-delegates-to-meet-on-peace-talks-goal",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T18:59:10Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f304700a2399c7e32444",
+      "title": "Nasdaq 100 Tumbles for Third Day With Nvidia Earnings on Horizon",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T18:51:04Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "003e1b0e5a6a529a7710",
+      "title": "Indian central bank seeks review of Supreme Court’s Yes Bank AT-1 bonds order",
+      "url": "https://www.thehindu.com/business/indian-central-bank-seeks-review-of-supreme-courts-yes-bank-at-1-bonds-order/article71709315.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T17:48:08Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a511524d24848972ba8e",
+      "title": "Will Spain’s Train Disaster Flip the Vote?",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/will-spain-s-train-disaster-flip-the-vote-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T17:46:30Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "829fb68d6be68e277cfc",
+      "title": "Third Aircraft Carrier Arrives in Gulf, Boosting US Options",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/third-aircraft-carrier-arrives-in-persian-gulf-boosting-options",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T17:16:42Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b5df3471bb4c72eb1df1",
+      "title": "Fed’s Warsh Says Staff Are Gaming Out Contingencies on AI Impact",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-warsh-says-staff-are-gaming-out-contingencies-on-ai-impact",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T17:00:00Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e5a3278a2c0f3bb68661",
+      "title": "Spain Hopes for Quick Deal on De Cos as Next ECB President",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/spain-hopes-for-quick-deal-on-de-cos-as-next-ecb-president",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T16:40:08Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ebbdbc9cdff7d011819d",
+      "title": "Trump Voices Confidence in Lutnick Despite Nvidia Fallout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/trump-voices-confidence-in-lutnick-despite-nvidia-fallout",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T15:34:31Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "717c962de6d5987c3a4b",
+      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T14:58:12Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5243d473c16ea34a5242",
+      "title": "Trump Backs Huang Comeback While Nvidia’s Board Pursues New CEO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/trump-backs-calls-for-huang-to-be-reinstated-as-nvidia-ceo",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T14:46:48Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "05d3eb8bba587094952e",
+      "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
+      "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T14:22:36Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9af25bc9a44a3b485ea9",
+      "title": "BNP Paribas on Sticky Inflation Risk",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/bnp-paribas-on-sticky-inflation-risk-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T14:07:34Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fe45ff6f0988a593dff7",
+      "title": "GTA 6 hacker pleads guilty after release from secure hospital",
+      "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T13:34:22Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a78b21464e2812ec2645",
+      "title": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T13:33:27Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6ef1b7d55bb015b6b345",
+      "title": "Nvidia Fuels Half Israel’s Growth as Economy Beats Forecasts",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fuels-half-of-israel-s-growth-as-economy-beats-forecasts",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T12:57:51Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d8528e858a7b31535e74",
+      "title": "Nigerian Inflation Eases Ahead of Rate-Setting Meeting",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nigerian-inflation-eases-ahead-of-interest-rate-setting-meeting",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T12:36:19Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "376fdde9f85e54c6dd43",
+      "title": "Brazil Analysts Lift Key Rate and Inflation Forecasts",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/brazil-analysts-lift-2027-forecasts-for-key-rate-and-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T12:00:44Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "98da1f28c53fd82fcd93",
+      "title": "Rupee rises 27 paise to close at 93.92 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/Industry/rupee-rises-27-paise-to-close-at-9392-against-us-dollar/article71707732.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T11:43:12Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ef8ee9e706a7f5fefcf4",
+      "title": "Stock markets end higher on foreign fund inflows, lower crude oil; Sensex up 512 points",
+      "url": "https://www.thehindu.com/business/Industry/stock-markets-end-higher-on-foreign-fund-inflows-lower-crude-oil-sensex-up-512-points/article71707675.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T11:34:51Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "energy_shipping",
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "23c62137f772edb31111",
+      "title": "Vujcic Says Bets on ECB Hike in 2027 Don’t Seem Unreasonable",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/vujcic-says-bets-on-ecb-hike-next-year-don-t-seem-unreasonable",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T09:38:05Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "53472e7d29801b37fa4f",
+      "title": "Thai Central Bank Chief Plays Down Chairman Rift on Legal Reform",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/thai-central-bank-chief-plays-down-chairman-rift-on-legal-reform",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T09:12:55Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a50a2c56e09ed5ca4ace",
+      "title": "UK and allies urge Israel to allow rapid humanitarian access to Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T08:56:04Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8791e97d7d9d17041268",
+      "title": "Norway’s Imports Hit Record on Data Center Equipment, Cars",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/norway-s-imports-hit-record-on-data-center-equipment-cars",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T08:55:27Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8122369076e77938f6bf",
+      "title": "ECB’s Vujcic Warns AI and High Debt Threaten Financial Stability",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/ecb-s-vujcic-warns-ai-and-high-debt-threaten-financial-stability",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T08:30:00Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "bce6e007863b7207b545",
       "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
@@ -307,6 +940,25 @@
       "discovered": "2026-11-16T08:19:38.131186Z",
       "topics": [
         "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "11f33a4cdfe8d5c818d2",
+      "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T00:11:12Z",
+      "discovered": "2026-11-16T22:58:27.323992Z",
+      "topics": [
+        "climate_agri"
       ],
       "feedSources": [
         "BBC World"

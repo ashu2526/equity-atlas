@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T08:19:38.131186Z",
+  "generatedAt": "2026-11-16T22:58:27.323992Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 298,
+    "items": 330,
     "publishers": 6,
-    "positive": 39,
-    "negative": 69,
-    "neutral": 190,
-    "languageIndex": -3.1,
+    "positive": 43,
+    "negative": 76,
+    "neutral": 211,
+    "languageIndex": -2.9,
     "label": "Mixed headline language",
-    "sourceConcentration": 52.0,
+    "sourceConcentration": 54.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 80,
+      "items": 91,
       "publishers": 3,
-      "positive": 7,
-      "negative": 13,
-      "neutral": 60,
-      "languageIndex": -3.6,
+      "positive": 9,
+      "negative": 14,
+      "neutral": 68,
+      "languageIndex": -2.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.0,
+      "sourceConcentration": 72.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "YTL Power Scrutinized Amid Nvidia Turmoil, Alleged China Links",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links",
-          "date": "2026-11-16T06:52:36Z",
+          "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T22:21:27Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+          "date": "2026-11-16T22:06:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia Fallout, Anthropic IPO Squeeze Asian Chip Stocks Anew",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
-          "date": "2026-11-16T06:51:43Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
-          "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
-          "date": "2026-11-15T19:00:20Z",
+          "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-earnings-are-sideshow-as-huang-s-ouster-looms-over-market",
+          "date": "2026-11-16T21:31:41Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,35 +66,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 73,
+      "items": 78,
       "publishers": 4,
-      "positive": 5,
-      "negative": 23,
-      "neutral": 45,
-      "languageIndex": -31.0,
+      "positive": 6,
+      "negative": 25,
+      "neutral": 47,
+      "languageIndex": -30.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.1,
+      "sourceConcentration": 42.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/ukraine-hits-crimean-bridge-in-record-drone-strike-on-russia",
-          "date": "2026-11-16T07:50:37Z",
+          "title": "Zelenskyy Says US, Europe Delegates to Meet on Peace Talks Goal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/zelenskyy-says-us-europe-delegates-to-meet-on-peace-talks-goal",
+          "date": "2026-11-16T18:59:10Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
-          "date": "2026-11-16T07:37:38Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T14:58:12Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
-          "date": "2026-11-16T07:04:30Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T14:22:36Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -109,35 +109,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 60,
+      "items": 71,
       "publishers": 5,
-      "positive": 5,
-      "negative": 21,
-      "neutral": 34,
-      "languageIndex": -22.0,
+      "positive": 6,
+      "negative": 25,
+      "neutral": 40,
+      "languageIndex": -21.8,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.7,
+      "sourceConcentration": 78.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "UK Rate-Hike Bets Are Picking Up With Key Inflation Data Due",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/uk-rate-hike-bets-are-picking-up-with-key-inflation-data-due",
-          "date": "2026-11-16T07:48:49Z",
+          "title": "Cleveland Fed's Hammack on Rate Policy, Inflation Targets, AI",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/fed-s-hammack-on-rate-policy-inflation-targets-ai-video",
+          "date": "2026-11-16T20:09:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Wholesale inflation surges to 12.29% in October, fuel and power prices lead rise",
-          "url": "https://www.thehindu.com/business/Economy/wholesale-price-inflation-october-government-data/article71707046.ece",
-          "date": "2026-11-16T07:20:06Z",
+          "title": "Fed’s Hammack Prefers Small Hikes, Sees Risk of Bigger Moves",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes",
+          "date": "2026-11-16T19:26:58Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Indian central bank seeks review of Supreme Court’s Yes Bank AT-1 bonds order",
+          "url": "https://www.thehindu.com/business/indian-central-bank-seeks-review-of-supreme-courts-yes-bank-at-1-bonds-order/article71709315.ece",
+          "date": "2026-11-16T17:48:08Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "IDR/USD: Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
-          "date": "2026-11-16T06:50:34Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -157,13 +157,19 @@
       "positive": 1,
       "negative": 2,
       "neutral": 31,
-      "languageIndex": -4.5,
+      "languageIndex": -5.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 47.1,
+      "sourceConcentration": 50.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Will Spain’s Train Disaster Flip the Vote?",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/will-spain-s-train-disaster-flip-the-vote-video",
+          "date": "2026-11-16T17:46:30Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
           "url": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
@@ -175,12 +181,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-16T05:06:59Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Trump Looks to Flex Power at Xi, Putin Summit After Midterm Loss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/weakened-at-home-trump-looks-to-flex-power-at-putin-xi-summit",
-          "date": "2026-11-16T01:00:45Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -195,12 +195,12 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 25,
+      "items": 27,
       "publishers": 1,
-      "positive": 14,
+      "positive": 15,
       "negative": 5,
-      "neutral": 6,
-      "languageIndex": 36.0,
+      "neutral": 7,
+      "languageIndex": 37.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +208,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Rupee rises 27 paise to close at 93.92 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/Industry/rupee-rises-27-paise-to-close-at-9392-against-us-dollar/article71707732.ece",
+          "date": "2026-11-16T11:43:12Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Stock markets end higher on foreign fund inflows, lower crude oil; Sensex up 512 points",
+          "url": "https://www.thehindu.com/business/Industry/stock-markets-end-higher-on-foreign-fund-inflows-lower-crude-oil-sensex-up-512-points/article71707675.ece",
+          "date": "2026-11-16T11:34:51Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
           "title": "Rupee rises 6 paise to 94.13 against U.S. dollar in early trade",
           "url": "https://www.thehindu.com/business/Industry/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade/article71706772.ece",
           "date": "2026-11-16T04:53:41Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
-          "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
-          "date": "2026-11-13T17:34:21Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
-          "url": "https://www.thehindu.com/business/markets/markets-snap-3-day-rally-sensex-drops-318-points-nifty-slips-below-25150/article71697688.ece",
-          "date": "2026-11-13T12:10:40Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,18 +238,24 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 24,
+      "items": 25,
       "publishers": 4,
       "positive": 7,
       "negative": 4,
-      "neutral": 13,
-      "languageIndex": 5.0,
+      "neutral": 14,
+      "languageIndex": 4.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 62.5,
+      "sourceConcentration": 64.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Stock markets end higher on foreign fund inflows, lower crude oil; Sensex up 512 points",
+          "url": "https://www.thehindu.com/business/Industry/stock-markets-end-higher-on-foreign-fund-inflows-lower-crude-oil-sensex-up-512-points/article71707675.ece",
+          "date": "2026-11-16T11:34:51Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Stock markets rally in early trade led by foreign fund inflows, lower crude oil",
           "url": "https://www.thehindu.com/business/stock-markets-rally-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil/article71706819.ece",
@@ -261,12 +267,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-16/modi-heads-to-manila-with-maritime-trade-trump-on-agenda",
           "date": "2026-11-16T03:14:33Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-14T22:27:06Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -322,20 +322,69 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "healthcare",
-      "title": "Hospital sector",
-      "items": 5,
-      "publishers": 4,
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 7,
+      "publishers": 2,
       "positive": 1,
-      "negative": 1,
-      "neutral": 3,
-      "languageIndex": 12.5,
+      "negative": 0,
+      "neutral": 6,
+      "languageIndex": 10.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 40.0,
+      "sourceConcentration": 71.4,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Billionaire Rinehart Boosts US Defense and SpaceX Holdings",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/billionaire-rinehart-boosts-us-defense-and-spacex-holdings",
+          "date": "2026-11-16T22:26:51Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Third Aircraft Carrier Arrives in Gulf, Boosting US Options",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/third-aircraft-carrier-arrives-in-persian-gulf-boosting-options",
+          "date": "2026-11-16T17:16:42Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
+          "date": "2026-11-16T07:37:38Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Defence electronics; Aerospace",
+      "proxySectors": "Shipbuilders; Engineering; Components",
+      "hypothesis": "Watch",
+      "potentialUpside": "Confirmed order book and margin realization",
+      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
+      "confirmation": "Enacted procurement budgets, contracts, deliveries",
+      "invalidation": "Canceled tenders, delayed acceptance",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "healthcare",
+      "title": "Hospital sector",
+      "items": 6,
+      "publishers": 4,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 4,
+      "languageIndex": 16.7,
+      "label": "Insufficient observations",
+      "sourceConcentration": 50.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "GTA 6 hacker pleads guilty after release from secure hospital",
+          "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T13:34:22Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
           "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
@@ -347,12 +396,6 @@
           "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
           "date": "2026-11-12T12:00:00Z",
           "publisher": "news.un.org"
-        },
-        {
-          "title": "Israel Kills Six With Hit on Gaza Hospital It Says Is Hamas Hub",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/israel-kills-six-with-hit-on-gaza-hospital-it-says-is-hamas-hub",
-          "date": "2026-11-12T07:00:45Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Hospitals; Specialty care",
@@ -367,18 +410,24 @@
     {
       "id": "climate_agri",
       "title": "Monsoon and agriculture",
-      "items": 5,
+      "items": 6,
       "publishers": 3,
       "positive": 0,
       "negative": 1,
-      "neutral": 4,
+      "neutral": 5,
       "languageIndex": -33.3,
       "label": "Insufficient observations",
-      "sourceConcentration": 40.0,
+      "sourceConcentration": 50.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+          "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T00:11:12Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
           "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
@@ -390,12 +439,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-11T00:18:07Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-10T15:21:18Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Agri inputs; FMCG; Rural consumption",
@@ -406,49 +449,6 @@
       "confirmation": "Rainfall and sowing data consistent with demand",
       "invalidation": "Weather forecast not realized in yields",
       "hypothesisAsOf": "2026-10-23"
-    },
-    {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 5,
-      "publishers": 2,
-      "positive": 1,
-      "negative": 0,
-      "neutral": 4,
-      "languageIndex": 16.7,
-      "label": "Insufficient observations",
-      "sourceConcentration": 60.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
-          "date": "2026-11-16T07:37:38Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
-          "date": "2026-11-16T07:04:30Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
-          "date": "2026-11-15T04:29:19Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Defence electronics; Aerospace",
-      "proxySectors": "Shipbuilders; Engineering; Components",
-      "hypothesis": "Watch",
-      "potentialUpside": "Confirmed order book and margin realization",
-      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
-      "confirmation": "Enacted procurement budgets, contracts, deliveries",
-      "invalidation": "Canceled tenders, delayed acceptance",
-      "hypothesisAsOf": "2026-11-11"
     },
     {
       "id": "auto_consumer",
@@ -657,35 +657,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 73,
+      "items": 78,
       "publishers": 4,
-      "positive": 5,
-      "negative": 23,
-      "neutral": 45,
-      "languageIndex": -31.0,
+      "positive": 6,
+      "negative": 25,
+      "neutral": 47,
+      "languageIndex": -30.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 41.1,
+      "sourceConcentration": 42.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Ukraine Hits Crimean Bridge in Record Drone Strike on Russia",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/ukraine-hits-crimean-bridge-in-record-drone-strike-on-russia",
-          "date": "2026-11-16T07:50:37Z",
+          "title": "Zelenskyy Says US, Europe Delegates to Meet on Peace Talks Goal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/zelenskyy-says-us-europe-delegates-to-meet-on-peace-talks-goal",
+          "date": "2026-11-16T18:59:10Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/horizons-middle-east-africa-11-16-2026-video",
-          "date": "2026-11-16T07:37:38Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T14:58:12Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Iran Targets Bahrain, US Deploys Aircraft Carrier",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-us-deploys-aircraft-carrier-video",
-          "date": "2026-11-16T07:04:30Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T14:22:36Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -700,35 +700,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 60,
+      "items": 71,
       "publishers": 5,
-      "positive": 5,
-      "negative": 21,
-      "neutral": 34,
-      "languageIndex": -22.0,
+      "positive": 6,
+      "negative": 25,
+      "neutral": 40,
+      "languageIndex": -21.8,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.7,
+      "sourceConcentration": 78.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "UK Rate-Hike Bets Are Picking Up With Key Inflation Data Due",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/uk-rate-hike-bets-are-picking-up-with-key-inflation-data-due",
-          "date": "2026-11-16T07:48:49Z",
+          "title": "Cleveland Fed's Hammack on Rate Policy, Inflation Targets, AI",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/fed-s-hammack-on-rate-policy-inflation-targets-ai-video",
+          "date": "2026-11-16T20:09:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Wholesale inflation surges to 12.29% in October, fuel and power prices lead rise",
-          "url": "https://www.thehindu.com/business/Economy/wholesale-price-inflation-october-government-data/article71707046.ece",
-          "date": "2026-11-16T07:20:06Z",
+          "title": "Fed’s Hammack Prefers Small Hikes, Sees Risk of Bigger Moves",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes",
+          "date": "2026-11-16T19:26:58Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Indian central bank seeks review of Supreme Court’s Yes Bank AT-1 bonds order",
+          "url": "https://www.thehindu.com/business/indian-central-bank-seeks-review-of-supreme-courts-yes-bank-at-1-bonds-order/article71709315.ece",
+          "date": "2026-11-16T17:48:08Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "IDR/USD: Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
-          "date": "2026-11-16T06:50:34Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -748,13 +748,19 @@
       "positive": 1,
       "negative": 2,
       "neutral": 31,
-      "languageIndex": -4.5,
+      "languageIndex": -5.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 47.1,
+      "sourceConcentration": 50.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Will Spain’s Train Disaster Flip the Vote?",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-16/will-spain-s-train-disaster-flip-the-vote-video",
+          "date": "2026-11-16T17:46:30Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
           "url": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
@@ -766,12 +772,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-16T05:06:59Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Trump Looks to Flex Power at Xi, Putin Summit After Midterm Loss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/weakened-at-home-trump-looks-to-flex-power-at-putin-xi-summit",
-          "date": "2026-11-16T01:00:45Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 155
+      "stories": 179
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 67
+      "stories": 69
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 58
+      "stories": 64
     },
     {
       "publisher": "news.un.org",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 15,
+    "reportedScanCount": 16,
     "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
