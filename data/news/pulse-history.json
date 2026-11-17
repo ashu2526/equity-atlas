@@ -2,6 +2,136 @@
   "schema": 1,
   "snapshots": [
     {
+      "generatedAt": "2026-11-17T09:34:16.295970Z",
+      "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
+      "overall": {
+        "items": 349,
+        "publishers": 6,
+        "positive": 43,
+        "negative": 82,
+        "neutral": 224,
+        "languageIndex": -3.5,
+        "label": "Mixed headline language",
+        "sourceConcentration": 55.6,
+        "coverageSufficient": true
+      },
+      "topics": [
+        {
+          "id": "ai_rotation",
+          "items": 95,
+          "publishers": 3,
+          "languageIndex": -4.3,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "geopolitics",
+          "items": 83,
+          "publishers": 4,
+          "languageIndex": -30.8,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "inflation_rates",
+          "items": 77,
+          "publishers": 5,
+          "languageIndex": -21.8,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "elections_policy",
+          "items": 37,
+          "publishers": 4,
+          "languageIndex": -3.8,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "india_flows",
+          "items": 27,
+          "publishers": 1,
+          "languageIndex": 37.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "energy_shipping",
+          "items": 25,
+          "publishers": 4,
+          "languageIndex": 1.6,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "trade_policy",
+          "items": 8,
+          "publishers": 2,
+          "languageIndex": -42.9,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "defence_capex",
+          "items": 7,
+          "publishers": 2,
+          "languageIndex": 10.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "healthcare",
+          "items": 6,
+          "publishers": 4,
+          "languageIndex": 16.7,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "climate_agri",
+          "items": 6,
+          "publishers": 3,
+          "languageIndex": -33.3,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "auto_consumer",
+          "items": 3,
+          "publishers": 1,
+          "languageIndex": -33.3,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "sovereign_credit",
+          "items": 2,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "tech_credit",
+          "items": 2,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "credit_cds",
+          "items": 1,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "tyre_inputs",
+          "items": 1,
+          "publishers": 1,
+          "languageIndex": 0.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "mega_credit",
+          "items": 0,
+          "publishers": 0,
+          "languageIndex": null,
+          "attentionDeltaPct": null
+        }
+      ],
+      "marketRegime": "Unconfirmed — missing independently verified price/breadth/credit/earnings-revision factors"
+    },
+    {
       "generatedAt": "2026-11-16T22:58:27.323992Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
