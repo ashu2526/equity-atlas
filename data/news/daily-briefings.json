@@ -3,6 +3,407 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-17-am",
+      "asOf": "2026-11-17",
+      "createdAt": "2026-11-17T01:55:39Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — qualified research; primary flow and some issuer details unverified",
+      "marketSession": "AM — Tuesday 17 Nov 2026, 07:25 IST; overnight global developments and completed 16 Nov India session",
+      "coverageWindow": {
+        "start": "2026-11-03",
+        "end": "2026-11-17T07:25:39+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-16T22:58:27.323992Z",
+      "headline": "Global semiconductor selloff and falling oil test India's narrow bank-led rebound; fresh hospital breakouts need confirmation",
+      "executiveSummary": "NEW since 16 Nov PM: Reuters reports global semiconductor index -5.3%, Korea -3.6% and Taiwan -6% on 16 Nov ahead of Nvidia earnings and Anthropic IPO, with crude more than 3% lower. Bloomberg RSS records new Fed Hammack inflation commentary, a US chip remote-access policy proposal and Gulf military positioning. Fresh 22:59 UTC source collection now includes 16 Nov NIFTY sector closing prices and completed stock bars, unlike yesterday evening. Private Bank 3m +10.73% versus NIFTY +4.13%, but Auto -5.51%; hospital names MAXHEALTH and KIMS show new volume-backed 20-session breakout watches, not institutional flows. Secondary NSE-derived 16 Nov FII cash +₹4,864.68cr, DII -₹3,519.05cr remains unverified at NSE primary. No confident all-market risk-on label: global tech risk, domestic breadth and WPI pressure conflict with foreign buying. Sector leadership and priced event-risk: Private Bank +6.60pp and Auto -9.64pp relative 3m to NIFTY; Fed +25bp December YES 91.5¢ with $179,618.52 24h betting volume, +4pp versus actual stored prior snapshot, not a calibrated probability. Technical findings: MAXHEALTH and KIMS fresh 20-session volume-backed breakouts, conditional on follow-through.",
+      "regime": {
+        "label": "Selective India large-cap strength / global technology de-risking and conditional oil relief",
+        "change": "Versus 16 Nov PM, 16 Nov sector and company OHLCV snapshots have arrived; global semiconductor selling and oil decline are newly dated observations. Domestic WPI and JLR guidance are carryovers, not new Tuesday releases.",
+        "confidence": "Moderate for 16 Nov stored NSE-index price observations and Reuters global market direction; low-to-moderate for institutional cash flows pending NSE primary; low for causal sector capital rotation.",
+        "marketConfirmation": "NIFTY 50 stored close 25,291.10 on 16 Nov (+0.98% over 7d); Private Bank 3m +10.73%, Auto -5.51%; 16 Nov global semiconductor index -5.3% per Reuters.",
+        "contradictions": [
+          "FII cash net buying versus DII net selling",
+          "Indian private banks' 3m strength versus weak auto/energy and small-cap breadth",
+          "Crude spot price declines despite Gulf escalation headlines",
+          "AI infrastructure long-run demand remains unverified by near-term semiconductor price selloff",
+          "Pharma 3m positive relative return but 7d price return -2.76%"
+        ],
+        "missingSignals": [
+          "Primary NSE 16 Nov FII/DII gross downloadable turnover",
+          "NSDL latest fortnightly FPI sector transaction allocations",
+          "Primary AMFI monthly subscriptions table",
+          "CFTC current weekly speculative positions and US Treasury TIC country flows",
+          "Primary issuer filing for JLR forecast and Fed speech transcript",
+          "No verified issuer CDS prices or company delivery-based accumulation"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "16 Nov FII cash buy/sell/net",
+          "value": "₹15,636.88cr / ₹10,772.20cr / +₹4,864.68cr",
+          "period": "16 Nov 2026",
+          "dataClass": "secondary NSE-derived provisional cash transactions",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "16 Nov DII cash buy/sell/net",
+          "value": "₹11,752.03cr / ₹15,271.08cr / −₹3,519.05cr",
+          "period": "16 Nov 2026",
+          "dataClass": "secondary NSE-derived provisional cash transactions",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "NIFTY 50",
+          "value": "25,291.10; 3m +4.13%",
+          "period": "16 Nov 2026",
+          "dataClass": "stored index closing price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Private Bank relative 3m",
+          "value": "+6.60 percentage points; 3m +10.73%; 1m +9.18%; 7d +2.14%",
+          "period": "16 Nov 2026",
+          "dataClass": "index price, not capital flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Auto relative 3m",
+          "value": "−9.64 percentage points; 3m −5.51%; 1m +6.99%; 7d −1.27%",
+          "period": "16 Nov 2026",
+          "dataClass": "index price, not capital flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "US semiconductor index",
+          "value": "−5.3%",
+          "period": "16 Nov 2026",
+          "dataClass": "Reuters reported index-price change",
+          "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/"
+        },
+        {
+          "name": "Polymarket Fed +25bps YES",
+          "value": "91.5¢; +4.0 pp vs preceding stored snapshot; 24h volume $179,618.52; liquidity $406,001.94",
+          "period": "2026-11-16T22:59:31.620210Z",
+          "dataClass": "prediction market YES quote; not objective probability or equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "20261117-global-ai",
+          "rank": 1,
+          "importance": "High",
+          "theme": "AI capex / global risk",
+          "geography": "Global",
+          "title": "Semiconductor shares sell off ahead of Nvidia earnings and Anthropic listing",
+          "whatHappened": "Reuters reported 16 Nov US semiconductor index down 5.3%, Korean and Taiwan shares down 3.6% and 6% respectively, as Nvidia governance and earnings risk weighed on the sector.",
+          "whyItMatters": [
+            "A repricing of AI capital expenditure expectations can raise financing costs for data-centre infrastructure.",
+            "Semiconductor selling can transmit to Asian export earnings and India IT valuation multiples."
+          ],
+          "smartMoney": "No verified India sector FPI buying or global institutional cash trades; ETF/index moves are prices, not flows",
+          "direct": "Semiconductors, cloud infrastructure and IT services",
+          "proxies": "Power equipment, cooling, transmission and industrial suppliers only if actual capex orders hold",
+          "whatCouldChange": "Track Nvidia guidance, hyperscaler capex and semiconductor order books; equity prices alone do not prove capex cuts",
+          "caution": "No verified India sector FPI buying or global institutional cash trades; ETF/index moves are prices, not flows",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-rates",
+          "rank": 2,
+          "importance": "High",
+          "theme": "Rates / inflation",
+          "geography": "US / India",
+          "title": "Fed officials emphasize inflation risk while India's wholesale input-cost shock persists",
+          "whatHappened": "Bloomberg RSS dated 16 Nov reports Cleveland Fed President Hammack preferring small incremental hikes; India's October WPI was reported at 12.29%, fuel and power 32.84%.",
+          "whyItMatters": [
+            "Higher expected discount rates pressure long-duration equities and debt-funded investment.",
+            "Wholesale fuel inflation can compress industrial margins unless output pricing adjusts."
+          ],
+          "smartMoney": "Hammack report is publisher headline not primary Fed transcript; no hike decision was announced",
+          "direct": "Banks, NBFCs, real estate, transport and manufacturing",
+          "proxies": "Cash-rich firms, pricing-power franchises, short-duration businesses",
+          "whatCouldChange": "Check US 2/10-year Treasury yields, RBI communications, producer-to-consumer pass-through and loan repricing",
+          "caution": "Hammack report is publisher headline not primary Fed transcript; no hike decision was announced",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-oil",
+          "rank": 3,
+          "importance": "High",
+          "theme": "Energy / geopolitics",
+          "geography": "Middle East / India",
+          "title": "Oil falls despite renewed Gulf military positioning",
+          "whatHappened": "Reuters 16 Nov reported crude falling more than 3% while a 16 Nov Bloomberg headline reported a third US aircraft carrier arriving in the Persian Gulf.",
+          "whyItMatters": [
+            "Lower spot oil can ease India's import bill, airlines' fuel expense and chemical feedstock costs.",
+            "Military escalation could reverse oil relief or lift freight and insurance premiums independently of crude."
+          ],
+          "smartMoney": "Carrier headline is not proof of a supply outage; no tanker-loss or CDS spread quote verified",
+          "direct": "OMCs, airlines, chemicals, tyres, shipping",
+          "proxies": "Paints, consumer discretionary and INR-sensitive borrowers",
+          "whatCouldChange": "Verify Brent settlement, tanker traffic, marine insurance, freight and confirmed physical disruptions",
+          "caution": "Carrier headline is not proof of a supply outage; no tanker-loss or CDS spread quote verified",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-flows",
+          "rank": 4,
+          "importance": "High",
+          "theme": "India institutional flows",
+          "geography": "India",
+          "title": "Foreign cash purchases persist but domestic institutional selling offsets",
+          "whatHappened": "Secondary NSE-derived 16 Nov cash-market table reports FII gross ₹15,636.88cr bought, ₹10,772.20cr sold, net +₹4,864.68cr; DII ₹11,752.03cr bought, ₹15,271.08cr sold, net −₹3,519.05cr.",
+          "whyItMatters": [
+            "Aggregate foreign buying supports liquidity but cannot identify beneficiaries by sector.",
+            "Domestic selling and weak mid/small-cap breadth challenge a uniform risk-on interpretation."
+          ],
+          "smartMoney": "Primary NSE gross record not retrieved; reported index closing figures conflict among secondary sites",
+          "direct": "Liquid large-cap equities and financials",
+          "proxies": "Exchanges, brokers and asset managers if turnover and subscriptions persist",
+          "whatCouldChange": "Reconcile primary NSE turnover and NSDL fortnightly sector transactions; compare breadth and earnings revisions",
+          "caution": "Primary NSE gross record not retrieved; reported index closing figures conflict among secondary sites",
+          "sources": [
+            "https://www.jivanimarkets.com/markets/fii-dii"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-jlr",
+          "rank": 5,
+          "importance": "High",
+          "theme": "Corporate earnings / autos",
+          "geography": "India / UK / China",
+          "title": "JLR reduces FY27 margin outlook",
+          "whatHappened": "Reuters reported on 16 Nov that JLR reduced FY27 core margin guidance from 4% to 2–3%, citing demand and competitive pressure.",
+          "whyItMatters": [
+            "Lower margins can reduce parent-company cash generation and valuation.",
+            "China competition may pressure premium auto pricing, supplier volumes and inventory."
+          ],
+          "smartMoney": "Company-specific downgrade does not establish all Indian auto manufacturers are weakening",
+          "direct": "Tata Motors PV and global premium autos",
+          "proxies": "Auto components, logistics and premium vehicle financing with actual exposure",
+          "whatCouldChange": "Check issuer filing, regional sales, discounts, warranty costs and cash-flow guidance",
+          "caution": "Company-specific downgrade does not establish all Indian auto manufacturers are weakening",
+          "sources": [
+            "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-bank-credit",
+          "rank": 6,
+          "importance": "Medium-high",
+          "theme": "Financial regulation / credit",
+          "geography": "India",
+          "title": "RBI seeks review of Yes Bank AT1 ruling",
+          "whatHappened": "The Hindu published 16 Nov that RBI sought review of the Supreme Court order relating to Yes Bank AT-1 bonds.",
+          "whyItMatters": [
+            "Treatment of loss-absorbing bank capital can affect bank funding and investor required returns.",
+            "Legal uncertainty may influence appetite for subordinated debt and financial-sector credit risk."
+          ],
+          "smartMoney": "Legal action is not a CDS quote or confirmed funding-market repricing",
+          "direct": "Banks and subordinated bond investors",
+          "proxies": "NBFC funding and insurers holding financial debt",
+          "whatCouldChange": "Read court order and RBI filing; track primary AT1 issuance and yields",
+          "caution": "Legal action is not a CDS quote or confirmed funding-market repricing",
+          "sources": [
+            "https://www.thehindu.com/business/indian-central-bank-seeks-review-of-supreme-courts-yes-bank-at-1-bonds-order/article71709315.ece"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-trade-chips",
+          "rank": 7,
+          "importance": "Medium-high",
+          "theme": "Tariffs / technology trade",
+          "geography": "US / China / India",
+          "title": "US moves to restrict remote access to advanced AI chips",
+          "whatHappened": "Bloomberg RSS 16 Nov reports US action aimed at limiting China's remote access to advanced AI chips; implementation details not independently retrieved.",
+          "whyItMatters": [
+            "Restrictions may change demand geography and utilization of US-hosted compute.",
+            "Compliance costs and export restrictions could alter hyperscaler procurement and offshore IT delivery economics."
+          ],
+          "smartMoney": "Headline alone cannot establish an enacted rule or quantify revenue loss",
+          "direct": "Chip vendors, cloud computing and IT services",
+          "proxies": "India data-centre and grid equipment only if procurement shifts are verified",
+          "whatCouldChange": "Verify enacted text, effective date, exemptions, enforcement and company disclosures",
+          "caution": "Headline alone cannot establish an enacted rule or quantify revenue loss",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        },
+        {
+          "id": "20261117-war",
+          "rank": 8,
+          "importance": "Medium",
+          "theme": "War / geopolitical tail risk",
+          "geography": "Ukraine / Europe",
+          "title": "Ukraine conflict reports include Crimea bridge attack",
+          "whatHappened": "BBC 16 Nov reported a Crimea bridge strike and Russian claims of a large Ukrainian drone attack.",
+          "whyItMatters": [
+            "Infrastructure attacks can increase transport, commodity and insurance risk premia.",
+            "Energy supply or sanctions responses could affect European industrial input costs and India's import mix."
+          ],
+          "smartMoney": "Military claims and potential second-order beneficiaries remain unverified",
+          "direct": "Energy, European manufacturing, shipping",
+          "proxies": "Indian specialty chemicals and alternative sourcing only if order migration occurs",
+          "whatCouldChange": "Check independent damage assessment, sanctions, energy supply and shipping rates",
+          "caution": "Military claims and potential second-order beneficiaries remain unverified",
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o"
+          ],
+          "evidenceType": "Dated reported observation plus explicitly conditional economic transmission"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private and PSU banks",
+          "status": "Price leadership, conditional",
+          "evidence": "Private Bank 3m +6.60pp vs NIFTY; PSU Bank 1m +14.95%, 7d +4.49%",
+          "transmission": "Credit spreads, funding and treasury earnings",
+          "counterevidence": "WPI pressure, DII selling, falling 200DMA slopes in some bank stocks",
+          "nextData": "NSDL sector transactions, NIM, credit cost and bond yields",
+          "change": "16 Nov closing data refreshed"
+        },
+        {
+          "sector": "Hospitals",
+          "status": "New technical acceleration, fundamental unproven",
+          "evidence": "MAXHEALTH 20-session breakout ₹1,009.90 > ₹953 with 2.28x volume and marginal 200DMA reclaim ₹1,009.20; KIMS ₹763.35 > ₹746.80 at 2.85x volume",
+          "transmission": "Capacity additions, occupancy and revenue per occupied bed",
+          "counterevidence": "Pharma 7d -2.76%; no verified delivery or earnings revision",
+          "nextData": "Exchange-confirmed bars, 2–3-day follow-through, occupancy and EBITDA",
+          "change": "New 16 Nov price bars, absent at PM review"
+        },
+        {
+          "sector": "AI infrastructure and Indian grid supply",
+          "status": "Long-term capex thesis not yet proven",
+          "evidence": "Global semiconductor index -5.3%; no verified India procurement change",
+          "transmission": "Transformers, switchgear, cables, cooling, power and BESS orders",
+          "counterevidence": "Equity drawdown does not equal cancelled data-centre orders",
+          "nextData": "Hyperscaler capex and Indian order intake",
+          "change": "Global selloff adds valuation and financing headwind"
+        },
+        {
+          "sector": "Oil-consuming industries",
+          "status": "Conditional relief",
+          "evidence": "Reuters 16 Nov oil declined >3%",
+          "transmission": "Airlines, chemicals, tyres, paints and imported-input margins",
+          "counterevidence": "Hormuz and freight insurance risk; WPI fuel +32.84% is lagged",
+          "nextData": "Brent settlement, INR, freight and margin guidance",
+          "change": "Spot crude decline offsets prior one-way escalation focus"
+        },
+        {
+          "sector": "Pharma",
+          "status": "Cooling near-term despite positive 3m",
+          "evidence": "3m +2.54pp relative; 7d -2.76%",
+          "transmission": "US sales, pricing and operating leverage",
+          "counterevidence": "Recent short-run negative momentum",
+          "nextData": "USFDA events, sales and earnings revisions",
+          "change": "Short-term price cooling clearer"
+        },
+        {
+          "sector": "Autos",
+          "status": "Weak 3m, mixed 1m rebound",
+          "evidence": "3m -9.64pp vs NIFTY; 1m +6.99%, 7d -1.27%; JLR margin cut",
+          "transmission": "OEM margins, premium export sales and component orders",
+          "counterevidence": "JLR company-specific and 1m auto rebound",
+          "nextData": "November registrations, discounts, JLR China sales",
+          "change": "16 Nov price lag worsened"
+        },
+        {
+          "sector": "IT services",
+          "status": "Not yet proven",
+          "evidence": "NIFTY IT 3m -0.45pp vs NIFTY, 1m +0.05%, 7d -1.63%",
+          "transmission": "Discretionary spending and AI services bookings",
+          "counterevidence": "AI infrastructure selloff and chip trade controls",
+          "nextData": "Bookings, guidance and client capex",
+          "change": "Global chip risk rose"
+        },
+        {
+          "sector": "Energy and metals",
+          "status": "Cooling",
+          "evidence": "Energy 3m -7.69pp, metals -9.06pp vs NIFTY",
+          "transmission": "Crude realizations, refining margins, commodity spreads",
+          "counterevidence": "Oil & Gas 1m +7.61% and supply risks can reverse prices",
+          "nextData": "Brent, crack spreads, industrial demand",
+          "change": "16 Nov sector relative return refreshed"
+        }
+      ],
+      "cooling": [
+        "Energy 3m relative -7.69pp",
+        "Auto 3m relative -9.64pp",
+        "Metal 3m relative -9.06pp",
+        "Pharma 7d -2.76% despite positive 3m"
+      ],
+      "risks": [
+        "Brent and tanker freight reverse sharply upward on verified supply disruption",
+        "US Treasury yields and USD strengthen after Fed comments",
+        "FII buying reverses in primary NSE daily cash data",
+        "Indian small/midcap breadth fails despite NIFTY advances",
+        "AI capex guidance falls with semiconductor shares",
+        "JLR downgrades spread into Indian component order books",
+        "Bank 200DMA reclaims fail and loan credit costs rise"
+      ],
+      "whatChanged": [
+        "22:59 UTC sector/technical collectors now have 16 Nov closing data; previous PM report had 13 Nov bars",
+        "New MAXHEALTH and KIMS 20-session volume breakouts; no institutional buying attribution",
+        "Global semiconductor -5.3% and oil >3% decline reported 16 Nov",
+        "Fed +25bp December YES contract now 91.5¢ vs stored previous 87.5¢, not a probability",
+        "Private Bank relative 3m +6.60pp vs earlier +6.83pp, Auto -9.64pp vs -7.57pp; periods roll, not directly comparable investment performance"
+      ],
+      "tomorrowChecklist": [
+        "Check 17 Nov NSE official FII/DII gross and reconcile secondary sources",
+        "Verify 17 Nov completed Indian sector bars, breadth and USD/INR",
+        "Check MAXHEALTH/KIMS price follow-through and actual exchange volume; reject one-day spike",
+        "Verify NSDL fortnightly FPI sector purchases and AMFI October official table",
+        "Check Nvidia earnings/guidance, AI capex and chip trade-rule primary text",
+        "Monitor Brent settlement, tanker traffic and freight insurance",
+        "Check Treasury yield curve, CFTC weekly report and TIC release availability",
+        "Check 17 Nov Polymarket snapshot before claiming any further odds change"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+        "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/",
+        "https://www.thehindu.com/business/indian-central-bank-seeks-review-of-supreme-courts-yes-bank-at-1-bonds-order/article71709315.ece",
+        "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes",
+        "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips",
+        "https://www.bloomberg.com/news/articles/2026-11-16/third-aircraft-carrier-arrives-in-persian-gulf-boosting-options",
+        "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/stock-price-volume.json",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.amfiindia.com/research-information/other-data/mf-industry-data",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+      ],
+      "limitations": [
+        "Source archive 2026-11-16T22:58:27.323992Z; 14/15 RSS feeds succeeded; UN News malformed feed. 07:00 IST pipeline success cannot be inferred from UTC timestamps alone, although latest scan was 04:28 IST and market signals 04:29 IST.",
+        "Publisher RSS titles alone are not independent verification; Reuters global market reporting checked separately.",
+        "NSE primary, NSDL sector, AMFI primary, CFTC and TIC quantities unavailable in this run; no flow inference from index prices.",
+        "Sector relative-return changes compare rolling windows; do not confuse with investor allocation changes.",
+        "Polymarket YES contract is a quoted wager price; liquidity and volume are betting market measures.",
+        "16 Nov OHLCV via public third-party mirrors requires exchange confirmation; no verified company delivery data or valuations.",
+        "No issuer CDS spread quote verified; no assertion of CDS widening."
+      ]
+    },
+    {
       "id": "2026-11-16-pm",
       "asOf": "2026-11-16",
       "createdAt": "2026-11-16T14:32:09Z",
