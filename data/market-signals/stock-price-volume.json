@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T09:31:39.078698+00:00",
-  "asOf": "2026-11-16",
+  "generatedAt": "2026-11-17T21:51:52.566157+00:00",
+  "asOf": "2026-11-17",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
   "sourceNotice": "Public Yahoo Finance historical chart endpoint, unofficial; market data/licensing/continuity and split adjustment must be checked before live investment use.",
   "coverage": {
     "configuredTickers": 22,
     "ready": 22,
-    "flaggedReadyStocks": 7,
+    "flaggedReadyStocks": 6,
     "partialOrUnavailable": 0
   },
   "stocks": [
@@ -17,37 +17,48 @@
       "name": "Yatharth Hospital",
       "sector": "Hospitals",
       "primaryResearch": true,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1069.05,
-      "lastVolume": 128771,
+      "lastClose": 1109.55,
+      "lastVolume": 464197,
       "indicators": {
-        "sma20": 988.16,
-        "sma50": 1016.81,
-        "sma200": 837.91,
-        "rsi14": 78.21,
-        "volumeRatio20": 0.39,
-        "cmf20": 0.091,
-        "obv20Scaled": 0.226,
-        "closeLocation": 0.724,
-        "averageTurnover20Inr": 319185370.19,
-        "return20dPct": 7.76,
-        "return60dPct": 25.42,
-        "return120dPct": 30.28,
-        "distance52wHighPct": -9.71,
-        "ma50SlopeSessionPct": 0.2021,
+        "sma20": 995.09,
+        "sma50": 1019.75,
+        "sma200": 840.68,
+        "rsi14": 84.65,
+        "volumeRatio20": 1.43,
+        "cmf20": 0.136,
+        "obv20Scaled": 0.341,
+        "closeLocation": 0.706,
+        "averageTurnover20Inr": 332383703.16,
+        "return20dPct": 14.27,
+        "return60dPct": 30.87,
+        "return120dPct": 35.92,
+        "distance52wHighPct": -6.29,
+        "ma50SlopeSessionPct": 0.2896,
         "prior20High": 1084.95,
         "prior55High": 1184.0,
         "prior55Low": 891.0,
-        "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": 4.248
+        "breakoutCountLast15": 1,
+        "longAverageSlope20dPct": 4.407
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [],
-      "signalCount": 0,
+      "signals": [
+        {
+          "id": "volume_20d_breakout_watch",
+          "priority": "watch",
+          "headline": "20-session breakout — follow-through needed",
+          "evidence": "Close ₹1,109.55 above prior 20-session high ₹1,084.95, volume 1.43× 20-session mean.",
+          "confirmation": "Confirm 2–3-day follow-through and company-level catalysts.",
+          "invalidation": "Failed hold above resistance; volume spike unrelated to ownership interest.",
+          "horizon": "short_term",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        }
+      ],
+      "signalCount": 1,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -56,14 +67,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 828.0,
-          "high": 844.8,
-          "low": 803.35,
-          "close": 816.35,
-          "volume": 763183
-        },
         {
           "date": "2026-05-27",
           "open": 827.25,
@@ -1015,6 +1018,14 @@
           "low": 1052.3,
           "close": 1069.05,
           "volume": 128771
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1079.0,
+          "high": 1122.7,
+          "low": 1077.95,
+          "close": 1109.55,
+          "volume": 464197
         }
       ]
     },
@@ -1023,33 +1034,33 @@
       "name": "Narayana Hrudayalaya",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1895.3,
-      "lastVolume": 238260,
+      "lastClose": 1907.6,
+      "lastVolume": 126686,
       "indicators": {
-        "sma20": 1803.42,
-        "sma50": 1810.21,
-        "sma200": 1838.42,
-        "rsi14": 71.85,
-        "volumeRatio20": 1.49,
-        "cmf20": 0.142,
-        "obv20Scaled": 0.328,
-        "closeLocation": 0.876,
-        "averageTurnover20Inr": 303643699.39,
-        "return20dPct": 10.23,
-        "return60dPct": 6.14,
-        "return120dPct": -2.3,
-        "distance52wHighPct": -9.46,
-        "ma50SlopeSessionPct": -0.0303,
+        "sma20": 1811.75,
+        "sma50": 1810.72,
+        "sma200": 1839.33,
+        "rsi14": 72.01,
+        "volumeRatio20": 0.76,
+        "cmf20": 0.132,
+        "obv20Scaled": 0.322,
+        "closeLocation": 0.662,
+        "averageTurnover20Inr": 306947651.37,
+        "return20dPct": 9.58,
+        "return60dPct": 6.02,
+        "return120dPct": 0.86,
+        "distance52wHighPct": -8.87,
+        "ma50SlopeSessionPct": 0.0281,
         "prior20High": 1952.9,
         "prior55High": 1952.9,
         "prior55Low": 1622.8,
         "breakoutCountLast15": 2,
-        "longAverageSlope20dPct": -0.389
+        "longAverageSlope20dPct": -0.307
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -1057,7 +1068,7 @@
           "id": "short_breakout_long_average_falling",
           "priority": "watch",
           "headline": "Short-term price leadership while the 200-DMA still slopes down",
-          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.39%.",
+          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.31%.",
           "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
           "invalidation": "Break below 200-DMA or momentum/volume fade.",
           "horizon": "short_long_conflict",
@@ -1073,14 +1084,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1939.1,
-          "high": 1946.4,
-          "low": 1885.0,
-          "close": 1891.4,
-          "volume": 445589
-        },
         {
           "date": "2026-05-27",
           "open": 1900.0,
@@ -2032,6 +2035,14 @@
           "low": 1855.0,
           "close": 1895.3,
           "volume": 238260
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1895.3,
+          "high": 1920.0,
+          "low": 1883.3,
+          "close": 1907.6,
+          "volume": 126686
         }
       ]
     },
@@ -2040,33 +2051,33 @@
       "name": "Max Healthcare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1009.9,
-      "lastVolume": 8264196,
+      "lastClose": 1030.9,
+      "lastVolume": 5962590,
       "indicators": {
-        "sma20": 888.53,
-        "sma50": 937.09,
-        "sma200": 1009.2,
-        "rsi14": 90.5,
-        "volumeRatio20": 2.28,
-        "cmf20": 0.277,
-        "obv20Scaled": 0.544,
-        "closeLocation": 1.0,
-        "averageTurnover20Inr": 3413814268.2,
-        "return20dPct": 19.37,
-        "return60dPct": 1.29,
-        "return120dPct": 0.9,
-        "distance52wHighPct": -14.81,
-        "ma50SlopeSessionPct": 0.0339,
-        "prior20High": 953.0,
+        "sma20": 898.57,
+        "sma50": 937.81,
+        "sma200": 1009.48,
+        "rsi14": 91.13,
+        "volumeRatio20": 1.55,
+        "cmf20": 0.313,
+        "obv20Scaled": 0.618,
+        "closeLocation": 0.683,
+        "averageTurnover20Inr": 3636377777.75,
+        "return20dPct": 24.2,
+        "return60dPct": 3.31,
+        "return120dPct": 3.72,
+        "distance52wHighPct": -13.03,
+        "ma50SlopeSessionPct": 0.0768,
+        "prior20High": 1009.9,
         "prior55High": 1072.6,
         "prior55Low": 797.0,
-        "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -1.399
+        "breakoutCountLast15": 2,
+        "longAverageSlope20dPct": -1.254
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -2074,7 +2085,7 @@
           "id": "volume_20d_breakout_watch",
           "priority": "watch",
           "headline": "20-session breakout — follow-through needed",
-          "evidence": "Close ₹1,009.90 above prior 20-session high ₹953.00, volume 2.28× 20-session mean.",
+          "evidence": "Close ₹1,030.90 above prior 20-session high ₹1,009.90, volume 1.55× 20-session mean.",
           "confirmation": "Confirm 2–3-day follow-through and company-level catalysts.",
           "invalidation": "Failed hold above resistance; volume spike unrelated to ownership interest.",
           "horizon": "short_term",
@@ -2084,14 +2095,24 @@
           "id": "200d_reclaim_watch",
           "priority": "watch",
           "headline": "Possible longer-term upturn: 200-DMA reclaim",
-          "evidence": "Price recovered above 200-session average ₹1,009.20, with volume 2.28× normal.",
+          "evidence": "Price recovered above 200-session average ₹1,009.48, with volume 1.55× normal.",
           "confirmation": "Multiple closes above 200-DMA, rising 50-DMA and positive sector leadership.",
           "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
           "horizon": "long_term",
           "type": "mechanical_price_volume_observation_not_a_trade_signal"
+        },
+        {
+          "id": "short_breakout_long_average_falling",
+          "priority": "watch",
+          "headline": "Short-term price leadership while the 200-DMA still slopes down",
+          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -1.25%.",
+          "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
+          "invalidation": "Break below 200-DMA or momentum/volume fade.",
+          "horizon": "short_long_conflict",
+          "type": "mechanical_price_volume_observation_not_a_trade_signal"
         }
       ],
-      "signalCount": 2,
+      "signalCount": 3,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -2100,14 +2121,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1000.9,
-          "high": 1000.9,
-          "low": 987.15,
-          "close": 993.95,
-          "volume": 2515276
-        },
         {
           "date": "2026-05-27",
           "open": 995.0,
@@ -3059,6 +3072,14 @@
           "low": 947.15,
           "close": 1009.9,
           "volume": 8264196
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1020.0,
+          "high": 1039.0,
+          "low": 1013.45,
+          "close": 1030.9,
+          "volume": 5962590
         }
       ]
     },
@@ -3067,33 +3088,33 @@
       "name": "Apollo Hospitals",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 8771.0,
-      "lastVolume": 605900,
+      "lastClose": 8712.5,
+      "lastVolume": 488599,
       "indicators": {
-        "sma20": 8238.3,
-        "sma50": 8374.07,
-        "sma200": 8172.26,
-        "rsi14": 79.07,
-        "volumeRatio20": 1.23,
-        "cmf20": 0.367,
-        "obv20Scaled": 0.333,
-        "closeLocation": 0.938,
-        "averageTurnover20Inr": 4102058042.05,
-        "return20dPct": 11.17,
-        "return60dPct": 0.24,
-        "return120dPct": 4.37,
-        "distance52wHighPct": -3.3,
-        "ma50SlopeSessionPct": 0.0124,
-        "prior20High": 8696.0,
+        "sma20": 8288.92,
+        "sma50": 8374.48,
+        "sma200": 8181.85,
+        "rsi14": 70.59,
+        "volumeRatio20": 0.98,
+        "cmf20": 0.345,
+        "obv20Scaled": 0.325,
+        "closeLocation": 0.0,
+        "averageTurnover20Inr": 4152254956.43,
+        "return20dPct": 13.15,
+        "return60dPct": -0.26,
+        "return120dPct": 5.5,
+        "distance52wHighPct": -3.95,
+        "ma50SlopeSessionPct": 0.0049,
+        "prior20High": 8786.5,
         "prior55High": 9070.5,
         "prior55Low": 7465.0,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": 1.376
+        "longAverageSlope20dPct": 1.461
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -3106,14 +3127,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 8404.0,
-          "high": 8434.0,
-          "low": 8228.0,
-          "close": 8258.5,
-          "volume": 310581
-        },
         {
           "date": "2026-05-27",
           "open": 8243.0,
@@ -4065,6 +4078,14 @@
           "low": 8534.5,
           "close": 8771.0,
           "volume": 605900
+        },
+        {
+          "date": "2026-11-17",
+          "open": 8770.0,
+          "high": 8819.0,
+          "low": 8712.5,
+          "close": 8712.5,
+          "volume": 488599
         }
       ]
     },
@@ -4073,33 +4094,33 @@
       "name": "Rainbow Children's Medicare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1276.8,
-      "lastVolume": 213909,
+      "lastClose": 1270.4,
+      "lastVolume": 107050,
       "indicators": {
-        "sma20": 1236.7,
-        "sma50": 1311.67,
-        "sma200": 1321.81,
-        "rsi14": 68.95,
-        "volumeRatio20": 1.88,
-        "cmf20": 0.039,
-        "obv20Scaled": 0.22,
-        "closeLocation": 0.445,
-        "averageTurnover20Inr": 136449592.94,
-        "return20dPct": 2.23,
-        "return60dPct": -12.66,
-        "return120dPct": -5.42,
-        "distance52wHighPct": -20.7,
-        "ma50SlopeSessionPct": -0.2376,
+        "sma20": 1238.41,
+        "sma50": 1308.26,
+        "sma200": 1322.22,
+        "rsi14": 65.83,
+        "volumeRatio20": 0.97,
+        "cmf20": 0.02,
+        "obv20Scaled": 0.205,
+        "closeLocation": 0.137,
+        "averageTurnover20Inr": 139601293.15,
+        "return20dPct": 2.78,
+        "return60dPct": -12.6,
+        "return120dPct": -6.96,
+        "distance52wHighPct": -21.09,
+        "ma50SlopeSessionPct": -0.2598,
         "prior20High": 1299.5,
         "prior55High": 1505.0,
         "prior55Low": 1151.9,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -0.281
+        "longAverageSlope20dPct": -0.209
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -4112,14 +4133,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1356.6,
-          "high": 1390.2,
-          "low": 1343.8,
-          "close": 1365.4,
-          "volume": 147680
-        },
         {
           "date": "2026-05-27",
           "open": 1361.0,
@@ -5071,6 +5084,14 @@
           "low": 1266.2,
           "close": 1276.8,
           "volume": 213909
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1280.0,
+          "high": 1288.7,
+          "low": 1267.5,
+          "close": 1270.4,
+          "volume": 107050
         }
       ]
     },
@@ -5079,33 +5100,33 @@
       "name": "Global Health / Medanta",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1433.6,
-      "lastVolume": 134996,
+      "lastClose": 1444.2,
+      "lastVolume": 200782,
       "indicators": {
-        "sma20": 1328.18,
-        "sma50": 1368.03,
-        "sma200": 1258.78,
-        "rsi14": 78.7,
-        "volumeRatio20": 0.44,
-        "cmf20": 0.205,
-        "obv20Scaled": 0.442,
-        "closeLocation": 0.227,
-        "averageTurnover20Inr": 402756642.5,
-        "return20dPct": 15.61,
-        "return60dPct": 1.16,
-        "return120dPct": 14.75,
-        "distance52wHighPct": -7.15,
-        "ma50SlopeSessionPct": -0.0165,
+        "sma20": 1338.49,
+        "sma50": 1368.57,
+        "sma200": 1260.79,
+        "rsi14": 77.83,
+        "volumeRatio20": 0.67,
+        "cmf20": 0.219,
+        "obv20Scaled": 0.508,
+        "closeLocation": 0.676,
+        "averageTurnover20Inr": 410177821.6,
+        "return20dPct": 16.65,
+        "return60dPct": 2.56,
+        "return120dPct": 17.53,
+        "distance52wHighPct": -6.46,
+        "ma50SlopeSessionPct": 0.0393,
         "prior20High": 1465.0,
         "prior55High": 1544.0,
         "prior55Low": 1165.0,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 1.38
+        "longAverageSlope20dPct": 1.515
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -5118,14 +5139,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1256.7,
-          "high": 1259.0,
-          "low": 1223.0,
-          "close": 1228.8,
-          "volume": 221863
-        },
         {
           "date": "2026-05-27",
           "open": 1238.0,
@@ -6077,6 +6090,14 @@
           "low": 1426.0,
           "close": 1433.6,
           "volume": 134996
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1433.0,
+          "high": 1453.4,
+          "low": 1425.0,
+          "close": 1444.2,
+          "volume": 200782
         }
       ]
     },
@@ -6085,35 +6106,35 @@
       "name": "Fortis Healthcare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 803.2,
-      "lastVolume": 3227100,
+      "lastClose": 806.8,
+      "lastVolume": 1269615,
       "indicators": {
-        "sma20": 761.6,
-        "sma50": 806.19,
-        "sma200": 890.3,
-        "rsi14": 64.88,
-        "volumeRatio20": 2.52,
-        "cmf20": 0.309,
-        "obv20Scaled": 0.283,
-        "closeLocation": 0.975,
-        "averageTurnover20Inr": 1057565609.34,
-        "return20dPct": 9.06,
-        "return60dPct": -11.86,
-        "return120dPct": -17.23,
-        "distance52wHighPct": -21.28,
-        "ma50SlopeSessionPct": -0.2766,
+        "sma20": 765.04,
+        "sma50": 803.98,
+        "sma200": 890.14,
+        "rsi14": 61.55,
+        "volumeRatio20": 0.92,
+        "cmf20": 0.324,
+        "obv20Scaled": 0.268,
+        "closeLocation": 0.643,
+        "averageTurnover20Inr": 1069068133.39,
+        "return20dPct": 9.35,
+        "return60dPct": -12.0,
+        "return120dPct": -16.53,
+        "distance52wHighPct": -20.13,
+        "ma50SlopeSessionPct": -0.2746,
         "prior20High": 822.55,
         "prior55High": 941.9,
         "prior55Low": 704.95,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -1.461
+        "longAverageSlope20dPct": -1.388
       },
-      "trend": "Below 50/200 DMA",
+      "trend": "Mixed",
       "signals": [],
       "signalCount": 0,
       "dataQuality": {
@@ -6124,14 +6145,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 974.0,
-          "high": 974.55,
-          "low": 956.05,
-          "close": 966.6,
-          "volume": 905554
-        },
         {
           "date": "2026-05-27",
           "open": 961.4,
@@ -7083,6 +7096,14 @@
           "low": 764.0,
           "close": 803.2,
           "volume": 3227100
+        },
+        {
+          "date": "2026-11-17",
+          "open": 804.5,
+          "high": 812.0,
+          "low": 797.45,
+          "close": 806.8,
+          "volume": 1269615
         }
       ]
     },
@@ -7091,33 +7112,33 @@
       "name": "Jupiter Life Line Hospitals",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 289.9,
-      "lastVolume": 67638,
+      "lastClose": 289.75,
+      "lastVolume": 99319,
       "indicators": {
-        "sma20": 268.72,
-        "sma50": 267.11,
-        "sma200": 907.19,
-        "rsi14": 78.63,
-        "volumeRatio20": 0.61,
-        "cmf20": 0.191,
-        "obv20Scaled": 0.607,
-        "closeLocation": 0.717,
-        "averageTurnover20Inr": 27554975.19,
-        "return20dPct": 17.34,
-        "return60dPct": -9.56,
-        "return120dPct": -78.52,
-        "distance52wHighPct": -81.86,
-        "ma50SlopeSessionPct": 0.0168,
+        "sma20": 271.01,
+        "sma50": 267.1,
+        "sma200": 902.02,
+        "rsi14": 78.21,
+        "volumeRatio20": 0.95,
+        "cmf20": 0.212,
+        "obv20Scaled": 0.626,
+        "closeLocation": 0.569,
+        "averageTurnover20Inr": 28192025.75,
+        "return20dPct": 18.8,
+        "return60dPct": -8.8,
+        "return120dPct": -78.34,
+        "distance52wHighPct": -81.87,
+        "ma50SlopeSessionPct": -0.0041,
         "prior20High": 296.0,
         "prior55High": 312.95,
         "prior55Low": 233.4,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -10.757
+        "longAverageSlope20dPct": -10.762
       },
       "trend": "Mixed",
       "signals": [],
@@ -7130,14 +7151,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1365.4,
-          "high": 1365.4,
-          "low": 1330.0,
-          "close": 1337.7,
-          "volume": 30696
-        },
         {
           "date": "2026-05-27",
           "open": 1337.8,
@@ -8089,6 +8102,14 @@
           "low": 282.3,
           "close": 289.9,
           "volume": 67638
+        },
+        {
+          "date": "2026-11-17",
+          "open": 291.7,
+          "high": 294.75,
+          "low": 283.15,
+          "close": 289.75,
+          "volume": 99319
         }
       ]
     },
@@ -8097,48 +8118,37 @@
       "name": "Krishna Institute of Medical Sciences",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 763.35,
-      "lastVolume": 1096690,
+      "lastClose": 768.3,
+      "lastVolume": 288052,
       "indicators": {
-        "sma20": 710.56,
-        "sma50": 733.08,
-        "sma200": 731.91,
-        "rsi14": 74.79,
-        "volumeRatio20": 2.85,
-        "cmf20": 0.221,
-        "obv20Scaled": 0.016,
-        "closeLocation": 0.899,
-        "averageTurnover20Inr": 307912647.52,
-        "return20dPct": 11.34,
-        "return60dPct": -3.21,
-        "return120dPct": 0.87,
-        "distance52wHighPct": -11.03,
-        "ma50SlopeSessionPct": 0.0265,
-        "prior20High": 746.8,
+        "sma20": 715.05,
+        "sma50": 733.09,
+        "sma200": 732.68,
+        "rsi14": 74.41,
+        "volumeRatio20": 0.67,
+        "cmf20": 0.224,
+        "obv20Scaled": 0.094,
+        "closeLocation": 0.626,
+        "averageTurnover20Inr": 305422651.08,
+        "return20dPct": 13.24,
+        "return60dPct": -2.75,
+        "return120dPct": 0.07,
+        "distance52wHighPct": -10.45,
+        "ma50SlopeSessionPct": 0.0012,
+        "prior20High": 767.9,
         "prior55High": 819.0,
         "prior55Low": 655.05,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 1.303
+        "longAverageSlope20dPct": 1.373
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [
-        {
-          "id": "volume_20d_breakout_watch",
-          "priority": "watch",
-          "headline": "20-session breakout — follow-through needed",
-          "evidence": "Close ₹763.35 above prior 20-session high ₹746.80, volume 2.85× 20-session mean.",
-          "confirmation": "Confirm 2–3-day follow-through and company-level catalysts.",
-          "invalidation": "Failed hold above resistance; volume spike unrelated to ownership interest.",
-          "horizon": "short_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        }
-      ],
-      "signalCount": 1,
+      "signals": [],
+      "signalCount": 0,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -8147,14 +8157,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 758.6,
-          "high": 774.5,
-          "low": 749.95,
-          "close": 767.75,
-          "volume": 289953
-        },
         {
           "date": "2026-05-27",
           "open": 765.05,
@@ -9106,6 +9108,14 @@
           "low": 722.65,
           "close": 763.35,
           "volume": 1096690
+        },
+        {
+          "date": "2026-11-17",
+          "open": 770.0,
+          "high": 777.0,
+          "low": 753.75,
+          "close": 768.3,
+          "volume": 288052
         }
       ]
     },
@@ -9114,33 +9124,33 @@
       "name": "Balkrishna Industries",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 2288.2,
-      "lastVolume": 123447,
+      "lastClose": 2326.4,
+      "lastVolume": 125933,
       "indicators": {
-        "sma20": 2205.76,
-        "sma50": 2165.34,
-        "sma200": 2246.53,
-        "rsi14": 62.75,
-        "volumeRatio20": 0.48,
-        "cmf20": 0.365,
-        "obv20Scaled": 0.171,
-        "closeLocation": 0.319,
-        "averageTurnover20Inr": 570683273.9,
-        "return20dPct": 11.47,
-        "return60dPct": -3.3,
-        "return120dPct": 3.11,
-        "distance52wHighPct": -17.54,
-        "ma50SlopeSessionPct": -0.0378,
+        "sma20": 2218.52,
+        "sma50": 2165.32,
+        "sma200": 2246.07,
+        "rsi14": 70.07,
+        "volumeRatio20": 0.49,
+        "cmf20": 0.352,
+        "obv20Scaled": 0.158,
+        "closeLocation": 0.606,
+        "averageTurnover20Inr": 565951271.38,
+        "return20dPct": 12.32,
+        "return60dPct": -2.17,
+        "return120dPct": 5.62,
+        "distance52wHighPct": -16.17,
+        "ma50SlopeSessionPct": -0.0008,
         "prior20High": 2435.5,
         "prior55High": 2435.5,
         "prior55Low": 1964.7,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -0.773
+        "longAverageSlope20dPct": -0.744
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -9153,14 +9163,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 2216.9,
-          "high": 2242.7,
-          "low": 2188.0,
-          "close": 2202.7,
-          "volume": 97457
-        },
         {
           "date": "2026-05-27",
           "open": 2217.0,
@@ -10112,6 +10114,14 @@
           "low": 2260.7,
           "close": 2288.2,
           "volume": 123447
+        },
+        {
+          "date": "2026-11-17",
+          "open": 2300.0,
+          "high": 2350.1,
+          "low": 2290.0,
+          "close": 2326.4,
+          "volume": 125933
         }
       ]
     },
@@ -10120,33 +10130,33 @@
       "name": "MRF",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 128085.0,
-      "lastVolume": 4357,
+      "lastClose": 128840.0,
+      "lastVolume": 3646,
       "indicators": {
-        "sma20": 121760.5,
-        "sma50": 123676.9,
-        "sma200": 130735.73,
-        "rsi14": 77.35,
-        "volumeRatio20": 1.06,
-        "cmf20": 0.19,
-        "obv20Scaled": 0.294,
-        "closeLocation": 0.261,
-        "averageTurnover20Inr": 517785766.75,
-        "return20dPct": 4.31,
-        "return60dPct": -4.15,
-        "return120dPct": -0.44,
-        "distance52wHighPct": -19.8,
-        "ma50SlopeSessionPct": -0.0613,
-        "prior20High": 129200.0,
+        "sma20": 122107.25,
+        "sma50": 123643.5,
+        "sma200": 130700.88,
+        "rsi14": 78.28,
+        "volumeRatio20": 0.87,
+        "cmf20": 0.193,
+        "obv20Scaled": 0.357,
+        "closeLocation": 0.404,
+        "averageTurnover20Inr": 527808891.5,
+        "return20dPct": 5.69,
+        "return60dPct": -3.85,
+        "return120dPct": 1.32,
+        "distance52wHighPct": -19.32,
+        "ma50SlopeSessionPct": -0.027,
+        "prior20High": 129600.0,
         "prior55High": 135800.0,
         "prior55Low": 115190.0,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -1.904
+        "longAverageSlope20dPct": -1.826
       },
       "trend": "Mixed",
       "signals": [],
@@ -10159,14 +10169,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 129000.0,
-          "high": 129200.0,
-          "low": 127000.0,
-          "close": 127160.0,
-          "volume": 5582
-        },
         {
           "date": "2026-05-27",
           "open": 127700.0,
@@ -11118,6 +11120,14 @@
           "low": 127550.0,
           "close": 128085.0,
           "volume": 4357
+        },
+        {
+          "date": "2026-11-17",
+          "open": 128505.0,
+          "high": 129600.0,
+          "low": 128325.0,
+          "close": 128840.0,
+          "volume": 3646
         }
       ]
     },
@@ -11126,33 +11136,33 @@
       "name": "Apollo Tyres",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 425.2,
-      "lastVolume": 930693,
+      "lastClose": 418.7,
+      "lastVolume": 999373,
       "indicators": {
-        "sma20": 404.05,
-        "sma50": 406.7,
-        "sma200": 426.19,
-        "rsi14": 79.22,
-        "volumeRatio20": 1.33,
-        "cmf20": -0.04,
-        "obv20Scaled": 0.395,
-        "closeLocation": 0.602,
-        "averageTurnover20Inr": 297028263.76,
-        "return20dPct": 4.0,
-        "return60dPct": -0.5,
-        "return120dPct": 9.49,
-        "distance52wHighPct": -21.33,
-        "ma50SlopeSessionPct": -0.044,
+        "sma20": 404.15,
+        "sma50": 406.4,
+        "sma200": 425.75,
+        "rsi14": 71.24,
+        "volumeRatio20": 1.38,
+        "cmf20": -0.123,
+        "obv20Scaled": 0.273,
+        "closeLocation": 0.105,
+        "averageTurnover20Inr": 306721642.26,
+        "return20dPct": 0.47,
+        "return60dPct": -2.47,
+        "return120dPct": 6.47,
+        "distance52wHighPct": -22.53,
+        "ma50SlopeSessionPct": -0.0745,
         "prior20High": 435.75,
         "prior55High": 451.0,
         "prior55Low": 375.0,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -2.356
+        "longAverageSlope20dPct": -2.357
       },
       "trend": "Mixed",
       "signals": [],
@@ -11165,14 +11175,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 390.0,
-          "high": 399.2,
-          "low": 388.1,
-          "close": 393.25,
-          "volume": 2761966
-        },
         {
           "date": "2026-05-27",
           "open": 396.25,
@@ -12124,6 +12126,14 @@
           "low": 418.85,
           "close": 425.2,
           "volume": 930693
+        },
+        {
+          "date": "2026-11-17",
+          "open": 427.75,
+          "high": 433.15,
+          "low": 417.0,
+          "close": 418.7,
+          "volume": 999373
         }
       ]
     },
@@ -12132,33 +12142,33 @@
       "name": "CEAT",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 3508.3,
-      "lastVolume": 40301,
+      "lastClose": 3538.5,
+      "lastVolume": 55840,
       "indicators": {
-        "sma20": 3325.07,
-        "sma50": 3320.19,
-        "sma200": 3483.0,
-        "rsi14": 73.59,
-        "volumeRatio20": 0.47,
-        "cmf20": 0.111,
-        "obv20Scaled": 0.087,
-        "closeLocation": 0.492,
-        "averageTurnover20Inr": 249691858.43,
-        "return20dPct": 6.48,
-        "return60dPct": -0.75,
-        "return120dPct": 5.31,
-        "distance52wHighPct": -15.44,
-        "ma50SlopeSessionPct": 0.0968,
+        "sma20": 3337.47,
+        "sma50": 3324.65,
+        "sma200": 3482.2,
+        "rsi14": 75.68,
+        "volumeRatio20": 0.74,
+        "cmf20": 0.086,
+        "obv20Scaled": 0.178,
+        "closeLocation": 0.265,
+        "averageTurnover20Inr": 249722554.88,
+        "return20dPct": 7.54,
+        "return60dPct": -1.39,
+        "return120dPct": 7.29,
+        "distance52wHighPct": -14.71,
+        "ma50SlopeSessionPct": 0.1345,
         "prior20High": 3594.7,
-        "prior55High": 3617.8,
+        "prior55High": 3599.1,
         "prior55Low": 3012.6,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -1.294
+        "longAverageSlope20dPct": -1.237
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -12171,14 +12181,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 3330.0,
-          "high": 3369.7,
-          "low": 3290.0,
-          "close": 3298.1,
-          "volume": 112913
-        },
         {
           "date": "2026-05-27",
           "open": 3311.0,
@@ -13130,6 +13132,14 @@
           "low": 3470.4,
           "close": 3508.3,
           "volume": 40301
+        },
+        {
+          "date": "2026-11-17",
+          "open": 3530.0,
+          "high": 3595.0,
+          "low": 3518.1,
+          "close": 3538.5,
+          "volume": 55840
         }
       ]
     },
@@ -13138,33 +13148,33 @@
       "name": "JK Tyre",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 357.8,
-      "lastVolume": 363516,
+      "lastClose": 364.5,
+      "lastVolume": 717055,
       "indicators": {
-        "sma20": 333.98,
-        "sma50": 341.23,
-        "sma200": 403.04,
-        "rsi14": 77.39,
-        "volumeRatio20": 0.58,
-        "cmf20": 0.22,
-        "obv20Scaled": 0.287,
-        "closeLocation": 0.089,
-        "averageTurnover20Inr": 217163657.09,
-        "return20dPct": 5.73,
-        "return60dPct": -4.55,
-        "return120dPct": -7.41,
-        "distance52wHighPct": -41.53,
-        "ma50SlopeSessionPct": -0.0723,
+        "sma20": 335.59,
+        "sma50": 341.13,
+        "sma200": 402.31,
+        "rsi14": 78.64,
+        "volumeRatio20": 1.13,
+        "cmf20": 0.203,
+        "obv20Scaled": 0.357,
+        "closeLocation": 0.325,
+        "averageTurnover20Inr": 226865652.82,
+        "return20dPct": 9.76,
+        "return60dPct": -2.38,
+        "return120dPct": -7.52,
+        "distance52wHighPct": -40.43,
+        "ma50SlopeSessionPct": -0.029,
         "prior20High": 369.0,
-        "prior55High": 386.85,
+        "prior55High": 384.0,
         "prior55Low": 296.75,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -4.115
+        "longAverageSlope20dPct": -4.1
       },
       "trend": "Mixed",
       "signals": [],
@@ -13177,14 +13187,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 387.35,
-          "high": 397.0,
-          "low": 383.15,
-          "close": 394.15,
-          "volume": 1573102
-        },
         {
           "date": "2026-05-27",
           "open": 416.0,
@@ -14136,6 +14138,14 @@
           "low": 357.0,
           "close": 357.8,
           "volume": 363516
+        },
+        {
+          "date": "2026-11-17",
+          "open": 360.9,
+          "high": 372.9,
+          "low": 360.45,
+          "close": 364.5,
+          "volume": 717055
         }
       ]
     },
@@ -14144,48 +14154,37 @@
       "name": "TVS Srichakra",
       "sector": "Tyres",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 4647.3,
-      "lastVolume": 341615,
+      "lastClose": 4576.2,
+      "lastVolume": 18810,
       "indicators": {
-        "sma20": 4231.01,
-        "sma50": 4489.76,
-        "sma200": 4140.26,
-        "rsi14": 75.64,
-        "volumeRatio20": 70.58,
-        "cmf20": -0.667,
-        "obv20Scaled": 3.87,
-        "closeLocation": 0.107,
-        "averageTurnover20Inr": 99433115.58,
-        "return20dPct": 7.75,
-        "return60dPct": -3.62,
-        "return120dPct": 29.35,
-        "distance52wHighPct": -19.32,
-        "ma50SlopeSessionPct": -0.3457,
-        "prior20High": 4514.3,
+        "sma20": 4245.02,
+        "sma50": 4476.31,
+        "sma200": 4143.63,
+        "rsi14": 68.35,
+        "volumeRatio20": 0.86,
+        "cmf20": -0.661,
+        "obv20Scaled": 0.821,
+        "closeLocation": 0.255,
+        "averageTurnover20Inr": 103231189.45,
+        "return20dPct": 6.52,
+        "return60dPct": -7.04,
+        "return120dPct": 27.24,
+        "distance52wHighPct": -20.55,
+        "ma50SlopeSessionPct": -0.2997,
+        "prior20High": 4928.6,
         "prior55High": 5760.0,
         "prior55Low": 3980.0,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 0.296
+        "longAverageSlope20dPct": 0.355
       },
       "trend": "Above 20/50/200 DMA",
-      "signals": [
-        {
-          "id": "distribution_risk",
-          "priority": "watch",
-          "headline": "High-volume closing weakness / distribution risk",
-          "evidence": "20-session Chaikin Money Flow -0.67 with latest volume 70.58× average.",
-          "confirmation": "Watch for lower highs and support loss across several sessions.",
-          "invalidation": "CMF normalizes or weakness stems from a non-recurring liquidity event.",
-          "horizon": "short_medium",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        }
-      ],
-      "signalCount": 1,
+      "signals": [],
+      "signalCount": 0,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -14194,14 +14193,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 3585.0,
-          "high": 3638.9,
-          "low": 3580.0,
-          "close": 3596.6,
-          "volume": 1528
-        },
         {
           "date": "2026-05-27",
           "open": 3633.9,
@@ -15153,6 +15144,14 @@
           "low": 4613.6,
           "close": 4647.3,
           "volume": 341615
+        },
+        {
+          "date": "2026-11-17",
+          "open": 4672.0,
+          "high": 4692.6,
+          "low": 4536.3,
+          "close": 4576.2,
+          "volume": 18810
         }
       ]
     },
@@ -15161,33 +15160,33 @@
       "name": "HDFC Bank",
       "sector": "Banking",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 816.5,
-      "lastVolume": 27152881,
+      "lastClose": 814.95,
+      "lastVolume": 34909357,
       "indicators": {
-        "sma20": 738.38,
-        "sma50": 724.53,
-        "sma200": 781.01,
-        "rsi14": 91.25,
-        "volumeRatio20": 0.72,
-        "cmf20": 0.316,
-        "obv20Scaled": 0.297,
-        "closeLocation": 0.916,
-        "averageTurnover20Inr": 28161822182.78,
-        "return20dPct": 12.03,
-        "return60dPct": 13.4,
-        "return120dPct": 3.77,
-        "distance52wHighPct": -19.75,
-        "ma50SlopeSessionPct": 0.3204,
+        "sma20": 743.52,
+        "sma50": 726.69,
+        "sma200": 780.46,
+        "rsi14": 90.1,
+        "volumeRatio20": 0.92,
+        "cmf20": 0.334,
+        "obv20Scaled": 0.296,
+        "closeLocation": 0.404,
+        "averageTurnover20Inr": 28390832072.33,
+        "return20dPct": 14.46,
+        "return60dPct": 12.4,
+        "return120dPct": 4.63,
+        "distance52wHighPct": -19.91,
+        "ma50SlopeSessionPct": 0.299,
         "prior20High": 817.85,
         "prior55High": 817.85,
         "prior55Low": 669.2,
         "breakoutCountLast15": 5,
-        "longAverageSlope20dPct": -2.686
+        "longAverageSlope20dPct": -2.585
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -15195,7 +15194,7 @@
           "id": "short_breakout_long_average_falling",
           "priority": "watch",
           "headline": "Short-term price leadership while the 200-DMA still slopes down",
-          "evidence": "5 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -2.69%.",
+          "evidence": "5 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -2.58%.",
           "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
           "invalidation": "Break below 200-DMA or momentum/volume fade.",
           "horizon": "short_long_conflict",
@@ -15211,14 +15210,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 784.05,
-          "high": 790.85,
-          "low": 776.75,
-          "close": 778.9,
-          "volume": 31528062
-        },
         {
           "date": "2026-05-27",
           "open": 769.5,
@@ -16170,6 +16161,14 @@
           "low": 802.4,
           "close": 816.5,
           "volume": 27152881
+        },
+        {
+          "date": "2026-11-17",
+          "open": 811.0,
+          "high": 821.0,
+          "low": 810.85,
+          "close": 814.95,
+          "volume": 34909357
         }
       ]
     },
@@ -16178,33 +16177,33 @@
       "name": "ICICI Bank",
       "sector": "Banking",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1585.0,
-      "lastVolume": 10069159,
+      "lastClose": 1598.7,
+      "lastVolume": 15285455,
       "indicators": {
-        "sma20": 1465.11,
-        "sma50": 1400.1,
-        "sma200": 1361.85,
-        "rsi14": 83.16,
-        "volumeRatio20": 0.59,
-        "cmf20": 0.315,
-        "obv20Scaled": 0.259,
-        "closeLocation": 0.408,
-        "averageTurnover20Inr": 25068745954.75,
-        "return20dPct": 13.46,
-        "return60dPct": 13.05,
-        "return120dPct": 22.7,
-        "distance52wHighPct": -1.92,
-        "ma50SlopeSessionPct": 0.2269,
+        "sma20": 1476.0,
+        "sma50": 1403.47,
+        "sma200": 1363.04,
+        "rsi14": 86.47,
+        "volumeRatio20": 0.9,
+        "cmf20": 0.393,
+        "obv20Scaled": 0.383,
+        "closeLocation": 0.567,
+        "averageTurnover20Inr": 24554023006.38,
+        "return20dPct": 15.76,
+        "return60dPct": 13.23,
+        "return120dPct": 24.99,
+        "distance52wHighPct": -1.07,
+        "ma50SlopeSessionPct": 0.241,
         "prior20High": 1616.0,
         "prior55High": 1616.0,
         "prior55Low": 1291.0,
         "breakoutCountLast15": 4,
-        "longAverageSlope20dPct": 0.63
+        "longAverageSlope20dPct": 0.707
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -16217,14 +16216,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1290.0,
-          "high": 1301.8,
-          "low": 1276.2,
-          "close": 1279.1,
-          "volume": 18400405
-        },
         {
           "date": "2026-05-27",
           "open": 1286.0,
@@ -17176,6 +17167,14 @@
           "low": 1577.0,
           "close": 1585.0,
           "volume": 10069159
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1585.0,
+          "high": 1613.9,
+          "low": 1578.8,
+          "close": 1598.7,
+          "volume": 15285455
         }
       ]
     },
@@ -17184,58 +17183,48 @@
       "name": "State Bank of India",
       "sector": "Banking",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1090.5,
-      "lastVolume": 16216839,
+      "lastClose": 1108.6,
+      "lastVolume": 16311218,
       "indicators": {
-        "sma20": 999.95,
-        "sma50": 986.54,
-        "sma200": 1039.33,
-        "rsi14": 83.5,
-        "volumeRatio20": 1.16,
-        "cmf20": 0.164,
-        "obv20Scaled": 0.429,
-        "closeLocation": 0.486,
-        "averageTurnover20Inr": 14611624607.22,
-        "return20dPct": 13.29,
-        "return60dPct": 4.0,
-        "return120dPct": 12.47,
-        "distance52wHighPct": -11.68,
-        "ma50SlopeSessionPct": 0.1413,
-        "prior20High": 1090.7,
-        "prior55High": 1090.7,
+        "sma20": 1006.7,
+        "sma50": 988.24,
+        "sma200": 1039.61,
+        "rsi14": 83.97,
+        "volumeRatio20": 1.13,
+        "cmf20": 0.185,
+        "obv20Scaled": 0.421,
+        "closeLocation": 0.755,
+        "averageTurnover20Inr": 14781426664.44,
+        "return20dPct": 13.85,
+        "return60dPct": 5.78,
+        "return120dPct": 14.47,
+        "distance52wHighPct": -10.21,
+        "ma50SlopeSessionPct": 0.1727,
+        "prior20High": 1099.5,
+        "prior55High": 1099.5,
         "prior55Low": 937.5,
         "breakoutCountLast15": 4,
-        "longAverageSlope20dPct": -0.095
+        "longAverageSlope20dPct": -0.072
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
         {
-          "id": "200d_reclaim_watch",
-          "priority": "watch",
-          "headline": "Possible longer-term upturn: 200-DMA reclaim",
-          "evidence": "Price recovered above 200-session average ₹1,039.33, with volume 1.16× normal.",
-          "confirmation": "Multiple closes above 200-DMA, rising 50-DMA and positive sector leadership.",
-          "invalidation": "Close drops below 200-DMA or fundamentals remain impaired.",
-          "horizon": "long_term",
-          "type": "mechanical_price_volume_observation_not_a_trade_signal"
-        },
-        {
           "id": "short_breakout_long_average_falling",
           "priority": "watch",
           "headline": "Short-term price leadership while the 200-DMA still slopes down",
-          "evidence": "4 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.10%.",
+          "evidence": "4 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.07%.",
           "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
           "invalidation": "Break below 200-DMA or momentum/volume fade.",
           "horizon": "short_long_conflict",
           "type": "mechanical_price_volume_observation_not_a_trade_signal"
         }
       ],
-      "signalCount": 2,
+      "signalCount": 1,
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
@@ -17244,14 +17233,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 969.9,
-          "high": 978.8,
-          "low": 962.1,
-          "close": 968.5,
-          "volume": 16269800
-        },
         {
           "date": "2026-05-27",
           "open": 969.8,
@@ -18203,6 +18184,14 @@
           "low": 1082.0,
           "close": 1090.5,
           "volume": 16216839
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1092.0,
+          "high": 1114.0,
+          "low": 1091.95,
+          "close": 1108.6,
+          "volume": 16311218
         }
       ]
     },
@@ -18211,33 +18200,33 @@
       "name": "Reliance Industries",
       "sector": "Energy / Diversified",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1344.8,
-      "lastVolume": 7653528,
+      "lastClose": 1367.0,
+      "lastVolume": 15905595,
       "indicators": {
-        "sma20": 1261.71,
-        "sma50": 1240.42,
-        "sma200": 1322.57,
-        "rsi14": 82.3,
-        "volumeRatio20": 0.36,
-        "cmf20": 0.34,
-        "obv20Scaled": 0.562,
-        "closeLocation": 0.815,
-        "averageTurnover20Inr": 26020964063.01,
-        "return20dPct": 11.03,
-        "return60dPct": 2.58,
-        "return120dPct": -1.62,
-        "distance52wHighPct": -16.57,
-        "ma50SlopeSessionPct": 0.0511,
+        "sma20": 1269.96,
+        "sma50": 1241.71,
+        "sma200": 1322.5,
+        "rsi14": 98.83,
+        "volumeRatio20": 0.78,
+        "cmf20": 0.399,
+        "obv20Scaled": 0.652,
+        "closeLocation": 0.821,
+        "averageTurnover20Inr": 26172200985.86,
+        "return20dPct": 13.73,
+        "return60dPct": 4.1,
+        "return120dPct": 0.79,
+        "distance52wHighPct": -15.19,
+        "ma50SlopeSessionPct": 0.104,
         "prior20High": 1350.7,
         "prior55High": 1350.7,
         "prior55Low": 1152.2,
         "breakoutCountLast15": 2,
-        "longAverageSlope20dPct": -1.687
+        "longAverageSlope20dPct": -1.561
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -18245,7 +18234,7 @@
           "id": "short_breakout_long_average_falling",
           "priority": "watch",
           "headline": "Short-term price leadership while the 200-DMA still slopes down",
-          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -1.69%.",
+          "evidence": "2 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -1.56%.",
           "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
           "invalidation": "Break below 200-DMA or momentum/volume fade.",
           "horizon": "short_long_conflict",
@@ -18261,14 +18250,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1360.1,
-          "high": 1368.5,
-          "low": 1352.4,
-          "close": 1356.3,
-          "volume": 13769747
-        },
         {
           "date": "2026-05-27",
           "open": 1353.0,
@@ -19220,6 +19201,14 @@
           "low": 1333.8,
           "close": 1344.8,
           "volume": 7653528
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1339.0,
+          "high": 1374.0,
+          "low": 1335.0,
+          "close": 1367.0,
+          "volume": 15905595
         }
       ]
     },
@@ -19228,33 +19217,33 @@
       "name": "TCS",
       "sector": "IT",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 2405.0,
-      "lastVolume": 1802456,
+      "lastClose": 2406.6,
+      "lastVolume": 3027101,
       "indicators": {
-        "sma20": 2481.57,
-        "sma50": 2297.81,
-        "sma200": 2392.31,
-        "rsi14": 34.82,
-        "volumeRatio20": 0.4,
-        "cmf20": -0.165,
-        "obv20Scaled": -0.09,
-        "closeLocation": 0.276,
-        "averageTurnover20Inr": 9787907257.05,
-        "return20dPct": -2.43,
-        "return60dPct": 5.07,
-        "return120dPct": 4.19,
-        "distance52wHighPct": -28.21,
-        "ma50SlopeSessionPct": 0.0496,
+        "sma20": 2478.86,
+        "sma50": 2299.54,
+        "sma200": 2388.55,
+        "rsi14": 40.01,
+        "volumeRatio20": 0.77,
+        "cmf20": -0.176,
+        "obv20Scaled": 0.046,
+        "closeLocation": 0.353,
+        "averageTurnover20Inr": 9084574004.59,
+        "return20dPct": -2.21,
+        "return60dPct": 4.73,
+        "return120dPct": 5.73,
+        "distance52wHighPct": -28.16,
+        "ma50SlopeSessionPct": 0.0753,
         "prior20High": 2625.0,
         "prior55High": 2625.0,
         "prior55Low": 2032.4,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -2.965
+        "longAverageSlope20dPct": -2.956
       },
       "trend": "Above 50/200 DMA",
       "signals": [],
@@ -19267,14 +19256,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 2308.2,
-          "high": 2327.9,
-          "low": 2272.4,
-          "close": 2276.2,
-          "volume": 3587597
-        },
         {
           "date": "2026-05-27",
           "open": 2275.0,
@@ -20226,6 +20207,14 @@
           "low": 2387.9,
           "close": 2405.0,
           "volume": 1802456
+        },
+        {
+          "date": "2026-11-17",
+          "open": 2395.0,
+          "high": 2448.0,
+          "low": 2384.0,
+          "close": 2406.6,
+          "volume": 3027101
         }
       ]
     },
@@ -20234,33 +20223,33 @@
       "name": "Infosys",
       "sector": "IT",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1145.1,
-      "lastVolume": 4852092,
+      "lastClose": 1130.0,
+      "lastVolume": 7145680,
       "indicators": {
-        "sma20": 1154.7,
-        "sma50": 1090.38,
-        "sma200": 1188.64,
-        "rsi14": 46.52,
-        "volumeRatio20": 0.34,
-        "cmf20": 0.323,
-        "obv20Scaled": 0.072,
-        "closeLocation": 0.318,
-        "averageTurnover20Inr": 15460395029.91,
-        "return20dPct": -1.39,
-        "return60dPct": 2.26,
-        "return120dPct": -2.0,
-        "distance52wHighPct": -33.73,
-        "ma50SlopeSessionPct": 0.0094,
+        "sma20": 1154.67,
+        "sma50": 1090.37,
+        "sma200": 1185.88,
+        "rsi14": 51.47,
+        "volumeRatio20": 0.53,
+        "cmf20": 0.349,
+        "obv20Scaled": 0.101,
+        "closeLocation": 0.239,
+        "averageTurnover20Inr": 15114557952.71,
+        "return20dPct": -0.06,
+        "return60dPct": 0.0,
+        "return120dPct": -3.23,
+        "distance52wHighPct": -34.61,
+        "ma50SlopeSessionPct": -0.0006,
         "prior20High": 1198.8,
         "prior55High": 1198.8,
         "prior55Low": 980.4,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": -3.886
+        "longAverageSlope20dPct": -3.906
       },
       "trend": "Mixed",
       "signals": [],
@@ -20273,14 +20262,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 1166.3,
-          "high": 1180.7,
-          "low": 1162.9,
-          "close": 1167.7,
-          "volume": 8005767
-        },
         {
           "date": "2026-05-27",
           "open": 1161.0,
@@ -21232,6 +21213,14 @@
           "low": 1138.2,
           "close": 1145.1,
           "volume": 4852092
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1141.0,
+          "high": 1145.0,
+          "low": 1125.3,
+          "close": 1130.0,
+          "volume": 7145680
         }
       ]
     },
@@ -21240,33 +21229,33 @@
       "name": "Bajaj Finance",
       "sector": "NBFC",
       "primaryResearch": false,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 382,
-      "lastClose": 1110.0,
-      "lastVolume": 8224959,
+      "lastClose": 1121.1,
+      "lastVolume": 5352870,
       "indicators": {
-        "sma20": 1001.45,
-        "sma50": 1000.33,
-        "sma200": 978.44,
-        "rsi14": 88.4,
-        "volumeRatio20": 0.84,
-        "cmf20": 0.324,
-        "obv20Scaled": 0.373,
-        "closeLocation": 0.485,
-        "averageTurnover20Inr": 9917428814.81,
-        "return20dPct": 13.02,
-        "return60dPct": 2.76,
-        "return120dPct": 17.85,
-        "distance52wHighPct": -5.64,
-        "ma50SlopeSessionPct": 0.1083,
-        "prior20High": 1118.0,
-        "prior55High": 1118.0,
+        "sma20": 1009.63,
+        "sma50": 1001.77,
+        "sma200": 979.47,
+        "rsi14": 88.66,
+        "volumeRatio20": 0.55,
+        "cmf20": 0.378,
+        "obv20Scaled": 0.442,
+        "closeLocation": 0.7,
+        "averageTurnover20Inr": 9819759969.55,
+        "return20dPct": 17.1,
+        "return60dPct": 2.38,
+        "return120dPct": 20.52,
+        "distance52wHighPct": -4.7,
+        "ma50SlopeSessionPct": 0.1442,
+        "prior20High": 1122.0,
+        "prior55High": 1122.0,
         "prior55Low": 899.15,
         "breakoutCountLast15": 2,
-        "longAverageSlope20dPct": 0.373
+        "longAverageSlope20dPct": 0.501
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -21279,14 +21268,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-26",
-          "open": 943.95,
-          "high": 948.4,
-          "low": 928.1,
-          "close": 930.2,
-          "volume": 8489543
-        },
         {
           "date": "2026-05-27",
           "open": 932.0,
@@ -22238,6 +22219,14 @@
           "low": 1098.7,
           "close": 1110.0,
           "volume": 8224959
+        },
+        {
+          "date": "2026-11-17",
+          "open": 1111.0,
+          "high": 1126.9,
+          "low": 1107.55,
+          "close": 1121.1,
+          "volume": 5352870
         }
       ]
     }
