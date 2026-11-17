@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T22:59:36.982991+00:00",
+  "generatedAt": "2026-11-17T09:31:39.078698+00:00",
   "asOf": "2026-11-16",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
@@ -17,33 +17,33 @@
       "name": "Yatharth Hospital",
       "sector": "Hospitals",
       "primaryResearch": true,
-      "asOf": "2026-11-13",
+      "asOf": "2026-11-16",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 381,
-      "lastClose": 1060.85,
-      "lastVolume": 275545,
+      "observations": 382,
+      "lastClose": 1069.05,
+      "lastVolume": 128771,
       "indicators": {
-        "sma20": 984.32,
-        "sma50": 1014.75,
-        "sma200": 835.32,
-        "rsi14": 80.09,
-        "volumeRatio20": 0.84,
-        "cmf20": 0.09,
-        "obv20Scaled": 0.246,
-        "closeLocation": 0.301,
-        "averageTurnover20Inr": 324895410.06,
-        "return20dPct": 6.99,
-        "return60dPct": 24.22,
-        "return120dPct": 23.05,
-        "distance52wHighPct": -10.4,
-        "ma50SlopeSessionPct": 0.1699,
-        "prior20High": 1070.0,
+        "sma20": 988.16,
+        "sma50": 1016.81,
+        "sma200": 837.91,
+        "rsi14": 78.21,
+        "volumeRatio20": 0.39,
+        "cmf20": 0.091,
+        "obv20Scaled": 0.226,
+        "closeLocation": 0.724,
+        "averageTurnover20Inr": 319185370.19,
+        "return20dPct": 7.76,
+        "return60dPct": 25.42,
+        "return120dPct": 30.28,
+        "distance52wHighPct": -9.71,
+        "ma50SlopeSessionPct": 0.2021,
+        "prior20High": 1084.95,
         "prior55High": 1184.0,
         "prior55Low": 891.0,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": 4.122
+        "longAverageSlope20dPct": 4.248
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -51,19 +51,11 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 2,
+        "tradingSessionsSinceLastBar": 1,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-05-25",
-          "open": 875.0,
-          "high": 889.9,
-          "low": 792.85,
-          "close": 820.55,
-          "volume": 2337583
-        },
         {
           "date": "2026-05-26",
           "open": 828.0,
@@ -1015,6 +1007,14 @@
           "low": 1050.45,
           "close": 1060.85,
           "volume": 275545
+        },
+        {
+          "date": "2026-11-16",
+          "open": 1065.0,
+          "high": 1075.45,
+          "low": 1052.3,
+          "close": 1069.05,
+          "volume": 128771
         }
       ]
     },
