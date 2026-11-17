@@ -2,67 +2,74 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-17T09:34:16.295970Z",
+      "generatedAt": "2026-11-17T21:52:04.211434Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 349,
+        "items": 391,
         "publishers": 6,
-        "positive": 43,
-        "negative": 82,
-        "neutral": 224,
-        "languageIndex": -3.5,
+        "positive": 47,
+        "negative": 90,
+        "neutral": 254,
+        "languageIndex": -5.9,
         "label": "Mixed headline language",
-        "sourceConcentration": 55.6,
+        "sourceConcentration": 56.3,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 95,
+          "items": 104,
           "publishers": 3,
           "languageIndex": -4.3,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 83,
+          "items": 93,
           "publishers": 4,
-          "languageIndex": -30.8,
+          "languageIndex": -35.3,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 77,
+          "items": 89,
           "publishers": 5,
-          "languageIndex": -21.8,
+          "languageIndex": -22.0,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 37,
+          "items": 43,
           "publishers": 4,
-          "languageIndex": -3.8,
+          "languageIndex": -3.5,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 27,
+          "items": 28,
           "publishers": 1,
-          "languageIndex": 37.0,
+          "languageIndex": 39.3,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
-          "items": 25,
+          "items": 26,
           "publishers": 4,
-          "languageIndex": 1.6,
+          "languageIndex": 2.9,
           "attentionDeltaPct": null
         },
         {
           "id": "trade_policy",
+          "items": 11,
+          "publishers": 3,
+          "languageIndex": -54.2,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "climate_agri",
           "items": 8,
-          "publishers": 2,
-          "languageIndex": -42.9,
+          "publishers": 3,
+          "languageIndex": -16.7,
           "attentionDeltaPct": null
         },
         {
@@ -80,17 +87,10 @@
           "attentionDeltaPct": null
         },
         {
-          "id": "climate_agri",
-          "items": 6,
-          "publishers": 3,
-          "languageIndex": -33.3,
-          "attentionDeltaPct": null
-        },
-        {
           "id": "auto_consumer",
-          "items": 3,
-          "publishers": 1,
-          "languageIndex": -33.3,
+          "items": 4,
+          "publishers": 2,
+          "languageIndex": 33.3,
           "attentionDeltaPct": null
         },
         {

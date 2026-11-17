@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T09:34:16.295970Z",
+  "generatedAt": "2026-11-17T21:52:04.211434Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 349,
+    "items": 391,
     "publishers": 6,
-    "positive": 43,
-    "negative": 82,
-    "neutral": 224,
-    "languageIndex": -3.5,
+    "positive": 47,
+    "negative": 90,
+    "neutral": 254,
+    "languageIndex": -5.9,
     "label": "Mixed headline language",
-    "sourceConcentration": 55.6,
+    "sourceConcentration": 56.3,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 95,
+      "items": 104,
       "publishers": 3,
       "positive": 9,
-      "negative": 15,
-      "neutral": 71,
+      "negative": 16,
+      "neutral": 79,
       "languageIndex": -4.3,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.6,
+      "sourceConcentration": 71.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Barclays’ Rajadhayaksha Says Nvidia Market Angst Overdone",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-17/barclays-rajadhayaksha-nvidia-market-angst-overdone-video",
-          "date": "2026-11-17T08:48:59Z",
+          "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T21:45:13Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "SEC Is Probing Nvidia Amid Jensen Huang’s Exit, WSJ Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports",
+          "date": "2026-11-17T21:25:24Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia Fallout Hits Southeast Asia Hard",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-17/insight-with-haslinda-amin-11-17-2026-video",
-          "date": "2026-11-17T08:40:48Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US to Curb China's Nvidia Access as Trump Goes to Asia",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-17/daybreak-europe-11-17-2026-video",
-          "date": "2026-11-17T08:12:31Z",
+          "title": "Huang to Brief Congress on Affair After Nvidia Ouster",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/huang-to-brief-congress-on-affair-after-nvidia-ouster-video",
+          "date": "2026-11-17T18:29:41Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 83,
+      "items": 93,
       "publishers": 4,
       "positive": 6,
-      "negative": 26,
-      "neutral": 51,
-      "languageIndex": -30.8,
+      "negative": 31,
+      "neutral": 56,
+      "languageIndex": -35.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 42.2,
+      "sourceConcentration": 41.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T09:27:41Z",
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:27:27Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Iran Threatens to Strike Civilian Sites If US Does the Same",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-threatens-to-strike-civilian-sites-if-us-does-the-same",
-          "date": "2026-11-17T07:58:23Z",
+          "title": "Iran Protest Breaks Out After Deadly Bus Crash, Fars Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-protest-breaks-out-after-deadly-bus-crash-fars-reports",
+          "date": "2026-11-17T18:06:49Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Putin’s War on Ukraine Is Ravaging a Generation of Russian Men",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/putin-s-war-on-ukraine-is-ravaging-a-generation-of-russian-men",
-          "date": "2026-11-17T07:15:00Z",
+          "title": "Missiles From Startup Destinus Helped Destroy Crimea Bridge",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/missiles-from-startup-destinus-helped-destroy-crimea-bridge",
+          "date": "2026-11-17T17:21:02Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,35 +109,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 77,
+      "items": 89,
       "publishers": 5,
       "positive": 6,
-      "negative": 27,
-      "neutral": 44,
-      "languageIndex": -21.8,
+      "negative": 28,
+      "neutral": 55,
+      "languageIndex": -22.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 80.5,
+      "sourceConcentration": 82.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "De Cos on Path to ECB as Berlin Backs Brunnermeier for Lane Job",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/de-cos-on-path-to-ecb-as-berlin-backs-brunnermeier-for-lane-job",
-          "date": "2026-11-17T09:22:02Z",
+          "title": "The Fed Games Out How AI Could Reshape Work and the Economy",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-17/the-fed-games-out-how-ai-could-reshape-work-and-the-economy",
+          "date": "2026-11-17T20:59:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Germany to Propose Markus Brunnermeier as ECB Chief Economist",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/germany-to-propose-markus-brunnermeier-as-ecb-chief-economist",
-          "date": "2026-11-17T09:10:35Z",
+          "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
+          "date": "2026-11-17T20:06:05Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Pseudo consent, real debt: RBI’s new battle for responsible microfinance | Explained",
-          "url": "https://www.thehindu.com/business/pseudo-consent-real-debt-rbis-new-battle-for-responsible-microfinance-explained/article71710510.ece",
-          "date": "2026-11-17T05:54:07Z",
-          "publisher": "www.thehindu.com"
+          "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video",
+          "date": "2026-11-17T19:51:47Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 37,
+      "items": 43,
       "publishers": 4,
       "positive": 2,
       "negative": 2,
-      "neutral": 33,
-      "languageIndex": -3.8,
+      "neutral": 39,
+      "languageIndex": -3.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 51.4,
+      "sourceConcentration": 53.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Dutch Coalition Announces New Deal to Avoid Government Collapse",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/dutch-coalition-announces-new-deal-to-avoid-government-collapse",
-          "date": "2026-11-17T09:21:51Z",
+          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
+          "date": "2026-11-17T19:23:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
-          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T09:20:29Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Huang to Brief Congress on Affair After Nvidia Ouster",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/huang-to-brief-congress-on-affair-after-nvidia-ouster-video",
+          "date": "2026-11-17T18:29:41Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Latvian Premier Sees Government Confidence Vote on Tuesday",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/latvian-premier-sees-government-confidence-vote-on-tuesday",
-          "date": "2026-11-17T06:36:37Z",
+          "title": "New Jersey Wind Farm Permit Reopened as Senate Weighs Energy Bill",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/trump-administration-reopens-permit-for-wind-farm-off-new-jersey",
+          "date": "2026-11-17T18:26:29Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,18 +195,24 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 27,
+      "items": 28,
       "publishers": 1,
-      "positive": 15,
+      "positive": 16,
       "negative": 5,
       "neutral": 7,
-      "languageIndex": 37.0,
+      "languageIndex": 39.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee rises 43 paise to close at 93.51 (provisional) against U.S. dollar",
+          "url": "https://www.thehindu.com/business/Industry/rupee-rises-43-paise-to-close-at-9351-provisional-against-us-dollar/article71711483.ece",
+          "date": "2026-11-17T12:19:19Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "What’s behind the record ₹89,856-crore FPI surge into Indian equities? | Explained",
           "url": "https://www.thehindu.com/business/Economy/whats-behind-the-record-89856-crore-fpi-surge-into-indian-equities-explained/article71710393.ece",
@@ -217,12 +223,6 @@
           "title": "Rupee rises 31 paise to 93.63 against U.S. dollar in early trade",
           "url": "https://www.thehindu.com/business/Industry/rupee-rises-31-paise-to-9363-against-us-dollar-in-early-trade/article71710377.ece",
           "date": "2026-11-17T04:47:36Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee rises 27 paise to close at 93.92 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/Industry/rupee-rises-27-paise-to-close-at-9392-against-us-dollar/article71707732.ece",
-          "date": "2026-11-16T11:43:12Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,18 +238,24 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 25,
+      "items": 26,
       "publishers": 4,
-      "positive": 6,
+      "positive": 7,
       "negative": 5,
       "neutral": 14,
-      "languageIndex": 1.6,
+      "languageIndex": 2.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 64.0,
+      "sourceConcentration": 65.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Stock markets rally second day on foreign fund inflows, moderate crude oil prices",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-rally-second-day-on-foreign-fund-inflows-moderate-crude-oil-prices/article71711576.ece",
+          "date": "2026-11-17T13:27:29Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Stock markets climb in early trade on foreign fund inflows, fall in crude oil prices",
           "url": "https://www.thehindu.com/business/Industry/stock-markets-climb-in-early-trade-on-foreign-fund-inflows-fall-in-crude-oil-prices/article71710398.ece",
@@ -260,12 +266,6 @@
           "title": "Stock markets end higher on foreign fund inflows, lower crude oil; Sensex up 512 points",
           "url": "https://www.thehindu.com/business/Industry/stock-markets-end-higher-on-foreign-fund-inflows-lower-crude-oil-sensex-up-512-points/article71707675.ece",
           "date": "2026-11-16T11:34:51Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets rally in early trade led by foreign fund inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/stock-markets-rally-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil/article71706819.ece",
-          "date": "2026-11-16T05:15:00Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -281,34 +281,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 8,
-      "publishers": 2,
-      "positive": 0,
-      "negative": 6,
+      "items": 11,
+      "publishers": 3,
+      "positive": 1,
+      "negative": 8,
       "neutral": 2,
-      "languageIndex": -42.9,
-      "label": "Insufficient observations",
-      "sourceConcentration": 87.5,
-      "coverageSufficient": false,
+      "languageIndex": -54.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 72.7,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "China and Canada Expand Tariff Relief as Xi Meets Carney",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/china-canada-expand-tariff-relief-in-deepening-trade-thaw",
-          "date": "2026-11-17T03:37:43Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:58:57Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council",
-          "date": "2026-11-14T07:46:24Z",
-          "publisher": "www.bloomberg.com"
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:27:27Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
-          "date": "2026-11-13T18:24:41Z",
+          "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal",
+          "date": "2026-11-17T13:10:25Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -320,6 +320,49 @@
       "confirmation": "Implemented change in tariff with company-level exposure",
       "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
       "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "climate_agri",
+      "title": "Monsoon and agriculture",
+      "items": 8,
+      "publishers": 3,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 7,
+      "languageIndex": -16.7,
+      "label": "Mixed headline language",
+      "sourceConcentration": 37.5,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
+          "date": "2026-11-17T19:23:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+          "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-16T00:11:12Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+          "date": "2026-11-15T12:30:00Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Agri inputs; FMCG; Rural consumption",
+      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
+      "hypothesis": "Risk / proxy",
+      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
+      "potentialDownside": "Food-cost and rural income hit",
+      "confirmation": "Rainfall and sowing data consistent with demand",
+      "invalidation": "Weather forecast not realized in yields",
+      "hypothesisAsOf": "2026-10-23"
     },
     {
       "id": "defence_capex",
@@ -408,63 +451,26 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "climate_agri",
-      "title": "Monsoon and agriculture",
-      "items": 6,
-      "publishers": 3,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 5,
-      "languageIndex": -33.3,
-      "label": "Insufficient observations",
-      "sourceConcentration": 50.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
-          "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-16T00:11:12Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
-          "date": "2026-11-15T12:30:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-11T00:18:07Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Agri inputs; FMCG; Rural consumption",
-      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
-      "hypothesis": "Risk / proxy",
-      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
-      "potentialDownside": "Food-cost and rural income hit",
-      "confirmation": "Rainfall and sowing data consistent with demand",
-      "invalidation": "Weather forecast not realized in yields",
-      "hypothesisAsOf": "2026-10-23"
-    },
-    {
       "id": "auto_consumer",
       "title": "Auto and demand",
-      "items": 3,
-      "publishers": 1,
-      "positive": 0,
+      "items": 4,
+      "publishers": 2,
+      "positive": 1,
       "negative": 1,
       "neutral": 2,
-      "languageIndex": -33.3,
+      "languageIndex": 33.3,
       "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
+      "sourceConcentration": 75.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US Retail Sales Growth Slows as Big-Ticket Purchases Slip",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-retail-sales-rise-0-2-amid-mixed-demand-for-merchandise",
+          "date": "2026-11-17T13:33:57Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Tata Motors Passenger Vehicles reports Q2 net loss of ₹5,531 crore",
           "url": "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece",
@@ -475,12 +481,6 @@
           "title": "Automobile retail sales fall 24% in October on high base effect a year ago",
           "url": "https://www.thehindu.com/business/Industry/automobile-retail-sales-fall-24-in-october-on-high-base-effect-a-year-ago/article71673102.ece",
           "date": "2026-11-06T07:50:04Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "‘Best ever September’: Auto retail sales surge 32% year-on-year",
-          "url": "https://www.thehindu.com/business/Industry/best-ever-september-auto-retail-sales-surge-32-year-on-year/article71550095.ece",
-          "date": "2026-11-06T06:35:39Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -657,34 +657,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 83,
+      "items": 93,
       "publishers": 4,
       "positive": 6,
-      "negative": 26,
-      "neutral": 51,
-      "languageIndex": -30.8,
+      "negative": 31,
+      "neutral": 56,
+      "languageIndex": -35.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 42.2,
+      "sourceConcentration": 41.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T09:27:41Z",
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:27:27Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Iran Threatens to Strike Civilian Sites If US Does the Same",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-threatens-to-strike-civilian-sites-if-us-does-the-same",
-          "date": "2026-11-17T07:58:23Z",
+          "title": "Iran Protest Breaks Out After Deadly Bus Crash, Fars Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-protest-breaks-out-after-deadly-bus-crash-fars-reports",
+          "date": "2026-11-17T18:06:49Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Putin’s War on Ukraine Is Ravaging a Generation of Russian Men",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/putin-s-war-on-ukraine-is-ravaging-a-generation-of-russian-men",
-          "date": "2026-11-17T07:15:00Z",
+          "title": "Missiles From Startup Destinus Helped Destroy Crimea Bridge",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/missiles-from-startup-destinus-helped-destroy-crimea-bridge",
+          "date": "2026-11-17T17:21:02Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,35 +700,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 77,
+      "items": 89,
       "publishers": 5,
       "positive": 6,
-      "negative": 27,
-      "neutral": 44,
-      "languageIndex": -21.8,
+      "negative": 28,
+      "neutral": 55,
+      "languageIndex": -22.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 80.5,
+      "sourceConcentration": 82.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "De Cos on Path to ECB as Berlin Backs Brunnermeier for Lane Job",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/de-cos-on-path-to-ecb-as-berlin-backs-brunnermeier-for-lane-job",
-          "date": "2026-11-17T09:22:02Z",
+          "title": "The Fed Games Out How AI Could Reshape Work and the Economy",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-17/the-fed-games-out-how-ai-could-reshape-work-and-the-economy",
+          "date": "2026-11-17T20:59:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Germany to Propose Markus Brunnermeier as ECB Chief Economist",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/germany-to-propose-markus-brunnermeier-as-ecb-chief-economist",
-          "date": "2026-11-17T09:10:35Z",
+          "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
+          "date": "2026-11-17T20:06:05Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Pseudo consent, real debt: RBI’s new battle for responsible microfinance | Explained",
-          "url": "https://www.thehindu.com/business/pseudo-consent-real-debt-rbis-new-battle-for-responsible-microfinance-explained/article71710510.ece",
-          "date": "2026-11-17T05:54:07Z",
-          "publisher": "www.thehindu.com"
+          "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video",
+          "date": "2026-11-17T19:51:47Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 37,
+      "items": 43,
       "publishers": 4,
       "positive": 2,
       "negative": 2,
-      "neutral": 33,
-      "languageIndex": -3.8,
+      "neutral": 39,
+      "languageIndex": -3.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 51.4,
+      "sourceConcentration": 53.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Dutch Coalition Announces New Deal to Avoid Government Collapse",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/dutch-coalition-announces-new-deal-to-avoid-government-collapse",
-          "date": "2026-11-17T09:21:51Z",
+          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
+          "date": "2026-11-17T19:23:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
-          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T09:20:29Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Huang to Brief Congress on Affair After Nvidia Ouster",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/huang-to-brief-congress-on-affair-after-nvidia-ouster-video",
+          "date": "2026-11-17T18:29:41Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Latvian Premier Sees Government Confidence Vote on Tuesday",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/latvian-premier-sees-government-confidence-vote-on-tuesday",
-          "date": "2026-11-17T06:36:37Z",
+          "title": "New Jersey Wind Farm Permit Reopened as Senate Weighs Energy Bill",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/trump-administration-reopens-permit-for-wind-farm-off-new-jersey",
+          "date": "2026-11-17T18:26:29Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -786,34 +786,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 8,
-      "publishers": 2,
-      "positive": 0,
-      "negative": 6,
+      "items": 11,
+      "publishers": 3,
+      "positive": 1,
+      "negative": 8,
       "neutral": 2,
-      "languageIndex": -42.9,
-      "label": "Insufficient observations",
-      "sourceConcentration": 87.5,
-      "coverageSufficient": false,
+      "languageIndex": -54.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 72.7,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "China and Canada Expand Tariff Relief as Xi Meets Carney",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/china-canada-expand-tariff-relief-in-deepening-trade-thaw",
-          "date": "2026-11-17T03:37:43Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:58:57Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council",
-          "date": "2026-11-14T07:46:24Z",
-          "publisher": "www.bloomberg.com"
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-17T18:27:27Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
-          "date": "2026-11-13T18:24:41Z",
+          "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal",
+          "date": "2026-11-17T13:10:25Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,23 +958,23 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 194
-    },
-    {
-      "publisher": "www.thehindu.com",
-      "stories": 69
+      "stories": 220
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 68
+      "stories": 75
+    },
+    {
+      "publisher": "www.thehindu.com",
+      "stories": 73
     },
     {
       "publisher": "news.un.org",
-      "stories": 13
+      "stories": 17
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 4
+      "stories": 5
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 17,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 18,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

@@ -1,12 +1,762 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-17T09:34:16.295970Z",
+  "updatedAt": "2026-11-17T21:52:04.211434Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "1eb6c4f0c38d8f2056b0",
+      "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T21:45:13Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "79dcaede91c53db739cb",
+      "title": "SEC Is Probing Nvidia Amid Jensen Huang’s Exit, WSJ Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T21:25:24Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "34e06792218ddba9a282",
+      "title": "The Fed Games Out How AI Could Reshape Work and the Economy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-17/the-fed-games-out-how-ai-could-reshape-work-and-the-economy",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T20:59:53Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "55cab1350c91ac4e97b1",
+      "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T20:06:05Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "df5c17e573d34f8db68d",
+      "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T19:51:47Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "30b63448fbcb9db7d45c",
+      "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T19:23:19Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "climate_agri",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2cf43664a579f3d0a030",
+      "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+      "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:58:57Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8481a1d7c53f5178a8b1",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:30:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "46045a0e8459536d00de",
+      "title": "Huang to Brief Congress on Affair After Nvidia Ouster",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-17/huang-to-brief-congress-on-affair-after-nvidia-ouster-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:29:41Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4b6f10c89569f078133e",
+      "title": "UK sanctions firms over Israeli West Bank settlements",
+      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:27:27Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "BBC Middle East",
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "14bbb925fdd58a1d505a",
+      "title": "New Jersey Wind Farm Permit Reopened as Senate Weighs Energy Bill",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/trump-administration-reopens-permit-for-wind-farm-off-new-jersey",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:26:29Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b83c0d1555a4cec9e8eb",
+      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+      "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:24:21Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8480cf77be17db29fb80",
+      "title": "Who to watch in Spain's election race",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:13:45Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f31a103df6d9a02b3ea8",
+      "title": "Iran Protest Breaks Out After Deadly Bus Crash, Fars Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-protest-breaks-out-after-deadly-bus-crash-fars-reports",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T18:06:49Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0109d0876c893bec11e9",
+      "title": "Missiles From Startup Destinus Helped Destroy Crimea Bridge",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/missiles-from-startup-destinus-helped-destroy-crimea-bridge",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T17:21:02Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1c08c3b317c4f1cc3bf3",
+      "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+      "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T17:19:57Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6f3077b23c8174860ab5",
+      "title": "Huang Says He'd Return as Nvidia CEO If Asked to Do So By the Board",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-17/huang-says-he-d-return-as-nvidia-ceo-if-asked-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T17:09:12Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f228668024c37d56d3d7",
+      "title": "Rising prices reflect government’s economic mismanagement: Congress",
+      "url": "https://www.thehindu.com/news/national/rising-prices-reflect-governments-economic-mismanagement-congress/article71712503.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T17:03:28Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dbd156aec78638a34f39",
+      "title": "Trump’s Sudden Ukraine Push Leaves Europe Walking a Tightrope",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/trump-s-sudden-ukraine-push-leaves-europe-walking-a-tightrope",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T16:54:40Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2581186c06c225d119c1",
+      "title": "California AG Bonta on OpenAI Lawsuit, Nvidia Scrutiny",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-17/california-ag-bonta-on-openai-lawsuit-nvidia-scrutiny-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T16:50:11Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3f6ee1baed37b4493f2f",
+      "title": "US Strikes IRGC Site on Qeshm Island as Iran War Flares Anew",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-says-us-attacked-qeshm-island-in-latest-exchange-of-strikes",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T16:07:17Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4e486aad1c0bf16d716e",
+      "title": "Nuclear Thriller Puts Spotlight on French Election Campaign",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/nuclear-thriller-puts-spotlight-on-french-presidential-campaign",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T15:23:02Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "17409257915e871e7c69",
+      "title": "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-10-year-yield-set-for-historic-run-above-5-on-fed-rate-cycle",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T15:15:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "07f7a1add10ef3aa4dba",
+      "title": "Fed’s Hammack Proposes Principles for Market Interventions",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-hammack-proposes-principles-for-market-interventions",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T14:35:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d326a0b8624593cc7f4e",
+      "title": "Waller Says Fed Open to ‘Responsible Innovation’ in Payments",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/waller-says-fed-open-to-responsible-innovation-in-payments",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T14:10:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1d90181c46c902f26dbc",
+      "title": "Danish Central Bank Denies Shift in FX Peg After Krone Weakness",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/danish-central-bank-denies-shift-in-fx-peg-after-krone-weakness",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:58:44Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6e4796bd1c881cef6b02",
+      "title": "US Retail Sales Growth Slows as Big-Ticket Purchases Slip",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-retail-sales-rise-0-2-amid-mixed-demand-for-merchandise",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:33:57Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "62c258c5deaa6fabed96",
+      "title": "Germany Corrects October Inflation Data, Showing Stronger Pace",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/germany-corrects-october-inflation-data-showing-stronger-pace",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:30:05Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3ba1cd9d48855d3e6811",
+      "title": "Stock markets rally second day on foreign fund inflows, moderate crude oil prices",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-rally-second-day-on-foreign-fund-inflows-moderate-crude-oil-prices/article71711576.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:27:29Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8457c3fe84882fb42c4a",
+      "title": "Tech Stocks Drop for Fourth Day Ahead of Crucial Nvidia Earnings",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/nasdaq-100-futures-rise-as-investors-prepare-for-nvidia-results",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:13:35Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "898e80cd2372a91750f7",
+      "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T13:10:25Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8837f2eb6dad2db18272",
+      "title": "Chile Central Bank Says New Rules Eased Fallout From Swap Losses",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/chile-central-bank-says-new-rules-eased-fallout-from-swap-losses",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T12:31:11Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "88c27b14186bf7c8104c",
+      "title": "Fed’s Musalem Says ‘Several’ Rate Hikes Likely Needed by Spring",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T12:30:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b22069a57553bb39c953",
+      "title": "Rupee rises 43 paise to close at 93.51 (provisional) against U.S. dollar",
+      "url": "https://www.thehindu.com/business/Industry/rupee-rises-43-paise-to-close-at-9351-provisional-against-us-dollar/article71711483.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T12:19:19Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c0f996bc37a23e3049e9",
+      "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168821",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T12:00:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bfcaf275b27da53f3c8b",
+      "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+      "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T11:17:32Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6bcf5932aecffa6174f4",
+      "title": "Nvidia to reveal first earnings since spy scandal",
+      "url": "https://www.thehindu.com/business/nvidia-to-reveal-first-earnings-since-spy-scandal/article71711204.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T10:50:40Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "63f727d9670564762356",
+      "title": "German Investor Outlook Jumps to Highest Since Iran War Began",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/german-investor-outlook-jumps-to-highest-since-iran-war-began",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T10:08:43Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "585aea0d9babf51e42db",
+      "title": "Euro Zone to Grow Robustly as It Shrugs Off Inflation, EU Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/euro-zone-to-grow-robustly-as-it-shrugs-off-inflation-eu-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T10:03:22Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "4b88ce23b69e7b5767ed",
       "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
@@ -947,6 +1697,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "8f70f0373fb40b21c6bb",
+      "title": "Syria: Progress ‘real’ but fragile, as remnants of war wreck young lives",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168814",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-16T12:00:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "98da1f28c53fd82fcd93",
       "title": "Rupee rises 27 paise to close at 93.92 against U.S. dollar",
       "url": "https://www.thehindu.com/business/Industry/rupee-rises-27-paise-to-close-at-9392-against-us-dollar/article71707732.ece",
@@ -1738,6 +2507,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "7847f1dc76db127077e3",
+      "title": "First Person: Managing risk on Ukraine’s frontline",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168807",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-15T12:00:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "96e3b3873fda3826fff0",
       "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
       "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
@@ -2058,6 +2846,25 @@
       ],
       "feedSources": [
         "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "86afcb44d97a39875027",
+      "title": "When the rains fail: Preparing for drought in Central America",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168776",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-14T12:00:00Z",
+      "discovered": "2026-11-17T21:52:04.211434Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "UN News"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
