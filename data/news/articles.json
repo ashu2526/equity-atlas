@@ -1,12 +1,397 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-17T21:52:04.211434Z",
+  "updatedAt": "2026-11-18T08:52:58.022138Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "79407dbc2a4b2cb48ca9",
+      "title": "Higher petrol and diesel prices push UK inflation to 3.6%",
+      "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T08:45:38Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "987986d32087cf821da3",
+      "title": "US Strikes Iran’s Qeshm Island as Bahrain and Kuwait Face Fresh Drone Attacks",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-18/horizons-middle-east-africa-11-18-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T08:18:15Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5170220824ca1b2891dc",
+      "title": "Rand Weakens Further as South African Inflation Heats Up",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/south-african-inflation-heats-up-on-eve-of-interest-rate-verdict",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T08:03:18Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3b145f9d2ffbbddef236",
+      "title": "UK Inflation Print at Fastest in a Year Comes With Few Surprises",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/uk-inflation-print-at-fastest-in-a-year-comes-with-few-surprises",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T07:50:32Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6e6099b9079cf71d880d",
+      "title": "Merz’s Coalition Agrees to Slash Electricity Tax for Households",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T07:16:16Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a0c2f7ed8cb7715b75d3",
+      "title": "UK Inflation Hits Highest in a Year on Fuel and Energy Costs",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/uk-inflation-hits-highest-in-year-on-soaring-fuel-energy-costs",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T07:05:36Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "55134f7fb9178ed7eb24",
+      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T07:00:25Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f94c2d9fd0bed254818e",
+      "title": "Gilts Rally After Benign Inflation Data",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-11-18/what-s-moving-uk-markets-right-now-markets-today",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T06:49:02Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8c40d6b0056b0a016eae",
+      "title": "Xi Jinping Speaks at APEC as Nvidia Posts Solid First Post-Huang Earnings",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-18/the-china-show-11-18-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T06:39:59Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7da6a54b841978517625",
+      "title": "Delevska: Need a Strong Leader to Run Nvidia",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-18/delevska-need-a-strong-leader-to-run-nvidia-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T06:14:45Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f2571879ac6543f8b885",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T06:04:21Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "451b4ef123289370bd74",
+      "title": "French Election: Jean-Luc Mélenchon Is Wild Card for Voters",
+      "url": "https://www.bloomberg.com/news/features/2026-11-18/french-election-jean-luc-melenchon-is-wild-card-for-voters",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T05:00:21Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d54c3d21cb666b7390d1",
+      "title": "Swiss Face Nail-Biter Vote on Allowing More Weapon Exports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/swiss-face-nail-biter-vote-on-allowing-more-weapon-exports",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T05:00:00Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "defence_capex",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3cdba863c7b43df6c7b4",
+      "title": "Rupee rises 24 paise to 93.27 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-vs-dollar-on-november-18-2026-forex-markets/article71714482.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T04:23:14Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "49678336baad9e3289c4",
+      "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T03:45:44Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1e81b303a4aced9716da",
+      "title": "Israel’s Knesset Elects Kahana as Speaker to Boost Netanyahu Rivals",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/israel-s-knesset-elects-kahana-as-speaker-to-boost-netanyahu-rivals",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T01:25:29Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "256cb66c2fcaab76b0b6",
+      "title": "Australia’s Wage Gains Quicken, Reinforcing Inflation Challenge",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/australia-s-wage-gains-quicken-reinforcing-inflation-challenge",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T00:43:17Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "05ce4d080ec10ab65e57",
+      "title": "Gold Slumps Below $3,800 as Fed Officials Signal More Rate Hikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T23:33:52Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3e19db2c7da45768fb83",
+      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T23:02:12Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0a80a65cdf121c935828",
+      "title": "US Stocks Rise as Nvidia Offers Relief to AI Trade: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T22:07:08Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "1eb6c4f0c38d8f2056b0",
       "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
@@ -21,7 +406,8 @@
       ],
       "feedSources": [
         "BBC Business",
-        "BBC Technology"
+        "BBC Technology",
+        "BBC World"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
@@ -404,6 +790,7 @@
       "published": "2026-11-17T16:07:17Z",
       "discovered": "2026-11-17T21:52:04.211434Z",
       "topics": [
+        "energy_shipping",
         "geopolitics"
       ],
       "feedSources": [
@@ -679,6 +1066,25 @@
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2855efbaea82074b0303",
+      "title": "Ukraine: Civilian casualties in 2026 already far exceed previous years’ tolls",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168828",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-17T12:00:00Z",
+      "discovered": "2026-11-18T08:52:58.022138Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
