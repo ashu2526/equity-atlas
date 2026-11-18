@@ -3,6 +3,435 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-18-pm",
+      "asOf": "2026-11-18",
+      "createdAt": "2026-11-18T13:56:22.644Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified PM review; 19:00 IST source pipeline not yet confirmed",
+      "marketSession": "PM — Wednesday 18 Nov 2026; completed Indian cash session, global reporting available by 19:25 IST",
+      "coverageWindow": {
+        "start": "2026-11-04",
+        "end": "2026-11-18T19:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-18T08:52:58.022138Z",
+      "headline": "Indian equities retreat on weak breadth despite November FPI optimism; oil eases as Gulf security, global rates and AI demand diverge",
+      "executiveSummary": "NEW since 18 Nov AM: Reuters records NIFTY 50 -0.63% to 25,227.95 and Sensex -0.61% to 82,031.81, with 13 of 16 major sectors declining and midcaps -1.2%. This is actual Indian market confirmation of profit-taking, not evidence that foreign investors sold. Brent -1.3% to about $91.90 offers conditional import relief while Bloomberg reports renewed Gulf military incidents without independently verified physical damage. UK headline inflation reached 3.6% but core held 2.8%; dollar and rate uncertainty persist. Reuters reports a $370m Fairfax stake exit in IIFL Finance and divergent FDA-linked pharma reactions, not broad sector transactions. Stored sector indices remain dated 17 Nov: private banks +6.88pp, PSU banks +4.97pp relative to NIFTY over 3m; price leadership is not FPI flow. Polymarket Fed Dec +25bp YES 93.5¢ at 08:50 UTC, unchanged from prior stored quote, $391,257.59 24h betting volume, $734,779.58 liquidity. The 19:00 IST pipeline has NOT been confirmed; stock OHLCV and sector prices still end 17 Nov, so no 18 Nov breakout is asserted. Primary 18 Nov NSE gross turnover, current NSDL sector allocation, numeric CFTC/TIC and verified issuer CDS are unavailable. Regime is selective with worsening breadth, not broad risk-on.",
+      "regime": {
+        "label": "Selective financial leadership with deteriorating Indian breadth; global inflation and geopolitical uncertainty",
+        "change": "NIFTY fell 0.63% on 18 Nov with 13/16 sectors lower, reversing previous session's advance; Brent eased despite Gulf attack reports.",
+        "confidence": "Moderate for Reuters reported closes and stored historical sector indices; low for same-day sector flow and military incident verification",
+        "marketConfirmation": "18 Nov NIFTY 25,227.95 (-0.63%); midcaps -1.2%; financials -0.7%; metals -2.5%; 13/16 sectors declined.",
+        "contradictions": [
+          "November aggregate foreign inflow narrative versus 18 Nov broad price weakness",
+          "Lower benchmark crude versus renewed Gulf attack headlines",
+          "Nvidia revenue strength versus global technology de-risking",
+          "Three-month bank leadership versus 18 Nov financial-sector decline"
+        ],
+        "missingSignals": [
+          "18 Nov official NSE FII/DII gross buys/sells/net",
+          "Latest NSDL fortnightly sector transactions",
+          "Latest primary AMFI monthly equity category reconciliation",
+          "CFTC weekly numerical futures positioning",
+          "US Treasury TIC country-level net transactions",
+          "18 Nov exchange-verified company OHLCV",
+          "Named issuer CDS or bond spread primary observations",
+          "19:00 IST news and signals refresh completion"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,227.95 (-0.63%)",
+          "period": "18 Nov 2026 close",
+          "dataClass": "Reuters reported index close",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+        },
+        {
+          "name": "Sensex close",
+          "value": "82,031.81 (-0.61%)",
+          "period": "18 Nov 2026 close",
+          "dataClass": "Reuters reported index close",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+        },
+        {
+          "name": "Indian market breadth",
+          "value": "13 of 16 major sectors declined; midcaps -1.2%; metals -2.5%",
+          "period": "18 Nov 2026",
+          "dataClass": "Reuters reported index price returns",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+        },
+        {
+          "name": "Brent",
+          "value": "approximately $91.90/bbl (-1.3%)",
+          "period": "18 Nov 2026 reporting",
+          "dataClass": "reported commodity price",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+        },
+        {
+          "name": "UK CPI",
+          "value": "headline 3.6% YoY; core 2.8% YoY",
+          "period": "October 2026, released 18 Nov",
+          "dataClass": "reported macroeconomic statistic",
+          "source": "https://www.reuters.com/world/uk/sterling-slips-one-month-low-versus-dollar-after-uk-core-inflation-steadies-2026-11-18/"
+        },
+        {
+          "name": "Private bank relative 3m",
+          "value": "+6.88 percentage points; absolute +11.98%; 7d +3.05%; 1m +10.15%",
+          "period": "through 17 Nov 2026; stale for 18 Nov close",
+          "dataClass": "sector index price return, not institutional flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "PSU bank relative 3m",
+          "value": "+4.97 percentage points; absolute +10.07%; 7d +6.53%; 1m +17.19%",
+          "period": "through 17 Nov 2026",
+          "dataClass": "sector index price return, not institutional flow",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Fed December +25bp YES",
+          "value": "93.5¢ unchanged from preceding stored quote; $391,257.59 24h betting volume; $734,779.58 liquidity",
+          "period": "18 Nov 2026 08:50:34 UTC",
+          "dataClass": "Polymarket traded contract quote, not objective probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "18 Nov NSE institutional cash transactions",
+          "value": "Unavailable: primary gross buy/sell/net not retrieved",
+          "period": "18 Nov 2026",
+          "dataClass": "not measured",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        },
+        {
+          "name": "IIFL Fairfax stake exit",
+          "value": "approximately US$370m, reported",
+          "period": "18 Nov 2026",
+          "dataClass": "reported institutional stake transaction; primary block disclosure pending",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+        }
+      ],
+      "stories": [
+        {
+          "id": "20261118pm-1",
+          "rank": 1,
+          "importance": "High",
+          "theme": "market breadth",
+          "geography": "India",
+          "title": "India equity profit-taking broadens",
+          "whatHappened": "18 Nov: NIFTY 50 closed 25,227.95 (-0.63%) and Sensex 82,031.81 (-0.61%); 13 of 16 major sectors declined; midcaps -1.2%, smallcaps -0.4%.",
+          "whyItMatters": [
+            "Declining sector breadth contradicts an unqualified risk-on label despite strong November foreign-flow reports.",
+            "Financials -0.7% after a large monthly advance raises the possibility of positioning-related profit-taking rather than immediate earnings deterioration."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "Large-cap banks, metals and consumer cyclicals",
+          "proxies": "Brokers, exchange volumes, quality defensive exporters",
+          "whatCouldChange": "Confirm with 19 Nov breadth, bank NIM revisions and official NSE FII/DII; invalidated by broad participation and renewed leadership",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+          ],
+          "evidenceType": "Dated publisher reporting; primary market/filing reconciliation pending"
+        },
+        {
+          "id": "20261118pm-2",
+          "rank": 2,
+          "importance": "High",
+          "theme": "geopolitics and commodities",
+          "geography": "Middle East / India",
+          "title": "Middle East security and oil diverge",
+          "whatHappened": "18 Nov Bloomberg headline reports US strikes on Iran's Qeshm Island and fresh drone attacks involving Bahrain and Kuwait; independently verified military damage and shipment interruption unavailable. Brent reported around $91.90, down 1.3% as US inventories rose.",
+          "whyItMatters": [
+            "Physical disruption and freight insurance can increase landed oil cost even while benchmark crude falls.",
+            "India's oil-import bill, airlines and chemical margins depend on sustained landed-cost relief, not a single daily Brent print."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "Oil importers, airlines, OMCs, chemicals",
+          "proxies": "Paints, tyres, freight insurers, grid and storage alternatives",
+          "whatCouldChange": "Check vessel traffic, insurance premiums, EIA inventories, Brent and INR; claims unconfirmed until independent incident evidence",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.bloomberg.com/news/videos/2026-11-18/horizons-middle-east-africa-11-18-2026-video"
+          ],
+          "evidenceType": "Publisher report; details pending primary confirmation"
+        },
+        {
+          "id": "20261118pm-3",
+          "rank": 3,
+          "importance": "High",
+          "theme": "inflation and rates",
+          "geography": "United Kingdom / global",
+          "title": "UK inflation accelerates while core remains stable",
+          "whatHappened": "18 Nov release: October UK headline CPI 3.6% year-on-year versus 3.5% September; core CPI 2.8% unchanged; sterling fell roughly 0.4% to $1.314.",
+          "whyItMatters": [
+            "Energy-driven headline inflation pressures real disposable income and consumer demand.",
+            "Unchanged core inflation weakens the case that all price pressure is broadening; gilt and BoE repricing can affect global duration multiples."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "UK consumer-facing exporters and rate-sensitive assets",
+          "proxies": "Indian IT clients, overseas travel, sterling-linked revenue",
+          "whatCouldChange": "Check ONS release, BoE communications and 10-year gilt yields; inflation impulse may fade if fuel normalizes",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.reuters.com/world/uk/sterling-slips-one-month-low-versus-dollar-after-uk-core-inflation-steadies-2026-11-18/"
+          ],
+          "evidenceType": "Dated publisher reporting; primary market/filing reconciliation pending"
+        },
+        {
+          "id": "20261118pm-4",
+          "rank": 4,
+          "importance": "High",
+          "theme": "FX and global rates",
+          "geography": "India / US",
+          "title": "Global dollar and Indian rupee remain two-sided",
+          "whatHappened": "18 Nov The Hindu reported rupee strengthening 24 paise to 93.27/USD in early trade; intraday FX is not an end-of-day fix. Reuters reports a stronger broad dollar and UK sterling weakness.",
+          "whyItMatters": [
+            "INR appreciation can reduce imported energy and equipment costs if sustained.",
+            "Dollar strength and Fed tightening expectations can raise foreign financing and discount rates, offsetting local FX relief."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "Importers, leveraged NBFCs, foreign-currency borrowers",
+          "proxies": "Export-oriented IT, pharma and remittance-sensitive businesses",
+          "whatCouldChange": "Verify RBI reference rate and closing spot, US Treasury yields, and hedging costs; do not treat FX short-covering as FPI equity transactions",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.thehindu.com/business/markets/rupee-vs-dollar-on-november-18-2026-forex-markets/article71714482.ece"
+          ],
+          "evidenceType": "Dated publisher reporting; primary market/filing reconciliation pending"
+        },
+        {
+          "id": "20261118pm-5",
+          "rank": 5,
+          "importance": "Medium",
+          "theme": "AI capex and earnings",
+          "geography": "US / Asia / India",
+          "title": "Nvidia outlook challenges AI capex-collapse thesis",
+          "whatHappened": "17-18 Nov publisher coverage describes Nvidia's solid post-Huang earnings and improved outlook, following a sharp AI-linked equity selloff; no verified Indian supplier order award is established.",
+          "whyItMatters": [
+            "A positive chip-revenue outlook supports near-term compute demand despite falling AI-stock prices.",
+            "Export restrictions, leadership transition and capex financing can still compress multiples and constrain deliveries."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "Semiconductors, hyperscaler infrastructure",
+          "proxies": "Indian data-centre electrical equipment, cooling, transformers, cables, power",
+          "whatCouldChange": "Check Nvidia filings and hyperscaler capex, export-license outcomes and Indian signed order books; invalidated by cuts to delivery guidance",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates"
+          ],
+          "evidenceType": "Dated publisher reporting; primary market/filing reconciliation pending"
+        },
+        {
+          "id": "20261118pm-6",
+          "rank": 6,
+          "importance": "Medium",
+          "theme": "monetary policy and prediction markets",
+          "geography": "US / global",
+          "title": "US rate expectations and event-contract pricing remain restrictive",
+          "whatHappened": "18 Nov 08:50 UTC stored Polymarket exact contract 'Will the Fed increase interest rates by 25 bps after the December 2026 meeting?' YES 93.5¢, unchanged from previous snapshot; 24h betting volume $391,257.59, liquidity $734,779.58.",
+          "whyItMatters": [
+            "A high traded YES quote reflects contract pricing, not a calibrated objective probability or an actual Fed decision.",
+            "Higher expected US policy rates can affect EM discount rates, currency funding and Indian bank/NBFC valuations."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "Global duration assets, banks and NBFCs",
+          "proxies": "Cash-rich exporters and short-duration balance sheets",
+          "whatCouldChange": "Verify FOMC statements, futures curve and Treasury yields; contract prices may be illiquid or biased and do not measure equity flow",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+          ],
+          "evidenceType": "Stored prediction-market contract quote; not policy probability"
+        },
+        {
+          "id": "20261118pm-7",
+          "rank": 7,
+          "importance": "Medium",
+          "theme": "enacted versus proposed policy",
+          "geography": "Germany / Europe",
+          "title": "German household electricity-tax proposal",
+          "whatHappened": "18 Nov Bloomberg reports German coalition agreement to cut household electricity tax; legislative enactment, implementation date and fiscal cost not independently confirmed.",
+          "whyItMatters": [
+            "If enacted, lower electricity bills could support household disposable income.",
+            "Fiscal funding and energy-supplier pass-through determine whether the benefit reaches consumption and corporate orders."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; official sector-wise FPI purchases not retrieved.",
+          "direct": "European utilities, household consumption",
+          "proxies": "Indian exporters supplying European industrial and consumer chains",
+          "whatCouldChange": "Verify enacted text, fiscal allocation and actual bills; coalition agreement alone is not implementation",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households"
+          ],
+          "evidenceType": "Publisher report; details pending primary confirmation"
+        },
+        {
+          "id": "20261118pm-8",
+          "rank": 8,
+          "importance": "Medium",
+          "theme": "corporate transactions and regulatory risk",
+          "geography": "India",
+          "title": "India corporate dispersion: healthcare and financial stakes",
+          "whatHappened": "18 Nov Reuters reports IIFL Finance rose 4% following Fairfax's reported $370m stake exit, Cipla rose 2.1% after US facility inspection clearance without action, and Caplin Point fell 7.2% amid US regulatory concerns.",
+          "whyItMatters": [
+            "An institutional stake sale is a verified-reported transaction, not evidence of broad NBFC sector outflows; counterparty and block terms require exchange confirmation.",
+            "US FDA inspection outcomes can alter pharma supply continuity, margin expectations and risk premia at the company level."
+          ],
+          "smartMoney": "Fairfax $370m stake exit reported by Reuters; primary exchange block-deal confirmation not retrieved. No inference of aggregate sector outflow.",
+          "direct": "IIFL Finance, Cipla, Caplin Point",
+          "proxies": "Pharma contract manufacturers, healthcare suppliers, NBFC peers",
+          "whatCouldChange": "Check NSE/BSE bulk/block deal disclosures, FDA documentation and company filings; one-day prices are not fundamental validation",
+          "caution": "Evidence-qualified; reported observations are not proof of causation, forecasts or institutional sector buying.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/"
+          ],
+          "evidenceType": "Dated publisher reporting; primary market/filing reconciliation pending"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private and PSU banks",
+          "state": "3-month leadership but 18 Nov short-term cooling",
+          "evidence": "17 Nov private bank +6.88pp and PSU bank +4.97pp relative 3m; 18 Nov financials -0.7%",
+          "earningsTransmission": "NIM, deposits, fee income and slippages",
+          "proxies": "Brokers and exchanges",
+          "counterevidence": "13/16 sectors down; current NSDL sector allocations absent",
+          "change": "Breadth deteriorated since morning despite historical leadership",
+          "nextData": "18 Nov NSE bank sector close, primary flows, loan/deposit data"
+        },
+        {
+          "sector": "Hospitals and healthcare",
+          "state": "Technical momentum not yet 18 Nov confirmed",
+          "evidence": "17 Nov YATHARTH 20-session breakout at 1.43x volume; no fresh 18 Nov OHLCV",
+          "earningsTransmission": "Occupancy, ARPOB, bed ramp and cash conversion",
+          "proxies": "Medical devices and diagnostics",
+          "counterevidence": "Short-term RSI elevated and 55-session high not cleared",
+          "change": "No fresh validated signal",
+          "nextData": "18 Nov verified OHLCV, volume follow-through, hospital filings"
+        },
+        {
+          "sector": "Pharma exporters",
+          "state": "Company-specific regulatory differentiation",
+          "evidence": "18 Nov Reuters: Cipla +2.1%, Caplin Point -7.2% around US regulatory news",
+          "earningsTransmission": "US approvals, compliance costs, product supply",
+          "proxies": "CDMO and API suppliers",
+          "counterevidence": "Not sector-wide demand confirmation",
+          "change": "Fresh issuer dispersion",
+          "nextData": "FDA and company filings"
+        },
+        {
+          "sector": "Oil importers / airlines / paints / tyres",
+          "state": "Conditional cooling in feedstock costs",
+          "evidence": "Brent approximately $91.90, -1.3% despite Gulf security headlines",
+          "earningsTransmission": "Input cost and freight/insurance pass-through",
+          "proxies": "Chemicals, logistics",
+          "counterevidence": "Unverified attacks and marine insurance risks",
+          "change": "Lower Brent alongside security escalation",
+          "nextData": "EIA stocks, vessel traffic, insurance and INR close"
+        },
+        {
+          "sector": "AI infrastructure and grid equipment",
+          "state": "Demand hypothesis supported, Indian awards unproven",
+          "evidence": "Nvidia reported strong guidance; no signed India supplier order verified",
+          "earningsTransmission": "Order intake and execution margin",
+          "proxies": "Cooling, transformers, power cables, BESS",
+          "counterevidence": "Export controls and tech equity selloff",
+          "change": "Earnings counterevidence to bearish sentiment remains",
+          "nextData": "Hyperscaler capex and order-book filings"
+        },
+        {
+          "sector": "Metals and commodities",
+          "state": "Cooling in price leadership",
+          "evidence": "18 Nov Indian metals index -2.5%",
+          "earningsTransmission": "Realized prices, export demand and inventory",
+          "proxies": "Mining, freight and industrial capex",
+          "counterevidence": "One session insufficient for structural conclusion",
+          "change": "New acute relative weakness",
+          "nextData": "LME metals, China demand and 18 Nov sector index series"
+        },
+        {
+          "sector": "IT exporters",
+          "state": "Not yet proven rebound",
+          "evidence": "17 Nov IT -0.33pp relative over 3m, -2.51% 7d",
+          "earningsTransmission": "US client budgets, FX and AI services mix",
+          "proxies": "Engineering services, data-centre integration",
+          "counterevidence": "Nvidia strength does not establish IT contract growth",
+          "change": "No new order-book confirmation",
+          "nextData": "Deal wins and guidance revisions"
+        },
+        {
+          "sector": "NBFC and capital-market infrastructure",
+          "state": "Selective corporate transaction; broad rotation unproven",
+          "evidence": "Reported Fairfax $370m IIFL exit and IIFL share price +4%",
+          "earningsTransmission": "Funding spreads, loan growth, credit costs",
+          "proxies": "Depositories and exchanges",
+          "counterevidence": "Stake exit is not an aggregate flow",
+          "change": "New material block-sale report",
+          "nextData": "BSE/NSE block disclosures, borrowing spreads"
+        }
+      ],
+      "cooling": [
+        "18 Nov Indian breadth: 13/16 sectors declined",
+        "Metals -2.5% and midcaps -1.2% on 18 Nov",
+        "UK core inflation did not accelerate despite headline CPI rise",
+        "Oil price eased on US inventory news; landed-cost relief remains unconfirmed"
+      ],
+      "risks": [
+        "Hormuz/Qeshm military escalation or shipping insurance premium spike",
+        "US 10-year yields and Fed tightening surprise",
+        "Rupee reversal and import cost inflation",
+        "India market breadth deterioration extending beyond one session",
+        "Bank deposit-cost pressure or credit slippage",
+        "AI export-control restrictions or hyperscaler capex cuts",
+        "Regulatory setback for US-exposed Indian pharma"
+      ],
+      "whatChanged": [
+        "18 Nov Indian cash close reversed the 17 Nov benchmark advance with broad sector declines",
+        "Reported Brent fell to about $91.90 despite renewed Gulf military headlines",
+        "UK headline CPI increased to 3.6% while core stayed 2.8%",
+        "Reuters reported Fairfax's approximately $370m IIFL Finance stake exit and pharma FDA divergence",
+        "Polymarket December Fed +25bp YES quote unchanged at 93.5¢ versus previous stored snapshot; volume is betting volume",
+        "19:00 IST repository refresh unconfirmed; no 18 Nov sector rotation or technical price bar available"
+      ],
+      "tomorrowChecklist": [
+        "Re-read 19:00 pipeline and validate exact source timestamps before new conclusions",
+        "Retrieve primary NSE 18 Nov FII/DII gross purchases, sales and net, flag conflicts",
+        "Check 18 Nov sector price index breadth and compare 1w/1m/3m ranking changes",
+        "Verify NSDL fortnightly sector transactions and AMFI latest monthly flows",
+        "Check RBI INR reference rate, Brent, EIA stocks and Gulf vessel traffic",
+        "Confirm IIFL block trade via exchange and Cipla/Caplin regulatory filings",
+        "Check 18 Nov watch-universe OHLCV for genuine NEW 20/55-session breakouts and 200DMA shifts",
+        "Review Treasury TIC and CFTC dated observations without conflating holdings with purchases"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/",
+        "https://www.reuters.com/world/uk/sterling-slips-one-month-low-versus-dollar-after-uk-core-inflation-steadies-2026-11-18/",
+        "https://www.bloomberg.com/news/videos/2026-11-18/horizons-middle-east-africa-11-18-2026-video",
+        "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-crude-falls-as-us-inventories-rise-iran-tensions-limit-losses/articleshow/135946781.cms",
+        "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
+        "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
+        "https://www.thehindu.com/business/markets/rupee-vs-dollar-on-november-18-2026-forex-markets/article71714482.ece",
+        "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.amfiindia.com/research-information/amfi-monthly",
+        "https://www.fpi.nsdl.co.in/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+      ],
+      "limitations": [
+        "News archive last refreshed 18 Nov 08:52:58 UTC; 19:00 IST source completion not established",
+        "Sector and stock data latest completed bar 17 Nov, refreshed 18 Nov 08:50 UTC",
+        "Prediction market snapshot 18 Nov 08:50 UTC, not current at evening cut-off",
+        "No 18 Nov primary NSE gross turnover or current NSDL sector purchases independently retrieved",
+        "No CFTC net positions, Treasury TIC country transactions or issuer CDS spread measurements",
+        "Bloomberg military headline not independent confirmation of damage; German tax proposal not enacted policy confirmation",
+        "Some news sourced from Reuters and publisher reporting rather than primary filing; all identified"
+      ]
+    },
+    {
       "id": "2026-11-18-am",
       "asOf": "2026-11-18",
       "createdAt": "2026-11-18T01:56:07.922Z",
