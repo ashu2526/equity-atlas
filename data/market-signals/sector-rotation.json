@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T08:50:34.669994+00:00",
-  "asOf": "2026-11-17",
+  "generatedAt": "2026-11-18T21:31:14.417463+00:00",
+  "asOf": "2026-11-18",
   "market": "India (NSE NIFTY sector price-return indices)",
   "status": "ready",
   "sourcePriority": [
@@ -10,14 +10,14 @@
   ],
   "benchmarkIndex": "NIFTY 50",
   "benchmark": {
-    "latestDate": "2026-11-17",
-    "latestClose": 25387.4,
+    "latestDate": "2026-11-18",
+    "latestClose": 25227.95,
     "daysObserved": 81,
-    "r7d": 1.37,
-    "r1m": 9.68,
-    "rPrev1m": -0.86,
-    "r3m": 5.1,
-    "momentumAccelerationPp": 10.54
+    "r7d": -0.11,
+    "r1m": 10.22,
+    "rPrev1m": -1.96,
+    "r3m": 4.77,
+    "momentumAccelerationPp": 12.18
   },
   "benchmarkPath": [
     {
@@ -291,319 +291,30 @@
     {
       "date": "2026-11-17",
       "close": 25387.4
+    },
+    {
+      "date": "2026-11-18",
+      "close": 25227.95
     }
   ],
   "sectors": [
-    {
-      "index": "NIFTY PRIVATE BANK",
-      "sector": "Private Banks",
-      "yahooTicker": "^NIFTYPVTBANK",
-      "priceSource": "NSE India official daily index snapshot",
-      "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 6.88,
-      "relative1mPp": 0.47,
-      "rotationState": "Leading & accelerating",
-      "latestDate": "2026-11-17",
-      "latestClose": 30512.15,
-      "daysObserved": 81,
-      "r7d": 3.05,
-      "r1m": 10.15,
-      "rPrev1m": 1.5,
-      "r3m": 11.98,
-      "momentumAccelerationPp": 8.65,
-      "path": [
-        {
-          "date": "2026-08-10",
-          "close": 27534.3
-        },
-        {
-          "date": "2026-08-11",
-          "close": 27380.35
-        },
-        {
-          "date": "2026-08-12",
-          "close": 27408.4
-        },
-        {
-          "date": "2026-08-13",
-          "close": 27260.55
-        },
-        {
-          "date": "2026-08-14",
-          "close": 27247.25
-        },
-        {
-          "date": "2026-08-17",
-          "close": 27311.05
-        },
-        {
-          "date": "2026-08-18",
-          "close": 27247.9
-        },
-        {
-          "date": "2026-08-19",
-          "close": 27207.7
-        },
-        {
-          "date": "2026-08-20",
-          "close": 27449.3
-        },
-        {
-          "date": "2026-08-21",
-          "close": 27590.65
-        },
-        {
-          "date": "2026-08-24",
-          "close": 27501.8
-        },
-        {
-          "date": "2026-08-25",
-          "close": 27447.45
-        },
-        {
-          "date": "2026-08-26",
-          "close": 27732.85
-        },
-        {
-          "date": "2026-08-27",
-          "close": 27758.55
-        },
-        {
-          "date": "2026-08-28",
-          "close": 27737.2
-        },
-        {
-          "date": "2026-08-31",
-          "close": 28005.75
-        },
-        {
-          "date": "2026-09-01",
-          "close": 27762.1
-        },
-        {
-          "date": "2026-09-02",
-          "close": 27606.8
-        },
-        {
-          "date": "2026-09-03",
-          "close": 27747.85
-        },
-        {
-          "date": "2026-09-04",
-          "close": 27824.5
-        },
-        {
-          "date": "2026-09-07",
-          "close": 27745.75
-        },
-        {
-          "date": "2026-09-08",
-          "close": 27474.7
-        },
-        {
-          "date": "2026-09-09",
-          "close": 27214.3
-        },
-        {
-          "date": "2026-09-10",
-          "close": 27305.9
-        },
-        {
-          "date": "2026-09-11",
-          "close": 27436.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 27069.8
-        },
-        {
-          "date": "2026-09-16",
-          "close": 27284.25
-        },
-        {
-          "date": "2026-09-17",
-          "close": 27169.2
-        },
-        {
-          "date": "2026-09-18",
-          "close": 27290.0
-        },
-        {
-          "date": "2026-09-21",
-          "close": 27370.1
-        },
-        {
-          "date": "2026-09-22",
-          "close": 27286.0
-        },
-        {
-          "date": "2026-09-23",
-          "close": 27363.35
-        },
-        {
-          "date": "2026-09-24",
-          "close": 26763.95
-        },
-        {
-          "date": "2026-09-25",
-          "close": 26883.2
-        },
-        {
-          "date": "2026-09-28",
-          "close": 26476.4
-        },
-        {
-          "date": "2026-09-29",
-          "close": 26443.15
-        },
-        {
-          "date": "2026-09-30",
-          "close": 26695.6
-        },
-        {
-          "date": "2026-10-01",
-          "close": 26697.25
-        },
-        {
-          "date": "2026-10-05",
-          "close": 26718.15
-        },
-        {
-          "date": "2026-10-06",
-          "close": 27093.75
-        },
-        {
-          "date": "2026-10-07",
-          "close": 27115.9
-        },
-        {
-          "date": "2026-10-08",
-          "close": 26869.1
-        },
-        {
-          "date": "2026-10-09",
-          "close": 27222.55
-        },
-        {
-          "date": "2026-10-12",
-          "close": 27122.9
-        },
-        {
-          "date": "2026-10-13",
-          "close": 27324.35
-        },
-        {
-          "date": "2026-10-14",
-          "close": 27166.8
-        },
-        {
-          "date": "2026-10-15",
-          "close": 27679.3
-        },
-        {
-          "date": "2026-10-16",
-          "close": 27700.55
-        },
-        {
-          "date": "2026-10-19",
-          "close": 27189.1
-        },
-        {
-          "date": "2026-10-21",
-          "close": 26904.35
-        },
-        {
-          "date": "2026-10-22",
-          "close": 26866.05
-        },
-        {
-          "date": "2026-10-23",
-          "close": 26656.3
-        },
-        {
-          "date": "2026-10-26",
-          "close": 26825.3
-        },
-        {
-          "date": "2026-10-27",
-          "close": 26628.45
-        },
-        {
-          "date": "2026-10-28",
-          "close": 26722.1
-        },
-        {
-          "date": "2026-10-29",
-          "close": 27052.6
-        },
-        {
-          "date": "2026-10-30",
-          "close": 27053.5
-        },
-        {
-          "date": "2026-11-02",
-          "close": 27015.9
-        },
-        {
-          "date": "2026-11-03",
-          "close": 27551.1
-        },
-        {
-          "date": "2026-11-04",
-          "close": 27632.3
-        },
-        {
-          "date": "2026-11-05",
-          "close": 28582.8
-        },
-        {
-          "date": "2026-11-06",
-          "close": 29503.4
-        },
-        {
-          "date": "2026-11-09",
-          "close": 29608.15
-        },
-        {
-          "date": "2026-11-11",
-          "close": 29946.2
-        },
-        {
-          "date": "2026-11-12",
-          "close": 30206.05
-        },
-        {
-          "date": "2026-11-13",
-          "close": 29977.95
-        },
-        {
-          "date": "2026-11-16",
-          "close": 30242.85
-        },
-        {
-          "date": "2026-11-17",
-          "close": 30512.15
-        }
-      ],
-      "researchRank": 1
-    },
     {
       "index": "NIFTY MEDIA",
       "sector": "Media",
       "yahooTicker": "^CNXMEDIA",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 5.66,
-      "relative1mPp": -2.01,
+      "relative3mPp": 7.52,
+      "relative1mPp": -1.77,
       "rotationState": "Mixed / no clear trend",
-      "latestDate": "2026-11-17",
-      "latestClose": 1774.65,
+      "latestDate": "2026-11-18",
+      "latestClose": 1782.8,
       "daysObserved": 81,
-      "r7d": 3.95,
-      "r1m": 7.67,
-      "rPrev1m": 6.08,
-      "r3m": 10.76,
-      "momentumAccelerationPp": 1.59,
+      "r7d": 3.71,
+      "r1m": 8.45,
+      "rPrev1m": 5.8,
+      "r3m": 12.29,
+      "momentumAccelerationPp": 2.65,
       "path": [
         {
           "date": "2026-08-10",
@@ -876,6 +587,307 @@
         {
           "date": "2026-11-17",
           "close": 1774.65
+        },
+        {
+          "date": "2026-11-18",
+          "close": 1782.8
+        }
+      ],
+      "researchRank": 1
+    },
+    {
+      "index": "NIFTY PRIVATE BANK",
+      "sector": "Private Banks",
+      "yahooTicker": "^NIFTYPVTBANK",
+      "priceSource": "NSE India official daily index snapshot",
+      "sourceUrl": "https://www.nseindia.com/all-reports",
+      "relative3mPp": 6.68,
+      "relative1mPp": 1.31,
+      "rotationState": "Leading & accelerating",
+      "latestDate": "2026-11-18",
+      "latestClose": 30323.95,
+      "daysObserved": 81,
+      "r7d": 1.26,
+      "r1m": 11.53,
+      "rPrev1m": -0.37,
+      "r3m": 11.45,
+      "momentumAccelerationPp": 11.9,
+      "path": [
+        {
+          "date": "2026-08-10",
+          "close": 27534.3
+        },
+        {
+          "date": "2026-08-11",
+          "close": 27380.35
+        },
+        {
+          "date": "2026-08-12",
+          "close": 27408.4
+        },
+        {
+          "date": "2026-08-13",
+          "close": 27260.55
+        },
+        {
+          "date": "2026-08-14",
+          "close": 27247.25
+        },
+        {
+          "date": "2026-08-17",
+          "close": 27311.05
+        },
+        {
+          "date": "2026-08-18",
+          "close": 27247.9
+        },
+        {
+          "date": "2026-08-19",
+          "close": 27207.7
+        },
+        {
+          "date": "2026-08-20",
+          "close": 27449.3
+        },
+        {
+          "date": "2026-08-21",
+          "close": 27590.65
+        },
+        {
+          "date": "2026-08-24",
+          "close": 27501.8
+        },
+        {
+          "date": "2026-08-25",
+          "close": 27447.45
+        },
+        {
+          "date": "2026-08-26",
+          "close": 27732.85
+        },
+        {
+          "date": "2026-08-27",
+          "close": 27758.55
+        },
+        {
+          "date": "2026-08-28",
+          "close": 27737.2
+        },
+        {
+          "date": "2026-08-31",
+          "close": 28005.75
+        },
+        {
+          "date": "2026-09-01",
+          "close": 27762.1
+        },
+        {
+          "date": "2026-09-02",
+          "close": 27606.8
+        },
+        {
+          "date": "2026-09-03",
+          "close": 27747.85
+        },
+        {
+          "date": "2026-09-04",
+          "close": 27824.5
+        },
+        {
+          "date": "2026-09-07",
+          "close": 27745.75
+        },
+        {
+          "date": "2026-09-08",
+          "close": 27474.7
+        },
+        {
+          "date": "2026-09-09",
+          "close": 27214.3
+        },
+        {
+          "date": "2026-09-10",
+          "close": 27305.9
+        },
+        {
+          "date": "2026-09-11",
+          "close": 27436.0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 27069.8
+        },
+        {
+          "date": "2026-09-16",
+          "close": 27284.25
+        },
+        {
+          "date": "2026-09-17",
+          "close": 27169.2
+        },
+        {
+          "date": "2026-09-18",
+          "close": 27290.0
+        },
+        {
+          "date": "2026-09-21",
+          "close": 27370.1
+        },
+        {
+          "date": "2026-09-22",
+          "close": 27286.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 27363.35
+        },
+        {
+          "date": "2026-09-24",
+          "close": 26763.95
+        },
+        {
+          "date": "2026-09-25",
+          "close": 26883.2
+        },
+        {
+          "date": "2026-09-28",
+          "close": 26476.4
+        },
+        {
+          "date": "2026-09-29",
+          "close": 26443.15
+        },
+        {
+          "date": "2026-09-30",
+          "close": 26695.6
+        },
+        {
+          "date": "2026-10-01",
+          "close": 26697.25
+        },
+        {
+          "date": "2026-10-05",
+          "close": 26718.15
+        },
+        {
+          "date": "2026-10-06",
+          "close": 27093.75
+        },
+        {
+          "date": "2026-10-07",
+          "close": 27115.9
+        },
+        {
+          "date": "2026-10-08",
+          "close": 26869.1
+        },
+        {
+          "date": "2026-10-09",
+          "close": 27222.55
+        },
+        {
+          "date": "2026-10-12",
+          "close": 27122.9
+        },
+        {
+          "date": "2026-10-13",
+          "close": 27324.35
+        },
+        {
+          "date": "2026-10-14",
+          "close": 27166.8
+        },
+        {
+          "date": "2026-10-15",
+          "close": 27679.3
+        },
+        {
+          "date": "2026-10-16",
+          "close": 27700.55
+        },
+        {
+          "date": "2026-10-19",
+          "close": 27189.1
+        },
+        {
+          "date": "2026-10-21",
+          "close": 26904.35
+        },
+        {
+          "date": "2026-10-22",
+          "close": 26866.05
+        },
+        {
+          "date": "2026-10-23",
+          "close": 26656.3
+        },
+        {
+          "date": "2026-10-26",
+          "close": 26825.3
+        },
+        {
+          "date": "2026-10-27",
+          "close": 26628.45
+        },
+        {
+          "date": "2026-10-28",
+          "close": 26722.1
+        },
+        {
+          "date": "2026-10-29",
+          "close": 27052.6
+        },
+        {
+          "date": "2026-10-30",
+          "close": 27053.5
+        },
+        {
+          "date": "2026-11-02",
+          "close": 27015.9
+        },
+        {
+          "date": "2026-11-03",
+          "close": 27551.1
+        },
+        {
+          "date": "2026-11-04",
+          "close": 27632.3
+        },
+        {
+          "date": "2026-11-05",
+          "close": 28582.8
+        },
+        {
+          "date": "2026-11-06",
+          "close": 29503.4
+        },
+        {
+          "date": "2026-11-09",
+          "close": 29608.15
+        },
+        {
+          "date": "2026-11-11",
+          "close": 29946.2
+        },
+        {
+          "date": "2026-11-12",
+          "close": 30206.05
+        },
+        {
+          "date": "2026-11-13",
+          "close": 29977.95
+        },
+        {
+          "date": "2026-11-16",
+          "close": 30242.85
+        },
+        {
+          "date": "2026-11-17",
+          "close": 30512.15
+        },
+        {
+          "date": "2026-11-18",
+          "close": 30323.95
         }
       ],
       "researchRank": 2
@@ -886,17 +898,17 @@
       "yahooTicker": "^CNXPSUBANK",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 4.97,
-      "relative1mPp": 7.51,
+      "relative3mPp": 5.97,
+      "relative1mPp": 4.84,
       "rotationState": "Leading & accelerating",
-      "latestDate": "2026-11-17",
-      "latestClose": 9486.6,
+      "latestDate": "2026-11-18",
+      "latestClose": 9542.8,
       "daysObserved": 81,
-      "r7d": 6.53,
-      "r1m": 17.19,
-      "rPrev1m": -2.68,
-      "r3m": 10.07,
-      "momentumAccelerationPp": 19.87,
+      "r7d": 4.1,
+      "r1m": 15.06,
+      "rPrev1m": -0.28,
+      "r3m": 10.74,
+      "momentumAccelerationPp": 15.34,
       "path": [
         {
           "date": "2026-08-10",
@@ -1169,6 +1181,10 @@
         {
           "date": "2026-11-17",
           "close": 9486.6
+        },
+        {
+          "date": "2026-11-18",
+          "close": 9542.8
         }
       ],
       "researchRank": 3
@@ -1179,17 +1195,17 @@
       "yahooTicker": "^NSEBANK",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 3.65,
-      "relative1mPp": 1.83,
+      "relative3mPp": 3.61,
+      "relative1mPp": 1.59,
       "rotationState": "Leading & accelerating",
-      "latestDate": "2026-11-17",
-      "latestClose": 62273.25,
+      "latestDate": "2026-11-18",
+      "latestClose": 62038.65,
       "daysObserved": 81,
-      "r7d": 4.24,
-      "r1m": 11.51,
-      "rPrev1m": -0.91,
-      "r3m": 8.75,
-      "momentumAccelerationPp": 12.42,
+      "r7d": 2.05,
+      "r1m": 11.81,
+      "rPrev1m": -1.54,
+      "r3m": 8.38,
+      "momentumAccelerationPp": 13.35,
       "path": [
         {
           "date": "2026-08-10",
@@ -1462,6 +1478,10 @@
         {
           "date": "2026-11-17",
           "close": 62273.25
+        },
+        {
+          "date": "2026-11-18",
+          "close": 62038.65
         }
       ],
       "researchRank": 4
@@ -1472,17 +1492,17 @@
       "yahooTicker": "^CNXFINANCE",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 2.89,
-      "relative1mPp": 1.38,
+      "relative3mPp": 2.84,
+      "relative1mPp": 1.81,
       "rotationState": "Leading & accelerating",
-      "latestDate": "2026-11-17",
-      "latestClose": 28195.0,
+      "latestDate": "2026-11-18",
+      "latestClose": 27992.25,
       "daysObserved": 81,
-      "r7d": 2.96,
-      "r1m": 11.06,
-      "rPrev1m": -0.48,
-      "r3m": 7.99,
-      "momentumAccelerationPp": 11.54,
+      "r7d": 1.19,
+      "r1m": 12.03,
+      "rPrev1m": -2.05,
+      "r3m": 7.61,
+      "momentumAccelerationPp": 14.08,
       "path": [
         {
           "date": "2026-08-10",
@@ -1755,6 +1775,10 @@
         {
           "date": "2026-11-17",
           "close": 28195.0
+        },
+        {
+          "date": "2026-11-18",
+          "close": 27992.25
         }
       ],
       "researchRank": 5
@@ -1765,17 +1789,17 @@
       "yahooTicker": "^CNXPHARMA",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": 1.71,
-      "relative1mPp": -0.47,
+      "relative3mPp": 2.4,
+      "relative1mPp": -0.13,
       "rotationState": "Mixed / no clear trend",
-      "latestDate": "2026-11-17",
-      "latestClose": 28157.1,
+      "latestDate": "2026-11-18",
+      "latestClose": 28200.5,
       "daysObserved": 81,
-      "r7d": -2.56,
-      "r1m": 9.21,
-      "rPrev1m": -3.48,
-      "r3m": 6.81,
-      "momentumAccelerationPp": 12.69,
+      "r7d": -2.0,
+      "r1m": 10.09,
+      "rPrev1m": -4.1,
+      "r3m": 7.17,
+      "momentumAccelerationPp": 14.19,
       "path": [
         {
           "date": "2026-08-10",
@@ -2048,302 +2072,13 @@
         {
           "date": "2026-11-17",
           "close": 28157.1
+        },
+        {
+          "date": "2026-11-18",
+          "close": 28200.5
         }
       ],
       "researchRank": 6
-    },
-    {
-      "index": "NIFTY IT",
-      "sector": "IT",
-      "yahooTicker": "^CNXIT",
-      "priceSource": "NSE India official daily index snapshot",
-      "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -0.33,
-      "relative1mPp": -10.53,
-      "rotationState": "Lagging benchmark",
-      "latestDate": "2026-11-17",
-      "latestClose": 31654.1,
-      "daysObserved": 81,
-      "r7d": -2.51,
-      "r1m": -0.85,
-      "rPrev1m": 10.64,
-      "r3m": 4.77,
-      "momentumAccelerationPp": -11.49,
-      "path": [
-        {
-          "date": "2026-08-10",
-          "close": 31631.45
-        },
-        {
-          "date": "2026-08-11",
-          "close": 31823.15
-        },
-        {
-          "date": "2026-08-12",
-          "close": 31332.55
-        },
-        {
-          "date": "2026-08-13",
-          "close": 31453.9
-        },
-        {
-          "date": "2026-08-14",
-          "close": 31357.75
-        },
-        {
-          "date": "2026-08-17",
-          "close": 30807.8
-        },
-        {
-          "date": "2026-08-18",
-          "close": 30213.45
-        },
-        {
-          "date": "2026-08-19",
-          "close": 30433.05
-        },
-        {
-          "date": "2026-08-20",
-          "close": 30673.05
-        },
-        {
-          "date": "2026-08-21",
-          "close": 30532.25
-        },
-        {
-          "date": "2026-08-24",
-          "close": 30596.9
-        },
-        {
-          "date": "2026-08-25",
-          "close": 30771.8
-        },
-        {
-          "date": "2026-08-26",
-          "close": 30318.85
-        },
-        {
-          "date": "2026-08-27",
-          "close": 30221.15
-        },
-        {
-          "date": "2026-08-28",
-          "close": 31281.7
-        },
-        {
-          "date": "2026-08-31",
-          "close": 31191.45
-        },
-        {
-          "date": "2026-09-01",
-          "close": 31496.7
-        },
-        {
-          "date": "2026-09-02",
-          "close": 31102.9
-        },
-        {
-          "date": "2026-09-03",
-          "close": 30838.85
-        },
-        {
-          "date": "2026-09-04",
-          "close": 30695.1
-        },
-        {
-          "date": "2026-09-07",
-          "close": 29995.2
-        },
-        {
-          "date": "2026-09-08",
-          "close": 29883.45
-        },
-        {
-          "date": "2026-09-09",
-          "close": 28913.95
-        },
-        {
-          "date": "2026-09-10",
-          "close": 28890.9
-        },
-        {
-          "date": "2026-09-11",
-          "close": 28921.5
-        },
-        {
-          "date": "2026-09-15",
-          "close": 29555.3
-        },
-        {
-          "date": "2026-09-16",
-          "close": 29087.65
-        },
-        {
-          "date": "2026-09-17",
-          "close": 29155.6
-        },
-        {
-          "date": "2026-09-18",
-          "close": 28854.55
-        },
-        {
-          "date": "2026-09-21",
-          "close": 28830.9
-        },
-        {
-          "date": "2026-09-22",
-          "close": 28582.1
-        },
-        {
-          "date": "2026-09-23",
-          "close": 28334.05
-        },
-        {
-          "date": "2026-09-24",
-          "close": 28208.85
-        },
-        {
-          "date": "2026-09-25",
-          "close": 28160.9
-        },
-        {
-          "date": "2026-09-28",
-          "close": 28086.5
-        },
-        {
-          "date": "2026-09-29",
-          "close": 27670.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 27704.8
-        },
-        {
-          "date": "2026-10-01",
-          "close": 28304.7
-        },
-        {
-          "date": "2026-10-05",
-          "close": 28301.65
-        },
-        {
-          "date": "2026-10-06",
-          "close": 28136.05
-        },
-        {
-          "date": "2026-10-07",
-          "close": 27757.8
-        },
-        {
-          "date": "2026-10-08",
-          "close": 27736.6
-        },
-        {
-          "date": "2026-10-09",
-          "close": 28574.9
-        },
-        {
-          "date": "2026-10-12",
-          "close": 28349.6
-        },
-        {
-          "date": "2026-10-13",
-          "close": 29830.1
-        },
-        {
-          "date": "2026-10-14",
-          "close": 30171.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 30719.8
-        },
-        {
-          "date": "2026-10-16",
-          "close": 31924.1
-        },
-        {
-          "date": "2026-10-19",
-          "close": 31516.3
-        },
-        {
-          "date": "2026-10-21",
-          "close": 32422.5
-        },
-        {
-          "date": "2026-10-22",
-          "close": 32081.25
-        },
-        {
-          "date": "2026-10-23",
-          "close": 31995.5
-        },
-        {
-          "date": "2026-10-26",
-          "close": 32273.05
-        },
-        {
-          "date": "2026-10-27",
-          "close": 32189.45
-        },
-        {
-          "date": "2026-10-28",
-          "close": 31553.4
-        },
-        {
-          "date": "2026-10-29",
-          "close": 31866.4
-        },
-        {
-          "date": "2026-10-30",
-          "close": 32606.9
-        },
-        {
-          "date": "2026-11-02",
-          "close": 32442.5
-        },
-        {
-          "date": "2026-11-03",
-          "close": 32551.6
-        },
-        {
-          "date": "2026-11-04",
-          "close": 32061.9
-        },
-        {
-          "date": "2026-11-05",
-          "close": 32837.85
-        },
-        {
-          "date": "2026-11-06",
-          "close": 32977.9
-        },
-        {
-          "date": "2026-11-09",
-          "close": 32468.9
-        },
-        {
-          "date": "2026-11-11",
-          "close": 32295.6
-        },
-        {
-          "date": "2026-11-12",
-          "close": 32163.55
-        },
-        {
-          "date": "2026-11-13",
-          "close": 31931.15
-        },
-        {
-          "date": "2026-11-16",
-          "close": 31941.05
-        },
-        {
-          "date": "2026-11-17",
-          "close": 31654.1
-        }
-      ],
-      "researchRank": 7
     },
     {
       "index": "NIFTY HEALTHCARE INDEX",
@@ -2351,17 +2086,17 @@
       "yahooTicker": "^NIFTYHEALTH",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -0.43,
-      "relative1mPp": 0.2,
-      "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 17233.2,
+      "relative3mPp": 0.3,
+      "relative1mPp": 0.63,
+      "rotationState": "Leading & accelerating",
+      "latestDate": "2026-11-18",
+      "latestClose": 17245.0,
       "daysObserved": 81,
-      "r7d": -1.02,
-      "r1m": 9.88,
-      "rPrev1m": -5.6,
-      "r3m": 4.67,
-      "momentumAccelerationPp": 15.48,
+      "r7d": -0.64,
+      "r1m": 10.85,
+      "rPrev1m": -6.36,
+      "r3m": 5.07,
+      "momentumAccelerationPp": 17.21,
       "path": [
         {
           "date": "2026-08-10",
@@ -2634,302 +2369,13 @@
         {
           "date": "2026-11-17",
           "close": 17233.2
+        },
+        {
+          "date": "2026-11-18",
+          "close": 17245.0
         }
       ],
-      "researchRank": 8
-    },
-    {
-      "index": "NIFTY REALTY",
-      "sector": "Realty",
-      "yahooTicker": "^CNXREALTY",
-      "priceSource": "NSE India official daily index snapshot",
-      "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -1.67,
-      "relative1mPp": 2.49,
-      "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 926.5,
-      "daysObserved": 81,
-      "r7d": 3.21,
-      "r1m": 12.17,
-      "rPrev1m": -2.16,
-      "r3m": 3.43,
-      "momentumAccelerationPp": 14.33,
-      "path": [
-        {
-          "date": "2026-08-10",
-          "close": 897.95
-        },
-        {
-          "date": "2026-08-11",
-          "close": 889.1
-        },
-        {
-          "date": "2026-08-12",
-          "close": 889.8
-        },
-        {
-          "date": "2026-08-13",
-          "close": 898.4
-        },
-        {
-          "date": "2026-08-14",
-          "close": 895.65
-        },
-        {
-          "date": "2026-08-17",
-          "close": 908.7
-        },
-        {
-          "date": "2026-08-18",
-          "close": 895.8
-        },
-        {
-          "date": "2026-08-19",
-          "close": 895.35
-        },
-        {
-          "date": "2026-08-20",
-          "close": 907.95
-        },
-        {
-          "date": "2026-08-21",
-          "close": 911.6
-        },
-        {
-          "date": "2026-08-24",
-          "close": 917.1
-        },
-        {
-          "date": "2026-08-25",
-          "close": 917.8
-        },
-        {
-          "date": "2026-08-26",
-          "close": 910.15
-        },
-        {
-          "date": "2026-08-27",
-          "close": 909.6
-        },
-        {
-          "date": "2026-08-28",
-          "close": 908.85
-        },
-        {
-          "date": "2026-08-31",
-          "close": 904.15
-        },
-        {
-          "date": "2026-09-01",
-          "close": 891.3
-        },
-        {
-          "date": "2026-09-02",
-          "close": 893.15
-        },
-        {
-          "date": "2026-09-03",
-          "close": 916.15
-        },
-        {
-          "date": "2026-09-04",
-          "close": 907.9
-        },
-        {
-          "date": "2026-09-07",
-          "close": 892.5
-        },
-        {
-          "date": "2026-09-08",
-          "close": 892.05
-        },
-        {
-          "date": "2026-09-09",
-          "close": 872.2
-        },
-        {
-          "date": "2026-09-10",
-          "close": 872.05
-        },
-        {
-          "date": "2026-09-11",
-          "close": 848.5
-        },
-        {
-          "date": "2026-09-15",
-          "close": 814.25
-        },
-        {
-          "date": "2026-09-16",
-          "close": 822.3
-        },
-        {
-          "date": "2026-09-17",
-          "close": 834.25
-        },
-        {
-          "date": "2026-09-18",
-          "close": 844.2
-        },
-        {
-          "date": "2026-09-21",
-          "close": 853.85
-        },
-        {
-          "date": "2026-09-22",
-          "close": 861.5
-        },
-        {
-          "date": "2026-09-23",
-          "close": 871.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 861.4
-        },
-        {
-          "date": "2026-09-25",
-          "close": 869.35
-        },
-        {
-          "date": "2026-09-28",
-          "close": 850.9
-        },
-        {
-          "date": "2026-09-29",
-          "close": 833.85
-        },
-        {
-          "date": "2026-09-30",
-          "close": 847.35
-        },
-        {
-          "date": "2026-10-01",
-          "close": 835.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 839.7
-        },
-        {
-          "date": "2026-10-06",
-          "close": 837.45
-        },
-        {
-          "date": "2026-10-07",
-          "close": 822.6
-        },
-        {
-          "date": "2026-10-08",
-          "close": 796.6
-        },
-        {
-          "date": "2026-10-09",
-          "close": 803.95
-        },
-        {
-          "date": "2026-10-12",
-          "close": 810.05
-        },
-        {
-          "date": "2026-10-13",
-          "close": 829.95
-        },
-        {
-          "date": "2026-10-14",
-          "close": 822.8
-        },
-        {
-          "date": "2026-10-15",
-          "close": 828.7
-        },
-        {
-          "date": "2026-10-16",
-          "close": 825.95
-        },
-        {
-          "date": "2026-10-19",
-          "close": 816.05
-        },
-        {
-          "date": "2026-10-21",
-          "close": 805.85
-        },
-        {
-          "date": "2026-10-22",
-          "close": 803.45
-        },
-        {
-          "date": "2026-10-23",
-          "close": 784.35
-        },
-        {
-          "date": "2026-10-26",
-          "close": 789.7
-        },
-        {
-          "date": "2026-10-27",
-          "close": 805.05
-        },
-        {
-          "date": "2026-10-28",
-          "close": 797.85
-        },
-        {
-          "date": "2026-10-29",
-          "close": 819.8
-        },
-        {
-          "date": "2026-10-30",
-          "close": 813.9
-        },
-        {
-          "date": "2026-11-02",
-          "close": 822.25
-        },
-        {
-          "date": "2026-11-03",
-          "close": 841.4
-        },
-        {
-          "date": "2026-11-04",
-          "close": 865.4
-        },
-        {
-          "date": "2026-11-05",
-          "close": 895.9
-        },
-        {
-          "date": "2026-11-06",
-          "close": 896.7
-        },
-        {
-          "date": "2026-11-09",
-          "close": 897.7
-        },
-        {
-          "date": "2026-11-11",
-          "close": 893.95
-        },
-        {
-          "date": "2026-11-12",
-          "close": 934.25
-        },
-        {
-          "date": "2026-11-13",
-          "close": 921.25
-        },
-        {
-          "date": "2026-11-16",
-          "close": 908.9
-        },
-        {
-          "date": "2026-11-17",
-          "close": 926.5
-        }
-      ],
-      "researchRank": 9
+      "researchRank": 7
     },
     {
       "index": "NIFTY MIDSMALL HEALTHCARE",
@@ -2937,17 +2383,17 @@
       "yahooTicker": null,
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -2.38,
-      "relative1mPp": -0.84,
+      "relative3mPp": -1.17,
+      "relative1mPp": -0.46,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 53652.0,
+      "latestDate": "2026-11-18",
+      "latestClose": 53635.3,
       "daysObserved": 81,
-      "r7d": -1.69,
-      "r1m": 8.84,
-      "rPrev1m": -6.32,
-      "r3m": 2.72,
-      "momentumAccelerationPp": 15.16,
+      "r7d": -1.55,
+      "r1m": 9.76,
+      "rPrev1m": -7.14,
+      "r3m": 3.6,
+      "momentumAccelerationPp": 16.9,
       "path": [
         {
           "date": "2026-08-10",
@@ -3220,6 +2666,604 @@
         {
           "date": "2026-11-17",
           "close": 53652.0
+        },
+        {
+          "date": "2026-11-18",
+          "close": 53635.3
+        }
+      ],
+      "researchRank": 8
+    },
+    {
+      "index": "NIFTY IT",
+      "sector": "IT",
+      "yahooTicker": "^CNXIT",
+      "priceSource": "NSE India official daily index snapshot",
+      "sourceUrl": "https://www.nseindia.com/all-reports",
+      "relative3mPp": -2.05,
+      "relative1mPp": -11.03,
+      "rotationState": "Lagging benchmark",
+      "latestDate": "2026-11-18",
+      "latestClose": 31262.3,
+      "daysObserved": 81,
+      "r7d": -3.2,
+      "r1m": -0.81,
+      "rPrev1m": 9.22,
+      "r3m": 2.72,
+      "momentumAccelerationPp": -10.03,
+      "path": [
+        {
+          "date": "2026-08-10",
+          "close": 31631.45
+        },
+        {
+          "date": "2026-08-11",
+          "close": 31823.15
+        },
+        {
+          "date": "2026-08-12",
+          "close": 31332.55
+        },
+        {
+          "date": "2026-08-13",
+          "close": 31453.9
+        },
+        {
+          "date": "2026-08-14",
+          "close": 31357.75
+        },
+        {
+          "date": "2026-08-17",
+          "close": 30807.8
+        },
+        {
+          "date": "2026-08-18",
+          "close": 30213.45
+        },
+        {
+          "date": "2026-08-19",
+          "close": 30433.05
+        },
+        {
+          "date": "2026-08-20",
+          "close": 30673.05
+        },
+        {
+          "date": "2026-08-21",
+          "close": 30532.25
+        },
+        {
+          "date": "2026-08-24",
+          "close": 30596.9
+        },
+        {
+          "date": "2026-08-25",
+          "close": 30771.8
+        },
+        {
+          "date": "2026-08-26",
+          "close": 30318.85
+        },
+        {
+          "date": "2026-08-27",
+          "close": 30221.15
+        },
+        {
+          "date": "2026-08-28",
+          "close": 31281.7
+        },
+        {
+          "date": "2026-08-31",
+          "close": 31191.45
+        },
+        {
+          "date": "2026-09-01",
+          "close": 31496.7
+        },
+        {
+          "date": "2026-09-02",
+          "close": 31102.9
+        },
+        {
+          "date": "2026-09-03",
+          "close": 30838.85
+        },
+        {
+          "date": "2026-09-04",
+          "close": 30695.1
+        },
+        {
+          "date": "2026-09-07",
+          "close": 29995.2
+        },
+        {
+          "date": "2026-09-08",
+          "close": 29883.45
+        },
+        {
+          "date": "2026-09-09",
+          "close": 28913.95
+        },
+        {
+          "date": "2026-09-10",
+          "close": 28890.9
+        },
+        {
+          "date": "2026-09-11",
+          "close": 28921.5
+        },
+        {
+          "date": "2026-09-15",
+          "close": 29555.3
+        },
+        {
+          "date": "2026-09-16",
+          "close": 29087.65
+        },
+        {
+          "date": "2026-09-17",
+          "close": 29155.6
+        },
+        {
+          "date": "2026-09-18",
+          "close": 28854.55
+        },
+        {
+          "date": "2026-09-21",
+          "close": 28830.9
+        },
+        {
+          "date": "2026-09-22",
+          "close": 28582.1
+        },
+        {
+          "date": "2026-09-23",
+          "close": 28334.05
+        },
+        {
+          "date": "2026-09-24",
+          "close": 28208.85
+        },
+        {
+          "date": "2026-09-25",
+          "close": 28160.9
+        },
+        {
+          "date": "2026-09-28",
+          "close": 28086.5
+        },
+        {
+          "date": "2026-09-29",
+          "close": 27670.0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 27704.8
+        },
+        {
+          "date": "2026-10-01",
+          "close": 28304.7
+        },
+        {
+          "date": "2026-10-05",
+          "close": 28301.65
+        },
+        {
+          "date": "2026-10-06",
+          "close": 28136.05
+        },
+        {
+          "date": "2026-10-07",
+          "close": 27757.8
+        },
+        {
+          "date": "2026-10-08",
+          "close": 27736.6
+        },
+        {
+          "date": "2026-10-09",
+          "close": 28574.9
+        },
+        {
+          "date": "2026-10-12",
+          "close": 28349.6
+        },
+        {
+          "date": "2026-10-13",
+          "close": 29830.1
+        },
+        {
+          "date": "2026-10-14",
+          "close": 30171.0
+        },
+        {
+          "date": "2026-10-15",
+          "close": 30719.8
+        },
+        {
+          "date": "2026-10-16",
+          "close": 31924.1
+        },
+        {
+          "date": "2026-10-19",
+          "close": 31516.3
+        },
+        {
+          "date": "2026-10-21",
+          "close": 32422.5
+        },
+        {
+          "date": "2026-10-22",
+          "close": 32081.25
+        },
+        {
+          "date": "2026-10-23",
+          "close": 31995.5
+        },
+        {
+          "date": "2026-10-26",
+          "close": 32273.05
+        },
+        {
+          "date": "2026-10-27",
+          "close": 32189.45
+        },
+        {
+          "date": "2026-10-28",
+          "close": 31553.4
+        },
+        {
+          "date": "2026-10-29",
+          "close": 31866.4
+        },
+        {
+          "date": "2026-10-30",
+          "close": 32606.9
+        },
+        {
+          "date": "2026-11-02",
+          "close": 32442.5
+        },
+        {
+          "date": "2026-11-03",
+          "close": 32551.6
+        },
+        {
+          "date": "2026-11-04",
+          "close": 32061.9
+        },
+        {
+          "date": "2026-11-05",
+          "close": 32837.85
+        },
+        {
+          "date": "2026-11-06",
+          "close": 32977.9
+        },
+        {
+          "date": "2026-11-09",
+          "close": 32468.9
+        },
+        {
+          "date": "2026-11-11",
+          "close": 32295.6
+        },
+        {
+          "date": "2026-11-12",
+          "close": 32163.55
+        },
+        {
+          "date": "2026-11-13",
+          "close": 31931.15
+        },
+        {
+          "date": "2026-11-16",
+          "close": 31941.05
+        },
+        {
+          "date": "2026-11-17",
+          "close": 31654.1
+        },
+        {
+          "date": "2026-11-18",
+          "close": 31262.3
+        }
+      ],
+      "researchRank": 9
+    },
+    {
+      "index": "NIFTY REALTY",
+      "sector": "Realty",
+      "yahooTicker": "^CNXREALTY",
+      "priceSource": "NSE India official daily index snapshot",
+      "sourceUrl": "https://www.nseindia.com/all-reports",
+      "relative3mPp": -2.17,
+      "relative1mPp": 2.35,
+      "rotationState": "Lagging, early rebound",
+      "latestDate": "2026-11-18",
+      "latestClose": 918.65,
+      "daysObserved": 81,
+      "r7d": 2.76,
+      "r1m": 12.57,
+      "rPrev1m": -3.33,
+      "r3m": 2.6,
+      "momentumAccelerationPp": 15.9,
+      "path": [
+        {
+          "date": "2026-08-10",
+          "close": 897.95
+        },
+        {
+          "date": "2026-08-11",
+          "close": 889.1
+        },
+        {
+          "date": "2026-08-12",
+          "close": 889.8
+        },
+        {
+          "date": "2026-08-13",
+          "close": 898.4
+        },
+        {
+          "date": "2026-08-14",
+          "close": 895.65
+        },
+        {
+          "date": "2026-08-17",
+          "close": 908.7
+        },
+        {
+          "date": "2026-08-18",
+          "close": 895.8
+        },
+        {
+          "date": "2026-08-19",
+          "close": 895.35
+        },
+        {
+          "date": "2026-08-20",
+          "close": 907.95
+        },
+        {
+          "date": "2026-08-21",
+          "close": 911.6
+        },
+        {
+          "date": "2026-08-24",
+          "close": 917.1
+        },
+        {
+          "date": "2026-08-25",
+          "close": 917.8
+        },
+        {
+          "date": "2026-08-26",
+          "close": 910.15
+        },
+        {
+          "date": "2026-08-27",
+          "close": 909.6
+        },
+        {
+          "date": "2026-08-28",
+          "close": 908.85
+        },
+        {
+          "date": "2026-08-31",
+          "close": 904.15
+        },
+        {
+          "date": "2026-09-01",
+          "close": 891.3
+        },
+        {
+          "date": "2026-09-02",
+          "close": 893.15
+        },
+        {
+          "date": "2026-09-03",
+          "close": 916.15
+        },
+        {
+          "date": "2026-09-04",
+          "close": 907.9
+        },
+        {
+          "date": "2026-09-07",
+          "close": 892.5
+        },
+        {
+          "date": "2026-09-08",
+          "close": 892.05
+        },
+        {
+          "date": "2026-09-09",
+          "close": 872.2
+        },
+        {
+          "date": "2026-09-10",
+          "close": 872.05
+        },
+        {
+          "date": "2026-09-11",
+          "close": 848.5
+        },
+        {
+          "date": "2026-09-15",
+          "close": 814.25
+        },
+        {
+          "date": "2026-09-16",
+          "close": 822.3
+        },
+        {
+          "date": "2026-09-17",
+          "close": 834.25
+        },
+        {
+          "date": "2026-09-18",
+          "close": 844.2
+        },
+        {
+          "date": "2026-09-21",
+          "close": 853.85
+        },
+        {
+          "date": "2026-09-22",
+          "close": 861.5
+        },
+        {
+          "date": "2026-09-23",
+          "close": 871.0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 861.4
+        },
+        {
+          "date": "2026-09-25",
+          "close": 869.35
+        },
+        {
+          "date": "2026-09-28",
+          "close": 850.9
+        },
+        {
+          "date": "2026-09-29",
+          "close": 833.85
+        },
+        {
+          "date": "2026-09-30",
+          "close": 847.35
+        },
+        {
+          "date": "2026-10-01",
+          "close": 835.0
+        },
+        {
+          "date": "2026-10-05",
+          "close": 839.7
+        },
+        {
+          "date": "2026-10-06",
+          "close": 837.45
+        },
+        {
+          "date": "2026-10-07",
+          "close": 822.6
+        },
+        {
+          "date": "2026-10-08",
+          "close": 796.6
+        },
+        {
+          "date": "2026-10-09",
+          "close": 803.95
+        },
+        {
+          "date": "2026-10-12",
+          "close": 810.05
+        },
+        {
+          "date": "2026-10-13",
+          "close": 829.95
+        },
+        {
+          "date": "2026-10-14",
+          "close": 822.8
+        },
+        {
+          "date": "2026-10-15",
+          "close": 828.7
+        },
+        {
+          "date": "2026-10-16",
+          "close": 825.95
+        },
+        {
+          "date": "2026-10-19",
+          "close": 816.05
+        },
+        {
+          "date": "2026-10-21",
+          "close": 805.85
+        },
+        {
+          "date": "2026-10-22",
+          "close": 803.45
+        },
+        {
+          "date": "2026-10-23",
+          "close": 784.35
+        },
+        {
+          "date": "2026-10-26",
+          "close": 789.7
+        },
+        {
+          "date": "2026-10-27",
+          "close": 805.05
+        },
+        {
+          "date": "2026-10-28",
+          "close": 797.85
+        },
+        {
+          "date": "2026-10-29",
+          "close": 819.8
+        },
+        {
+          "date": "2026-10-30",
+          "close": 813.9
+        },
+        {
+          "date": "2026-11-02",
+          "close": 822.25
+        },
+        {
+          "date": "2026-11-03",
+          "close": 841.4
+        },
+        {
+          "date": "2026-11-04",
+          "close": 865.4
+        },
+        {
+          "date": "2026-11-05",
+          "close": 895.9
+        },
+        {
+          "date": "2026-11-06",
+          "close": 896.7
+        },
+        {
+          "date": "2026-11-09",
+          "close": 897.7
+        },
+        {
+          "date": "2026-11-11",
+          "close": 893.95
+        },
+        {
+          "date": "2026-11-12",
+          "close": 934.25
+        },
+        {
+          "date": "2026-11-13",
+          "close": 921.25
+        },
+        {
+          "date": "2026-11-16",
+          "close": 908.9
+        },
+        {
+          "date": "2026-11-17",
+          "close": 926.5
+        },
+        {
+          "date": "2026-11-18",
+          "close": 918.65
         }
       ],
       "researchRank": 10
@@ -3230,17 +3274,17 @@
       "yahooTicker": "^CNXINFRA",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -3.09,
-      "relative1mPp": -0.06,
+      "relative3mPp": -2.43,
+      "relative1mPp": -0.33,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 9565.1,
+      "latestDate": "2026-11-18",
+      "latestClose": 9523.4,
       "daysObserved": 81,
-      "r7d": 1.08,
-      "r1m": 9.62,
-      "rPrev1m": -3.81,
-      "r3m": 2.01,
-      "momentumAccelerationPp": 13.43,
+      "r7d": -0.28,
+      "r1m": 9.89,
+      "rPrev1m": -4.46,
+      "r3m": 2.34,
+      "momentumAccelerationPp": 14.35,
       "path": [
         {
           "date": "2026-08-10",
@@ -3513,6 +3557,10 @@
         {
           "date": "2026-11-17",
           "close": 9565.1
+        },
+        {
+          "date": "2026-11-18",
+          "close": 9523.4
         }
       ],
       "researchRank": 11
@@ -3523,17 +3571,17 @@
       "yahooTicker": "^NIFTY_OIL_AND_GAS",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -3.5,
-      "relative1mPp": -1.59,
+      "relative3mPp": -2.84,
+      "relative1mPp": -2.17,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 11410.6,
+      "latestDate": "2026-11-18",
+      "latestClose": 11392.95,
       "daysObserved": 81,
-      "r7d": 0.67,
-      "r1m": 8.09,
-      "rPrev1m": -3.58,
-      "r3m": 1.6,
-      "momentumAccelerationPp": 11.67,
+      "r7d": -0.51,
+      "r1m": 8.05,
+      "rPrev1m": -3.69,
+      "r3m": 1.93,
+      "momentumAccelerationPp": 11.74,
       "path": [
         {
           "date": "2026-08-10",
@@ -3806,6 +3854,10 @@
         {
           "date": "2026-11-17",
           "close": 11410.6
+        },
+        {
+          "date": "2026-11-18",
+          "close": 11392.95
         }
       ],
       "researchRank": 12
@@ -3816,17 +3868,17 @@
       "yahooTicker": null,
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -3.8,
-      "relative1mPp": -11.34,
+      "relative3mPp": -4.02,
+      "relative1mPp": -11.49,
       "rotationState": "Lagging benchmark",
-      "latestDate": "2026-11-17",
-      "latestClose": 10026.5,
+      "latestDate": "2026-11-18",
+      "latestClose": 9996.7,
       "daysObserved": 81,
-      "r7d": -0.79,
-      "r1m": -1.66,
-      "rPrev1m": 4.24,
-      "r3m": 1.3,
-      "momentumAccelerationPp": -5.9,
+      "r7d": -1.24,
+      "r1m": -1.27,
+      "rPrev1m": 3.51,
+      "r3m": 0.75,
+      "momentumAccelerationPp": -4.78,
       "path": [
         {
           "date": "2026-08-10",
@@ -4099,6 +4151,10 @@
         {
           "date": "2026-11-17",
           "close": 10026.5
+        },
+        {
+          "date": "2026-11-18",
+          "close": 9996.7
         }
       ],
       "researchRank": 13
@@ -4109,17 +4165,17 @@
       "yahooTicker": "^CNXFMCG",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -5.36,
-      "relative1mPp": -2.97,
+      "relative3mPp": -4.57,
+      "relative1mPp": -2.05,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 47611.6,
+      "latestDate": "2026-11-18",
+      "latestClose": 47569.1,
       "daysObserved": 81,
-      "r7d": 2.04,
-      "r1m": 6.71,
-      "rPrev1m": -1.87,
-      "r3m": -0.26,
-      "momentumAccelerationPp": 8.58,
+      "r7d": 0.81,
+      "r1m": 8.17,
+      "rPrev1m": -3.28,
+      "r3m": 0.2,
+      "momentumAccelerationPp": 11.45,
       "path": [
         {
           "date": "2026-08-10",
@@ -4392,6 +4448,10 @@
         {
           "date": "2026-11-17",
           "close": 47611.6
+        },
+        {
+          "date": "2026-11-18",
+          "close": 47569.1
         }
       ],
       "researchRank": 14
@@ -4402,17 +4462,17 @@
       "yahooTicker": "^CNXCOMMODITIES",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -7.19,
-      "relative1mPp": -4.08,
+      "relative3mPp": -7.21,
+      "relative1mPp": -4.95,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 9609.35,
+      "latestDate": "2026-11-18",
+      "latestClose": 9516.7,
       "daysObserved": 81,
-      "r7d": -0.91,
-      "r1m": 5.6,
-      "rPrev1m": -4.88,
-      "r3m": -2.09,
-      "momentumAccelerationPp": 10.48,
+      "r7d": -2.34,
+      "r1m": 5.27,
+      "rPrev1m": -5.51,
+      "r3m": -2.44,
+      "momentumAccelerationPp": 10.78,
       "path": [
         {
           "date": "2026-08-10",
@@ -4685,6 +4745,10 @@
         {
           "date": "2026-11-17",
           "close": 9609.35
+        },
+        {
+          "date": "2026-11-18",
+          "close": 9516.7
         }
       ],
       "researchRank": 15
@@ -4695,17 +4759,17 @@
       "yahooTicker": "^CNXENERGY",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -8.73,
-      "relative1mPp": -6.96,
+      "relative3mPp": -7.77,
+      "relative1mPp": -7.43,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 37176.7,
+      "latestDate": "2026-11-18",
+      "latestClose": 36979.55,
       "daysObserved": 81,
-      "r7d": 0.03,
-      "r1m": 2.72,
-      "rPrev1m": -4.19,
-      "r3m": -3.63,
-      "momentumAccelerationPp": 6.91,
+      "r7d": -1.51,
+      "r1m": 2.79,
+      "rPrev1m": -4.76,
+      "r3m": -3.0,
+      "momentumAccelerationPp": 7.55,
       "path": [
         {
           "date": "2026-08-10",
@@ -4978,595 +5042,13 @@
         {
           "date": "2026-11-17",
           "close": 37176.7
+        },
+        {
+          "date": "2026-11-18",
+          "close": 36979.55
         }
       ],
       "researchRank": 16
-    },
-    {
-      "index": "NIFTY METAL",
-      "sector": "Metals",
-      "yahooTicker": "^CNXMETAL",
-      "priceSource": "NSE India official daily index snapshot",
-      "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -8.9,
-      "relative1mPp": -6.41,
-      "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 12530.3,
-      "daysObserved": 81,
-      "r7d": -1.06,
-      "r1m": 3.27,
-      "rPrev1m": -7.04,
-      "r3m": -3.8,
-      "momentumAccelerationPp": 10.31,
-      "path": [
-        {
-          "date": "2026-08-10",
-          "close": 13226.7
-        },
-        {
-          "date": "2026-08-11",
-          "close": 13100.8
-        },
-        {
-          "date": "2026-08-12",
-          "close": 13171.45
-        },
-        {
-          "date": "2026-08-13",
-          "close": 13033.75
-        },
-        {
-          "date": "2026-08-14",
-          "close": 12941.7
-        },
-        {
-          "date": "2026-08-17",
-          "close": 13104.6
-        },
-        {
-          "date": "2026-08-18",
-          "close": 13025.3
-        },
-        {
-          "date": "2026-08-19",
-          "close": 13023.25
-        },
-        {
-          "date": "2026-08-20",
-          "close": 13060.25
-        },
-        {
-          "date": "2026-08-21",
-          "close": 13172.6
-        },
-        {
-          "date": "2026-08-24",
-          "close": 13381.45
-        },
-        {
-          "date": "2026-08-25",
-          "close": 13372.3
-        },
-        {
-          "date": "2026-08-26",
-          "close": 13541.7
-        },
-        {
-          "date": "2026-08-27",
-          "close": 13425.2
-        },
-        {
-          "date": "2026-08-28",
-          "close": 13525.35
-        },
-        {
-          "date": "2026-08-31",
-          "close": 13193.9
-        },
-        {
-          "date": "2026-09-01",
-          "close": 13189.85
-        },
-        {
-          "date": "2026-09-02",
-          "close": 13157.35
-        },
-        {
-          "date": "2026-09-03",
-          "close": 13176.05
-        },
-        {
-          "date": "2026-09-04",
-          "close": 13317.45
-        },
-        {
-          "date": "2026-09-07",
-          "close": 13152.9
-        },
-        {
-          "date": "2026-09-08",
-          "close": 13155.95
-        },
-        {
-          "date": "2026-09-09",
-          "close": 13391.4
-        },
-        {
-          "date": "2026-09-10",
-          "close": 13304.95
-        },
-        {
-          "date": "2026-09-11",
-          "close": 12999.05
-        },
-        {
-          "date": "2026-09-15",
-          "close": 12669.15
-        },
-        {
-          "date": "2026-09-16",
-          "close": 12739.1
-        },
-        {
-          "date": "2026-09-17",
-          "close": 12858.45
-        },
-        {
-          "date": "2026-09-18",
-          "close": 13052.6
-        },
-        {
-          "date": "2026-09-21",
-          "close": 12972.7
-        },
-        {
-          "date": "2026-09-22",
-          "close": 12990.35
-        },
-        {
-          "date": "2026-09-23",
-          "close": 13302.35
-        },
-        {
-          "date": "2026-09-24",
-          "close": 13041.95
-        },
-        {
-          "date": "2026-09-25",
-          "close": 13087.15
-        },
-        {
-          "date": "2026-09-28",
-          "close": 12854.4
-        },
-        {
-          "date": "2026-09-29",
-          "close": 12954.45
-        },
-        {
-          "date": "2026-09-30",
-          "close": 12760.5
-        },
-        {
-          "date": "2026-10-01",
-          "close": 12460.7
-        },
-        {
-          "date": "2026-10-05",
-          "close": 12498.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 12599.75
-        },
-        {
-          "date": "2026-10-07",
-          "close": 12306.7
-        },
-        {
-          "date": "2026-10-08",
-          "close": 11870.05
-        },
-        {
-          "date": "2026-10-09",
-          "close": 12000.75
-        },
-        {
-          "date": "2026-10-12",
-          "close": 11951.15
-        },
-        {
-          "date": "2026-10-13",
-          "close": 12088.25
-        },
-        {
-          "date": "2026-10-14",
-          "close": 12006.75
-        },
-        {
-          "date": "2026-10-15",
-          "close": 12018.5
-        },
-        {
-          "date": "2026-10-16",
-          "close": 12133.2
-        },
-        {
-          "date": "2026-10-19",
-          "close": 12066.4
-        },
-        {
-          "date": "2026-10-21",
-          "close": 11859.55
-        },
-        {
-          "date": "2026-10-22",
-          "close": 11798.35
-        },
-        {
-          "date": "2026-10-23",
-          "close": 11478.2
-        },
-        {
-          "date": "2026-10-26",
-          "close": 11731.55
-        },
-        {
-          "date": "2026-10-27",
-          "close": 11806.7
-        },
-        {
-          "date": "2026-10-28",
-          "close": 11769.35
-        },
-        {
-          "date": "2026-10-29",
-          "close": 11848.45
-        },
-        {
-          "date": "2026-10-30",
-          "close": 11784.9
-        },
-        {
-          "date": "2026-11-02",
-          "close": 12162.7
-        },
-        {
-          "date": "2026-11-03",
-          "close": 12146.15
-        },
-        {
-          "date": "2026-11-04",
-          "close": 12485.9
-        },
-        {
-          "date": "2026-11-05",
-          "close": 12595.1
-        },
-        {
-          "date": "2026-11-06",
-          "close": 12678.15
-        },
-        {
-          "date": "2026-11-09",
-          "close": 12664.65
-        },
-        {
-          "date": "2026-11-11",
-          "close": 12786.15
-        },
-        {
-          "date": "2026-11-12",
-          "close": 12772.6
-        },
-        {
-          "date": "2026-11-13",
-          "close": 12647.9
-        },
-        {
-          "date": "2026-11-16",
-          "close": 12458.35
-        },
-        {
-          "date": "2026-11-17",
-          "close": 12530.3
-        }
-      ],
-      "researchRank": 17
-    },
-    {
-      "index": "NIFTY CONSUMER DURABLES",
-      "sector": "Consumer Durables",
-      "yahooTicker": "^NIFTYCONSRDURBL",
-      "priceSource": "NSE India official daily index snapshot",
-      "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -9.5,
-      "relative1mPp": -3.48,
-      "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 38493.9,
-      "daysObserved": 81,
-      "r7d": 0.62,
-      "r1m": 6.2,
-      "rPrev1m": -4.23,
-      "r3m": -4.4,
-      "momentumAccelerationPp": 10.43,
-      "path": [
-        {
-          "date": "2026-08-10",
-          "close": 40240.95
-        },
-        {
-          "date": "2026-08-11",
-          "close": 40302.5
-        },
-        {
-          "date": "2026-08-12",
-          "close": 40122.95
-        },
-        {
-          "date": "2026-08-13",
-          "close": 40304.8
-        },
-        {
-          "date": "2026-08-14",
-          "close": 40612.6
-        },
-        {
-          "date": "2026-08-17",
-          "close": 40426.85
-        },
-        {
-          "date": "2026-08-18",
-          "close": 40264.7
-        },
-        {
-          "date": "2026-08-19",
-          "close": 40276.55
-        },
-        {
-          "date": "2026-08-20",
-          "close": 40504.55
-        },
-        {
-          "date": "2026-08-21",
-          "close": 40580.85
-        },
-        {
-          "date": "2026-08-24",
-          "close": 40452.55
-        },
-        {
-          "date": "2026-08-25",
-          "close": 40829.4
-        },
-        {
-          "date": "2026-08-26",
-          "close": 40448.4
-        },
-        {
-          "date": "2026-08-27",
-          "close": 40737.85
-        },
-        {
-          "date": "2026-08-28",
-          "close": 40543.45
-        },
-        {
-          "date": "2026-08-31",
-          "close": 40430.95
-        },
-        {
-          "date": "2026-09-01",
-          "close": 39864.9
-        },
-        {
-          "date": "2026-09-02",
-          "close": 39741.65
-        },
-        {
-          "date": "2026-09-03",
-          "close": 39652.7
-        },
-        {
-          "date": "2026-09-04",
-          "close": 39483.8
-        },
-        {
-          "date": "2026-09-07",
-          "close": 39318.8
-        },
-        {
-          "date": "2026-09-08",
-          "close": 39224.5
-        },
-        {
-          "date": "2026-09-09",
-          "close": 38995.2
-        },
-        {
-          "date": "2026-09-10",
-          "close": 39017.9
-        },
-        {
-          "date": "2026-09-11",
-          "close": 38900.8
-        },
-        {
-          "date": "2026-09-15",
-          "close": 37961.5
-        },
-        {
-          "date": "2026-09-16",
-          "close": 37985.95
-        },
-        {
-          "date": "2026-09-17",
-          "close": 38011.2
-        },
-        {
-          "date": "2026-09-18",
-          "close": 37848.25
-        },
-        {
-          "date": "2026-09-21",
-          "close": 38207.3
-        },
-        {
-          "date": "2026-09-22",
-          "close": 37962.2
-        },
-        {
-          "date": "2026-09-23",
-          "close": 38200.2
-        },
-        {
-          "date": "2026-09-24",
-          "close": 37916.8
-        },
-        {
-          "date": "2026-09-25",
-          "close": 38278.6
-        },
-        {
-          "date": "2026-09-28",
-          "close": 38162.9
-        },
-        {
-          "date": "2026-09-29",
-          "close": 37129.95
-        },
-        {
-          "date": "2026-09-30",
-          "close": 36627.8
-        },
-        {
-          "date": "2026-10-01",
-          "close": 35927.8
-        },
-        {
-          "date": "2026-10-05",
-          "close": 36477.35
-        },
-        {
-          "date": "2026-10-06",
-          "close": 36750.1
-        },
-        {
-          "date": "2026-10-07",
-          "close": 36331.8
-        },
-        {
-          "date": "2026-10-08",
-          "close": 35613.2
-        },
-        {
-          "date": "2026-10-09",
-          "close": 35969.55
-        },
-        {
-          "date": "2026-10-12",
-          "close": 35936.6
-        },
-        {
-          "date": "2026-10-13",
-          "close": 36496.45
-        },
-        {
-          "date": "2026-10-14",
-          "close": 36568.6
-        },
-        {
-          "date": "2026-10-15",
-          "close": 36469.3
-        },
-        {
-          "date": "2026-10-16",
-          "close": 36247.95
-        },
-        {
-          "date": "2026-10-19",
-          "close": 35840.55
-        },
-        {
-          "date": "2026-10-21",
-          "close": 35175.15
-        },
-        {
-          "date": "2026-10-22",
-          "close": 34837.65
-        },
-        {
-          "date": "2026-10-23",
-          "close": 33922.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 33851.1
-        },
-        {
-          "date": "2026-10-27",
-          "close": 34254.8
-        },
-        {
-          "date": "2026-10-28",
-          "close": 34738.6
-        },
-        {
-          "date": "2026-10-29",
-          "close": 35149.75
-        },
-        {
-          "date": "2026-10-30",
-          "close": 34525.15
-        },
-        {
-          "date": "2026-11-02",
-          "close": 35457.4
-        },
-        {
-          "date": "2026-11-03",
-          "close": 35793.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 36521.45
-        },
-        {
-          "date": "2026-11-05",
-          "close": 37369.55
-        },
-        {
-          "date": "2026-11-06",
-          "close": 38003.6
-        },
-        {
-          "date": "2026-11-09",
-          "close": 38255.7
-        },
-        {
-          "date": "2026-11-11",
-          "close": 38536.4
-        },
-        {
-          "date": "2026-11-12",
-          "close": 38670.05
-        },
-        {
-          "date": "2026-11-13",
-          "close": 38438.5
-        },
-        {
-          "date": "2026-11-16",
-          "close": 38586.15
-        },
-        {
-          "date": "2026-11-17",
-          "close": 38493.9
-        }
-      ],
-      "researchRank": 18
     },
     {
       "index": "NIFTY AUTO",
@@ -5574,17 +5056,17 @@
       "yahooTicker": "^CNXAUTO",
       "priceSource": "NSE India official daily index snapshot",
       "sourceUrl": "https://www.nseindia.com/all-reports",
-      "relative3mPp": -10.21,
-      "relative1mPp": -1.92,
+      "relative3mPp": -10.9,
+      "relative1mPp": -3.17,
       "rotationState": "Lagging, early rebound",
-      "latestDate": "2026-11-17",
-      "latestClose": 27769.15,
+      "latestDate": "2026-11-18",
+      "latestClose": 27394.95,
       "daysObserved": 81,
-      "r7d": -0.56,
-      "r1m": 7.76,
-      "rPrev1m": -5.01,
-      "r3m": -5.11,
-      "momentumAccelerationPp": 12.77,
+      "r7d": -3.96,
+      "r1m": 7.05,
+      "rPrev1m": -5.67,
+      "r3m": -6.13,
+      "momentumAccelerationPp": 12.72,
       "path": [
         {
           "date": "2026-08-10",
@@ -5857,6 +5339,604 @@
         {
           "date": "2026-11-17",
           "close": 27769.15
+        },
+        {
+          "date": "2026-11-18",
+          "close": 27394.95
+        }
+      ],
+      "researchRank": 17
+    },
+    {
+      "index": "NIFTY METAL",
+      "sector": "Metals",
+      "yahooTicker": "^CNXMETAL",
+      "priceSource": "NSE India official daily index snapshot",
+      "sourceUrl": "https://www.nseindia.com/all-reports",
+      "relative3mPp": -10.92,
+      "relative1mPp": -8.93,
+      "rotationState": "Lagging, early rebound",
+      "latestDate": "2026-11-18",
+      "latestClose": 12222.3,
+      "daysObserved": 81,
+      "r7d": -4.41,
+      "r1m": 1.29,
+      "rPrev1m": -7.56,
+      "r3m": -6.15,
+      "momentumAccelerationPp": 8.85,
+      "path": [
+        {
+          "date": "2026-08-10",
+          "close": 13226.7
+        },
+        {
+          "date": "2026-08-11",
+          "close": 13100.8
+        },
+        {
+          "date": "2026-08-12",
+          "close": 13171.45
+        },
+        {
+          "date": "2026-08-13",
+          "close": 13033.75
+        },
+        {
+          "date": "2026-08-14",
+          "close": 12941.7
+        },
+        {
+          "date": "2026-08-17",
+          "close": 13104.6
+        },
+        {
+          "date": "2026-08-18",
+          "close": 13025.3
+        },
+        {
+          "date": "2026-08-19",
+          "close": 13023.25
+        },
+        {
+          "date": "2026-08-20",
+          "close": 13060.25
+        },
+        {
+          "date": "2026-08-21",
+          "close": 13172.6
+        },
+        {
+          "date": "2026-08-24",
+          "close": 13381.45
+        },
+        {
+          "date": "2026-08-25",
+          "close": 13372.3
+        },
+        {
+          "date": "2026-08-26",
+          "close": 13541.7
+        },
+        {
+          "date": "2026-08-27",
+          "close": 13425.2
+        },
+        {
+          "date": "2026-08-28",
+          "close": 13525.35
+        },
+        {
+          "date": "2026-08-31",
+          "close": 13193.9
+        },
+        {
+          "date": "2026-09-01",
+          "close": 13189.85
+        },
+        {
+          "date": "2026-09-02",
+          "close": 13157.35
+        },
+        {
+          "date": "2026-09-03",
+          "close": 13176.05
+        },
+        {
+          "date": "2026-09-04",
+          "close": 13317.45
+        },
+        {
+          "date": "2026-09-07",
+          "close": 13152.9
+        },
+        {
+          "date": "2026-09-08",
+          "close": 13155.95
+        },
+        {
+          "date": "2026-09-09",
+          "close": 13391.4
+        },
+        {
+          "date": "2026-09-10",
+          "close": 13304.95
+        },
+        {
+          "date": "2026-09-11",
+          "close": 12999.05
+        },
+        {
+          "date": "2026-09-15",
+          "close": 12669.15
+        },
+        {
+          "date": "2026-09-16",
+          "close": 12739.1
+        },
+        {
+          "date": "2026-09-17",
+          "close": 12858.45
+        },
+        {
+          "date": "2026-09-18",
+          "close": 13052.6
+        },
+        {
+          "date": "2026-09-21",
+          "close": 12972.7
+        },
+        {
+          "date": "2026-09-22",
+          "close": 12990.35
+        },
+        {
+          "date": "2026-09-23",
+          "close": 13302.35
+        },
+        {
+          "date": "2026-09-24",
+          "close": 13041.95
+        },
+        {
+          "date": "2026-09-25",
+          "close": 13087.15
+        },
+        {
+          "date": "2026-09-28",
+          "close": 12854.4
+        },
+        {
+          "date": "2026-09-29",
+          "close": 12954.45
+        },
+        {
+          "date": "2026-09-30",
+          "close": 12760.5
+        },
+        {
+          "date": "2026-10-01",
+          "close": 12460.7
+        },
+        {
+          "date": "2026-10-05",
+          "close": 12498.0
+        },
+        {
+          "date": "2026-10-06",
+          "close": 12599.75
+        },
+        {
+          "date": "2026-10-07",
+          "close": 12306.7
+        },
+        {
+          "date": "2026-10-08",
+          "close": 11870.05
+        },
+        {
+          "date": "2026-10-09",
+          "close": 12000.75
+        },
+        {
+          "date": "2026-10-12",
+          "close": 11951.15
+        },
+        {
+          "date": "2026-10-13",
+          "close": 12088.25
+        },
+        {
+          "date": "2026-10-14",
+          "close": 12006.75
+        },
+        {
+          "date": "2026-10-15",
+          "close": 12018.5
+        },
+        {
+          "date": "2026-10-16",
+          "close": 12133.2
+        },
+        {
+          "date": "2026-10-19",
+          "close": 12066.4
+        },
+        {
+          "date": "2026-10-21",
+          "close": 11859.55
+        },
+        {
+          "date": "2026-10-22",
+          "close": 11798.35
+        },
+        {
+          "date": "2026-10-23",
+          "close": 11478.2
+        },
+        {
+          "date": "2026-10-26",
+          "close": 11731.55
+        },
+        {
+          "date": "2026-10-27",
+          "close": 11806.7
+        },
+        {
+          "date": "2026-10-28",
+          "close": 11769.35
+        },
+        {
+          "date": "2026-10-29",
+          "close": 11848.45
+        },
+        {
+          "date": "2026-10-30",
+          "close": 11784.9
+        },
+        {
+          "date": "2026-11-02",
+          "close": 12162.7
+        },
+        {
+          "date": "2026-11-03",
+          "close": 12146.15
+        },
+        {
+          "date": "2026-11-04",
+          "close": 12485.9
+        },
+        {
+          "date": "2026-11-05",
+          "close": 12595.1
+        },
+        {
+          "date": "2026-11-06",
+          "close": 12678.15
+        },
+        {
+          "date": "2026-11-09",
+          "close": 12664.65
+        },
+        {
+          "date": "2026-11-11",
+          "close": 12786.15
+        },
+        {
+          "date": "2026-11-12",
+          "close": 12772.6
+        },
+        {
+          "date": "2026-11-13",
+          "close": 12647.9
+        },
+        {
+          "date": "2026-11-16",
+          "close": 12458.35
+        },
+        {
+          "date": "2026-11-17",
+          "close": 12530.3
+        },
+        {
+          "date": "2026-11-18",
+          "close": 12222.3
+        }
+      ],
+      "researchRank": 18
+    },
+    {
+      "index": "NIFTY CONSUMER DURABLES",
+      "sector": "Consumer Durables",
+      "yahooTicker": "^NIFTYCONSRDURBL",
+      "priceSource": "NSE India official daily index snapshot",
+      "sourceUrl": "https://www.nseindia.com/all-reports",
+      "relative3mPp": -12.19,
+      "relative1mPp": -6.18,
+      "rotationState": "Lagging, early rebound",
+      "latestDate": "2026-11-18",
+      "latestClose": 37288.8,
+      "daysObserved": 81,
+      "r7d": -3.24,
+      "r1m": 4.04,
+      "rPrev1m": -5.3,
+      "r3m": -7.42,
+      "momentumAccelerationPp": 9.34,
+      "path": [
+        {
+          "date": "2026-08-10",
+          "close": 40240.95
+        },
+        {
+          "date": "2026-08-11",
+          "close": 40302.5
+        },
+        {
+          "date": "2026-08-12",
+          "close": 40122.95
+        },
+        {
+          "date": "2026-08-13",
+          "close": 40304.8
+        },
+        {
+          "date": "2026-08-14",
+          "close": 40612.6
+        },
+        {
+          "date": "2026-08-17",
+          "close": 40426.85
+        },
+        {
+          "date": "2026-08-18",
+          "close": 40264.7
+        },
+        {
+          "date": "2026-08-19",
+          "close": 40276.55
+        },
+        {
+          "date": "2026-08-20",
+          "close": 40504.55
+        },
+        {
+          "date": "2026-08-21",
+          "close": 40580.85
+        },
+        {
+          "date": "2026-08-24",
+          "close": 40452.55
+        },
+        {
+          "date": "2026-08-25",
+          "close": 40829.4
+        },
+        {
+          "date": "2026-08-26",
+          "close": 40448.4
+        },
+        {
+          "date": "2026-08-27",
+          "close": 40737.85
+        },
+        {
+          "date": "2026-08-28",
+          "close": 40543.45
+        },
+        {
+          "date": "2026-08-31",
+          "close": 40430.95
+        },
+        {
+          "date": "2026-09-01",
+          "close": 39864.9
+        },
+        {
+          "date": "2026-09-02",
+          "close": 39741.65
+        },
+        {
+          "date": "2026-09-03",
+          "close": 39652.7
+        },
+        {
+          "date": "2026-09-04",
+          "close": 39483.8
+        },
+        {
+          "date": "2026-09-07",
+          "close": 39318.8
+        },
+        {
+          "date": "2026-09-08",
+          "close": 39224.5
+        },
+        {
+          "date": "2026-09-09",
+          "close": 38995.2
+        },
+        {
+          "date": "2026-09-10",
+          "close": 39017.9
+        },
+        {
+          "date": "2026-09-11",
+          "close": 38900.8
+        },
+        {
+          "date": "2026-09-15",
+          "close": 37961.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 37985.95
+        },
+        {
+          "date": "2026-09-17",
+          "close": 38011.2
+        },
+        {
+          "date": "2026-09-18",
+          "close": 37848.25
+        },
+        {
+          "date": "2026-09-21",
+          "close": 38207.3
+        },
+        {
+          "date": "2026-09-22",
+          "close": 37962.2
+        },
+        {
+          "date": "2026-09-23",
+          "close": 38200.2
+        },
+        {
+          "date": "2026-09-24",
+          "close": 37916.8
+        },
+        {
+          "date": "2026-09-25",
+          "close": 38278.6
+        },
+        {
+          "date": "2026-09-28",
+          "close": 38162.9
+        },
+        {
+          "date": "2026-09-29",
+          "close": 37129.95
+        },
+        {
+          "date": "2026-09-30",
+          "close": 36627.8
+        },
+        {
+          "date": "2026-10-01",
+          "close": 35927.8
+        },
+        {
+          "date": "2026-10-05",
+          "close": 36477.35
+        },
+        {
+          "date": "2026-10-06",
+          "close": 36750.1
+        },
+        {
+          "date": "2026-10-07",
+          "close": 36331.8
+        },
+        {
+          "date": "2026-10-08",
+          "close": 35613.2
+        },
+        {
+          "date": "2026-10-09",
+          "close": 35969.55
+        },
+        {
+          "date": "2026-10-12",
+          "close": 35936.6
+        },
+        {
+          "date": "2026-10-13",
+          "close": 36496.45
+        },
+        {
+          "date": "2026-10-14",
+          "close": 36568.6
+        },
+        {
+          "date": "2026-10-15",
+          "close": 36469.3
+        },
+        {
+          "date": "2026-10-16",
+          "close": 36247.95
+        },
+        {
+          "date": "2026-10-19",
+          "close": 35840.55
+        },
+        {
+          "date": "2026-10-21",
+          "close": 35175.15
+        },
+        {
+          "date": "2026-10-22",
+          "close": 34837.65
+        },
+        {
+          "date": "2026-10-23",
+          "close": 33922.0
+        },
+        {
+          "date": "2026-10-26",
+          "close": 33851.1
+        },
+        {
+          "date": "2026-10-27",
+          "close": 34254.8
+        },
+        {
+          "date": "2026-10-28",
+          "close": 34738.6
+        },
+        {
+          "date": "2026-10-29",
+          "close": 35149.75
+        },
+        {
+          "date": "2026-10-30",
+          "close": 34525.15
+        },
+        {
+          "date": "2026-11-02",
+          "close": 35457.4
+        },
+        {
+          "date": "2026-11-03",
+          "close": 35793.0
+        },
+        {
+          "date": "2026-11-04",
+          "close": 36521.45
+        },
+        {
+          "date": "2026-11-05",
+          "close": 37369.55
+        },
+        {
+          "date": "2026-11-06",
+          "close": 38003.6
+        },
+        {
+          "date": "2026-11-09",
+          "close": 38255.7
+        },
+        {
+          "date": "2026-11-11",
+          "close": 38536.4
+        },
+        {
+          "date": "2026-11-12",
+          "close": 38670.05
+        },
+        {
+          "date": "2026-11-13",
+          "close": 38438.5
+        },
+        {
+          "date": "2026-11-16",
+          "close": 38586.15
+        },
+        {
+          "date": "2026-11-17",
+          "close": 38493.9
+        },
+        {
+          "date": "2026-11-18",
+          "close": 37288.8
         }
       ],
       "researchRank": 19
@@ -5865,11 +5945,11 @@
   "missingIndices": [],
   "sourceDiagnostics": {
     "nseDailyFiles": 81,
-    "nseAttemptedThisRun": 1,
+    "nseAttemptedThisRun": 2,
     "nseFailedThisRun": 1,
     "nseErrorExamples": [
       [
-        "2026-11-18",
+        "2026-11-19",
         "HTTP Error 404: Not Found"
       ]
     ],
