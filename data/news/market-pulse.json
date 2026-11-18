@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T08:52:58.022138Z",
+  "generatedAt": "2026-11-18T21:30:47.901657Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,49 +9,49 @@
     "days": 14
   },
   "overall": {
-    "items": 408,
+    "items": 439,
     "publishers": 6,
     "positive": 47,
-    "negative": 97,
-    "neutral": 264,
-    "languageIndex": -9.3,
+    "negative": 102,
+    "neutral": 290,
+    "languageIndex": -10.0,
     "label": "Mixed headline language",
-    "sourceConcentration": 57.6,
+    "sourceConcentration": 59.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 109,
+      "items": 121,
       "publishers": 3,
       "positive": 10,
       "negative": 16,
-      "neutral": 83,
-      "languageIndex": -3.6,
+      "neutral": 95,
+      "languageIndex": -3.3,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.6,
+      "sourceConcentration": 71.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Xi Jinping Speaks at APEC as Nvidia Posts Solid First Post-Huang Earnings",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/the-china-show-11-18-2026-video",
-          "date": "2026-11-18T06:39:59Z",
+          "title": "Anthropic’s Valuation Seems Justified: Thakker",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-18/anthropic-s-valuation-seems-justified-thakker-video",
+          "date": "2026-11-18T20:46:05Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Delevska: Need a Strong Leader to Run Nvidia",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/delevska-need-a-strong-leader-to-run-nvidia-video",
-          "date": "2026-11-18T06:14:45Z",
+          "title": "Justifying Anthropic’s Valuation, The Bank of Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-18/bloomberg-deals-11-18-2026-video",
+          "date": "2026-11-18T20:45:24Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "How important are Nvidia and Jensen Huang to the US economy?",
-          "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T06:04:21Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Anthropic Said to Be Weighing IPO Price as High as $85 Per Share",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-said-to-be-weighing-ipo-price-as-high-as-85-per-share",
+          "date": "2026-11-18T20:39:53Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -64,79 +64,36 @@
       "hypothesisAsOf": "2026-11-10"
     },
     {
-      "id": "geopolitics",
-      "title": "Geopolitics",
-      "items": 96,
-      "publishers": 4,
-      "positive": 7,
-      "negative": 33,
-      "neutral": 56,
-      "languageIndex": -39.0,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 43.8,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "US Strikes Iran’s Qeshm Island as Bahrain and Kuwait Face Fresh Drone Attacks",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/horizons-middle-east-africa-11-18-2026-video",
-          "date": "2026-11-18T08:18:15Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
-          "date": "2026-11-18T03:45:44Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israel’s Knesset Elects Kahana as Speaker to Boost Netanyahu Rivals",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/israel-s-knesset-elects-kahana-as-speaker-to-boost-netanyahu-rivals",
-          "date": "2026-11-18T01:25:29Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "hypothesis": "Risk / volatility",
-      "potentialUpside": "Energy security and selected defence services",
-      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
-      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
-      "invalidation": "Peace deal plus actual trade-route normalization",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 95,
+      "items": 106,
       "publishers": 5,
       "positive": 5,
-      "negative": 33,
-      "neutral": 57,
-      "languageIndex": -26.6,
+      "negative": 36,
+      "neutral": 65,
+      "languageIndex": -26.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.2,
+      "sourceConcentration": 82.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Higher petrol and diesel prices push UK inflation to 3.6%",
-          "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T08:45:38Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Rand Weakens Further as South African Inflation Heats Up",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/south-african-inflation-heats-up-on-eve-of-interest-rate-verdict",
-          "date": "2026-11-18T08:03:18Z",
+          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
+          "date": "2026-11-18T20:10:30Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "UK Inflation Print at Fastest in a Year Comes With Few Surprises",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/uk-inflation-print-at-fastest-in-a-year-comes-with-few-surprises",
-          "date": "2026-11-18T07:50:32Z",
+          "title": "How high is UK inflation and how will you be affected?",
+          "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T19:37:27Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+          "date": "2026-11-18T19:00:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -150,20 +107,69 @@
       "hypothesisAsOf": "2026-10-23"
     },
     {
-      "id": "elections_policy",
-      "title": "Elections and policy",
-      "items": 46,
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "items": 104,
       "publishers": 4,
-      "positive": 2,
-      "negative": 2,
-      "neutral": 42,
-      "languageIndex": -4.2,
-      "label": "Mixed headline language",
-      "sourceConcentration": 56.5,
+      "positive": 7,
+      "negative": 34,
+      "neutral": 63,
+      "languageIndex": -39.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 45.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Iran Hit Key Infrastructure, Isn’t Behind Outages, US Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-18/us-iran-hit-key-infrastructure-isn-t-behind-outages-video",
+          "date": "2026-11-18T21:12:40Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T20:14:57Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/trump-s-board-of-peace-warns-gaza-ceasefire-could-collapse",
+          "date": "2026-11-18T18:39:59Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "hypothesis": "Risk / volatility",
+      "potentialUpside": "Energy security and selected defence services",
+      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
+      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
+      "invalidation": "Peace deal plus actual trade-route normalization",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 44,
+      "publishers": 4,
+      "positive": 2,
+      "negative": 2,
+      "neutral": 40,
+      "languageIndex": -6.5,
+      "label": "Mixed headline language",
+      "sourceConcentration": 61.4,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
+          "date": "2026-11-18T21:13:52Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Merz’s Coalition Agrees to Slash Electricity Tax for Households",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
@@ -175,12 +181,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-18T07:00:25Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "French Election: Jean-Luc Mélenchon Is Wild Card for Voters",
-          "url": "https://www.bloomberg.com/news/features/2026-11-18/french-election-jean-luc-melenchon-is-wild-card-for-voters",
-          "date": "2026-11-18T05:00:21Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -195,12 +195,12 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 28,
+      "items": 29,
       "publishers": 1,
       "positive": 16,
       "negative": 5,
-      "neutral": 7,
-      "languageIndex": 39.3,
+      "neutral": 8,
+      "languageIndex": 37.9,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +208,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Stock markets snap 2-day rally; Sensex drops 500 points amid profit booking, U.S. Fed rate hike fears",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-snap-2-day-rally-sensex-drops-500-points-amid-profit-booking-us-fed-rate-hike-fears/article71715789.ece",
+          "date": "2026-11-18T13:18:49Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Rupee rises 7 paise to close at 93.44 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9344-against-us-dollar/article71715596.ece",
+          "date": "2026-11-18T12:18:08Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
           "title": "Rupee rises 24 paise to 93.27 against U.S. dollar in early trade",
           "url": "https://www.thehindu.com/business/markets/rupee-vs-dollar-on-november-18-2026-forex-markets/article71714482.ece",
           "date": "2026-11-18T04:23:14Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee rises 43 paise to close at 93.51 (provisional) against U.S. dollar",
-          "url": "https://www.thehindu.com/business/Industry/rupee-rises-43-paise-to-close-at-9351-provisional-against-us-dollar/article71711483.ece",
-          "date": "2026-11-17T12:19:19Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "What’s behind the record ₹89,856-crore FPI surge into Indian equities? | Explained",
-          "url": "https://www.thehindu.com/business/Economy/whats-behind-the-record-89856-crore-fpi-surge-into-indian-equities-explained/article71710393.ece",
-          "date": "2026-11-17T05:14:30Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,34 +238,34 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 26,
+      "items": 27,
       "publishers": 4,
       "positive": 6,
       "negative": 6,
-      "neutral": 14,
-      "languageIndex": -2.0,
+      "neutral": 15,
+      "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 61.5,
+      "sourceConcentration": 63.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "US Strikes IRGC Site on Qeshm Island as Iran War Flares Anew",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/iran-says-us-attacked-qeshm-island-in-latest-exchange-of-strikes",
-          "date": "2026-11-17T16:07:17Z",
+          "title": "India’s Oct. crude import bill soars 87.5% to $19.5-bn amid West Asia tensions, volumes up 11%",
+          "url": "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+          "date": "2026-11-18T16:53:00Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Treasuries Higher for a Third Day as Oil Prices Slide",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
+          "date": "2026-11-18T05:19:28Z",
           "publisher": "www.bloomberg.com"
         },
         {
           "title": "Stock markets rally second day on foreign fund inflows, moderate crude oil prices",
           "url": "https://www.thehindu.com/business/markets/stock-markets-rally-second-day-on-foreign-fund-inflows-moderate-crude-oil-prices/article71711576.ece",
           "date": "2026-11-17T13:27:29Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets climb in early trade on foreign fund inflows, fall in crude oil prices",
-          "url": "https://www.thehindu.com/business/Industry/stock-markets-climb-in-early-trade-on-foreign-fund-inflows-fall-in-crude-oil-prices/article71710398.ece",
-          "date": "2026-11-17T05:04:23Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -283,16 +283,22 @@
       "title": "Trade policy",
       "items": 12,
       "publishers": 3,
-      "positive": 1,
+      "positive": 2,
       "negative": 9,
-      "neutral": 2,
-      "languageIndex": -55.6,
+      "neutral": 1,
+      "languageIndex": -22.2,
       "label": "Mostly negative headline language",
       "sourceConcentration": 75.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
+          "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+          "date": "2026-11-18T11:53:30Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
@@ -303,12 +309,6 @@
           "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
           "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-17T18:58:57Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "UK sanctions firms over Israeli West Bank settlements",
-          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T18:27:27Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -410,14 +410,14 @@
     {
       "id": "healthcare",
       "title": "Hospital sector",
-      "items": 6,
-      "publishers": 4,
-      "positive": 1,
+      "items": 5,
+      "publishers": 3,
+      "positive": 0,
       "negative": 1,
       "neutral": 4,
-      "languageIndex": 16.7,
+      "languageIndex": -11.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 50.0,
+      "sourceConcentration": 60.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -655,79 +655,36 @@
   ],
   "risks": [
     {
-      "id": "geopolitics",
-      "title": "Geopolitics",
-      "items": 96,
-      "publishers": 4,
-      "positive": 7,
-      "negative": 33,
-      "neutral": 56,
-      "languageIndex": -39.0,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 43.8,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "US Strikes Iran’s Qeshm Island as Bahrain and Kuwait Face Fresh Drone Attacks",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/horizons-middle-east-africa-11-18-2026-video",
-          "date": "2026-11-18T08:18:15Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
-          "date": "2026-11-18T03:45:44Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israel’s Knesset Elects Kahana as Speaker to Boost Netanyahu Rivals",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/israel-s-knesset-elects-kahana-as-speaker-to-boost-netanyahu-rivals",
-          "date": "2026-11-18T01:25:29Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "hypothesis": "Risk / volatility",
-      "potentialUpside": "Energy security and selected defence services",
-      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
-      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
-      "invalidation": "Peace deal plus actual trade-route normalization",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 95,
+      "items": 106,
       "publishers": 5,
       "positive": 5,
-      "negative": 33,
-      "neutral": 57,
-      "languageIndex": -26.6,
+      "negative": 36,
+      "neutral": 65,
+      "languageIndex": -26.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.2,
+      "sourceConcentration": 82.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Higher petrol and diesel prices push UK inflation to 3.6%",
-          "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T08:45:38Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Rand Weakens Further as South African Inflation Heats Up",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/south-african-inflation-heats-up-on-eve-of-interest-rate-verdict",
-          "date": "2026-11-18T08:03:18Z",
+          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
+          "date": "2026-11-18T20:10:30Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "UK Inflation Print at Fastest in a Year Comes With Few Surprises",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/uk-inflation-print-at-fastest-in-a-year-comes-with-few-surprises",
-          "date": "2026-11-18T07:50:32Z",
+          "title": "How high is UK inflation and how will you be affected?",
+          "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T19:37:27Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+          "date": "2026-11-18T19:00:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -741,20 +698,69 @@
       "hypothesisAsOf": "2026-10-23"
     },
     {
-      "id": "elections_policy",
-      "title": "Elections and policy",
-      "items": 46,
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "items": 104,
       "publishers": 4,
-      "positive": 2,
-      "negative": 2,
-      "neutral": 42,
-      "languageIndex": -4.2,
-      "label": "Mixed headline language",
-      "sourceConcentration": 56.5,
+      "positive": 7,
+      "negative": 34,
+      "neutral": 63,
+      "languageIndex": -39.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 45.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Iran Hit Key Infrastructure, Isn’t Behind Outages, US Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-18/us-iran-hit-key-infrastructure-isn-t-behind-outages-video",
+          "date": "2026-11-18T21:12:40Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T20:14:57Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/trump-s-board-of-peace-warns-gaza-ceasefire-could-collapse",
+          "date": "2026-11-18T18:39:59Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "hypothesis": "Risk / volatility",
+      "potentialUpside": "Energy security and selected defence services",
+      "potentialDownside": "Fuel, freight and input-cost dependent businesses",
+      "confirmation": "Persistent shipping attacks, physical disruptions and sanctions",
+      "invalidation": "Peace deal plus actual trade-route normalization",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "elections_policy",
+      "title": "Elections and policy",
+      "items": 44,
+      "publishers": 4,
+      "positive": 2,
+      "negative": 2,
+      "neutral": 40,
+      "languageIndex": -6.5,
+      "label": "Mixed headline language",
+      "sourceConcentration": 61.4,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
+          "date": "2026-11-18T21:13:52Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Merz’s Coalition Agrees to Slash Electricity Tax for Households",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
@@ -766,12 +772,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-18T07:00:25Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "French Election: Jean-Luc Mélenchon Is Wild Card for Voters",
-          "url": "https://www.bloomberg.com/news/features/2026-11-18/french-election-jean-luc-melenchon-is-wild-card-for-voters",
-          "date": "2026-11-18T05:00:21Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -788,16 +788,22 @@
       "title": "Trade policy",
       "items": 12,
       "publishers": 3,
-      "positive": 1,
+      "positive": 2,
       "negative": 9,
-      "neutral": 2,
-      "languageIndex": -55.6,
+      "neutral": 1,
+      "languageIndex": -22.2,
       "label": "Mostly negative headline language",
       "sourceConcentration": 75.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
+          "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+          "date": "2026-11-18T11:53:30Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
@@ -808,12 +814,6 @@
           "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
           "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-17T18:58:57Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "UK sanctions firms over Israeli West Bank settlements",
-          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T18:27:27Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -958,19 +958,19 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 235
+      "stories": 260
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 79
+      "stories": 85
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 71
+      "stories": 72
     },
     {
       "publisher": "news.un.org",
-      "stories": 18
+      "stories": 17
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 19,
+    "reportedScanCount": 20,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
