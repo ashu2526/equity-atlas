@@ -1,56 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T21:30:47.901657Z",
+  "generatedAt": "2026-11-19T09:10:10.732459Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-04",
-    "end": "2026-11-18",
+    "start": "2026-11-05",
+    "end": "2026-11-19",
     "days": 14
   },
   "overall": {
-    "items": 439,
+    "items": 453,
     "publishers": 6,
-    "positive": 47,
-    "negative": 102,
-    "neutral": 290,
-    "languageIndex": -10.0,
+    "positive": 52,
+    "negative": 103,
+    "neutral": 298,
+    "languageIndex": -9.1,
     "label": "Mixed headline language",
-    "sourceConcentration": 59.2,
+    "sourceConcentration": 59.8,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 121,
+      "items": 131,
       "publishers": 3,
-      "positive": 10,
+      "positive": 15,
       "negative": 16,
-      "neutral": 95,
-      "languageIndex": -3.3,
+      "neutral": 100,
+      "languageIndex": 0.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.9,
+      "sourceConcentration": 71.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anthropic’s Valuation Seems Justified: Thakker",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/anthropic-s-valuation-seems-justified-thakker-video",
-          "date": "2026-11-18T20:46:05Z",
+          "title": "The Path to a Year-End Stock Rally Looks Clearer After Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/the-path-to-a-year-end-rally-looks-clearer-taking-stock",
+          "date": "2026-11-19T07:21:24Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Justifying Anthropic’s Valuation, The Bank of Nvidia",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/bloomberg-deals-11-18-2026-video",
-          "date": "2026-11-18T20:45:24Z",
+          "title": "US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
+          "date": "2026-11-19T07:09:16Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic Said to Be Weighing IPO Price as High as $85 Per Share",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-said-to-be-weighing-ipo-price-as-high-as-85-per-share",
-          "date": "2026-11-18T20:39:53Z",
+          "title": "Is China Winning the Artificial Intelligence Race That Matters?",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/is-china-winning-the-artificial-intelligence-race-that-matters",
+          "date": "2026-11-19T05:00:05Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 106,
+      "items": 107,
       "publishers": 5,
       "positive": 5,
-      "negative": 36,
-      "neutral": 65,
-      "languageIndex": -26.2,
+      "negative": 38,
+      "neutral": 64,
+      "languageIndex": -28.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 82.1,
+      "sourceConcentration": 82.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
-          "date": "2026-11-18T20:10:30Z",
+          "title": "Traders’ Relief on UK Inflation May Prove Short-Lived as Price Woes Mount",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
+          "date": "2026-11-19T07:29:54Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "How high is UK inflation and how will you be affected?",
-          "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T19:37:27Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Stock markets fall in early trade dragged by IT firms, U.S. Fed sens",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece",
+          "date": "2026-11-19T05:29:39Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
-          "date": "2026-11-18T19:00:01Z",
+          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
+          "date": "2026-11-18T20:10:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 104,
+      "items": 107,
       "publishers": 4,
       "positive": 7,
-      "negative": 34,
-      "neutral": 63,
-      "languageIndex": -39.2,
+      "negative": 33,
+      "neutral": 67,
+      "languageIndex": -38.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 45.2,
+      "sourceConcentration": 45.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Iran Hit Key Infrastructure, Isn’t Behind Outages, US Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/us-iran-hit-key-infrastructure-isn-t-behind-outages-video",
-          "date": "2026-11-18T21:12:40Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T20:14:57Z",
+          "title": "Crimean Bridge attacked again, Russia says",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T07:32:06Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/trump-s-board-of-peace-warns-gaza-ceasefire-could-collapse",
-          "date": "2026-11-18T18:39:59Z",
+          "title": "Trump Meets Putin for First Time in 15 Months, Talks Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
+          "date": "2026-11-19T04:33:46Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T23:28:03Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,14 +152,14 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 44,
+      "items": 41,
       "publishers": 4,
       "positive": 2,
-      "negative": 2,
-      "neutral": 40,
-      "languageIndex": -6.5,
+      "negative": 1,
+      "neutral": 38,
+      "languageIndex": -10.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 61.4,
+      "sourceConcentration": 65.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -198,15 +198,21 @@
       "items": 29,
       "publishers": 1,
       "positive": 16,
-      "negative": 5,
-      "neutral": 8,
-      "languageIndex": 37.9,
+      "negative": 4,
+      "neutral": 9,
+      "languageIndex": 41.4,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee slides 8 paise to 93.49 against U.S. dollar in early trade",
+          "url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece",
+          "date": "2026-11-19T05:19:24Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Stock markets snap 2-day rally; Sensex drops 500 points amid profit booking, U.S. Fed rate hike fears",
           "url": "https://www.thehindu.com/business/markets/stock-markets-snap-2-day-rally-sensex-drops-500-points-amid-profit-booking-us-fed-rate-hike-fears/article71715789.ece",
@@ -217,12 +223,6 @@
           "title": "Rupee rises 7 paise to close at 93.44 against U.S. dollar",
           "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9344-against-us-dollar/article71715596.ece",
           "date": "2026-11-18T12:18:08Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee rises 24 paise to 93.27 against U.S. dollar in early trade",
-          "url": "https://www.thehindu.com/business/markets/rupee-vs-dollar-on-november-18-2026-forex-markets/article71714482.ece",
-          "date": "2026-11-18T04:23:14Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,14 +238,14 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 27,
+      "items": 25,
       "publishers": 4,
       "positive": 6,
       "negative": 6,
-      "neutral": 15,
+      "neutral": 13,
       "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 63.0,
+      "sourceConcentration": 60.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -281,18 +281,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 12,
+      "items": 13,
       "publishers": 3,
       "positive": 2,
-      "negative": 9,
+      "negative": 10,
       "neutral": 1,
-      "languageIndex": -22.2,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
+      "languageIndex": -23.3,
+      "label": "Insufficient observations",
+      "sourceConcentration": 76.9,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
+          "date": "2026-11-19T03:38:03Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
           "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
@@ -304,12 +310,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
           "date": "2026-11-18T03:45:44Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
-          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T18:58:57Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -319,6 +319,49 @@
       "potentialDownside": "Export barriers and retaliation; input import friction",
       "confirmation": "Implemented change in tariff with company-level exposure",
       "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 9,
+      "publishers": 2,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8,
+      "languageIndex": 8.3,
+      "label": "Insufficient observations",
+      "sourceConcentration": 66.7,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T23:28:03Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Swiss Face Nail-Biter Vote on Allowing More Weapon Exports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/swiss-face-nail-biter-vote-on-allowing-more-weapon-exports",
+          "date": "2026-11-18T05:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Billionaire Rinehart Boosts US Defense and SpaceX Holdings",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/billionaire-rinehart-boosts-us-defense-and-spacex-holdings",
+          "date": "2026-11-16T22:26:51Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Defence electronics; Aerospace",
+      "proxySectors": "Shipbuilders; Engineering; Components",
+      "hypothesis": "Watch",
+      "potentialUpside": "Confirmed order book and margin realization",
+      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
+      "confirmation": "Enacted procurement budgets, contracts, deliveries",
+      "invalidation": "Canceled tenders, delayed acceptance",
       "hypothesisAsOf": "2026-11-11"
     },
     {
@@ -365,80 +408,37 @@
       "hypothesisAsOf": "2026-10-23"
     },
     {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 8,
-      "publishers": 2,
-      "positive": 1,
-      "negative": 0,
-      "neutral": 7,
-      "languageIndex": 8.3,
-      "label": "Insufficient observations",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Swiss Face Nail-Biter Vote on Allowing More Weapon Exports",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/swiss-face-nail-biter-vote-on-allowing-more-weapon-exports",
-          "date": "2026-11-18T05:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Billionaire Rinehart Boosts US Defense and SpaceX Holdings",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/billionaire-rinehart-boosts-us-defense-and-spacex-holdings",
-          "date": "2026-11-16T22:26:51Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Third Aircraft Carrier Arrives in Gulf, Boosting US Options",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/third-aircraft-carrier-arrives-in-persian-gulf-boosting-options",
-          "date": "2026-11-16T17:16:42Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Defence electronics; Aerospace",
-      "proxySectors": "Shipbuilders; Engineering; Components",
-      "hypothesis": "Watch",
-      "potentialUpside": "Confirmed order book and margin realization",
-      "potentialDownside": "Valuation ahead of delivery and working-capital pressure",
-      "confirmation": "Enacted procurement budgets, contracts, deliveries",
-      "invalidation": "Canceled tenders, delayed acceptance",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "healthcare",
       "title": "Hospital sector",
-      "items": 5,
+      "items": 7,
       "publishers": 3,
       "positive": 0,
       "negative": 1,
-      "neutral": 4,
-      "languageIndex": -11.1,
+      "neutral": 6,
+      "languageIndex": -8.3,
       "label": "Insufficient observations",
-      "sourceConcentration": 60.0,
+      "sourceConcentration": 57.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "UK Healthcare Managers Warn Youth Reforms Could Hinder Staffing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
+          "date": "2026-11-19T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+          "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T22:32:47Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "GTA 6 hacker pleads guilty after release from secure hospital",
           "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-16T13:34:22Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-16T03:09:49Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168796",
-          "date": "2026-11-12T12:00:00Z",
-          "publisher": "news.un.org"
         }
       ],
       "directSectors": "Hospitals; Specialty care",
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 106,
+      "items": 107,
       "publishers": 5,
       "positive": 5,
-      "negative": 36,
-      "neutral": 65,
-      "languageIndex": -26.2,
+      "negative": 38,
+      "neutral": 64,
+      "languageIndex": -28.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 82.1,
+      "sourceConcentration": 82.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
-          "date": "2026-11-18T20:10:30Z",
+          "title": "Traders’ Relief on UK Inflation May Prove Short-Lived as Price Woes Mount",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
+          "date": "2026-11-19T07:29:54Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "How high is UK inflation and how will you be affected?",
-          "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T19:37:27Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Stock markets fall in early trade dragged by IT firms, U.S. Fed sens",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece",
+          "date": "2026-11-19T05:29:39Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
-          "date": "2026-11-18T19:00:01Z",
+          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
+          "date": "2026-11-18T20:10:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,35 +700,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 104,
+      "items": 107,
       "publishers": 4,
       "positive": 7,
-      "negative": 34,
-      "neutral": 63,
-      "languageIndex": -39.2,
+      "negative": 33,
+      "neutral": 67,
+      "languageIndex": -38.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 45.2,
+      "sourceConcentration": 45.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Iran Hit Key Infrastructure, Isn’t Behind Outages, US Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/us-iran-hit-key-infrastructure-isn-t-behind-outages-video",
-          "date": "2026-11-18T21:12:40Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T20:14:57Z",
+          "title": "Crimean Bridge attacked again, Russia says",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T07:32:06Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/trump-s-board-of-peace-warns-gaza-ceasefire-could-collapse",
-          "date": "2026-11-18T18:39:59Z",
+          "title": "Trump Meets Putin for First Time in 15 Months, Talks Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
+          "date": "2026-11-19T04:33:46Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T23:28:03Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -743,14 +743,14 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 44,
+      "items": 41,
       "publishers": 4,
       "positive": 2,
-      "negative": 2,
-      "neutral": 40,
-      "languageIndex": -6.5,
+      "negative": 1,
+      "neutral": 38,
+      "languageIndex": -10.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 61.4,
+      "sourceConcentration": 65.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -786,18 +786,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 12,
+      "items": 13,
       "publishers": 3,
       "positive": 2,
-      "negative": 9,
+      "negative": 10,
       "neutral": 1,
-      "languageIndex": -22.2,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
+      "languageIndex": -23.3,
+      "label": "Insufficient observations",
+      "sourceConcentration": 76.9,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
+          "date": "2026-11-19T03:38:03Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
           "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
@@ -809,12 +815,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
           "date": "2026-11-18T03:45:44Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
-          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-17T18:58:57Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 260
+      "stories": 271
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 85
+      "stories": 90
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 72
+      "stories": 71
     },
     {
       "publisher": "news.un.org",
@@ -974,7 +974,7 @@
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 4
+      "stories": 3
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 20,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 21,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

@@ -1,12 +1,400 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-18T21:30:47.901657Z",
+  "updatedAt": "2026-11-19T09:10:10.732459Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "8944b9bf2f7dff44b2c5",
+      "title": "Crimean Bridge attacked again, Russia says",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T07:32:06Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "aa37b708547c58cd0e85",
+      "title": "Traders’ Relief on UK Inflation May Prove Short-Lived as Price Woes Mount",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T07:29:54Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c2fc9afd1447a74a6b3b",
+      "title": "The Path to a Year-End Stock Rally Looks Clearer After Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/the-path-to-a-year-end-rally-looks-clearer-taking-stock",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T07:21:24Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7ebcfe17de4bfef37b88",
+      "title": "US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T07:09:16Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "603b4b2dc42e2c363841",
+      "title": "UK Healthcare Managers Warn Youth Reforms Could Hinder Staffing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T06:00:00Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bf58c18181b14c191f0b",
+      "title": "Stock markets fall in early trade dragged by IT firms, U.S. Fed sens",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T05:29:39Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "371b2fe9eec8ee482167",
+      "title": "Rupee slides 8 paise to 93.49 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T05:19:24Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2071f147c85874b5a36f",
+      "title": "Is China Winning the Artificial Intelligence Race That Matters?",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/is-china-winning-the-artificial-intelligence-race-that-matters",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T05:00:05Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4e0b5e8dec9c3fbf6654",
+      "title": "Anthropic Shares Indicated Up to 24% Higher on Gray Market",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-shares-indicated-more-than-20-higher-on-gray-markets",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T05:00:00Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8071d3a1b6fd2efc966d",
+      "title": "Trump Meets Putin for First Time in 15 Months, Talks Ukraine",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T04:33:46Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e8b58c39212f2d0cc96a",
+      "title": "Anthropic accused of self-serving hypocrisy on eve of $1.5-trillion IPO",
+      "url": "https://www.thehindu.com/sci-tech/technology/anthropic-accused-of-self-serving-hypocrisy-on-eve-of-15-trillion-ipo/article71718601.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T03:55:56Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b33790e46f163ff38ada",
+      "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T03:38:03Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c6d87bb33ae78f6a157f",
+      "title": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T02:20:15Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f990a9906b77474d2502",
+      "title": "Trump Hails Great Ties With Xi, Downplays Nvidia Controversy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T01:44:42Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5d886e31669f2b44f30a",
+      "title": "Who are the investors ready to jump on Anthropic?",
+      "url": "https://www.bbc.co.uk/news/videos/c6y0x84xx22wo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T01:22:38Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1431aa957fde93a39ec0",
+      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T23:28:03Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "defence_capex",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5eb58430b382b2e2fb4e",
+      "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+      "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T22:32:47Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "BBC India",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5902be58eb2b00301ef1",
+      "title": "UK Pledges Long-Range Missiles to Ukraine Amid US Criticism",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/uk-pledges-long-range-missiles-to-ukraine-despite-us-criticism",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T22:30:00Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2de53283d09282aa54c3",
+      "title": "US Futures Rally as Anthropic Fuels AI Enthusiasm: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T22:07:41Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0a4eeca95ef80c9de32c",
+      "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T21:28:08Z",
+      "discovered": "2026-11-19T09:10:10.732459Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "e6bcb9f39ee0b9ab4150",
       "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
