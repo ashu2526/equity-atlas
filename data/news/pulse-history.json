@@ -2,60 +2,60 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-19T09:10:10.732459Z",
+      "generatedAt": "2026-11-19T21:42:57.023033Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 453,
+        "items": 472,
         "publishers": 6,
-        "positive": 52,
-        "negative": 103,
-        "neutral": 298,
-        "languageIndex": -9.1,
+        "positive": 54,
+        "negative": 110,
+        "neutral": 308,
+        "languageIndex": -9.0,
         "label": "Mixed headline language",
-        "sourceConcentration": 59.8,
+        "sourceConcentration": 60.4,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 131,
+          "items": 138,
           "publishers": 3,
-          "languageIndex": 0.5,
+          "languageIndex": 1.2,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 107,
+          "items": 115,
           "publishers": 5,
-          "languageIndex": -28.2,
+          "languageIndex": -28.5,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 107,
+          "items": 109,
           "publishers": 4,
-          "languageIndex": -38.3,
+          "languageIndex": -38.5,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 41,
+          "items": 42,
           "publishers": 4,
-          "languageIndex": -10.6,
+          "languageIndex": -10.7,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 29,
+          "items": 30,
           "publishers": 1,
-          "languageIndex": 41.4,
+          "languageIndex": 43.3,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
           "items": 25,
           "publishers": 4,
-          "languageIndex": 0.0,
+          "languageIndex": -3.3,
           "attentionDeltaPct": null
         },
         {
@@ -73,17 +73,17 @@
           "attentionDeltaPct": null
         },
         {
+          "id": "healthcare",
+          "items": 8,
+          "publishers": 4,
+          "languageIndex": -6.2,
+          "attentionDeltaPct": null
+        },
+        {
           "id": "climate_agri",
           "items": 8,
           "publishers": 3,
           "languageIndex": -16.7,
-          "attentionDeltaPct": null
-        },
-        {
-          "id": "healthcare",
-          "items": 7,
-          "publishers": 3,
-          "languageIndex": -8.3,
           "attentionDeltaPct": null
         },
         {

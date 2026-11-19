@@ -1,12 +1,437 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-19T09:10:10.732459Z",
+  "updatedAt": "2026-11-19T21:42:57.023033Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "779c3aaa135ef1ac3ebe",
+      "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T21:38:42Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f38c2e36b122ef7cf237",
+      "title": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour",
+      "url": "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T21:36:10Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "89345bf95b7248231d3c",
+      "title": "Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T21:24:51Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "42a972871329f6570730",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T21:21:43Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9c1b4a1b921cc27c8964",
+      "title": "Anthropic shares close 17% higher on first day of trading",
+      "url": "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T21:16:25Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "95437da55042e9330507",
+      "title": "Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T20:30:00Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "62860f13ecd0a027a72e",
+      "title": "Greene Blames Loose BOE Policy, Not Bad Luck for Inflation Miss",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/greene-blames-loose-boe-policy-not-bad-luck-for-inflation-miss",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T20:18:58Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fd311a6b564f0afcf30d",
+      "title": "War-Driven Cost Squeeze Alarms Companies, Bank of America Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/war-driven-cost-squeeze-alarms-companies-bank-of-america-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T20:04:12Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2777bdc6c31b68ed2eae",
+      "title": "Anthropic IPO Said to Draw Over $9.4 Billion in Japan Order Book",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-draw-over-9-4-billion-in-japan-order-book",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T20:00:00Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9a08e90b363f68a4841c",
+      "title": "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T19:59:01Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "67016be5003fa61f27b7",
+      "title": "Anthropic raises $81 billion in IPO amid AI market volatility",
+      "url": "https://www.thehindu.com/business/anthropic-raises-81-billion-in-ipo-amid-ai-market-volatility/article71721392.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T18:38:46Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "607b2e3f7cd4436f41c3",
+      "title": "ECB’s Panetta Says Inflation Mustn’t Be Allowed to Take Root",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/ecb-s-panetta-says-inflation-mustn-t-be-allowed-to-take-root",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T18:32:19Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7efd044b83fa926204b0",
+      "title": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
+      "url": "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T16:45:57Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6f0c8f5e6560ab187526",
+      "title": "Sensex, Nifty surge over 1% as banks, auto stocks drive rally; Bank Nifty hits record high",
+      "url": "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T16:38:51Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4335b8c834075fd6116f",
+      "title": "Lula Forces Central Bank FX Intervention as Real Sells Off",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/brazil-central-bank-steps-into-markets-as-fiscal-woes-hit-real",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T15:51:36Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3c211fa6005116dd831d",
+      "title": "Aberdeen’s Galbraith on Ukraine and US-China Tensions",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-19/aberdeen-s-galbraith-on-ukraine-and-us-china-tensions-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T15:39:36Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d2e506e20391ed61fd1f",
+      "title": "Bajaj Group-backed BIHS to invest ₹2,500 cr. in healthcare venture Nivara, target 10-plus cities",
+      "url": "https://www.thehindu.com/business/Industry/bajaj-group-backed-bihs-to-invest-2500-cr-in-healthcare-venture-nivara-target-10-plus-cities/article71720465.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T14:56:35Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "70da7e81f5bc57f8ac6f",
+      "title": "Anthropic Shares Jump 17% After $107.3 Billion IPO Breaks Record",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-poised-to-surge-after-107-3-billion-ipo-tops-spacex",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T14:52:54Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1e9f8563c2b13ef7638f",
+      "title": "Traders Are Betting on Interest Rates Staying High for Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/traders-are-betting-on-interest-rates-staying-high-for-years",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T13:52:51Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "30c820f19557731c4eac",
+      "title": "Markets bounce back led by auto, bank stocks; Sensex surges nearly 1,000 pts, Nifty reclaims 25,500",
+      "url": "https://www.thehindu.com/business/markets/markets-bounce-back-led-by-auto-bank-stocks-sensex-surges-nearly-1000-pts-nifty-reclaims-25500/article71719938.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T12:54:58Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "55204c13e333f95fbdcc",
+      "title": "Rupee rallies for fourth session to close 5 paise higher at 93.36 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-rallies-for-fourth-session-to-close-5-paise-higher-at-9336-against-us-dollar/article71719898.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T12:54:49Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "826891046aeb6c048adc",
+      "title": "ECB’s Nagel Says December Rate Hike Would Send Clear Signal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/ecb-s-nagel-says-december-rate-hike-would-send-clear-signal",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T10:41:47Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "8944b9bf2f7dff44b2c5",
       "title": "Crimean Bridge attacked again, Russia says",
@@ -318,6 +743,45 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "7730276fd1811fc09725",
+      "title": "Gold Set for Longest Losing Streak Since May on AI, Fed Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T23:24:06Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "35e614a1b41d735b2ee9",
+      "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-18T22:44:11Z",
+      "discovered": "2026-11-19T21:42:57.023033Z",
+      "topics": [
+        "ai_rotation",
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "5eb58430b382b2e2fb4e",
       "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
       "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
@@ -389,6 +853,7 @@
       ],
       "feedSources": [
         "BBC Business",
+        "BBC Technology",
         "BBC World"
       ],
       "headlineTone": "positive",

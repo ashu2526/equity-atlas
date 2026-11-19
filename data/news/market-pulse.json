@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-19T09:10:10.732459Z",
+  "generatedAt": "2026-11-19T21:42:57.023033Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 453,
+    "items": 472,
     "publishers": 6,
-    "positive": 52,
-    "negative": 103,
-    "neutral": 298,
-    "languageIndex": -9.1,
+    "positive": 54,
+    "negative": 110,
+    "neutral": 308,
+    "languageIndex": -9.0,
     "label": "Mixed headline language",
-    "sourceConcentration": 59.8,
+    "sourceConcentration": 60.4,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 131,
+      "items": 138,
       "publishers": 3,
-      "positive": 15,
+      "positive": 17,
       "negative": 16,
-      "neutral": 100,
-      "languageIndex": 0.5,
+      "neutral": 105,
+      "languageIndex": 1.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.0,
+      "sourceConcentration": 70.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "The Path to a Year-End Stock Rally Looks Clearer After Anthropic",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/the-path-to-a-year-end-rally-looks-clearer-taking-stock",
-          "date": "2026-11-19T07:21:24Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T21:38:42Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "US Tech Stocks Are Set to Rally as Anthropic IPO Boosts AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
-          "date": "2026-11-19T07:09:16Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour",
+          "url": "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece",
+          "date": "2026-11-19T21:36:10Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Is China Winning the Artificial Intelligence Race That Matters?",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/is-china-winning-the-artificial-intelligence-race-that-matters",
-          "date": "2026-11-19T05:00:05Z",
+          "title": "Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video",
+          "date": "2026-11-19T21:24:51Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 107,
+      "items": 115,
       "publishers": 5,
       "positive": 5,
-      "negative": 38,
-      "neutral": 64,
-      "languageIndex": -28.2,
+      "negative": 42,
+      "neutral": 68,
+      "languageIndex": -28.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 82.2,
+      "sourceConcentration": 83.5,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Traders’ Relief on UK Inflation May Prove Short-Lived as Price Woes Mount",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
-          "date": "2026-11-19T07:29:54Z",
+          "title": "Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
+          "date": "2026-11-19T20:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Stock markets fall in early trade dragged by IT firms, U.S. Fed sens",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece",
-          "date": "2026-11-19T05:29:39Z",
-          "publisher": "www.thehindu.com"
+          "title": "Greene Blames Loose BOE Policy, Not Bad Luck for Inflation Miss",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/greene-blames-loose-boe-policy-not-bad-luck-for-inflation-miss",
+          "date": "2026-11-19T20:18:58Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
-          "date": "2026-11-18T20:10:30Z",
+          "title": "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
+          "date": "2026-11-19T19:59:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 107,
+      "items": 109,
       "publishers": 4,
       "positive": 7,
-      "negative": 33,
+      "negative": 35,
       "neutral": 67,
-      "languageIndex": -38.3,
+      "languageIndex": -38.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 45.8,
+      "sourceConcentration": 46.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Crimean Bridge attacked again, Russia says",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T07:32:06Z",
+          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T21:21:43Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Meets Putin for First Time in 15 Months, Talks Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
-          "date": "2026-11-19T04:33:46Z",
+          "title": "War-Driven Cost Squeeze Alarms Companies, Bank of America Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/war-driven-cost-squeeze-alarms-companies-bank-of-america-says",
+          "date": "2026-11-19T20:04:12Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T23:28:03Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Aberdeen’s Galbraith on Ukraine and US-China Tensions",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/aberdeen-s-galbraith-on-ukraine-and-us-china-tensions-video",
+          "date": "2026-11-19T15:39:36Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 41,
+      "items": 42,
       "publishers": 4,
       "positive": 2,
       "negative": 1,
-      "neutral": 38,
-      "languageIndex": -10.6,
+      "neutral": 39,
+      "languageIndex": -10.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 65.9,
+      "sourceConcentration": 66.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
+          "date": "2026-11-18T22:44:11Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
@@ -175,12 +181,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
           "date": "2026-11-18T07:16:16Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-          "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T07:00:25Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -195,12 +195,12 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 29,
+      "items": 30,
       "publishers": 1,
-      "positive": 16,
+      "positive": 17,
       "negative": 4,
       "neutral": 9,
-      "languageIndex": 41.4,
+      "languageIndex": 43.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +208,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Rupee slides 8 paise to 93.49 against U.S. dollar in early trade",
-          "url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece",
-          "date": "2026-11-19T05:19:24Z",
+          "title": "Sensex, Nifty surge over 1% as banks, auto stocks drive rally; Bank Nifty hits record high",
+          "url": "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece",
+          "date": "2026-11-19T16:38:51Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Stock markets snap 2-day rally; Sensex drops 500 points amid profit booking, U.S. Fed rate hike fears",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-snap-2-day-rally-sensex-drops-500-points-amid-profit-booking-us-fed-rate-hike-fears/article71715789.ece",
-          "date": "2026-11-18T13:18:49Z",
+          "title": "Markets bounce back led by auto, bank stocks; Sensex surges nearly 1,000 pts, Nifty reclaims 25,500",
+          "url": "https://www.thehindu.com/business/markets/markets-bounce-back-led-by-auto-bank-stocks-sensex-surges-nearly-1000-pts-nifty-reclaims-25500/article71719938.ece",
+          "date": "2026-11-19T12:54:58Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Rupee rises 7 paise to close at 93.44 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-rises-7-paise-to-close-at-9344-against-us-dollar/article71715596.ece",
-          "date": "2026-11-18T12:18:08Z",
+          "title": "Rupee rallies for fourth session to close 5 paise higher at 93.36 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-rallies-for-fourth-session-to-close-5-paise-higher-at-9336-against-us-dollar/article71719898.ece",
+          "date": "2026-11-19T12:54:49Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -240,16 +240,22 @@
       "title": "Oil and shipping",
       "items": 25,
       "publishers": 4,
-      "positive": 6,
-      "negative": 6,
+      "positive": 5,
+      "negative": 7,
       "neutral": 13,
-      "languageIndex": 0.0,
+      "languageIndex": -3.3,
       "label": "Mixed headline language",
       "sourceConcentration": 60.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
+          "url": "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
+          "date": "2026-11-19T16:45:57Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "India’s Oct. crude import bill soars 87.5% to $19.5-bn amid West Asia tensions, volumes up 11%",
           "url": "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
@@ -261,12 +267,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
           "date": "2026-11-18T05:19:28Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Stock markets rally second day on foreign fund inflows, moderate crude oil prices",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-rally-second-day-on-foreign-fund-inflows-moderate-crude-oil-prices/article71711576.ece",
-          "date": "2026-11-17T13:27:29Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -365,6 +365,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "healthcare",
+      "title": "Hospital sector",
+      "items": 8,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 7,
+      "languageIndex": -6.2,
+      "label": "Mixed headline language",
+      "sourceConcentration": 50.0,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Bajaj Group-backed BIHS to invest ₹2,500 cr. in healthcare venture Nivara, target 10-plus cities",
+          "url": "https://www.thehindu.com/business/Industry/bajaj-group-backed-bihs-to-invest-2500-cr-in-healthcare-venture-nivara-target-10-plus-cities/article71720465.ece",
+          "date": "2026-11-19T14:56:35Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "UK Healthcare Managers Warn Youth Reforms Could Hinder Staffing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
+          "date": "2026-11-19T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+          "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-18T22:32:47Z",
+          "publisher": "www.bbc.co.uk"
+        }
+      ],
+      "directSectors": "Hospitals; Specialty care",
+      "proxySectors": "Diagnostics; Medtech; Hospital supply",
+      "hypothesis": "Structural watch",
+      "potentialUpside": "Incremental operating-bed cash returns",
+      "potentialDownside": "High capex and slower occupancy ramp",
+      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
+      "invalidation": "New beds fail to cover fixed overhead",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "climate_agri",
       "title": "Monsoon and agriculture",
       "items": 8,
@@ -406,49 +449,6 @@
       "confirmation": "Rainfall and sowing data consistent with demand",
       "invalidation": "Weather forecast not realized in yields",
       "hypothesisAsOf": "2026-10-23"
-    },
-    {
-      "id": "healthcare",
-      "title": "Hospital sector",
-      "items": 7,
-      "publishers": 3,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 6,
-      "languageIndex": -8.3,
-      "label": "Insufficient observations",
-      "sourceConcentration": 57.1,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "UK Healthcare Managers Warn Youth Reforms Could Hinder Staffing",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
-          "date": "2026-11-19T06:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
-          "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T22:32:47Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "GTA 6 hacker pleads guilty after release from secure hospital",
-          "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-16T13:34:22Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Hospitals; Specialty care",
-      "proxySectors": "Diagnostics; Medtech; Hospital supply",
-      "hypothesis": "Structural watch",
-      "potentialUpside": "Incremental operating-bed cash returns",
-      "potentialDownside": "High capex and slower occupancy ramp",
-      "confirmation": "Hospital-level EBITDA and cash ROIC improve",
-      "invalidation": "New beds fail to cover fixed overhead",
-      "hypothesisAsOf": "2026-11-11"
     },
     {
       "id": "auto_consumer",
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 107,
+      "items": 115,
       "publishers": 5,
       "positive": 5,
-      "negative": 38,
-      "neutral": 64,
-      "languageIndex": -28.2,
+      "negative": 42,
+      "neutral": 68,
+      "languageIndex": -28.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 82.2,
+      "sourceConcentration": 83.5,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Traders’ Relief on UK Inflation May Prove Short-Lived as Price Woes Mount",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
-          "date": "2026-11-19T07:29:54Z",
+          "title": "Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
+          "date": "2026-11-19T20:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Stock markets fall in early trade dragged by IT firms, U.S. Fed sens",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece",
-          "date": "2026-11-19T05:29:39Z",
-          "publisher": "www.thehindu.com"
+          "title": "Greene Blames Loose BOE Policy, Not Bad Luck for Inflation Miss",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/greene-blames-loose-boe-policy-not-bad-luck-for-inflation-miss",
+          "date": "2026-11-19T20:18:58Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "RBNZ Sees Signs of Higher Fuel Costs Adding to Broader Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/rbnz-sees-signs-of-higher-fuel-costs-adding-to-broader-inflation",
-          "date": "2026-11-18T20:10:30Z",
+          "title": "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
+          "date": "2026-11-19T19:59:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,35 +700,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 107,
+      "items": 109,
       "publishers": 4,
       "positive": 7,
-      "negative": 33,
+      "negative": 35,
       "neutral": 67,
-      "languageIndex": -38.3,
+      "languageIndex": -38.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 45.8,
+      "sourceConcentration": 46.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Crimean Bridge attacked again, Russia says",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T07:32:06Z",
+          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T21:21:43Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Meets Putin for First Time in 15 Months, Talks Ukraine",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
-          "date": "2026-11-19T04:33:46Z",
+          "title": "War-Driven Cost Squeeze Alarms Companies, Bank of America Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/war-driven-cost-squeeze-alarms-companies-bank-of-america-says",
+          "date": "2026-11-19T20:04:12Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T23:28:03Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Aberdeen’s Galbraith on Ukraine and US-China Tensions",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/aberdeen-s-galbraith-on-ukraine-and-us-china-tensions-video",
+          "date": "2026-11-19T15:39:36Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -743,18 +743,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 41,
+      "items": 42,
       "publishers": 4,
       "positive": 2,
       "negative": 1,
-      "neutral": 38,
-      "languageIndex": -10.6,
+      "neutral": 39,
+      "languageIndex": -10.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 65.9,
+      "sourceConcentration": 66.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
+          "date": "2026-11-18T22:44:11Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
@@ -766,12 +772,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
           "date": "2026-11-18T07:16:16Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-          "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T07:00:25Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -958,19 +958,19 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 271
+      "stories": 285
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 90
+      "stories": 92
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 71
+      "stories": 75
     },
     {
       "publisher": "news.un.org",
-      "stories": 17
+      "stories": 16
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 21,
+    "reportedScanCount": 22,
     "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
