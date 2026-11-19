@@ -3,6 +3,434 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-19-am",
+      "asOf": "2026-11-19",
+      "createdAt": "2026-11-19T01:58:03.786Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — evidence-qualified AM; source pipeline latest success 18 Nov 21:31 UTC",
+      "marketSession": "AM — Thursday 19 Nov 2026 Asia/Kolkata; prior completed Indian session 18 Nov",
+      "coverageWindow": {
+        "start": "2026-11-05",
+        "end": "2026-11-19T07:27:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-18T21:30:47.901657Z",
+      "headline": "Fed minutes reinforce rate risk while Indian FII cash buying persists despite weak breadth; SBI logs a new 55-session volume breakout",
+      "executiveSummary": "NEW since 18 Nov PM: the 18 Nov 21:30 UTC archive includes Fed minutes and Waller's half-point discussion, a reported $19.5bn Indian October crude-import bill (+87.5% y/y), and the Commerce Secretary's warning that an India-US trade signing remains some time away. 18 Nov NSE-derived secondary tables report FII net +₹5,866.78cr versus DII net -₹3,159.90cr despite NIFTY -0.63%; primary NSE reconciliation is outstanding. Updated 18 Nov sector data show private banks +6.68pp and PSU banks +5.97pp relative to NIFTY over three months, versus autos -10.90pp; these are prices, not flows. SBI's 18 Nov ₹1,135 close exceeded the prior 55-session ₹1,114 high on 2.44x mean volume, but the long-average slope remains marginally negative. The 18 Nov 21:31 UTC Polymarket December Fed +25bp YES quote is 91.5¢, -2.0pp from prior stored snapshot, 24h volume $524,615.43 and liquidity $413,127.89; quote is not objective probability. Overall mixed with tighter rate risk and narrow Indian leadership.",
+      "regime": {
+        "label": "Mixed: narrow Indian bank price leadership versus hawkish global rates and external energy exposure",
+        "change": "Fed minutes and Waller comments strengthen rate-risk monitoring; updated FII provisional buying and SBI breakout add specific counterevidence to broad risk-off, while NIFTY breadth deteriorated on 18 Nov.",
+        "confidence": "Moderate for dated secondary reporting and stored sector/price bars; low for sector-flow attribution and unverified geopolitical damage",
+        "marketConfirmation": "18 Nov NIFTY 25,227.95 (-0.63%), 13/16 sectors lower; stored PSU Bank +5.97pp and Private Bank +6.68pp 3m relative, Auto -10.90pp.",
+        "contradictions": [
+          "FII aggregate cash buying versus weak NIFTY breadth",
+          "Nvidia outlook strength versus weak shares",
+          "Oil inventory-led benchmark relief versus high Indian import bill and shipping risk",
+          "PSU bank 55-session breakout versus marginally falling 200-day trend"
+        ],
+        "missingSignals": [
+          "Primary NSE 18 Nov buy/sell reconciliation",
+          "Latest NSDL fortnightly sector purchases",
+          "Primary AMFI October category and SIP flows",
+          "CFTC numeric weekly speculative positions",
+          "US Treasury TIC country net purchases",
+          "Verified issuer CDS or bond-spread change",
+          "Exchange verification of SBI OHLCV"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "18 Nov FII gross buy / sell / net",
+          "value": "₹17,913.16cr / ₹12,046.38cr / +₹5,866.78cr",
+          "period": "2026-11-18",
+          "dataClass": "Secondary NSE provisional cash transaction reproduction",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "18 Nov DII gross buy / sell / net",
+          "value": "₹14,602.25cr / ₹17,762.15cr / -₹3,159.90cr",
+          "period": "2026-11-18",
+          "dataClass": "Secondary NSE provisional cash transaction reproduction",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,227.95 (-0.63%)",
+          "period": "2026-11-18",
+          "dataClass": "Index closing price",
+          "source": "https://www.thehindu.com/business/markets/stock-markets-snap-2-day-rally-sensex-drops-500-points-amid-profit-booking-us-fed-rate-hike-fears/article71715789.ece"
+        },
+        {
+          "name": "Private bank 3m relative",
+          "value": "+6.68 pp",
+          "period": "2026-11-18",
+          "dataClass": "Sector index relative price return, not flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "PSU bank 3m relative",
+          "value": "+5.97 pp",
+          "period": "2026-11-18",
+          "dataClass": "Sector index relative price return, not flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Auto 3m relative",
+          "value": "-10.9 pp",
+          "period": "2026-11-18",
+          "dataClass": "Sector index relative price return, not flow",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "SBI 55-session price breakout",
+          "value": "₹1,135 vs ₹1,114 prior high; volume 2.44x",
+          "period": "2026-11-18",
+          "dataClass": "Unofficial OHLCV technical observation",
+          "source": "https://ashu2526.github.io/equity-atlas/company-signals.html"
+        },
+        {
+          "name": "December Fed +25bp YES",
+          "value": "91.5¢; -2pp vs stored prior; 24h $524615.43; liquidity $413127.89",
+          "period": "2026-11-18T21:31:14.551574+00:00",
+          "dataClass": "Polymarket betting quote; not objective probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-19-am-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "inflation_rates",
+          "geography": "United States / India",
+          "title": "Fed minutes and Waller comments raise the policy-rate hurdle",
+          "whatHappened": "18 Nov Fed minutes headline reports almost all officials expect further increases; Waller separately raised the possibility of a half-point move.",
+          "whyItMatters": [
+            "Higher expected policy rates can raise Indian equity discount rates and foreign-currency funding costs.",
+            "Duration-sensitive NBFC, real estate and technology valuations are vulnerable even without a completed Fed hike."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "US duration, dollar, Indian rate-sensitive equity",
+          "proxies": "Banks with stable funding, short-duration cash-rich businesses",
+          "whatCouldChange": "Verify official FOMC minutes, Treasury 2y/10y yields and subsequent Fed action; invalidate a one-way hawkish inference if yields fall and policy guidance softens",
+          "caution": "These are reported views/minutes, not a new policy decision; official minutes not independently inspected.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+            "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "energy_shipping",
+          "geography": "India / Middle East",
+          "title": "October Indian crude-import bill underscores oil exposure",
+          "whatHappened": "18 Nov Hindu report states October crude import bill $19.5bn, +87.5% year-on-year with volume +11%; security headlines cite Iran-linked attacks and infrastructure allegations.",
+          "whyItMatters": [
+            "Oil import value can widen India's external funding requirement and weaken INR even when benchmark crude later declines.",
+            "Refining, aviation, tyres, chemicals and paints face differing cost pass-through and shipping insurance exposure."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "Oil importers, OMCs, airlines and downstream users",
+          "proxies": "Tyre/paint manufacturers if feedstock falls; domestic energy equipment if supply-security investment materialises",
+          "whatCouldChange": "Track official petroleum trade release, Brent landed costs, freight premiums, USD/INR and quarterly gross margins",
+          "caution": "Import bill and attacks are separate observations; no independently verified damage/insurance quote.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+            "https://www.bloomberg.com/news/articles/2026-11-18/iran-has-targeted-us-energy-and-finance-networks-mullin-says"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Foreign cash purchases persist despite falling equity breadth",
+          "whatHappened": "18 Nov secondary NSE-derived cash tables show foreign net purchases ₹5,866.78cr and domestic institutional net sales ₹3,159.90cr; NIFTY fell 0.63%.",
+          "whyItMatters": [
+            "Net cash purchases alongside index declines imply selling elsewhere or composition effects, not necessarily foreign accumulation in winning sectors.",
+            "DII net selling may reflect portfolio rebalancing, not mutual-fund redemptions."
+          ],
+          "smartMoney": "Secondary reproduction of NSE provisional 18 Nov cash transactions: FII buy ₹17,913.16cr, sell ₹12,046.38cr, net +₹5,866.78cr; DII buy ₹14,602.25cr, sell ₹17,762.15cr, net -₹3,159.90cr. Primary NSE endpoint not independently reconciled.",
+          "direct": "Indian cash equities and liquidity",
+          "proxies": "Brokers, exchanges and liquid large caps if turnover persists",
+          "whatCouldChange": "Reconcile official NSE gross rows, subsequent breadth and NSDL sector transactions",
+          "caution": "Reported provisional data; no issuer/sector identification; NSE primary figures unverified.",
+          "sources": [
+            "https://www.jivanimarkets.com/markets/fii-dii",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-4",
+          "rank": 4,
+          "importance": "material",
+          "theme": "ai_rotation",
+          "geography": "United States / India / East Asia",
+          "title": "Nvidia revenue outlook and falling shares diverge",
+          "whatHappened": "Reuters 18 Nov reports Nvidia sales outlook ahead of expectations while shares fell and the dollar strengthened.",
+          "whyItMatters": [
+            "AI capex demand signals and equity multiples can diverge: guidance does not guarantee downstream Indian equipment orders.",
+            "Export controls and leadership uncertainty can affect Asian semiconductor supply chains and procurement timing."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "Semiconductors, cloud capex, AI infrastructure",
+          "proxies": "Indian transformers, cooling, switchgear, BESS only where signed contracts emerge",
+          "whatCouldChange": "Check Nvidia filings, hyperscaler capex revisions and Indian order-book disclosures",
+          "caution": "Avoid inferring capex collapse from shares falling or orders from a proposed campus.",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-18/"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-5",
+          "rank": 5,
+          "importance": "material",
+          "theme": "trade_policy",
+          "geography": "India / United States",
+          "title": "India-US trade deal remains unsigned",
+          "whatHappened": "India's Commerce Secretary said on 18 Nov that signing the bilateral trade deal will still take time.",
+          "whyItMatters": [
+            "Tariff uncertainty complicates exporters' pricing and capex commitments.",
+            "A delayed agreement postpones any verified duty relief for textiles, engineering and specialty manufacturers."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "Export-oriented manufacturing and import-sensitive supply chains",
+          "proxies": "Logistics, ports and industrial suppliers if actual trade volumes rise",
+          "whatCouldChange": "Monitor signed legal text, effective tariffs and customs data",
+          "caution": "Negotiation commentary is not enacted policy or a tariff cut.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-6",
+          "rank": 6,
+          "importance": "material",
+          "theme": "global_rates",
+          "geography": "United Kingdom / global",
+          "title": "UK fuel-driven inflation and Bank of England tightening conditionality",
+          "whatHappened": "UK October headline CPI reached 3.6% per BBC; BoE governor's 18 Nov comments linked potential further tightening to persistent Iran-related energy shocks.",
+          "whyItMatters": [
+            "Energy inflation can restrict global rate easing and raise discount rates.",
+            "Sticky rates can affect global capital allocation and Indian exporters' overseas demand."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "UK consumers, rate-sensitive global assets",
+          "proxies": "Indian IT exporters via UK client budgets, FX translation",
+          "whatCouldChange": "Confirm ONS CPI breakdown, BoE meeting decision and UK gilt yields",
+          "caution": "Core CPI and headline CPI differ; no policy move established.",
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo",
+            "https://www.bloomberg.com/news/articles/2026-11-18/boe-s-bailey-says-more-rate-hikes-needed-if-iran-conflict-lasts"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-7",
+          "rank": 7,
+          "importance": "material",
+          "theme": "india_sector_rotation",
+          "geography": "India",
+          "title": "Bank sector price leadership survives while autos remain deeply behind",
+          "whatHappened": "18 Nov stored NIFTY Private Bank 3m +11.45% (+6.68pp relative); PSU Bank +10.74% (+5.97pp); Auto -6.13% (-10.90pp relative).",
+          "whyItMatters": [
+            "Persistent sector relative strength is useful for prioritising earnings review but cannot identify who bought.",
+            "Autos' relative weakness warrants testing pricing power, financing and input costs rather than a blanket demand conclusion."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "Banks, autos",
+          "proxies": "Capital-market intermediaries, auto suppliers",
+          "whatCouldChange": "Validate NSDL fortnightly sector purchases, bank NIM/credit quality, auto monthly registrations",
+          "caution": "These are stored price returns; not FPI flow or guaranteed future returns.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/signals.html"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        },
+        {
+          "id": "2026-11-19-am-8",
+          "rank": 8,
+          "importance": "material",
+          "theme": "technical_price_volume",
+          "geography": "India",
+          "title": "SBI records fresh volume-backed 55-session breakout",
+          "whatHappened": "18 Nov stored OHLCV: SBIN close ₹1,135 above prior 55-session high ₹1,114; relative volume 2.44x 20-session mean; 200-day slope approximately -0.04% over 20 sessions.",
+          "whyItMatters": [
+            "A confirmed volume breakout merits monitoring relative to the already strong PSU bank index.",
+            "High RSI and a flat/slightly falling long average create a short/long horizon conflict."
+          ],
+          "smartMoney": "Not measured at theme/sector level",
+          "direct": "SBI equity technical structure",
+          "proxies": "Other PSU banks only if their own price and fundamentals confirm",
+          "whatCouldChange": "Two more closes above ₹1,114, check credit costs/NIM, exchange OHLCV and sector breadth",
+          "caution": "Unofficial price feed; a breakout is not institutional flow or investment advice.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/company-signals.html"
+          ],
+          "evidenceType": "Dated public reporting; primary confirmation noted where unavailable"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "PSU banks",
+          "state": "Accelerating price leadership; SBI new 55-session breakout",
+          "evidence": "PSU 3m +5.97pp relative; SBI 2.44x volume",
+          "earningsTransmission": "Credit growth, deposit cost, NIM and slippages",
+          "proxies": "Brokers, loan servicers",
+          "counterevidence": "SBI 200-day slope marginally negative; sector NSDL flows absent",
+          "change": "Fresh SBI 18 Nov breakout versus no fresh 18 Nov OHLCV in PM",
+          "nextData": "Exchange OHLCV, bank earnings, NSDL sector net transactions"
+        },
+        {
+          "sector": "Private banks",
+          "state": "Strong but not confirmed accumulation",
+          "evidence": "3m +6.68pp relative; 1m 11.53%",
+          "earningsTransmission": "Funding spreads and loan growth",
+          "proxies": "Payments and capital market platforms",
+          "counterevidence": "18 Nov breadth weak; higher Fed discount rates",
+          "change": "Updated through 18 Nov, leadership remains",
+          "nextData": "Loan/deposit growth, NSDL sector flows"
+        },
+        {
+          "sector": "Hospitals",
+          "state": "Selective technical strength, short-term overextension risk",
+          "evidence": "Recent Yatharth and Max breakouts, 18 Nov Yatharth volume 0.78x average",
+          "earningsTransmission": "Occupancy, ARPOB and expansion utilisation",
+          "proxies": "Medical devices and diagnostics",
+          "counterevidence": "No fresh Yatharth 55-session break; high RSI",
+          "change": "Fresh 18 Nov bars weaken repeated-breakout claim",
+          "nextData": "Exchange price-volume and hospital quarterly operating data"
+        },
+        {
+          "sector": "AI infrastructure electricals",
+          "state": "Opportunity not yet proven",
+          "evidence": "Nvidia outlook above expectations, share-price weakness",
+          "earningsTransmission": "Transformer/cooling/BESS orders and margins",
+          "proxies": "Power distribution and industrial automation",
+          "counterevidence": "Export restrictions and no verified Indian procurement",
+          "change": "Earnings demand versus valuation divergence persists",
+          "nextData": "Signed capex orders and client contracts"
+        },
+        {
+          "sector": "Tyres and paints",
+          "state": "Potential cost relief, unproven margins",
+          "evidence": "Benchmark oil weakness versus high import bill",
+          "earningsTransmission": "Rubber/petrochemical inputs and freight",
+          "proxies": "Chemical suppliers",
+          "counterevidence": "FX and marine insurance offsets",
+          "change": "New October import-bill data strengthens external-risk test",
+          "nextData": "Landed feedstock and quarterly gross margin"
+        },
+        {
+          "sector": "Autos",
+          "state": "Cooling relative strength",
+          "evidence": "Auto 3m -10.9pp versus NIFTY",
+          "earningsTransmission": "Retail demand, financing, commodity costs",
+          "proxies": "Auto components and dealerships",
+          "counterevidence": "Potential lower crude and seasonal sales",
+          "change": "Updated underperformance deepens",
+          "nextData": "VAHAN registrations and OEM monthly dispatches"
+        },
+        {
+          "sector": "IT exporters",
+          "state": "Not yet proven recovery",
+          "evidence": "IT 3m -2.05pp relative",
+          "earningsTransmission": "US/UK discretionary spending and FX",
+          "proxies": "ER&D and staffing",
+          "counterevidence": "Stronger USD may help translation while rates hurt demand",
+          "change": "Fed minutes raise client-budget risk",
+          "nextData": "Deal TCV, guidance and USD/INR"
+        },
+        {
+          "sector": "Ports and logistics",
+          "state": "Mixed geopolitical risk",
+          "evidence": "Hormuz incidents and trade-signing delay",
+          "earningsTransmission": "Freight costs, volumes and insurance",
+          "proxies": "Warehousing and rail logistics",
+          "counterevidence": "No confirmed disruption volume",
+          "change": "Trade-policy uncertainty reinforced",
+          "nextData": "Actual freight, throughput and treaty text"
+        }
+      ],
+      "cooling": [
+        {
+          "sector": "Auto",
+          "reason": "3m relative lag -10.90pp; require demand evidence"
+        },
+        {
+          "sector": "IT",
+          "reason": "Negative relative strength and higher-rate uncertainty"
+        },
+        {
+          "sector": "Broader small/midcap participation",
+          "reason": "18 Nov breadth weak despite positive FII aggregate cash purchases"
+        }
+      ],
+      "risks": [
+        "US two-year Treasury yield accelerates after hawkish minutes",
+        "Brent landed crude and freight insurance rise together",
+        "USD/INR depreciation widens imported-input inflation",
+        "NIFTY breadth remains negative despite FII buying",
+        "SBI closes back below ₹1,114 with fading volume",
+        "India-US trade text delayed or tariff burden rises",
+        "Nvidia and AI-capex orders diverge further"
+      ],
+      "whatChanged": [
+        "18 Nov 21:30 UTC archive captured Fed minutes and half-point policy discussion absent from prior PM narrative",
+        "18 Nov full sector and company price bars are now available; SBI shows new 55-session volume-confirmed breakout",
+        "18 Nov NSE-derived provisional gross FII/DII cash transactions now reproduced by multiple secondary sources",
+        "Indian October crude import bill and India-US signing delay provide new external-risk detail",
+        "Polymarket Fed +25bp YES moved from 93.5¢ to 91.5¢ versus actual stored preceding snapshot"
+      ],
+      "tomorrowChecklist": [
+        "Confirm 18 Nov official NSE FII/DII gross buy/sell/net against secondary tables",
+        "Check 19 Nov NIFTY and PSU/private bank breadth, and SBI hold above ₹1,114 on exchange volume",
+        "Check USD/INR, Brent, freight rates and US 2y/10y yields",
+        "Fetch official FOMC minutes and scheduled Fed speakers",
+        "Obtain NSDL latest sector net purchases and dates, not holdings",
+        "Reconcile AMFI October equity inflow categories against primary release",
+        "Check CFTC weekly positions and TIC country flows with observation dates",
+        "Check signed India-US trade agreement or absence thereof",
+        "Compare fresh Polymarket snapshot only with stored prior quote"
+      ],
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+        "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike",
+        "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+        "https://www.bloomberg.com/news/articles/2026-11-18/iran-has-targeted-us-energy-and-finance-networks-mullin-says",
+        "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+        "https://www.thehindu.com/business/markets/stock-markets-snap-2-day-rally-sensex-drops-500-points-amid-profit-booking-us-fed-rate-hike-fears/article71715789.ece",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-18/",
+        "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.amfiindia.com/research-information/amfi-monthly",
+        "https://www.fpi.nsdl.co.in/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "Publisher RSS not exhaustive; articles are source links, not full-text verification",
+        "18 Nov 21:30:47 UTC archive and 21:31 UTC signals are latest successful snapshots; no newer 19 Nov 07:00 IST pipeline success confirmed",
+        "NSE 18 Nov cash gross figures reproduced from secondary sites; primary NSE access not independently confirmed",
+        "NSDL sector flow, primary AMFI category figures, CFTC numeric positions, US TIC country flows not retrieved; no sector capital-flow inference",
+        "Polymarket quotes are event betting prices, not objective probabilities or equity institutional flow",
+        "SBI OHLCV derived from third-party feed and needs exchange validation",
+        "No issuer CDS quotes or actual systemic credit-spread data verified"
+      ]
+    },
+    {
       "id": "2026-11-18-pm",
       "asOf": "2026-11-18",
       "createdAt": "2026-11-18T13:56:22.644Z",
