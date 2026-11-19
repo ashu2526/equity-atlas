@@ -3,6 +3,417 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-19-pm",
+      "asOf": "2026-11-19",
+      "createdAt": "2026-11-19T13:51:49.146Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified PM; 19:00 IST source pipeline completion unconfirmed",
+      "marketSession": "PM — Thursday 19 Nov 2026 Asia/Kolkata; completed Indian session 19 Nov (secondary close); stored technical bars through 18 Nov",
+      "coverageWindow": {
+        "start": "2026-11-05",
+        "end": "2026-11-19T19:20:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-19T09:10:10.732459Z",
+      "headline": "Indian equities rebound to nine-month highs as Anthropic's record IPO revives AI financing appetite; Fed rate and flow verification risks persist",
+      "executiveSummary": "NEW since 19 Nov AM: Indian NIFTY closed +1.14% at 25,514.30 and Sensex +1.21% at 83,021.75 after a weak open, with banks/autos/consumer durables leading (secondary close reporting). Reuters reports Anthropic priced its record ~$81.3bn IPO at $83/share, ~$1.5tn fully diluted valuation, supporting near-term AI financing sentiment but not verified India capex orders. The latest repo RSS scan at 09:10:10 UTC predates the 19:00 IST source cycle; sector and company bars still end 18 Nov. The stored 19 Nov 09:06 UTC Fed +25bp Polymarket YES quote is 91.5¢, unchanged from prior snapshot, $507,435 24h betting volume and $720,551 liquidity; not an objective probability. Official 19 Nov NSE FII/DII gross and sector FPI purchases were not retrieved. Regime remains mixed, with improved Indian price breadth but unconfirmed flow and macro sustainability.",
+      "regime": {
+        "label": "Mixed / improving Indian breadth versus hawkish US rates and AI financing concentration",
+        "change": "Compared with AM's weak-breadth/discount-rate emphasis, 19 Nov Indian closes show a genuine broad rebound and Anthropic's primary financing event adds counterevidence to an immediate AI capital drought; no primary sector institutional purchases established.",
+        "confidence": "Moderate on independently cross-reported close and Reuters IPO; low on sustainability, sector capital allocation and unrefreshed OHLCV",
+        "marketConfirmation": "19 Nov NIFTY 25,514.30 (+1.14%), Sensex 83,021.75 (+1.21%); NIFTY Bank reportedly +1.6% intraday to 63,053.25; sector 3m snapshots still 18 Nov",
+        "contradictions": [
+          "Indian index/bank rebound versus hawkish US Fed and weak IT share performance",
+          "IPO demand and primary capital raise versus unproven cash returns on AI infrastructure",
+          "MTD foreign buying reports versus prior DII net selling and missing current NSE gross figures",
+          "Lower crude benchmark versus elevated October Indian crude import bill"
+        ],
+        "missingSignals": [
+          "Official 19 Nov NSE FII/DII gross buy/sell/net",
+          "19 Nov exchange index breadth and final sector closes",
+          "19 Nov stock OHLCV and new breakout validation",
+          "NSDL latest fortnightly sector net transactions",
+          "AMFI latest primary monthly subscriptions/SIPs",
+          "CFTC weekly numeric positions and US Treasury TIC country flows",
+          "Verified issuer CDS spreads or dated credit-spread change"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 closing price",
+          "value": "25,514.30 (+286.35; +1.14%)",
+          "period": "2026-11-19 close",
+          "dataClass": "Secondary reported Indian index closing price",
+          "source": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
+        },
+        {
+          "name": "Sensex closing price",
+          "value": "83,021.75 (+989.94; +1.21%)",
+          "period": "2026-11-19 close",
+          "dataClass": "Secondary reported Indian index closing price",
+          "source": "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
+        },
+        {
+          "name": "Anthropic IPO price / proceeds / valuation",
+          "value": "$83/share; ~$81.3bn primary IPO; ~$1.5tn fully diluted valuation",
+          "period": "Pricing 2026-11-18; reported 2026-11-19",
+          "dataClass": "Reported corporate primary equity issuance, not secondary equity flow",
+          "source": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/"
+        },
+        {
+          "name": "Reported November-to-date FPI / DII cash net",
+          "value": "FPI +₹94,230cr / DII -₹55,570cr",
+          "period": "MTD as reported 2026-11-19 07:32 IST; cutoff not independently reconciled",
+          "dataClass": "Secondary reported aggregate cash flows; not sector flow or 19 Nov session",
+          "source": "https://www.business-standard.com/markets/news/diis-sell-55-570-cr-in-nov-fpis-buy-94-230-cr-in-cash-market-tactical-or-behavioural-126111900097_1.html"
+        },
+        {
+          "name": "Private Bank 3m relative to NIFTY",
+          "value": "+6.68 percentage points",
+          "period": "Index bars through 2026-11-18",
+          "dataClass": "Index price relative return, not institutional purchases",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "PSU Bank 3m relative to NIFTY",
+          "value": "+5.97 percentage points",
+          "period": "Index bars through 2026-11-18",
+          "dataClass": "Index price relative return, not institutional purchases",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "IT 3m relative to NIFTY",
+          "value": "-2.05 percentage points",
+          "period": "Index bars through 2026-11-18",
+          "dataClass": "Index price relative return, not institutional purchases",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Polymarket Fed December +25bp YES",
+          "value": "91.5¢, 0.0pp vs stored prior; 24h betting volume $507,435.14; liquidity $720,551.43",
+          "period": "2026-11-19T09:06:38.264702Z",
+          "dataClass": "Betting contract quote and volume, not calibrated probability or institutional flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Polymarket Anthropic IPO cap below $1.25T YES",
+          "value": "24.35¢, -14.9pp vs stored prior; 24h betting volume $1,255,198.04; liquidity $115,445.26",
+          "period": "2026-11-19T09:06:38.264702Z",
+          "dataClass": "Betting market quote on IPO-day closing market cap; not objective probability",
+          "source": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-19-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "india_market_breadth",
+          "geography": "India",
+          "title": "Indian benchmarks reverse morning weakness to nine-month highs",
+          "whatHappened": "19 Nov close: NIFTY 50 25,514.30 (+286.35, +1.14%); Sensex 83,021.75 (+989.94, +1.21%). Upstox describes broad gains led by auto, banks and consumer durables; NIFTY Bank touched 63,053.25 intraday (+1.6%).",
+          "whyItMatters": [
+            "Reversal from weak opening and 18 Nov's -0.63% NIFTY session provides genuine new price confirmation, rather than a replay of prior foreign-buying headlines.",
+            "Broad participation reduces yesterday's narrow-leadership concern, but one strong session cannot validate a lasting risk-on regime."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "Banks, autos, consumer durables and index beta",
+          "proxies": "Brokerage/market infrastructure if turnover remains elevated; lenders with strong deposit franchises",
+          "whatCouldChange": "Confirm official NSE closes, advances/declines, sector closing levels and repeat breadth 20 Nov; invalidate sustained-breadth inference on rapid reversal",
+          "caution": "Reported secondary market close, not independent official NSE settlement; 19 Nov FII/DII gross turnover not verified.",
+          "sources": [
+            "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "ai_capex_financing",
+          "geography": "United States / India",
+          "title": "Anthropic record IPO establishes financing demand but not AI capex returns",
+          "whatHappened": "Reuters 19 Nov reports Anthropic priced at $83, raised about $81.3bn in IPO and reached ~$1.5tn fully diluted valuation; Reuters US futures report Nasdaq 100 futures +2.08% before debut. IPO primary issuance is corporate financing, not equity-sector FPI flows.",
+          "whyItMatters": [
+            "IPO proceeds can fund AI compute contracts, creating prospective orders for chips, data centres, cooling and electricity infrastructure.",
+            "High valuation and large forward infrastructure commitments increase sensitivity to realized cash conversion, utilization and financing cost; stock-futures strength is not realized Indian earnings."
+          ],
+          "smartMoney": "Observed corporate primary equity issuance ~$81.3bn, not measured India smart-money flow",
+          "direct": "US AI platforms, semiconductor and cloud capex",
+          "proxies": "Indian grid equipment, transformers, cables, cooling and EPC suppliers only after order disclosures",
+          "whatCouldChange": "Watch IPO regular-session pricing, audited financials, actual signed procurement and supplier backlog; invalidate broad capex spillover if financing remains on balance sheets or spending is delayed",
+          "caution": "Reuters IPO figures refer to issue and fully diluted valuation; no confirmed India supplier allocation or institutional Indian sector flow.",
+          "sources": [
+            "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+            "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "global_rates",
+          "geography": "US / India",
+          "title": "Fed minutes keep global discount-rate headwind in place",
+          "whatHappened": "18 Nov reported FOMC minutes show broad support for further rate hikes; 19 Nov premarket accounts still attribute caution to rates, despite Indian afternoon rally.",
+          "whyItMatters": [
+            "Higher US Treasury yields can raise discount rates and pressure long-duration Indian equities and external USD borrowers.",
+            "Persistent dollar strength can raise imported costs and complicate INR stability despite local equity gains."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "US Treasury duration, INR-sensitive importers, Indian NBFCs",
+          "proxies": "Cash-rich, low-debt companies and deposit-funded banks may be relatively resilient",
+          "whatCouldChange": "Compare official FOMC minutes, US 2y/10y yield changes, dollar index and Indian bond yields; invalidate renewed hawkish interpretation if yields retreat persistently",
+          "caution": "Minutes are not a rate decision; no verified issuer CDS or daily yield-change figure in this run.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Foreign cash purchases versus domestic institutional selling require primary reconciliation",
+          "whatHappened": "19 Nov Business Standard reports month-to-date FPI cash buying near ₹94,230cr and DII cash selling near ₹55,570cr, as of its 07:32 IST publication; figures are dated secondary reporting, not 19 Nov closing transactions.",
+          "whyItMatters": [
+            "Strong aggregate FPI demand can support liquid benchmarks even as domestic institutions rebalance.",
+            "Cash-market gross turnover, NSDL sector allocation, mutual fund subscriptions and portfolio holdings are different measurements and cannot be substituted."
+          ],
+          "smartMoney": "Secondary reported aggregate FPI net +₹94,230cr and DII net -₹55,570cr MTD as of 19 Nov morning; not 19 Nov session gross or sector allocation",
+          "direct": "Indian listed equities and market liquidity",
+          "proxies": "Large-cap brokers, exchanges and custody providers if traded turnover rises",
+          "whatCouldChange": "Fetch official NSE 19 Nov FII/DII buy/sell/net and NSDL fortnightly sector flows, compare exact cutoffs and revisions",
+          "caution": "19 Nov primary NSE row and sector flows unavailable; secondary MTD figures may differ in cutoffs or FPI definitions.",
+          "sources": [
+            "https://www.business-standard.com/markets/news/diis-sell-55-570-cr-in-nov-fpis-buy-94-230-cr-in-cash-market-tactical-or-behavioural-126111900097_1.html",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-5",
+          "rank": 5,
+          "importance": "medium",
+          "theme": "fx_external_balance",
+          "geography": "India / US",
+          "title": "Rupee strength complicates IT-exporter translation while relieving import costs",
+          "whatHappened": "Upstox 19 Nov reports INR closed 18 Nov at ₹93.41/USD, seven-month high; morning 19 Nov reports a modest retreat to ₹93.49, not a verified closing FX fix.",
+          "whyItMatters": [
+            "INR appreciation lowers rupee translation of dollar revenue for IT exporters unless hedges offset.",
+            "Importers of fuel, electronics and machinery may benefit, though Brent and freight costs can outweigh currency relief."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "IT exporters, oil importers, airlines, electronics",
+          "proxies": "Paints, tyres and domestic consumption through input-cost relief",
+          "whatCouldChange": "Confirm RBI reference rate and 19 Nov closing spot, company hedge books and next-quarter FX sensitivity",
+          "caution": "Intraday INR is not an official daily close; currency position covering is not equity flow.",
+          "sources": [
+            "https://upstox.com/news/market-news/stocks/indian-rupee-at-7-month-high-against-us-dollar-how-a-stronger-rupee-impacts-tcs-infosys-and-other-it-companies-earnings/article-203696/",
+            "https://hdfcsky.com/news/rupee-slides-8-paise-to-93-49-against-us-dollar-in-early-trade-november-19-2026"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "energy_shipping",
+          "geography": "India / Middle East",
+          "title": "Oil import bill remains high despite benchmark crude relief",
+          "whatHappened": "18 Nov report: India's October crude import bill $19.5bn (+87.5% y/y), volumes +11%; 19 Nov oil commentary describes supply/rate concerns weighing on crude.",
+          "whyItMatters": [
+            "Large petroleum import value transmits into trade deficit, working capital and external financing exposure.",
+            "Lower spot crude may relieve input costs, but shipping insurance, landed costs and rupee moves determine actual margins."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "OMCs, airlines, refiners and chemical feedstock users",
+          "proxies": "Tyres, paints, logistics and industrial gas buyers conditionally",
+          "whatCouldChange": "Track Brent, India crude basket, freight/insurance and OMC pricing; invalidate margin-relief thesis if landed input costs do not fall",
+          "caution": "Historical import bill is not today's price and regional attack claims are not independently verified.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+            "https://timesofindia.indiatimes.com/business/international-business/oil-prices-slip-as-supply-concerns-and-us-rate-hike-fears-weigh-on-market-sentiment/articleshow/135977286.cms"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "trade_geopolitics",
+          "geography": "India / US / Russia",
+          "title": "Trade and diplomatic headlines remain negotiations, not enacted relief",
+          "whatHappened": "18 Nov India's Commerce Secretary said India-US agreement signing would take more time; 19 Nov Bloomberg reports Trump-Putin meeting, but no verified ceasefire or enacted sanctions reversal in this run.",
+          "whyItMatters": [
+            "Uncertain tariff schedules can postpone export orders and pricing decisions.",
+            "A verified sanctions or shipping-policy change could alter energy freight and European demand, but diplomatic meetings alone do not deliver those outcomes."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "Indian textile, chemicals and engineering exporters",
+          "proxies": "Ports, logistics and export finance only on signed policy and order evidence",
+          "whatCouldChange": "Require signed tariff text, implementation date, sanctions notices and importer purchase orders",
+          "caution": "No claim of enacted tariff relief, ceasefire or independently measured trade-flow change.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+            "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        },
+        {
+          "id": "2026-11-19-pm-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "sector_rotation_technical",
+          "geography": "India",
+          "title": "Bank price leadership remains stronger than IT; SBI breakout is not newly refreshed",
+          "whatHappened": "Repository 18 Nov: NIFTY Private Bank 3m +11.45%, +6.68pp vs NIFTY; PSU Bank +10.74%, +5.97pp; IT +2.72%, -2.05pp. SBI 18 Nov 55-session close breakout ₹1,135 vs ₹1,114, 2.44x volume already reported in AM; no new 19 Nov OHLCV bars.",
+          "whyItMatters": [
+            "Bank outperformance versus IT is observable relative-price evidence and may influence positioning discussions, not measured institutional purchases.",
+            "An already-reported breakout cannot be counted as a new PM alert; falling long-average slope and unverified exchange bar remain caveats."
+          ],
+          "smartMoney": "Not measured for this event or sector; price action is not capital-flow evidence",
+          "direct": "Banks, IT services and listed market infrastructure",
+          "proxies": "Deposit franchises and credit-distribution services if earnings and deposit growth validate",
+          "whatCouldChange": "Check refreshed 19 Nov sector ranks, 55-session resistance retest, 200DMA slope, bank NIM/credit quality and IT order books",
+          "caution": "Stored index/stock bars end 18 Nov, so no 19 Nov technical event established.",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/signals.html",
+            "https://ashu2526.github.io/equity-atlas/company-signals.html"
+          ],
+          "evidenceType": "Dated source reporting and/or repository price observations; inferential transmission explicitly conditional"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Banks (PSU/private)",
+          "status": "Accelerating price leadership; institutional sector buying unproven",
+          "evidence": "18 Nov PSU Bank +5.97pp, Private Bank +6.68pp vs NIFTY 3m; 19 Nov NIFTY Bank reportedly hit record intraday",
+          "transmission": "Credit growth and deposit cost feed NIM and ROA; lenders and payment infrastructure proxies",
+          "counterevidence": "SBI long-average slope slightly negative; 19 Nov NSDL sector flow unavailable",
+          "change": "19 Nov broad rebound adds near-term price confirmation",
+          "nextData": "Official bank index close, NSDL sector net purchases, bank NIM and deposit growth"
+        },
+        {
+          "sector": "Auto / consumer durables",
+          "status": "Rebound candidate, not trend reversal",
+          "evidence": "19 Nov reported sector-led index rebound; 18 Nov Auto -10.90pp 3m relative",
+          "transmission": "Lower fuel and financing costs could aid volumes and margins; tyres and auto ancillaries proxy",
+          "counterevidence": "Auto remains a 3m laggard and financing rates could rise",
+          "change": "New daily rebound against weak 3m trend",
+          "nextData": "19 Nov official sector closes, monthly wholesale/retail registrations and earnings"
+        },
+        {
+          "sector": "AI data-centre supply chain",
+          "status": "Financing acceleration; India order conversion unproven",
+          "evidence": "Reuters ~$81.3bn Anthropic IPO; 19 Nov US tech futures rebound",
+          "transmission": "Orders to chips, grid transformers, cooling, cables and EPC only after disclosed procurement",
+          "counterevidence": "Compute costs and high valuation; no verified India supplier order",
+          "change": "Actual IPO pricing and proceeds replace pre-debut speculation",
+          "nextData": "IPO trading and public filings, Indian company orders, capex utilization"
+        },
+        {
+          "sector": "IT services",
+          "status": "Cooling relative strength",
+          "evidence": "18 Nov IT 3m -2.05pp vs NIFTY, 7d -3.2%",
+          "transmission": "USD revenue translation and discretionary IT spending; cybersecurity may differ",
+          "counterevidence": "AI enterprise adoption may support selective consulting",
+          "change": "Rupee's seven-month high increases translation sensitivity",
+          "nextData": "USD/INR closing rate, deal TCV, guidance and earnings revisions"
+        },
+        {
+          "sector": "Pharma / hospitals",
+          "status": "Mixed, not a new breakout",
+          "evidence": "18 Nov Pharma +2.40pp 3m relative but 7d -2%; existing hospital technical observations stale",
+          "transmission": "Domestic hospital occupancy and pharma export margins",
+          "counterevidence": "Short-term sector pullback; 19 Nov company bars absent",
+          "change": "No validated new PM technical event",
+          "nextData": "Exchange OHLCV, hospital occupancy, payer mix, margins"
+        },
+        {
+          "sector": "Energy / oil-dependent importers",
+          "status": "Conditional cost relief",
+          "evidence": "Oil supply concerns weigh on crude; October Indian crude import bill $19.5bn",
+          "transmission": "Aviation, paints, tyres, petrochemicals and rupee",
+          "counterevidence": "Freight/insurance and external deficit can offset",
+          "change": "No fresh verified landed crude cost",
+          "nextData": "India crude basket, Brent, freight insurance, USD/INR"
+        },
+        {
+          "sector": "Metals / commodities",
+          "status": "Cooling price leadership",
+          "evidence": "18 Nov Metal -10.92pp 3m vs NIFTY; 7d -4.41%",
+          "transmission": "Global China demand, dollar and industrial pricing",
+          "counterevidence": "19 Nov index rally may broaden, unverified metal close",
+          "change": "No established reversal",
+          "nextData": "LME prices, Chinese demand, company realizations"
+        },
+        {
+          "sector": "Realty / NBFC",
+          "status": "Not yet proven",
+          "evidence": "18 Nov Realty +2.76% 7d but -2.17pp 3m relative",
+          "transmission": "Mortgage rates, funding spreads, housing demand",
+          "counterevidence": "Hawkish Fed and local funding risks",
+          "change": "Indian rally does not settle rate exposure",
+          "nextData": "G-sec yields, disbursement growth, spreads, presales"
+        }
+      ],
+      "cooling": [
+        "IT relative-price momentum: 18 Nov 7d -3.2%, 3m -2.05pp relative",
+        "Metal/commodities: Metal 7d -4.41% and 3m -10.92pp relative as of 18 Nov",
+        "No new evidence that lower spot oil has reached corporate gross margins"
+      ],
+      "risks": [
+        "US Treasury yield or dollar jump following Fed minutes reprices Indian long-duration equities",
+        "19 Nov benchmark rebound fails to sustain on 20 Nov with deteriorating market breadth",
+        "Official 19 Nov NSE FII/DII shows reversal or conflicts with secondary MTD reports",
+        "Oil freight/insurance spike despite lower benchmark crude",
+        "Anthropic IPO aftermarket weakness or compute financing commitments fail to turn into orders",
+        "Rupee weakness raises input costs despite lower Brent",
+        "India-US trade negotiation delays become enacted tariff disadvantage",
+        "Stale stock-price pipeline creates false breakout interpretation"
+      ],
+      "whatChanged": [
+        "19 Nov NIFTY +1.14% and Sensex +1.21% reverse 18 Nov broad selloff, unlike AM's premarket caution",
+        "Reuters confirms Anthropic IPO pricing at $83 and ~$81.3bn proceeds, versus AM discussion of anticipated IPO",
+        "19 Nov secondary report documents NIFTY Bank record intraday and auto/consumer durable gains; stored 18 Nov sector relative rankings have not refreshed",
+        "Fed +25bp Polymarket YES 91.5¢ unchanged versus actual prior stored snapshot; Anthropic market-cap contract fell 14.9pp vs previous snapshot, but this is contract-specific",
+        "No new 19 Nov stock OHLCV; SBI 18 Nov breakout already in AM and not reissued as new",
+        "RSS archive advanced to 19 Nov 09:10:10 UTC, but scheduled 19:00 IST pipeline not confirmed"
+      ],
+      "tomorrowChecklist": [
+        "Recheck GitHub 19:00 IST scan and signal pipeline timestamps; do not assume completion",
+        "Confirm NSE official 19 Nov NIFTY/Sensex, breadth and bank/auto/IT sector closing prices",
+        "Retrieve primary NSE 19 Nov FII/DII buy/sell/net and compare period/cutoff",
+        "Check latest NSDL fortnightly FPI sector flows and AMFI primary monthly flows, labeling lags",
+        "Track Anthropic first-day close, valuation, volume and confirmed funding/procurement details",
+        "Compare US Treasury 2y/10y and USD/INR close with Fed-rate pricing",
+        "Check 19 Nov stock OHLCV for genuine new volume-confirmed breakouts and 200DMA trend",
+        "Recheck Brent, India crude basket, shipping insurance and trade agreement official text"
+      ],
+      "sources": [
+        "https://upstox.com/news/market-news/stocks/market-wrap-nov-19-indices-erase-middle-east-war-losses-nifty-50-sensex-hit-9-month-highs-maruti-suzuki-leads-gain/article-203713/",
+        "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+        "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+        "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+        "https://upstox.com/news/market-news/stocks/indian-rupee-at-7-month-high-against-us-dollar-how-a-stronger-rupee-impacts-tcs-infosys-and-other-it-companies-earnings/article-203696/",
+        "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+        "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+        "https://www.business-standard.com/markets/news/diis-sell-55-570-cr-in-nov-fpis-buy-94-230-cr-in-cash-market-tactical-or-behavioural-126111900097_1.html",
+        "https://www.bloomberg.com/news/newsletters/2026-11-19/traders-relief-on-uk-inflation-may-prove-short-lived-as-price-woes-mount",
+        "https://www.bloomberg.com/news/articles/2026-11-19/trump-meets-with-russia-s-putin-for-first-time-in-over-a-year",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes"
+      ],
+      "limitations": "Evening run occurred before the expected 19:25 IST interpretation window. Repo RSS scan latest 19 Nov 09:10:10 UTC (14:40 IST), sector/Polymarket 09:06 UTC and company 09:06 UTC; 19:00 IST pipeline success unconfirmed. The 19 Nov Indian close is secondary reported, not official NSE cross-check. Official 19 Nov FII/DII gross, current NSDL sector net purchases, primary AMFI, CFTC numeric positions, US Treasury TIC country flows, issuer CDS quotes and fresh 19 Nov OHLCV unavailable. Polymarket quotes are betting prices, not objective probabilities. No unsupported sector purchases, technical alerts or trade advice asserted."
+    },
+    {
       "id": "2026-11-19-am",
       "asOf": "2026-11-19",
       "createdAt": "2026-11-19T01:58:03.786Z",
