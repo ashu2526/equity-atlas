@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "NSE index daily archives plus tagged Yahoo fallbacks",
-  "lastAttemptAt": "2026-11-19T21:43:13.143853+00:00",
+  "lastAttemptAt": "2026-11-20T08:51:20.549803+00:00",
   "daily": {
     "2026-07-24": {
       "NIFTY 50": 23767.45,
@@ -1762,6 +1762,28 @@
       "NIFTY MIDSMALL HEALTHCARE": 53635.3,
       "NIFTY MIDSMALL IT & TELECOM": 9996.7,
       "NIFTY CONSUMER DURABLES": 37288.8
+    },
+    "2026-11-19": {
+      "NIFTY 50": 25514.3,
+      "NIFTY AUTO": 28601.3,
+      "NIFTY BANK": 63063.0,
+      "NIFTY ENERGY": 37405.35,
+      "NIFTY FINANCIAL SERVICES": 28299.65,
+      "NIFTY FMCG": 48564.25,
+      "NIFTY IT": 30919.45,
+      "NIFTY MEDIA": 1785.8,
+      "NIFTY METAL": 12299.75,
+      "NIFTY PHARMA": 28371.8,
+      "NIFTY PSU BANK": 9761.05,
+      "NIFTY REALTY": 923.1,
+      "NIFTY COMMODITIES": 9624.15,
+      "NIFTY INFRASTRUCTURE": 9630.2,
+      "NIFTY PRIVATE BANK": 30746.95,
+      "NIFTY OIL & GAS": 11491.05,
+      "NIFTY HEALTHCARE INDEX": 17338.95,
+      "NIFTY MIDSMALL HEALTHCARE": 53910.25,
+      "NIFTY MIDSMALL IT & TELECOM": 9987.5,
+      "NIFTY CONSUMER DURABLES": 38644.35
     }
   },
   "yahooSeries": {}
