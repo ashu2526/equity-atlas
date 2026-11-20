@@ -3,6 +3,419 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-20-am",
+      "asOf": "2026-11-20",
+      "createdAt": "2026-11-20T01:53:08.871Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — evidence-qualified AM; 07:00 IST source refresh not yet confirmed",
+      "marketSession": "AM — Friday 20 Nov 2026 Asia/Kolkata; prior completed Indian session 19 Nov",
+      "coverageWindow": {
+        "start": "2026-11-06",
+        "end": "2026-11-20T07:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-19T21:42:57.023033Z",
+      "headline": "Anthropic's strong debut fails to lift broad US equities; Indian foreign cash buying strengthens but final-flow reconciliation and energy risks temper the bank-led rally",
+      "executiveSummary": "NEW since 19 Nov PM: Anthropic reportedly gained about 17% on debut while Wall Street broadly declined; the dollar strengthened and oil rose amid Hormuz concerns. Secondary NSE-derived 19 Nov cash transactions show FII buy ₹20,706.95cr, sell ₹13,295.54cr, net +₹7,411.41cr and DII buy ₹17,651.50cr, sell ₹19,008.07cr, net −₹1,356.57cr; separate secondary NSDL final FPI reporting differs substantially and cannot be conflated. The 19 Nov Indian index rally remains reported, but stored sector returns end 18 Nov. 19 Nov stock bars show SBI another volume-backed 55-session breakout, not a sector institutional flow. Latest 19 Nov 21:42 UTC RSS and 21:43 UTC signal snapshots predate 20 Nov 07:00 IST pipeline; completion unconfirmed. Regime mixed, moderate confidence in prices, low in capital-allocation attribution.",
+      "regime": {
+        "label": "Mixed / Indian bank-led price resilience versus global equity and rate risk",
+        "change": "New overnight US broad-market selloff despite Anthropic IPO; fresh secondary 19 Nov aggregate foreign cash purchases and oil reversal; sector snapshot remains stale relative to 19 Nov Indian close.",
+        "confidence": "Moderate for reported events and stored price bars; low for final institutional sector allocation and sustained regime",
+        "marketConfirmation": "19 Nov Indian NIFTY 25,514.30 (+1.14%) secondary close; 18 Nov stored Private Bank +6.68pp, PSU Bank +5.97pp 3m relative; 19 Nov SBI close ₹1,156, 1.68x volume 55d breakout",
+        "contradictions": [
+          "Anthropic debut +17% versus broad US equity decline",
+          "Indian banks lead while US discount-rate pressure remains",
+          "NSE provisional +₹7,411.41cr versus secondary NSDL final +₹291cr methodological difference",
+          "Oil risk versus previously reported crude-price relief"
+        ],
+        "missingSignals": [
+          "Primary 19 Nov NSE FII/DII gross buy/sell/net confirmation",
+          "Latest NSDL fortnightly FPI sector allocations and reconciled daily final FPI flows",
+          "Primary AMFI October equity fund category and SIP figures",
+          "CFTC latest weekly numeric positions",
+          "US Treasury TIC country flows and period",
+          "19 Nov official NIFTY sector close series",
+          "20 Nov 07:00 IST source-pipeline completion",
+          "Verified issuer CDS spread or named CDS event data"
+        ]
+      },
+      "keyNumbers": [
+        {
+          "name": "19 Nov FII provisional NSE cash",
+          "value": "Buy ₹20,706.95cr; sell ₹13,295.54cr; net +₹7,411.41cr",
+          "period": "2026-11-19",
+          "dataClass": "Secondary NSE-derived provisional cash trading, not NSDL final",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "19 Nov DII provisional NSE cash",
+          "value": "Buy ₹17,651.50cr; sell ₹19,008.07cr; net −₹1,356.57cr",
+          "period": "2026-11-19",
+          "dataClass": "Secondary NSE-derived provisional cash trading",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "19 Nov NSDL FPI final (secondary report)",
+          "value": "+₹291cr (including +₹229cr primary market); conflicts with provisional NSE",
+          "period": "2026-11-19",
+          "dataClass": "Unreconciled secondary-reported final FPI",
+          "source": "https://finminutes.com/fii-dii-data/2026-11-19/"
+        },
+        {
+          "name": "NIFTY 50 19 Nov close",
+          "value": "25,514.30 (+1.14%)",
+          "period": "2026-11-19",
+          "dataClass": "Secondary Indian equity index close",
+          "source": "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece"
+        },
+        {
+          "name": "Private Bank relative 3m",
+          "value": "+6.68 percentage points; 3m +11.45%",
+          "period": "Stored index data through 2026-11-18",
+          "dataClass": "Sector price return, not fund flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "PSU Bank relative 3m",
+          "value": "+5.97 percentage points; 3m +10.74%",
+          "period": "Stored index data through 2026-11-18",
+          "dataClass": "Sector price return, not fund flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "SBI technical",
+          "value": "₹1,156 close vs prior 55d high ₹1,142.65; 1.68× 20d volume",
+          "period": "2026-11-19",
+          "dataClass": "Third-party public OHLCV mechanical observation; exchange verification required",
+          "source": "https://tejhq.dev/docs"
+        },
+        {
+          "name": "Polymarket Fed no-change YES",
+          "value": "2.7¢; 24h betting volume $1,151,131.95; liquidity $598,966.88; +0.45pp vs stored preceding snapshot",
+          "period": "2026-11-19T21:43:13.207438Z",
+          "dataClass": "Prediction-market quote and betting activity, not calibrated probability or equity flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-20-am-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "global_equity",
+          "geography": "US / global",
+          "title": "Anthropic gains on debut while broader Wall Street sells off",
+          "whatHappened": "On 19 Nov Anthropic shares reportedly closed around 17% higher in their debut, yet US broad indices finished lower; Reuters describes dollar strength and oil gains amid Hormuz concerns.",
+          "whyItMatters": [
+            "Concentrated IPO demand is not evidence that listed technology-sector earnings or valuations have recovered.",
+            "Global equity weakness can raise discount rates and compress multiples for Indian IT and other duration-sensitive companies."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "US AI platforms and listed technology valuations",
+          "proxies": "Indian data-centre power, cooling and electrical-equipment suppliers only upon actual orders",
+          "whatCouldChange": "Monitor Nasdaq breadth, hyperscaler guidance and India supplier bookings; invalidated as a generalized AI recovery if sector earnings revisions and breadth continue to deteriorate",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+            "https://www.reuters.com/legal/transactional/view-anthropic-set-soar-debut-will-ai-peers-follow-2026-11-19/",
+            "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "rates",
+          "geography": "US / India",
+          "title": "Fed inflation concern and dollar strength remain the discount-rate constraint",
+          "whatHappened": "19 Nov Fed commentary from Goolsbee kept options open amid elevated inflation; Reuters reported a firmer dollar during the global equity selloff.",
+          "whyItMatters": [
+            "Higher US yields can pressure emerging-market equity valuations and FX funding costs.",
+            "Indian NBFCs, real estate and importers face financing or input-cost sensitivity even if domestic bank indices rise."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "US Treasury duration, dollar and Indian borrowing spreads",
+          "proxies": "Exporters with dollar revenue may partially offset currency exposure; deposit-rich banks can be relatively resilient",
+          "whatCouldChange": "Verify US Treasury closing yields, USD/INR and RBI liquidity; invalidate tightening thesis if inflation and yields reverse",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+            "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
+            "https://www.reuters.com/world/india/gold-edges-up-14-month-low-markets-assess-fed-rate-outlook-2026-11-19/"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Provisional foreign cash buying strengthens; NSDL final data differ",
+          "whatHappened": "Secondary NSE-derived tables report 19 Nov FII gross buy ₹20,706.95 crore, sell ₹13,295.54 crore, net +₹7,411.41 crore; DII buy ₹17,651.50 crore, sell ₹19,008.07 crore, net −₹1,356.57 crore. Separate secondary reporting claims NSDL final FPI +₹291 crore, including primary issuance; methodologies differ.",
+          "whyItMatters": [
+            "Foreign buying may support liquid index shares, but gross and net NSE provisional cash transactions cannot be assigned to banks or autos.",
+            "The reported NSDL-versus-NSE discrepancy is material and precludes treating one as final reconciled institutional allocation."
+          ],
+          "smartMoney": "Secondary reported 19 Nov provisional NSE FII +₹7,411.41 crore and DII −₹1,356.57 crore; sector allocations not measured",
+          "direct": "Liquid large-cap equity market",
+          "proxies": "Brokers, exchanges and custody infrastructure if trading volumes persist",
+          "whatCouldChange": "Check NSE primary FII/DII file and NSDL final FPI cash methodology; invalidate strong net-inflow inference if primary reconciliation conflicts",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.jivanimarkets.com/markets/fii-dii",
+            "https://stockparser.in/fii-dii",
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://finminutes.com/fii-dii-data/2026-11-19/"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "india_breadth",
+          "geography": "India",
+          "title": "19 Nov Indian rebound contrasts with overnight global risk aversion",
+          "whatHappened": "19 Nov NIFTY closed 25,514.30 (+1.14%) and Sensex 83,021.75 (+1.21%); banks and autos led the rebound. Stored sector snapshot through 18 Nov has private banks +6.68pp and PSU banks +5.97pp relative to NIFTY over three months.",
+          "whyItMatters": [
+            "A positive domestic session after 18 Nov weakness improves near-term breadth evidence but does not establish a durable regime.",
+            "Banks may benefit from credit growth only if deposit costs, credit quality and net interest margins confirm."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "Indian banking, autos and index beta",
+          "proxies": "Brokerages and consumption-linked lenders if breadth persists",
+          "whatCouldChange": "Check official 19 Nov index constituents, 20 Nov follow-through and quarterly NIM/asset-quality reports; invalidate on renewed narrow breadth",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "energy",
+          "geography": "India / Middle East",
+          "title": "India crude-sourcing mix changes while Hormuz risk offsets spot-price relief",
+          "whatHappened": "19 Nov The Hindu reports OPEC's share of India's April–October crude imports declined to 27.4% amid West Asia tensions; Reuters reports oil prices rose on concern over Hormuz attacks.",
+          "whyItMatters": [
+            "Diversifying supply may alter shipping distances, discounts, refinery economics and working capital.",
+            "Higher crude or insurance premiums can raise costs for airlines, paints, tyres and chemical intermediates even if volumes are secure."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "Refiners, oil importers and shipping",
+          "proxies": "Tyres, paints, chemicals and airlines on sustained landed-cost relief",
+          "whatCouldChange": "Verify official crude import basket, freight insurance and Brent; invalidation if delivered crude costs normalize",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
+            "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "geopolitics",
+          "geography": "Europe / global",
+          "title": "European leaders signal openness to talks with Russia, but no settlement verified",
+          "whatHappened": "19 Nov BBC reported European leaders ready to discuss ending the Ukraine war with Russia; this is a diplomatic signal, not a ceasefire or enacted sanctions relief.",
+          "whyItMatters": [
+            "Potential de-escalation could lower energy and grain risk premia, if backed by enforceable agreements.",
+            "Prematurely pricing sanctions reversal could misstate opportunities for Indian exporters, chemicals and logistics."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "European energy, shipping and agriculture",
+          "proxies": "Indian fertilizer and chemical-input users if verified energy logistics improve",
+          "whatCouldChange": "Require signed terms, sanctions notices and shipping rates; invalidated by renewed hostilities or no agreement",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "gold_fx",
+          "geography": "Global / India",
+          "title": "Gold weakness underscores dollar and real-yield sensitivity",
+          "whatHappened": "Reuters on 19 Nov described gold near a 14-month low as dollar strength and Fed rate expectations weighed on bullion.",
+          "whyItMatters": [
+            "Higher real yields raise the opportunity cost of holding non-yielding gold.",
+            "Gold-loan collateral valuation and jewellery working capital can be affected, though customer demand and loan underwriting may offset."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "Gold miners, jewellery, gold-backed lenders",
+          "proxies": "Indian import bill could ease with lower gold prices; watch physical import volumes",
+          "whatCouldChange": "Verify gold spot, US real yields and Indian jewellery sales; invalidation if dollar and yields reverse",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.reuters.com/world/india/gold-edges-up-14-month-low-markets-assess-fed-rate-outlook-2026-11-19/"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-20-am-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "ai_capex",
+          "geography": "US / India",
+          "title": "Record AI IPO financing does not establish Indian equipment order conversion",
+          "whatHappened": "Reuters reports Anthropic's unusually large IPO and strong first-day performance while broad US stocks weakened; repo RSS shows technology headlines dominate coverage.",
+          "whyItMatters": [
+            "Large primary capital issuance expands corporate financing capacity but is not proof of deployed compute expenditure.",
+            "Indian transformers, cables, grid equipment, cooling and EPC benefit only if procurement, margins and receivables confirm demand."
+          ],
+          "smartMoney": "Not measured for this event; no sector-specific institutional cash purchase established",
+          "direct": "AI compute suppliers and datacentre operators",
+          "proxies": "Indian power-grid equipment, cooling, cables and power developers conditionally",
+          "whatCouldChange": "Track disclosed capex, signed orders, utilization, margins and cash conversion; invalidation if spending is delayed or returns disappoint",
+          "caution": "Reported observations are dated and source-tier qualified; no causal sector-flow attribution, issuer CDS quote or guaranteed transmission.",
+          "sources": [
+            "https://www.reuters.com/legal/transactional/view-anthropic-set-soar-debut-will-ai-peers-follow-2026-11-19/",
+            "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece"
+          ],
+          "evidenceType": "Dated publisher/secondary financial reporting and stored repository observations; interpretations explicitly conditional"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "status": "Accelerating price leadership; flows unproven",
+          "evidence": "18 Nov 3m +11.45%, relative +6.68pp; 1m +11.53%, 7d +1.26%",
+          "transmission": "Deposit pricing, NIM, credit quality; payment infrastructure proxy",
+          "counterevidence": "US yields and 19 Nov missing sector close",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Bank quarterly NIM, NSDL fortnight sector net transactions"
+        },
+        {
+          "sector": "PSU banks",
+          "status": "Accelerating price leadership; caution on long trend",
+          "evidence": "18 Nov 3m +10.74%, relative +5.97pp; 1m +15.06%, 7d +4.10%; SBI 19 Nov 55d breakout ₹1,156 vs ₹1,142.65 on 1.68x volume",
+          "transmission": "Credit growth and operating leverage; financial-services proxies",
+          "counterevidence": "SBI 200d trend and repeated breakout require confirmation",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "20 Nov close above breakout, 200d slope, NSDL flows"
+        },
+        {
+          "sector": "Hospitals",
+          "status": "Selective technical watch, not a fresh breakout",
+          "evidence": "NH and MAXHEALTH stored 19 Nov long-average slope conflict, low same-day volume ratios",
+          "transmission": "Occupancy, ARPOB and payer mix; diagnostics proxies",
+          "counterevidence": "No new volume-backed 19 Nov break; valuation not independently checked",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Exchange OHLCV, earnings and 200d slope"
+        },
+        {
+          "sector": "Autos",
+          "status": "Rebound candidate, 3m laggard",
+          "evidence": "19 Nov daily rebound versus 18 Nov Auto 3m relative underperformance",
+          "transmission": "Demand, financing costs, input margins; tyres and ancillaries proxies",
+          "counterevidence": "Hawkish Fed, JLR margin weakness",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Registrations, wholesale volumes, official sector closing return"
+        },
+        {
+          "sector": "AI infrastructure",
+          "status": "Financing accelerating; orders unproven",
+          "evidence": "Anthropic IPO and stock debut contrasted with falling broad US equities",
+          "transmission": "Compute procurement to cables, cooling, grid equipment",
+          "counterevidence": "IPO proceeds do not equal India purchase orders",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Supplier order books, capex guidance, receivable conversion"
+        },
+        {
+          "sector": "Oil-dependent inputs",
+          "status": "Conditional cooling of cost pressure not established",
+          "evidence": "OPEC import share down, oil rose on Hormuz concern",
+          "transmission": "Paint, tyre, chemical and airline gross margins",
+          "counterevidence": "Freight/insurance and INR may outweigh spot changes",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Landed crude, freight, rupee and quarterly gross margins"
+        },
+        {
+          "sector": "IT services",
+          "status": "Cooling relative confidence",
+          "evidence": "Broad US tech weakness despite Anthropic debut; 18 Nov stored IT underperformed NIFTY",
+          "transmission": "Client budgets and FX translation",
+          "counterevidence": "IPO financing may revive actual spending",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Bookings, deal TCV, guidance, Nasdaq breadth"
+        },
+        {
+          "sector": "Gold/jewellery",
+          "status": "Cooling bullion price, demand uncertain",
+          "evidence": "Reuters 19 Nov gold near 14m low",
+          "transmission": "Inventory cost, gold-loan collateral, jewellery demand",
+          "counterevidence": "Retail volumes and hedges can offset spot impact",
+          "change": "Updated 20 Nov AM against 19 Nov PM; where price snapshot remains 18 Nov, no fresh sector-price claim.",
+          "nextData": "Real yields, import volumes and jewellery sales"
+        }
+      ],
+      "cooling": [
+        "US broad equity and technology breadth despite Anthropic debut",
+        "Gold spot price amid stronger dollar and real-yield concerns",
+        "Auto 3m relative strength remains weak despite 19 Nov daily rebound"
+      ],
+      "risks": [
+        "Fed repricing drives higher Treasury yields and emerging-market discount rates",
+        "Hormuz shipping and marine insurance increase Indian landed energy cost",
+        "NSE provisional versus NSDL final FPI methodological discrepancy",
+        "Indian bank leadership narrows again after one-day broad rally",
+        "AI capex order conversion lags large primary financing event",
+        "USD/INR weakness increases import costs and FX financing stress",
+        "SBI breakout fails below ₹1,142.65 or volume confirmation fades"
+      ],
+      "whatChanged": [
+        "Anthropic stock debut positive but broad Wall Street negative, unlike yesterday's financing optimism",
+        "19 Nov FII +₹7,411.41cr and DII −₹1,356.57cr reported provisionally, with material NSDL discrepancy",
+        "New 19 Nov SBI ₹1,156 55-session volume-backed breakout, following earlier 18 Nov signal; not a fresh sector flow",
+        "19 Nov oil and dollar developments challenge prior conditional energy relief",
+        "Sector price data still 18 Nov despite new 19 Nov stock bars; no invented fresh sector ranks"
+      ],
+      "tomorrowChecklist": [
+        "Confirm NSE primary 19 Nov gross FII/DII transactions and reconcile NSDL final methodology",
+        "Fetch 19 Nov official NIFTY sector indices and 20 Nov opening breadth",
+        "Confirm SBI close above ₹1,142.65 with volume, 200-day trend and earnings checks",
+        "Verify Brent, marine insurance, USD/INR and US Treasury yields",
+        "Check primary AMFI monthly equity subscriptions and NSDL fortnight sector flows",
+        "Check CFTC positions, Treasury TIC publication dates and country exposures",
+        "Track Anthropic debut aftermath and verified supplier capex orders",
+        "Confirm 07:00 IST ingestion completion and latest timestamps"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+        "https://www.reuters.com/legal/transactional/view-anthropic-set-soar-debut-will-ai-peers-follow-2026-11-19/",
+        "https://www.reuters.com/world/india/gold-edges-up-14-month-low-markets-assess-fed-rate-outlook-2026-11-19/",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://stockparser.in/fii-dii",
+        "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
+        "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go",
+        "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
+        "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece",
+        "https://finminutes.com/fii-dii-data/2026-11-19/",
+        "https://www.nseindia.com/all-reports",
+        "https://tejhq.dev/docs"
+      ],
+      "limitations": [
+        "The 07:00 IST pipeline completion was not confirmed: repository RSS updated 19 Nov 21:42:57 UTC, sector/prediction-market data around 21:43 UTC; sector bars end 18 Nov.",
+        "No independent primary NSE gross turnover, NSDL sector allocation, AMFI, CFTC or Treasury TIC numeric retrieval; these remain unavailable, not zero.",
+        "Sector price returns do not establish foreign capital purchases; Polymarket quotes are not calibrated probabilities and betting volumes are not institutional equity flows.",
+        "No verified issuer CDS spreads; no CDS event or pricing claim asserted.",
+        "19 Nov SBI signal repeats a prior 55d breakout pattern at a new high; no claim that it is first-ever breakout.",
+        "Sector leadership and priced event-risk: Private Bank 3m +6.68pp and PSU Bank +5.97pp versus NIFTY as of 18 Nov; Polymarket exact YES question 'Will there be no change in Fed interest rates after the December 2026 meeting?' 2.7¢ as of 19 Nov 21:43 UTC, $1.151m 24h betting volume, $598,967 liquidity, +0.45pp from stored preceding snapshot; no India capital-flow inference."
+      ]
+    },
+    {
       "id": "2026-11-19-pm",
       "asOf": "2026-11-19",
       "createdAt": "2026-11-19T13:51:49.146Z",
