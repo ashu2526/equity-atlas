@@ -1,57 +1,57 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-19T21:42:57.023033Z",
+  "generatedAt": "2026-11-20T08:53:30.205385Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-05",
-    "end": "2026-11-19",
+    "start": "2026-11-06",
+    "end": "2026-11-20",
     "days": 14
   },
   "overall": {
-    "items": 472,
+    "items": 491,
     "publishers": 6,
-    "positive": 54,
-    "negative": 110,
-    "neutral": 308,
-    "languageIndex": -9.0,
+    "positive": 58,
+    "negative": 112,
+    "neutral": 321,
+    "languageIndex": -8.2,
     "label": "Mixed headline language",
-    "sourceConcentration": 60.4,
+    "sourceConcentration": 61.3,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 138,
+      "items": 143,
       "publishers": 3,
       "positive": 17,
       "negative": 16,
-      "neutral": 105,
-      "languageIndex": 1.2,
+      "neutral": 110,
+      "languageIndex": 1.1,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.3,
+      "sourceConcentration": 69.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
-          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T21:38:42Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour",
-          "url": "https://www.thehindu.com/business/markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour/article71721814.ece",
-          "date": "2026-11-19T21:36:10Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video",
-          "date": "2026-11-19T21:24:51Z",
+          "title": "Anthropic Soars Then Slips as AI Trade Fears Linger",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/insight-with-haslinda-amin-11-20-2026-video",
+          "date": "2026-11-20T07:14:36Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Asia Stocks Drop in Wake of Anthropic's Record Debut",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-china-show-11-20-2026-video",
+          "date": "2026-11-20T06:34:41Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "How did Anthropic's stock market debut unfold?",
+          "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-19T23:52:25Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 115,
+      "items": 121,
       "publishers": 5,
       "positive": 5,
-      "negative": 42,
-      "neutral": 68,
+      "negative": 44,
+      "neutral": 72,
       "languageIndex": -28.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.5,
+      "sourceConcentration": 84.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
-          "date": "2026-11-19T20:30:00Z",
+          "title": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/nz-central-bank-s-chief-economist-urges-government-to-stop-messing-with-mandate",
+          "date": "2026-11-20T03:38:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Greene Blames Loose BOE Policy, Not Bad Luck for Inflation Miss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/greene-blames-loose-boe-policy-not-bad-luck-for-inflation-miss",
-          "date": "2026-11-19T20:18:58Z",
+          "title": "Sri Lanka Unexpectedly Raises Key Rate to Combat Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/sri-lanka-raises-policy-rate-to-ensure-inflation-reaches-target",
+          "date": "2026-11-20T02:04:14Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
-          "date": "2026-11-19T19:59:01Z",
+          "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
+          "date": "2026-11-20T01:15:40Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 109,
+      "items": 113,
       "publishers": 4,
-      "positive": 7,
-      "negative": 35,
-      "neutral": 67,
-      "languageIndex": -38.5,
+      "positive": 9,
+      "negative": 36,
+      "neutral": 68,
+      "languageIndex": -37.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 46.8,
+      "sourceConcentration": 47.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T21:21:43Z",
+          "title": "Three Kyiv bridges hit during major Russian missile attack",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T08:40:45Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "War-Driven Cost Squeeze Alarms Companies, Bank of America Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/war-driven-cost-squeeze-alarms-companies-bank-of-america-says",
-          "date": "2026-11-19T20:04:12Z",
+          "title": "Russia Rejects Any Deal Letting Ukraine Join NATO, Ryabkov Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/russia-rejects-any-deal-letting-ukraine-join-nato-ryabkov-says",
+          "date": "2026-11-20T08:25:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Aberdeen’s Galbraith on Ukraine and US-China Tensions",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-19/aberdeen-s-galbraith-on-ukraine-and-us-china-tensions-video",
-          "date": "2026-11-19T15:39:36Z",
+          "title": "Japanese See China, Russia Ties as Worst on Record, Survey Shows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-see-china-russia-ties-as-worst-on-record-survey-shows",
+          "date": "2026-11-20T08:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 42,
+      "items": 43,
       "publishers": 4,
       "positive": 2,
       "negative": 1,
-      "neutral": 39,
-      "languageIndex": -10.7,
+      "neutral": 40,
+      "languageIndex": -10.8,
       "label": "Mixed headline language",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 67.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
+          "date": "2026-11-20T03:10:14Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
@@ -174,12 +180,6 @@
           "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
           "date": "2026-11-18T21:13:52Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Merz’s Coalition Agrees to Slash Electricity Tax for Households",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
-          "date": "2026-11-18T07:16:16Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -198,15 +198,21 @@
       "items": 30,
       "publishers": 1,
       "positive": 17,
-      "negative": 4,
-      "neutral": 9,
-      "languageIndex": 43.3,
+      "negative": 3,
+      "neutral": 10,
+      "languageIndex": 46.7,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee strengthens 17 paise to 93.15 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/indian-rupee-vs-us-dollar-on-november-20-2026/article71723126.ece",
+          "date": "2026-11-20T04:41:26Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Sensex, Nifty surge over 1% as banks, auto stocks drive rally; Bank Nifty hits record high",
           "url": "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece",
@@ -217,12 +223,6 @@
           "title": "Markets bounce back led by auto, bank stocks; Sensex surges nearly 1,000 pts, Nifty reclaims 25,500",
           "url": "https://www.thehindu.com/business/markets/markets-bounce-back-led-by-auto-bank-stocks-sensex-surges-nearly-1000-pts-nifty-reclaims-25500/article71719938.ece",
           "date": "2026-11-19T12:54:58Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee rallies for fourth session to close 5 paise higher at 93.36 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-rallies-for-fourth-session-to-close-5-paise-higher-at-9336-against-us-dollar/article71719898.ece",
-          "date": "2026-11-19T12:54:49Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -281,34 +281,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 13,
+      "items": 15,
       "publishers": 3,
       "positive": 2,
-      "negative": 10,
-      "neutral": 1,
-      "languageIndex": -23.3,
+      "negative": 11,
+      "neutral": 2,
+      "languageIndex": -22.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.9,
+      "sourceConcentration": 80.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
-          "date": "2026-11-19T03:38:03Z",
+          "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
+          "date": "2026-11-20T07:03:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
-          "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
-          "date": "2026-11-18T11:53:30Z",
-          "publisher": "www.thehindu.com"
+          "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
+          "date": "2026-11-20T03:40:28Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
-          "date": "2026-11-18T03:45:44Z",
+          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
+          "date": "2026-11-19T03:38:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -324,18 +324,24 @@
     {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 9,
+      "items": 10,
       "publishers": 2,
       "positive": 1,
       "negative": 0,
-      "neutral": 8,
-      "languageIndex": 8.3,
+      "neutral": 9,
+      "languageIndex": 7.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 70.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "India, Japan Deepen Defense Ties Amid China, US Uncertainty",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/india-japan-deepen-defense-ties-amid-china-us-uncertainty",
+          "date": "2026-11-19T12:53:23Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
           "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
@@ -346,12 +352,6 @@
           "title": "Swiss Face Nail-Biter Vote on Allowing More Weapon Exports",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/swiss-face-nail-biter-vote-on-allowing-more-weapon-exports",
           "date": "2026-11-18T05:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Billionaire Rinehart Boosts US Defense and SpaceX Holdings",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/billionaire-rinehart-boosts-us-defense-and-spacex-holdings",
-          "date": "2026-11-16T22:26:51Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -454,34 +454,34 @@
       "id": "auto_consumer",
       "title": "Auto and demand",
       "items": 4,
-      "publishers": 2,
-      "positive": 1,
-      "negative": 1,
-      "neutral": 2,
-      "languageIndex": 33.3,
+      "publishers": 3,
+      "positive": 3,
+      "negative": 0,
+      "neutral": 1,
+      "languageIndex": 66.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 75.0,
+      "sourceConcentration": 50.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
+          "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T08:49:33Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies",
+          "date": "2026-11-20T07:06:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "US Retail Sales Growth Slows as Big-Ticket Purchases Slip",
           "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-retail-sales-rise-0-2-amid-mixed-demand-for-merchandise",
           "date": "2026-11-17T13:33:57Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Tata Motors Passenger Vehicles reports Q2 net loss of ₹5,531 crore",
-          "url": "https://www.thehindu.com/business/tata-motors-passenger-vehicles-reports-q2-net-loss-of-5531-crore/article71698724.ece",
-          "date": "2026-11-14T04:18:11Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Automobile retail sales fall 24% in October on high base effect a year ago",
-          "url": "https://www.thehindu.com/business/Industry/automobile-retail-sales-fall-24-in-october-on-high-base-effect-a-year-ago/article71673102.ece",
-          "date": "2026-11-06T07:50:04Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Autos; Two-wheelers; Components",
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 115,
+      "items": 121,
       "publishers": 5,
       "positive": 5,
-      "negative": 42,
-      "neutral": 68,
+      "negative": 44,
+      "neutral": 72,
       "languageIndex": -28.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 83.5,
+      "sourceConcentration": 84.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Goolsbee Says All Options on FOMC Table Amid Hot Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-goolsbee-says-all-options-on-fomc-table-amid-hot-inflation",
-          "date": "2026-11-19T20:30:00Z",
+          "title": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/nz-central-bank-s-chief-economist-urges-government-to-stop-messing-with-mandate",
+          "date": "2026-11-20T03:38:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Greene Blames Loose BOE Policy, Not Bad Luck for Inflation Miss",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/greene-blames-loose-boe-policy-not-bad-luck-for-inflation-miss",
-          "date": "2026-11-19T20:18:58Z",
+          "title": "Sri Lanka Unexpectedly Raises Key Rate to Combat Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/sri-lanka-raises-policy-rate-to-ensure-inflation-reaches-target",
+          "date": "2026-11-20T02:04:14Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Fed's Barr Says Inflation Calls for Further Policy Adjustment",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
-          "date": "2026-11-19T19:59:01Z",
+          "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
+          "date": "2026-11-20T01:15:40Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,34 +700,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 109,
+      "items": 113,
       "publishers": 4,
-      "positive": 7,
-      "negative": 35,
-      "neutral": 67,
-      "languageIndex": -38.5,
+      "positive": 9,
+      "negative": 36,
+      "neutral": 68,
+      "languageIndex": -37.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 46.8,
+      "sourceConcentration": 47.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T21:21:43Z",
+          "title": "Three Kyiv bridges hit during major Russian missile attack",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T08:40:45Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "War-Driven Cost Squeeze Alarms Companies, Bank of America Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/war-driven-cost-squeeze-alarms-companies-bank-of-america-says",
-          "date": "2026-11-19T20:04:12Z",
+          "title": "Russia Rejects Any Deal Letting Ukraine Join NATO, Ryabkov Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/russia-rejects-any-deal-letting-ukraine-join-nato-ryabkov-says",
+          "date": "2026-11-20T08:25:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Aberdeen’s Galbraith on Ukraine and US-China Tensions",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-19/aberdeen-s-galbraith-on-ukraine-and-us-china-tensions-video",
-          "date": "2026-11-19T15:39:36Z",
+          "title": "Japanese See China, Russia Ties as Worst on Record, Survey Shows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-see-china-russia-ties-as-worst-on-record-survey-shows",
+          "date": "2026-11-20T08:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,18 +743,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 42,
+      "items": 43,
       "publishers": 4,
       "positive": 2,
       "negative": 1,
-      "neutral": 39,
-      "languageIndex": -10.7,
+      "neutral": 40,
+      "languageIndex": -10.8,
       "label": "Mixed headline language",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 67.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
+          "date": "2026-11-20T03:10:14Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
           "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
@@ -765,12 +771,6 @@
           "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
           "date": "2026-11-18T21:13:52Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Merz’s Coalition Agrees to Slash Electricity Tax for Households",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/merz-s-coalition-agrees-to-slash-electricity-tax-for-households",
-          "date": "2026-11-18T07:16:16Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -786,34 +786,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 13,
+      "items": 15,
       "publishers": 3,
       "positive": 2,
-      "negative": 10,
-      "neutral": 1,
-      "languageIndex": -23.3,
+      "negative": 11,
+      "neutral": 2,
+      "languageIndex": -22.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.9,
+      "sourceConcentration": 80.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
-          "date": "2026-11-19T03:38:03Z",
+          "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
+          "date": "2026-11-20T07:03:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "India-U.S. trade deal signing will still ‘take some time’, says Commerce Secretary Rajesh Agrawal",
-          "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
-          "date": "2026-11-18T11:53:30Z",
-          "publisher": "www.thehindu.com"
+          "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
+          "date": "2026-11-20T03:40:28Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Putin Pitches Russian Resilience to APEC in Swipe at Sanctions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/putin-pitches-russia-as-the-place-to-invest-during-xi-s-apec",
-          "date": "2026-11-18T03:45:44Z",
+          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
+          "date": "2026-11-19T03:38:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 285
+      "stories": 301
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 92
+      "stories": 96
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 75
+      "stories": 74
     },
     {
       "publisher": "news.un.org",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 22,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 23,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

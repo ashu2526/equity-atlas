@@ -1,12 +1,395 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-19T21:42:57.023033Z",
+  "updatedAt": "2026-11-20T08:53:30.205385Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "41a333d608be8a27d005",
+      "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
+      "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T08:49:33Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f451b9b779d9df29241d",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T08:40:45Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "208a397f49a2f7573384",
+      "title": "Russia Rejects Any Deal Letting Ukraine Join NATO, Ryabkov Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/russia-rejects-any-deal-letting-ukraine-join-nato-ryabkov-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T08:25:02Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d610be39506dd0893434",
+      "title": "Japanese See China, Russia Ties as Worst on Record, Survey Shows",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-see-china-russia-ties-as-worst-on-record-survey-shows",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T08:00:00Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "18170fbf4df2d1427f3c",
+      "title": "Anthropic Soars Then Slips as AI Trade Fears Linger",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/insight-with-haslinda-amin-11-20-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T07:14:36Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4a5c5b000d307f3619c1",
+      "title": "Three Kyiv Bridges Hit by Russia after Putin Vowed Revenge for Crimean Bridge",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/three-kyiv-bridges-hit-by-russia-after-putin-vowed-revenge-for-crimean-bridge",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T07:07:40Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "46bde8d266e64f1f5cbb",
+      "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T07:06:00Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7010cdba815df5e71243",
+      "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T07:03:02Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "baadf93f66af5cedd125",
+      "title": "Asia Stocks Drop in Wake of Anthropic's Record Debut",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-china-show-11-20-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T06:34:41Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d64fd85a1368905705c8",
+      "title": "Rupee strengthens 17 paise to 93.15 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/indian-rupee-vs-us-dollar-on-november-20-2026/article71723126.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T04:41:26Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5401dd889c5739624c71",
+      "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T03:40:28Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "31709c9d5cfdbc114bb2",
+      "title": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/nz-central-bank-s-chief-economist-urges-government-to-stop-messing-with-mandate",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T03:38:19Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "97f7969967221ab980b9",
+      "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T03:10:14Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e9409909014bac4585cf",
+      "title": "Sri Lanka Unexpectedly Raises Key Rate to Combat Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/sri-lanka-raises-policy-rate-to-ensure-inflation-reaches-target",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T02:04:14Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "46087326e6f8445afd6f",
+      "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T01:15:40Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5a6738101072384d94f8",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T23:56:03Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9d2a1bd9d9037078d99a",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T23:52:25Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1361ac0afdb3b2936b24",
+      "title": "Fed’s Paulson Says Clear Communication Can Guide Rates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-paulson-says-clear-communication-can-guide-rates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T23:40:00Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c4b7701e0f223fc92cc7",
+      "title": "Japan’s CPI Picks Up, Keeping BOJ on Track for Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/japan-cpi-quickens-to-fastest-this-year-backing-boj-hike-case",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T23:34:12Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "28fefe16dbf392e6b32b",
+      "title": "California targets Nvidia in China AI chip probe",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T23:04:30Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "779c3aaa135ef1ac3ebe",
       "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
@@ -20,7 +403,9 @@
         "ai_rotation"
       ],
       "feedSources": [
-        "BBC Technology"
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
@@ -411,6 +796,44 @@
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dbc79ae52776ea091392",
+      "title": "India, Japan Deepen Defense Ties Amid China, US Uncertainty",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/india-japan-deepen-defense-ties-amid-china-us-uncertainty",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T12:53:23Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c070785e72b0853ba676",
+      "title": "How Jensen Huang’s exit from Nvidia alters AI roadmap",
+      "url": "https://www.thehindu.com/sci-tech/technology/how-jensen-huangs-exit-from-nvidia-alters-ai-roadmap/article71719593.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-19T11:18:34Z",
+      "discovered": "2026-11-20T08:53:30.205385Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
