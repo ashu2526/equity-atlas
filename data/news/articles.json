@@ -1,12 +1,551 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-20T08:53:30.205385Z",
+  "updatedAt": "2026-11-20T21:25:45.228429Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "24e9a318accc2a961b85",
+      "title": "Anthropic CEO Vacations at Italian Resort After Public Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-ceo-vacations-at-italian-resort-after-public-listing",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T20:57:42Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c47e96836e92a1969713",
+      "title": "Anthropic’s IPO Drew More Retail Investor Demand Than SpaceX",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-s-ipo-drew-more-retail-investor-demand-than-spacex",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T20:12:00Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7abcb9e67aa8baf27d55",
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T20:00:53Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b11c595d9f04d9c4556d",
+      "title": "Wall Street Regulator Probes Nvidia Accounting, Reuters Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T19:48:49Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "90cc3cfe9950bce3dbad",
+      "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T19:31:29Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0b5fe1b02286f8325063",
+      "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T18:53:00Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ba72653a95ba2a611c37",
+      "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T18:43:42Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2bb61e5812f2f07c0d80",
+      "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-huang-should-return-as-nvidia-ceo-after-big-apology",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T18:38:33Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "06cb8637097e54b5b337",
+      "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T18:25:23Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1d661f68e0bc7d8b263e",
+      "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T18:03:49Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "acf404f6e9c1429843d2",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T16:54:29Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e3cc117a198be24a58fa",
+      "title": "France Picks Boone to Run Markets at ECB in Pivotal Crisis Role",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/france-picks-boone-to-run-markets-at-ecb-in-pivotal-crisis-role",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T16:41:48Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e13600574a7e9acfa079",
+      "title": "Anthropic’s 17% IPO gain fails to lift AI stocks as Nasdaq slides 2.25%",
+      "url": "https://www.thehindu.com/business/anthropics-17-ipo-gain-fails-to-lift-ai-stocks-as-nasdaq-slides-225/article71725100.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T16:02:24Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1abd6cac98a4ca62b0ec",
+      "title": "Denmark Says Russia Orchestrated Plot to Assassinate Rapper",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/denmark-says-russia-orchestrated-assassination-plot-on-rapper",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T15:52:30Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3eb456d9dd2b16d56b42",
+      "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T15:19:19Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3fcc04ba00f0060c009f",
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T15:14:01Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "950cfb7c8dc3607c9019",
+      "title": "US Consumer Sentiment Up on Improved Post-Election Outlook",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-consumer-sentiment-rises-on-improved-post-election-outlook",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T15:00:00Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2d2dbf09d75b20ef87e2",
+      "title": "Anthropic Slides 9.1% to Shrink IPO Gain as AI Trade Unravels",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-share-slump-nearly-erases-ipo-pop-as-ai-trade-unravels",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T14:36:49Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fb577f36653a9da1c64c",
+      "title": "ECB Needs December Rate Hike Into Restrictive Zone, Nagel Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T13:56:09Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "29d154762357ee2df305",
+      "title": "Canada Retail Sales Tracking Largest Decline Since Feb. 2025",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/canada-retail-sales-tracking-largest-decline-since-february-2025",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T13:30:01Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "auto_consumer"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "454ea214f1c20201d707",
+      "title": "Rupee settles above 93 level after seven months on FII flows",
+      "url": "https://www.thehindu.com/business/Industry/rupee-settles-above-93-level-after-seven-months-on-fii-flows/article71724100.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T12:35:28Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c8aa98c984c06ac0fb06",
+      "title": "West Bank: Record settler attacks mar olive harvest as UN urges Israel to protect farmers",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168849",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T12:00:00Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6a53385fc1bae3354b4f",
+      "title": "Shattered playgrounds and freezing classrooms: Inside Ukraine’s deadliest year for children",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168847",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T12:00:00Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "60347a22732afc21044d",
+      "title": "Stock markets defy global rout; Sensex jumps 898 points, Nifty climbs to 25,800",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T11:41:46Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6a644d2d5d9816e00f22",
+      "title": "Healthcare AI: hospitals lack capacity to measure real-world patient outcomes, warns French expert",
+      "url": "https://www.thehindu.com/business/Industry/healthcare-ai-hospitals-lack-capacity-to-measure-real-world-patient-outcomes-warns-french-expert/article71723894.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T11:32:42Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "healthcare"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e2332e3c59e1a86a1d71",
+      "title": "ECB’s Pereira Says Inflation Pressure Is Significant and Rising",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-s-pereira-says-inflation-pressure-is-significant-and-rising",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T10:18:02Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7a8afe98ed9f70778bcb",
+      "title": "Anthropic’s journey from start-up to stock market giant | Infographics",
+      "url": "https://www.thehindu.com/business/anthropic-journey-from-start-up-to-stock-market-giant-infographics/article71723571.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T09:56:37Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c15617ace120d8d0a4fe",
+      "title": "SEBI eyes faster FPI onboarding, plans fresh reforms to attract foreign capital",
+      "url": "https://www.thehindu.com/business/markets/sebi-eyes-faster-fpi-onboarding-plans-fresh-reforms-to-attract-foreign-capital/article71723707.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T09:41:52Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "41a333d608be8a27d005",
       "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
@@ -24,6 +563,25 @@
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "eae0f5e74e9d8746fdb3",
+      "title": "Give UK Your Data, Nobel Economist Tells Anthropic and OpenAI",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/give-uk-your-data-nobel-economist-tells-anthropic-and-openai",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-20T08:43:51Z",
+      "discovered": "2026-11-20T21:25:45.228429Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T08:53:30.205385Z",
+  "generatedAt": "2026-11-20T21:25:45.228429Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 491,
+    "items": 513,
     "publishers": 6,
-    "positive": 58,
-    "negative": 112,
-    "neutral": 321,
-    "languageIndex": -8.2,
+    "positive": 61,
+    "negative": 118,
+    "neutral": 334,
+    "languageIndex": -6.8,
     "label": "Mixed headline language",
-    "sourceConcentration": 61.3,
+    "sourceConcentration": 62.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 143,
+      "items": 152,
       "publishers": 3,
-      "positive": 17,
-      "negative": 16,
-      "neutral": 110,
-      "languageIndex": 1.1,
+      "positive": 19,
+      "negative": 17,
+      "neutral": 116,
+      "languageIndex": 2.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.2,
+      "sourceConcentration": 69.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anthropic Soars Then Slips as AI Trade Fears Linger",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/insight-with-haslinda-amin-11-20-2026-video",
-          "date": "2026-11-20T07:14:36Z",
+          "title": "Anthropic CEO Vacations at Italian Resort After Public Listing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-ceo-vacations-at-italian-resort-after-public-listing",
+          "date": "2026-11-20T20:57:42Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Asia Stocks Drop in Wake of Anthropic's Record Debut",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-china-show-11-20-2026-video",
-          "date": "2026-11-20T06:34:41Z",
+          "title": "Anthropic’s IPO Drew More Retail Investor Demand Than SpaceX",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-s-ipo-drew-more-retail-investor-demand-than-spacex",
+          "date": "2026-11-20T20:12:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "How did Anthropic's stock market debut unfold?",
-          "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-19T23:52:25Z",
+          "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T20:00:53Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 121,
+      "items": 125,
       "publishers": 5,
       "positive": 5,
-      "negative": 44,
+      "negative": 48,
       "neutral": 72,
-      "languageIndex": -28.5,
+      "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 84.3,
+      "sourceConcentration": 85.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/nz-central-bank-s-chief-economist-urges-government-to-stop-messing-with-mandate",
-          "date": "2026-11-20T03:38:19Z",
+          "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
+          "date": "2026-11-20T18:53:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Sri Lanka Unexpectedly Raises Key Rate to Combat Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/sri-lanka-raises-policy-rate-to-ensure-inflation-reaches-target",
-          "date": "2026-11-20T02:04:14Z",
+          "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
+          "date": "2026-11-20T18:25:23Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
-          "date": "2026-11-20T01:15:40Z",
+          "title": "France Picks Boone to Run Markets at ECB in Pivotal Crisis Role",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/france-picks-boone-to-run-markets-at-ecb-in-pivotal-crisis-role",
+          "date": "2026-11-20T16:41:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 113,
+      "items": 118,
       "publishers": 4,
       "positive": 9,
-      "negative": 36,
-      "neutral": 68,
-      "languageIndex": -37.7,
+      "negative": 37,
+      "neutral": 72,
+      "languageIndex": -35.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 47.8,
+      "sourceConcentration": 48.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Three Kyiv bridges hit during major Russian missile attack",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T08:40:45Z",
+          "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
+          "date": "2026-11-20T19:31:29Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
+          "date": "2026-11-20T18:43:42Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T16:54:29Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia Rejects Any Deal Letting Ukraine Join NATO, Ryabkov Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/russia-rejects-any-deal-letting-ukraine-join-nato-ryabkov-says",
-          "date": "2026-11-20T08:25:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Japanese See China, Russia Ties as Worst on Record, Survey Shows",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-see-china-russia-ties-as-worst-on-record-survey-shows",
-          "date": "2026-11-20T08:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -155,31 +155,31 @@
       "items": 43,
       "publishers": 4,
       "positive": 2,
-      "negative": 1,
-      "neutral": 40,
-      "languageIndex": -10.8,
+      "negative": 0,
+      "neutral": 41,
+      "languageIndex": 1.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 67.4,
+      "sourceConcentration": 72.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
+          "date": "2026-11-20T15:19:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Consumer Sentiment Up on Improved Post-Election Outlook",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-consumer-sentiment-rises-on-improved-post-election-outlook",
+          "date": "2026-11-20T15:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
           "date": "2026-11-20T03:10:14Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
-          "date": "2026-11-18T22:44:11Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
-          "date": "2026-11-18T21:13:52Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,12 +195,12 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 30,
+      "items": 31,
       "publishers": 1,
       "positive": 17,
       "negative": 3,
-      "neutral": 10,
-      "languageIndex": 46.7,
+      "neutral": 11,
+      "languageIndex": 45.2,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +208,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Rupee strengthens 17 paise to 93.15 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/indian-rupee-vs-us-dollar-on-november-20-2026/article71723126.ece",
-          "date": "2026-11-20T04:41:26Z",
+          "title": "Rupee settles above 93 level after seven months on FII flows",
+          "url": "https://www.thehindu.com/business/Industry/rupee-settles-above-93-level-after-seven-months-on-fii-flows/article71724100.ece",
+          "date": "2026-11-20T12:35:28Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Sensex, Nifty surge over 1% as banks, auto stocks drive rally; Bank Nifty hits record high",
-          "url": "https://www.thehindu.com/business/sensex-nifty-surge-over-1-as-banks-auto-stocks-drive-rally-bank-nifty-hits-record-high/article71721012.ece",
-          "date": "2026-11-19T16:38:51Z",
+          "title": "Stock markets defy global rout; Sensex jumps 898 points, Nifty climbs to 25,800",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
+          "date": "2026-11-20T11:41:46Z",
           "publisher": "www.thehindu.com"
         },
         {
-          "title": "Markets bounce back led by auto, bank stocks; Sensex surges nearly 1,000 pts, Nifty reclaims 25,500",
-          "url": "https://www.thehindu.com/business/markets/markets-bounce-back-led-by-auto-bank-stocks-sensex-surges-nearly-1000-pts-nifty-reclaims-25500/article71719938.ece",
-          "date": "2026-11-19T12:54:58Z",
+          "title": "SEBI eyes faster FPI onboarding, plans fresh reforms to attract foreign capital",
+          "url": "https://www.thehindu.com/business/markets/sebi-eyes-faster-fpi-onboarding-plans-fresh-reforms-to-attract-foreign-capital/article71723707.ece",
+          "date": "2026-11-20T09:41:52Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,14 +238,14 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 25,
+      "items": 24,
       "publishers": 4,
       "positive": 5,
       "negative": 7,
-      "neutral": 13,
-      "languageIndex": -3.3,
+      "neutral": 12,
+      "languageIndex": -3.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 60.0,
+      "sourceConcentration": 58.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -281,18 +281,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 15,
+      "items": 16,
       "publishers": 3,
-      "positive": 2,
+      "positive": 3,
       "negative": 11,
       "neutral": 2,
-      "languageIndex": -22.2,
+      "languageIndex": -17.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 80.0,
+      "sourceConcentration": 81.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
+          "date": "2026-11-20T18:03:49Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
           "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
@@ -303,12 +309,6 @@
           "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
           "date": "2026-11-20T03:40:28Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
-          "date": "2026-11-19T03:38:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -367,18 +367,24 @@
     {
       "id": "healthcare",
       "title": "Hospital sector",
-      "items": 8,
+      "items": 9,
       "publishers": 4,
       "positive": 0,
       "negative": 1,
-      "neutral": 7,
+      "neutral": 8,
       "languageIndex": -6.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 50.0,
+      "sourceConcentration": 44.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Healthcare AI: hospitals lack capacity to measure real-world patient outcomes, warns French expert",
+          "url": "https://www.thehindu.com/business/Industry/healthcare-ai-hospitals-lack-capacity-to-measure-real-world-patient-outcomes-warns-french-expert/article71723894.ece",
+          "date": "2026-11-20T11:32:42Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Bajaj Group-backed BIHS to invest ₹2,500 cr. in healthcare venture Nivara, target 10-plus cities",
           "url": "https://www.thehindu.com/business/Industry/bajaj-group-backed-bihs-to-invest-2500-cr-in-healthcare-venture-nivara-target-10-plus-cities/article71720465.ece",
@@ -390,12 +396,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
           "date": "2026-11-19T06:00:00Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
-          "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T22:32:47Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Hospitals; Specialty care",
@@ -453,18 +453,24 @@
     {
       "id": "auto_consumer",
       "title": "Auto and demand",
-      "items": 4,
+      "items": 5,
       "publishers": 3,
       "positive": 3,
-      "negative": 0,
+      "negative": 1,
       "neutral": 1,
-      "languageIndex": 66.7,
+      "languageIndex": 44.4,
       "label": "Insufficient observations",
-      "sourceConcentration": 50.0,
+      "sourceConcentration": 60.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Canada Retail Sales Tracking Largest Decline Since Feb. 2025",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/canada-retail-sales-tracking-largest-decline-since-february-2025",
+          "date": "2026-11-20T13:30:01Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
           "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
@@ -475,12 +481,6 @@
           "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies",
           "date": "2026-11-20T07:06:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Retail Sales Growth Slows as Big-Ticket Purchases Slip",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-retail-sales-rise-0-2-amid-mixed-demand-for-merchandise",
-          "date": "2026-11-17T13:33:57Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 121,
+      "items": 125,
       "publishers": 5,
       "positive": 5,
-      "negative": 44,
+      "negative": 48,
       "neutral": 72,
-      "languageIndex": -28.5,
+      "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 84.3,
+      "sourceConcentration": 85.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "NZ Central Bank’s Chief Economist Urges Government to Stop Messing With Mandate",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/nz-central-bank-s-chief-economist-urges-government-to-stop-messing-with-mandate",
-          "date": "2026-11-20T03:38:19Z",
+          "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
+          "date": "2026-11-20T18:53:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Sri Lanka Unexpectedly Raises Key Rate to Combat Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/sri-lanka-raises-policy-rate-to-ensure-inflation-reaches-target",
-          "date": "2026-11-20T02:04:14Z",
+          "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
+          "date": "2026-11-20T18:25:23Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
-          "date": "2026-11-20T01:15:40Z",
+          "title": "France Picks Boone to Run Markets at ECB in Pivotal Crisis Role",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/france-picks-boone-to-run-markets-at-ecb-in-pivotal-crisis-role",
+          "date": "2026-11-20T16:41:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,35 +700,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 113,
+      "items": 118,
       "publishers": 4,
       "positive": 9,
-      "negative": 36,
-      "neutral": 68,
-      "languageIndex": -37.7,
+      "negative": 37,
+      "neutral": 72,
+      "languageIndex": -35.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 47.8,
+      "sourceConcentration": 48.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Three Kyiv bridges hit during major Russian missile attack",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T08:40:45Z",
+          "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
+          "date": "2026-11-20T19:31:29Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
+          "date": "2026-11-20T18:43:42Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T16:54:29Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia Rejects Any Deal Letting Ukraine Join NATO, Ryabkov Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/russia-rejects-any-deal-letting-ukraine-join-nato-ryabkov-says",
-          "date": "2026-11-20T08:25:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Japanese See China, Russia Ties as Worst on Record, Survey Shows",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-see-china-russia-ties-as-worst-on-record-survey-shows",
-          "date": "2026-11-20T08:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -746,31 +746,31 @@
       "items": 43,
       "publishers": 4,
       "positive": 2,
-      "negative": 1,
-      "neutral": 40,
-      "languageIndex": -10.8,
+      "negative": 0,
+      "neutral": 41,
+      "languageIndex": 1.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 67.4,
+      "sourceConcentration": 72.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
+          "date": "2026-11-20T15:19:19Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Consumer Sentiment Up on Improved Post-Election Outlook",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-consumer-sentiment-rises-on-improved-post-election-outlook",
+          "date": "2026-11-20T15:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
           "date": "2026-11-20T03:10:14Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Senate Permitting Bill Authors Seek Data Center Exemption",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/senate-permit-bill-authors-seek-exemption-for-data-centers",
-          "date": "2026-11-18T22:44:11Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Alaska Shows How Ranked Choice Can Blunt Election Spoilers",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/alaska-shows-how-ranked-choice-can-blunt-election-spoilers",
-          "date": "2026-11-18T21:13:52Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -786,18 +786,24 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 15,
+      "items": 16,
       "publishers": 3,
-      "positive": 2,
+      "positive": 3,
       "negative": 11,
       "neutral": 2,
-      "languageIndex": -22.2,
+      "languageIndex": -17.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 80.0,
+      "sourceConcentration": 81.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
+          "date": "2026-11-20T18:03:49Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
           "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
@@ -808,12 +814,6 @@
           "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
           "date": "2026-11-20T03:40:28Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Thailand Says US Agrees to Lower Forced-Labor Tariff to 10%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/thailand-says-us-agrees-to-lower-forced-labor-tariff-to-10",
-          "date": "2026-11-19T03:38:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,23 +958,23 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 301
+      "stories": 319
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 96
+      "stories": 98
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 74
+      "stories": 76
     },
     {
       "publisher": "news.un.org",
-      "stories": 16
+      "stories": 17
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 3
+      "stories": 2
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 23,
+    "reportedScanCount": 24,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },

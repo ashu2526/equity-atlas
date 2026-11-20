@@ -2,67 +2,67 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-20T08:53:30.205385Z",
+      "generatedAt": "2026-11-20T21:25:45.228429Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 491,
+        "items": 513,
         "publishers": 6,
-        "positive": 58,
-        "negative": 112,
-        "neutral": 321,
-        "languageIndex": -8.2,
+        "positive": 61,
+        "negative": 118,
+        "neutral": 334,
+        "languageIndex": -6.8,
         "label": "Mixed headline language",
-        "sourceConcentration": 61.3,
+        "sourceConcentration": 62.2,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 143,
+          "items": 152,
           "publishers": 3,
-          "languageIndex": 1.1,
+          "languageIndex": 2.4,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 121,
+          "items": 125,
           "publishers": 5,
-          "languageIndex": -28.5,
+          "languageIndex": -28.9,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 113,
+          "items": 118,
           "publishers": 4,
-          "languageIndex": -37.7,
+          "languageIndex": -35.5,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
           "items": 43,
           "publishers": 4,
-          "languageIndex": -10.8,
+          "languageIndex": 1.6,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 30,
+          "items": 31,
           "publishers": 1,
-          "languageIndex": 46.7,
+          "languageIndex": 45.2,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
-          "items": 25,
+          "items": 24,
           "publishers": 4,
-          "languageIndex": -3.3,
+          "languageIndex": -3.6,
           "attentionDeltaPct": null
         },
         {
           "id": "trade_policy",
-          "items": 15,
+          "items": 16,
           "publishers": 3,
-          "languageIndex": -22.2,
+          "languageIndex": -17.9,
           "attentionDeltaPct": null
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "id": "healthcare",
-          "items": 8,
+          "items": 9,
           "publishers": 4,
           "languageIndex": -6.2,
           "attentionDeltaPct": null
@@ -88,9 +88,9 @@
         },
         {
           "id": "auto_consumer",
-          "items": 4,
+          "items": 5,
           "publishers": 3,
-          "languageIndex": 66.7,
+          "languageIndex": 44.4,
           "attentionDeltaPct": null
         },
         {
