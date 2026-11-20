@@ -3,6 +3,410 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-20-pm",
+      "asOf": "2026-11-20",
+      "createdAt": "2026-11-20T13:55:39.000Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified PM; 19:00 IST source pipeline not confirmed",
+      "marketSession": "PM — Friday 20 Nov 2026 Asia/Kolkata; completed Indian session 20 Nov",
+      "coverageWindow": {
+        "start": "2026-11-06",
+        "end": "2026-11-20T19:25:39+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-20T08:53:30.205385Z",
+      "headline": "India closes at nine-month highs as banks surge despite global AI selloff; foreign cash buying reported but gross turnover conflicts and breadth stays weak",
+      "executiveSummary": "NEW since 2026-11-20-am: 20 Nov NIFTY 25,800.60 (+1.12%), Sensex 83,919.71 (+1.08%), Bank NIFTY 64,635.20 (+2.49%) while Smallcap 100 -0.13% and NSE decliners exceed advancers. Reuters reports India outperforming global AI-linked declines. Secondary provisional 20 Nov FII net +₹10,308.42cr, DII net -₹4,859.80cr, but gross turnover conflicts across two sources; primary NSE and NSDL sector net flow unverified. Rupee reportedly closes at 92.67/USD. Latest successful RSS archive 08:53:30 UTC (14:23:30 IST), sector/Polymarket 08:51 UTC (14:21 IST), stock bars through 19 Nov: 19:00 IST pipeline unconfirmed. Sector leadership and priced event risk: 19 Nov NIFTY PSU Bank 3m +13.28% relative +7.99pp; Private Banks +6.72pp. Polymarket exact YES 'Will there be no change in Fed interest rates after the December 2026 meeting?' 3.3000000000000003¢ at 2026-11-20T08:51:20.647378+00:00, change 0.6 percentage points versus stored prior, 24h betting volume $1313743.62, liquidity $426221.27; quote not objective probability or equity flow.",
+      "regime": {
+        "label": "Selective Indian large-bank risk appetite / globally divergent, weak breadth",
+        "change": "New 20 Nov Indian closing rally and rupee appreciation, but 20 Nov small-cap breadth weakness and global AI selloff contradict broad risk-on.",
+        "confidence": "Moderate for independently corroborated index closes; low for gross cash flow, sector allocation and sustained regime",
+        "marketConfirmation": "NIFTY +1.12%; Bank NIFTY +2.49%; 4th weekly rise per Reuters",
+        "contradictions": "Smallcap -0.13%; NSE 2,205 declines vs 1,414 advances; global tech selloff; cash-flow gross discrepancies",
+        "missingSignals": "Primary NSE FII/DII gross CSV; NSDL fortnightly sector transactions; 20 Nov sector and company bars; CFTC, TIC, primary AMFI refresh"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,800.60 (+1.12%)",
+          "period": "2026-11-20",
+          "dataClass": "Reported index close",
+          "source": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+        },
+        {
+          "name": "Bank NIFTY close",
+          "value": "64,635.20 (+2.49%)",
+          "period": "2026-11-20",
+          "dataClass": "Reported index close",
+          "source": "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+        },
+        {
+          "name": "FII net provisional",
+          "value": "+₹10,308.42 crore",
+          "period": "2026-11-20",
+          "dataClass": "Secondary-reproduced provisional NSE cash net; gross conflict",
+          "source": "https://nifty20.com/fii-dii-activity/"
+        },
+        {
+          "name": "DII net provisional",
+          "value": "−₹4,859.80 crore",
+          "period": "2026-11-20",
+          "dataClass": "Secondary-reproduced provisional NSE cash net",
+          "source": "https://nifty20.com/fii-dii-activity/"
+        },
+        {
+          "name": "USD/INR",
+          "value": "92.67 INR per USD",
+          "period": "2026-11-20",
+          "dataClass": "Secondary FX close",
+          "source": "https://upstox.com/news/market-news/latest-updates/rupee-rises-past-93-against-us-dollar-key-factors-driving-domestic-currency-to-a-7-month-high/article-203761/"
+        },
+        {
+          "name": "Polymarket Fed no-change YES",
+          "value": "3.30¢; Δ 0.6 pp; 24h volume $1313743.62; liquidity $426221.27",
+          "period": "2026-11-20T08:51:20.647378+00:00",
+          "dataClass": "Event-contract quote, not objective probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-20-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "india_market",
+          "geography": "India",
+          "title": "India benchmark rally diverges from weak breadth",
+          "whatHappened": "20 Nov NIFTY 50 closed 25,800.60 (+1.12%) and Sensex 83,919.71 (+1.08%); NIFTY Bank reached 64,635.20 (+2.49%). Midcap 100 +0.66%, Smallcap 100 -0.13%; 1,414 NSE advances versus 2,205 declines reported.",
+          "whyItMatters": [
+            "Large-bank weight drove index returns while more stocks declined than advanced; breadth is a falsification test for a broad risk-on claim.",
+            "Index-led gains can coexist with deteriorating liquidity in smaller businesses and concentrated valuations."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "Large private banks, financials and index beta",
+          "proxies": "Brokerage/exchanges if verified turnover increases; housing credit and payment infrastructure if bank credit accelerates",
+          "whatCouldChange": "Monitor official closing files, breadth, Monday follow-through and bank NIM/deposit growth; broad-based risk-on thesis fails if weak breadth persists.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-seen-falling-nine-month-highs-asia-market-rout-deepens-2026-11-20/",
+            "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Foreign cash turnover positive but gross-source conflict",
+          "whatHappened": "20 Nov two secondary tables report FII net +₹10,308.42 crore and DII net -₹4,859.80 crore; one lists FII gross buy/sell ₹16,654.21/₹6,345.79 crore, another approximately ₹23,596/₹13,288 crore. The net amounts agree but gross amounts do not.",
+          "whyItMatters": [
+            "Aggregate cash-market net transactions are distinct from NSDL final depository flows and sector allocations.",
+            "Gross-turnover disagreement prevents presenting the buy/sell columns as independently reconciled primary NSE records."
+          ],
+          "smartMoney": "Secondary provisional aggregate FII +₹10,308.42cr / DII -₹4,859.80cr; gross-source conflict, not primary reconciled",
+          "direct": "Indian cash-equity liquidity and index pricing",
+          "proxies": "Banks are price leaders but their institutional sector net buying remains unmeasured",
+          "whatCouldChange": "Obtain NSE official provisional CSV and reconcile gross methodology, then NSDL final and sector-level series; invalidate the gross values if official NSE differs.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://nifty20.com/fii-dii-activity/",
+            "https://tbtflow.com/daily/fii-dii/2026-11-20",
+            "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "ai_rotation",
+          "geography": "US / Asia / India",
+          "title": "Global AI equity drawdown contrasts with India's rally",
+          "whatHappened": "20 Nov Reuters reported global technology-led equity losses, with Asian shares headed for their worst week since 2020 despite Anthropic's high-profile market debut.",
+          "whyItMatters": [
+            "AI equity valuations are discount-rate and earnings-expectation sensitive; weak listed-equity performance does not prove hyperscaler capex cancellations.",
+            "India's lower AI index exposure can aid relative performance, but external risk aversion can still tighten funding and hit IT exports."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "AI platforms, semiconductor equities, Indian IT exporters",
+          "proxies": "Indian power equipment, cooling and grid suppliers only if independently confirmed order books",
+          "whatCouldChange": "Watch Nasdaq/semiconductor breadth, hyperscaler capex guidance and supplier orders; invalidate generalized capex slowdown if actual orders continue rising.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+            "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "fx",
+          "geography": "India / US",
+          "title": "Rupee appreciates to seven-month high",
+          "whatHappened": "20 Nov Upstox reported USD/INR close near 92.67, a seven-month rupee high, despite hawkish US rate discussion.",
+          "whyItMatters": [
+            "Rupee strength can offset imported fuel, electronics and machinery costs and help inflation transmission.",
+            "IT/exporters may see translation headwinds; currency short covering is not the same as foreign cash-equity buying."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "Importers, airlines, chemicals, consumer electronics",
+          "proxies": "Export-heavy IT, pharmaceuticals and textile firms are conditional offsets",
+          "whatCouldChange": "Check RBI reference rate, forward premia and oil-adjusted import bills; reverse inference if FX gains are short-lived.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://upstox.com/news/market-news/latest-updates/rupee-rises-past-93-against-us-dollar-key-factors-driving-domestic-currency-to-a-7-month-high/article-203761/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "energy_shipping",
+          "geography": "Middle East / India",
+          "title": "Oil and Gulf shipping risk remain two-sided",
+          "whatHappened": "20 Nov Reuters described easing crude as a contributor to India's market resilience, while geopolitical and shipping uncertainty remains unresolved.",
+          "whyItMatters": [
+            "Sustained lower crude can reduce India's import bill and improve airline, tyre, paint and chemical input margins.",
+            "Shipping insurance, freight, rupee and inventory hedges can delay or offset benefits; no issuer CDS quote was established."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "Oil importers, airlines, paints, tyres, refiners",
+          "proxies": "Marine insurers, ports, fertilisers and petrochemicals face second-order exposure",
+          "whatCouldChange": "Track dated Brent close, freight/insurance quotes and company gross margins; invalidate relief thesis if landed energy costs rise.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-stocks-seen-falling-nine-month-highs-asia-market-rout-deepens-2026-11-20/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "rates",
+          "geography": "US / global",
+          "title": "Fed repricing pressures global duration and gold",
+          "whatHappened": "20 Nov Reuters reported gold weakening on a firmer dollar and hawkish Federal Reserve expectations; this is market repricing, not an enacted policy change.",
+          "whyItMatters": [
+            "Higher expected policy rates can lift dollar funding costs and lower present values of long-duration earnings.",
+            "Stronger dollar can tighten emerging-market external funding even when local bank shares rally."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "US Treasuries, global growth equities, Indian NBFC and realty valuations",
+          "proxies": "Indian bank deposit pricing, housing materials and export hedges",
+          "whatCouldChange": "Verify Federal Reserve releases and Treasury yields, credit spreads and actual decisions; no invented issuer CDS levels.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "healthcare",
+          "geography": "India",
+          "title": "Hospital equities outperform within selective rotation",
+          "whatHappened": "20 Nov Upstox reports Apollo Hospitals among index leaders; contemporaneous market wrap reports healthcare buying despite uneven overall breadth.",
+          "whyItMatters": [
+            "Hospital operating leverage depends on occupancy, case mix and ARPOB, not only equity price momentum.",
+            "Defensive earnings narratives may support multiples during AI-sector weakness, but elevated valuations require hospital-specific evidence."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "Listed hospital operators",
+          "proxies": "Diagnostics, medical devices and health insurers conditional on volume and pricing",
+          "whatCouldChange": "Check exchange close, earnings, bed additions and occupancy; do not recast prior MAXHEALTH/KIMS alerts as new breakouts.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        },
+        {
+          "id": "2026-11-20-pm-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "trade_policy",
+          "geography": "India / US",
+          "title": "India-US trade agreement still not enacted",
+          "whatHappened": "18 Nov Commerce Secretary indicated bilateral agreement signing would take more time; as of this 20 Nov review no verified enacted tariff relief was found.",
+          "whyItMatters": [
+            "Export pricing and order margins depend on effective tariff schedules, not negotiations or market optimism.",
+            "Trade uncertainty can alter inventory, supplier sourcing and FX hedging before a deal is finalized."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-specific institutional net transactions",
+          "direct": "Textiles, auto components, specialty chemicals and IT services",
+          "proxies": "Logistics, packaging and industrial suppliers if confirmed export orders improve",
+          "whatCouldChange": "Check official USTR and India commerce notifications, effective dates and actual order intake; reject relief thesis absent enacted terms.",
+          "caution": "Transmission is conditional; no issuer CDS quote, invented sector flows or causal inference from price alone. Check publication dates and primary records.",
+          "sources": [
+            "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece"
+          ],
+          "evidenceType": "Dated contemporary reporting and/or public repository snapshots; source-quality limitations explicitly noted"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "PSU Banks",
+          "status": "Accelerating price leadership (not capital flow)",
+          "evidence": "19 Nov 3m 13.28% versus NIFTY 5.29%, relative 7.99pp; 7d 4.89%, 1m 17.69%, monthly acceleration 17.97pp, rank 1",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Private Banks",
+          "status": "Accelerating price leadership (not capital flow)",
+          "evidence": "19 Nov 3m 12.01% versus NIFTY 5.29%, relative 6.72pp; 7d 1.79%, 1m 13.09%, monthly acceleration 13.46pp, rank 2",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Media",
+          "status": "Accelerating price leadership (not capital flow)",
+          "evidence": "19 Nov 3m 10.14% versus NIFTY 5.29%, relative 4.85pp; 7d 1.39%, 1m 8.63%, monthly acceleration 2.83pp, rank 3",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Banking",
+          "status": "Accelerating price leadership (not capital flow)",
+          "evidence": "19 Nov 3m 9.68% versus NIFTY 5.29%, relative 4.39pp; 7d 2.51%, 1m 13.65%, monthly acceleration 15.19pp, rank 4",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Financial Services",
+          "status": "Not yet proven",
+          "evidence": "19 Nov 3m 8% versus NIFTY 5.29%, relative 2.71pp; 7d 0.86%, 1m 13.26%, monthly acceleration 15.31pp, rank 5",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Pharma",
+          "status": "Not yet proven",
+          "evidence": "19 Nov 3m 7.4% versus NIFTY 5.29%, relative 2.11pp; 7d -1.06%, 1m 10.76%, monthly acceleration 14.86pp, rank 6",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Healthcare",
+          "status": "Not yet proven",
+          "evidence": "19 Nov 3m 5.31% versus NIFTY 5.29%, relative 0.02pp; 7d 0.23%, 1m 11.45%, monthly acceleration 17.81pp, rank 7",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "MidSmall Healthcare",
+          "status": "Cooling relative price leadership",
+          "evidence": "19 Nov 3m 3.85% versus NIFTY 5.29%, relative -1.44pp; 7d -0.79%, 1m 10.32%, monthly acceleration 17.46pp, rank 8",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Infrastructure",
+          "status": "Cooling relative price leadership",
+          "evidence": "19 Nov 3m 3% versus NIFTY 5.29%, relative -2.29pp; 7d 1.23%, 1m 11.12%, monthly acceleration 15.58pp, rank 9",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        },
+        {
+          "sector": "Oil & Gas",
+          "status": "Cooling relative price leadership",
+          "evidence": "19 Nov 3m 2.8% versus NIFTY 5.29%, relative -2.49pp; 7d 0.89%, 1m 8.98%, monthly acceleration 12.67pp, rank 10",
+          "transmission": "Potential earnings effect through sector demand, pricing, financing and input costs; requires issuer disclosures.",
+          "counterevidence": "20 Nov closing sector rotation unavailable; relative prices do not identify FPI purchases.",
+          "change": "Compared with prior PM's 18 Nov sector bars, 19 Nov full-session price data now available.",
+          "nextData": "20 Nov official NSE sector closes, NSDL fortnightly sector transactions, quarterly margin and volume disclosures"
+        }
+      ],
+      "cooling": [
+        "Global listed AI/semiconductor equity breadth deteriorating; do not equate with capex cuts",
+        "Indian smallcap participation and metals relative performance weak",
+        "Energy import risk may cool if landed oil prices fall; actual freight and hedges unmeasured"
+      ],
+      "risks": [
+        "US Treasury yields rise following Fed repricing",
+        "Brent and marine freight reverse higher",
+        "INR reverses from reported seven-month high",
+        "NSE primary gross FII/DII figures contradict secondary tables",
+        "Bank NIM and deposit growth fail to confirm price momentum",
+        "Small-cap breadth remains negative despite index records",
+        "AI capex order cancellations emerge in actual earnings guidance",
+        "India-US tariff negotiations fail to translate into enacted terms"
+      ],
+      "whatChanged": [
+        "20 Nov bank-led 1.12% NIFTY rally versus 19 Nov close",
+        "Bank NIFTY new high but negative overall NSE breadth",
+        "Secondary 20 Nov FII net +₹10,308cr, higher than 19 Nov +₹7,411cr; gross conflict identified",
+        "USD/INR reported 92.67 close",
+        "19 Nov sector snapshot now available; 20 Nov price bars not yet available",
+        "Polymarket no-change Fed YES 3.3¢ versus prior 2.7¢, +0.6pp, not objective probability"
+      ],
+      "tomorrowChecklist": [
+        "Next trading day Monday 23 Nov: verify NSE 20 Nov official FII/DII gross buy/sell/net and final NSDL distinction",
+        "Verify 20 Nov official NSE sector index closes, breadth and relative ranking",
+        "Check 20 Nov completed OHLCV bars before any new 20/55-day breakout claim",
+        "Verify RBI reference USD/INR and landed Brent/freight",
+        "Check NSDL fortnightly sector flows and AMFI monthly subscriptions separately",
+        "Review US Treasury TIC release dates and CFTC positions with correct lag",
+        "Check actual bank deposit growth, NIM and hospital earnings/order metrics",
+        "Compare next Polymarket snapshots only to stored same-contract history"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-stocks-seen-falling-nine-month-highs-asia-market-rout-deepens-2026-11-20/",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+        "https://upstox.com/news/market-news/stocks/market-wrap-nov-20-nifty-50-ends-at-25-801-sensex-jumps-898-pts-nifty-bank-at-record-high-apollo-hospitals-leads/article-203784/",
+        "https://nifty20.com/fii-dii-activity/",
+        "https://tbtflow.com/daily/fii-dii/2026-11-20",
+        "https://upstox.com/news/market-news/latest-updates/rupee-rises-past-93-against-us-dollar-key-factors-driving-domestic-currency-to-a-7-month-high/article-203761/",
+        "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/",
+        "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+        "https://www.thehindu.com/business/Economy/india-us-trade-deal-signing-will-still-take-some-time-says-commerce-secretary-rajesh-agrawal/article71715672.ece",
+        "https://www.amfiindia.com/research-information/amfi-monthly",
+        "https://www.fpi.nsdl.co.in/",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "RSS archive latest 2026-11-20T08:53:30.205385Z; 19:00 IST pipeline completion not confirmed",
+        "Sector and Polymarket latest 2026-11-20T08:51:20Z, sector bars only through 19 Nov; company OHLCV through 19 Nov",
+        "FII/DII gross amounts conflict across secondary sites; primary NSE unavailable; do not assert verified buy/sell gross",
+        "NSDL fortnightly sector allocations, primary AMFI monthly, numeric CFTC and Treasury TIC flows unavailable in this review",
+        "No issuer CDS price verified; no new technical alert on stale 19 Nov company bars",
+        "Polymarket volume is betting volume, not institutional capital flow; event contract quote is not objective probability"
+      ]
+    },
+    {
       "id": "2026-11-20-am",
       "asOf": "2026-11-20",
       "createdAt": "2026-11-20T01:53:08.871Z",
