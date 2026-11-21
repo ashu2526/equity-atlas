@@ -3,6 +3,426 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-21-am",
+      "asOf": "2026-11-21",
+      "createdAt": "2026-11-21T01:55:09.312Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — evidence qualified; 07:00 IST pipeline not confirmed",
+      "marketSession": "AM — Saturday 21 Nov 2026 Asia/Kolkata; last India session Friday 20 Nov",
+      "coverageWindow": {
+        "start": "2026-11-07",
+        "end": "2026-11-21T07:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-20T21:25:45.228429Z",
+      "headline": "US equity correction deepens while India's bank-led rally diverges; new hospital breakouts require validation",
+      "executiveSummary": "New versus 20 Nov PM: Reuters reports US equities in correction after Friday US close. India last close NIFTY 25,800.60, Bank NIFTY 64,635.20. Updated 20 Nov NIFTY sector 3m relative returns: private banks +8.4pp and PSU banks +8.24pp; IT -3.8pp and metals -13.23pp. Fresh 20 Nov OHLCV MAXHEALTH/APOLLOHOSP 55-session breaks; JLHL anomalous 180.77x volume unverified. Stored Polymarket YES 'Will there be no change in Fed interest rates after the December 2026 meeting?' 8.85¢ at 2026-11-20T21:25:40.819913+00:00, change +5.55pp vs 2026-11-20T08:51:20.647378+00:00, volume24h $1007623.63, liquidity $398267.95; betting market not probability or equity flow. FII provisional net +₹10,308.42cr, DII −₹4,859.80cr; gross conflict unresolved. Archive 2026-11-20T21:25:45.228429Z; 07:00 IST pipeline unconfirmed. Saturday NSE closed.",
+      "regime": {
+        "label": "India bank-led selective resilience / global equity correction",
+        "change": "US correction intensified; fresh 20 Nov sector and stock bars",
+        "confidence": "Moderate observed prices; low sector flow and forward earnings",
+        "marketConfirmation": "India Friday NIFTY +1.12%, Bank NIFTY +2.49%; Reuters US correction",
+        "contradictions": "Weak small-cap breadth and global AI selloff",
+        "missingSignals": "Primary NSE gross, NSDL sector, AMFI, CFTC, TIC, issuer CDS and exchange corporate actions"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,800.60 (+1.12%)",
+          "period": "2026-11-20",
+          "dataClass": "Reported price",
+          "source": "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece"
+        },
+        {
+          "name": "FII cash buy/sell/net",
+          "value": "₹23,596.40cr / ₹13,287.98cr / +₹10,308.42cr",
+          "period": "2026-11-20",
+          "dataClass": "Secondary NSE provisional; primary gross unverified",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "DII cash buy/sell/net",
+          "value": "₹18,492.63cr / ₹23,352.43cr / −₹4,859.80cr",
+          "period": "2026-11-20",
+          "dataClass": "Secondary NSE provisional",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "Private Bank 3m relative",
+          "value": "+8.4pp; absolute +14.79%; 1m +17.72%; 7d +5.65%",
+          "period": "2026-11-20",
+          "dataClass": "Sector index price return, not FPI",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "PSU Bank 3m relative",
+          "value": "+8.24pp; absolute +14.63%; 1m +19.75%; 7d +6.72%",
+          "period": "2026-11-20",
+          "dataClass": "Sector index price return, not FPI",
+          "source": "https://ashu2526.github.io/equity-atlas/signals.html"
+        },
+        {
+          "name": "Fed no-change YES Polymarket",
+          "value": "8.85¢, +5.55pp vs prior; 24h betting volume $1007623.63, liquidity $398267.95",
+          "period": "2026-11-20T21:25:40.819913+00:00",
+          "dataClass": "Event contract quote, not calibrated probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "NSDL FPI sector net trades",
+          "value": "Unavailable: primary numeric data not verified",
+          "period": "latest release not verified",
+          "dataClass": "Sector cash transactions vs holdings",
+          "source": "https://www.fpi.nsdl.co.in/"
+        },
+        {
+          "name": "AMFI monthly equity subscriptions",
+          "value": "Unavailable: primary numeric data not verified",
+          "period": "October 2026",
+          "dataClass": "Monthly fund subscriptions",
+          "source": "https://www.amfiindia.com/"
+        },
+        {
+          "name": "CFTC weekly speculative positioning",
+          "value": "Unavailable: primary numeric data not verified",
+          "period": "latest release not verified",
+          "dataClass": "Futures positioning",
+          "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+        },
+        {
+          "name": "US Treasury TIC country transactions",
+          "value": "Unavailable: primary numeric data not verified",
+          "period": "latest release not verified",
+          "dataClass": "Lagged cross-border transactions",
+          "source": "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-21-am-1",
+          "rank": 1,
+          "importance": "high",
+          "title": "Global AI equity selloff deepens",
+          "geography": "US/global",
+          "theme": "global_ai",
+          "whatHappened": "Reuters reports 20 Nov US close with S&P 500 and Dow in correction territory and semiconductor weakness.",
+          "whyItMatters": [
+            "Valuation compression raises equity financing costs and risk premiums.",
+            "Stock-price declines do not establish actual AI order cancellations."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "US chips, Indian IT",
+          "proxies": "Electricals and cooling if real orders persist",
+          "whatCouldChange": "US futures, capex guidance, credit spreads",
+          "caution": "Price correction is not cash flow",
+          "sources": [
+            "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-2",
+          "rank": 2,
+          "importance": "high",
+          "title": "India bank-led rally diverges",
+          "geography": "India",
+          "theme": "india_banks",
+          "whatHappened": "20 Nov NIFTY 25,800.60 (+1.12%); Bank NIFTY 64,635.20 (+2.49%); small-cap breadth weak.",
+          "whyItMatters": [
+            "Large-cap strength may hide weak liquidity breadth.",
+            "Bank rerating requires deposit growth, NIM and asset quality."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "Banks",
+          "proxies": "NBFCs and brokers",
+          "whatCouldChange": "Monday breadth, earnings and NSDL sector trades",
+          "caution": "Sector returns not sector FPI flows",
+          "sources": [
+            "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
+            "https://ashu2526.github.io/equity-atlas/signals.html"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-3",
+          "rank": 3,
+          "importance": "high",
+          "title": "FII provisional net positive, gross unreconciled",
+          "geography": "India",
+          "theme": "india_flows",
+          "whatHappened": "20 Nov secondary NSE provisional FII buy ₹23,596.40cr, sell ₹13,287.98cr, net +₹10,308.42cr; DII buy ₹18,492.63cr, sell ₹23,352.43cr, net −₹4,859.80cr.",
+          "whyItMatters": [
+            "Aggregate foreign buying may support liquid stocks.",
+            "Secondary gross figures conflict with earlier reproductions and cannot identify sectors."
+          ],
+          "smartMoney": "Secondary-reported aggregate provisional NSE cash transactions; sector allocation not measured",
+          "direct": "All Indian cash equities",
+          "proxies": "Brokerage turnover if sustained",
+          "whatCouldChange": "Primary NSE and NSDL reconciliation",
+          "caution": "Secondary provisional only; not verified primary",
+          "sources": [
+            "https://www.jivanimarkets.com/markets/fii-dii",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-4",
+          "rank": 4,
+          "importance": "high",
+          "title": "Hawkish rate remarks versus safe-haven yields",
+          "geography": "US/Europe",
+          "theme": "rates",
+          "whatHappened": "20 Nov Bloomberg RSS describes Fed Paulson deliberate hikes and ECB Nagel urging December hike; Reuters reports falling Treasury yields amid risk aversion.",
+          "whyItMatters": [
+            "Rate uncertainty pressures duration-sensitive valuation.",
+            "Treasury rallies do not prove issuer credit spread tightening."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "NBFCs, real estate",
+          "proxies": "High-quality bonds",
+          "whatCouldChange": "Fed/ECB primary remarks, yield curve, credit spreads",
+          "caution": "No enacted hikes or CDS quotes established",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
+            "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-5",
+          "rank": 5,
+          "importance": "medium",
+          "title": "Poland missile report creates escalation tail risk",
+          "geography": "Poland/Ukraine",
+          "theme": "geopolitics",
+          "whatHappened": "BBC 20 Nov attributed to Polish PM Tusk a Russian missile strike in Poland; independent attribution not established here.",
+          "whyItMatters": [
+            "Confirmed escalation could alter European energy and insurance risk.",
+            "Unverified attribution can trigger false-positive repricing."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "European energy and defence",
+          "proxies": "Indian defence contractors only with orders",
+          "whatCouldChange": "Official Polish and NATO confirmation",
+          "caution": "Attributed single-source claim, not confirmed escalation",
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-6",
+          "rank": 6,
+          "importance": "medium",
+          "title": "Trade uncertainty prompts EU-Mexico discussion",
+          "geography": "EU/Mexico/US",
+          "theme": "trade",
+          "whatHappened": "Reuters 20 Nov reports EU official sees US trade uncertainty bringing Mexico and Europe closer.",
+          "whyItMatters": [
+            "Trade diversion may change supply chains.",
+            "Only enacted tariff schedules and contracts directly affect margins."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "Export manufacturing",
+          "proxies": "India auto parts and chemicals conditionally",
+          "whatCouldChange": "Signed trade texts and customs data",
+          "caution": "No new enacted India tariff concession verified",
+          "sources": [
+            "https://www.reuters.com/world/americas/eus-hansen-says-us-trade-uncertainty-is-drawing-mexico-europe-closer-2026-11-20/"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-7",
+          "rank": 7,
+          "importance": "medium",
+          "title": "Korean AI chip exports contrast with equity weakness",
+          "geography": "South Korea/global",
+          "theme": "ai_demand",
+          "whatHappened": "Reuters 19 Nov reports South Korea passed $1 trillion exports with AI-chip support, while global semiconductor shares fell.",
+          "whyItMatters": [
+            "Real shipments support near-term demand evidence.",
+            "Future Indian equipment orders require company-specific proof."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "Semiconductors",
+          "proxies": "Indian grid equipment and cooling",
+          "whatCouldChange": "Chip exports, memory prices, hyperscaler orders",
+          "caution": "Exports not equity fund flows",
+          "sources": [
+            "https://www.reuters.com/world/south-korea-becomes-fourth-country-globally-hit-1-trillion-exports-ai-chip-boom-2026-11-19/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        },
+        {
+          "id": "2026-11-21-am-8",
+          "rank": 8,
+          "importance": "medium",
+          "title": "New hospital technical breaks with anomalous JLHL volume",
+          "geography": "India",
+          "theme": "technical",
+          "whatHappened": "20 Nov repository bars: MAXHEALTH ₹1,081 > prior 55 high ₹1,072.60 on 2.41x volume; APOLLOHOSP ₹9,200 > ₹9,070.50 on 2.79x; JLHL 180.77x volume anomalous.",
+          "whyItMatters": [
+            "Breakouts may indicate short-run price demand, not institution purchases.",
+            "Extreme JLHL volume may be corporate action or data error."
+          ],
+          "smartMoney": "Not measured for this event/sector",
+          "direct": "Hospitals",
+          "proxies": "Diagnostics and consumables",
+          "whatCouldChange": "Exchange bars, corporate actions, occupancy, EBITDA",
+          "caution": "Unofficial price feed; JLHL signal withheld pending audit",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/company-signals.html"
+          ],
+          "evidenceType": "Dated reporting or repository price observation; economic transmission conditional"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "state": "accelerating price/technical evidence",
+          "evidence": "3m +14.79%, relative +8.4pp, 7d +5.65%, acceleration 19.42pp",
+          "transmission": "Bank NIM, deposits and credit growth",
+          "proxies": "NBFCs, brokers",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "PSU banks",
+          "state": "accelerating price/technical evidence",
+          "evidence": "3m +14.63%, relative +8.24pp, 7d +6.72%, acceleration 20.48pp",
+          "transmission": "Bank NIM, deposits and credit growth",
+          "proxies": "NBFCs, brokers",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "Hospitals",
+          "state": "accelerating price/technical evidence",
+          "evidence": "MAXHEALTH and APOLLOHOSP 55-session breaks; JLHL anomalous",
+          "transmission": "Occupancy, ARPOB and EBITDA",
+          "proxies": "Diagnostics",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "IT services",
+          "state": "cooling relative performance",
+          "evidence": "IT 3m relative -3.8pp, 7d -1.91%",
+          "transmission": "Bookings and exporter margins",
+          "proxies": "Components, logistics, equipment",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "Metals",
+          "state": "cooling relative performance",
+          "evidence": "Metal 3m relative -13.23pp, 7d -2.98%",
+          "transmission": "Realised commodity prices and capacity",
+          "proxies": "Components, logistics, equipment",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "AI infrastructure",
+          "state": "not proven",
+          "evidence": "Conditional exposure; no verified industry flow",
+          "transmission": "Input costs, orders and funding costs",
+          "proxies": "Components, logistics, equipment",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "Oil importers",
+          "state": "not proven",
+          "evidence": "Conditional exposure; no verified industry flow",
+          "transmission": "Input costs, orders and funding costs",
+          "proxies": "Components, logistics, equipment",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        },
+        {
+          "sector": "Autos",
+          "state": "not proven",
+          "evidence": "Conditional exposure; no verified industry flow",
+          "transmission": "Input costs, orders and funding costs",
+          "proxies": "Components, logistics, equipment",
+          "counterevidence": "No primary sector FPI evidence; broad breadth and global rates conflict",
+          "changed": "20 Nov completed price bars now available, versus prior PM",
+          "nextData": "NSDL sector FPI, NSE OHLCV, corporate operating data"
+        }
+      ],
+      "cooling": [
+        "IT and metal relative price leadership",
+        "AI equity valuations, not confirmed chip orders",
+        "Broad market participation versus banks"
+      ],
+      "risks": [
+        "US risk-off contagion to India",
+        "NSE gross flow conflict persists",
+        "NSDL bank sector net trades fail to confirm prices",
+        "Global rate and credit spread widening",
+        "Confirmed Poland escalation impacts energy",
+        "Crude or INR reversal pressures importer margins",
+        "AI order cancellations emerge in company filings",
+        "JLHL volume anomaly reflects corporate action"
+      ],
+      "whatChanged": [
+        "US Friday correction intensified after Indian market close",
+        "20 Nov private bank relative 3m +8.40pp and PSU bank +8.24pp",
+        "MAXHEALTH/APOLLOHOSP fresh 55-session volume breaks; JLHL extreme-volume anomaly",
+        "Polymarket Fed no-change YES 8.85¢ vs previous 3.30¢",
+        "No Saturday Indian trading session"
+      ],
+      "tomorrowChecklist": [
+        "Monday 23 Nov official NSE FII/DII buy/sell/net and NSDL sector allocations",
+        "US close, futures, Treasury yields and credit spreads",
+        "Poland/NATO primary incident confirmation",
+        "Brent, freight, INR and Indian breadth",
+        "Exchange-verify MAXHEALTH, APOLLOHOSP, JLHL and HDFCBANK OHLCV",
+        "Compare next stored Polymarket contract snapshot",
+        "Retrieve AMFI October subscriptions, CFTC positioning and lagged TIC figures"
+      ],
+      "sources": [
+        "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+        "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
+        "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says",
+        "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro",
+        "https://www.reuters.com/world/americas/eus-hansen-says-us-trade-uncertainty-is-drawing-mexico-europe-closer-2026-11-20/",
+        "https://www.reuters.com/world/south-korea-becomes-fourth-country-globally-hit-1-trillion-exports-ai-chip-boom-2026-11-19/",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+      ],
+      "limitations": [
+        "Latest RSS archive 2026-11-20T21:25:45.228429Z; Saturday 07:00 IST pipeline completion unconfirmed.",
+        "RSS titles are not full text; cited Bloomberg remarks headline-level.",
+        "Primary NSE gross conflict, NSDL sector, AMFI, CFTC, TIC and issuer CDS numbers unverified.",
+        "Polymarket odds not objective probabilities; betting volume not equity flow.",
+        "Unofficial OHLCV requires exchange and corporate-action checks; JLHL extreme-volume signal excluded from confidence.",
+        "Saturday NSE closed; last complete Indian session Friday."
+      ]
+    },
+    {
       "id": "2026-11-20-pm",
       "asOf": "2026-11-20",
       "createdAt": "2026-11-20T13:55:39.000Z",
