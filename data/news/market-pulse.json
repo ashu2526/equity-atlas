@@ -1,56 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T21:25:45.228429Z",
+  "generatedAt": "2026-11-21T08:35:52.376163Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-06",
-    "end": "2026-11-20",
+    "start": "2026-11-07",
+    "end": "2026-11-21",
     "days": 14
   },
   "overall": {
-    "items": 513,
+    "items": 524,
     "publishers": 6,
     "positive": 61,
-    "negative": 118,
-    "neutral": 334,
+    "negative": 120,
+    "neutral": 343,
     "languageIndex": -6.8,
     "label": "Mixed headline language",
-    "sourceConcentration": 62.2,
+    "sourceConcentration": 62.4,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 152,
+      "items": 158,
       "publishers": 3,
       "positive": 19,
-      "negative": 17,
-      "neutral": 116,
-      "languageIndex": 2.4,
+      "negative": 19,
+      "neutral": 120,
+      "languageIndex": 1.8,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.1,
+      "sourceConcentration": 69.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anthropic CEO Vacations at Italian Resort After Public Listing",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-ceo-vacations-at-italian-resort-after-public-listing",
-          "date": "2026-11-20T20:57:42Z",
+          "title": "Historic Market Selloff Deepens After Anthropic IPO",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-close-11-20-2026-video",
+          "date": "2026-11-20T23:54:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic’s IPO Drew More Retail Investor Demand Than SpaceX",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-s-ipo-drew-more-retail-investor-demand-than-spacex",
-          "date": "2026-11-20T20:12:00Z",
+          "title": "Stocks Plunge After Anthropic IPO, Trump Returns from Asia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/bloomberg-money-11-20-2026-video",
+          "date": "2026-11-20T23:28:16Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T20:00:53Z",
+          "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+          "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T23:08:57Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -66,14 +66,14 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 125,
+      "items": 126,
       "publishers": 5,
       "positive": 5,
       "negative": 48,
-      "neutral": 72,
+      "neutral": 73,
       "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.6,
+      "sourceConcentration": 85.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -109,12 +109,12 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 118,
+      "items": 120,
       "publishers": 4,
       "positive": 9,
       "negative": 37,
-      "neutral": 72,
-      "languageIndex": -35.5,
+      "neutral": 74,
+      "languageIndex": -35.3,
       "label": "Mostly negative headline language",
       "sourceConcentration": 48.3,
       "coverageSufficient": true,
@@ -122,22 +122,22 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Burnham’s Big Worry Isn’t Brexit or Welfare, It’s Trump and Iran",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/burnham-s-big-worry-isn-t-brexit-or-welfare-it-s-trump-and-iran",
+          "date": "2026-11-21T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T21:57:07Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
           "date": "2026-11-20T19:31:29Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
-          "date": "2026-11-20T18:43:42Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T16:54:29Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 43,
+      "items": 45,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 41,
+      "neutral": 43,
       "languageIndex": 1.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.1,
+      "sourceConcentration": 71.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+          "date": "2026-11-21T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ANC fights to keep control of South Africa's key cities after election setback",
+          "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-21T00:34:51Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
           "date": "2026-11-20T15:19:19Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Consumer Sentiment Up on Improved Post-Election Outlook",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-consumer-sentiment-rises-on-improved-post-election-outlook",
-          "date": "2026-11-20T15:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
-          "date": "2026-11-20T03:10:14Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -324,18 +324,24 @@
     {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 10,
+      "items": 11,
       "publishers": 2,
       "positive": 1,
       "negative": 0,
-      "neutral": 9,
-      "languageIndex": 7.1,
+      "neutral": 10,
+      "languageIndex": 6.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 70.0,
+      "sourceConcentration": 72.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+          "date": "2026-11-21T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "India, Japan Deepen Defense Ties Amid China, US Uncertainty",
           "url": "https://www.bloomberg.com/news/articles/2026-11-19/india-japan-deepen-defense-ties-amid-china-us-uncertainty",
@@ -347,12 +353,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-18T23:28:03Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Swiss Face Nail-Biter Vote on Allowing More Weapon Exports",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/swiss-face-nail-biter-vote-on-allowing-more-weapon-exports",
-          "date": "2026-11-18T05:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -657,14 +657,14 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 125,
+      "items": 126,
       "publishers": 5,
       "positive": 5,
       "negative": 48,
-      "neutral": 72,
+      "neutral": 73,
       "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.6,
+      "sourceConcentration": 85.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -700,12 +700,12 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 118,
+      "items": 120,
       "publishers": 4,
       "positive": 9,
       "negative": 37,
-      "neutral": 72,
-      "languageIndex": -35.5,
+      "neutral": 74,
+      "languageIndex": -35.3,
       "label": "Mostly negative headline language",
       "sourceConcentration": 48.3,
       "coverageSufficient": true,
@@ -713,22 +713,22 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Burnham’s Big Worry Isn’t Brexit or Welfare, It’s Trump and Iran",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/burnham-s-big-worry-isn-t-brexit-or-welfare-it-s-trump-and-iran",
+          "date": "2026-11-21T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-20T21:57:07Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
           "date": "2026-11-20T19:31:29Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
-          "date": "2026-11-20T18:43:42Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T16:54:29Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 43,
+      "items": 45,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 41,
+      "neutral": 43,
       "languageIndex": 1.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.1,
+      "sourceConcentration": 71.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+          "date": "2026-11-21T06:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ANC fights to keep control of South Africa's key cities after election setback",
+          "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-21T00:34:51Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
           "date": "2026-11-20T15:19:19Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Consumer Sentiment Up on Improved Post-Election Outlook",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-consumer-sentiment-rises-on-improved-post-election-outlook",
-          "date": "2026-11-20T15:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Senate Passes Landmark Bill to Overhaul US Energy Permitting",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/senate-passes-landmark-bill-to-overhaul-us-energy-permitting",
-          "date": "2026-11-20T03:10:14Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,11 +958,11 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 319
+      "stories": 327
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 98
+      "stories": 101
     },
     {
       "publisher": "www.thehindu.com",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 24,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 25,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

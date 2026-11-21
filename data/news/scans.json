@@ -2,6 +2,63 @@
   "schema": 1,
   "scans": [
     {
+      "id": "20261121T083552Z",
+      "asOf": "2026-11-21T08:35:52.376163Z",
+      "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
+      "sourceFeedsConfigured": 15,
+      "queriesTotal": 15,
+      "queriesSucceeded": 14,
+      "queriesFailed": {
+        "UN News": "not well-formed (invalid token): line 1, column 0"
+      },
+      "feedItemsSeen": {
+        "BBC World": 25,
+        "BBC Business": 58,
+        "BBC India": 23,
+        "BBC Middle East": 26,
+        "BBC Technology": 21,
+        "The Hindu Business": 60,
+        "The Hindu Markets": 60,
+        "The Hindu Economy": 60,
+        "The Hindu Industry": 60,
+        "Bloomberg Markets": 20,
+        "Bloomberg Economics": 20,
+        "Bloomberg Politics": 20,
+        "Federal Reserve Monetary": 15,
+        "ECB Press": 15
+      },
+      "newUniqueArticles": 11,
+      "retainedArticles": 607,
+      "counts14d": {
+        "geopolitics": 120,
+        "defence_capex": 11,
+        "elections_policy": 45,
+        "ai_rotation": 158,
+        "inflation_rates": 126,
+        "trade_policy": 16,
+        "auto_consumer": 5,
+        "india_flows": 31,
+        "healthcare": 9,
+        "energy_shipping": 24,
+        "climate_agri": 8,
+        "tech_credit": 2,
+        "sovereign_credit": 2,
+        "credit_cds": 1,
+        "tyre_inputs": 1
+      },
+      "newByTopic": {
+        "ai_rotation": 6,
+        "geopolitics": 2,
+        "elections_policy": 2,
+        "inflation_rates": 1,
+        "defence_capex": 1
+      },
+      "oldestRetainedAt": "2026-07-29T18:00:00Z",
+      "lookbackDays": 14,
+      "coverageWarning": "Selected publisher feeds only; RSS feeds vary in update frequency and length, no exhaustive news or CDS price data.",
+      "cdsStatus": "CDS-related press headlines; no verified live named-issuer CDS spreads"
+    },
+    {
       "id": "20261120T212545Z",
       "asOf": "2026-11-20T21:25:45.228429Z",
       "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
