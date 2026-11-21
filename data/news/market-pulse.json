@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T08:35:52.376163Z",
+  "generatedAt": "2026-11-21T20:11:59.186414Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,49 +9,49 @@
     "days": 14
   },
   "overall": {
-    "items": 524,
+    "items": 534,
     "publishers": 6,
     "positive": 61,
-    "negative": 120,
-    "neutral": 343,
+    "negative": 121,
+    "neutral": 352,
     "languageIndex": -6.8,
     "label": "Mixed headline language",
-    "sourceConcentration": 62.4,
+    "sourceConcentration": 63.1,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 158,
+      "items": 163,
       "publishers": 3,
       "positive": 19,
       "negative": 19,
-      "neutral": 120,
-      "languageIndex": 1.8,
+      "neutral": 125,
+      "languageIndex": 1.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.6,
+      "sourceConcentration": 69.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Historic Market Selloff Deepens After Anthropic IPO",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-close-11-20-2026-video",
-          "date": "2026-11-20T23:54:51Z",
+          "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
+          "date": "2026-11-21T17:01:32Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Stocks Plunge After Anthropic IPO, Trump Returns from Asia",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/bloomberg-money-11-20-2026-video",
-          "date": "2026-11-20T23:28:16Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Lam Research intensifies focus on Indian semiconductor mart as local fab discussions gather momentum",
+          "url": "https://www.thehindu.com/business/lam-research-intensifies-focus-on-indiansemiconductor-mart-as-local-fab-discussions-gather-momentum/article71729041.ece",
+          "date": "2026-11-21T16:41:05Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-          "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T23:08:57Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Anthropic IPO Fails to Calm AI Jitters",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-21/anthropic-ipo-fails-to-calm-ai-jitters-video",
+          "date": "2026-11-21T13:43:18Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 120,
+      "items": 122,
       "publishers": 4,
       "positive": 9,
-      "negative": 37,
-      "neutral": 74,
-      "languageIndex": -35.3,
+      "negative": 38,
+      "neutral": 75,
+      "languageIndex": -36.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 48.3,
+      "sourceConcentration": 50.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Burnham’s Big Worry Isn’t Brexit or Welfare, It’s Trump and Iran",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/burnham-s-big-worry-isn-t-brexit-or-welfare-it-s-trump-and-iran",
-          "date": "2026-11-21T06:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T21:57:07Z",
+          "title": "Russia-bound ship attacked in Gulf of Finland",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-21T19:20:22Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
-          "date": "2026-11-20T19:31:29Z",
+          "title": "Zelenskyy Names Potential Candidates for Ukraine’s US Ambassador Post",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/ukraine-s-zelenskyy-teases-short-list-for-new-us-ambassador",
+          "date": "2026-11-21T15:25:44Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "The 1982 War Still Haunts the Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
+          "date": "2026-11-21T15:19:32Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 45,
+      "items": 47,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 43,
-      "languageIndex": 1.6,
+      "neutral": 45,
+      "languageIndex": 1.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.1,
+      "sourceConcentration": 72.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
-          "date": "2026-11-21T06:00:00Z",
+          "title": "Trump Orders Contractors to Get Approval for Congress Queries",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
+          "date": "2026-11-21T18:41:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ANC fights to keep control of South Africa's key cities after election setback",
-          "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-21T00:34:51Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Republicans’ Midterm Defeat Corners Vance as 2028 Field Widens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/republicans-midterm-defeat-corners-vance-as-2028-field-widens",
+          "date": "2026-11-21T15:56:07Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
-          "date": "2026-11-20T15:19:19Z",
+          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+          "date": "2026-11-21T06:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -410,18 +410,24 @@
     {
       "id": "climate_agri",
       "title": "Monsoon and agriculture",
-      "items": 8,
+      "items": 9,
       "publishers": 3,
       "positive": 0,
       "negative": 1,
-      "neutral": 7,
+      "neutral": 8,
       "languageIndex": -16.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 37.5,
+      "sourceConcentration": 44.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
+          "date": "2026-11-21T12:00:00Z",
+          "publisher": "news.un.org"
+        },
         {
           "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
           "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
@@ -433,12 +439,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-16T00:11:12Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
-          "date": "2026-11-15T12:30:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Agri inputs; FMCG; Rural consumption",
@@ -700,34 +700,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 120,
+      "items": 122,
       "publishers": 4,
       "positive": 9,
-      "negative": 37,
-      "neutral": 74,
-      "languageIndex": -35.3,
+      "negative": 38,
+      "neutral": 75,
+      "languageIndex": -36.3,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 48.3,
+      "sourceConcentration": 50.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Burnham’s Big Worry Isn’t Brexit or Welfare, It’s Trump and Iran",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/burnham-s-big-worry-isn-t-brexit-or-welfare-it-s-trump-and-iran",
-          "date": "2026-11-21T06:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-20T21:57:07Z",
+          "title": "Russia-bound ship attacked in Gulf of Finland",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-21T19:20:22Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
-          "date": "2026-11-20T19:31:29Z",
+          "title": "Zelenskyy Names Potential Candidates for Ukraine’s US Ambassador Post",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/ukraine-s-zelenskyy-teases-short-list-for-new-us-ambassador",
+          "date": "2026-11-21T15:25:44Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "The 1982 War Still Haunts the Middle East",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
+          "date": "2026-11-21T15:19:32Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 45,
+      "items": 47,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 43,
-      "languageIndex": 1.6,
+      "neutral": 45,
+      "languageIndex": 1.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.1,
+      "sourceConcentration": 72.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
-          "date": "2026-11-21T06:00:00Z",
+          "title": "Trump Orders Contractors to Get Approval for Congress Queries",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
+          "date": "2026-11-21T18:41:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ANC fights to keep control of South Africa's key cities after election setback",
-          "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-21T00:34:51Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Republicans’ Midterm Defeat Corners Vance as 2028 Field Widens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/republicans-midterm-defeat-corners-vance-as-2028-field-widens",
+          "date": "2026-11-21T15:56:07Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Speaker Johnson Tells House Republicans to Stop Skipping Votes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/speaker-johnson-tells-house-republicans-to-stop-skipping-votes",
-          "date": "2026-11-20T15:19:19Z",
+          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+          "date": "2026-11-21T06:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,15 +958,15 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 327
+      "stories": 337
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 101
+      "stories": 100
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 76
+      "stories": 77
     },
     {
       "publisher": "news.un.org",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 25,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 26,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
