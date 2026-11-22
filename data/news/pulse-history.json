@@ -2,46 +2,46 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-22T08:31:52.443190Z",
+      "generatedAt": "2026-11-22T20:26:38.507053Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 537,
+        "items": 546,
         "publishers": 6,
-        "positive": 61,
-        "negative": 122,
-        "neutral": 354,
-        "languageIndex": -6.7,
+        "positive": 62,
+        "negative": 127,
+        "neutral": 357,
+        "languageIndex": -7.3,
         "label": "Mixed headline language",
-        "sourceConcentration": 63.1,
+        "sourceConcentration": 63.6,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 163,
+          "items": 164,
           "publishers": 3,
           "languageIndex": 1.7,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 128,
+          "items": 132,
           "publishers": 5,
-          "languageIndex": -29.1,
+          "languageIndex": -29.0,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 121,
+          "items": 124,
           "publishers": 4,
-          "languageIndex": -36.4,
+          "languageIndex": -37.8,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 50,
+          "items": 51,
           "publishers": 4,
-          "languageIndex": 1.5,
+          "languageIndex": 1.4,
           "attentionDeltaPct": null
         },
         {

@@ -1,12 +1,183 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-22T08:31:52.443190Z",
+  "updatedAt": "2026-11-22T20:26:38.507053Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "819fa7a219904ef9d90a",
+      "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T20:00:00Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d8aecacbc67c8da5af17",
+      "title": "Van Hollen Says He Has Momentum in Bid to Lead Senate Democrats",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/van-hollen-says-he-has-momentum-in-bid-to-lead-senate-democrats",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T16:25:22Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "387129c61946371466a0",
+      "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T16:08:20Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9271d7e01c3f050b7154",
+      "title": "US Probing Alleged Spy Tied to Ex-Nvidia CEO, Spy Chief Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/spy-chief-says-us-probing-alleged-spy-tied-to-former-nvidia-ceo",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T15:26:50Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9020aeaad3467e274447",
+      "title": "Chile Central Bank Chief Says Economic Recovery May Take Longer",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/chile-central-bank-head-tells-newspaper-recovery-may-take-longer",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T14:47:30Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4fd9527b21b74d7819d7",
+      "title": "Fed’s Inflation Fight May Require More Hikes",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-22/fed-s-inflation-fight-may-require-more-hikes-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T14:19:26Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "63770ee44daa01e7b797",
+      "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T12:00:00Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a4198fe3f1f6ac787cb7",
+      "title": "US Power Advantage Over China Shrinks Further on Iran War Effect",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T11:30:00Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f99b2d5bbed0088f7377",
+      "title": "Russian Attacks on Energy Sites Strain Ukraine Power Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T08:35:31Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "ee934b6c250c2e47e044",
       "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
@@ -350,6 +521,25 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "af765c3909916a728856",
+      "title": "‘We escaped with only our lives’: Fighting to give birth in war-torn Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168851",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-21T12:00:00Z",
+      "discovered": "2026-11-22T20:26:38.507053Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {

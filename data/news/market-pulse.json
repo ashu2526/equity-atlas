@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T08:31:52.443190Z",
+  "generatedAt": "2026-11-22T20:26:38.507053Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,32 +9,38 @@
     "days": 14
   },
   "overall": {
-    "items": 537,
+    "items": 546,
     "publishers": 6,
-    "positive": 61,
-    "negative": 122,
-    "neutral": 354,
-    "languageIndex": -6.7,
+    "positive": 62,
+    "negative": 127,
+    "neutral": 357,
+    "languageIndex": -7.3,
     "label": "Mixed headline language",
-    "sourceConcentration": 63.1,
+    "sourceConcentration": 63.6,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 163,
+      "items": 164,
       "publishers": 3,
       "positive": 19,
       "negative": 19,
-      "neutral": 125,
+      "neutral": 126,
       "languageIndex": 1.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.9,
+      "sourceConcentration": 70.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US Probing Alleged Spy Tied to Ex-Nvidia CEO, Spy Chief Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/spy-chief-says-us-probing-alleged-spy-tied-to-former-nvidia-ceo",
+          "date": "2026-11-22T15:26:50Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
           "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
@@ -46,12 +52,6 @@
           "url": "https://www.thehindu.com/business/lam-research-intensifies-focus-on-indiansemiconductor-mart-as-local-fab-discussions-gather-momentum/article71729041.ece",
           "date": "2026-11-21T16:41:05Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Anthropic IPO Fails to Calm AI Jitters",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-21/anthropic-ipo-fails-to-calm-ai-jitters-video",
-          "date": "2026-11-21T13:43:18Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 128,
+      "items": 132,
       "publishers": 5,
-      "positive": 5,
-      "negative": 50,
-      "neutral": 73,
-      "languageIndex": -29.1,
+      "positive": 6,
+      "negative": 52,
+      "neutral": 74,
+      "languageIndex": -29.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.9,
+      "sourceConcentration": 86.4,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/swiss-inflation-has-been-accelerating-snb-vice-president-martin-says",
-          "date": "2026-11-22T08:00:00Z",
+          "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+          "date": "2026-11-22T20:00:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season",
-          "date": "2026-11-21T21:00:00Z",
+          "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon",
+          "date": "2026-11-22T16:08:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
-          "date": "2026-11-20T18:53:00Z",
+          "title": "Chile Central Bank Chief Says Economic Recovery May Take Longer",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/chile-central-bank-head-tells-newspaper-recovery-may-take-longer",
+          "date": "2026-11-22T14:47:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 121,
+      "items": 124,
       "publishers": 4,
       "positive": 9,
-      "negative": 38,
+      "negative": 41,
       "neutral": 74,
-      "languageIndex": -36.4,
+      "languageIndex": -37.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 51.2,
+      "sourceConcentration": 51.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Russia-bound ship attacked in Gulf of Finland",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-21T19:20:22Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
+          "date": "2026-11-22T12:00:00Z",
+          "publisher": "news.un.org"
         },
         {
-          "title": "Zelenskyy Names Potential Candidates for Ukraine’s US Ambassador Post",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/ukraine-s-zelenskyy-teases-short-list-for-new-us-ambassador",
-          "date": "2026-11-21T15:25:44Z",
+          "title": "US Power Advantage Over China Shrinks Further on Iran War Effect",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
+          "date": "2026-11-22T11:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "The 1982 War Still Haunts the Middle East",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
-          "date": "2026-11-21T15:19:32Z",
+          "title": "Russian Attacks on Energy Sites Strain Ukraine Power Supply",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
+          "date": "2026-11-22T08:35:31Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 50,
+      "items": 51,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 48,
-      "languageIndex": 1.5,
+      "neutral": 49,
+      "languageIndex": 1.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 68.0,
+      "sourceConcentration": 68.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Van Hollen Says He Has Momentum in Bid to Lead Senate Democrats",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/van-hollen-says-he-has-momentum-in-bid-to-lead-senate-democrats",
+          "date": "2026-11-22T16:25:22Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
           "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
@@ -175,12 +181,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-22T00:10:37Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Trump Orders Contractors to Get Approval for Congress Queries",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
-          "date": "2026-11-21T18:41:20Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 128,
+      "items": 132,
       "publishers": 5,
-      "positive": 5,
-      "negative": 50,
-      "neutral": 73,
-      "languageIndex": -29.1,
+      "positive": 6,
+      "negative": 52,
+      "neutral": 74,
+      "languageIndex": -29.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.9,
+      "sourceConcentration": 86.4,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/swiss-inflation-has-been-accelerating-snb-vice-president-martin-says",
-          "date": "2026-11-22T08:00:00Z",
+          "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+          "date": "2026-11-22T20:00:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season",
-          "date": "2026-11-21T21:00:00Z",
+          "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon",
+          "date": "2026-11-22T16:08:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
-          "date": "2026-11-20T18:53:00Z",
+          "title": "Chile Central Bank Chief Says Economic Recovery May Take Longer",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/chile-central-bank-head-tells-newspaper-recovery-may-take-longer",
+          "date": "2026-11-22T14:47:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,34 +700,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 121,
+      "items": 124,
       "publishers": 4,
       "positive": 9,
-      "negative": 38,
+      "negative": 41,
       "neutral": 74,
-      "languageIndex": -36.4,
+      "languageIndex": -37.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 51.2,
+      "sourceConcentration": 51.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Russia-bound ship attacked in Gulf of Finland",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-21T19:20:22Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
+          "date": "2026-11-22T12:00:00Z",
+          "publisher": "news.un.org"
         },
         {
-          "title": "Zelenskyy Names Potential Candidates for Ukraine’s US Ambassador Post",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/ukraine-s-zelenskyy-teases-short-list-for-new-us-ambassador",
-          "date": "2026-11-21T15:25:44Z",
+          "title": "US Power Advantage Over China Shrinks Further on Iran War Effect",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
+          "date": "2026-11-22T11:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "The 1982 War Still Haunts the Middle East",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-21/the-1982-war-still-haunts-the-middle-east-video",
-          "date": "2026-11-21T15:19:32Z",
+          "title": "Russian Attacks on Energy Sites Strain Ukraine Power Supply",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
+          "date": "2026-11-22T08:35:31Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,18 +743,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 50,
+      "items": 51,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 48,
-      "languageIndex": 1.5,
+      "neutral": 49,
+      "languageIndex": 1.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 68.0,
+      "sourceConcentration": 68.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Van Hollen Says He Has Momentum in Bid to Lead Senate Democrats",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/van-hollen-says-he-has-momentum-in-bid-to-lead-senate-democrats",
+          "date": "2026-11-22T16:25:22Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
           "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
@@ -766,12 +772,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-22T00:10:37Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Trump Orders Contractors to Get Approval for Congress Queries",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
-          "date": "2026-11-21T18:41:20Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -958,11 +958,11 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 339
+      "stories": 347
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 100
+      "stories": 99
     },
     {
       "publisher": "www.thehindu.com",
@@ -970,7 +970,7 @@
     },
     {
       "publisher": "news.un.org",
-      "stories": 17
+      "stories": 19
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 27,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 28,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
