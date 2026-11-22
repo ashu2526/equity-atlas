@@ -3,6 +3,408 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-22-pm",
+      "asOf": "2026-11-22",
+      "createdAt": "2026-11-22T13:51:15.575Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence qualified; Sunday market closed; 19:00 IST source refresh not confirmed",
+      "marketSession": "PM — Sunday 22 November 2026 Asia/Kolkata; Indian cash market closed; last completed session Friday 20 November",
+      "coverageWindow": {
+        "start": "2026-11-08",
+        "end": "2026-11-22T19:25:00+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-22T08:31:52.443190Z",
+      "headline": "Sunday brings SEBI offshore-fund transparency debate and renewed macro event pricing; Indian bank leadership awaits Monday confirmation",
+      "executiveSummary": "No new Sunday NSE session; do not reclassify Friday bank gains as Sunday buying. Compared with Saturday PM, fresh 22 November RSS includes criticism of SEBI's proposed offshore fund disclosure easing, while 20 November Reuters proposal remains unenacted. The 22 November 08:31:52 UTC scan succeeded for 14/15 feeds (UN News failed). Latest sector bars remain 20 November: Private Banks 3m 14.79%, relative 8.4pp, 7d 5.65%, 1m 17.72%, acceleration 19.42pp; PSU Banks 3m 14.63%, relative 8.24pp, 7d 6.72%, 1m 19.75%, acceleration 20.48pp; Pharma 3m 7.69%, relative 1.3pp, 7d -0.52%, 1m 11.03%, acceleration 16.42pp; IT 3m 2.59%, relative -3.8pp, 7d -1.91%, 1m -3.39%, acceleration -15.85pp; Energy 3m -2.43%, relative -8.82pp, 7d -0.21%, 1m 5.21%, acceleration 11.41pp; Metals 3m -6.84%, relative -13.23pp, 7d -2.98%, 1m 3.47%, acceleration 12.05pp. Latest Polymarket quotes: Israel x Iran ceasefire continues through November 22? YES 98.80¢; stored delta 3.4 percentage points; 24h betting volume USD 403058.63; liquidity USD 53987.37; timestamp 2026-11-22T08:29:10.609389+00:00; https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963 | Will there be no change in Fed interest rates after the December 2026 meeting? YES 6.70¢; stored delta -0.45 percentage points; 24h betting volume USD 390304.71; liquidity USD 424741.69; timestamp 2026-11-22T08:29:10.609389+00:00; https://polymarket.com/event/fed-decision-in-december-20260729232808632 | Will there be no change in Fed interest rates after the January 2027 meeting? YES 48.50¢; stored delta 0 percentage points; 24h betting volume USD 8862.16; liquidity USD 240877.01; timestamp 2026-11-22T08:29:10.609389+00:00; https://polymarket.com/event/fed-decision-in-january-20260729233815502. These are bets, not calibrated probabilities or capital flows. Friday secondary-reported NSE provisional FII net +₹10,308.42cr and DII net -₹4,859.80cr; primary exchange and NSDL fortnightly sector reconciliation not completed. No fresh company OHLCV bars since 20 November. Market sentiment: selective domestic bank price strength with external technology/rate and geopolitical risks; evidence insufficient for broad risk-on.",
+      "regime": {
+        "label": "Selective Indian bank price leadership / untested global risk-off; Sunday evidence-constrained",
+        "change": "New SEBI transparency counterargument and refreshed Sunday macro contract prices; no new India trading confirmation",
+        "confidence": "Moderate for dated stored prices; low for current sector flow, macro causality and next-session direction",
+        "marketConfirmation": "20 Nov bank 3-month relative leadership; no Sunday cash-market trading",
+        "contradictions": "Global technology losses, concentrated Indian breadth, derivative hedging and incomplete primary flow verification",
+        "missingSignals": "Primary NSE cash turnover; NSDL fortnightly sector allocations; AMFI monthly primary equity subscriptions; CFTC numeric positioning; Treasury TIC country figures; verified issuer CDS events; 23 Nov OHLCV"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 last close",
+          "value": "25,800.60",
+          "period": "2026-11-20",
+          "dataClass": "index price",
+          "source": "https://www.nseindia.com/"
+        },
+        {
+          "name": "FII provisional gross buy/sell/net",
+          "value": "₹23,596.40cr / ₹13,287.98cr / +₹10,308.42cr",
+          "period": "2026-11-20",
+          "dataClass": "secondary reproduction of NSE provisional cash transactions",
+          "source": "https://www.alphave.in/flows"
+        },
+        {
+          "name": "DII provisional gross buy/sell/net",
+          "value": "₹18,492.63cr / ₹23,352.43cr / -₹4,859.80cr",
+          "period": "2026-11-20",
+          "dataClass": "secondary reproduction of NSE provisional cash transactions",
+          "source": "https://www.alphave.in/flows"
+        },
+        {
+          "name": "Private Banks 3m relative NIFTY 50",
+          "value": "8.4 percentage points",
+          "period": "2026-11-20",
+          "dataClass": "index price relative return, not flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "PSU Banks 3m relative NIFTY 50",
+          "value": "8.24 percentage points",
+          "period": "2026-11-20",
+          "dataClass": "index price relative return, not flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "Pharma 3m relative NIFTY 50",
+          "value": "1.3 percentage points",
+          "period": "2026-11-20",
+          "dataClass": "index price relative return, not flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "Israel x Iran ceasefire continues through November 22?",
+          "value": "98.80¢ YES; 3.4pp versus stored previous",
+          "period": "2026-11-22T08:29:10.609389+00:00",
+          "dataClass": "prediction-market price, not objective probability",
+          "source": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+        },
+        {
+          "name": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+          "value": "6.70¢ YES; -0.45pp versus stored previous",
+          "period": "2026-11-22T08:29:10.609389+00:00",
+          "dataClass": "prediction-market price, not objective probability",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+          "value": "48.50¢ YES; 0pp versus stored previous",
+          "period": "2026-11-22T08:29:10.609389+00:00",
+          "dataClass": "prediction-market price, not objective probability",
+          "source": "https://polymarket.com/event/fed-decision-in-january-20260729233815502"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-22-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "global_risk",
+          "geography": "US/India",
+          "title": "Global equity correction versus Indian Friday close",
+          "whatHappened": "20 November US risk-asset losses followed the Indian 20 November close; Sunday adds no new Indian cash session.",
+          "whyItMatters": [
+            "The temporal mismatch prevents treating Friday's Indian strength as a response to the subsequent US decline.",
+            "A global discount-rate or risk-budget shock could pressure Indian high-duration equities even without a local earnings change."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "US technology, Indian IT",
+          "proxies": "Banking, domestic cash-generative companies",
+          "whatCouldChange": "Monday India breadth, US futures and credit spreads; avoid asserting AI orders were cancelled",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "regulation",
+          "geography": "India",
+          "title": "SEBI foreign fund disclosure easing is proposed, not enacted",
+          "whatHappened": "On 20 November Reuters reported SEBI's proposal to remove additional disclosure requirements for certain concentrated offshore funds.",
+          "whyItMatters": [
+            "Lower compliance friction could affect fund entry and custody economics.",
+            "Relaxation may create beneficial-ownership transparency concerns; final text and effective date matter."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "Foreign fund access, custodians",
+          "proxies": "Exchanges, brokers and liquid large-cap issuers",
+          "whatCouldChange": "Final SEBI consultation and actual subsequent FPI subscriptions; proposal could be withdrawn",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.reuters.com/legal/government/indias-markets-regulator-proposes-removing-additional-disclosure-requirements-2026-11-20/",
+            "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "india_flows",
+          "geography": "India",
+          "title": "Reported foreign cash purchases contrast with derivatives hedging",
+          "whatHappened": "For 20 November secondary reproductions of NSE provisional turnover show FII buy ₹23,596.40cr, sell ₹13,287.98cr, net +₹10,308.42cr; DII buy ₹18,492.63cr, sell ₹23,352.43cr, net -₹4,859.80cr.",
+          "whyItMatters": [
+            "Aggregate cash demand may support liquid index constituents but cannot identify the sector bought.",
+            "Different NSDL custodian-based final equity measures and index-futures contracts cannot be combined with provisional exchange cash flow."
+          ],
+          "smartMoney": "Secondary reported NSE provisional cash gross/net only; primary NSE not independently retrieved",
+          "direct": "Indian listed cash equities",
+          "proxies": "Banks and brokers only as hypotheses",
+          "whatCouldChange": "Reconcile NSE original and NSDL period-specific numbers; confirm index-futures hedge notional",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.alphave.in/flows",
+            "https://www.nseindia.com/reports/fii-dii"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "sector_rotation",
+          "geography": "India",
+          "title": "Bank price leadership is strong, not a verified FPI sector rotation",
+          "whatHappened": "The latest completed 20 November NIFTY sector snapshot shows private-bank 3m relative +8.40pp and PSU-bank +8.24pp versus NIFTY 50.",
+          "whyItMatters": [
+            "Positive one-month acceleration may reflect repricing of credit-growth and margin expectations.",
+            "No fresh 22 November Indian bar exists, and relative price performance is not a capital transaction."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "Banks and credit intermediaries",
+          "proxies": "NBFCs, capital-market intermediaries",
+          "whatCouldChange": "Deposit beta, NIM, credit quality and Monday breadth; NSDL fortnightly allocations remain missing",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.niftyindices.com/",
+            "https://www.fpi.nsdl.co.in/"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-5",
+          "rank": 5,
+          "importance": "medium",
+          "theme": "energy_shipping",
+          "geography": "Global/India",
+          "title": "Crude-input relief remains conditional on maritime security",
+          "whatHappened": "Recent reports indicate crude volatility and continuing shipping security concerns; no 22 November verified spot crude quote was retrieved.",
+          "whyItMatters": [
+            "Lower sustained crude and freight could reduce costs for airlines, paints and tyres.",
+            "Insurance, currency depreciation and delivery lags can offset spot-price relief."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "Oil importers, airlines",
+          "proxies": "Tyres, paints, chemicals, logistics",
+          "whatCouldChange": "Dated Brent settlement, USDINR, shipping insurance and quarterly gross margins; no claimed spot price",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.reuters.com/business/energy/"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "ai_capex",
+          "geography": "US/India",
+          "title": "AI-capex demand and AI equity valuation must be separated",
+          "whatHappened": "After the 20 November technology selloff, 21 November reporting described Lam Research interest in India's semiconductor market, without verified new India purchase orders.",
+          "whyItMatters": [
+            "A lower equity multiple can raise the cost of financing compute infrastructure.",
+            "Indian power/cooling and semiconductor equipment revenue requires contracted projects rather than press attention."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "Semiconductors, IT services",
+          "proxies": "Transformers, cooling, grid equipment",
+          "whatCouldChange": "Hyperscaler capex filings, Indian fab financing and equipment purchase orders",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.thehindu.com/business/lam-research-intensifies-focus-on-indiansemiconductor-mart-as-local-fab-discussions-gather-momentum/article71729041.ece"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "global_rates",
+          "geography": "US/India",
+          "title": "Fed policy expectations remain an external discount-rate risk",
+          "whatHappened": "Recent Fed commentary and 22 November stored prediction-market contracts indicate active rate-policy speculation; no new weekend FOMC decision is verified.",
+          "whyItMatters": [
+            "Higher US yields could increase the equity discount rate and influence INR funding conditions.",
+            "Currency and credit-spread responses matter more than the language of headlines alone."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "NBFCs, real estate, US-duration equities",
+          "proxies": "Banks, export businesses",
+          "whatCouldChange": "Next Treasury yield, dollar and Fed primary release; no fabricated CDS issuer quotes",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        },
+        {
+          "id": "2026-11-22-pm-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "technical",
+          "geography": "India",
+          "title": "Hospital technical leadership requires completed-bar validation",
+          "whatHappened": "Stored 20 November company data flag MAXHEALTH and APOLLOHOSP 55-session breaks, but these were already noted in the prior report; HDFCBANK also shows a mechanical breakout and falling 200-day slope.",
+          "whyItMatters": [
+            "Price-volume breakouts can identify watch candidates but do not establish delivery buying or earnings revisions.",
+            "A falling long average or corporate-action-distorted turnover can invalidate a mechanical short-term signal."
+          ],
+          "smartMoney": "Not measured for this story or sector; no verified sector-specific institutional purchases",
+          "direct": "Hospitals and banks",
+          "proxies": "Medical suppliers, diagnostics",
+          "whatCouldChange": "Monday close, exchange-adjusted volume, operating margins and fundamental filings; no fresh Sunday signal",
+          "caution": "Economic transmission is conditional; no issuer CDS quote, equity flow inference from price, or prediction-market probability claim",
+          "sources": [
+            "https://ashu2526.github.io/equity-atlas/company-signals.html"
+          ],
+          "evidenceType": "Dated reporting or stored market observation; interpretations explicitly conditional"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private Banks",
+          "status": "price leadership watch",
+          "evidence": "3m 14.79%, relative 8.4pp, 7d 5.65%, 1m 17.72%, acceleration 19.42pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "PSU Banks",
+          "status": "price leadership watch",
+          "evidence": "3m 14.63%, relative 8.24pp, 7d 6.72%, 1m 19.75%, acceleration 20.48pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "Pharma",
+          "status": "price leadership watch",
+          "evidence": "3m 7.69%, relative 1.3pp, 7d -0.52%, 1m 11.03%, acceleration 16.42pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "IT",
+          "status": "relative laggard watch",
+          "evidence": "3m 2.59%, relative -3.8pp, 7d -1.91%, 1m -3.39%, acceleration -15.85pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "Energy",
+          "status": "relative laggard watch",
+          "evidence": "3m -2.43%, relative -8.82pp, 7d -0.21%, 1m 5.21%, acceleration 11.41pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "Metals",
+          "status": "relative laggard watch",
+          "evidence": "3m -6.84%, relative -13.23pp, 7d -2.98%, 1m 3.47%, acceleration 12.05pp through 2026-11-20",
+          "nextData": "Monday breadth, sector earnings and NSDL allocation; price is not FPI flow"
+        },
+        {
+          "sector": "Capital-market intermediaries",
+          "status": "regulatory proposal only",
+          "evidence": "20 Nov SEBI proposal, 22 Nov transparency concerns",
+          "nextData": "Final enacted regulation and fund applications"
+        },
+        {
+          "sector": "Hospitals",
+          "status": "prior technical leadership, not new",
+          "evidence": "20 Nov OHLCV signals already discussed Saturday; JLHL volume extreme requires corporate-action check",
+          "nextData": "23 Nov exchange-adjusted close and volume"
+        },
+        {
+          "sector": "Tyres/paints/aviation",
+          "status": "unproven input margin relief",
+          "evidence": "Crude and maritime transmission conditional",
+          "nextData": "Delivered feedstock prices, freight and margin disclosures"
+        },
+        {
+          "sector": "AI power and cooling equipment",
+          "status": "unproven order acceleration",
+          "evidence": "Lam Research India interest is not booked orders",
+          "nextData": "Company order books and customer capex"
+        }
+      ],
+      "cooling": [
+        {
+          "sector": "Metals",
+          "evidence": "Latest 20 Nov 3-month relative weakness; demand recovery unverified"
+        },
+        {
+          "sector": "IT services",
+          "evidence": "Global AI equity repricing; no demonstrated order cancellation"
+        },
+        {
+          "sector": "Broad market conviction",
+          "evidence": "Sunday no trading; prior rally breadth concentrated"
+        }
+      ],
+      "risks": [
+        "Monday India gap-down and deteriorating advance/decline breadth after US selloff",
+        "US yields or dollar rise and INR funding cost pressure",
+        "SEBI proposal fails or transparency objections intensify",
+        "Crude and shipping insurance reaccelerate together",
+        "Bank credit cost or deposit beta worsens despite price leadership",
+        "AI infrastructure financing slows with documented order cuts",
+        "NSE provisional versus NSDL final flow discrepancy persists",
+        "Extraordinary company volume arises from corporate action rather than accumulation"
+      ],
+      "whatChanged": [
+        "22 Nov scan updated to 08:31:52 UTC, 14/15 successful feeds; UN News failed",
+        "SEBI offshore disclosure proposal now faces publicly reported transparency objections; remains unenacted",
+        "22 Nov 08:29 UTC Polymarket snapshot changed relative to 21 Nov 20:12 UTC; only contract price changes measured",
+        "No new Sunday India cash session or company bars; Friday technical alerts are not reissued as fresh",
+        "Bank 3-month price leadership remains latest 20 Nov reading; no new NSDL sector allocation confirmation"
+      ],
+      "tomorrowChecklist": [
+        "23 Nov verify India opening and closing breadth versus Friday and US correction",
+        "Read original NSE FII/DII gross buy/sell/net and reconcile against NSDL final by reporting scope",
+        "Check NSDL fortnightly sector net purchases versus sector index price leadership",
+        "Check SEBI original consultation, responses and final effective date",
+        "Verify Brent settlement, freight insurance, USDINR and Treasury yields",
+        "Retrieve AMFI monthly, CFTC COT and US Treasury TIC numeric periods before asserting flow",
+        "Validate 23 Nov HDFCBANK and hospital adjusted OHLCV and earnings/corporate actions",
+        "Recheck Polymarket same exact contracts versus stored snapshots and material news catalysts"
+      ],
+      "sources": [
+        "https://www.reuters.com/legal/government/indias-markets-regulator-proposes-removing-additional-disclosure-requirements-2026-11-20/",
+        "https://www.alphave.in/flows",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+        "https://www.thehindu.com/business/lam-research-intensifies-focus-on-indiansemiconductor-mart-as-local-fab-discussions-gather-momentum/article71729041.ece",
+        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://www.amfiindia.com/research-information/amfi-monthly",
+        "https://www.fpi.nsdl.co.in/",
+        "https://ashu2526.github.io/equity-atlas/signals.html",
+        "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "https://www.niftyindices.com/",
+        "https://www.reuters.com/business/energy/",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html",
+        "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://polymarket.com/event/fed-decision-in-january-20260729233815502"
+      ],
+      "limitations": [
+        "19:00 IST Sunday source pipeline not confirmed; newest news scan is 08:31:52 UTC, sector and company 08:29 UTC",
+        "RSS headlines are not full-text verification; UN News feed failed (14/15)",
+        "Primary NSE cash transaction table, NSDL sector fortnightly data, AMFI numeric monthly equity flow, CFTC numeric positions and Treasury TIC numeric country flows unavailable in this review",
+        "No independently verified 22 Nov CDS issuer quote or weekend Indian market bar; no invented values",
+        "Polymarket YES price is a market quote, not objective probability; betting volume is not institutional equity flow",
+        "Historical 20 Nov technical signals were not new on Sunday; no fresh breakouts asserted",
+        "Independent reporting includes Reuters SEBI proposal and secondary provisional cash-flow reproductions; broader macro news coverage remains selective"
+      ]
+    },
+    {
       "id": "2026-11-21-pm",
       "asOf": "2026-11-21",
       "createdAt": "2026-11-21T13:56:55.922Z",
