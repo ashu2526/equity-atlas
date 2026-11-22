@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T20:11:59.186414Z",
+  "generatedAt": "2026-11-22T08:31:52.443190Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-07",
-    "end": "2026-11-21",
+    "start": "2026-11-08",
+    "end": "2026-11-22",
     "days": 14
   },
   "overall": {
-    "items": 534,
+    "items": 537,
     "publishers": 6,
     "positive": 61,
-    "negative": 121,
-    "neutral": 352,
-    "languageIndex": -6.8,
+    "negative": 122,
+    "neutral": 354,
+    "languageIndex": -6.7,
     "label": "Mixed headline language",
     "sourceConcentration": 63.1,
     "coverageSufficient": true
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 126,
+      "items": 128,
       "publishers": 5,
       "positive": 5,
-      "negative": 48,
+      "negative": 50,
       "neutral": 73,
-      "languageIndex": -28.9,
+      "languageIndex": -29.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.7,
+      "sourceConcentration": 85.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/swiss-inflation-has-been-accelerating-snb-vice-president-martin-says",
+          "date": "2026-11-22T08:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season",
+          "date": "2026-11-21T21:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
           "date": "2026-11-20T18:53:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
-          "date": "2026-11-20T18:25:23Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "France Picks Boone to Run Markets at ECB in Pivotal Crisis Role",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/france-picks-boone-to-run-markets-at-ecb-in-pivotal-crisis-role",
-          "date": "2026-11-20T16:41:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,14 +109,14 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 122,
+      "items": 121,
       "publishers": 4,
       "positive": 9,
       "negative": 38,
-      "neutral": 75,
-      "languageIndex": -36.3,
+      "neutral": 74,
+      "languageIndex": -36.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 50.8,
+      "sourceConcentration": 51.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 47,
+      "items": 50,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 45,
+      "neutral": 48,
       "languageIndex": 1.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.3,
+      "sourceConcentration": 68.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
+          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+          "date": "2026-11-22T06:34:21Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+          "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-22T00:10:37Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Trump Orders Contractors to Get Approval for Congress Queries",
           "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
           "date": "2026-11-21T18:41:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Republicans’ Midterm Defeat Corners Vance as 2028 Field Widens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/republicans-midterm-defeat-corners-vance-as-2028-field-widens",
-          "date": "2026-11-21T15:56:07Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
-          "date": "2026-11-21T06:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,18 +195,24 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 31,
+      "items": 32,
       "publishers": 1,
       "positive": 17,
       "negative": 3,
-      "neutral": 11,
-      "languageIndex": 45.2,
+      "neutral": 12,
+      "languageIndex": 43.8,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
+          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+          "date": "2026-11-22T06:34:21Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Rupee settles above 93 level after seven months on FII flows",
           "url": "https://www.thehindu.com/business/Industry/rupee-settles-above-93-level-after-seven-months-on-fii-flows/article71724100.ece",
@@ -217,12 +223,6 @@
           "title": "Stock markets defy global rout; Sensex jumps 898 points, Nifty climbs to 25,800",
           "url": "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
           "date": "2026-11-20T11:41:46Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "SEBI eyes faster FPI onboarding, plans fresh reforms to attract foreign capital",
-          "url": "https://www.thehindu.com/business/markets/sebi-eyes-faster-fpi-onboarding-plans-fresh-reforms-to-attract-foreign-capital/article71723707.ece",
-          "date": "2026-11-20T09:41:52Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -241,15 +241,21 @@
       "items": 24,
       "publishers": 4,
       "positive": 5,
-      "negative": 7,
-      "neutral": 12,
-      "languageIndex": -3.6,
+      "negative": 6,
+      "neutral": 13,
+      "languageIndex": -1.8,
       "label": "Mixed headline language",
       "sourceConcentration": 58.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "India a swing vote at IMO meeting on shipping decarbonisation",
+          "url": "https://www.thehindu.com/business/india-a-swing-vote-at-imo-meeting-on-shipping-decarbonisation/article71729104.ece",
+          "date": "2026-11-21T15:44:21Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
           "url": "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
@@ -261,12 +267,6 @@
           "url": "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
           "date": "2026-11-18T16:53:00Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Treasuries Higher for a Third Day as Oil Prices Slide",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
-          "date": "2026-11-18T05:19:28Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 126,
+      "items": 128,
       "publishers": 5,
       "positive": 5,
-      "negative": 48,
+      "negative": 50,
       "neutral": 73,
-      "languageIndex": -28.9,
+      "languageIndex": -29.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.7,
+      "sourceConcentration": 85.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/swiss-inflation-has-been-accelerating-snb-vice-president-martin-says",
+          "date": "2026-11-22T08:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season",
+          "date": "2026-11-21T21:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
           "date": "2026-11-20T18:53:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation",
-          "date": "2026-11-20T18:25:23Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "France Picks Boone to Run Markets at ECB in Pivotal Crisis Role",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/france-picks-boone-to-run-markets-at-ecb-in-pivotal-crisis-role",
-          "date": "2026-11-20T16:41:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,14 +700,14 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 122,
+      "items": 121,
       "publishers": 4,
       "positive": 9,
       "negative": 38,
-      "neutral": 75,
-      "languageIndex": -36.3,
+      "neutral": 74,
+      "languageIndex": -36.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 50.8,
+      "sourceConcentration": 51.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -743,34 +743,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 47,
+      "items": 50,
       "publishers": 4,
       "positive": 2,
       "negative": 0,
-      "neutral": 45,
+      "neutral": 48,
       "languageIndex": 1.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.3,
+      "sourceConcentration": 68.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
+          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+          "date": "2026-11-22T06:34:21Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+          "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-22T00:10:37Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "Trump Orders Contractors to Get Approval for Congress Queries",
           "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
           "date": "2026-11-21T18:41:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Republicans’ Midterm Defeat Corners Vance as 2028 Field Widens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/republicans-midterm-defeat-corners-vance-as-2028-field-widens",
-          "date": "2026-11-21T15:56:07Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
-          "date": "2026-11-21T06:00:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -958,7 +958,7 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 337
+      "stories": 339
     },
     {
       "publisher": "www.bbc.co.uk",
@@ -966,7 +966,7 @@
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 77
+      "stories": 78
     },
     {
       "publisher": "news.un.org",
@@ -982,8 +982,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 26,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 27,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

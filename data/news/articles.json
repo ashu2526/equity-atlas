@@ -1,12 +1,90 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-21T20:11:59.186414Z",
+  "updatedAt": "2026-11-22T08:31:52.443190Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "ee934b6c250c2e47e044",
+      "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Martin Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/swiss-inflation-has-been-accelerating-snb-vice-president-martin-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T08:00:00Z",
+      "discovered": "2026-11-22T08:31:52.443190Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "91e3763b3be97d43c1e7",
+      "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
+      "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T06:34:21Z",
+      "discovered": "2026-11-22T08:31:52.443190Z",
+      "topics": [
+        "elections_policy",
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "67c31da8ce5ffaad1ea9",
+      "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+      "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-22T00:10:37Z",
+      "discovered": "2026-11-22T08:31:52.443190Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b55e5a00669e0b051faa",
+      "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-21T21:00:00Z",
+      "discovered": "2026-11-22T08:31:52.443190Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "86c4e817690b99bec640",
       "title": "Russia-bound ship attacked in Gulf of Finland",
@@ -97,6 +175,26 @@
       ],
       "feedSources": [
         "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fe167de26f12237c178c",
+      "title": "India a swing vote at IMO meeting on shipping decarbonisation",
+      "url": "https://www.thehindu.com/business/india-a-swing-vote-at-imo-meeting-on-shipping-decarbonisation/article71729104.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-21T15:44:21Z",
+      "discovered": "2026-11-22T08:31:52.443190Z",
+      "topics": [
+        "elections_policy",
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
