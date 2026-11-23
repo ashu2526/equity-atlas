@@ -3,6 +3,357 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-23-pm",
+      "asOf": "2026-11-23",
+      "createdAt": "2026-11-23T14:25:25.226Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified; 19:00 IST source pipeline completion not confirmed",
+      "marketSession": "PM — Monday 23 November 2026 Asia/Kolkata; Indian cash-market close",
+      "coverageWindow": {
+        "start": "2026-11-09",
+        "end": "2026-11-23T19:53:50+05:30"
+      },
+      "sourceArchiveAsOf": "2026-11-23T09:30:38.328288Z",
+      "headline": "India's bank-led rally fails Monday's risk-off test: NIFTY -1.75%, financials retreat, Tata Steel–APL Apollo transaction reprices; crude relief remains conditional",
+      "executiveSummary": "23 November close materially reverses the AM selective-bank-resilience thesis: NIFTY 25,349.65 (-1.75%), Sensex 82,435.99 (-1.77%), 14 of 16 major sectors lower; financials fall 2.4%-3.3% after a strong four-week advance. Tata Steel–APL Apollo transaction adds a distinct corporate funding and integration catalyst. Brent softened despite Gulf attacks, while Reuters flagged diesel tightness. Source archive and sector/stock snapshots refreshed 09:28-09:30 UTC but sector and stock completed bars remain 20 November: Monday technical breakouts cannot be assessed. Sector leadership and priced event-risk: stale 20 Nov private-bank +8.40pp and PSU-bank +8.24pp 3m relative returns versus NIFTY now contradicted by Monday bank losses; stored 23 Nov 09:28 UTC December Fed +25bp YES 92.5¢ (+2pp versus 22 Nov 20:26 snapshot), $426,443 24h betting volume and $824,935 liquidity. These are price and betting data, not institutional sector flows. No fresh verified NSE 23 Nov gross FII/DII, NSDL sector allocation, AMFI, TIC or CFTC numeric figures. Evidence supports risk-off session, not a proven structural bear regime.",
+      "regime": {
+        "label": "Indian risk-off reversal with concentrated financial-sector unwind; structural trend unconfirmed",
+        "change": "AM bank resilience invalidated by 23 Nov broad close; corporate transaction and oil/diesel divergence newly material",
+        "confidence": "High for Reuters-reported closing indices and sector breadth; moderate for one-session regime; low for institutional attribution",
+        "marketConfirmation": "NIFTY -1.75%; Sensex -1.77%; 14/16 sectors lower; bank/financial shares -2.4% to -3.3%",
+        "contradictions": "NIFTY still up approximately 10% month-to-date according to Reuters; prior 3m bank leadership and reported November foreign inflows remain positive",
+        "missingSignals": "Primary 23 Nov NSE FII/DII buy/sell/net; latest NSDL sector allocation; fresh 23 Nov sector index/stock bars; CFTC, TIC, AMFI numerical primary observations; credit spread/CDS event verification"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50 close",
+          "value": "25,349.65 (-1.75%)",
+          "period": "2026-11-23 close",
+          "dataClass": "index close",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+        },
+        {
+          "name": "Sensex close",
+          "value": "82,435.99 (-1.77%)",
+          "period": "2026-11-23 close",
+          "dataClass": "index close",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+        },
+        {
+          "name": "Market breadth",
+          "value": "14 of 16 major sectors declined",
+          "period": "2026-11-23",
+          "dataClass": "sector price breadth",
+          "source": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+        },
+        {
+          "name": "Brent intraday",
+          "value": "USD 91.25/bbl (-1.43%)",
+          "period": "2026-11-23 12:56 GMT",
+          "dataClass": "commodity price, not transaction flow",
+          "source": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+        },
+        {
+          "name": "Private-bank relative 3m (stale)",
+          "value": "+8.40pp versus NIFTY 50",
+          "period": "through 2026-11-20 only",
+          "dataClass": "sector price relative return, not flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "PSU-bank relative 3m (stale)",
+          "value": "+8.24pp versus NIFTY 50",
+          "period": "through 2026-11-20 only",
+          "dataClass": "sector price relative return, not flow",
+          "source": "https://www.nseindia.com/all-reports"
+        },
+        {
+          "name": "Fed December +25bp YES",
+          "value": "92.5¢; +2.0pp stored snapshot; volume24h USD 426,443.18; liquidity USD 824,934.67",
+          "period": "2026-11-23T09:28:12.075509Z",
+          "dataClass": "Polymarket contract quote, not probability/flow",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "NSE 23 Nov FII/DII gross/net",
+          "value": "Unavailable — no verified primary NSE report",
+          "period": "2026-11-23",
+          "dataClass": "institutional cash transactions unavailable",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-23-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "equities",
+          "geography": "India",
+          "title": "Indian equities reverse sharply as bank leadership fails first global risk-off test",
+          "whatHappened": "23 November NSE close: NIFTY 50 25,349.65 (-1.75%), Sensex 82,435.99 (-1.77%); 14/16 sectors declined and financials fell 2.4%-3.3%.",
+          "whyItMatters": [
+            "A broad 14-of-16 sector decline contradicts the prior selective-bank resilience thesis.",
+            "Bank share declines raise equity risk premia and challenge momentum even though no bank earnings deterioration has yet been established."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "Banks and index-heavy financials",
+          "proxies": "NBFCs, real estate, housing suppliers; relative defensive IT",
+          "whatCouldChange": "Confirm 24 November bank relative strength, NSE breadth and actual bank funding/deposit indicators",
+          "caution": "One-day profit taking after 18%-22.5% four-week financial-sector gains is not evidence of a structural credit downturn",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "corporate_transactions",
+          "geography": "India",
+          "title": "Tata Steel–APL Apollo transaction drives material single-stock repricing",
+          "whatHappened": "23 November Reuters reports Tata Steel announced a $1.67bn transaction for about 26.4% of APL Apollo and transfer of tubes/colour-coated business; APL Apollo fell 21.3% and Tata Steel 8.4%.",
+          "whyItMatters": [
+            "Acquisition funding and integration may alter leverage, capital allocation and near-term equity discount rates.",
+            "Business transfers change competitive positioning in downstream steel fabrication; synergies need independently confirmed terms and filings."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "Tata Steel; APL Apollo",
+          "proxies": "Steel tubes, downstream steel processing, steel lenders and competing fabricators",
+          "whatCouldChange": "Read exchange transaction filings, consideration structure, funding and subsequent credit-rating actions",
+          "caution": "Reported share-price reaction is not a verified CDS spread or completed ownership transfer",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/",
+            "https://www.financialexpress.com/market/sensex-nifty-today-gift-nifty-signals-strong-open-despite-black-monday-fears-4391393/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "energy_geopolitics",
+          "geography": "Middle East/India",
+          "title": "Crude falls but diesel tightness and Gulf vessel attacks complicate margin relief",
+          "whatHappened": "Reuters 23 November reported Brent $91.25/bbl at 12:56 GMT (-1.43%) despite Gulf attacks, with crude supplies rising; separate Reuters analysis warned diesel remains tight.",
+          "whyItMatters": [
+            "Cheaper crude can lower feedstock costs for Indian importers, but diesel crack spreads and war-risk freight can prevent delivered-cost relief.",
+            "Shipping incidents and refinery claims raise volatility in insurance, logistics and inflation expectations despite softer benchmark crude."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "Oil importers, refiners, airlines, logistics",
+          "proxies": "Paints, tyres, fertiliser, petrochemicals and diesel-intensive transport",
+          "whatCouldChange": "Compare diesel cracks, freight insurance, actual landed crude and quarterly gross margins",
+          "caution": "Do not infer confirmed production loss or durable margin improvement from one Brent quote",
+          "sources": [
+            "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
+            "https://www.reuters.com/commentary/reuters-open-interest/oils-iran-war-recovery-masks-stubborn-diesel-shortage-2026-11-23/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "rates_fx",
+          "geography": "India/US",
+          "title": "Rupee support meets RBI inflation and rate-risk counterweight",
+          "whatHappened": "Reuters 23 November cited INR 92.67/USD at Friday close and HDFC Bank treasury commentary that October CPI was 6.09%, above RBI's 6% tolerance threshold; the banker's 91.50 forecast is a scenario, not a realized price.",
+          "whyItMatters": [
+            "A firmer INR eases imported inputs but can compress rupee translation for exporters.",
+            "Elevated inflation and potential RBI tightening increase funding and discount-rate risk despite recent bond strength."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "Indian FX, sovereign debt, importers",
+          "proxies": "IT exporters, NBFCs, real estate, capital goods",
+          "whatCouldChange": "RBI 4 December decision, actual CPI revision, INR closes, yield curve and funding costs",
+          "caution": "Bank treasury outlook is commentary; neither a 50bp hike nor 91.50 spot is enacted/observed",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-rupee-could-rise-9150-equity-inflows-hdfc-banks-treasury-head-says-2026-11-23/",
+            "https://www.reuters.com/world/india/foreign-inflows-lend-support-rupee-bonds-oil-focus-2026-11-23/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-5",
+          "rank": 5,
+          "importance": "medium",
+          "theme": "ai_capex",
+          "geography": "US/India",
+          "title": "AI financing optimism remains disconnected from Indian order evidence",
+          "whatHappened": "23 November The Hindu published detailed coverage of Anthropic's IPO and early share-price reversal; prior US technology losses remain the immediate global valuation backdrop.",
+          "whyItMatters": [
+            "Higher AI-equity discount rates may raise financing costs even where physical compute demand persists.",
+            "Indian power, transformer, cooling and IT-services revenues depend on executed contracts, not overseas equity issuance or headline valuations."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "US AI issuers, semiconductor ecosystem",
+          "proxies": "Indian electrical equipment, data-centre power/cooling, IT outsourcing",
+          "whatCouldChange": "Hyperscaler capex guidance, supplier backlog, financing terms and disclosed Indian contracts",
+          "caution": "No verified cancellation of Indian AI infrastructure orders; avoid treating IPO trading as capex flow",
+          "sources": [
+            "https://www.thehindu.com/business/markets/anthropics-stock-market-debut-a-record-ipo-a-quick-fade-decabillionaires-and-the-risks-ahead-explained/article71728235.ece"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "policy_trade",
+          "geography": "India",
+          "title": "SEBI offshore ownership disclosure easing remains proposal, not realized inflow",
+          "whatHappened": "20-23 November reporting continued to discuss SEBI's proposed concentrated offshore-investor disclosure easing and objections over transparency; final rule and implementation not confirmed.",
+          "whyItMatters": [
+            "Reduced compliance burden could affect market access and intermediary operating costs if adopted.",
+            "Transparency and enforcement objections could delay or materially revise the proposal, altering expected capital-market activity."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "Foreign funds, custodians, exchanges",
+          "proxies": "Depositories, brokers, capital-market service firms",
+          "whatCouldChange": "Final SEBI circular, consultation deadline and actual FPI registrations/net flows",
+          "caution": "No verified enacted reform or incremental flow attributable to proposal",
+          "sources": [
+            "https://www.sebi.gov.in/",
+            "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        },
+        {
+          "id": "2026-11-23-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "global_credit",
+          "geography": "US/India",
+          "title": "Global rates and credit remain an unverified cross-asset stress transmission",
+          "whatHappened": "November Fed rate-hike expectations remain elevated after prior inflation and minutes reporting; no new verified issuer-specific CDS event or numeric CFTC position obtained in this review.",
+          "whyItMatters": [
+            "Higher US Treasury yields can lift global discount rates and dollar funding costs.",
+            "Corporate credit spreads, if independently observed widening, could pressure leveraged Indian companies; this remains a monitoring hypothesis."
+          ],
+          "smartMoney": "Not measured for this specific sector/event; no verified sector-level institutional cash transaction",
+          "direct": "US Treasuries, global credit and rate-sensitive equities",
+          "proxies": "Indian NBFCs, realty, leveraged industrials",
+          "whatCouldChange": "Official Fed releases, Treasury yields, corporate spread indices and issuer disclosures",
+          "caution": "No CDS quote, credit event or institutional positioning figure was invented",
+          "sources": [
+            "https://www.federalreserve.gov/newsevents.htm",
+            "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
+          ],
+          "evidenceType": "Dated reporting and/or explicit conditional transmission; primary transaction/flow verification limited"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private and PSU banks",
+          "status": "Cooling sharply in Monday cash prices; prior 3m leadership remains historical",
+          "transmission": "Price risk premium and funding sensitivity",
+          "confirmation": "24 Nov sector index relative strength, NIM/deposit data, NSDL sector FPI",
+          "counterevidence": "Four-week gains and positive prior 3m relative returns"
+        },
+        {
+          "sector": "IT services",
+          "status": "Relative laggard through 20 Nov, Monday TCS outperformed",
+          "transmission": "US client budgets and FX translation",
+          "confirmation": "Broad IT index, order bookings and client guidance",
+          "counterevidence": "Single-stock strength is not sector recovery"
+        },
+        {
+          "sector": "Hospitals",
+          "status": "Watch prior volume-backed signals, no fresh Monday bar",
+          "transmission": "Occupancy, ARPOB and margin expansion",
+          "confirmation": "Exchange OHLCV, earnings and occupancy",
+          "counterevidence": "20 Nov alerts not automatically valid after market reversal"
+        },
+        {
+          "sector": "Tyres and paints",
+          "status": "Conditional crude cost relief",
+          "transmission": "Feedstock gross margin",
+          "confirmation": "Landed inputs and freight",
+          "counterevidence": "Diesel cracks and Gulf risk"
+        },
+        {
+          "sector": "Steel and tubes",
+          "status": "Transaction-driven repricing",
+          "transmission": "Acquisition leverage, integration and spreads",
+          "confirmation": "Exchange filings and financing",
+          "counterevidence": "One-day price dislocation may overshoot fundamentals"
+        },
+        {
+          "sector": "NBFC and realty",
+          "status": "Rate-sensitive vulnerable",
+          "transmission": "Borrowing cost and demand",
+          "confirmation": "RBI rate path and credit spreads",
+          "counterevidence": "Recent bond rally"
+        },
+        {
+          "sector": "AI power/cooling",
+          "status": "Unproven orders despite AI financing narrative",
+          "transmission": "Capital goods order book",
+          "confirmation": "Signed contracts, capex and margins",
+          "counterevidence": "US equity repricing"
+        },
+        {
+          "sector": "Defence and marine logistics",
+          "status": "Geopolitical monitoring, not verified order acceleration",
+          "transmission": "Insurance and procurement",
+          "confirmation": "Official procurement and vessel disruption",
+          "counterevidence": "No validated durable order shock"
+        }
+      ],
+      "cooling": [
+        "Indian banking price momentum reversed in Monday session; 3m relative leadership snapshot remains stale",
+        "Metals fell 3.7% on 23 Nov amid global prices and dollar pressure",
+        "AI listed-equity valuation narrative remains under pressure; no verified physical-order collapse"
+      ],
+      "risks": [
+        "Further bank-led breadth deterioration on 24 Nov",
+        "Unreconciled 23 Nov FII/DII cash figures and false sector-flow attribution",
+        "RBI inflation-driven rate repricing",
+        "Gulf vessel incidents lift freight/diesel despite lower crude",
+        "Tata Steel–APL Apollo funding/integration surprises",
+        "Global AI funding spread widening without actual order evidence",
+        "Fed December policy expectations reprice",
+        "Stale Monday OHLCV/sector snapshots mistaken for current technical confirmation"
+      ],
+      "whatChanged": [
+        "23 Nov NSE close directly contradicts 23 Nov AM selective bank resilience",
+        "New Tata Steel–APL Apollo transaction and large share-price reaction",
+        "Oil declines while Reuters highlights diesel tightness and Gulf attacks",
+        "Polymarket Fed +25bp YES 92.5¢ (+2pp) versus actual stored prior snapshot; no objective probability claim",
+        "09:30 UTC archive newer than AM 20:26 UTC prior-day archive, but 19:00 IST completion unconfirmed"
+      ],
+      "tomorrowChecklist": [
+        "Obtain 23 Nov official NSE FII/DII gross buys, gross sells and nets; compare conflicting secondary reports",
+        "Verify 23 Nov NSE sector indices and completed OHLCV before new technical signals",
+        "Read Tata Steel and APL Apollo exchange filings and funding terms",
+        "Check 24 Nov bank index breadth, NIM funding commentary and global credit spreads",
+        "Check Brent, diesel cracks, war-risk freight and actual Gulf shipping incidents",
+        "Retrieve latest NSDL fortnightly sector allocation, AMFI monthly equity flows, CFTC positioning and Treasury TIC by observation date",
+        "Recheck December Fed Polymarket contracts versus next stored snapshot and official Fed releases"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/",
+        "https://www.financialexpress.com/market/sensex-nifty-today-gift-nifty-signals-strong-open-despite-black-monday-fears-4391393/",
+        "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
+        "https://www.reuters.com/commentary/reuters-open-interest/oils-iran-war-recovery-masks-stubborn-diesel-shortage-2026-11-23/",
+        "https://www.reuters.com/world/india/indian-rupee-could-rise-9150-equity-inflows-hdfc-banks-treasury-head-says-2026-11-23/",
+        "https://www.reuters.com/world/india/foreign-inflows-lend-support-rupee-bonds-oil-focus-2026-11-23/",
+        "https://www.thehindu.com/business/markets/anthropics-stock-market-debut-a-record-ipo-a-quick-fade-decabillionaires-and-the-risks-ahead-explained/article71728235.ece",
+        "https://www.sebi.gov.in/",
+        "https://www.federalreserve.gov/newsevents.htm",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/web/Reports/Latest.aspx",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+      ],
+      "limitations": "19:00 IST RSS and market-signals refresh completion not confirmed; latest news 09:30:38 UTC and sector/technical snapshot 09:28 UTC still only 20 Nov cash bars. Official NSE 23 Nov FII/DII gross/net, NSDL fortnightly sectors, AMFI monthly, CFTC numeric positioning, Treasury TIC country purchases, CDS events and company exchange filings not independently retrieved. A web source claiming contradictory 23 Nov NIFTY 24,868.41 was excluded in favor of Reuters/Financial Express concordant 25,349.65. No fresh company breakout asserted."
+    },
+    {
       "id": "2026-11-23-am",
       "asOf": "2026-11-23",
       "createdAt": "2026-11-23T01:51:20.576Z",
