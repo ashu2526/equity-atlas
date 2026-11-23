@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T20:26:38.507053Z",
+  "generatedAt": "2026-11-23T09:30:38.328288Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-08",
-    "end": "2026-11-22",
+    "start": "2026-11-09",
+    "end": "2026-11-23",
     "days": 14
   },
   "overall": {
-    "items": 546,
+    "items": 559,
     "publishers": 6,
-    "positive": 62,
-    "negative": 127,
-    "neutral": 357,
-    "languageIndex": -7.3,
+    "positive": 61,
+    "negative": 133,
+    "neutral": 365,
+    "languageIndex": -7.8,
     "label": "Mixed headline language",
-    "sourceConcentration": 63.6,
+    "sourceConcentration": 64.2,
     "coverageSufficient": true
   },
   "topics": [
@@ -28,7 +28,7 @@
       "positive": 19,
       "negative": 19,
       "neutral": 126,
-      "languageIndex": 1.7,
+      "languageIndex": 1.6,
       "label": "Mixed headline language",
       "sourceConcentration": 70.1,
       "coverageSufficient": true,
@@ -36,22 +36,22 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Anthropic’s stock market debut: a record IPO, a quick fade, decabillionaires, and the risks ahead | Explained",
+          "url": "https://www.thehindu.com/business/markets/anthropics-stock-market-debut-a-record-ipo-a-quick-fade-decabillionaires-and-the-risks-ahead-explained/article71728235.ece",
+          "date": "2026-11-23T02:56:44Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Anthropic IPO: Tracing an ‘unusual’ AI company’s race to the top",
+          "url": "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece",
+          "date": "2026-11-23T02:14:00Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
           "title": "US Probing Alleged Spy Tied to Ex-Nvidia CEO, Spy Chief Says",
           "url": "https://www.bloomberg.com/news/articles/2026-11-22/spy-chief-says-us-probing-alleged-spy-tied-to-former-nvidia-ceo",
           "date": "2026-11-22T15:26:50Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
-          "date": "2026-11-21T17:01:32Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Lam Research intensifies focus on Indian semiconductor mart as local fab discussions gather momentum",
-          "url": "https://www.thehindu.com/business/lam-research-intensifies-focus-on-indiansemiconductor-mart-as-local-fab-discussions-gather-momentum/article71729041.ece",
-          "date": "2026-11-21T16:41:05Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 132,
+      "items": 134,
       "publishers": 5,
       "positive": 6,
       "negative": 52,
-      "neutral": 74,
-      "languageIndex": -29.0,
+      "neutral": 76,
+      "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.4,
+      "sourceConcentration": 86.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
+          "date": "2026-11-23T08:29:05Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Singapore Core Inflation Eases to 1.5%, Giving MAS Room to Pause",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/singapore-core-inflation-eases-to-1-5-as-electricity-rates-cut",
+          "date": "2026-11-23T05:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
           "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
           "date": "2026-11-22T20:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon",
-          "date": "2026-11-22T16:08:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Chile Central Bank Chief Says Economic Recovery May Take Longer",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/chile-central-bank-head-tells-newspaper-recovery-may-take-longer",
-          "date": "2026-11-22T14:47:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 124,
+      "items": 130,
       "publishers": 4,
       "positive": 9,
-      "negative": 41,
-      "neutral": 74,
-      "languageIndex": -37.8,
+      "negative": 44,
+      "neutral": 77,
+      "languageIndex": -34.6,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 51.6,
+      "sourceConcentration": 53.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
-          "date": "2026-11-22T12:00:00Z",
-          "publisher": "news.un.org"
-        },
-        {
-          "title": "US Power Advantage Over China Shrinks Further on Iran War Effect",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
-          "date": "2026-11-22T11:30:00Z",
+          "title": "Ukraine Says It Sunk Russian Warship in Libya as Conflict Widens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/kyiv-confirms-strike-on-russian-ship-in-libya-as-targets-grow",
+          "date": "2026-11-23T08:24:15Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Russian Attacks on Energy Sites Strain Ukraine Power Supply",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
-          "date": "2026-11-22T08:35:31Z",
+          "title": "Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/horizons-middle-east-africa-11-23-2026-video",
+          "date": "2026-11-23T07:38:43Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab",
+          "date": "2026-11-23T06:55:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,35 +152,35 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 51,
+      "items": 55,
       "publishers": 4,
       "positive": 2,
-      "negative": 0,
-      "neutral": 49,
-      "languageIndex": 1.4,
+      "negative": 2,
+      "neutral": 51,
+      "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 68.6,
+      "sourceConcentration": 70.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Van Hollen Says He Has Momentum in Bid to Lead Senate Democrats",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/van-hollen-says-he-has-momentum-in-bid-to-lead-senate-democrats",
-          "date": "2026-11-22T16:25:22Z",
+          "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
+          "date": "2026-11-23T09:00:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
-          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
-          "date": "2026-11-22T06:34:21Z",
-          "publisher": "www.thehindu.com"
+          "title": "France’s Private Sector Weakens on Election, Budget Concerns",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/france-s-private-sector-weakens-on-election-budget-concerns",
+          "date": "2026-11-23T08:15:00Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-          "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-22T00:10:37Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching",
+          "date": "2026-11-23T05:30:09Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -197,16 +197,22 @@
       "title": "India flows",
       "items": 32,
       "publishers": 1,
-      "positive": 17,
-      "negative": 3,
+      "positive": 16,
+      "negative": 4,
       "neutral": 12,
-      "languageIndex": 43.8,
+      "languageIndex": 37.5,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee declines 23 paise to 92.85 against U.S. dollar in early trade",
+          "url": "https://www.thehindu.com/business/markets/rupee-declines-23-paise-to-9285-against-us-dollar-in-early-trade/article71733376.ece",
+          "date": "2026-11-23T04:35:21Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
           "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
@@ -217,12 +223,6 @@
           "title": "Rupee settles above 93 level after seven months on FII flows",
           "url": "https://www.thehindu.com/business/Industry/rupee-settles-above-93-level-after-seven-months-on-fii-flows/article71724100.ece",
           "date": "2026-11-20T12:35:28Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Stock markets defy global rout; Sensex jumps 898 points, Nifty climbs to 25,800",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-defy-global-rout-sensex-jumps-898-points-nifty-climbs-to-25800/article71724101.ece",
-          "date": "2026-11-20T11:41:46Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,34 +238,34 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 24,
+      "items": 26,
       "publishers": 4,
       "positive": 5,
-      "negative": 6,
-      "neutral": 13,
-      "languageIndex": -1.8,
+      "negative": 7,
+      "neutral": 14,
+      "languageIndex": -10.1,
       "label": "Mixed headline language",
-      "sourceConcentration": 58.3,
+      "sourceConcentration": 53.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Vitol Unit Sets Timeline for $2.3 Billion Durban LNG Power Plant",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/vitol-unit-sets-timeline-for-2-3-billion-durban-lng-power-plant",
+          "date": "2026-11-23T07:33:22Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Hormuz swim highlights environmental cost of war",
+          "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-21T16:12:31Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "India a swing vote at IMO meeting on shipping decarbonisation",
           "url": "https://www.thehindu.com/business/india-a-swing-vote-at-imo-meeting-on-shipping-decarbonisation/article71729104.ece",
           "date": "2026-11-21T15:44:21Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
-          "url": "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
-          "date": "2026-11-19T16:45:57Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "India’s Oct. crude import bill soars 87.5% to $19.5-bn amid West Asia tensions, volumes up 11%",
-          "url": "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
-          "date": "2026-11-18T16:53:00Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -657,34 +657,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 132,
+      "items": 134,
       "publishers": 5,
       "positive": 6,
       "negative": 52,
-      "neutral": 74,
-      "languageIndex": -29.0,
+      "neutral": 76,
+      "languageIndex": -28.9,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.4,
+      "sourceConcentration": 86.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
+          "date": "2026-11-23T08:29:05Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Singapore Core Inflation Eases to 1.5%, Giving MAS Room to Pause",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/singapore-core-inflation-eases-to-1-5-as-electricity-rates-cut",
+          "date": "2026-11-23T05:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
           "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
           "date": "2026-11-22T20:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon",
-          "date": "2026-11-22T16:08:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Chile Central Bank Chief Says Economic Recovery May Take Longer",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/chile-central-bank-head-tells-newspaper-recovery-may-take-longer",
-          "date": "2026-11-22T14:47:30Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -700,34 +700,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 124,
+      "items": 130,
       "publishers": 4,
       "positive": 9,
-      "negative": 41,
-      "neutral": 74,
-      "languageIndex": -37.8,
+      "negative": 44,
+      "neutral": 77,
+      "languageIndex": -34.6,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 51.6,
+      "sourceConcentration": 53.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "‘I had a better life in Iran’: Afghan women forced home struggle to rebuild",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168852",
-          "date": "2026-11-22T12:00:00Z",
-          "publisher": "news.un.org"
-        },
-        {
-          "title": "US Power Advantage Over China Shrinks Further on Iran War Effect",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/us-power-advantage-over-china-shrinks-further-on-iran-war-effect",
-          "date": "2026-11-22T11:30:00Z",
+          "title": "Ukraine Says It Sunk Russian Warship in Libya as Conflict Widens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/kyiv-confirms-strike-on-russian-ship-in-libya-as-targets-grow",
+          "date": "2026-11-23T08:24:15Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Russian Attacks on Energy Sites Strain Ukraine Power Supply",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
-          "date": "2026-11-22T08:35:31Z",
+          "title": "Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/horizons-middle-east-africa-11-23-2026-video",
+          "date": "2026-11-23T07:38:43Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab",
+          "date": "2026-11-23T06:55:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -743,35 +743,35 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 51,
+      "items": 55,
       "publishers": 4,
       "positive": 2,
-      "negative": 0,
-      "neutral": 49,
-      "languageIndex": 1.4,
+      "negative": 2,
+      "neutral": 51,
+      "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 68.6,
+      "sourceConcentration": 70.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Van Hollen Says He Has Momentum in Bid to Lead Senate Democrats",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/van-hollen-says-he-has-momentum-in-bid-to-lead-senate-democrats",
-          "date": "2026-11-22T16:25:22Z",
+          "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
+          "date": "2026-11-23T09:00:02Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
-          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
-          "date": "2026-11-22T06:34:21Z",
-          "publisher": "www.thehindu.com"
+          "title": "France’s Private Sector Weakens on Election, Budget Concerns",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/france-s-private-sector-weakens-on-election-budget-concerns",
+          "date": "2026-11-23T08:15:00Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-          "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-22T00:10:37Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching",
+          "date": "2026-11-23T05:30:09Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
@@ -958,11 +958,11 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 347
+      "stories": 359
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 99
+      "stories": 100
     },
     {
       "publisher": "www.thehindu.com",
@@ -982,7 +982,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 28,
+    "reportedScanCount": 29,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },

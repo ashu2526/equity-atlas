@@ -1,12 +1,318 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-22T20:26:38.507053Z",
+  "updatedAt": "2026-11-23T09:30:38.328288Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "2de81162399aaac81ae2",
+      "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T09:00:02Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "210b2a3d90dfcff5ac47",
+      "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T08:29:05Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "62274bf7908f535efbe3",
+      "title": "Ukraine Says It Sunk Russian Warship in Libya as Conflict Widens",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/kyiv-confirms-strike-on-russian-ship-in-libya-as-targets-grow",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T08:24:15Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "66d189e460b18e54ab21",
+      "title": "France’s Private Sector Weakens on Election, Budget Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/france-s-private-sector-weakens-on-election-budget-concerns",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T08:15:00Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1ab66b59681ad88f0e7a",
+      "title": "Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-23/horizons-middle-east-africa-11-23-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T07:38:43Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "939a00986c5675a3b07f",
+      "title": "Vitol Unit Sets Timeline for $2.3 Billion Durban LNG Power Plant",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/vitol-unit-sets-timeline-for-2-3-billion-durban-lng-power-plant",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T07:33:22Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6cb19635a72ff26a3f7d",
+      "title": "Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T06:55:45Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3d76cc760840601bc0c5",
+      "title": "Iran Attacks Bahrain, Houthis Strike Saudi Targets",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-23/iran-attacks-bahrain-houthis-strike-saudi-targets-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T06:37:37Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b0eaad06d055eef7228f",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T05:33:17Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "144e106ba6a152a81b88",
+      "title": "Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T05:30:09Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "dab29f7fec907fa0fbea",
+      "title": "Australia to Cut Economic Growth Forecast on Iran War Impacts",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/australia-lower-economy-estimate-budget-update-inflation-unemployment-treasurer-jim-chalmers",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T05:13:13Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "525ea1830cbafbb515ee",
+      "title": "Singapore Core Inflation Eases to 1.5%, Giving MAS Room to Pause",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/singapore-core-inflation-eases-to-1-5-as-electricity-rates-cut",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T05:00:00Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7f1f7780c93e7e4813c0",
+      "title": "Spain Election Frontrunner Pledges Tax Cuts and Financial Audit",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/spain-election-frontrunner-pledges-tax-cuts-and-financial-audit",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T04:45:00Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "652cc76301ec78e2126c",
+      "title": "Rupee declines 23 paise to 92.85 against U.S. dollar in early trade",
+      "url": "https://www.thehindu.com/business/markets/rupee-declines-23-paise-to-9285-against-us-dollar-in-early-trade/article71733376.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T04:35:21Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "38db650bbbf19791748a",
+      "title": "Anthropic’s stock market debut: a record IPO, a quick fade, decabillionaires, and the risks ahead | Explained",
+      "url": "https://www.thehindu.com/business/markets/anthropics-stock-market-debut-a-record-ipo-a-quick-fade-decabillionaires-and-the-risks-ahead-explained/article71728235.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T02:56:44Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4eb38ca5dfef4e74589e",
+      "title": "Anthropic IPO: Tracing an ‘unusual’ AI company’s race to the top",
+      "url": "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T02:14:00Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "819fa7a219904ef9d90a",
       "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
@@ -330,6 +636,26 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b258816fbc0b7791e8df",
+      "title": "Hormuz swim highlights environmental cost of war",
+      "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-21T16:12:31Z",
+      "discovered": "2026-11-23T09:30:38.328288Z",
+      "topics": [
+        "energy_shipping",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
