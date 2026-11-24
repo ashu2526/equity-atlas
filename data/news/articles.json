@@ -1,12 +1,474 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-24T11:25:42.349952Z",
+  "updatedAt": "2026-11-24T23:11:58.967968Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "f589be4dc97c68b6cfa8",
+      "title": "California AG Sees 'Bright Red Flags' Regarding Nvidia",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/california-ag-sees-bright-red-flags-regarding-nvidia-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T23:00:26Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7dc7cd6abded0a3dcb22",
+      "title": "Bloomberg Businessweek Daily Podcast: Nvidia Euphoria Fades",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/businessweek-daily-podcast-nvidia-euphoria-fades-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T22:35:43Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "43096d772feb345bec5f",
+      "title": "US Steel Buyers Turn Abroad as Data Center Boom Strains Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-steel-buyers-turn-abroad-as-data-center-boom-strains-supply",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T22:12:57Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "832161bfe656b543ac55",
+      "title": "US Readies Tariff Hike on China, EU Goods",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T21:58:15Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "23cf8f3aa53c65d0de90",
+      "title": "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/bond-traders-rush-to-hedge-risk-of-fed-hikes-stalling-economy",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T21:30:00Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "04dca54d7f5113787445",
+      "title": "Escalation in Iran Appears As the Default",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/opinion-escalation-in-iran-appears-as-the-default-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T21:27:41Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ca6bd074c97c660efdfe",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T21:19:42Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1e35ae55deb75ce76ac5",
+      "title": "Nvidia Option Trader Scores 1,984% Gain After CEO Huang’s Return",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-option-trader-scores-1-984-gain-after-ceo-huang-s-return",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T21:17:23Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "eebac324923f94f8d998",
+      "title": "Milei Senate Chief Bullrich Confident Argentina Electoral Reform Will Pass",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/milei-senate-chief-bullrich-confident-argentina-electoral-reform-will-pass",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T20:49:59Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a2bd075495f31c3aef65",
+      "title": "Most Fed Regional Boards Wanted to Raise Rates in October",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-fed-regional-boards-wanted-to-raise-rates-in-october",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T19:36:40Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b7523cdf0d40444cde11",
+      "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T19:31:25Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2a585bd3aae6e698835a",
+      "title": "Lula Urged to Fast Track Brazil Central Bank Picks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/lula-urged-to-fast-track-brazil-central-bank-picks",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T18:29:23Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0454b80d6bdb74ae0bfa",
+      "title": "U.S. President Donald Trump gains possibly millions from Nvidia shares after Jensen Huang's return, media report",
+      "url": "https://www.thehindu.com/business/us-president-donald-trump-gains-possibly-millions-from-nvidia-shares-after-jensen-huangs-return-media-report/article71739911.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T17:49:24Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9275a0eb7f91017d0668",
+      "title": "US Army Orders Weapons Storage Review Ahead of Iowa Explosion",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-army-orders-weapons-storage-review-ahead-of-iowa-explosion",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T17:41:34Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c05e51bd01436da3d074",
+      "title": "Bank of Canada Warns of Persistent Inflation; Bonds Decline",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-canada-chief-warns-of-oil-passthrough-sticky-inflation",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T17:25:00Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2f1287ddddf1b6b77ddd",
+      "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T17:04:00Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b7f290e0fd6200b28f36",
+      "title": "Nvidia’s CEO comeback highlights leadership dependence, succession risks",
+      "url": "https://www.thehindu.com/business/Industry/nvidias-ceo-comeback-highlights-leadership-dependence-succession-risks/article71739232.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T15:49:27Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "df88dd7e5f9d2f376433",
+      "title": "New Trump Tariffs Won’t Top Trade Deal Levels, Will Be Targeted",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/new-trump-tariffs-won-t-top-trade-deal-levels-will-be-targeted",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T15:45:27Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "828037c2e0af649f61c8",
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T15:35:53Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1d9e85a585e1566431c6",
+      "title": "Land mine casualties soar in Syria, two years after war",
+      "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T15:17:28Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East",
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fcb74ad096b36e53b234",
+      "title": "Saudis See Smaller Economic Hit From War as Oil Flows Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/saudis-see-economy-taking-smaller-hit-from-war-as-oil-flows-rise",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T13:37:53Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fd195fe4df50122446a7",
+      "title": "McCormick Warns of ‘Slippery Slope’ After Trump Pressured Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/mccormick-warns-of-slippery-slope-after-trump-pressured-nvidia",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T13:35:50Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "4aa3b20e15eb72571423",
+      "title": "BOE ‘Behind the Curve’ Unless War Miraculously Ends, Greene Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/boe-behind-the-curve-unless-war-miraculously-ends-greene-says-mwuqeoej",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T13:29:43Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "82980ad805841f07a99d",
+      "title": "Mexico’s Headline Inflation Ticks Up After Surprise Rate Cut",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/mexico-s-headline-inflation-ticks-up-after-surprise-rate-cut",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T12:12:27Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -2,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "651ed19519a02c9f0163",
       "title": "Nvidia Market Whiplash Far From Over, Says RBC’s Wu Silverman",
@@ -131,6 +593,7 @@
       "published": "2026-11-24T10:10:50Z",
       "discovered": "2026-11-24T11:25:42.349952Z",
       "topics": [
+        "climate_agri",
         "geopolitics"
       ],
       "feedSources": [
@@ -138,6 +601,26 @@
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fead27d05f79ae5c5e28",
+      "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Loom",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T09:45:27Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "ai_rotation",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -351,6 +834,25 @@
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
+      "id": "012b324bfc0a36c0a39b",
+      "title": "Copper Edges Closer to Bear Market on Tech Rout, Tariff Anxiety",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/copper-resumes-decline-as-investors-look-beyond-drama-at-nvidia",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T02:38:19Z",
+      "discovered": "2026-11-24T23:11:58.967968Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
       "id": "5e623a3469edc8e44bad",
       "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
       "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
@@ -399,7 +901,8 @@
       "discovered": "2026-11-24T01:07:47.938295Z",
       "topics": [
         "ai_rotation",
-        "inflation_rates"
+        "inflation_rates",
+        "trade_policy"
       ],
       "feedSources": [
         "Bloomberg Markets"
@@ -591,7 +1094,8 @@
       "published": "2026-11-23T22:06:46Z",
       "discovered": "2026-11-24T11:25:42.349952Z",
       "topics": [
-        "ai_rotation"
+        "ai_rotation",
+        "trade_policy"
       ],
       "feedSources": [
         "Bloomberg Markets"

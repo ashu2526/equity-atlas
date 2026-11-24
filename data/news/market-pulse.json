@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T11:25:42.349952Z",
+  "generatedAt": "2026-11-24T23:11:58.967968Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 610,
+    "items": 621,
     "publishers": 6,
-    "positive": 66,
-    "negative": 144,
-    "neutral": 400,
-    "languageIndex": -9.7,
+    "positive": 67,
+    "negative": 152,
+    "neutral": 402,
+    "languageIndex": -9.8,
     "label": "Mixed headline language",
-    "sourceConcentration": 65.7,
+    "sourceConcentration": 67.3,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 188,
+      "items": 194,
       "publishers": 3,
-      "positive": 23,
-      "negative": 18,
-      "neutral": 147,
-      "languageIndex": 5.5,
+      "positive": 25,
+      "negative": 20,
+      "neutral": 149,
+      "languageIndex": 5.4,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.8,
+      "sourceConcentration": 72.2,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Nvidia Market Whiplash Far From Over, Says RBC’s Wu Silverman",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-24/nvidia-market-whiplash-far-from-over-rbc-s-wu-silverman-video",
-          "date": "2026-11-24T11:20:17Z",
+          "title": "California AG Sees 'Bright Red Flags' Regarding Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/california-ag-sees-bright-red-flags-regarding-nvidia-video",
+          "date": "2026-11-24T23:00:26Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-          "date": "2026-11-24T11:19:24Z",
+          "title": "Bloomberg Businessweek Daily Podcast: Nvidia Euphoria Fades",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/businessweek-daily-podcast-nvidia-euphoria-fades-video",
+          "date": "2026-11-24T22:35:43Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Xi Delays US Chip Retaliation After Trump Seals Nvidia U-Turn",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us",
-          "date": "2026-11-24T08:56:34Z",
+          "title": "US Steel Buyers Turn Abroad as Data Center Boom Strains Supply",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-steel-buyers-turn-abroad-as-data-center-boom-strains-supply",
+          "date": "2026-11-24T22:12:57Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 144,
+      "items": 146,
       "publishers": 5,
-      "positive": 7,
-      "negative": 57,
-      "neutral": 80,
-      "languageIndex": -29.1,
+      "positive": 6,
+      "negative": 59,
+      "neutral": 81,
+      "languageIndex": -29.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.1,
+      "sourceConcentration": 87.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "ECB’s Simkus Says It’s ‘Prudent’ to Hike as Inflation Broadens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/ecb-s-simkus-says-it-s-prudent-to-hike-as-inflation-broadens",
-          "date": "2026-11-24T08:37:17Z",
+          "title": "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/bond-traders-rush-to-hedge-risk-of-fed-hikes-stalling-economy",
+          "date": "2026-11-24T21:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Treasuries Advance as Cheaper Oil Eases Inflation Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
-          "date": "2026-11-24T04:42:33Z",
+          "title": "Most Fed Regional Boards Wanted to Raise Rates in October",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-fed-regional-boards-wanted-to-raise-rates-in-october",
+          "date": "2026-11-24T19:36:40Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
-          "date": "2026-11-24T00:06:57Z",
+          "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
+          "date": "2026-11-24T19:31:25Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -110,34 +110,34 @@
       "id": "geopolitics",
       "title": "Geopolitics",
       "items": 135,
-      "publishers": 4,
+      "publishers": 3,
       "positive": 10,
-      "negative": 47,
-      "neutral": 78,
-      "languageIndex": -25.8,
+      "negative": 49,
+      "neutral": 76,
+      "languageIndex": -34.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.1,
+      "sourceConcentration": 56.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland",
-          "date": "2026-11-24T10:42:18Z",
+          "title": "Escalation in Iran Appears As the Default",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/opinion-escalation-in-iran-appears-as-the-default-video",
+          "date": "2026-11-24T21:27:41Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
-          "date": "2026-11-24T10:10:50Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-24T17:04:00Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Most Germans Now Oppose Military Support for Ukraine, Poll Shows",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-germans-now-oppose-military-support-for-ukraine-poll-shows",
-          "date": "2026-11-24T05:00:00Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-24T15:35:53Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 63,
-      "publishers": 4,
+      "items": 62,
+      "publishers": 3,
       "positive": 2,
       "negative": 3,
-      "neutral": 58,
-      "languageIndex": -0.5,
-      "label": "Mixed headline language",
-      "sourceConcentration": 74.6,
-      "coverageSufficient": true,
+      "neutral": 57,
+      "languageIndex": -0.7,
+      "label": "Insufficient observations",
+      "sourceConcentration": 77.4,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Milei Senate Chief Bullrich Confident Argentina Electoral Reform Will Pass",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/milei-senate-chief-bullrich-confident-argentina-electoral-reform-will-pass",
+          "date": "2026-11-24T20:49:59Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Spain to Back Tougher China Policy If Conservatives Win Election",
           "url": "https://www.bloomberg.com/news/articles/2026-11-24/spain-to-back-tougher-china-policy-if-conservatives-win-election",
@@ -174,12 +180,6 @@
           "title": "Zelenskyy Draws Close Work With US Congress if Trump Peace Plan Fails",
           "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
           "date": "2026-11-24T10:41:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Taxing the Wealthy Has Become an Election Rallying Cry in Europe",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/taxing-the-wealthy-has-become-an-election-rallying-cry-in-europe",
-          "date": "2026-11-24T09:30:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -236,6 +236,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 26,
+      "publishers": 3,
+      "positive": 5,
+      "negative": 16,
+      "neutral": 5,
+      "languageIndex": -31.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 80.8,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "US Readies Tariff Hike on China, EU Goods",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+          "date": "2026-11-24T21:58:15Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "New Trump Tariffs Won’t Top Trade Deal Levels, Will Be Targeted",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/new-trump-tariffs-won-t-top-trade-deal-levels-will-be-targeted",
+          "date": "2026-11-24T15:45:27Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Loom",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
+          "date": "2026-11-24T09:45:27Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "hypothesis": "Fragmentation risk",
+      "potentialUpside": "Selective import substitution if capacity exists",
+      "potentialDownside": "Export barriers and retaliation; input import friction",
+      "confirmation": "Implemented change in tariff with company-level exposure",
+      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "energy_shipping",
       "title": "Oil and shipping",
       "items": 25,
@@ -279,63 +322,26 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "trade_policy",
-      "title": "Trade policy",
-      "items": 20,
-      "publishers": 3,
-      "positive": 4,
-      "negative": 13,
-      "neutral": 3,
-      "languageIndex": -32.2,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
-          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
-          "date": "2026-11-24T04:11:45Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T21:03:34Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
-          "date": "2026-11-23T17:00:00Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "hypothesis": "Fragmentation risk",
-      "potentialUpside": "Selective import substitution if capacity exists",
-      "potentialDownside": "Export barriers and retaliation; input import friction",
-      "confirmation": "Implemented change in tariff with company-level exposure",
-      "invalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 13,
+      "items": 14,
       "publishers": 3,
       "positive": 1,
       "negative": 0,
-      "neutral": 12,
-      "languageIndex": 4.2,
+      "neutral": 13,
+      "languageIndex": 3.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 61.5,
+      "sourceConcentration": 64.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US Army Orders Weapons Storage Review Ahead of Iowa Explosion",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-army-orders-weapons-storage-review-ahead-of-iowa-explosion",
+          "date": "2026-11-24T17:41:34Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
           "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
@@ -347,12 +353,6 @@
           "url": "https://www.thehindu.com/business/Industry/hyderabad-defence-tech-firm-apollo-micro-systems-to-acquire-bengaluru-based-iec-group/article71735501.ece",
           "date": "2026-11-23T16:36:25Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
-          "date": "2026-11-21T06:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -412,16 +412,22 @@
       "title": "Monsoon and agriculture",
       "items": 7,
       "publishers": 3,
-      "positive": 0,
+      "positive": 1,
       "negative": 1,
-      "neutral": 6,
-      "languageIndex": -16.7,
+      "neutral": 5,
+      "languageIndex": 0.0,
       "label": "Insufficient observations",
       "sourceConcentration": 42.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
+          "date": "2026-11-24T10:10:50Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
           "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
@@ -433,12 +439,6 @@
           "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
           "date": "2026-11-17T19:23:19Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
-          "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-16T00:11:12Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Agri inputs; FMCG; Rural consumption",
@@ -607,25 +607,17 @@
     {
       "id": "tyre_inputs",
       "title": "Tyres and inputs",
-      "items": 1,
-      "publishers": 1,
+      "items": 0,
+      "publishers": 0,
       "positive": 0,
       "negative": 0,
-      "neutral": 1,
-      "languageIndex": 0.0,
+      "neutral": 0,
+      "languageIndex": null,
       "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
+      "sourceConcentration": null,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "MRF’s Q2 profit skids 27% as raw material costs squeeze margins",
-          "url": "https://www.thehindu.com/business/Industry/mrfs-q2-profit-skids-27-as-raw-material-costs-squeeze-margins/article71685983.ece",
-          "date": "2026-11-10T12:04:26Z",
-          "publisher": "www.thehindu.com"
-        }
-      ],
+      "exampleSources": [],
       "directSectors": "Tyres; Synthetic rubber",
       "proxySectors": "Auto OEMs; Replacement retail; Carbon black suppliers",
       "hypothesis": "Profit spread watch",
@@ -663,34 +655,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 144,
+      "items": 146,
       "publishers": 5,
-      "positive": 7,
-      "negative": 57,
-      "neutral": 80,
-      "languageIndex": -29.1,
+      "positive": 6,
+      "negative": 59,
+      "neutral": 81,
+      "languageIndex": -29.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.1,
+      "sourceConcentration": 87.7,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "ECB’s Simkus Says It’s ‘Prudent’ to Hike as Inflation Broadens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/ecb-s-simkus-says-it-s-prudent-to-hike-as-inflation-broadens",
-          "date": "2026-11-24T08:37:17Z",
+          "title": "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/bond-traders-rush-to-hedge-risk-of-fed-hikes-stalling-economy",
+          "date": "2026-11-24T21:30:00Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Treasuries Advance as Cheaper Oil Eases Inflation Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
-          "date": "2026-11-24T04:42:33Z",
+          "title": "Most Fed Regional Boards Wanted to Raise Rates in October",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-fed-regional-boards-wanted-to-raise-rates-in-october",
+          "date": "2026-11-24T19:36:40Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
-          "date": "2026-11-24T00:06:57Z",
+          "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
+          "date": "2026-11-24T19:31:25Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -707,34 +699,34 @@
       "id": "geopolitics",
       "title": "Geopolitics",
       "items": 135,
-      "publishers": 4,
+      "publishers": 3,
       "positive": 10,
-      "negative": 47,
-      "neutral": 78,
-      "languageIndex": -25.8,
+      "negative": 49,
+      "neutral": 76,
+      "languageIndex": -34.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.1,
+      "sourceConcentration": 56.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland",
-          "date": "2026-11-24T10:42:18Z",
+          "title": "Escalation in Iran Appears As the Default",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/opinion-escalation-in-iran-appears-as-the-default-video",
+          "date": "2026-11-24T21:27:41Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
-          "date": "2026-11-24T10:10:50Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-24T17:04:00Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Most Germans Now Oppose Military Support for Ukraine, Poll Shows",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-germans-now-oppose-military-support-for-ukraine-poll-shows",
-          "date": "2026-11-24T05:00:00Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-24T15:35:53Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -749,18 +741,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 63,
-      "publishers": 4,
+      "items": 62,
+      "publishers": 3,
       "positive": 2,
       "negative": 3,
-      "neutral": 58,
-      "languageIndex": -0.5,
-      "label": "Mixed headline language",
-      "sourceConcentration": 74.6,
-      "coverageSufficient": true,
+      "neutral": 57,
+      "languageIndex": -0.7,
+      "label": "Insufficient observations",
+      "sourceConcentration": 77.4,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Milei Senate Chief Bullrich Confident Argentina Electoral Reform Will Pass",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/milei-senate-chief-bullrich-confident-argentina-electoral-reform-will-pass",
+          "date": "2026-11-24T20:49:59Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Spain to Back Tougher China Policy If Conservatives Win Election",
           "url": "https://www.bloomberg.com/news/articles/2026-11-24/spain-to-back-tougher-china-policy-if-conservatives-win-election",
@@ -771,12 +769,6 @@
           "title": "Zelenskyy Draws Close Work With US Congress if Trump Peace Plan Fails",
           "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
           "date": "2026-11-24T10:41:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Taxing the Wealthy Has Become an Election Rallying Cry in Europe",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/taxing-the-wealthy-has-become-an-election-rallying-cry-in-europe",
-          "date": "2026-11-24T09:30:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -792,34 +784,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 20,
+      "items": 26,
       "publishers": 3,
-      "positive": 4,
-      "negative": 13,
-      "neutral": 3,
-      "languageIndex": -32.2,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
+      "positive": 5,
+      "negative": 16,
+      "neutral": 5,
+      "languageIndex": -31.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 80.8,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
-          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
-          "date": "2026-11-24T04:11:45Z",
-          "publisher": "www.thehindu.com"
+          "title": "US Readies Tariff Hike on China, EU Goods",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+          "date": "2026-11-24T21:58:15Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T21:03:34Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "New Trump Tariffs Won’t Top Trade Deal Levels, Will Be Targeted",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/new-trump-tariffs-won-t-top-trade-deal-levels-will-be-targeted",
+          "date": "2026-11-24T15:45:27Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
-          "date": "2026-11-23T17:00:00Z",
+          "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Loom",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
+          "date": "2026-11-24T09:45:27Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -970,23 +962,23 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 401
+      "stories": 418
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 104
+      "stories": 102
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 82
+      "stories": 81
     },
     {
       "publisher": "news.un.org",
-      "stories": 18
+      "stories": 16
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 4
+      "stories": 3
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -994,8 +986,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 31,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 32,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

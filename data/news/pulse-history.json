@@ -2,46 +2,46 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-24T11:25:42.349952Z",
+      "generatedAt": "2026-11-24T23:11:58.967968Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 610,
+        "items": 621,
         "publishers": 6,
-        "positive": 66,
-        "negative": 144,
-        "neutral": 400,
-        "languageIndex": -9.7,
+        "positive": 67,
+        "negative": 152,
+        "neutral": 402,
+        "languageIndex": -9.8,
         "label": "Mixed headline language",
-        "sourceConcentration": 65.7,
+        "sourceConcentration": 67.3,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 188,
+          "items": 194,
           "publishers": 3,
-          "languageIndex": 5.5,
+          "languageIndex": 5.4,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 144,
+          "items": 146,
           "publishers": 5,
-          "languageIndex": -29.1,
+          "languageIndex": -29.5,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
           "items": 135,
-          "publishers": 4,
-          "languageIndex": -25.8,
+          "publishers": 3,
+          "languageIndex": -34.7,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 63,
-          "publishers": 4,
-          "languageIndex": -0.5,
+          "items": 62,
+          "publishers": 3,
+          "languageIndex": -0.7,
           "attentionDeltaPct": null
         },
         {
@@ -52,6 +52,13 @@
           "attentionDeltaPct": null
         },
         {
+          "id": "trade_policy",
+          "items": 26,
+          "publishers": 3,
+          "languageIndex": -31.0,
+          "attentionDeltaPct": null
+        },
+        {
           "id": "energy_shipping",
           "items": 25,
           "publishers": 4,
@@ -59,17 +66,10 @@
           "attentionDeltaPct": null
         },
         {
-          "id": "trade_policy",
-          "items": 20,
-          "publishers": 3,
-          "languageIndex": -32.2,
-          "attentionDeltaPct": null
-        },
-        {
           "id": "defence_capex",
-          "items": 13,
+          "items": 14,
           "publishers": 3,
-          "languageIndex": 4.2,
+          "languageIndex": 3.7,
           "attentionDeltaPct": null
         },
         {
@@ -83,7 +83,7 @@
           "id": "climate_agri",
           "items": 7,
           "publishers": 3,
-          "languageIndex": -16.7,
+          "languageIndex": 0.0,
           "attentionDeltaPct": null
         },
         {
@@ -116,9 +116,9 @@
         },
         {
           "id": "tyre_inputs",
-          "items": 1,
-          "publishers": 1,
-          "languageIndex": 0.0,
+          "items": 0,
+          "publishers": 0,
+          "languageIndex": null,
           "attentionDeltaPct": null
         },
         {
