@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T01:07:47.938295Z",
+  "generatedAt": "2026-11-24T11:25:42.349952Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,48 +9,48 @@
     "days": 14
   },
   "overall": {
-    "items": 593,
+    "items": 610,
     "publishers": 6,
-    "positive": 65,
-    "negative": 141,
-    "neutral": 387,
-    "languageIndex": -8.7,
+    "positive": 66,
+    "negative": 144,
+    "neutral": 400,
+    "languageIndex": -9.7,
     "label": "Mixed headline language",
-    "sourceConcentration": 65.1,
+    "sourceConcentration": 65.7,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 183,
+      "items": 188,
       "publishers": 3,
       "positive": 23,
       "negative": 18,
-      "neutral": 142,
-      "languageIndex": 5.7,
+      "neutral": 147,
+      "languageIndex": 5.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.0,
+      "sourceConcentration": 71.8,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
-          "date": "2026-11-24T00:06:57Z",
+          "title": "Nvidia Market Whiplash Far From Over, Says RBC’s Wu Silverman",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/nvidia-market-whiplash-far-from-over-rbc-s-wu-silverman-video",
+          "date": "2026-11-24T11:20:17Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia Board Faces Questions After Huang Reinstatement",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/balance-of-power-late-edition-11-23-2026-video",
-          "date": "2026-11-23T23:55:53Z",
+          "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "date": "2026-11-24T11:19:24Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Haines: Nvidia Board Better ‘Lawyer Up’",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/haines-nvidia-board-better-lawyer-up-video",
-          "date": "2026-11-23T23:27:57Z",
+          "title": "Xi Delays US Chip Retaliation After Trump Seals Nvidia U-Turn",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us",
+          "date": "2026-11-24T08:56:34Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,35 +66,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 142,
+      "items": 144,
       "publishers": 5,
-      "positive": 6,
-      "negative": 56,
+      "positive": 7,
+      "negative": 57,
       "neutral": 80,
-      "languageIndex": -29.2,
+      "languageIndex": -29.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.9,
+      "sourceConcentration": 86.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-watchdog-probes-whether-bowman-broke-communications-rules",
-          "date": "2026-11-23T21:05:43Z",
+          "title": "ECB’s Simkus Says It’s ‘Prudent’ to Hike as Inflation Broadens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/ecb-s-simkus-says-it-s-prudent-to-hike-as-inflation-broadens",
+          "date": "2026-11-24T08:37:17Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "BOE’s Pill Says Action Needed to Maintain Inflation Credibility",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/boe-s-pill-says-action-needed-to-maintain-inflation-credibility",
-          "date": "2026-11-23T15:15:01Z",
+          "title": "Treasuries Advance as Cheaper Oil Eases Inflation Concerns",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+          "date": "2026-11-24T04:42:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Philip R. Lane: Climate change and monetary policy",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
-          "date": "2026-11-23T14:30:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+          "date": "2026-11-24T00:06:57Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 131,
+      "items": 135,
       "publishers": 4,
-      "positive": 9,
-      "negative": 46,
-      "neutral": 76,
-      "languageIndex": -36.8,
+      "positive": 10,
+      "negative": 47,
+      "neutral": 78,
+      "languageIndex": -25.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 53.4,
+      "sourceConcentration": 54.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "South Korea Scrambles Jets, Issues Air Raid For Russia Warplanes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/south-korea-briefly-issues-air-raid-warning-over-russian-plane",
-          "date": "2026-11-23T23:31:22Z",
+          "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland",
+          "date": "2026-11-24T10:42:18Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T20:48:35Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
+          "date": "2026-11-24T10:10:50Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T17:07:25Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Most Germans Now Oppose Military Support for Ukraine, Poll Shows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-germans-now-oppose-military-support-for-ukraine-poll-shows",
+          "date": "2026-11-24T05:00:00Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 57,
+      "items": 63,
       "publishers": 4,
       "positive": 2,
-      "negative": 2,
-      "neutral": 53,
-      "languageIndex": 0.0,
+      "negative": 3,
+      "neutral": 58,
+      "languageIndex": -0.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.9,
+      "sourceConcentration": 74.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil",
-          "date": "2026-11-24T00:11:51Z",
+          "title": "Spain to Back Tougher China Policy If Conservatives Win Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/spain-to-back-tougher-china-policy-if-conservatives-win-election",
+          "date": "2026-11-24T10:51:40Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What to Expect When Huang Comes Before Congress",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/what-to-expect-when-huang-comes-before-congress-video",
-          "date": "2026-11-23T20:38:44Z",
+          "title": "Zelenskyy Draws Close Work With US Congress if Trump Peace Plan Fails",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
+          "date": "2026-11-24T10:41:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
-          "date": "2026-11-23T09:00:02Z",
+          "title": "Taxing the Wealthy Has Become an Election Rallying Cry in Europe",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/taxing-the-wealthy-has-become-an-election-rallying-cry-in-europe",
+          "date": "2026-11-24T09:30:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -243,9 +243,9 @@
       "positive": 4,
       "negative": 6,
       "neutral": 15,
-      "languageIndex": -10.3,
-      "label": "Mixed headline language",
-      "sourceConcentration": 52.0,
+      "languageIndex": -20.8,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 48.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -257,16 +257,16 @@
           "publisher": "www.thehindu.com"
         },
         {
+          "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168859",
+          "date": "2026-11-23T12:00:00Z",
+          "publisher": "news.un.org"
+        },
+        {
           "title": "Vitol Unit Sets Timeline for $2.3 Billion Durban LNG Power Plant",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/vitol-unit-sets-timeline-for-2-3-billion-durban-lng-power-plant",
           "date": "2026-11-23T07:33:22Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Hormuz swim highlights environmental cost of war",
-          "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-21T16:12:31Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -281,34 +281,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 18,
+      "items": 20,
       "publishers": 3,
       "positive": 4,
-      "negative": 12,
-      "neutral": 2,
-      "languageIndex": -15.6,
-      "label": "Insufficient observations",
-      "sourceConcentration": 83.3,
-      "coverageSufficient": false,
+      "negative": 13,
+      "neutral": 3,
+      "languageIndex": -32.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 75.0,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
+          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
+          "date": "2026-11-24T04:11:45Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T21:03:34Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
           "date": "2026-11-23T17:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "AI Slump, Export Controls and Economic Security",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-23/ai-slump-export-controls-and-economic-security",
-          "date": "2026-11-23T12:00:01Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
-          "date": "2026-11-20T18:03:49Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -324,18 +324,24 @@
     {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 12,
+      "items": 13,
       "publishers": 3,
       "positive": 1,
       "negative": 0,
-      "neutral": 11,
+      "neutral": 12,
       "languageIndex": 4.2,
       "label": "Mixed headline language",
-      "sourceConcentration": 66.7,
+      "sourceConcentration": 61.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-24T10:58:51Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Hyderabad defence tech firm Apollo Micro Systems to acquire Bengaluru-based IEC Group",
           "url": "https://www.thehindu.com/business/Industry/hyderabad-defence-tech-firm-apollo-micro-systems-to-acquire-bengaluru-based-iec-group/article71735501.ece",
@@ -346,12 +352,6 @@
           "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
           "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
           "date": "2026-11-21T06:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "India, Japan Deepen Defense Ties Amid China, US Uncertainty",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/india-japan-deepen-defense-ties-amid-china-us-uncertainty",
-          "date": "2026-11-19T12:53:23Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -663,35 +663,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 142,
+      "items": 144,
       "publishers": 5,
-      "positive": 6,
-      "negative": 56,
+      "positive": 7,
+      "negative": 57,
       "neutral": 80,
-      "languageIndex": -29.2,
+      "languageIndex": -29.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.9,
+      "sourceConcentration": 86.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-watchdog-probes-whether-bowman-broke-communications-rules",
-          "date": "2026-11-23T21:05:43Z",
+          "title": "ECB’s Simkus Says It’s ‘Prudent’ to Hike as Inflation Broadens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/ecb-s-simkus-says-it-s-prudent-to-hike-as-inflation-broadens",
+          "date": "2026-11-24T08:37:17Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "BOE’s Pill Says Action Needed to Maintain Inflation Credibility",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/boe-s-pill-says-action-needed-to-maintain-inflation-credibility",
-          "date": "2026-11-23T15:15:01Z",
+          "title": "Treasuries Advance as Cheaper Oil Eases Inflation Concerns",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+          "date": "2026-11-24T04:42:33Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Philip R. Lane: Climate change and monetary policy",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
-          "date": "2026-11-23T14:30:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+          "date": "2026-11-24T00:06:57Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -706,35 +706,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 131,
+      "items": 135,
       "publishers": 4,
-      "positive": 9,
-      "negative": 46,
-      "neutral": 76,
-      "languageIndex": -36.8,
+      "positive": 10,
+      "negative": 47,
+      "neutral": 78,
+      "languageIndex": -25.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 53.4,
+      "sourceConcentration": 54.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "South Korea Scrambles Jets, Issues Air Raid For Russia Warplanes",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/south-korea-briefly-issues-air-raid-warning-over-russian-plane",
-          "date": "2026-11-23T23:31:22Z",
+          "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland",
+          "date": "2026-11-24T10:42:18Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T20:48:35Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
+          "date": "2026-11-24T10:10:50Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-23T17:07:25Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Most Germans Now Oppose Military Support for Ukraine, Poll Shows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-germans-now-oppose-military-support-for-ukraine-poll-shows",
+          "date": "2026-11-24T05:00:00Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -749,34 +749,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 57,
+      "items": 63,
       "publishers": 4,
       "positive": 2,
-      "negative": 2,
-      "neutral": 53,
-      "languageIndex": 0.0,
+      "negative": 3,
+      "neutral": 58,
+      "languageIndex": -0.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.9,
+      "sourceConcentration": 74.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil",
-          "date": "2026-11-24T00:11:51Z",
+          "title": "Spain to Back Tougher China Policy If Conservatives Win Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/spain-to-back-tougher-china-policy-if-conservatives-win-election",
+          "date": "2026-11-24T10:51:40Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What to Expect When Huang Comes Before Congress",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/what-to-expect-when-huang-comes-before-congress-video",
-          "date": "2026-11-23T20:38:44Z",
+          "title": "Zelenskyy Draws Close Work With US Congress if Trump Peace Plan Fails",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
+          "date": "2026-11-24T10:41:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
-          "date": "2026-11-23T09:00:02Z",
+          "title": "Taxing the Wealthy Has Become an Election Rallying Cry in Europe",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/taxing-the-wealthy-has-become-an-election-rallying-cry-in-europe",
+          "date": "2026-11-24T09:30:56Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -792,34 +792,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 18,
+      "items": 20,
       "publishers": 3,
       "positive": 4,
-      "negative": 12,
-      "neutral": 2,
-      "languageIndex": -15.6,
-      "label": "Insufficient observations",
-      "sourceConcentration": 83.3,
-      "coverageSufficient": false,
+      "negative": 13,
+      "neutral": 3,
+      "languageIndex": -32.2,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 75.0,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
+          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
+          "date": "2026-11-24T04:11:45Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T21:03:34Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
           "date": "2026-11-23T17:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "AI Slump, Export Controls and Economic Security",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-23/ai-slump-export-controls-and-economic-security",
-          "date": "2026-11-23T12:00:01Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
-          "date": "2026-11-20T18:03:49Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -970,19 +970,19 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 386
+      "stories": 401
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 105
+      "stories": 104
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 81
+      "stories": 82
     },
     {
       "publisher": "news.un.org",
-      "stories": 16
+      "stories": 18
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -994,8 +994,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 30,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 31,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

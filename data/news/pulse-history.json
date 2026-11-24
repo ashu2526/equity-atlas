@@ -2,46 +2,46 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-24T01:07:47.938295Z",
+      "generatedAt": "2026-11-24T11:25:42.349952Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 593,
+        "items": 610,
         "publishers": 6,
-        "positive": 65,
-        "negative": 141,
-        "neutral": 387,
-        "languageIndex": -8.7,
+        "positive": 66,
+        "negative": 144,
+        "neutral": 400,
+        "languageIndex": -9.7,
         "label": "Mixed headline language",
-        "sourceConcentration": 65.1,
+        "sourceConcentration": 65.7,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 183,
+          "items": 188,
           "publishers": 3,
-          "languageIndex": 5.7,
+          "languageIndex": 5.5,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 142,
+          "items": 144,
           "publishers": 5,
-          "languageIndex": -29.2,
+          "languageIndex": -29.1,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 131,
+          "items": 135,
           "publishers": 4,
-          "languageIndex": -36.8,
+          "languageIndex": -25.8,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
-          "items": 57,
+          "items": 63,
           "publishers": 4,
-          "languageIndex": 0.0,
+          "languageIndex": -0.5,
           "attentionDeltaPct": null
         },
         {
@@ -55,19 +55,19 @@
           "id": "energy_shipping",
           "items": 25,
           "publishers": 4,
-          "languageIndex": -10.3,
+          "languageIndex": -20.8,
           "attentionDeltaPct": null
         },
         {
           "id": "trade_policy",
-          "items": 18,
+          "items": 20,
           "publishers": 3,
-          "languageIndex": -15.6,
+          "languageIndex": -32.2,
           "attentionDeltaPct": null
         },
         {
           "id": "defence_capex",
-          "items": 12,
+          "items": 13,
           "publishers": 3,
           "languageIndex": 4.2,
           "attentionDeltaPct": null

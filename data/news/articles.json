@@ -1,12 +1,374 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-24T01:07:47.938295Z",
+  "updatedAt": "2026-11-24T11:25:42.349952Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "651ed19519a02c9f0163",
+      "title": "Nvidia Market Whiplash Far From Over, Says RBC’s Wu Silverman",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/nvidia-market-whiplash-far-from-over-rbc-s-wu-silverman-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T11:20:17Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bc9058b8abe3655ea181",
+      "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T11:19:24Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9e8a6a2e3dbf5eabda30",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T10:58:51Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ec421054c35b1545c7a2",
+      "title": "Spain to Back Tougher China Policy If Conservatives Win Election",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/spain-to-back-tougher-china-policy-if-conservatives-win-election",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T10:51:40Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0acbec90e62ed4a4534c",
+      "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T10:42:18Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "434b4455056df71f1cbb",
+      "title": "Zelenskyy Draws Close Work With US Congress if Trump Peace Plan Fails",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/zelenskyy-draws-close-work-with-us-congress-if-trump-peace-plan-fails",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T10:41:20Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "9ff3585505475353f3a1",
+      "title": "Hungary’s Premier to Meet Zelenskyy as Ties With Ukraine Improve",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/hungary-s-premier-to-meet-zelenskyy-as-ties-with-ukraine-improve",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T10:10:50Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "73c6c0f49983aba9378d",
+      "title": "Taxing the Wealthy Has Become an Election Rallying Cry in Europe",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/taxing-the-wealthy-has-become-an-election-rallying-cry-in-europe",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T09:30:56Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "959613957820e3d7454b",
+      "title": "Xi Delays US Chip Retaliation After Trump Seals Nvidia U-Turn",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T08:56:34Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "605bab39b2a3cb7315a3",
+      "title": "U.S. targets chip smuggling to China after Huang's return to scandal-hit Nvidia",
+      "url": "https://www.thehindu.com/news/international/us-targets-chip-smuggling-to-china-after-huangs-return-to-scandal-hit-nvidia/article71737766.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T08:51:30Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d511af7b6aa26df17223",
+      "title": "ECB’s Simkus Says It’s ‘Prudent’ to Hike as Inflation Broadens",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/ecb-s-simkus-says-it-s-prudent-to-hike-as-inflation-broadens",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T08:37:17Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6df91f771a5ba1ae5701",
+      "title": "Jensen Huang: The Boomerang Nvidia Boss Backed By Trump",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/daybreak-europe-11-24-2026-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T08:18:42Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "12ec020baf224d3ab238",
+      "title": "Spain’s Housing Crisis Fuels Anger Ahead of Election",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/spain-s-housing-crisis-fuels-anger-ahead-of-election-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T07:05:21Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "df3337dd0b57fcc1dab3",
+      "title": "Spain Election 2026: Angry Generation Feels Left Behind as Economy Booms",
+      "url": "https://www.bloomberg.com/news/features/2026-11-24/spain-election-2026-angry-generation-feels-left-behind-as-economy-booms",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T05:00:11Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f63878c15317dd6d22ea",
+      "title": "Most Germans Now Oppose Military Support for Ukraine, Poll Shows",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-germans-now-oppose-military-support-for-ukraine-poll-shows",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T05:00:00Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "25f7372c402015e46f0d",
+      "title": "Treasuries Advance as Cheaper Oil Eases Inflation Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T04:42:33Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8dbe641b34b50f48d3ad",
+      "title": "NGN/USD: Nigeria Poised to Hold Rates in Close Call Ahead of Elections",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/ngn-usd-nigeria-poised-to-hold-rates-in-close-call-ahead-of-elections",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T04:15:00Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8098756a6e6d3c112f37",
+      "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
+      "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T04:11:45Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5e623a3469edc8e44bad",
+      "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+      "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-24T01:21:41Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "f28a8309d9c818e1f484",
       "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
@@ -36,7 +398,8 @@
       "published": "2026-11-24T00:06:57Z",
       "discovered": "2026-11-24T01:07:47.938295Z",
       "topics": [
-        "ai_rotation"
+        "ai_rotation",
+        "inflation_rates"
       ],
       "feedSources": [
         "Bloomberg Markets"
@@ -154,7 +517,8 @@
         "ai_rotation"
       ],
       "feedSources": [
-        "BBC Business"
+        "BBC Business",
+        "BBC World"
       ],
       "headlineTone": "positive",
       "headlineLexicalScore": 1,
@@ -212,6 +576,25 @@
       ],
       "feedSources": [
         "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b256ac88c829db6eba37",
+      "title": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T22:06:46Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
@@ -330,6 +713,26 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "91caada7b4c74fb75edc",
+      "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T21:03:34Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -775,6 +1178,45 @@
       ],
       "feedSources": [
         "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1a72f7bdfbc777d80ee4",
+      "title": "Gaza war has undone 77 years of human development, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168862",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T12:00:00Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "67d17308d9ce1b1113f8",
+      "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168859",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-23T12:00:00Z",
+      "discovered": "2026-11-24T11:25:42.349952Z",
+      "topics": [
+        "energy_shipping",
+        "geopolitics"
+      ],
+      "feedSources": [
+        "UN News"
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
