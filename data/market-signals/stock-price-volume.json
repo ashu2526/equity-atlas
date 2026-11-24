@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T11:23:20.028657+00:00",
+  "generatedAt": "2026-11-24T23:12:34.621811+00:00",
   "asOf": "2026-11-23",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
@@ -21,7 +21,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1085.05,
       "lastVolume": 110997,
       "indicators": {
@@ -51,7 +51,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -1027,7 +1027,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1974.2,
       "lastVolume": 269641,
       "indicators": {
@@ -1057,7 +1057,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -2033,7 +2033,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1089.55,
       "lastVolume": 3699706,
       "indicators": {
@@ -2074,7 +2074,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -3050,7 +3050,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 9257.0,
       "lastVolume": 790698,
       "indicators": {
@@ -3080,7 +3080,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -4056,7 +4056,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1263.9,
       "lastVolume": 233415,
       "indicators": {
@@ -4086,7 +4086,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -5062,7 +5062,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1500.2,
       "lastVolume": 358251,
       "indicators": {
@@ -5092,7 +5092,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -6068,7 +6068,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 809.0,
       "lastVolume": 1315855,
       "indicators": {
@@ -6098,7 +6098,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -7074,7 +7074,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 297.45,
       "lastVolume": 2416550,
       "indicators": {
@@ -7104,7 +7104,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -8080,7 +8080,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 794.15,
       "lastVolume": 294733,
       "indicators": {
@@ -8110,7 +8110,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -9086,7 +9086,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 2345.3,
       "lastVolume": 75394,
       "indicators": {
@@ -9116,7 +9116,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -10092,7 +10092,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 129605.0,
       "lastVolume": 3304,
       "indicators": {
@@ -10122,7 +10122,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -11098,7 +11098,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 420.7,
       "lastVolume": 1112223,
       "indicators": {
@@ -11128,7 +11128,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -12104,7 +12104,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 3492.4,
       "lastVolume": 46044,
       "indicators": {
@@ -12134,7 +12134,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -13110,7 +13110,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 368.15,
       "lastVolume": 487473,
       "indicators": {
@@ -13140,7 +13140,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -14116,7 +14116,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 4522.9,
       "lastVolume": 6109,
       "indicators": {
@@ -14146,7 +14146,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -15122,7 +15122,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 817.8,
       "lastVolume": 55628667,
       "indicators": {
@@ -15163,7 +15163,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -16139,7 +16139,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1585.5,
       "lastVolume": 22243169,
       "indicators": {
@@ -16169,7 +16169,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -17145,7 +17145,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1132.65,
       "lastVolume": 14924743,
       "indicators": {
@@ -17175,7 +17175,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -18151,7 +18151,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1351.0,
       "lastVolume": 15392522,
       "indicators": {
@@ -18181,7 +18181,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -19157,7 +19157,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 2460.0,
       "lastVolume": 7386320,
       "indicators": {
@@ -19198,7 +19198,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -20174,7 +20174,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1103.4,
       "lastVolume": 12339881,
       "indicators": {
@@ -20204,7 +20204,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -21180,7 +21180,7 @@
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
-      "observations": 382,
+      "observations": 381,
       "lastClose": 1095.5,
       "lastVolume": 9622884,
       "indicators": {
@@ -21210,7 +21210,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
