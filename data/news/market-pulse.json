@@ -1,56 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T09:30:38.328288Z",
+  "generatedAt": "2026-11-24T01:07:47.938295Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-09",
-    "end": "2026-11-23",
+    "start": "2026-11-10",
+    "end": "2026-11-24",
     "days": 14
   },
   "overall": {
-    "items": 559,
+    "items": 593,
     "publishers": 6,
-    "positive": 61,
-    "negative": 133,
-    "neutral": 365,
-    "languageIndex": -7.8,
+    "positive": 65,
+    "negative": 141,
+    "neutral": 387,
+    "languageIndex": -8.7,
     "label": "Mixed headline language",
-    "sourceConcentration": 64.2,
+    "sourceConcentration": 65.1,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 164,
+      "items": 183,
       "publishers": 3,
-      "positive": 19,
-      "negative": 19,
-      "neutral": 126,
-      "languageIndex": 1.6,
+      "positive": 23,
+      "negative": 18,
+      "neutral": 142,
+      "languageIndex": 5.7,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.1,
+      "sourceConcentration": 71.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Anthropic’s stock market debut: a record IPO, a quick fade, decabillionaires, and the risks ahead | Explained",
-          "url": "https://www.thehindu.com/business/markets/anthropics-stock-market-debut-a-record-ipo-a-quick-fade-decabillionaires-and-the-risks-ahead-explained/article71728235.ece",
-          "date": "2026-11-23T02:56:44Z",
-          "publisher": "www.thehindu.com"
+          "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+          "date": "2026-11-24T00:06:57Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Anthropic IPO: Tracing an ‘unusual’ AI company’s race to the top",
-          "url": "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece",
-          "date": "2026-11-23T02:14:00Z",
-          "publisher": "www.thehindu.com"
+          "title": "Nvidia Board Faces Questions After Huang Reinstatement",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/balance-of-power-late-edition-11-23-2026-video",
+          "date": "2026-11-23T23:55:53Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "US Probing Alleged Spy Tied to Ex-Nvidia CEO, Spy Chief Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/spy-chief-says-us-probing-alleged-spy-tied-to-former-nvidia-ceo",
-          "date": "2026-11-22T15:26:50Z",
+          "title": "Haines: Nvidia Board Better ‘Lawyer Up’",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/haines-nvidia-board-better-lawyer-up-video",
+          "date": "2026-11-23T23:27:57Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -66,35 +66,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 134,
+      "items": 142,
       "publishers": 5,
       "positive": 6,
-      "negative": 52,
-      "neutral": 76,
-      "languageIndex": -28.9,
+      "negative": 56,
+      "neutral": 80,
+      "languageIndex": -29.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.6,
+      "sourceConcentration": 85.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
-          "date": "2026-11-23T08:29:05Z",
+          "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-watchdog-probes-whether-bowman-broke-communications-rules",
+          "date": "2026-11-23T21:05:43Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Singapore Core Inflation Eases to 1.5%, Giving MAS Room to Pause",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/singapore-core-inflation-eases-to-1-5-as-electricity-rates-cut",
-          "date": "2026-11-23T05:00:00Z",
+          "title": "BOE’s Pill Says Action Needed to Maintain Inflation Credibility",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/boe-s-pill-says-action-needed-to-maintain-inflation-credibility",
+          "date": "2026-11-23T15:15:01Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
-          "date": "2026-11-22T20:00:00Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Philip R. Lane: Climate change and monetary policy",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+          "date": "2026-11-23T14:30:00Z",
+          "publisher": "www.ecb.europa.eu"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 130,
+      "items": 131,
       "publishers": 4,
       "positive": 9,
-      "negative": 44,
-      "neutral": 77,
-      "languageIndex": -34.6,
+      "negative": 46,
+      "neutral": 76,
+      "languageIndex": -36.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 53.1,
+      "sourceConcentration": 53.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Ukraine Says It Sunk Russian Warship in Libya as Conflict Widens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/kyiv-confirms-strike-on-russian-ship-in-libya-as-targets-grow",
-          "date": "2026-11-23T08:24:15Z",
+          "title": "South Korea Scrambles Jets, Issues Air Raid For Russia Warplanes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/south-korea-briefly-issues-air-raid-warning-over-russian-plane",
+          "date": "2026-11-23T23:31:22Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/horizons-middle-east-africa-11-23-2026-video",
-          "date": "2026-11-23T07:38:43Z",
-          "publisher": "www.bloomberg.com"
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T20:48:35Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab",
-          "date": "2026-11-23T06:55:45Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T17:07:25Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 55,
+      "items": 57,
       "publishers": 4,
       "positive": 2,
       "negative": 2,
-      "neutral": 51,
+      "neutral": 53,
       "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.9,
+      "sourceConcentration": 71.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil",
+          "date": "2026-11-24T00:11:51Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "What to Expect When Huang Comes Before Congress",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/what-to-expect-when-huang-comes-before-congress-video",
+          "date": "2026-11-23T20:38:44Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
           "date": "2026-11-23T09:00:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "France’s Private Sector Weakens on Election, Budget Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/france-s-private-sector-weakens-on-election-budget-concerns",
-          "date": "2026-11-23T08:15:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching",
-          "date": "2026-11-23T05:30:09Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,12 +195,12 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 32,
+      "items": 33,
       "publishers": 1,
       "positive": 16,
-      "negative": 4,
+      "negative": 5,
       "neutral": 12,
-      "languageIndex": 37.5,
+      "languageIndex": 33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -208,21 +208,21 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Rupee snaps 5-day rally; tumbles 30 paise to settle at 92.92 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-snaps-5-day-rally-tumbles-30-paise-to-settle-at-9292-against-us-dollar/article71734465.ece",
+          "date": "2026-11-23T12:18:12Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Markets take heavy drubbing dragged by banks; Sensex plunges 1,484 points, Nifty dives to 25,349.65",
+          "url": "https://www.thehindu.com/business/markets/markets-take-heavy-drubbing-dragged-by-banks-sensex-plunges-1484-points-nifty-dives-to-2534965/article71734374.ece",
+          "date": "2026-11-23T12:06:55Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
           "title": "Rupee declines 23 paise to 92.85 against U.S. dollar in early trade",
           "url": "https://www.thehindu.com/business/markets/rupee-declines-23-paise-to-9285-against-us-dollar-in-early-trade/article71733376.ece",
           "date": "2026-11-23T04:35:21Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "SEBI proposals will open window to foreign funds with opaque offshore ownership structures, says Congress",
-          "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
-          "date": "2026-11-22T06:34:21Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee settles above 93 level after seven months on FII flows",
-          "url": "https://www.thehindu.com/business/Industry/rupee-settles-above-93-level-after-seven-months-on-fii-flows/article71724100.ece",
-          "date": "2026-11-20T12:35:28Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -238,18 +238,24 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 26,
+      "items": 25,
       "publishers": 4,
-      "positive": 5,
-      "negative": 7,
-      "neutral": 14,
-      "languageIndex": -10.1,
+      "positive": 4,
+      "negative": 6,
+      "neutral": 15,
+      "languageIndex": -10.3,
       "label": "Mixed headline language",
-      "sourceConcentration": 53.8,
+      "sourceConcentration": 52.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Oil and gas production to pick up in 4-5 years as recent measures take effect, Petroleum Ministry says",
+          "url": "https://www.thehindu.com/business/Economy/oil-and-gas-production-to-pick-up-in-4-5-years-as-recent-measures-take-effect-petroleum-ministry-says/article71734940.ece",
+          "date": "2026-11-23T15:02:08Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Vitol Unit Sets Timeline for $2.3 Billion Durban LNG Power Plant",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/vitol-unit-sets-timeline-for-2-3-billion-durban-lng-power-plant",
@@ -261,12 +267,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-21T16:12:31Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "India a swing vote at IMO meeting on shipping decarbonisation",
-          "url": "https://www.thehindu.com/business/india-a-swing-vote-at-imo-meeting-on-shipping-decarbonisation/article71729104.ece",
-          "date": "2026-11-21T15:44:21Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -281,34 +281,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 16,
+      "items": 18,
       "publishers": 3,
-      "positive": 3,
-      "negative": 11,
+      "positive": 4,
+      "negative": 12,
       "neutral": 2,
-      "languageIndex": -17.9,
+      "languageIndex": -15.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 81.2,
+      "sourceConcentration": 83.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
+          "date": "2026-11-23T17:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "AI Slump, Export Controls and Economic Security",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-23/ai-slump-export-controls-and-economic-security",
+          "date": "2026-11-23T12:00:01Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
           "date": "2026-11-20T18:03:49Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
-          "date": "2026-11-20T07:03:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
-          "date": "2026-11-20T03:40:28Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -324,18 +324,24 @@
     {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 11,
-      "publishers": 2,
+      "items": 12,
+      "publishers": 3,
       "positive": 1,
       "negative": 0,
-      "neutral": 10,
-      "languageIndex": 6.2,
-      "label": "Insufficient observations",
-      "sourceConcentration": 72.7,
-      "coverageSufficient": false,
+      "neutral": 11,
+      "languageIndex": 4.2,
+      "label": "Mixed headline language",
+      "sourceConcentration": 66.7,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Hyderabad defence tech firm Apollo Micro Systems to acquire Bengaluru-based IEC Group",
+          "url": "https://www.thehindu.com/business/Industry/hyderabad-defence-tech-firm-apollo-micro-systems-to-acquire-bengaluru-based-iec-group/article71735501.ece",
+          "date": "2026-11-23T16:36:25Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
           "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
@@ -347,12 +353,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-11-19/india-japan-deepen-defense-ties-amid-china-us-uncertainty",
           "date": "2026-11-19T12:53:23Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-          "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-18T23:28:03Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -410,15 +410,15 @@
     {
       "id": "climate_agri",
       "title": "Monsoon and agriculture",
-      "items": 9,
+      "items": 7,
       "publishers": 3,
       "positive": 0,
       "negative": 1,
-      "neutral": 8,
+      "neutral": 6,
       "languageIndex": -16.7,
-      "label": "Mixed headline language",
-      "sourceConcentration": 44.4,
-      "coverageSufficient": true,
+      "label": "Insufficient observations",
+      "sourceConcentration": 42.9,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
@@ -496,18 +496,24 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 2,
+      "items": 3,
       "publishers": 1,
       "positive": 0,
-      "negative": 0,
+      "negative": 1,
       "neutral": 2,
-      "languageIndex": 0.0,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
+          "date": "2026-11-23T11:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
@@ -657,35 +663,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 134,
+      "items": 142,
       "publishers": 5,
       "positive": 6,
-      "negative": 52,
-      "neutral": 76,
-      "languageIndex": -28.9,
+      "negative": 56,
+      "neutral": 80,
+      "languageIndex": -29.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.6,
+      "sourceConcentration": 85.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-new-data-series-to-improve-rbi-forecasts-gupta-says",
-          "date": "2026-11-23T08:29:05Z",
+          "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-watchdog-probes-whether-bowman-broke-communications-rules",
+          "date": "2026-11-23T21:05:43Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Singapore Core Inflation Eases to 1.5%, Giving MAS Room to Pause",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/singapore-core-inflation-eases-to-1-5-as-electricity-rates-cut",
-          "date": "2026-11-23T05:00:00Z",
+          "title": "BOE’s Pill Says Action Needed to Maintain Inflation Credibility",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/boe-s-pill-says-action-needed-to-maintain-inflation-credibility",
+          "date": "2026-11-23T15:15:01Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
-          "date": "2026-11-22T20:00:00Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Philip R. Lane: Climate change and monetary policy",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+          "date": "2026-11-23T14:30:00Z",
+          "publisher": "www.ecb.europa.eu"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -700,35 +706,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 130,
+      "items": 131,
       "publishers": 4,
       "positive": 9,
-      "negative": 44,
-      "neutral": 77,
-      "languageIndex": -34.6,
+      "negative": 46,
+      "neutral": 76,
+      "languageIndex": -36.8,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 53.1,
+      "sourceConcentration": 53.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Ukraine Says It Sunk Russian Warship in Libya as Conflict Widens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/kyiv-confirms-strike-on-russian-ship-in-libya-as-targets-grow",
-          "date": "2026-11-23T08:24:15Z",
+          "title": "South Korea Scrambles Jets, Issues Air Raid For Russia Warplanes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/south-korea-briefly-issues-air-raid-warning-over-russian-plane",
+          "date": "2026-11-23T23:31:22Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/horizons-middle-east-africa-11-23-2026-video",
-          "date": "2026-11-23T07:38:43Z",
-          "publisher": "www.bloomberg.com"
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T20:48:35Z",
+          "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Trump Suggests Iran Strikes Will Resume Next Year If Talks Fail",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab",
-          "date": "2026-11-23T06:55:45Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-23T17:07:25Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -743,34 +749,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 55,
+      "items": 57,
       "publishers": 4,
       "positive": 2,
       "negative": 2,
-      "neutral": 51,
+      "neutral": 53,
       "languageIndex": 0.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 70.9,
+      "sourceConcentration": 71.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil",
+          "date": "2026-11-24T00:11:51Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "What to Expect When Huang Comes Before Congress",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/what-to-expect-when-huang-comes-before-congress-video",
+          "date": "2026-11-23T20:38:44Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "44% of Sweden’s Voters Back Snap Election as Government Talks Stall",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/44-of-sweden-s-voters-back-snap-election-as-government-talks-stall",
           "date": "2026-11-23T09:00:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "France’s Private Sector Weakens on Election, Budget Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/france-s-private-sector-weakens-on-election-budget-concerns",
-          "date": "2026-11-23T08:15:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching",
-          "date": "2026-11-23T05:30:09Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -786,34 +792,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 16,
+      "items": 18,
       "publishers": 3,
-      "positive": 3,
-      "negative": 11,
+      "positive": 4,
+      "negative": 12,
       "neutral": 2,
-      "languageIndex": -17.9,
+      "languageIndex": -15.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 81.2,
+      "sourceConcentration": 83.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "UK’s Burnham Explores Free Trade Deal With Thailand",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/burnham-s-uk-government-explores-free-trade-deal-with-thailand",
+          "date": "2026-11-23T17:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "AI Slump, Export Controls and Economic Security",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-23/ai-slump-export-controls-and-economic-security",
+          "date": "2026-11-23T12:00:01Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Trump Says US Close to Mexico Trade Deal, Less So With Canada",
           "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-us-close-to-mexico-trade-deal-less-so-with-canada",
           "date": "2026-11-20T18:03:49Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "UK Won't Simply Follow EU on China Tariffs, Reynolds Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/uk-won-t-simply-follow-eu-on-china-tariffs-reynolds-video",
-          "date": "2026-11-20T07:03:02Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush",
-          "date": "2026-11-20T03:40:28Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -829,18 +835,24 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 2,
+      "items": 3,
       "publishers": 1,
       "positive": 0,
-      "negative": 0,
+      "negative": 1,
       "neutral": 2,
-      "languageIndex": 0.0,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
+          "date": "2026-11-23T11:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
@@ -958,23 +970,23 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 359
+      "stories": 386
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 100
+      "stories": 105
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 78
+      "stories": 81
     },
     {
       "publisher": "news.un.org",
-      "stories": 19
+      "stories": 16
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 2
+      "stories": 4
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -982,8 +994,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 29,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 30,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
