@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T10:10:37.645828Z",
+  "generatedAt": "2026-11-25T22:39:57.894896Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,49 +9,49 @@
     "days": 14
   },
   "overall": {
-    "items": 636,
+    "items": 647,
     "publishers": 6,
-    "positive": 67,
+    "positive": 66,
     "negative": 160,
-    "neutral": 409,
-    "languageIndex": -11.5,
+    "neutral": 421,
+    "languageIndex": -12.0,
     "label": "Mixed headline language",
-    "sourceConcentration": 66.8,
+    "sourceConcentration": 66.6,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 198,
+      "items": 197,
       "publishers": 3,
-      "positive": 24,
-      "negative": 21,
-      "neutral": 153,
-      "languageIndex": 2.8,
+      "positive": 23,
+      "negative": 19,
+      "neutral": 155,
+      "languageIndex": 2.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 72.2,
+      "sourceConcentration": 71.1,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Why Jensen Huang’s Return to Nvidia Matters for China",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/why-jensen-huang-s-return-to-nvidia-matters-for-china-video",
-          "date": "2026-11-25T08:59:08Z",
+          "title": "Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video",
+          "date": "2026-11-25T21:38:39Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Malaysia's AI Ambitions Tested as US Chip Curbs Threaten Data Center Boom",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/insight-with-haslinda-amin-11-25-2026-video",
-          "date": "2026-11-25T08:29:23Z",
+          "title": "The Debate Over Where Anthropic’s New Millionaires Should Donate Their Money",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/where-will-anthropic-s-new-millionaires-donate-video",
+          "date": "2026-11-25T21:03:11Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Nvidia ignominy: Is it a new normal?",
-          "url": "https://www.thehindu.com/business/Industry/nvidia-ignominy-is-it-a-new-normal/article71741171.ece",
-          "date": "2026-11-25T05:24:16Z",
-          "publisher": "www.thehindu.com"
+          "title": "Vance Defends Huang’s Nvidia Return, Blames ‘Anonymous Sources’",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/vance-defends-huang-s-nvidia-return-blames-anonymous-sources",
+          "date": "2026-11-25T19:19:55Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,35 +66,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 145,
+      "items": 150,
       "publishers": 5,
-      "positive": 5,
-      "negative": 61,
-      "neutral": 79,
-      "languageIndex": -26.5,
+      "positive": 6,
+      "negative": 63,
+      "neutral": 81,
+      "languageIndex": -26.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.2,
+      "sourceConcentration": 85.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Interest rate affect on Guernsey's housing market",
-          "url": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T09:56:33Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Air passenger services see 35% inflation in Q2; banking, securities transaction witness deflation",
-          "url": "https://www.thehindu.com/business/Economy/air-passenger-services-see-35-inflation-in-q2-banking-securities-transaction-witness-deflation/article71741711.ece",
-          "date": "2026-11-25T09:51:19Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "UK Heating Bills Surge 26%, Adding to Inflation Pressure",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/uk-heating-bills-surge-26-adding-to-inflation-pressure",
-          "date": "2026-11-25T07:51:47Z",
+          "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
+          "date": "2026-11-25T19:35:50Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+          "date": "2026-11-25T17:30:00Z",
+          "publisher": "www.ecb.europa.eu"
+        },
+        {
+          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
+          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
+          "date": "2026-11-25T17:09:05Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 141,
+      "items": 140,
       "publishers": 3,
       "positive": 10,
-      "negative": 52,
-      "neutral": 79,
-      "languageIndex": -37.1,
+      "negative": 49,
+      "neutral": 81,
+      "languageIndex": -36.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.3,
+      "sourceConcentration": 55.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Protesters call on Israel to free Palestinian student held without charge",
-          "url": "https://www.bbc.co.uk/news/articles/cw62p8z9edjlo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T10:03:42Z",
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Merz Warns Russia’s War Aims Go Far Beyond Ukraine, Vows Aid",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/merz-warns-russia-s-war-aims-go-far-beyond-ukraine-vows-aid",
-          "date": "2026-11-25T09:38:15Z",
+          "title": "Russia October Inflation Hits One-Year High as War Escalates",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-inflation-hits-one-year-high-in-october-as-war-escalates",
+          "date": "2026-11-25T16:13:15Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel’s Eisenkot Seals First Coalition Pact as Deadline Nears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/israel-s-eisenkot-seals-first-coalition-pact-as-deadline-nears",
-          "date": "2026-11-25T09:00:52Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T14:46:41Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 66,
+      "items": 67,
       "publishers": 3,
       "positive": 2,
       "negative": 3,
-      "neutral": 61,
-      "languageIndex": -0.7,
+      "neutral": 62,
+      "languageIndex": -0.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.3,
+      "sourceConcentration": 77.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Burundi Sets May Vote With Ndayishimiye Seeking Second Term",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/burundi-sets-may-vote-with-ndayishimiye-seeking-second-term",
-          "date": "2026-11-25T09:41:44Z",
+          "title": "Porky Ends Peru’s Election Year Nearly Empty-Handed",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed",
+          "date": "2026-11-25T22:07:41Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel’s Eisenkot Seals First Coalition Pact as Deadline Nears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/israel-s-eisenkot-seals-first-coalition-pact-as-deadline-nears",
-          "date": "2026-11-25T09:00:52Z",
+          "title": "Zelenskyy Eyes New Congress If Trump Can’t Push Putin to Peace",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/zelenskyy-eyes-congress-if-no-peace-by-end-of-year-video",
+          "date": "2026-11-25T20:44:44Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Spain’s Far Right Party Poised for Breakthrough in Key Election",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/spain-s-far-right-poised-for-breakthrough-in-key-european-vote",
-          "date": "2026-11-25T07:15:00Z",
+          "title": "Pentagon Warns of Huge Fees If Congress Fails to Fund Munitions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/pentagon-warns-of-huge-fees-if-congress-fails-to-fund-munitions",
+          "date": "2026-11-25T19:36:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,18 +195,24 @@
     {
       "id": "india_flows",
       "title": "India flows",
-      "items": 34,
+      "items": 33,
       "publishers": 2,
-      "positive": 17,
+      "positive": 16,
       "negative": 5,
       "neutral": 12,
-      "languageIndex": 18.2,
+      "languageIndex": 17.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 97.1,
+      "sourceConcentration": 97.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
+          "url": "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece",
+          "date": "2026-11-25T13:52:00Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Asia Finds a Surprise Currency Haven in AI-Defying Rupee",
           "url": "https://www.bloomberg.com/news/articles/2026-11-25/asia-finds-a-surprise-currency-haven-in-ai-defying-rupee",
@@ -217,12 +223,6 @@
           "title": "Sensex jumps over 2,000 points, Nifty surges to 25,951 on foreign fund inflows, lower crude oil",
           "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
           "date": "2026-11-25T07:24:11Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee jumps 23 paise to 92.62 against U.S. dollar in early trade",
-          "url": "https://www.thehindu.com/business/markets/indian-rupee-vs-us-dollar-on-november-25-2026/article71741090.ece",
-          "date": "2026-11-25T04:44:16Z",
           "publisher": "www.thehindu.com"
         }
       ],
@@ -236,80 +236,37 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "energy_shipping",
-      "title": "Oil and shipping",
-      "items": 26,
-      "publishers": 4,
-      "positive": 5,
-      "negative": 6,
-      "neutral": 15,
-      "languageIndex": -18.9,
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 32,
+      "publishers": 3,
+      "positive": 4,
+      "negative": 22,
+      "neutral": 6,
+      "languageIndex": -34.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 50.0,
+      "sourceConcentration": 75.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Sensex jumps over 2,000 points, Nifty surges to 25,951 on foreign fund inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
-          "date": "2026-11-25T07:24:11Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Oil and gas production to pick up in 4-5 years as recent measures take effect, Petroleum Ministry says",
-          "url": "https://www.thehindu.com/business/Economy/oil-and-gas-production-to-pick-up-in-4-5-years-as-recent-measures-take-effect-petroleum-ministry-says/article71734940.ece",
-          "date": "2026-11-23T15:02:08Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168859",
-          "date": "2026-11-23T12:00:00Z",
-          "publisher": "news.un.org"
-        }
-      ],
-      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
-      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
-      "hypothesis": "Mixed / fragile",
-      "potentialUpside": "Lower crude can ease inflation and input costs",
-      "potentialDownside": "Shipping disruption can raise freight/insurance independent of crude",
-      "confirmation": "Sustained Brent easing AND freight/insurance normalization",
-      "invalidation": "Fresh vessel attacks; Brent rises; route closures",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "trade_policy",
-      "title": "Trade policy",
-      "items": 25,
-      "publishers": 3,
-      "positive": 4,
-      "negative": 17,
-      "neutral": 4,
-      "languageIndex": -34.2,
-      "label": "Insufficient observations",
-      "sourceConcentration": 76.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "China Dismisses US Tariff Prospect as ‘Political Maneuvering’",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/china-dismisses-us-tariff-prospect-as-political-maneuvering",
-          "date": "2026-11-25T07:57:21Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Set to Announce New Tariffs on China, EU",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/daybreak-europe-11-25-2026-video",
-          "date": "2026-11-25T07:43:50Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US preparing to unveil plan for new tariffs on global trading partners",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T00:38:01Z",
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
+          "date": "2026-11-25T21:03:17Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Revives US Tariff Regime",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video",
+          "date": "2026-11-25T20:24:52Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -322,20 +279,69 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 14,
-      "publishers": 3,
-      "positive": 1,
-      "negative": 0,
-      "neutral": 13,
-      "languageIndex": 3.7,
-      "label": "Mixed headline language",
-      "sourceConcentration": 64.3,
+      "id": "energy_shipping",
+      "title": "Oil and shipping",
+      "items": 27,
+      "publishers": 4,
+      "positive": 5,
+      "negative": 6,
+      "neutral": 16,
+      "languageIndex": -18.8,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 51.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T22:18:06Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
+          "url": "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece",
+          "date": "2026-11-25T13:52:00Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Sensex jumps over 2,000 points, Nifty surges to 25,951 on foreign fund inflows, lower crude oil",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
+          "date": "2026-11-25T07:24:11Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
+      "proxySectors": "Paints; Tyres; Logistics; Indian rupee sensitive sectors",
+      "hypothesis": "Mixed / fragile",
+      "potentialUpside": "Lower crude can ease inflation and input costs",
+      "potentialDownside": "Shipping disruption can raise freight/insurance independent of crude",
+      "confirmation": "Sustained Brent easing AND freight/insurance normalization",
+      "invalidation": "Fresh vessel attacks; Brent rises; route closures",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 14,
+      "publishers": 3,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 12,
+      "languageIndex": 6.7,
+      "label": "Mixed headline language",
+      "sourceConcentration": 71.4,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "SpaceX Sole-Source Deals Targeted in Defense Spending Bill",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/spacex-sole-source-deals-targeted-in-defense-spending-bill",
+          "date": "2026-11-25T17:57:57Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "US Army Orders Weapons Storage Review Ahead of Iowa Explosion",
           "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-army-orders-weapons-storage-review-ahead-of-iowa-explosion",
@@ -347,12 +353,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-24T10:58:51Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Hyderabad defence tech firm Apollo Micro Systems to acquire Bengaluru-based IEC Group",
-          "url": "https://www.thehindu.com/business/Industry/hyderabad-defence-tech-firm-apollo-micro-systems-to-acquire-bengaluru-based-iec-group/article71735501.ece",
-          "date": "2026-11-23T16:36:25Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -367,18 +367,24 @@
     {
       "id": "healthcare",
       "title": "Hospital sector",
-      "items": 9,
+      "items": 10,
       "publishers": 4,
       "positive": 0,
       "negative": 1,
-      "neutral": 8,
-      "languageIndex": -6.2,
+      "neutral": 9,
+      "languageIndex": -5.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 44.4,
+      "sourceConcentration": 50.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Energy price increase 'could put me in hospital'",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y1g42x2wzo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T17:26:13Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Healthcare AI: hospitals lack capacity to measure real-world patient outcomes, warns French expert",
           "url": "https://www.thehindu.com/business/Industry/healthcare-ai-hospitals-lack-capacity-to-measure-real-world-patient-outcomes-warns-french-expert/article71723894.ece",
@@ -390,12 +396,6 @@
           "url": "https://www.thehindu.com/business/Industry/bajaj-group-backed-bihs-to-invest-2500-cr-in-healthcare-venture-nivara-target-10-plus-cities/article71720465.ece",
           "date": "2026-11-19T14:56:35Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "UK Healthcare Managers Warn Youth Reforms Could Hinder Staffing",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/uk-healthcare-managers-warn-youth-reforms-could-hinder-staffing",
-          "date": "2026-11-19T06:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Hospitals; Specialty care",
@@ -406,6 +406,49 @@
       "confirmation": "Hospital-level EBITDA and cash ROIC improve",
       "invalidation": "New beds fail to cover fixed overhead",
       "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "climate_agri",
+      "title": "Monsoon and agriculture",
+      "items": 6,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 1,
+      "neutral": 5,
+      "languageIndex": -12.5,
+      "label": "Insufficient observations",
+      "sourceConcentration": 33.3,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
+          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
+          "date": "2026-11-25T17:09:05Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
+          "date": "2026-11-21T12:00:00Z",
+          "publisher": "news.un.org"
+        },
+        {
+          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
+          "date": "2026-11-17T19:23:19Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Agri inputs; FMCG; Rural consumption",
+      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
+      "hypothesis": "Risk / proxy",
+      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
+      "potentialDownside": "Food-cost and rural income hit",
+      "confirmation": "Rainfall and sowing data consistent with demand",
+      "invalidation": "Weather forecast not realized in yields",
+      "hypothesisAsOf": "2026-10-23"
     },
     {
       "id": "auto_consumer",
@@ -451,63 +494,26 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "climate_agri",
-      "title": "Monsoon and agriculture",
-      "items": 5,
-      "publishers": 3,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 4,
-      "languageIndex": -16.7,
-      "label": "Insufficient observations",
-      "sourceConcentration": 40.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
-          "date": "2026-11-21T12:00:00Z",
-          "publisher": "news.un.org"
-        },
-        {
-          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
-          "date": "2026-11-17T19:23:19Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
-          "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-16T00:11:12Z",
-          "publisher": "www.bbc.co.uk"
-        }
-      ],
-      "directSectors": "Agri inputs; FMCG; Rural consumption",
-      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
-      "hypothesis": "Risk / proxy",
-      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
-      "potentialDownside": "Food-cost and rural income hit",
-      "confirmation": "Rainfall and sowing data consistent with demand",
-      "invalidation": "Weather forecast not realized in yields",
-      "hypothesisAsOf": "2026-10-23"
-    },
-    {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 3,
+      "items": 4,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 2,
-      "languageIndex": -33.3,
+      "neutral": 3,
+      "languageIndex": -25.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US Treasury Yields Hit Two-Month Low as Tech Stocks Extend Slide",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
+          "date": "2026-11-25T06:49:34Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
@@ -518,49 +524,6 @@
           "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
           "date": "2026-11-13T16:04:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-          "date": "2026-11-13T06:00:17Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
-    },
-    {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 2,
-      "publishers": 1,
-      "positive": 1,
-      "negative": 1,
-      "neutral": 0,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-          "date": "2026-11-14T20:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
-          "date": "2026-11-11T16:49:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -603,6 +566,37 @@
       "confirmation": "Public reported credit events corroborated by rating/spread series",
       "invalidation": "Coverage noise without measurable spread move",
       "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 1,
+      "publishers": 1,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": 100.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "date": "2026-11-14T20:00:00Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
     },
     {
       "id": "tyre_inputs",
@@ -655,35 +649,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 145,
+      "items": 150,
       "publishers": 5,
-      "positive": 5,
-      "negative": 61,
-      "neutral": 79,
-      "languageIndex": -26.5,
+      "positive": 6,
+      "negative": 63,
+      "neutral": 81,
+      "languageIndex": -26.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.2,
+      "sourceConcentration": 85.3,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Interest rate affect on Guernsey's housing market",
-          "url": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T09:56:33Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Air passenger services see 35% inflation in Q2; banking, securities transaction witness deflation",
-          "url": "https://www.thehindu.com/business/Economy/air-passenger-services-see-35-inflation-in-q2-banking-securities-transaction-witness-deflation/article71741711.ece",
-          "date": "2026-11-25T09:51:19Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "UK Heating Bills Surge 26%, Adding to Inflation Pressure",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/uk-heating-bills-surge-26-adding-to-inflation-pressure",
-          "date": "2026-11-25T07:51:47Z",
+          "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
+          "date": "2026-11-25T19:35:50Z",
           "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+          "date": "2026-11-25T17:30:00Z",
+          "publisher": "www.ecb.europa.eu"
+        },
+        {
+          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
+          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
+          "date": "2026-11-25T17:09:05Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -698,35 +692,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 141,
+      "items": 140,
       "publishers": 3,
       "positive": 10,
-      "negative": 52,
-      "neutral": 79,
-      "languageIndex": -37.1,
+      "negative": 49,
+      "neutral": 81,
+      "languageIndex": -36.7,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.3,
+      "sourceConcentration": 55.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Protesters call on Israel to free Palestinian student held without charge",
-          "url": "https://www.bbc.co.uk/news/articles/cw62p8z9edjlo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T10:03:42Z",
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Merz Warns Russia’s War Aims Go Far Beyond Ukraine, Vows Aid",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/merz-warns-russia-s-war-aims-go-far-beyond-ukraine-vows-aid",
-          "date": "2026-11-25T09:38:15Z",
+          "title": "Russia October Inflation Hits One-Year High as War Escalates",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-inflation-hits-one-year-high-in-october-as-war-escalates",
+          "date": "2026-11-25T16:13:15Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel’s Eisenkot Seals First Coalition Pact as Deadline Nears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/israel-s-eisenkot-seals-first-coalition-pact-as-deadline-nears",
-          "date": "2026-11-25T09:00:52Z",
-          "publisher": "www.bloomberg.com"
+          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T14:46:41Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -741,34 +735,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 66,
+      "items": 67,
       "publishers": 3,
       "positive": 2,
       "negative": 3,
-      "neutral": 61,
-      "languageIndex": -0.7,
+      "neutral": 62,
+      "languageIndex": -0.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.3,
+      "sourceConcentration": 77.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Burundi Sets May Vote With Ndayishimiye Seeking Second Term",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/burundi-sets-may-vote-with-ndayishimiye-seeking-second-term",
-          "date": "2026-11-25T09:41:44Z",
+          "title": "Porky Ends Peru’s Election Year Nearly Empty-Handed",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed",
+          "date": "2026-11-25T22:07:41Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Israel’s Eisenkot Seals First Coalition Pact as Deadline Nears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/israel-s-eisenkot-seals-first-coalition-pact-as-deadline-nears",
-          "date": "2026-11-25T09:00:52Z",
+          "title": "Zelenskyy Eyes New Congress If Trump Can’t Push Putin to Peace",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/zelenskyy-eyes-congress-if-no-peace-by-end-of-year-video",
+          "date": "2026-11-25T20:44:44Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Spain’s Far Right Party Poised for Breakthrough in Key Election",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/spain-s-far-right-poised-for-breakthrough-in-key-european-vote",
-          "date": "2026-11-25T07:15:00Z",
+          "title": "Pentagon Warns of Huge Fees If Congress Fails to Fund Munitions",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/pentagon-warns-of-huge-fees-if-congress-fails-to-fund-munitions",
+          "date": "2026-11-25T19:36:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -784,35 +778,35 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 25,
+      "items": 32,
       "publishers": 3,
       "positive": 4,
-      "negative": 17,
-      "neutral": 4,
-      "languageIndex": -34.2,
-      "label": "Insufficient observations",
-      "sourceConcentration": 76.0,
-      "coverageSufficient": false,
+      "negative": 22,
+      "neutral": 6,
+      "languageIndex": -34.7,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 75.0,
+      "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "China Dismisses US Tariff Prospect as ‘Political Maneuvering’",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/china-dismisses-us-tariff-prospect-as-political-maneuvering",
-          "date": "2026-11-25T07:57:21Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Set to Announce New Tariffs on China, EU",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/daybreak-europe-11-25-2026-video",
-          "date": "2026-11-25T07:43:50Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US preparing to unveil plan for new tariffs on global trading partners",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T00:38:01Z",
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
+          "date": "2026-11-25T21:03:17Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Revives US Tariff Regime",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video",
+          "date": "2026-11-25T20:24:52Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -827,18 +821,24 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 3,
+      "items": 4,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 2,
-      "languageIndex": -33.3,
+      "neutral": 3,
+      "languageIndex": -25.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "US Treasury Yields Hit Two-Month Low as Tech Stocks Extend Slide",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
+          "date": "2026-11-25T06:49:34Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
@@ -849,49 +849,6 @@
           "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
           "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
           "date": "2026-11-13T16:04:20Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-          "date": "2026-11-13T06:00:17Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "",
-      "proxySectors": "",
-      "hypothesis": "",
-      "potentialUpside": "",
-      "potentialDownside": "",
-      "confirmation": "",
-      "invalidation": "",
-      "hypothesisAsOf": null
-    },
-    {
-      "id": "tech_credit",
-      "title": "Technology credit",
-      "items": 2,
-      "publishers": 1,
-      "positive": 1,
-      "negative": 1,
-      "neutral": 0,
-      "languageIndex": 0.0,
-      "label": "Insufficient observations",
-      "sourceConcentration": 100.0,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-          "date": "2026-11-14T20:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nvidia Gets Rare Downgrade as Jensen Huang Scandal Weighs on Outlook",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-surveillance-11-11-2026-video",
-          "date": "2026-11-11T16:49:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -936,6 +893,37 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "tech_credit",
+      "title": "Technology credit",
+      "items": 1,
+      "publishers": 1,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "languageIndex": 100.0,
+      "label": "Insufficient observations",
+      "sourceConcentration": 100.0,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "date": "2026-11-14T20:00:00Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "",
+      "proxySectors": "",
+      "hypothesis": "",
+      "potentialUpside": "",
+      "potentialDownside": "",
+      "confirmation": "",
+      "invalidation": "",
+      "hypothesisAsOf": null
+    },
+    {
       "id": "mega_credit",
       "title": "Large bank credit",
       "items": 0,
@@ -962,23 +950,23 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 425
+      "stories": 431
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 107
+      "stories": 111
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 82
+      "stories": 83
     },
     {
       "publisher": "news.un.org",
-      "stories": 18
+      "stories": 17
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 3
+      "stories": 4
     },
     {
       "publisher": "www.federalreserve.gov",
@@ -986,8 +974,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 33,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 34,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,

@@ -2,6 +2,68 @@
   "schema": 1,
   "scans": [
     {
+      "id": "20261125T223957Z",
+      "asOf": "2026-11-25T22:39:57.894896Z",
+      "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
+      "sourceFeedsConfigured": 15,
+      "queriesTotal": 15,
+      "queriesSucceeded": 14,
+      "queriesFailed": {
+        "UN News": "not well-formed (invalid token): line 1, column 0"
+      },
+      "feedItemsSeen": {
+        "BBC World": 32,
+        "BBC Business": 55,
+        "BBC India": 26,
+        "BBC Middle East": 29,
+        "BBC Technology": 21,
+        "The Hindu Business": 60,
+        "The Hindu Markets": 60,
+        "The Hindu Economy": 60,
+        "The Hindu Industry": 60,
+        "Bloomberg Markets": 20,
+        "Bloomberg Economics": 20,
+        "Bloomberg Politics": 20,
+        "Federal Reserve Monetary": 15,
+        "ECB Press": 15
+      },
+      "newUniqueArticles": 34,
+      "retainedArticles": 808,
+      "counts14d": {
+        "energy_shipping": 27,
+        "elections_policy": 67,
+        "geopolitics": 140,
+        "trade_policy": 32,
+        "ai_rotation": 197,
+        "inflation_rates": 150,
+        "defence_capex": 14,
+        "healthcare": 10,
+        "climate_agri": 6,
+        "india_flows": 33,
+        "sovereign_credit": 4,
+        "auto_consumer": 5,
+        "tech_credit": 1,
+        "credit_cds": 1
+      },
+      "newByTopic": {
+        "energy_shipping": 2,
+        "geopolitics": 5,
+        "trade_policy": 8,
+        "ai_rotation": 7,
+        "healthcare": 1,
+        "climate_agri": 1,
+        "inflation_rates": 8,
+        "india_flows": 1,
+        "elections_policy": 3,
+        "sovereign_credit": 1,
+        "defence_capex": 1
+      },
+      "oldestRetainedAt": "2026-07-29T18:00:00Z",
+      "lookbackDays": 14,
+      "coverageWarning": "Selected publisher feeds only; RSS feeds vary in update frequency and length, no exhaustive news or CDS price data.",
+      "cdsStatus": "CDS-related press headlines; no verified live named-issuer CDS spreads"
+    },
+    {
       "id": "20261125T101037Z",
       "asOf": "2026-11-25T10:10:37.645828Z",
       "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
