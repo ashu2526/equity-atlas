@@ -2,6 +2,20 @@
   "schema": 1,
   "snapshots": [
     {
+      "session": "2026-11-26_AM",
+      "generatedAt": "2026-11-25T22:40:40.943423+00:00",
+      "ready": 13,
+      "configured": 22,
+      "alerts": [
+        {
+          "ticker": "MAXHEALTH",
+          "asOf": "2026-11-25",
+          "signal": "short_breakout_long_average_falling",
+          "priority": "watch"
+        }
+      ]
+    },
+    {
       "session": "2026-11-25_PM",
       "generatedAt": "2026-11-25T10:07:59.186244+00:00",
       "ready": 22,
