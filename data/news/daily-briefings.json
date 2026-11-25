@@ -3,6 +3,370 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-25-pm",
+      "asOf": "2026-11-25",
+      "createdAt": "2026-11-25T13:51:57.521Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified; primary flows and completed sector bars insufficient",
+      "marketSession": "PM — 25 November 2026 Asia/Kolkata; Indian cash close",
+      "coverageWindow": {
+        "start": "2026-11-11",
+        "end": "2026-11-25"
+      },
+      "sourceArchiveAsOf": "2026-11-25T10:10:37.645828Z",
+      "headline": "India rebounds after holiday as rupee strengthens; foreign inflows reported, Asian tech and tariff risks persist",
+      "executiveSummary": "Reuters and Financial Express report NIFTY +1.85% and broad large-cap recovery after Monday's selloff; small caps lag. Reuters reports USD14.28bn November foreign equity inflows and INR 92.23/USD. Sector leadership and priced event-risk: 23 Nov completed PSU banks +7.27pp relative 3m (1w +2.73%, 1m +18.45%, acceleration +20.87pp), private banks +6.81pp (1w +1.38%, 1m +15.02%, acceleration +15.42pp); PSU overtook private banks since 20 Nov, no fresh rank change measured. Fed December +25bp YES 93.5¢ unchanged versus stored 24 Nov 23:12:32 UTC; no-change YES 4.3¢ (+0.45pp). Neither price nor betting volume is institutional flow. News 10:10 UTC, signals 10:07 UTC; evening refresh not confirmed. Headline index -11.5 is lexical, not investor sentiment.",
+      "regime": {
+        "label": "Domestic large-cap relief; global divergence; broad risk-on unproven",
+        "change": "Monday risk-off reversed in reported close",
+        "confidence": "Moderate price evidence; low sector-flow attribution",
+        "marketConfirmation": "NIFTY +1.85%, 14/16 sectors up, INR stronger",
+        "contradictions": "Small caps lag; Asia ex-Japan weak; tariffs",
+        "missingSignals": "NSE gross turnover, NSDL sector flows, primary AMFI, CFTC, TIC, credit/CDS and fresh sector/stock bars"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY",
+          "value": "25,819.25 (+1.85%)",
+          "period": "25 Nov close",
+          "dataClass": "index price",
+          "source": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/"
+        },
+        {
+          "name": "Sensex",
+          "value": "83,938.28 (+1.82%)",
+          "period": "25 Nov close",
+          "dataClass": "index price",
+          "source": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/"
+        },
+        {
+          "name": "INR",
+          "value": "92.23/USD",
+          "period": "25 Nov close",
+          "dataClass": "FX price",
+          "source": "https://www.moneycontrol.com/news/business/commodities/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persis-14088891.html"
+        },
+        {
+          "name": "Foreign equity inflows",
+          "value": "USD 14.28bn",
+          "period": "November to date, reported 25 Nov",
+          "dataClass": "reported aggregate flow",
+          "source": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/"
+        },
+        {
+          "name": "Equity MF subscriptions",
+          "value": "INR 32,993 crore",
+          "period": "October 2026",
+          "dataClass": "secondary AMFI net subscriptions",
+          "source": "https://www.financialexpress.com/money/mutual-funds-equity-mf-inflows-down-14-in-oct-as-mid-small-caps-plunge-amfi-4381683/"
+        },
+        {
+          "name": "PSU banks relative 3m",
+          "value": "+7.27 pp",
+          "period": "23 Nov",
+          "dataClass": "stale sector price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Private banks relative 3m",
+          "value": "+6.81 pp",
+          "period": "23 Nov",
+          "dataClass": "stale sector price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Fed +25bp YES",
+          "value": "93.5¢ unchanged; 24h USD 582667.52; liquidity USD 592940.90",
+          "period": "25 Nov 10:07:57.634350 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Fed no change YES",
+          "value": "4.3¢ +0.45pp; 24h USD 588580.74; liquidity USD 465335.31",
+          "period": "25 Nov 10:07:57.634350 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "NSE gross buy/sell/net",
+          "value": "Unavailable",
+          "period": "25 Nov",
+          "dataClass": "primary cash transactions",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-25-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "equities",
+          "geography": "India",
+          "title": "India reopening reverses Monday selloff",
+          "whatHappened": "25 Nov: NIFTY 25,819.25 (+1.85%), Sensex 83,938.28 (+1.82%), 14/16 sectors advance; small caps lag.",
+          "whyItMatters": [
+            "Bank-led rebound reverses immediate risk-off price signal.",
+            "Small-cap weakness limits breadth and suggests financing appetite is not uniform."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Banks; large caps",
+          "proxies": "Brokers; exchanges; NBFCs",
+          "whatCouldChange": "Next close breadth and bank earnings revisions",
+          "caution": "One-session rebound does not establish structural trend.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
+            "https://www.financialexpress.com/market/7-factors-driving-d-street-rally-sensex-nifty-close-with-2-gains-rupee-at-8-mth-high-4393574/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "flows_fx",
+          "geography": "India",
+          "title": "Foreign equity inflows and rupee strength",
+          "whatHappened": "25 Nov Reuters reports USD 14.28bn November-to-date foreign equity inflows; INR closes 92.23/USD, up 0.7%.",
+          "whyItMatters": [
+            "Foreign demand can support equity liquidity and currency.",
+            "Stronger INR reduces imported costs but can reduce exporter translation."
+          ],
+          "smartMoney": "Reuters-reported aggregate November equity inflows USD 14.28bn; sector not measured",
+          "direct": "Importers; liquid equities",
+          "proxies": "IT exporters; chemicals; aviation",
+          "whatCouldChange": "NSE gross/net and NSDL sector allocations; currency persistence",
+          "caution": "Aggregate reported flows cannot identify sector purchases.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
+            "https://www.moneycontrol.com/news/business/commodities/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persis-14088891.html"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "trade_policy",
+          "geography": "US/Asia",
+          "title": "US tariff announcement risk",
+          "whatHappened": "24–25 Nov Reuters reports prospective new tariffs after excess-capacity probe, despite midterm defeat.",
+          "whyItMatters": [
+            "Duties could change landed costs and sourcing.",
+            "Uncertainty can defer export orders and capex."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Textiles; chemicals; auto components",
+          "proxies": "Logistics; domestic substitutes",
+          "whatCouldChange": "Official schedules, effective dates, exemptions",
+          "caution": "Proposal is not enacted duty; carve-outs may negate exposure.",
+          "sources": [
+            "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "energy_geopolitics",
+          "geography": "Middle East/India",
+          "title": "Iran blockade and oil-cost divergence",
+          "whatHappened": "25 Nov Iran says it can withstand US blockade; Reuters reports October Iranian CPI +88.7% yoy. Brent near $91, down about 22.5% this month.",
+          "whyItMatters": [
+            "Lower benchmark crude may ease India's import bill.",
+            "Blockade and freight risk may offset delivered-cost relief."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Refiners; airlines",
+          "proxies": "Paints; tyres; fertiliser; insurers",
+          "whatCouldChange": "Landed crude, diesel cracks and actual shipping costs",
+          "caution": "Iran reserve claims lack figures; benchmark is not delivered cost.",
+          "sources": [
+            "https://www.reuters.com/world/middle-east/iran-says-it-is-prepared-withstand-us-blockade-seeks-curb-price-rises-2026-11-25/",
+            "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-5",
+          "rank": 5,
+          "importance": "medium",
+          "theme": "fund_flows",
+          "geography": "India",
+          "title": "Domestic fund subscriptions slow",
+          "whatHappened": "October AMFI-derived figures reported by Financial Express: equity net subscriptions INR 32,993 crore versus 38,306 crore September; large-cap INR 1,032 crore; midcap inflows down 38%, smallcap down 29%.",
+          "whyItMatters": [
+            "Slower subscriptions can reduce marginal domestic liquidity.",
+            "Category divergence is consistent with large-cap preference but does not establish secondary-market purchases."
+          ],
+          "smartMoney": "Reported fund net subscriptions, not exchange purchases",
+          "direct": "Fund managers; mid/small caps",
+          "proxies": "Distributors; brokers",
+          "whatCouldChange": "Primary AMFI monthly table and November subscriptions",
+          "caution": "Subscriptions differ from DII exchange turnover; AUM changes include prices.",
+          "sources": [
+            "https://www.financialexpress.com/money/mutual-funds-equity-mf-inflows-down-14-in-oct-as-mid-small-caps-plunge-amfi-4381683/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "ai_capex",
+          "geography": "Asia/US/India",
+          "title": "Asian technology weakness persists",
+          "whatHappened": "25 Nov Reuters reports Asia-Pacific ex-Japan shares down 3.3% amid tariff and fading tech rally.",
+          "whyItMatters": [
+            "Higher technology equity risk premiums can affect financing.",
+            "Indian power/cooling suppliers need physical orders, not foreign equity-price signals."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Semiconductors; IT",
+          "proxies": "Grid equipment; cooling; data centres",
+          "whatCouldChange": "Hyperscaler capex, signed orders, guidance",
+          "caution": "No verified capex cancellation; strong orders would contradict contraction.",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
+            "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        },
+        {
+          "id": "2026-11-25-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "earnings",
+          "geography": "Europe/India",
+          "title": "Airline earnings expose fuel transmission",
+          "whatHappened": "25 Nov Bloomberg RSS reports easyJet profit hit by Iran war ahead of Apollo takeover; Reuters video corroborates fuel-cost pressure.",
+          "whyItMatters": [
+            "Fuel and route disruptions can reduce airline margins.",
+            "Acquisition financing and earnings sensitivity warrant monitoring."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Airlines",
+          "proxies": "Airports; travel; insurers",
+          "whatCouldChange": "Issuer results, hedges, transaction completion",
+          "caution": "No exact earnings amount or completed stake transfer verified.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-25/easyjet-profit-hit-by-middle-east-war-as-apollo-takeover-looms",
+            "https://www.reuters.com/video/business/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional transmission; primary records not independently reconciled"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "PSU banks",
+          "status": "Prior leader; fresh close pending",
+          "transmission": "Credit growth/NIM",
+          "confirmation": "NSE sector bars and NSDL",
+          "counterevidence": "Monday reversal"
+        },
+        {
+          "sector": "Private banks",
+          "status": "Rebounding in reported close",
+          "transmission": "Deposit costs and loan yields",
+          "confirmation": "NIM and sector returns",
+          "counterevidence": "Small caps lag"
+        },
+        {
+          "sector": "IT",
+          "status": "Global headwind",
+          "transmission": "Client budgets and FX",
+          "confirmation": "Orders and revisions",
+          "counterevidence": "India relative resilience"
+        },
+        {
+          "sector": "AI equipment",
+          "status": "Unproven acceleration",
+          "transmission": "Capex orders",
+          "confirmation": "Signed contracts",
+          "counterevidence": "Asian tech selloff"
+        },
+        {
+          "sector": "Paints/tyres",
+          "status": "Conditional relief",
+          "transmission": "Feedstock margin",
+          "confirmation": "Landed inputs",
+          "counterevidence": "Freight risk"
+        },
+        {
+          "sector": "Airlines",
+          "status": "Mixed",
+          "transmission": "Fuel and route costs",
+          "confirmation": "Hedges and margins",
+          "counterevidence": "Lower crude"
+        },
+        {
+          "sector": "Healthcare",
+          "status": "Prior positive relative strength",
+          "transmission": "Occupancy and ROIC",
+          "confirmation": "Fresh bars and results",
+          "counterevidence": "Capex burden"
+        },
+        {
+          "sector": "Realty/NBFC",
+          "status": "Rate sensitive",
+          "transmission": "Funding spreads",
+          "confirmation": "RBI and credit spreads",
+          "counterevidence": "Bank rebound"
+        }
+      ],
+      "cooling": [
+        "Asian technology prices; no verified physical capex decline",
+        "October equity subscriptions versus September",
+        "Prior bank relative lead cooled through 23 Nov; current rank unmeasured"
+      ],
+      "risks": [
+        "Tariff enactment",
+        "Gulf freight disruption",
+        "Foreign flow reversal",
+        "Fed tightening",
+        "Small-cap breadth deterioration",
+        "AI order cuts",
+        "Credit spread widening",
+        "Stale technical signals"
+      ],
+      "whatChanged": [
+        "25 Nov rebound reverses 23 Nov close",
+        "INR strengthens to 92.23",
+        "November aggregate foreign inflows reported at USD14.28bn",
+        "Fed +25bp quote unchanged; no-change +0.45pp",
+        "October fund subscriptions now sourced in secondary reporting"
+      ],
+      "tomorrowChecklist": [
+        "Reconcile NSE gross and net turnover",
+        "Retrieve NSDL fortnightly sector flows and primary AMFI",
+        "Verify CFTC and TIC observation dates",
+        "Check completed 25 Nov sector and company OHLCV",
+        "Check official tariff text and Fed releases",
+        "Verify airline earnings and acquisition filings",
+        "Monitor freight, diesel and credit spreads"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
+        "https://www.financialexpress.com/market/7-factors-driving-d-street-rally-sensex-nifty-close-with-2-gains-rupee-at-8-mth-high-4393574/",
+        "https://www.moneycontrol.com/news/business/commodities/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persis-14088891.html",
+        "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
+        "https://www.reuters.com/world/middle-east/iran-says-it-is-prepared-withstand-us-blockade-seeks-curb-price-rises-2026-11-25/",
+        "https://www.financialexpress.com/money/mutual-funds-equity-mf-inflows-down-14-in-oct-as-mid-small-caps-plunge-amfi-4381683/",
+        "https://www.bloomberg.com/news/articles/2026-11-25/easyjet-profit-hit-by-middle-east-war-as-apollo-takeover-looms",
+        "https://www.reuters.com/video/business/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+      ],
+      "limitations": "RSS 15/15, 774 retained, 28 new; 19:00 IST completion not confirmed. Stock scanner 10:07:59 UTC, 22 ready, 3 flagged, bars through 23 Nov; no fresh breakout asserted. Primary NSE buy/sell/net, NSDL, AMFI, CFTC, TIC, issuer CDS, stake transfers and enacted tariff schedules not verified. No new flows file entries."
+    },
+    {
       "id": "2026-11-23-pm",
       "asOf": "2026-11-23",
       "createdAt": "2026-11-23T14:25:25.226Z",
