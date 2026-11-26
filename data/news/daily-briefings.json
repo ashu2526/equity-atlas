@@ -3,6 +3,403 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-26-pm",
+      "asOf": "2026-11-26",
+      "createdAt": "2026-11-26T13:57:44.523Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_evening_review",
+      "publicationStatus": "Published — evidence-qualified; insufficient primary flow and current close coverage",
+      "marketSession": "PM — 26 November 2026 Asia/Kolkata; Indian close review",
+      "coverageWindow": {
+        "start": "2026-11-12",
+        "end": "2026-11-26"
+      },
+      "sourceArchiveAsOf": "2026-11-26T09:52:23.957493Z",
+      "headline": "Oil rebound tests India rotation; tariff differentiation and Nvidia credit watch sharpen risks",
+      "executiveSummary": "Reuters reports Indian equities edging higher, but oil rebound and INR reversal challenge yesterday's cost-relief thesis. Secondary JM Financial sector transaction reporting adds financials evidence, not primary NSDL confirmation. Sector leadership and priced event-risk: 25 Nov private banks rank 1 (+6.34pp relative 3m), PSU banks rank 2 (+4.01pp), versus 23 Nov +6.81 and +7.27pp respectively; metals -21.16pp. No 26 Nov completed sector bars: NSE file returned 404. Fed December +25bp YES 93.5¢ unchanged and no-change 3.85¢ down 0.45pp against actual 25 Nov 22:40:39 UTC snapshot. Betting prices are not probabilities or equity flows. News lexical index -12.3 versus -12.0; not investor sentiment. 26 Nov close numeric benchmark not independently retrieved.",
+      "regime": {
+        "label": "Selective domestic resilience; insufficient evidence for broad risk-on",
+        "change": "Oil/FX tailwind weakened; credit watch and tariff details add risks",
+        "confidence": "Moderate publisher evidence; low current breadth and primary flow confidence",
+        "marketConfirmation": "Reuters reports Indian shares inch higher; INR 92.445/USD",
+        "contradictions": "Oil rebounds, bank relative lead narrowed, AI credit watch",
+        "missingSignals": "26 Nov official close/breadth, NSE gross/net, NSDL, primary AMFI, CFTC, TIC, issuer spreads"
+      },
+      "keyNumbers": [
+        {
+          "name": "INR",
+          "value": "92.445/USD",
+          "period": "26 Nov",
+          "dataClass": "reported FX price",
+          "source": "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/"
+        },
+        {
+          "name": "Foreign equity buying",
+          "value": "USD 15.5bn",
+          "period": "November to date, 26 Nov brokerage report",
+          "dataClass": "reported aggregate transactions",
+          "source": "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/"
+        },
+        {
+          "name": "Financials",
+          "value": "USD 4.576bn; 51.1% of sector net inflows",
+          "period": "November report 26 Nov; exact sector window unconfirmed",
+          "dataClass": "secondary sector transaction reporting",
+          "source": "https://www.financialexpress.com/market/fiis-pour-13-bn-in-14-sessions-will-crude-amp-ai-trade-rotation-sustain-momentum-4394217/"
+        },
+        {
+          "name": "FII gross buy/sell/net",
+          "value": "INR 24309.9 / 19830.8 / +4479.1 crore",
+          "period": "25 Nov",
+          "dataClass": "secondary provisional cash transactions",
+          "source": "https://investmentguruindia.com/newsdetail/daily-market-update---26th-november-2026-by-ventura-securities-ltd548221"
+        },
+        {
+          "name": "DII gross buy/sell/net",
+          "value": "INR 22379.8 / 18361.1 / +4018.7 crore",
+          "period": "25 Nov",
+          "dataClass": "secondary provisional cash transactions",
+          "source": "https://investmentguruindia.com/newsdetail/daily-market-update---26th-november-2026-by-ventura-securities-ltd548221"
+        },
+        {
+          "name": "26 Nov FII/DII",
+          "value": "Unavailable",
+          "period": "26 Nov",
+          "dataClass": "primary cash transactions",
+          "source": "https://www.nseindia.com/reports/fii-dii"
+        },
+        {
+          "name": "Private banks",
+          "value": "3m relative +6.34pp; 1w +3.34%; 1m +16.82%; acceleration +17.04pp",
+          "period": "25 Nov",
+          "dataClass": "sector prices",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "PSU banks",
+          "value": "3m relative +4.01pp; 1w +0.55%; 1m +18.55%; acceleration +20.97pp",
+          "period": "25 Nov",
+          "dataClass": "sector prices",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Fed +25bp YES",
+          "value": "93.5¢ unchanged; 24h $759976.16; liquidity $1034940.79",
+          "period": "26 Nov 09:50:13 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Fed no change YES",
+          "value": "3.85¢ (-0.45pp); 24h $1847425.40; liquidity $544500.11",
+          "period": "26 Nov 09:50:13 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-26-pm-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "Energy/FX",
+          "geography": "India/Gulf",
+          "title": "Oil rebound interrupts rupee rally",
+          "whatHappened": "26 Nov Reuters: Brent above $96 during session; INR 92.445/USD, down 0.2%; regional shipping security concerns persist.",
+          "whyItMatters": [
+            "Higher import costs can raise inflation and compress fuel-intensive margins.",
+            "Rupee depreciation and higher forward premiums raise hedging costs."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Airlines; refiners; importers",
+          "proxies": "Paints; tyres; fertiliser; logistics",
+          "whatCouldChange": "Landed crude, freight and forward premiums",
+          "caution": "Oil reversal or shipping normalization would weaken thesis",
+          "sources": [
+            "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "Trade",
+          "geography": "India/US/Asia",
+          "title": "Tariff differentiation becomes clearer",
+          "whatHappened": "26 Nov Reuters: proposed India rate 25%, potentially 17% under deal; conditional Vietnam 20%, Bangladesh/Cambodia/Indonesia 18%; China 20% under truce or 40% if it lapses.",
+          "whyItMatters": [
+            "Relative duties affect sourcing and exporter margins.",
+            "Exemptions and non-stacking of duties reduce worst-case exposure."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Textiles; chemicals; auto components",
+          "proxies": "Logistics; domestic substitutes",
+          "whatCouldChange": "Final USTR text and effective dates",
+          "caution": "Proposal not enacted; exemptions may reverse relative advantage",
+          "sources": [
+            "https://www.reuters.com/world/china/how-trumps-proposed-tariffs-india-compare-with-rival-nations-2026-11-26/",
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "Flows",
+          "geography": "India",
+          "title": "Foreign buying now has secondary sector evidence",
+          "whatHappened": "26 Nov Financial Express citing JM Financial reports $13bn first 14 November sessions, financials $4.576bn or 51.1% of sector net inflows; capital goods and chemicals outflows. Different period/scope from $15.5bn November-to-date cited by JPMorgan.",
+          "whyItMatters": [
+            "Sector transaction reporting adds evidence beyond bank prices.",
+            "Concentration may amplify reversal risk and does not guarantee earnings growth."
+          ],
+          "smartMoney": "Secondary reported transactions; primary NSDL unavailable; exact sector window not established",
+          "direct": "Banks; financials",
+          "proxies": "Brokers; exchanges",
+          "whatCouldChange": "NSDL fortnightly table and denominator reconciliation",
+          "caution": "Do not equate 51.1% with share of $13bn; scope differs",
+          "sources": [
+            "https://www.financialexpress.com/market/fiis-pour-13-bn-in-14-sessions-will-crude-amp-ai-trade-rotation-sustain-momentum-4394217/",
+            "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "Credit/AI",
+          "geography": "US/global",
+          "title": "Nvidia rating watch adds credit dimension",
+          "whatHappened": "26 Nov Reuters reports S&P placed Nvidia rating on watch for possible downgrade, citing governance concerns.",
+          "whyItMatters": [
+            "Potential funding spread widening could increase cost of AI investment.",
+            "Governance risk can affect equity discount rates without changing physical orders."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Semiconductors; AI financing",
+          "proxies": "Indian grid equipment; cooling; IT",
+          "whatCouldChange": "Rating resolution, bond spreads, capex and orders",
+          "caution": "Watch is not downgrade or default; no CDS quote verified",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "Rates",
+          "geography": "US/Japan",
+          "title": "Fed and Japan tightening risk persists",
+          "whatHappened": "26 Nov Reuters reports futures pricing a December Fed hike and BOJ board member advocating timely tightening; US cash equities closed for Thanksgiving.",
+          "whyItMatters": [
+            "Higher global yields pressure duration assets and leveraged borrowers.",
+            "Japan tightening can affect carry trades and emerging market liquidity."
+          ],
+          "smartMoney": "Not measured; futures pricing is not cash flow",
+          "direct": "NBFC; realty; bonds",
+          "proxies": "Autos; housing materials",
+          "whatCouldChange": "Official decisions, yields and credit spreads",
+          "caution": "No enacted rate move; holiday liquidity can distort prices",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/",
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "Market structure",
+          "geography": "India",
+          "title": "Corporate bond index futures approval reported",
+          "whatHappened": "26 Nov Upstox reports NSE received RBI approval; contract specifications and launch date pending.",
+          "whyItMatters": [
+            "Hedging could improve corporate bond risk management.",
+            "Exchange and clearing activity could expand if liquidity develops."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Exchanges; bond dealers",
+          "proxies": "Insurers; funds; corporate borrowers",
+          "whatCouldChange": "Official circular, launch, open interest and bid-ask spreads",
+          "caution": "Approval does not guarantee adoption or lower funding costs",
+          "sources": [
+            "https://upstox.com/news/market-news/latest-updates/nse-receives-rbi-nod-for-introduction-of-corporate-bond-index-futures-what-investors-should-know/article-204042/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "Corporate orders",
+          "geography": "India/global",
+          "title": "Welspun pipe order adds physical capex evidence",
+          "whatHappened": "26 Nov Financial Express reports new export pipe order, approximately INR 2,264 crore global orders since Oct 29 and INR 50,000 crore order book.",
+          "whyItMatters": [
+            "Orders provide conditional revenue visibility through FY29.",
+            "Execution and steel input costs determine margins and cash conversion."
+          ],
+          "smartMoney": "Not measured; order is not institutional stake purchase",
+          "direct": "Pipe manufacturers",
+          "proxies": "Steel suppliers; logistics",
+          "whatCouldChange": "Exchange filing, execution, working capital",
+          "caution": "Order book is not realized revenue; AI attribution unproven",
+          "sources": [
+            "https://www.financialexpress.com/business/industry-welspun-corp-bags-new-export-order-for-lsaw-pipes-global-order-book-at-rs-50000-cr-4394139/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        },
+        {
+          "id": "2026-11-26-pm-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "Equities",
+          "geography": "India/global",
+          "title": "Domestic recovery persists but forecasts are not flows",
+          "whatHappened": "26 Nov Reuters reports Indian shares inch higher; JPMorgan forecasts 2027 earnings growth and index upside, not realized outcomes.",
+          "whyItMatters": [
+            "Domestic demand could diversify exposure away from global AI valuations.",
+            "Higher oil and narrow leadership can undermine rerating."
+          ],
+          "smartMoney": "Reported aggregate foreign buying $15.5bn November to date per brokerage; not forecast $100bn potential",
+          "direct": "Large caps; banks",
+          "proxies": "Consumer cyclicals",
+          "whatCouldChange": "Official close, breadth and earnings revisions",
+          "caution": "Broker targets are scenarios, not evidence of future returns",
+          "sources": [
+            "https://www.reuters.com/world/india/indian-shares-set-extend-gains-strong-foreign-flows-us-tariffs-focus-2026-11-26/",
+            "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/",
+            "https://www.reuters.com/world/china/indian-rupee-bulls-return-after-18-months-rupiah-bears-tighten-grip-2026-11-26/"
+          ],
+          "evidenceType": "Dated publisher reporting; conditional economic interpretation; primary reconciliation incomplete"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "status": "Regained rank 1 on 25 Nov; relative lead narrowed",
+          "transmission": "NIM and credit growth",
+          "confirmation": "NSDL and deposit costs",
+          "counterevidence": "Oil inflation"
+        },
+        {
+          "sector": "PSU banks",
+          "status": "Cooling relative lead",
+          "transmission": "Loan growth",
+          "confirmation": "Asset quality and NSDL",
+          "counterevidence": "Relative return fell from +7.27pp to +4.01pp"
+        },
+        {
+          "sector": "Paints/tyres",
+          "status": "Cost relief cooling",
+          "transmission": "Feedstock margins",
+          "confirmation": "Landed costs",
+          "counterevidence": "Brent rebound"
+        },
+        {
+          "sector": "IT",
+          "status": "Unproven recovery",
+          "transmission": "Client spending",
+          "confirmation": "Bookings",
+          "counterevidence": "AI credit watch"
+        },
+        {
+          "sector": "AI equipment",
+          "status": "Unproven acceleration",
+          "transmission": "Physical orders",
+          "confirmation": "Capex and execution",
+          "counterevidence": "Equity volatility"
+        },
+        {
+          "sector": "Metals",
+          "status": "Cooling",
+          "transmission": "Physical demand",
+          "confirmation": "Inventory and margins",
+          "counterevidence": "3m relative -21.16pp"
+        },
+        {
+          "sector": "NBFC/realty",
+          "status": "Rate-sensitive",
+          "transmission": "Funding costs",
+          "confirmation": "Credit spreads",
+          "counterevidence": "Potential tightening"
+        },
+        {
+          "sector": "Export manufacturing",
+          "status": "Conditional trade opportunity",
+          "transmission": "Landed price competitiveness",
+          "confirmation": "Final tariff schedules",
+          "counterevidence": "25% proposed rate"
+        },
+        {
+          "sector": "Exchanges",
+          "status": "New conditional catalyst",
+          "transmission": "Bond futures turnover",
+          "confirmation": "Launch and liquidity",
+          "counterevidence": "Approval not adoption"
+        }
+      ],
+      "cooling": [
+        "Oil cost relief",
+        "Bank relative lead versus 23 Nov",
+        "Metals relative strength"
+      ],
+      "risks": [
+        "Hormuz disruption",
+        "Tariff enactment",
+        "Foreign flow reversal",
+        "Fed tightening",
+        "BOJ carry unwind",
+        "Nvidia rating downgrade",
+        "Corporate order execution",
+        "Stale technical bars"
+      ],
+      "whatChanged": [
+        "Oil rebound and rupee reversal",
+        "Tariff country comparisons clarified",
+        "Secondary financial-sector transaction evidence",
+        "Nvidia rating watch",
+        "Corporate bond futures approval",
+        "Stock scanner coverage restored to 22/22 but bars still 25 Nov"
+      ],
+      "tomorrowChecklist": [
+        "Reconcile official 26 Nov close and NSE gross/net",
+        "Retrieve NSDL fortnightly and AMFI monthly tables",
+        "Check CFTC and TIC dated records",
+        "Verify tariff legal text and Nvidia rating notice",
+        "Monitor oil freight and INR forward premiums",
+        "Check completed 26 Nov OHLCV and new signals",
+        "Verify bond futures circular and Welspun filing"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/india/indian-shares-set-extend-gains-strong-foreign-flows-us-tariffs-focus-2026-11-26/",
+        "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/",
+        "https://www.reuters.com/world/china/how-trumps-proposed-tariffs-india-compare-with-rival-nations-2026-11-26/",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/",
+        "https://www.financialexpress.com/market/fiis-pour-13-bn-in-14-sessions-will-crude-amp-ai-trade-rotation-sustain-momentum-4394217/",
+        "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/",
+        "https://investmentguruindia.com/newsdetail/daily-market-update---26th-november-2026-by-ventura-securities-ltd548221",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://upstox.com/news/market-news/latest-updates/nse-receives-rbi-nod-for-introduction-of-corporate-bond-index-futures-what-investors-should-know/article-204042/",
+        "https://www.financialexpress.com/business/industry-welspun-corp-bags-new-export-order-for-lsaw-pipes-global-order-book-at-rs-50000-cr-4394139/",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.reuters.com/world/china/indian-rupee-bulls-return-after-18-months-rupiah-bears-tighten-grip-2026-11-26/"
+      ],
+      "limitations": "News 09:52:23 UTC, 15/15 feeds, 835 retained, 27 new; sector and Polymarket 09:50:13 UTC; stock scan 09:50:16 UTC, 22 ready, 4 flagged, bars through 25 Nov. Evening pipeline completion unconfirmed. No fresh 26 Nov technical breakout asserted. NSE page did not yield numeric current turnover; NSDL 502; AMFI, CFTC and TIC landing pages accessed but current numeric tables not verified. Prior October AMFI secondary subscriptions INR 32,993 crore vs 38,306 crore September; not new. No verified issuer CDS quote or institutional stake transfer. Dashboard web fetch failed. No flows file update."
+    },
+    {
       "id": "2026-11-25-pm",
       "asOf": "2026-11-25",
       "createdAt": "2026-11-25T13:51:57.521Z",
