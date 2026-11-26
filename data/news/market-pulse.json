@@ -1,40 +1,46 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T22:39:57.894896Z",
+  "generatedAt": "2026-11-26T09:52:23.957493Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-11",
-    "end": "2026-11-25",
+    "start": "2026-11-12",
+    "end": "2026-11-26",
     "days": 14
   },
   "overall": {
-    "items": 647,
+    "items": 652,
     "publishers": 6,
     "positive": 66,
-    "negative": 160,
-    "neutral": 421,
-    "languageIndex": -12.0,
+    "negative": 168,
+    "neutral": 418,
+    "languageIndex": -12.3,
     "label": "Mixed headline language",
-    "sourceConcentration": 66.6,
+    "sourceConcentration": 67.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 197,
+      "items": 189,
       "publishers": 3,
-      "positive": 23,
-      "negative": 19,
-      "neutral": 155,
-      "languageIndex": 2.9,
+      "positive": 22,
+      "negative": 16,
+      "neutral": 151,
+      "languageIndex": 3.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.1,
+      "sourceConcentration": 70.9,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Jensen Huang needs a new playbook for his second innings at Nvidia",
+          "url": "https://www.thehindu.com/sci-tech/technology/jensen-huang-needs-a-new-playbook-for-his-second-innings-at-nvidia/article71745086.ece",
+          "date": "2026-11-26T02:47:13Z",
+          "publisher": "www.thehindu.com"
+        },
         {
           "title": "Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell",
           "url": "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video",
@@ -45,12 +51,6 @@
           "title": "The Debate Over Where Anthropic’s New Millionaires Should Donate Their Money",
           "url": "https://www.bloomberg.com/news/videos/2026-11-25/where-will-anthropic-s-new-millionaires-donate-video",
           "date": "2026-11-25T21:03:11Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Vance Defends Huang’s Nvidia Return, Blames ‘Anonymous Sources’",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/vance-defends-huang-s-nvidia-return-blames-anonymous-sources",
-          "date": "2026-11-25T19:19:55Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -68,9 +68,9 @@
       "title": "Inflation and rates",
       "items": 150,
       "publishers": 5,
-      "positive": 6,
-      "negative": 63,
-      "neutral": 81,
+      "positive": 7,
+      "negative": 64,
+      "neutral": 79,
       "languageIndex": -26.2,
       "label": "Insufficient observations",
       "sourceConcentration": 85.3,
@@ -79,22 +79,22 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
-          "date": "2026-11-25T19:35:50Z",
+          "title": "Zambia Inflation Edges Up on Eve of Interest-Rate Verdict",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/zambia-inflation-edges-up-on-eve-of-interest-rate-verdict",
+          "date": "2026-11-26T08:31:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
-          "date": "2026-11-25T17:30:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "Rwanda Hikes Key Rate for Fourth Time in Row to Cool Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/rwanda-hikes-key-rate-for-fourth-time-in-row-to-cool-inflation",
+          "date": "2026-11-26T08:26:30Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
-          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
-          "date": "2026-11-25T17:09:05Z",
-          "publisher": "www.thehindu.com"
+          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+          "date": "2026-11-26T07:10:15Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 140,
+      "items": 138,
       "publishers": 3,
       "positive": 10,
-      "negative": 49,
-      "neutral": 81,
-      "languageIndex": -36.7,
+      "negative": 48,
+      "neutral": 80,
+      "languageIndex": -36.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.0,
+      "sourceConcentration": 53.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T21:51:17Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia October Inflation Hits One-Year High as War Escalates",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-inflation-hits-one-year-high-in-october-as-war-escalates",
-          "date": "2026-11-25T16:13:15Z",
+          "title": "Ukraine Says It Downed Jet Drone With Laser For First Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/ukraine-says-it-downed-jet-drone-with-laser-for-first-time",
+          "date": "2026-11-26T07:05:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T14:46:41Z",
+          "title": "Desperate appeals from women on death row in Iran after protests",
+          "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-26T06:01:58Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -159,11 +159,17 @@
       "neutral": 62,
       "languageIndex": -0.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.6,
+      "sourceConcentration": 79.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Madagascar Names New Speaker as Parties Realign Before Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/madagascar-names-new-speaker-as-parties-realign-before-election",
+          "date": "2026-11-26T08:05:27Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Porky Ends Peru’s Election Year Nearly Empty-Handed",
           "url": "https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed",
@@ -174,12 +180,6 @@
           "title": "Zelenskyy Eyes New Congress If Trump Can’t Push Putin to Peace",
           "url": "https://www.bloomberg.com/news/videos/2026-11-25/zelenskyy-eyes-congress-if-no-peace-by-end-of-year-video",
           "date": "2026-11-25T20:44:44Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Pentagon Warns of Huge Fees If Congress Fails to Fund Munitions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/pentagon-warns-of-huge-fees-if-congress-fails-to-fund-munitions",
-          "date": "2026-11-25T19:36:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -193,79 +193,36 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "india_flows",
-      "title": "India flows",
-      "items": 33,
-      "publishers": 2,
-      "positive": 16,
-      "negative": 5,
-      "neutral": 12,
-      "languageIndex": 17.2,
+      "id": "trade_policy",
+      "title": "Trade policy",
+      "items": 42,
+      "publishers": 3,
+      "positive": 4,
+      "negative": 31,
+      "neutral": 7,
+      "languageIndex": -38.2,
       "label": "Insufficient observations",
-      "sourceConcentration": 97.0,
+      "sourceConcentration": 81.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
-          "url": "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece",
-          "date": "2026-11-25T13:52:00Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Asia Finds a Surprise Currency Haven in AI-Defying Rupee",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/asia-finds-a-surprise-currency-haven-in-ai-defying-rupee",
-          "date": "2026-11-25T08:30:41Z",
+          "title": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/insight-with-haslinda-amin-11-26-2026-video",
+          "date": "2026-11-26T09:09:16Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Sensex jumps over 2,000 points, Nifty surges to 25,951 on foreign fund inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
-          "date": "2026-11-25T07:24:11Z",
-          "publisher": "www.thehindu.com"
-        }
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "hypothesis": "Emerging tailwind",
-      "potentialUpside": "Liquid large caps and domestic earnings",
-      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
-      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
-      "invalidation": "Two consecutive net-selling fortnights",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "trade_policy",
-      "title": "Trade policy",
-      "items": 32,
-      "publishers": 3,
-      "positive": 4,
-      "negative": 22,
-      "neutral": 6,
-      "languageIndex": -34.7,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T21:51:17Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
-          "date": "2026-11-25T21:03:17Z",
+          "title": "Trump’s Tariffs Blunt Appeal of Moving Production Out of China",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-riles-trade-partners-with-tariffs-that-undercut-china-1",
+          "date": "2026-11-26T08:05:24Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Trump Revives US Tariff Regime",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video",
-          "date": "2026-11-25T20:24:52Z",
+          "title": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/daybreak-europe-11-26-2026-video",
+          "date": "2026-11-26T08:02:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -279,37 +236,80 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "energy_shipping",
-      "title": "Oil and shipping",
-      "items": 27,
-      "publishers": 4,
-      "positive": 5,
-      "negative": 6,
-      "neutral": 16,
-      "languageIndex": -18.8,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 51.9,
-      "coverageSufficient": true,
+      "id": "india_flows",
+      "title": "India flows",
+      "items": 34,
+      "publishers": 2,
+      "positive": 17,
+      "negative": 5,
+      "neutral": 12,
+      "languageIndex": 42.2,
+      "label": "Insufficient observations",
+      "sourceConcentration": 94.1,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T22:18:06Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+          "date": "2026-11-26T07:10:15Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Rupee falls 20 paise to 92.40 against U.S. dollar in early trade",
+          "url": "https://www.thehindu.com/business/markets/rupee-falls-20-paise-to-9240-against-us-dollar-in-early-trade/article71745258.ece",
+          "date": "2026-11-26T05:09:24Z",
+          "publisher": "www.thehindu.com"
         },
         {
           "title": "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
           "url": "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece",
           "date": "2026-11-25T13:52:00Z",
           "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "hypothesis": "Emerging tailwind",
+      "potentialUpside": "Liquid large caps and domestic earnings",
+      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
+      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
+      "invalidation": "Two consecutive net-selling fortnights",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "energy_shipping",
+      "title": "Oil and shipping",
+      "items": 28,
+      "publishers": 4,
+      "positive": 5,
+      "negative": 6,
+      "neutral": 17,
+      "languageIndex": -17.7,
+      "label": "Mostly negative headline language",
+      "sourceConcentration": 46.4,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Qatar Has Boosted LNG Exports to Their Highest Since February",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/qatar-has-boosted-lng-exports-to-their-highest-since-february",
+          "date": "2026-11-26T07:08:15Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Sensex jumps over 2,000 points, Nifty surges to 25,951 on foreign fund inflows, lower crude oil",
-          "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
-          "date": "2026-11-25T07:24:11Z",
-          "publisher": "www.thehindu.com"
+          "title": "Dry Bulk Shipping Rates Climb as Capesize Vessel Supply Tightens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/dry-bulk-shipping-rates-climb-as-capesize-vessel-supply-tightens",
+          "date": "2026-11-26T03:39:18Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T22:18:06Z",
+          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -324,35 +324,35 @@
     {
       "id": "defence_capex",
       "title": "Defense",
-      "items": 14,
+      "items": 15,
       "publishers": 3,
       "positive": 2,
       "negative": 0,
-      "neutral": 12,
-      "languageIndex": 6.7,
+      "neutral": 13,
+      "languageIndex": 6.1,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.4,
+      "sourceConcentration": 73.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Defence Space Agency seeks Indian partners for AI, anti-jamming and space surveillance tech",
+          "url": "https://www.thehindu.com/business/defence-space-agency-seeks-indian-partners-for-ai-anti-jamming-and-space-surveillance-tech/article71745735.ece",
+          "date": "2026-11-26T09:23:56Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Turkey’s Defense Chief to Meet Hegseth to Discuss Russian S-400s",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-s-defense-chief-to-meet-hegseth-to-discuss-russian-s-400s",
+          "date": "2026-11-26T09:00:01Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "SpaceX Sole-Source Deals Targeted in Defense Spending Bill",
           "url": "https://www.bloomberg.com/news/articles/2026-11-25/spacex-sole-source-deals-targeted-in-defense-spending-bill",
           "date": "2026-11-25T17:57:57Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "US Army Orders Weapons Storage Review Ahead of Iowa Explosion",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-army-orders-weapons-storage-review-ahead-of-iowa-explosion",
-          "date": "2026-11-24T17:41:34Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-24T10:58:51Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -367,12 +367,12 @@
     {
       "id": "healthcare",
       "title": "Hospital sector",
-      "items": 10,
+      "items": 8,
       "publishers": 4,
       "positive": 0,
       "negative": 1,
-      "neutral": 9,
-      "languageIndex": -5.0,
+      "neutral": 7,
+      "languageIndex": -6.2,
       "label": "Mixed headline language",
       "sourceConcentration": 50.0,
       "coverageSufficient": true,
@@ -651,9 +651,9 @@
       "title": "Inflation and rates",
       "items": 150,
       "publishers": 5,
-      "positive": 6,
-      "negative": 63,
-      "neutral": 81,
+      "positive": 7,
+      "negative": 64,
+      "neutral": 79,
       "languageIndex": -26.2,
       "label": "Insufficient observations",
       "sourceConcentration": 85.3,
@@ -662,22 +662,22 @@
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
-          "date": "2026-11-25T19:35:50Z",
+          "title": "Zambia Inflation Edges Up on Eve of Interest-Rate Verdict",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/zambia-inflation-edges-up-on-eve-of-interest-rate-verdict",
+          "date": "2026-11-26T08:31:19Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
-          "date": "2026-11-25T17:30:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "Rwanda Hikes Key Rate for Fourth Time in Row to Cool Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/rwanda-hikes-key-rate-for-fourth-time-in-row-to-cool-inflation",
+          "date": "2026-11-26T08:26:30Z",
+          "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
-          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
-          "date": "2026-11-25T17:09:05Z",
-          "publisher": "www.thehindu.com"
+          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+          "date": "2026-11-26T07:10:15Z",
+          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -692,34 +692,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 140,
+      "items": 138,
       "publishers": 3,
       "positive": 10,
-      "negative": 49,
-      "neutral": 81,
-      "languageIndex": -36.7,
+      "negative": 48,
+      "neutral": 80,
+      "languageIndex": -36.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.0,
+      "sourceConcentration": 53.6,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T21:51:17Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia October Inflation Hits One-Year High as War Escalates",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-inflation-hits-one-year-high-in-october-as-war-escalates",
-          "date": "2026-11-25T16:13:15Z",
+          "title": "Ukraine Says It Downed Jet Drone With Laser For First Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/ukraine-says-it-downed-jet-drone-with-laser-for-first-time",
+          "date": "2026-11-26T07:05:20Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T14:46:41Z",
+          "title": "Desperate appeals from women on death row in Iran after protests",
+          "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-26T06:01:58Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "North Korea expels Swiss diplomat in sanctions row",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-25T21:51:17Z",
           "publisher": "www.bbc.co.uk"
         }
       ],
@@ -742,11 +742,17 @@
       "neutral": 62,
       "languageIndex": -0.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.6,
+      "sourceConcentration": 79.1,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Madagascar Names New Speaker as Parties Realign Before Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/madagascar-names-new-speaker-as-parties-realign-before-election",
+          "date": "2026-11-26T08:05:27Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Porky Ends Peru’s Election Year Nearly Empty-Handed",
           "url": "https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed",
@@ -757,12 +763,6 @@
           "title": "Zelenskyy Eyes New Congress If Trump Can’t Push Putin to Peace",
           "url": "https://www.bloomberg.com/news/videos/2026-11-25/zelenskyy-eyes-congress-if-no-peace-by-end-of-year-video",
           "date": "2026-11-25T20:44:44Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Pentagon Warns of Huge Fees If Congress Fails to Fund Munitions",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/pentagon-warns-of-huge-fees-if-congress-fails-to-fund-munitions",
-          "date": "2026-11-25T19:36:24Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -778,34 +778,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 32,
+      "items": 42,
       "publishers": 3,
       "positive": 4,
-      "negative": 22,
-      "neutral": 6,
-      "languageIndex": -34.7,
-      "label": "Mostly negative headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
+      "negative": 31,
+      "neutral": 7,
+      "languageIndex": -38.2,
+      "label": "Insufficient observations",
+      "sourceConcentration": 81.0,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-25T21:51:17Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "US Tariff Proposal Raises Stakes for India to Clinch Trade Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
-          "date": "2026-11-25T21:03:17Z",
+          "title": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/insight-with-haslinda-amin-11-26-2026-video",
+          "date": "2026-11-26T09:09:16Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Trump Revives US Tariff Regime",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video",
-          "date": "2026-11-25T20:24:52Z",
+          "title": "Trump’s Tariffs Blunt Appeal of Moving Production Out of China",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-riles-trade-partners-with-tariffs-that-undercut-china-1",
+          "date": "2026-11-26T08:05:24Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/daybreak-europe-11-26-2026-video",
+          "date": "2026-11-26T08:02:48Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -950,19 +950,19 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 431
+      "stories": 438
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 111
+      "stories": 108
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 83
+      "stories": 82
     },
     {
       "publisher": "news.un.org",
-      "stories": 17
+      "stories": 19
     },
     {
       "publisher": "www.ecb.europa.eu",
@@ -974,8 +974,8 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 34,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 35,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
