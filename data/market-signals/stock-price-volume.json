@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T09:50:16.918134+00:00",
-  "asOf": "2026-11-25",
+  "generatedAt": "2026-11-26T22:30:05.167365+00:00",
+  "asOf": "2026-11-26",
   "status": "ready",
   "method": "Deterministic daily OHLCV: 20/50/200 session averages, 20/55-session breakout/breakdown with relative volume, Chaikin Money Flow 20, OBV proxy, 200-session trend reclaims, RSI 14 and observed return windows.",
   "sourceNotice": "Public Yahoo Finance historical chart endpoint, unofficial; market data/licensing/continuity and split adjustment must be checked before live investment use.",
@@ -17,33 +17,33 @@
       "name": "Yatharth Hospital",
       "sector": "Hospitals",
       "primaryResearch": true,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 1080.8,
-      "lastVolume": 425168,
+      "lastClose": 1079.45,
+      "lastVolume": 175501,
       "indicators": {
-        "sma20": 1033.8,
-        "sma50": 1029.87,
-        "sma200": 853.28,
-        "rsi14": 65.73,
-        "volumeRatio20": 1.43,
-        "cmf20": 0.044,
-        "obv20Scaled": 0.309,
-        "closeLocation": 0.102,
-        "averageTurnover20Inr": 315732975.09,
-        "return20dPct": 13.33,
-        "return60dPct": 11.07,
-        "return120dPct": 33.35,
-        "distance52wHighPct": -8.72,
-        "ma50SlopeSessionPct": 0.2016,
-        "prior20High": 1129.55,
+        "sma20": 1040.5,
+        "sma50": 1032.13,
+        "sma200": 855.63,
+        "rsi14": 65.45,
+        "volumeRatio20": 0.57,
+        "cmf20": 0.058,
+        "obv20Scaled": 0.312,
+        "closeLocation": 0.548,
+        "averageTurnover20Inr": 313515371.74,
+        "return20dPct": 14.17,
+        "return60dPct": 11.58,
+        "return120dPct": 33.64,
+        "distance52wHighPct": -8.83,
+        "ma50SlopeSessionPct": 0.2197,
+        "prior20High": 1138.7,
         "prior55High": 1184.0,
         "prior55Low": 891.0,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 5.163
+        "longAverageSlope20dPct": 5.291
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -56,14 +56,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 809.05,
-          "high": 820.0,
-          "low": 802.75,
-          "close": 807.7,
-          "volume": 136772
-        },
         {
           "date": "2026-06-05",
           "open": 810.0,
@@ -1015,6 +1007,14 @@
           "low": 1074.2,
           "close": 1080.8,
           "volume": 425168
+        },
+        {
+          "date": "2026-11-26",
+          "open": 1084.0,
+          "high": 1099.55,
+          "low": 1055.05,
+          "close": 1079.45,
+          "volume": 175501
         }
       ]
     },
@@ -1023,33 +1023,33 @@
       "name": "Narayana Hrudayalaya",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 2003.7,
-      "lastVolume": 507331,
+      "lastClose": 1982.2,
+      "lastVolume": 180644,
       "indicators": {
-        "sma20": 1874.02,
-        "sma50": 1815.08,
-        "sma200": 1843.57,
-        "rsi14": 60.07,
-        "volumeRatio20": 2.52,
-        "cmf20": 0.126,
-        "obv20Scaled": 0.665,
-        "closeLocation": 0.137,
-        "averageTurnover20Inr": 421777633.47,
-        "return20dPct": 16.96,
-        "return60dPct": 5.25,
-        "return120dPct": 1.17,
-        "distance52wHighPct": -4.26,
-        "ma50SlopeSessionPct": 0.1037,
-        "prior20High": 1992.0,
-        "prior55High": 1992.0,
+        "sma20": 1886.97,
+        "sma50": 1817.34,
+        "sma200": 1844.71,
+        "rsi14": 59.16,
+        "volumeRatio20": 0.81,
+        "cmf20": 0.088,
+        "obv20Scaled": 0.54,
+        "closeLocation": 0.16,
+        "averageTurnover20Inr": 431264692.21,
+        "return20dPct": 15.04,
+        "return60dPct": 2.59,
+        "return120dPct": 1.69,
+        "distance52wHighPct": -5.29,
+        "ma50SlopeSessionPct": 0.1245,
+        "prior20High": 2068.0,
+        "prior55High": 2068.0,
         "prior55Low": 1622.8,
         "breakoutCountLast15": 2,
-        "longAverageSlope20dPct": 0.193
+        "longAverageSlope20dPct": 0.303
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -1062,14 +1062,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 1981.0,
-          "high": 2002.3,
-          "low": 1941.0,
-          "close": 1949.2,
-          "volume": 366512
-        },
         {
           "date": "2026-06-05",
           "open": 1934.3,
@@ -2021,6 +2013,14 @@
           "low": 1993.5,
           "close": 2003.7,
           "volume": 507331
+        },
+        {
+          "date": "2026-11-26",
+          "open": 2003.7,
+          "high": 2024.8,
+          "low": 1974.1,
+          "close": 1982.2,
+          "volume": 180644
         }
       ]
     },
@@ -2029,33 +2029,33 @@
       "name": "Max Healthcare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 1076.3,
-      "lastVolume": 6110141,
+      "lastClose": 1081.25,
+      "lastVolume": 2068014,
       "indicators": {
-        "sma20": 957.5,
-        "sma50": 943.1,
-        "sma200": 1012.01,
-        "rsi14": 82.46,
-        "volumeRatio20": 1.42,
-        "cmf20": 0.31,
-        "obv20Scaled": 0.678,
-        "closeLocation": 0.248,
-        "averageTurnover20Inr": 4241831131.36,
-        "return20dPct": 27.37,
-        "return60dPct": 6.67,
-        "return120dPct": 11.47,
-        "distance52wHighPct": -9.2,
-        "ma50SlopeSessionPct": 0.08,
+        "sma20": 968.98,
+        "sma50": 943.97,
+        "sma200": 1012.4,
+        "rsi14": 82.47,
+        "volumeRatio20": 0.47,
+        "cmf20": 0.281,
+        "obv20Scaled": 0.606,
+        "closeLocation": 0.706,
+        "averageTurnover20Inr": 4048090117.01,
+        "return20dPct": 26.98,
+        "return60dPct": 6.62,
+        "return120dPct": 11.91,
+        "distance52wHighPct": -8.79,
+        "ma50SlopeSessionPct": 0.0924,
         "prior20High": 1102.1,
         "prior55High": 1102.1,
         "prior55Low": 797.0,
         "breakoutCountLast15": 3,
-        "longAverageSlope20dPct": -0.455
+        "longAverageSlope20dPct": -0.319
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [
@@ -2063,7 +2063,7 @@
           "id": "short_breakout_long_average_falling",
           "priority": "watch",
           "headline": "Short-term price leadership while the 200-DMA still slopes down",
-          "evidence": "3 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.46%.",
+          "evidence": "3 volume-backed 20-session breaks; 200-DMA slope over ~20 sessions -0.32%.",
           "confirmation": "Several closes above 200-DMA and a turn in its slope, with earnings and sector breadth support.",
           "invalidation": "Break below 200-DMA or momentum/volume fade.",
           "horizon": "short_long_conflict",
@@ -2079,14 +2079,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 965.0,
-          "high": 969.3,
-          "low": 953.1,
-          "close": 966.2,
-          "volume": 1513891
-        },
         {
           "date": "2026-06-05",
           "open": 977.1,
@@ -3038,6 +3030,14 @@
           "low": 1068.6,
           "close": 1076.3,
           "volume": 6110141
+        },
+        {
+          "date": "2026-11-26",
+          "open": 1076.3,
+          "high": 1090.0,
+          "low": 1060.2,
+          "close": 1081.25,
+          "volume": 2068014
         }
       ]
     },
@@ -3046,33 +3046,33 @@
       "name": "Apollo Hospitals",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 9300.0,
-      "lastVolume": 619610,
+      "lastClose": 9222.5,
+      "lastVolume": 209558,
       "indicators": {
-        "sma20": 8626.23,
-        "sma50": 8398.51,
-        "sma200": 8235.83,
-        "rsi14": 71.22,
-        "volumeRatio20": 1.08,
-        "cmf20": 0.314,
-        "obv20Scaled": 0.495,
-        "closeLocation": 0.679,
-        "averageTurnover20Inr": 5017984882.18,
-        "return20dPct": 19.36,
-        "return60dPct": 5.68,
-        "return120dPct": 12.18,
-        "distance52wHighPct": -1.17,
-        "ma50SlopeSessionPct": 0.0953,
+        "sma20": 8680.5,
+        "sma50": 8406.24,
+        "sma200": 8246.5,
+        "rsi14": 78.39,
+        "volumeRatio20": 0.36,
+        "cmf20": 0.251,
+        "obv20Scaled": 0.405,
+        "closeLocation": 0.149,
+        "averageTurnover20Inr": 4803796120.43,
+        "return20dPct": 13.34,
+        "return60dPct": 4.34,
+        "return120dPct": 11.8,
+        "distance52wHighPct": -1.99,
+        "ma50SlopeSessionPct": 0.092,
         "prior20High": 9410.0,
         "prior55High": 9410.0,
         "prior55Low": 7465.0,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 1.928
+        "longAverageSlope20dPct": 1.993
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -3085,14 +3085,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 8270.0,
-          "high": 8301.5,
-          "low": 8225.0,
-          "close": 8249.0,
-          "volume": 345278
-        },
         {
           "date": "2026-06-05",
           "open": 8265.0,
@@ -4044,6 +4036,14 @@
           "low": 9186.0,
           "close": 9300.0,
           "volume": 619610
+        },
+        {
+          "date": "2026-11-26",
+          "open": 9288.0,
+          "high": 9288.0,
+          "low": 9211.0,
+          "close": 9222.5,
+          "volume": 209558
         }
       ]
     },
@@ -4052,33 +4052,33 @@
       "name": "Rainbow Children's Medicare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 1258.3,
-      "lastVolume": 79760,
+      "lastClose": 1260.8,
+      "lastVolume": 174518,
       "indicators": {
-        "sma20": 1255.53,
-        "sma50": 1288.31,
-        "sma200": 1324.6,
-        "rsi14": 43.9,
-        "volumeRatio20": 0.53,
-        "cmf20": -0.188,
-        "obv20Scaled": 0.293,
-        "closeLocation": 0.118,
-        "averageTurnover20Inr": 184651435.17,
-        "return20dPct": 5.02,
-        "return60dPct": -12.68,
-        "return120dPct": -7.08,
-        "distance52wHighPct": -21.84,
-        "ma50SlopeSessionPct": -0.3123,
+        "sma20": 1258.33,
+        "sma50": 1284.63,
+        "sma200": 1325.33,
+        "rsi14": 49.62,
+        "volumeRatio20": 1.19,
+        "cmf20": -0.199,
+        "obv20Scaled": 0.335,
+        "closeLocation": 0.305,
+        "averageTurnover20Inr": 191774919.17,
+        "return20dPct": 4.65,
+        "return60dPct": -12.61,
+        "return120dPct": -6.4,
+        "distance52wHighPct": -21.69,
+        "ma50SlopeSessionPct": -0.2858,
         "prior20High": 1308.4,
         "prior55High": 1505.0,
         "prior55Low": 1151.9,
         "breakoutCountLast15": 0,
-        "longAverageSlope20dPct": 0.222
+        "longAverageSlope20dPct": 0.319
       },
       "trend": "Below 50/200 DMA",
       "signals": [],
@@ -4091,14 +4091,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 1359.0,
-          "high": 1361.0,
-          "low": 1337.0,
-          "close": 1347.0,
-          "volume": 102088
-        },
         {
           "date": "2026-06-05",
           "open": 1356.9,
@@ -5050,6 +5042,14 @@
           "low": 1254.4,
           "close": 1258.3,
           "volume": 79760
+        },
+        {
+          "date": "2026-11-26",
+          "open": 1263.0,
+          "high": 1278.6,
+          "low": 1253.0,
+          "close": 1260.8,
+          "volume": 174518
         }
       ]
     },
@@ -5058,33 +5058,33 @@
       "name": "Global Health / Medanta",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 1528.5,
-      "lastVolume": 205087,
+      "lastClose": 1511.5,
+      "lastVolume": 129873,
       "indicators": {
-        "sma20": 1405.27,
-        "sma50": 1371.82,
-        "sma200": 1270.92,
-        "rsi14": 79.93,
-        "volumeRatio20": 0.67,
-        "cmf20": 0.243,
-        "obv20Scaled": 0.774,
-        "closeLocation": 0.729,
-        "averageTurnover20Inr": 433312240.87,
-        "return20dPct": 21.25,
-        "return60dPct": 1.3,
-        "return120dPct": 27.24,
-        "distance52wHighPct": -1.0,
-        "ma50SlopeSessionPct": 0.1006,
+        "sma20": 1416.7,
+        "sma50": 1373.11,
+        "sma200": 1272.91,
+        "rsi14": 78.19,
+        "volumeRatio20": 0.42,
+        "cmf20": 0.229,
+        "obv20Scaled": 0.724,
+        "closeLocation": 0.434,
+        "averageTurnover20Inr": 434774742.09,
+        "return20dPct": 17.81,
+        "return60dPct": 2.67,
+        "return120dPct": 22.71,
+        "distance52wHighPct": -2.1,
+        "ma50SlopeSessionPct": 0.0937,
         "prior20High": 1536.0,
         "prior55High": 1536.0,
         "prior55Low": 1165.0,
-        "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": 2.254
+        "breakoutCountLast15": 0,
+        "longAverageSlope20dPct": 2.395
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -5097,14 +5097,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 1188.6,
-          "high": 1235.8,
-          "low": 1188.6,
-          "close": 1231.8,
-          "volume": 140246
-        },
         {
           "date": "2026-06-05",
           "open": 1231.9,
@@ -6056,6 +6048,14 @@
           "low": 1508.3,
           "close": 1528.5,
           "volume": 205087
+        },
+        {
+          "date": "2026-11-26",
+          "open": 1537.0,
+          "high": 1543.4,
+          "low": 1487.0,
+          "close": 1511.5,
+          "volume": 129873
         }
       ]
     },
@@ -6064,33 +6064,33 @@
       "name": "Fortis Healthcare",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 826.0,
-      "lastVolume": 1096425,
+      "lastClose": 825.9,
+      "lastVolume": 956114,
       "indicators": {
-        "sma20": 786.23,
-        "sma50": 794.44,
-        "sma200": 889.39,
-        "rsi14": 57.73,
-        "volumeRatio20": 0.75,
-        "cmf20": 0.259,
-        "obv20Scaled": 0.269,
-        "closeLocation": 0.617,
-        "averageTurnover20Inr": 1101610489.21,
-        "return20dPct": 12.15,
-        "return60dPct": -9.79,
-        "return120dPct": -11.21,
-        "distance52wHighPct": -18.23,
-        "ma50SlopeSessionPct": -0.1921,
-        "prior20High": 830.75,
-        "prior55High": 920.0,
+        "sma20": 789.55,
+        "sma50": 793.2,
+        "sma200": 889.2,
+        "rsi14": 51.53,
+        "volumeRatio20": 0.68,
+        "cmf20": 0.23,
+        "obv20Scaled": 0.197,
+        "closeLocation": 0.631,
+        "averageTurnover20Inr": 1086238481.24,
+        "return20dPct": 8.74,
+        "return60dPct": -10.88,
+        "return120dPct": -12.2,
+        "distance52wHighPct": -18.24,
+        "ma50SlopeSessionPct": -0.1558,
+        "prior20High": 832.5,
+        "prior55High": 918.4,
         "prior55Low": 704.95,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -1.021
+        "longAverageSlope20dPct": -0.956
       },
       "trend": "Mixed",
       "signals": [],
@@ -6103,14 +6103,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 929.0,
-          "high": 948.65,
-          "low": 923.6,
-          "close": 940.65,
-          "volume": 1219138
-        },
         {
           "date": "2026-06-05",
           "open": 946.5,
@@ -7062,6 +7054,14 @@
           "low": 815.55,
           "close": 826.0,
           "volume": 1096425
+        },
+        {
+          "date": "2026-11-26",
+          "open": 830.8,
+          "high": 831.8,
+          "low": 815.8,
+          "close": 825.9,
+          "volume": 956114
         }
       ]
     },
@@ -7070,33 +7070,33 @@
       "name": "Jupiter Life Line Hospitals",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 307.75,
-      "lastVolume": 14833898,
+      "lastClose": 298.0,
+      "lastVolume": 856077,
       "indicators": {
-        "sma20": 283.55,
-        "sma50": 268.61,
-        "sma200": 876.94,
-        "rsi14": 63.64,
-        "volumeRatio20": 13.12,
-        "cmf20": 0.167,
-        "obv20Scaled": 1.391,
-        "closeLocation": 0.418,
-        "averageTurnover20Inr": 578938738.86,
-        "return20dPct": 20.14,
-        "return60dPct": 0.1,
-        "return120dPct": -76.67,
-        "distance52wHighPct": -80.74,
-        "ma50SlopeSessionPct": 0.1996,
+        "sma20": 285.61,
+        "sma50": 268.98,
+        "sma200": 872.14,
+        "rsi14": 55.39,
+        "volumeRatio20": 0.46,
+        "cmf20": 0.147,
+        "obv20Scaled": 0.821,
+        "closeLocation": 0.14,
+        "averageTurnover20Inr": 591200774.15,
+        "return20dPct": 16.07,
+        "return60dPct": -1.13,
+        "return120dPct": -77.34,
+        "distance52wHighPct": -81.35,
+        "ma50SlopeSessionPct": 0.1404,
         "prior20High": 329.7,
         "prior55High": 329.7,
         "prior55Low": 233.4,
         "breakoutCountLast15": 1,
-        "longAverageSlope20dPct": -10.709
+        "longAverageSlope20dPct": -10.679
       },
       "trend": "Mixed",
       "signals": [],
@@ -7109,14 +7109,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 1325.0,
-          "high": 1331.1,
-          "low": 1306.1,
-          "close": 1315.2,
-          "volume": 8148
-        },
         {
           "date": "2026-06-05",
           "open": 1308.7,
@@ -8068,6 +8060,14 @@
           "low": 292.5,
           "close": 307.75,
           "volume": 14833898
+        },
+        {
+          "date": "2026-11-26",
+          "open": 305.5,
+          "high": 310.3,
+          "low": 296.0,
+          "close": 298.0,
+          "volume": 856077
         }
       ]
     },
@@ -8076,33 +8076,33 @@
       "name": "Krishna Institute of Medical Sciences",
       "sector": "Hospitals",
       "primaryResearch": false,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "dataStatus": "ready",
       "source": "TejHQ public NSE bhavcopy-derived OHLCV (verify exchange; keyless third-party API)",
       "sourceUrl": "https://tejhq.dev/docs",
       "observations": 381,
-      "lastClose": 788.95,
-      "lastVolume": 797468,
+      "lastClose": 781.95,
+      "lastVolume": 324068,
       "indicators": {
-        "sma20": 741.58,
-        "sma50": 734.65,
-        "sma200": 737.17,
-        "rsi14": 67.1,
-        "volumeRatio20": 1.84,
-        "cmf20": 0.165,
-        "obv20Scaled": 0.127,
-        "closeLocation": 0.203,
-        "averageTurnover20Inr": 337872442.29,
-        "return20dPct": 13.09,
-        "return60dPct": 2.67,
-        "return120dPct": 6.98,
-        "distance52wHighPct": -8.05,
-        "ma50SlopeSessionPct": 0.044,
-        "prior20High": 801.85,
+        "sma20": 745.44,
+        "sma50": 734.91,
+        "sma200": 738.0,
+        "rsi14": 68.31,
+        "volumeRatio20": 0.72,
+        "cmf20": 0.147,
+        "obv20Scaled": 0.036,
+        "closeLocation": 0.584,
+        "averageTurnover20Inr": 334861289.47,
+        "return20dPct": 10.98,
+        "return60dPct": 1.42,
+        "return120dPct": 2.23,
+        "distance52wHighPct": -8.86,
+        "ma50SlopeSessionPct": 0.0354,
+        "prior20High": 807.85,
         "prior55High": 819.0,
         "prior55Low": 655.05,
         "breakoutCountLast15": 2,
-        "longAverageSlope20dPct": 1.781
+        "longAverageSlope20dPct": 1.859
       },
       "trend": "Above 20/50/200 DMA",
       "signals": [],
@@ -8115,14 +8115,6 @@
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
       "recentBars": [
-        {
-          "date": "2026-06-04",
-          "open": 735.3,
-          "high": 770.8,
-          "low": 725.4,
-          "close": 764.9,
-          "volume": 728695
-        },
         {
           "date": "2026-06-05",
           "open": 769.5,
@@ -9074,6 +9066,14 @@
           "low": 784.15,
           "close": 788.95,
           "volume": 797468
+        },
+        {
+          "date": "2026-11-26",
+          "open": 785.0,
+          "high": 788.65,
+          "low": 772.55,
+          "close": 781.95,
+          "volume": 324068
         }
       ]
     },
@@ -9116,7 +9116,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -10133,7 +10133,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -11160,7 +11160,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -12166,7 +12166,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -13172,7 +13172,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -14178,7 +14178,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -15195,7 +15195,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -16201,7 +16201,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -17207,7 +17207,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -18213,7 +18213,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -19219,7 +19219,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -20225,7 +20225,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },
@@ -21231,7 +21231,7 @@
       "dataQuality": {
         "majorSplitInRecent60Sessions": false,
         "unusuallyLargePriceGapRecent30Sessions": false,
-        "tradingSessionsSinceLastBar": 1,
+        "tradingSessionsSinceLastBar": 2,
         "signalsWithheld": false,
         "warning": "Split-adjustment and exchange-verified delivery data not independently audited. Price-volume patterns are not investment instructions."
       },

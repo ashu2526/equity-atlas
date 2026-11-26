@@ -2,6 +2,500 @@
   "schema": 1,
   "snapshots": [
     {
+      "asOf": "2026-11-26T22:30:03.809488+00:00",
+      "marketCount": 80,
+      "categories": {
+        "Central banks / rates": 9,
+        "Elections / policy": 45,
+        "War / geopolitics": 15,
+        "Energy / commodities": 2,
+        "Technology / AI": 9,
+        "Global liquidity / systemic risk": 0
+      },
+      "odds": [
+        {
+          "id": "3580932",
+          "yes": 0.625,
+          "category": "Elections / policy",
+          "volume24hUsd": 401580.59
+        },
+        {
+          "id": "3580933",
+          "yes": 0.3895,
+          "category": "Elections / policy",
+          "volume24hUsd": 368261.15
+        },
+        {
+          "id": "3215008",
+          "yes": 0.935,
+          "category": "Central banks / rates",
+          "volume24hUsd": 268966.99
+        },
+        {
+          "id": "3215009",
+          "yes": 0.0215,
+          "category": "Central banks / rates",
+          "volume24hUsd": 263078.12
+        },
+        {
+          "id": "3902370",
+          "yes": 0.945,
+          "category": "War / geopolitics",
+          "volume24hUsd": 189288.37
+        },
+        {
+          "id": "3215007",
+          "yes": 0.038,
+          "category": "Central banks / rates",
+          "volume24hUsd": 185972.18
+        },
+        {
+          "id": "3580994",
+          "yes": 0.39,
+          "category": "Elections / policy",
+          "volume24hUsd": 165167.31
+        },
+        {
+          "id": "7287078",
+          "yes": 0.17,
+          "category": "Technology / AI",
+          "volume24hUsd": 161022.12
+        },
+        {
+          "id": "2695678",
+          "yes": 0.0955,
+          "category": "Elections / policy",
+          "volume24hUsd": 147270.99
+        },
+        {
+          "id": "2695686",
+          "yes": 0.905,
+          "category": "Elections / policy",
+          "volume24hUsd": 137177.09
+        },
+        {
+          "id": "3580995",
+          "yes": 0.605,
+          "category": "Elections / policy",
+          "volume24hUsd": 132907.97
+        },
+        {
+          "id": "1193094",
+          "yes": 0.115,
+          "category": "Elections / policy",
+          "volume24hUsd": 114794.98
+        },
+        {
+          "id": "560317",
+          "yes": 0.013,
+          "category": "Elections / policy",
+          "volume24hUsd": 98864.46
+        },
+        {
+          "id": "6994508",
+          "yes": 0.955,
+          "category": "Elections / policy",
+          "volume24hUsd": 94309.24
+        },
+        {
+          "id": "679018",
+          "yes": 0.4445,
+          "category": "Elections / policy",
+          "volume24hUsd": 93194.94
+        },
+        {
+          "id": "679030",
+          "yes": 0.145,
+          "category": "Elections / policy",
+          "volume24hUsd": 90802.29
+        },
+        {
+          "id": "5336560",
+          "yes": 0.265,
+          "category": "Elections / policy",
+          "volume24hUsd": 87503.42
+        },
+        {
+          "id": "1193093",
+          "yes": 0.8575,
+          "category": "Elections / policy",
+          "volume24hUsd": 86936.94
+        },
+        {
+          "id": "679022",
+          "yes": 0.2335,
+          "category": "Elections / policy",
+          "volume24hUsd": 80778.11
+        },
+        {
+          "id": "3581450",
+          "yes": 0.805,
+          "category": "Elections / policy",
+          "volume24hUsd": 62931.86
+        },
+        {
+          "id": "5336561",
+          "yes": 0.745,
+          "category": "Elections / policy",
+          "volume24hUsd": 55113.57
+        },
+        {
+          "id": "2735522",
+          "yes": 0.92,
+          "category": "Elections / policy",
+          "volume24hUsd": 53789.07
+        },
+        {
+          "id": "665374",
+          "yes": 0.055,
+          "category": "War / geopolitics",
+          "volume24hUsd": 53376.5
+        },
+        {
+          "id": "4662693",
+          "yes": 0.085,
+          "category": "Technology / AI",
+          "volume24hUsd": 45140.88
+        },
+        {
+          "id": "1535973",
+          "yes": 0.055,
+          "category": "War / geopolitics",
+          "volume24hUsd": 43833.21
+        },
+        {
+          "id": "6976265",
+          "yes": 0.107,
+          "category": "Elections / policy",
+          "volume24hUsd": 42516.33
+        },
+        {
+          "id": "6617887",
+          "yes": 0.165,
+          "category": "Elections / policy",
+          "volume24hUsd": 40984.43
+        },
+        {
+          "id": "3215010",
+          "yes": 0.014,
+          "category": "Central banks / rates",
+          "volume24hUsd": 38251.42
+        },
+        {
+          "id": "559656",
+          "yes": 0.0205,
+          "category": "Elections / policy",
+          "volume24hUsd": 34860.7
+        },
+        {
+          "id": "6975336",
+          "yes": 0.115,
+          "category": "Central banks / rates",
+          "volume24hUsd": 33592.57
+        },
+        {
+          "id": "665484",
+          "yes": 0.0235,
+          "category": "War / geopolitics",
+          "volume24hUsd": 31919.78
+        },
+        {
+          "id": "561979",
+          "yes": 0.1505,
+          "category": "Elections / policy",
+          "volume24hUsd": 30519.74
+        },
+        {
+          "id": "3215013",
+          "yes": 0.535,
+          "category": "Central banks / rates",
+          "volume24hUsd": 30408.86
+        },
+        {
+          "id": "3581449",
+          "yes": 0.1845,
+          "category": "Elections / policy",
+          "volume24hUsd": 29801.03
+        },
+        {
+          "id": "3215012",
+          "yes": 0.425,
+          "category": "Central banks / rates",
+          "volume24hUsd": 27314.68
+        },
+        {
+          "id": "561246",
+          "yes": 0.0405,
+          "category": "Elections / policy",
+          "volume24hUsd": 26989.37
+        },
+        {
+          "id": "691340",
+          "yes": 0.1705,
+          "category": "Technology / AI",
+          "volume24hUsd": 25161.23
+        },
+        {
+          "id": "559684",
+          "yes": 0.008,
+          "category": "Elections / policy",
+          "volume24hUsd": 23750.93
+        },
+        {
+          "id": "6831495",
+          "yes": 0.615,
+          "category": "War / geopolitics",
+          "volume24hUsd": 23730.45
+        },
+        {
+          "id": "3581418",
+          "yes": 0.0815,
+          "category": "Elections / policy",
+          "volume24hUsd": 23294.1
+        },
+        {
+          "id": "561974",
+          "yes": 0.3215,
+          "category": "Elections / policy",
+          "volume24hUsd": 22804.98
+        },
+        {
+          "id": "2757902",
+          "yes": 0.054,
+          "category": "Elections / policy",
+          "volume24hUsd": 21473.42
+        },
+        {
+          "id": "3581389",
+          "yes": 0.2005,
+          "category": "Elections / policy",
+          "volume24hUsd": 21341.89
+        },
+        {
+          "id": "1345233",
+          "yes": 0.19,
+          "category": "Technology / AI",
+          "volume24hUsd": 21192.66
+        },
+        {
+          "id": "6588820",
+          "yes": 0.017,
+          "category": "Energy / commodities",
+          "volume24hUsd": 20484.83
+        },
+        {
+          "id": "561975",
+          "yes": 0.2075,
+          "category": "Elections / policy",
+          "volume24hUsd": 19571.15
+        },
+        {
+          "id": "1194695",
+          "yes": 0.0245,
+          "category": "War / geopolitics",
+          "volume24hUsd": 19552.24
+        },
+        {
+          "id": "559661",
+          "yes": 0.2325,
+          "category": "Elections / policy",
+          "volume24hUsd": 18733.65
+        },
+        {
+          "id": "2126461",
+          "yes": 0.022,
+          "category": "Energy / commodities",
+          "volume24hUsd": 17816.27
+        },
+        {
+          "id": "561232",
+          "yes": 0.0325,
+          "category": "Elections / policy",
+          "volume24hUsd": 17335.73
+        },
+        {
+          "id": "7183000",
+          "yes": 0.7195,
+          "category": "War / geopolitics",
+          "volume24hUsd": 17081.83
+        },
+        {
+          "id": "4338136",
+          "yes": 0.545,
+          "category": "War / geopolitics",
+          "volume24hUsd": 16338.3
+        },
+        {
+          "id": "2822017",
+          "yes": 0.085,
+          "category": "Elections / policy",
+          "volume24hUsd": 15976.67
+        },
+        {
+          "id": "7360799",
+          "yes": 0.495,
+          "category": "Technology / AI",
+          "volume24hUsd": 15635.63
+        },
+        {
+          "id": "2757901",
+          "yes": 0.64,
+          "category": "Elections / policy",
+          "volume24hUsd": 14917.4
+        },
+        {
+          "id": "561239",
+          "yes": 0.0285,
+          "category": "Elections / policy",
+          "volume24hUsd": 14865.01
+        },
+        {
+          "id": "1469737",
+          "yes": 0.948,
+          "category": "War / geopolitics",
+          "volume24hUsd": 14428.23
+        },
+        {
+          "id": "6281141",
+          "yes": 0.023,
+          "category": "War / geopolitics",
+          "volume24hUsd": 13852.44
+        },
+        {
+          "id": "3581388",
+          "yes": 0.805,
+          "category": "Elections / policy",
+          "volume24hUsd": 13012.71
+        },
+        {
+          "id": "6976235",
+          "yes": 0.054,
+          "category": "Elections / policy",
+          "volume24hUsd": 12918.74
+        },
+        {
+          "id": "2176270",
+          "yes": 0.0295,
+          "category": "War / geopolitics",
+          "volume24hUsd": 12895.12
+        },
+        {
+          "id": "6947942",
+          "yes": 0.0165,
+          "category": "War / geopolitics",
+          "volume24hUsd": 12166.17
+        },
+        {
+          "id": "3581101",
+          "yes": 0.915,
+          "category": "Elections / policy",
+          "volume24hUsd": 11723.36
+        },
+        {
+          "id": "567621",
+          "yes": 0.0145,
+          "category": "War / geopolitics",
+          "volume24hUsd": 11651.69
+        },
+        {
+          "id": "4412298",
+          "yes": 0.633,
+          "category": "Technology / AI",
+          "volume24hUsd": 11196.79
+        },
+        {
+          "id": "6976743",
+          "yes": 0.285,
+          "category": "Technology / AI",
+          "volume24hUsd": 11127.91
+        },
+        {
+          "id": "2431413",
+          "yes": 0.215,
+          "category": "Technology / AI",
+          "volume24hUsd": 11026.01
+        },
+        {
+          "id": "6994511",
+          "yes": 0.955,
+          "category": "Elections / policy",
+          "volume24hUsd": 10902.14
+        },
+        {
+          "id": "3740634",
+          "yes": 0.9875,
+          "category": "Elections / policy",
+          "volume24hUsd": 10796.74
+        },
+        {
+          "id": "2299960",
+          "yes": 0.3245,
+          "category": "Technology / AI",
+          "volume24hUsd": 10244.96
+        },
+        {
+          "id": "6975335",
+          "yes": 0.055,
+          "category": "Central banks / rates",
+          "volume24hUsd": 9399.64
+        },
+        {
+          "id": "5151872",
+          "yes": 0.055,
+          "category": "Elections / policy",
+          "volume24hUsd": 9388.19
+        },
+        {
+          "id": "3581419",
+          "yes": 0.9195,
+          "category": "Elections / policy",
+          "volume24hUsd": 9089.13
+        },
+        {
+          "id": "1193096",
+          "yes": 0.0065,
+          "category": "Elections / policy",
+          "volume24hUsd": 8877.56
+        },
+        {
+          "id": "5234654",
+          "yes": 0.295,
+          "category": "War / geopolitics",
+          "volume24hUsd": 8432.81
+        },
+        {
+          "id": "2116540",
+          "yes": 0.725,
+          "category": "Elections / policy",
+          "volume24hUsd": 8184.0
+        },
+        {
+          "id": "3740633",
+          "yes": 0.0085,
+          "category": "Elections / policy",
+          "volume24hUsd": 8170.74
+        },
+        {
+          "id": "7194766",
+          "yes": 0.87,
+          "category": "Elections / policy",
+          "volume24hUsd": 7837.46
+        },
+        {
+          "id": "4570987",
+          "yes": 0.11,
+          "category": "War / geopolitics",
+          "volume24hUsd": 7604.18
+        },
+        {
+          "id": "616902",
+          "yes": 0.983,
+          "category": "Central banks / rates",
+          "volume24hUsd": 6889.39
+        }
+      ]
+    },
+    {
       "asOf": "2026-11-26T09:50:13.828026+00:00",
       "marketCount": 80,
       "categories": {
