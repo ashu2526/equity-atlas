@@ -1,12 +1,532 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-26T09:52:23.957493Z",
+  "updatedAt": "2026-11-26T22:29:41.150918Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "bc4ac8882132f8668770",
+      "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T22:22:43Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "f12611ab34368234c886",
+      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T22:01:22Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a732e173a0a0c3f7eeba",
+      "title": "How Canada May Be Winning Trump’s Trade War",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T22:01:03Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics",
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a5a563c2a3a6d7660b82",
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T21:17:53Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "7b5e9af2323bf2307d7f",
+      "title": "Argentina Senate Approves Bill to Suspend Primaries in Boost for Milei",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/argentina-senate-approves-bill-to-suspend-primaries-in-boost-for-milei",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T21:12:20Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c331218a77ca98509b34",
+      "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+      "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T19:55:58Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "BBC Business"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bab369350f056d312aed",
+      "title": "Turkey Central Bank Sidelines Policy Rate as Reserves Shrink",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T19:41:34Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d98c36b99af73c874bc7",
+      "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T18:30:46Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "elections_policy",
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "333c58c4597849241ed8",
+      "title": "Canada Government Spending Slowed in 2025 as Defense Jumped",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/canada-government-spending-slowed-in-2025-as-defense-jumped",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T16:37:41Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "87452a6f093ff3bc64fe",
+      "title": "Experts say new U.S. tariffs do not pose substantial threat, India should not rush into trade deal",
+      "url": "https://www.thehindu.com/business/Economy/experts-say-new-us-tariffs-do-not-pose-substantial-threat-india-should-not-rush-into-trade-deal/article71746007.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T15:43:21Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3eaf3e6ad6543c333887",
+      "title": "C-DAC targets indigenous 32,000-core GPU by mid-2028, seeks private partners; to put pressure on rival chip prices",
+      "url": "https://www.thehindu.com/business/Industry/c-dac-targets-indigenous-32000-core-gpu-by-mid-2028-seeks-private-partners-to-put-pressure-on-rival-chip-prices/article71746677.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T15:26:50Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e60bfd59058810cd0d6e",
+      "title": "India Calls Four-Day Parliament Sitting for ‘Essential’ Business",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/india-calls-four-day-parliament-sitting-for-essential-business",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T15:08:14Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "399ddc66510b5799860b",
+      "title": "Italy’s Meloni Rebukes Ukraine Over Libya Strike in Political Balancing Act",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/italy-s-meloni-rebukes-ukraine-over-libya-strike-in-political-balancing-act",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T14:12:53Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "56561117cc6cd7a08842",
+      "title": "Spain's de Cos Set To Succeed Lagarde as ECB President",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T14:03:05Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2e817c7855d56b9cd015",
+      "title": "UK and Netherlands Hit by Surge in Iran-Linked Attacks, Report Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/uk-and-netherlands-hit-by-surge-in-iran-linked-attacks-report-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T14:00:00Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "58ce3c57386c3fc3a695",
+      "title": "De Cos Gets Leaders’ Nod for ECB Presidency in Post-Lagarde Era",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/de-cos-is-poised-to-take-ecb-presidency-in-era-after-lagarde",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T13:38:12Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ae432f29cbdabe57f0ae",
+      "title": "Australia Passes Gas Reserve Law in Upset to LNG Exporters",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-set-to-pass-gas-reserve-law-in-upset-to-lng-exporters",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T13:31:00Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a227f3a9e165d218329a",
+      "title": "ECB Officials Saw More Tightening With Inflation Outlook Worse",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T13:09:36Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "e41f61bc362d7dae101e",
+      "title": "Dutch to Back EU Consensus for ECB Jobs, Opening Door to De Cos",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/dutch-to-back-eu-consensus-for-ecb-jobs-opening-door-to-de-cos",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T13:06:26Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "88b8be38fca5fe220f4f",
+      "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+      "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T12:16:06Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "248344cb69ee615745b8",
+      "title": "Brazil Inflation Undershoots Forecasts in ‘Positive’ Print",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/brazil-consumer-prices-rise-less-than-forecast-by-all-analysts",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T12:15:36Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fa3e7b94c8c5e373fed1",
+      "title": "Trump’s Latest Tariffs Undercut the ‘China Plus One’ Idea",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trump-s-latest-tariffs-undercut-the-china-plus-one-idea",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T12:00:01Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "79a277b2bce992988a0c",
+      "title": "Trading partners respond to Trump tariff plans",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trading-partners-respond-to-trump-tariff-plans",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T12:00:01Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b3393ebcc0c24bf84288",
+      "title": "Maritime trade stagnates amid geopolitical uncertainty",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168884",
+      "domain": "news.un.org",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T12:00:00Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "UN News"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "16fecc11e2f159ce8e9d",
+      "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T10:46:08Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1fc85f46c81789d4562a",
+      "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T10:14:08Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC Middle East",
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ff431005d981bb33ffa8",
+      "title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
+      "url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T09:49:42Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "e0d10ebc42c1329f80f0",
       "title": "Defence Space Agency seeks Indian partners for AI, anti-jamming and space surveillance tech",
@@ -461,6 +981,25 @@
       ],
       "feedSources": [
         "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d278f649d28c345d4807",
+      "title": "France's political mainstream risks presidential vote debacle with no clear candidate",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T00:23:27Z",
+      "discovered": "2026-11-26T22:29:41.150918Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
@@ -16052,25 +16591,6 @@
       "sourcecountry": "",
       "language": "English",
       "published": "2026-09-16T18:00:00Z",
-      "discovered": "2026-11-11T15:38:40.000100Z",
-      "topics": [
-        "inflation_rates"
-      ],
-      "feedSources": [
-        "Federal Reserve Monetary"
-      ],
-      "headlineTone": "neutral",
-      "headlineLexicalScore": 0,
-      "evidenceType": "publisher RSS headline/link — source not full-text verified"
-    },
-    {
-      "id": "b31df595e972b0680bcb",
-      "title": "Federal Reserve issues FOMC statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "domain": "www.federalreserve.gov",
-      "sourcecountry": "",
-      "language": "English",
-      "published": "2026-07-29T18:00:00Z",
       "discovered": "2026-11-11T15:38:40.000100Z",
       "topics": [
         "inflation_rates"

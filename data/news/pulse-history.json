@@ -2,81 +2,81 @@
   "schema": 1,
   "snapshots": [
     {
-      "generatedAt": "2026-11-26T09:52:23.957493Z",
+      "generatedAt": "2026-11-26T22:29:41.150918Z",
       "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
       "overall": {
-        "items": 652,
-        "publishers": 6,
-        "positive": 66,
+        "items": 645,
+        "publishers": 5,
+        "positive": 64,
         "negative": 168,
-        "neutral": 418,
-        "languageIndex": -12.3,
+        "neutral": 413,
+        "languageIndex": -15.0,
         "label": "Mixed headline language",
-        "sourceConcentration": 67.2,
+        "sourceConcentration": 67.1,
         "coverageSufficient": true
       },
       "topics": [
         {
           "id": "ai_rotation",
-          "items": 189,
+          "items": 185,
           "publishers": 3,
-          "languageIndex": 3.5,
+          "languageIndex": 3.8,
           "attentionDeltaPct": null
         },
         {
           "id": "inflation_rates",
-          "items": 150,
-          "publishers": 5,
-          "languageIndex": -26.2,
+          "items": 143,
+          "publishers": 4,
+          "languageIndex": -30.7,
           "attentionDeltaPct": null
         },
         {
           "id": "geopolitics",
-          "items": 138,
+          "items": 136,
           "publishers": 3,
-          "languageIndex": -36.0,
+          "languageIndex": -39.0,
           "attentionDeltaPct": null
         },
         {
           "id": "elections_policy",
           "items": 67,
           "publishers": 3,
-          "languageIndex": -0.6,
+          "languageIndex": -2.6,
           "attentionDeltaPct": null
         },
         {
           "id": "trade_policy",
-          "items": 42,
+          "items": 48,
           "publishers": 3,
-          "languageIndex": -38.2,
+          "languageIndex": -45.0,
           "attentionDeltaPct": null
         },
         {
           "id": "india_flows",
-          "items": 34,
+          "items": 33,
           "publishers": 2,
-          "languageIndex": 42.2,
+          "languageIndex": 41.1,
           "attentionDeltaPct": null
         },
         {
           "id": "energy_shipping",
-          "items": 28,
+          "items": 30,
           "publishers": 4,
-          "languageIndex": -17.7,
+          "languageIndex": -12.7,
           "attentionDeltaPct": null
         },
         {
           "id": "defence_capex",
-          "items": 15,
+          "items": 16,
           "publishers": 3,
-          "languageIndex": 6.1,
+          "languageIndex": 5.6,
           "attentionDeltaPct": null
         },
         {
           "id": "healthcare",
-          "items": 8,
-          "publishers": 4,
-          "languageIndex": -6.2,
+          "items": 7,
+          "publishers": 3,
+          "languageIndex": -8.3,
           "attentionDeltaPct": null
         },
         {
@@ -101,17 +101,17 @@
           "attentionDeltaPct": null
         },
         {
-          "id": "credit_cds",
-          "items": 1,
-          "publishers": 1,
-          "languageIndex": 0.0,
-          "attentionDeltaPct": null
-        },
-        {
           "id": "tech_credit",
           "items": 1,
           "publishers": 1,
           "languageIndex": 100.0,
+          "attentionDeltaPct": null
+        },
+        {
+          "id": "credit_cds",
+          "items": 0,
+          "publishers": 0,
+          "languageIndex": null,
           "attentionDeltaPct": null
         },
         {
