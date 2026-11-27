@@ -2,6 +2,35 @@
   "schema": 1,
   "snapshots": [
     {
+      "asOf": "2026-11-27",
+      "headlines": 639,
+      "clusters": 617,
+      "topicCounts": {
+        "geopolitics": 132,
+        "trade_policy": 49,
+        "ai_rotation": 173,
+        "inflation_rates": 145,
+        "india_flows": 32,
+        "elections_policy": 71,
+        "energy_shipping": 32,
+        "climate_agri": 6,
+        "healthcare": 7,
+        "sovereign_credit": 3,
+        "defence_capex": 17,
+        "tech_credit": 1,
+        "auto_consumer": 5
+      },
+      "geoMentions": {
+        "United States": 105,
+        "India": 57,
+        "Middle East": 42,
+        "Russia / Ukraine": 69,
+        "China": 34,
+        "Japan": 8,
+        "Europe": 66
+      }
+    },
+    {
       "asOf": "2026-11-26",
       "headlines": 645,
       "clusters": 625,

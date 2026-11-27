@@ -1,12 +1,394 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-26T22:29:41.150918Z",
+  "updatedAt": "2026-11-27T09:57:17.231603Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "f0cfffd6579f8de85622",
+      "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T09:43:30Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c8a506361a0995eba572",
+      "title": "Zambia’s Central Bank Holds Key Rate as Inflation Risk Grow",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/zambia-s-central-bank-holds-key-rate-as-inflation-risk-grow",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T09:25:36Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d4ec3631a117ecfe9caa",
+      "title": "ECB Consumer Expectations Survey results – October 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T09:00:00Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "a805d3cd476c30e3b2c9",
+      "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T08:19:32Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5fb3c6972bb7657bb536",
+      "title": "Qatar’s LNG Export Push Provides Lifeline to South Asian Buyers",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/qatar-s-lng-export-push-provides-lifeline-to-south-asian-buyers",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T08:16:09Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "403a3d73c30e8f2cd4f4",
+      "title": "Inflation Slows Much More Than Expected in France and Spain",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/french-inflation-slows-much-more-than-expected-as-energy-eases",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T07:45:00Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3e98a2fec0cd5d411f79",
+      "title": "What to Know Ahead of Spain’s Snap Election",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T07:15:51Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "343149636b1555d2ccef",
+      "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T06:44:25Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bb0287df64bbf0bc730a",
+      "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T06:19:10Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0a09285c1b00eb274f49",
+      "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T06:15:00Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "346abff31045c9e5a62d",
+      "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+      "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T06:09:31Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1ebc88c0feb81f03c6a0",
+      "title": "Can Andy Burnham Finally Build UK Civil Defense With ‘Be Ready’?",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/can-andy-burnham-finally-build-uk-civil-defense-with-be-ready",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T05:00:24Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "defence_capex"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "570d5bdb0ecff7b74016",
+      "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T05:00:00Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "1ff0c14637703ab7f778",
+      "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T04:23:18Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "585b336a142359744d73",
+      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+      "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T03:28:15Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "2cb8399a070111107e6a",
+      "title": "New Zealand’s Election Results Reveal Rare Hung Parliament",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-zealand-s-official-election-results-reveal-hung-parliament",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T01:00:00Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d4dc01e1e738e743a020",
+      "title": "Trump Says Huang Is Excited About His ‘Second Term’ at Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-jensen-huang-ceo-second-term-at-nvidia",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T00:39:25Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "95637920c2254aaf9a09",
+      "title": "Taiwan Gears Up for Local Elections",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/taiwan-gears-up-for-local-elections-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T00:36:31Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "3383682e1f724d534646",
+      "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T23:36:40Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "68d12cc1e2c8f51ac342",
+      "title": "Asia made a big AI bet on Nvidia. What happens now?",
+      "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T23:08:12Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "BBC Business",
+        "BBC Technology"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "bc4ac8882132f8668770",
       "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
@@ -79,6 +461,7 @@
         "geopolitics"
       ],
       "feedSources": [
+        "BBC Middle East",
         "BBC World"
       ],
       "headlineTone": "neutral",
@@ -117,7 +500,8 @@
         "trade_policy"
       ],
       "feedSources": [
-        "BBC Business"
+        "BBC Business",
+        "BBC India"
       ],
       "headlineTone": "negative",
       "headlineLexicalScore": -1,
@@ -238,6 +622,26 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6ec7a70d84daf00334b6",
+      "title": "Global shipping faces zero growth in 2026; India gains ground amid maritime disruptions: UNCTAD",
+      "url": "https://www.thehindu.com/business/Industry/global-shipping-faces-zero-growth-in-2026-india-gains-ground-amid-maritime-disruptions-unctad/article71746612.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-26T14:21:20Z",
+      "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -386,6 +790,7 @@
         "energy_shipping"
       ],
       "feedSources": [
+        "BBC Middle East",
         "BBC World"
       ],
       "headlineTone": "neutral",

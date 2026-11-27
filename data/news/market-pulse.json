@@ -1,57 +1,57 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T22:29:41.150918Z",
+  "generatedAt": "2026-11-27T09:57:17.231603Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-12",
-    "end": "2026-11-26",
+    "start": "2026-11-13",
+    "end": "2026-11-27",
     "days": 14
   },
   "overall": {
-    "items": 645,
+    "items": 639,
     "publishers": 5,
-    "positive": 64,
+    "positive": 63,
     "negative": 168,
-    "neutral": 413,
-    "languageIndex": -15.0,
+    "neutral": 408,
+    "languageIndex": -15.3,
     "label": "Mixed headline language",
-    "sourceConcentration": 67.1,
+    "sourceConcentration": 66.8,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 185,
+      "items": 173,
       "publishers": 3,
-      "positive": 22,
-      "negative": 15,
-      "neutral": 148,
-      "languageIndex": 3.8,
+      "positive": 20,
+      "negative": 13,
+      "neutral": 140,
+      "languageIndex": 3.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 71.4,
+      "sourceConcentration": 69.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Trump Says Huang Is Excited About His ‘Second Term’ at Nvidia",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-jensen-huang-ceo-second-term-at-nvidia",
+          "date": "2026-11-27T00:39:25Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Asia made a big AI bet on Nvidia. What happens now?",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-26T23:08:12Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
           "title": "C-DAC targets indigenous 32,000-core GPU by mid-2028, seeks private partners; to put pressure on rival chip prices",
           "url": "https://www.thehindu.com/business/Industry/c-dac-targets-indigenous-32000-core-gpu-by-mid-2028-seeks-private-partners-to-put-pressure-on-rival-chip-prices/article71746677.ece",
           "date": "2026-11-26T15:26:50Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Jensen Huang needs a new playbook for his second innings at Nvidia",
-          "url": "https://www.thehindu.com/sci-tech/technology/jensen-huang-needs-a-new-playbook-for-his-second-innings-at-nvidia/article71745086.ece",
-          "date": "2026-11-26T02:47:13Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video",
-          "date": "2026-11-25T21:38:39Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 143,
+      "items": 145,
       "publishers": 4,
       "positive": 7,
-      "negative": 59,
+      "negative": 61,
       "neutral": 77,
-      "languageIndex": -30.7,
+      "languageIndex": -31.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.7,
+      "sourceConcentration": 86.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Turkey Central Bank Sidelines Policy Rate as Reserves Shrink",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
-          "date": "2026-11-26T19:41:34Z",
+          "title": "Zambia’s Central Bank Holds Key Rate as Inflation Risk Grow",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/zambia-s-central-bank-holds-key-rate-as-inflation-risk-grow",
+          "date": "2026-11-27T09:25:36Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
-          "date": "2026-11-26T18:30:46Z",
-          "publisher": "www.bloomberg.com"
+          "title": "ECB Consumer Expectations Survey results – October 2026",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+          "date": "2026-11-27T09:00:00Z",
+          "publisher": "www.ecb.europa.eu"
         },
         {
-          "title": "Spain's de Cos Set To Succeed Lagarde as ECB President",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video",
-          "date": "2026-11-26T14:03:05Z",
+          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
+          "date": "2026-11-27T08:19:32Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,18 +109,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 136,
+      "items": 132,
       "publishers": 3,
-      "positive": 8,
-      "negative": 50,
-      "neutral": 78,
+      "positive": 7,
+      "negative": 48,
+      "neutral": 77,
       "languageIndex": -39.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.4,
+      "sourceConcentration": 54.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
+          "date": "2026-11-27T05:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
@@ -132,12 +138,6 @@
           "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
           "date": "2026-11-26T22:01:03Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T21:17:53Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 67,
+      "items": 71,
       "publishers": 3,
       "positive": 3,
-      "negative": 4,
-      "neutral": 60,
-      "languageIndex": -2.6,
+      "negative": 5,
+      "neutral": 63,
+      "languageIndex": -5.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.1,
+      "sourceConcentration": 77.5,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Argentina Senate Approves Bill to Suspend Primaries in Boost for Milei",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/argentina-senate-approves-bill-to-suspend-primaries-in-boost-for-milei",
-          "date": "2026-11-26T21:12:20Z",
+          "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
+          "date": "2026-11-27T09:43:30Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
-          "date": "2026-11-26T18:30:46Z",
+          "title": "What to Know Ahead of Spain’s Snap Election",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
+          "date": "2026-11-27T07:15:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "India Calls Four-Day Parliament Sitting for ‘Essential’ Business",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/india-calls-four-day-parliament-sitting-for-essential-business",
-          "date": "2026-11-26T15:08:14Z",
+          "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
+          "date": "2026-11-27T06:15:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,35 +195,35 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 48,
+      "items": 49,
       "publishers": 3,
-      "positive": 4,
+      "positive": 5,
       "negative": 36,
       "neutral": 8,
-      "languageIndex": -45.0,
+      "languageIndex": -43.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 79.2,
+      "sourceConcentration": 79.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
+          "date": "2026-11-27T06:44:25Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
+          "date": "2026-11-27T06:19:10Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
           "date": "2026-11-26T22:22:43Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "How Canada May Be Winning Trump’s Trade War",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
-          "date": "2026-11-26T22:01:03Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-          "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T19:55:58Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -236,63 +236,26 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "india_flows",
-      "title": "India flows",
-      "items": 33,
-      "publishers": 2,
-      "positive": 16,
-      "negative": 5,
-      "neutral": 12,
-      "languageIndex": 41.1,
-      "label": "Insufficient observations",
-      "sourceConcentration": 93.9,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
-          "date": "2026-11-26T10:46:08Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
-          "date": "2026-11-26T07:10:15Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Rupee falls 20 paise to 92.40 against U.S. dollar in early trade",
-          "url": "https://www.thehindu.com/business/markets/rupee-falls-20-paise-to-9240-against-us-dollar-in-early-trade/article71745258.ece",
-          "date": "2026-11-26T05:09:24Z",
-          "publisher": "www.thehindu.com"
-        }
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "hypothesis": "Emerging tailwind",
-      "potentialUpside": "Liquid large caps and domestic earnings",
-      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
-      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
-      "invalidation": "Two consecutive net-selling fortnights",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 30,
+      "items": 32,
       "publishers": 4,
-      "positive": 4,
+      "positive": 5,
       "negative": 6,
-      "neutral": 20,
-      "languageIndex": -12.7,
+      "neutral": 21,
+      "languageIndex": -10.6,
       "label": "Mixed headline language",
-      "sourceConcentration": 36.7,
+      "sourceConcentration": 37.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Qatar’s LNG Export Push Provides Lifeline to South Asian Buyers",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/qatar-s-lng-export-push-provides-lifeline-to-south-asian-buyers",
+          "date": "2026-11-27T08:16:09Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
           "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
@@ -300,16 +263,10 @@
           "publisher": "www.bbc.co.uk"
         },
         {
-          "title": "Australia Passes Gas Reserve Law in Upset to LNG Exporters",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-set-to-pass-gas-reserve-law-in-upset-to-lng-exporters",
-          "date": "2026-11-26T13:31:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-          "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T12:16:06Z",
-          "publisher": "www.bbc.co.uk"
+          "title": "Global shipping faces zero growth in 2026; India gains ground amid maritime disruptions: UNCTAD",
+          "url": "https://www.thehindu.com/business/Industry/global-shipping-faces-zero-growth-in-2026-india-gains-ground-amid-maritime-disruptions-unctad/article71746612.ece",
+          "date": "2026-11-26T14:21:20Z",
+          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -322,20 +279,69 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
-      "id": "defence_capex",
-      "title": "Defense",
-      "items": 16,
-      "publishers": 3,
-      "positive": 2,
-      "negative": 0,
-      "neutral": 14,
-      "languageIndex": 5.6,
-      "label": "Mixed headline language",
-      "sourceConcentration": 75.0,
-      "coverageSufficient": true,
+      "id": "india_flows",
+      "title": "India flows",
+      "items": 32,
+      "publishers": 2,
+      "positive": 15,
+      "negative": 6,
+      "neutral": 11,
+      "languageIndex": 38.3,
+      "label": "Insufficient observations",
+      "sourceConcentration": 93.8,
+      "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
+          "date": "2026-11-27T04:23:18Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
+          "date": "2026-11-26T10:46:08Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+          "date": "2026-11-26T07:10:15Z",
+          "publisher": "www.bloomberg.com"
+        }
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "hypothesis": "Emerging tailwind",
+      "potentialUpside": "Liquid large caps and domestic earnings",
+      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
+      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
+      "invalidation": "Two consecutive net-selling fortnights",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
+      "id": "defence_capex",
+      "title": "Defense",
+      "items": 17,
+      "publishers": 3,
+      "positive": 2,
+      "negative": 0,
+      "neutral": 15,
+      "languageIndex": 5.1,
+      "label": "Insufficient observations",
+      "sourceConcentration": 76.5,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Can Andy Burnham Finally Build UK Civil Defense With ‘Be Ready’?",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/can-andy-burnham-finally-build-uk-civil-defense-with-be-ready",
+          "date": "2026-11-27T05:00:24Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Canada Government Spending Slowed in 2025 as Defense Jumped",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/canada-government-spending-slowed-in-2025-as-defense-jumped",
@@ -347,12 +353,6 @@
           "url": "https://www.thehindu.com/business/defence-space-agency-seeks-indian-partners-for-ai-anti-jamming-and-space-surveillance-tech/article71745735.ece",
           "date": "2026-11-26T09:23:56Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Turkey’s Defense Chief to Meet Hegseth to Discuss Russian S-400s",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-s-defense-chief-to-meet-hegseth-to-discuss-russian-s-400s",
-          "date": "2026-11-26T09:00:01Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Defence electronics; Aerospace",
@@ -496,12 +496,12 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 4,
+      "items": 3,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 3,
-      "languageIndex": -25.0,
+      "neutral": 2,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -641,34 +641,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 143,
+      "items": 145,
       "publishers": 4,
       "positive": 7,
-      "negative": 59,
+      "negative": 61,
       "neutral": 77,
-      "languageIndex": -30.7,
+      "languageIndex": -31.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.7,
+      "sourceConcentration": 86.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Turkey Central Bank Sidelines Policy Rate as Reserves Shrink",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
-          "date": "2026-11-26T19:41:34Z",
+          "title": "Zambia’s Central Bank Holds Key Rate as Inflation Risk Grow",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/zambia-s-central-bank-holds-key-rate-as-inflation-risk-grow",
+          "date": "2026-11-27T09:25:36Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
-          "date": "2026-11-26T18:30:46Z",
-          "publisher": "www.bloomberg.com"
+          "title": "ECB Consumer Expectations Survey results – October 2026",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+          "date": "2026-11-27T09:00:00Z",
+          "publisher": "www.ecb.europa.eu"
         },
         {
-          "title": "Spain's de Cos Set To Succeed Lagarde as ECB President",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video",
-          "date": "2026-11-26T14:03:05Z",
+          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
+          "date": "2026-11-27T08:19:32Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -684,18 +684,24 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 136,
+      "items": 132,
       "publishers": 3,
-      "positive": 8,
-      "negative": 50,
-      "neutral": 78,
+      "positive": 7,
+      "negative": 48,
+      "neutral": 77,
       "languageIndex": -39.0,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.4,
+      "sourceConcentration": 54.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
+          "date": "2026-11-27T05:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
@@ -707,12 +713,6 @@
           "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
           "date": "2026-11-26T22:01:03Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T21:17:53Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -727,34 +727,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 67,
+      "items": 71,
       "publishers": 3,
       "positive": 3,
-      "negative": 4,
-      "neutral": 60,
-      "languageIndex": -2.6,
+      "negative": 5,
+      "neutral": 63,
+      "languageIndex": -5.1,
       "label": "Insufficient observations",
-      "sourceConcentration": 76.1,
+      "sourceConcentration": 77.5,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Argentina Senate Approves Bill to Suspend Primaries in Boost for Milei",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/argentina-senate-approves-bill-to-suspend-primaries-in-boost-for-milei",
-          "date": "2026-11-26T21:12:20Z",
+          "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
+          "date": "2026-11-27T09:43:30Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
-          "date": "2026-11-26T18:30:46Z",
+          "title": "What to Know Ahead of Spain’s Snap Election",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
+          "date": "2026-11-27T07:15:51Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "India Calls Four-Day Parliament Sitting for ‘Essential’ Business",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/india-calls-four-day-parliament-sitting-for-essential-business",
-          "date": "2026-11-26T15:08:14Z",
+          "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
+          "date": "2026-11-27T06:15:00Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -770,35 +770,35 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 48,
+      "items": 49,
       "publishers": 3,
-      "positive": 4,
+      "positive": 5,
       "negative": 36,
       "neutral": 8,
-      "languageIndex": -45.0,
+      "languageIndex": -43.6,
       "label": "Insufficient observations",
-      "sourceConcentration": 79.2,
+      "sourceConcentration": 79.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
+          "date": "2026-11-27T06:44:25Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
+          "date": "2026-11-27T06:19:10Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
           "date": "2026-11-26T22:22:43Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "How Canada May Be Winning Trump’s Trade War",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
-          "date": "2026-11-26T22:01:03Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-          "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T19:55:58Z",
-          "publisher": "www.bbc.co.uk"
         }
       ],
       "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
@@ -813,12 +813,12 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 4,
+      "items": 3,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 3,
-      "languageIndex": -25.0,
+      "neutral": 2,
+      "languageIndex": -33.3,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -934,11 +934,11 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 433
+      "stories": 427
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 109
+      "stories": 108
     },
     {
       "publisher": "www.thehindu.com",
@@ -950,12 +950,12 @@
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 4
+      "stories": 5
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 36,
-    "latestAvailableFeeds": 15,
+    "reportedScanCount": 37,
+    "latestAvailableFeeds": 14,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
