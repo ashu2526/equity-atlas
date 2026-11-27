@@ -3,6 +3,418 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-27-am",
+      "asOf": "2026-11-27",
+      "createdAt": "2026-11-27T01:54:09Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — evidence-qualified; insufficient primary flow and global confirmation",
+      "marketSession": "AM — 27 November 2026 Asia/Kolkata; prior Indian close and overnight review",
+      "coverageWindow": {
+        "start": "2026-11-13",
+        "end": "2026-11-27"
+      },
+      "sourceArchiveAsOf": "2026-11-26T22:29:41.150918Z",
+      "headline": "IT relative strength rebounds as bank lead narrows; reported dual institutional buying meets modest index gain",
+      "executiveSummary": "26 Nov NIFTY 25884.50, +0.253%; corroborated secondary combined cash FII +5843.33 and DII +5630.72 crore. Sector leadership and priced event-risk: IT relative +3.03pp vs -0.43pp, private banks +5.25 vs +6.34pp, PSU +3.52 vs +4.01pp. Fed +25bp YES 93.5¢ and Israel-Iran ceasefire through Nov 30 YES 94.5¢ unchanged versus stored 09:50 UTC snapshot; neither is institutional flow or objective probability. Kuwait risk and conflicting Australian LNG legislative reports warrant verification. Euro Summit official statement flags inflation and rates. US Thanksgiving limits fresh US cash confirmation. Mechanical headline index -15 vs -12.3, not investor sentiment.",
+      "regime": {
+        "label": "Selective rotation; insufficient evidence for broad risk-on",
+        "change": "IT relative rebound and dual reported cash buying; bank lead narrows",
+        "confidence": "Moderate price and secondary cash evidence; low sector-flow and global confirmation",
+        "marketConfirmation": "NIFTY close corroborated; IT weekly +7.98%",
+        "contradictions": "Modest index gain despite reported buying; IT negative monthly acceleration; metals weak",
+        "missingSignals": "Primary NSE, NSDL, AMFI, CFTC, TIC, issuer credit spreads and fresh global breadth"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50",
+          "value": "25884.50 (+0.253%)",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "FII buy/sell/net",
+          "value": "17879.74 / 12036.41 / +5843.33 INR crore",
+          "period": "26 Nov",
+          "dataClass": "secondary provisional combined cash",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "DII buy/sell/net",
+          "value": "24352.87 / 18722.15 / +5630.72 INR crore",
+          "period": "26 Nov",
+          "dataClass": "secondary provisional combined cash",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "FII index futures",
+          "value": "-88469 net contracts",
+          "period": "26 Nov",
+          "dataClass": "secondary positioning",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "Private banks",
+          "value": "3m +12.70%; relative +5.25pp; 1w +1.75%; 1m +17.48%; acceleration +18.43pp; rank 1",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "PSU banks",
+          "value": "3m +10.97%; relative +3.52pp; 1w -2.37%; 1m +17.27%; acceleration +19.29pp; rank 2",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "IT",
+          "value": "3m +10.48%; relative +3.03pp; 1w +7.98%; 1m +3.72%; acceleration -10.59pp; rank 4",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Realty",
+          "value": "3m relative -0.50pp; 1w +5.39%; 1m +20.84%; acceleration +28.24pp",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Metals",
+          "value": "3m relative -20.20pp; 1w -4.77%; 1m -0.79%; acceleration +8.99pp",
+          "period": "26 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+          "value": "93.5¢ unchanged; 24h $268966.99; liquidity $1120362.15",
+          "period": "26 Nov 22:30:03.809488 UTC vs 09:50:13.828026 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Israel x Iran ceasefire continues through November 30?",
+          "value": "94.5¢ unchanged; 24h $189288.37; liquidity $111558.61",
+          "period": "same snapshots",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+        },
+        {
+          "name": "NSDL sector",
+          "value": "Unavailable",
+          "period": "latest release not numerically verified",
+          "dataClass": "missing",
+          "source": "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx"
+        },
+        {
+          "name": "AMFI monthly",
+          "value": "Unavailable",
+          "period": "latest release not numerically verified",
+          "dataClass": "missing",
+          "source": "https://www.amfiindia.com/"
+        },
+        {
+          "name": "CFTC weekly",
+          "value": "Unavailable",
+          "period": "latest release not numerically verified",
+          "dataClass": "missing",
+          "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+        },
+        {
+          "name": "TIC monthly",
+          "value": "Unavailable",
+          "period": "latest release not numerically verified",
+          "dataClass": "missing",
+          "source": "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-27-am-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "Flows",
+          "geography": "India",
+          "title": "Both institutional groups reportedly buy; index gain modest",
+          "whatHappened": "26 Nov combined exchange cash net FII +5843.33 and DII +5630.72 crore; NIFTY 25884.50, +0.253% versus 25 Nov. FII index futures net short 88469 contracts per Jivani.",
+          "whyItMatters": [
+            "Cash demand may support liquidity but modest index response implies offsetting supply.",
+            "Futures hedging can coexist with cash buying; sector attribution remains unknown."
+          ],
+          "smartMoney": "Secondary corroborated gross/net, not primary verified",
+          "direct": "Large caps; banks",
+          "proxies": "Brokers; exchanges",
+          "whatCouldChange": "Primary turnover, breadth, NSDL sector transactions",
+          "caution": "A separate TrendRipperX headline repeats 25 Nov values; excluded. No inference of bank purchases.",
+          "sources": [
+            "https://www.financialexpress.com/market/fiis-buy-rs-5843-crore-diis-add-rs-5631-crore-3-factors-shaping-market-sentiment-4394650/",
+            "https://www.jivanimarkets.com/markets/fii-dii",
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://voiceofgp.com/markets/fii-dii-data-26-november-2026-fiis-net-buyers-of-%E2%82%B95843-33-crore-diis-net-buyers-of-%E2%82%B95630-72-crore/"
+          ],
+          "evidenceType": "Dated secondary reporting; conditional transmission"
+        },
+        {
+          "id": "2026-11-27-am-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "Rotation",
+          "geography": "India",
+          "title": "IT relative return turns positive while bank lead narrows",
+          "whatHappened": "26 Nov completed repository index data: IT +3.03pp relative 3m versus -0.43pp on 25 Nov; private banks +5.25 versus +6.34; PSU +3.52 versus +4.01.",
+          "whyItMatters": [
+            "IT weekly +7.98% may reflect repricing of external demand and discount rates.",
+            "Bank relative cooling despite aggregate cash buying challenges a concentrated rotation narrative."
+          ],
+          "smartMoney": "Not measured by sector",
+          "direct": "IT; banks",
+          "proxies": "Grid equipment; brokers",
+          "whatCouldChange": "Client orders, NIM, sector flows and breadth",
+          "caution": "IT monthly acceleration still -10.59pp; price rebound is not earnings recovery.",
+          "sources": [
+            "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+            "https://www.financialexpress.com/market/fiis-buy-rs-5843-crore-diis-add-rs-5631-crore-3-factors-shaping-market-sentiment-4394650/"
+          ],
+          "evidenceType": "Repository price data and secondary close corroboration"
+        },
+        {
+          "id": "2026-11-27-am-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "Geopolitics",
+          "geography": "Kuwait/Gulf",
+          "title": "Kuwait attack adds regional risk",
+          "whatHappened": "26 Nov BBC RSS reports strike in Kuwait and Iranian denial; Italian government condolence release indexed by RORA corroborates fatalities, not attribution.",
+          "whyItMatters": [
+            "Regional risk can raise freight and insurance costs.",
+            "Imported energy cost and FX pressure may compress Indian industrial margins."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Energy; airlines",
+          "proxies": "Fertiliser; paints; tyres; logistics",
+          "whatCouldChange": "Actual cargo delays, freight, landed crude",
+          "caution": "No verified supply outage or attribution; ceasefire contract has narrow resolution criteria.",
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+            "https://rora.trade/settimana/",
+            "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+          ],
+          "evidenceType": "RSS and official-release index; attribution unresolved"
+        },
+        {
+          "id": "2026-11-27-am-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "Energy policy",
+          "geography": "Australia/Asia",
+          "title": "LNG reservation legislative status conflicts",
+          "whatHappened": "26 Nov Reuters reports conflict: one says parliament passed up-to-20% reservation from 2028, another says final vote delayed to February 2027.",
+          "whyItMatters": [
+            "Domestic reservation could reduce flexible export supply and raise Asian procurement costs.",
+            "Lower Australian domestic gas prices could support local manufacturing but discourage new supply."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "LNG importers; gas utilities",
+          "proxies": "Fertiliser; ceramics; power",
+          "whatCouldChange": "Parliament bill status, commencement and east-coast cargo contracts",
+          "caution": "Do not classify as enacted until reconciled; Western Australia exemption limits exposure.",
+          "sources": [
+            "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+            "https://www.reuters.com/business/energy/australia-set-pass-law-lng-exporters-reserve-more-gas-domestic-use-2026-11-26/"
+          ],
+          "evidenceType": "Conflicting publisher reports"
+        },
+        {
+          "id": "2026-11-27-am-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "Rates",
+          "geography": "Europe/US",
+          "title": "Euro Summit explicitly flags inflation and global rates",
+          "whatHappened": "26 Nov official Euro Summit statement notes resilience alongside higher inflation, global interest rates and uncertainty; no new ECB rate decision in statement.",
+          "whyItMatters": [
+            "Higher discount rates pressure leveraged borrowers and long-duration assets.",
+            "Resilient European activity may support Indian export demand, offsetting funding risk."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "NBFCs; realty; exporters",
+          "proxies": "Housing materials; IT",
+          "whatCouldChange": "ECB decisions, sovereign yields, credit spreads",
+          "caution": "Policy statement not rate hike; US Thanksgiving limits fresh cash equity evidence.",
+          "sources": [
+            "https://www.consilium.europa.eu/media/txljag1h/eurosummitstatement-26112026-en.pdf",
+            "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+          ],
+          "evidenceType": "Official statement plus conditional interpretation"
+        },
+        {
+          "id": "2026-11-27-am-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "Governance",
+          "geography": "India",
+          "title": "Tata Trusts court challenge reported",
+          "whatHappened": "26 Nov Upstox reports two Tata trusts challenged September board resolution on chairman reappointment ahead of 30 Nov board meeting.",
+          "whyItMatters": [
+            "Governance uncertainty can raise holding-company discount.",
+            "Capital allocation delays could affect group investment but listed operating earnings need not change."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Tata group listed firms",
+          "proxies": "Suppliers; lenders",
+          "whatCouldChange": "Court order, board decision, exchange filings",
+          "caution": "No completed stake transfer or change of control verified.",
+          "sources": [
+            "https://upstox.com/news/market-news/stocks/titan-trent-tcs-indian-hotels-tata-group-stocks-in-focus-ahead-of-nov-30-board-meet-key-developments/article-204012/"
+          ],
+          "evidenceType": "Dated secondary reporting; conditional transmission"
+        },
+        {
+          "id": "2026-11-27-am-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "Corporate strategy",
+          "geography": "India",
+          "title": "Greaves rural EV distribution partnership",
+          "whatHappened": "26 Nov Upstox reports Ampere partnership with CSC Grameen eStore; intraday share rise reported.",
+          "whyItMatters": [
+            "Expanded distribution may improve unit volumes.",
+            "Dealer economics, service and working capital determine contribution margins."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Electric two-wheelers",
+          "proxies": "Components; tyres; finance",
+          "whatCouldChange": "Registrations, incremental sales, margin and filings",
+          "caution": "Partnership not guaranteed orders; price move not institutional flow.",
+          "sources": [
+            "https://upstox.com/news/market-news/stocks/greaves-cotton-shares-hit-fresh-52-week-high-here-s-why-the-stock-rallied-7-on-thursday-nov-26/article-204017/"
+          ],
+          "evidenceType": "Dated secondary reporting; conditional transmission"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "status": "Leading but cooling relative",
+          "transmission": "NIM and deposit costs",
+          "confirmation": "NSDL and earnings",
+          "counterevidence": "relative +5.25 vs +6.34pp"
+        },
+        {
+          "sector": "PSU banks",
+          "status": "Cooling weekly",
+          "transmission": "Credit growth",
+          "confirmation": "Asset quality",
+          "counterevidence": "weekly -2.37%"
+        },
+        {
+          "sector": "IT",
+          "status": "Accelerating weekly, monthly trend still weak",
+          "transmission": "Client spending",
+          "confirmation": "Orders and guidance",
+          "counterevidence": "monthly acceleration negative"
+        },
+        {
+          "sector": "Realty",
+          "status": "Accelerating monthly",
+          "transmission": "Bookings and financing",
+          "confirmation": "Collections and spreads",
+          "counterevidence": "3m relative still negative"
+        },
+        {
+          "sector": "Healthcare",
+          "status": "Relative lead lost",
+          "transmission": "Occupancy and margins",
+          "confirmation": "Earnings and breadth",
+          "counterevidence": "relative -0.67pp"
+        },
+        {
+          "sector": "Metals",
+          "status": "Weak but relative loss narrows",
+          "transmission": "Physical demand",
+          "confirmation": "Inventories and premiums",
+          "counterevidence": "relative -20.20pp"
+        },
+        {
+          "sector": "Tyres/paints",
+          "status": "Unproven cost relief",
+          "transmission": "Oil and rubber inputs",
+          "confirmation": "Landed costs",
+          "counterevidence": "Gulf risk"
+        },
+        {
+          "sector": "Gas/fertiliser",
+          "status": "Supply risk watch",
+          "transmission": "LNG procurement",
+          "confirmation": "Australian legal status and cargo prices",
+          "counterevidence": "2028 horizon"
+        },
+        {
+          "sector": "AI equipment",
+          "status": "Unproven demand acceleration",
+          "transmission": "Physical capex",
+          "confirmation": "Signed orders and credit spreads",
+          "counterevidence": "Prior rating watch not independently refreshed"
+        }
+      ],
+      "cooling": [
+        "Bank relative lead",
+        "Healthcare relative strength",
+        "Oil cost relief unproven"
+      ],
+      "risks": [
+        "Gulf freight disruption",
+        "Tariff enactment",
+        "Foreign cash reversal",
+        "Fed/ECB tightening",
+        "AI credit repricing",
+        "LNG policy uncertainty",
+        "Tata governance",
+        "Stale individual OHLCV"
+      ],
+      "whatChanged": [
+        "26 Nov close now available",
+        "Dual institutional buying corroborated by secondary sources",
+        "IT relative return turns positive; healthcare turns negative",
+        "New Kuwait and LNG policy risks; Australian reports conflict",
+        "No fresh qualifying technical breakout: Apollo Tyres, MRF and HDFC Bank flagged bars end 25 Nov; Max Healthcare 26 Nov close 1081.25 below prior 1102.10, volume 0.47x, repeated alert not new"
+      ],
+      "tomorrowChecklist": [
+        "Reconcile primary cash gross/net and NSDL sector period",
+        "Check IT relative follow-through and bank breadth",
+        "Verify Australian parliamentary status and Gulf cargo disruption",
+        "Check official tariff and central bank decisions",
+        "Retrieve AMFI, CFTC and TIC releases",
+        "Compare completed company bars and exchange filings",
+        "Verify Tata court and board outcome"
+      ],
+      "sources": [
+        "https://www.financialexpress.com/market/fiis-buy-rs-5843-crore-diis-add-rs-5631-crore-3-factors-shaping-market-sentiment-4394650/",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://voiceofgp.com/markets/fii-dii-data-26-november-2026-fiis-net-buyers-of-%E2%82%B95843-33-crore-diis-net-buyers-of-%E2%82%B95630-72-crore/",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+        "https://rora.trade/settimana/",
+        "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+        "https://www.reuters.com/business/energy/australian-parliament-passes-government-plan-reserve-20-lng-domestic-market-2026-11-26/",
+        "https://www.reuters.com/business/energy/australia-set-pass-law-lng-exporters-reserve-more-gas-domestic-use-2026-11-26/",
+        "https://www.consilium.europa.eu/media/txljag1h/eurosummitstatement-26112026-en.pdf",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://upstox.com/news/market-news/stocks/titan-trent-tcs-indian-hotels-tata-group-stocks-in-focus-ahead-of-nov-30-board-meet-key-developments/article-204012/",
+        "https://upstox.com/news/market-news/stocks/greaves-cotton-shares-hit-fresh-52-week-high-here-s-why-the-stock-rallied-7-on-thursday-nov-26/article-204017/",
+        "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx",
+        "https://www.amfiindia.com/",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+      ],
+      "limitations": "News/ranked/pulse/scans 26 Nov 22:29:41.150918 UTC; 15/15 feeds, 862 retained, 28 new; sector 22:30:03.715437 UTC; Polymarket 22:30:03.809488 UTC; stock 22:30:05.167365 UTC, 22 ready, 4 flagged, individual stale bars noted. Latest successful refresh 27 Nov 03:59–04:00 IST; 07:00 refresh not confirmed. Flows/editorial dated 11 Nov; ai-reviews baseline only, overdue audit not committed. NSE page returned no numeric rows; NSDL, AMFI, CFTC, TIC numeric records not retrieved; no new verified issuer CDS, earnings release or institutional stake transfer. Dashboard inaccessible via web. No flows update."
+    },
+    {
       "id": "2026-11-26-pm",
       "asOf": "2026-11-26",
       "createdAt": "2026-11-26T13:57:44.523Z",
