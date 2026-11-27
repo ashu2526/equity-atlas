@@ -1,12 +1,472 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-27T09:57:17.231603Z",
+  "updatedAt": "2026-11-27T22:14:05.994263Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "4571de9aa2a87e32ff9e",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T21:55:53Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "74ffb96cca944bb9cdb6",
+      "title": "France Outlook Cut to Negative by S&P in Pre-Election Warning",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-outlook-cut-to-negative-by-s-p-in-pre-election-warning",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T21:17:53Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6b38497d46887d580887",
+      "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+      "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T20:34:45Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "energy_shipping"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "43b3d23818d73c44dfb3",
+      "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T20:24:01Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c163b6deca155a376413",
+      "title": "New York Senate Majority Leader Andrea Stewart-Cousins Dies",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-york-senate-majority-leader-andrea-stewart-cousins-dies",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T19:07:22Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5e6bff05103609fc1a75",
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "domain": "www.bbc.co.uk",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T18:42:50Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "BBC World"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "c96034373447b9fa9a32",
+      "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T16:49:08Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "97a9aaeeb0d3895939f7",
+      "title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
+      "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T16:46:37Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bf471075aad626230a57",
+      "title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+      "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T16:20:17Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Economy"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d7529218c5eb58f28f4a",
+      "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T16:18:45Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "8ed459ecc6ca94f170b4",
+      "title": "India-U.S. trade deal is close to culmination: Goyal",
+      "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T15:18:46Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "The Hindu Business"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "44e4968e424f16f1cb32",
+      "title": "Power Outages, Flood Risks Linger as Storm Leaves East Coast",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T14:20:06Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "33291e1521825c47573d",
+      "title": "Copper Price Volatility Clouds Peru’s El Niño Relief Spending",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/copper-price-volatility-clouds-peru-s-el-nino-relief-spending",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T14:00:00Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "climate_agri"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "d7910a53402b785b0018",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+      "domain": "www.ecb.europa.eu",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T14:00:00Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "ECB Press"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "283b21dd509cdb45ab91",
+      "title": "ECB’s Nagel Signals Need for Another Rate Hike in December",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/ecb-s-nagel-signals-need-for-another-rate-hike-in-december",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T13:31:56Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "416cb1d8aa930675a46b",
+      "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/nvidia-chips-turn-up-at-china-site-linked-to-alice-huang-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T12:42:39Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "ai_rotation"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "97df4dd83589962ac570",
+      "title": "ECB’s Two Rate Hikes to Date Aren’t Enough, Dolenc Tells Delo",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/ecb-s-two-rate-hikes-to-date-aren-t-enough-dolenc-tells-delo",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T12:38:06Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "bd47d4ca425e1b6c0c6f",
+      "title": "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
+      "url": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T11:58:57Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Industry"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "0e89df467b296cda6456",
+      "title": "US Partners Respond to New Tariffs With Anger, Diplomacy",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/us-partners-respond-to-new-tariffs-with-anger-diplomacy-video",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T11:50:49Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "trade_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b9955357cb7718fb083d",
+      "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T11:36:42Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "cb7c6414594010a68b39",
+      "title": "Stock markets snap two-day rally; Sensex tanks 989 points amid profit booking",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-snap-two-day-rally-sensex-tanks-989-points-amid-profit-booking/article71750358.ece",
+      "domain": "www.thehindu.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T11:35:47Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "india_flows"
+      ],
+      "feedSources": [
+        "The Hindu Business",
+        "The Hindu Markets"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ec146dbf418210d9a545",
+      "title": "China Relations Loom Large Over Taiwan’s Municipal Elections",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-27/china-relations-loom-large-over-taiwan-s-municipal-elections",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T11:01:56Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "824c9f5aa8badc77ccf0",
+      "title": "Burundi Blocks Election Bid by Incumbent President’s Main Rival",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/burundi-blocks-election-bid-by-incumbent-president-s-main-rival",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T10:53:53Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "441fe87563e6bbbffa72",
+      "title": "European Workers’ AI Use on Par With That of US Peers, ECB Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/european-workers-ai-use-on-par-with-that-of-us-peers-ecb-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T10:00:00Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "f0cfffd6579f8de85622",
       "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
@@ -24,6 +484,25 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "6c3eb7b1f7d883bb5c2e",
+      "title": "India’s RBI to Help Small Firms Grow Globally, Malhotra Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-s-rbi-to-help-small-firms-grow-globally-malhotra-says",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T09:30:00Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "positive",
+      "headlineLexicalScore": 1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {
@@ -130,6 +609,25 @@
       "language": "English",
       "published": "2026-11-27T07:15:51Z",
       "discovered": "2026-11-27T09:57:17.231603Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "b4c495a352a769883c43",
+      "title": "Sweden’s Kristersson on Track to Clinch Second Term in Vote",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/sweden-s-kingmaker-to-face-final-choice-on-backing-kristersson",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T06:48:42Z",
+      "discovered": "2026-11-27T22:14:05.994263Z",
       "topics": [
         "elections_policy"
       ],

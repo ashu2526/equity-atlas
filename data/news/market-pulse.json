@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T09:57:17.231603Z",
+  "generatedAt": "2026-11-27T22:14:05.994263Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
@@ -9,49 +9,49 @@
     "days": 14
   },
   "overall": {
-    "items": 639,
+    "items": 634,
     "publishers": 5,
-    "positive": 63,
-    "negative": 168,
-    "neutral": 408,
-    "languageIndex": -15.3,
+    "positive": 65,
+    "negative": 169,
+    "neutral": 400,
+    "languageIndex": -16.2,
     "label": "Mixed headline language",
-    "sourceConcentration": 66.8,
+    "sourceConcentration": 67.2,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 173,
+      "items": 167,
       "publishers": 3,
-      "positive": 20,
-      "negative": 13,
-      "neutral": 140,
-      "languageIndex": 3.9,
+      "positive": 21,
+      "negative": 11,
+      "neutral": 135,
+      "languageIndex": 4.9,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.4,
+      "sourceConcentration": 69.5,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+          "date": "2026-11-27T16:49:08Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-27/nvidia-chips-turn-up-at-china-site-linked-to-alice-huang-video",
+          "date": "2026-11-27T12:42:39Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Trump Says Huang Is Excited About His ‘Second Term’ at Nvidia",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-jensen-huang-ceo-second-term-at-nvidia",
           "date": "2026-11-27T00:39:25Z",
           "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Asia made a big AI bet on Nvidia. What happens now?",
-          "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-          "date": "2026-11-26T23:08:12Z",
-          "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "C-DAC targets indigenous 32,000-core GPU by mid-2028, seeks private partners; to put pressure on rival chip prices",
-          "url": "https://www.thehindu.com/business/Industry/c-dac-targets-indigenous-32000-core-gpu-by-mid-2028-seeks-private-partners-to-put-pressure-on-rival-chip-prices/article71746677.ece",
-          "date": "2026-11-26T15:26:50Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
@@ -66,34 +66,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 145,
+      "items": 144,
       "publishers": 4,
-      "positive": 7,
+      "positive": 6,
       "negative": 61,
       "neutral": 77,
-      "languageIndex": -31.0,
+      "languageIndex": -35.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.2,
+      "sourceConcentration": 85.4,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Zambia’s Central Bank Holds Key Rate as Inflation Risk Grow",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/zambia-s-central-bank-holds-key-rate-as-inflation-risk-grow",
-          "date": "2026-11-27T09:25:36Z",
-          "publisher": "www.bloomberg.com"
+          "title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
+          "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
+          "date": "2026-11-27T16:46:37Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "ECB Consumer Expectations Survey results – October 2026",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
-          "date": "2026-11-27T09:00:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+          "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
+          "date": "2026-11-27T16:20:17Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
-          "date": "2026-11-27T08:19:32Z",
+          "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
+          "date": "2026-11-27T16:18:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -109,34 +109,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 132,
+      "items": 129,
       "publishers": 3,
       "positive": 7,
-      "negative": 48,
-      "neutral": 77,
-      "languageIndex": -39.0,
+      "negative": 49,
+      "neutral": 73,
+      "languageIndex": -41.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.5,
+      "sourceConcentration": 55.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-27T18:42:50Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
+          "date": "2026-11-27T11:36:42Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
           "date": "2026-11-27T05:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
-          "date": "2026-11-26T22:22:43Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "How Canada May Be Winning Trump’s Trade War",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
-          "date": "2026-11-26T22:01:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -152,34 +152,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 71,
+      "items": 76,
       "publishers": 3,
       "positive": 3,
-      "negative": 5,
-      "neutral": 63,
-      "languageIndex": -5.1,
+      "negative": 6,
+      "neutral": 67,
+      "languageIndex": -3.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.5,
+      "sourceConcentration": 78.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
-          "date": "2026-11-27T09:43:30Z",
+          "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-27T21:55:53Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "France Outlook Cut to Negative by S&P in Pre-Election Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-outlook-cut-to-negative-by-s-p-in-pre-election-warning",
+          "date": "2026-11-27T21:17:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What to Know Ahead of Spain’s Snap Election",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
-          "date": "2026-11-27T07:15:51Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
-          "date": "2026-11-27T06:15:00Z",
+          "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+          "date": "2026-11-27T20:24:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,34 +195,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 49,
+      "items": 50,
       "publishers": 3,
-      "positive": 5,
+      "positive": 6,
       "negative": 36,
       "neutral": 8,
-      "languageIndex": -43.6,
+      "languageIndex": -38.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 79.6,
+      "sourceConcentration": 78.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "India-U.S. trade deal is close to culmination: Goyal",
+          "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+          "date": "2026-11-27T15:18:46Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "US Partners Respond to New Tariffs With Anger, Diplomacy",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-27/us-partners-respond-to-new-tariffs-with-anger-diplomacy-video",
+          "date": "2026-11-27T11:50:49Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
           "date": "2026-11-27T06:44:25Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
-          "date": "2026-11-27T06:19:10Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
-          "date": "2026-11-26T22:22:43Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -236,20 +236,69 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "india_flows",
+      "title": "India flows",
+      "items": 31,
+      "publishers": 2,
+      "positive": 16,
+      "negative": 5,
+      "neutral": 10,
+      "languageIndex": 42.2,
+      "label": "Insufficient observations",
+      "sourceConcentration": 93.5,
+      "coverageSufficient": false,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+          "date": "2026-11-27T11:58:57Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Stock markets snap two-day rally; Sensex tanks 989 points amid profit booking",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-snap-two-day-rally-sensex-tanks-989-points-amid-profit-booking/article71750358.ece",
+          "date": "2026-11-27T11:35:47Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
+          "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
+          "date": "2026-11-27T04:23:18Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "hypothesis": "Emerging tailwind",
+      "potentialUpside": "Liquid large caps and domestic earnings",
+      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
+      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
+      "invalidation": "Two consecutive net-selling fortnights",
+      "hypothesisAsOf": "2026-11-11"
+    },
+    {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 32,
+      "items": 30,
       "publishers": 4,
       "positive": 5,
       "negative": 6,
-      "neutral": 21,
-      "languageIndex": -10.6,
+      "neutral": 19,
+      "languageIndex": -14.0,
       "label": "Mixed headline language",
-      "sourceConcentration": 37.5,
+      "sourceConcentration": 36.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+          "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-27T20:34:45Z",
+          "publisher": "www.bbc.co.uk"
+        },
         {
           "title": "Qatar’s LNG Export Push Provides Lifeline to South Asian Buyers",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/qatar-s-lng-export-push-provides-lifeline-to-south-asian-buyers",
@@ -261,12 +310,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-26T22:01:22Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Global shipping faces zero growth in 2026; India gains ground amid maritime disruptions: UNCTAD",
-          "url": "https://www.thehindu.com/business/Industry/global-shipping-faces-zero-growth-in-2026-india-gains-ground-amid-maritime-disruptions-unctad/article71746612.ece",
-          "date": "2026-11-26T14:21:20Z",
-          "publisher": "www.thehindu.com"
         }
       ],
       "directSectors": "Oil importers; OMCs; Airlines; Chemicals",
@@ -276,49 +319,6 @@
       "potentialDownside": "Shipping disruption can raise freight/insurance independent of crude",
       "confirmation": "Sustained Brent easing AND freight/insurance normalization",
       "invalidation": "Fresh vessel attacks; Brent rises; route closures",
-      "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "india_flows",
-      "title": "India flows",
-      "items": 32,
-      "publishers": 2,
-      "positive": 15,
-      "negative": 6,
-      "neutral": 11,
-      "languageIndex": 38.3,
-      "label": "Insufficient observations",
-      "sourceConcentration": 93.8,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
-          "date": "2026-11-27T04:23:18Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
-          "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
-          "date": "2026-11-26T10:46:08Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
-          "date": "2026-11-26T07:10:15Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "hypothesis": "Emerging tailwind",
-      "potentialUpside": "Liquid large caps and domestic earnings",
-      "potentialDownside": "Flows can reverse on US yields; valuation expansion may be done",
-      "confirmation": "Consistent fortnightly FPI net buying and sector breadth",
-      "invalidation": "Two consecutive net-selling fortnights",
       "hypothesisAsOf": "2026-11-11"
     },
     {
@@ -365,6 +365,49 @@
       "hypothesisAsOf": "2026-11-11"
     },
     {
+      "id": "climate_agri",
+      "title": "Monsoon and agriculture",
+      "items": 8,
+      "publishers": 4,
+      "positive": 0,
+      "negative": 2,
+      "neutral": 6,
+      "languageIndex": -12.5,
+      "label": "Mixed headline language",
+      "sourceConcentration": 50.0,
+      "coverageSufficient": true,
+      "attentionDeltaPct": null,
+      "changeInterpretation": "Not yet measurable",
+      "exampleSources": [
+        {
+          "title": "Power Outages, Flood Risks Linger as Storm Leaves East Coast",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages",
+          "date": "2026-11-27T14:20:06Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Copper Price Volatility Clouds Peru’s El Niño Relief Spending",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/copper-price-volatility-clouds-peru-s-el-nino-relief-spending",
+          "date": "2026-11-27T14:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
+          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
+          "date": "2026-11-25T17:09:05Z",
+          "publisher": "www.thehindu.com"
+        }
+      ],
+      "directSectors": "Agri inputs; FMCG; Rural consumption",
+      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
+      "hypothesis": "Risk / proxy",
+      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
+      "potentialDownside": "Food-cost and rural income hit",
+      "confirmation": "Rainfall and sowing data consistent with demand",
+      "invalidation": "Weather forecast not realized in yields",
+      "hypothesisAsOf": "2026-10-23"
+    },
+    {
       "id": "healthcare",
       "title": "Hospital sector",
       "items": 7,
@@ -406,49 +449,6 @@
       "confirmation": "Hospital-level EBITDA and cash ROIC improve",
       "invalidation": "New beds fail to cover fixed overhead",
       "hypothesisAsOf": "2026-11-11"
-    },
-    {
-      "id": "climate_agri",
-      "title": "Monsoon and agriculture",
-      "items": 6,
-      "publishers": 4,
-      "positive": 0,
-      "negative": 1,
-      "neutral": 5,
-      "languageIndex": -12.5,
-      "label": "Insufficient observations",
-      "sourceConcentration": 33.3,
-      "coverageSufficient": false,
-      "attentionDeltaPct": null,
-      "changeInterpretation": "Not yet measurable",
-      "exampleSources": [
-        {
-          "title": "Broad-based pressure on food prices continues: RBI Bulletin",
-          "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
-          "date": "2026-11-25T17:09:05Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Homes abandoned, harvests failing: Haiti’s farmers rebuild amid violence, hunger and El Niño",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168834",
-          "date": "2026-11-21T12:00:00Z",
-          "publisher": "news.un.org"
-        },
-        {
-          "title": "Congress Needs to Pass Funding, FISA Reauthorization in Lame Duck, Says Flood",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-17/congress-needs-to-reauthorize-fisa-in-lame-duck-flood-video",
-          "date": "2026-11-17T19:23:19Z",
-          "publisher": "www.bloomberg.com"
-        }
-      ],
-      "directSectors": "Agri inputs; FMCG; Rural consumption",
-      "proxySectors": "Tractors; Two-wheelers; Irrigation; Insurance",
-      "hypothesis": "Risk / proxy",
-      "potentialUpside": "Irrigation/replacement agriculture if demand holds",
-      "potentialDownside": "Food-cost and rural income hit",
-      "confirmation": "Rainfall and sowing data consistent with demand",
-      "invalidation": "Weather forecast not realized in yields",
-      "hypothesisAsOf": "2026-10-23"
     },
     {
       "id": "auto_consumer",
@@ -496,12 +496,12 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 3,
+      "items": 2,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 2,
-      "languageIndex": -33.3,
+      "neutral": 1,
+      "languageIndex": -50.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -518,12 +518,6 @@
           "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
           "date": "2026-11-23T11:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
-          "date": "2026-11-13T16:04:20Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -641,34 +635,34 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 145,
+      "items": 144,
       "publishers": 4,
-      "positive": 7,
+      "positive": 6,
       "negative": 61,
       "neutral": 77,
-      "languageIndex": -31.0,
+      "languageIndex": -35.5,
       "label": "Insufficient observations",
-      "sourceConcentration": 86.2,
+      "sourceConcentration": 85.4,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Zambia’s Central Bank Holds Key Rate as Inflation Risk Grow",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/zambia-s-central-bank-holds-key-rate-as-inflation-risk-grow",
-          "date": "2026-11-27T09:25:36Z",
-          "publisher": "www.bloomberg.com"
+          "title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
+          "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
+          "date": "2026-11-27T16:46:37Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "ECB Consumer Expectations Survey results – October 2026",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
-          "date": "2026-11-27T09:00:00Z",
-          "publisher": "www.ecb.europa.eu"
+          "title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+          "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
+          "date": "2026-11-27T16:20:17Z",
+          "publisher": "www.thehindu.com"
         },
         {
-          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
-          "date": "2026-11-27T08:19:32Z",
+          "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
+          "date": "2026-11-27T16:18:45Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -684,34 +678,34 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 132,
+      "items": 129,
       "publishers": 3,
       "positive": 7,
-      "negative": 48,
-      "neutral": 77,
-      "languageIndex": -39.0,
+      "negative": 49,
+      "neutral": 73,
+      "languageIndex": -41.5,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 54.5,
+      "sourceConcentration": 55.0,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-27T18:42:50Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
+          "date": "2026-11-27T11:36:42Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
           "date": "2026-11-27T05:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
-          "date": "2026-11-26T22:22:43Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "How Canada May Be Winning Trump’s Trade War",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
-          "date": "2026-11-26T22:01:03Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -727,34 +721,34 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 71,
+      "items": 76,
       "publishers": 3,
       "positive": 3,
-      "negative": 5,
-      "neutral": 63,
-      "languageIndex": -5.1,
+      "negative": 6,
+      "neutral": 67,
+      "languageIndex": -3.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 77.5,
+      "sourceConcentration": 78.9,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
-          "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
-          "date": "2026-11-27T09:43:30Z",
+          "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-11-27T21:55:53Z",
+          "publisher": "www.bbc.co.uk"
+        },
+        {
+          "title": "France Outlook Cut to Negative by S&P in Pre-Election Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-outlook-cut-to-negative-by-s-p-in-pre-election-warning",
+          "date": "2026-11-27T21:17:53Z",
           "publisher": "www.bloomberg.com"
         },
         {
-          "title": "What to Know Ahead of Spain’s Snap Election",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
-          "date": "2026-11-27T07:15:51Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
-          "date": "2026-11-27T06:15:00Z",
+          "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+          "date": "2026-11-27T20:24:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -770,34 +764,34 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 49,
+      "items": 50,
       "publishers": 3,
-      "positive": 5,
+      "positive": 6,
       "negative": 36,
       "neutral": 8,
-      "languageIndex": -43.6,
+      "languageIndex": -38.0,
       "label": "Insufficient observations",
-      "sourceConcentration": 79.6,
+      "sourceConcentration": 78.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "India-U.S. trade deal is close to culmination: Goyal",
+          "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+          "date": "2026-11-27T15:18:46Z",
+          "publisher": "www.thehindu.com"
+        },
+        {
+          "title": "US Partners Respond to New Tariffs With Anger, Diplomacy",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-27/us-partners-respond-to-new-tariffs-with-anger-diplomacy-video",
+          "date": "2026-11-27T11:50:49Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
           "date": "2026-11-27T06:44:25Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
-          "date": "2026-11-27T06:19:10Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
-          "date": "2026-11-26T22:22:43Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -813,12 +807,12 @@
     {
       "id": "sovereign_credit",
       "title": "Sovereign credit",
-      "items": 3,
+      "items": 2,
       "publishers": 1,
       "positive": 0,
       "negative": 1,
-      "neutral": 2,
-      "languageIndex": -33.3,
+      "neutral": 1,
+      "languageIndex": -50.0,
       "label": "Insufficient observations",
       "sourceConcentration": 100.0,
       "coverageSufficient": false,
@@ -835,12 +829,6 @@
           "title": "Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit",
           "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit",
           "date": "2026-11-23T11:00:00Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
-          "date": "2026-11-13T16:04:20Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -934,28 +922,28 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 427
+      "stories": 426
     },
     {
       "publisher": "www.bbc.co.uk",
-      "stories": 108
+      "stories": 106
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 80
+      "stories": 79
     },
     {
       "publisher": "news.un.org",
-      "stories": 19
+      "stories": 17
     },
     {
       "publisher": "www.ecb.europa.eu",
-      "stories": 5
+      "stories": 6
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 37,
-    "latestAvailableFeeds": 14,
+    "reportedScanCount": 38,
+    "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
   "historicalComparisonReady": false,
