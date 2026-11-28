@@ -3,6 +3,503 @@
   "about": "Dated AI-reviewed market morning briefings. Every paragraph must be attributable to sources or identified as an interpretation; no fictional smart-money flow.",
   "briefs": [
     {
+      "id": "2026-11-28-am",
+      "asOf": "2026-11-28",
+      "createdAt": "2026-11-28T01:56:01Z",
+      "author": "ChatGPT scheduled research",
+      "reviewType": "daily_ai_morning_review",
+      "publicationStatus": "Published — evidence-qualified; primary flow and credit gaps",
+      "marketSession": "AM — Saturday 28 November 2026; prior full Indian session 27 November; weekend review",
+      "coverageWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-28"
+      },
+      "sourceArchiveAsOf": "2026-11-27T22:14:05.994263Z",
+      "headline": "Indian cash support fades; IT relative rebound reverses as RBI eases daily reserve maintenance and France credit outlook weakens",
+      "executiveSummary": "Friday NIFTY fell 1.07%; reported combined cash buying fell to 1077.91 crore from 11474.05. RBI daily reserve flexibility improves but is not a rate cut. France negative outlook and rising US yields challenge discount rates. Reuters reports garment order diversion toward India. Sector leadership and priced event-risk: private banks +5.60pp and PSU +4.39pp relative 3m despite absolute losses; IT -1.20pp vs +3.03pp. Fed +25bp YES 94.5¢ unchanged vs latest stored snapshot, ceasefire 95.25¢ down 0.25pp. Betting quotes not objective probabilities or institutional flows. News scan 15/15, 909 retained, 26 new; headline index -16.2 vs -15, not investor sentiment. 07:00 refresh unconfirmed; latest news 03:44:05 IST, sector 03:44:41, prediction 03:44:42, company 03:44:44. Sources linked in stories.",
+      "regime": {
+        "label": "Selective relative resilience amid domestic risk-off; broad risk-on unconfirmed",
+        "change": "Cash support sharply slows and IT relative rebound reverses",
+        "confidence": "Moderate price and corroborated secondary reporting; low primary sector flow and credit confirmation",
+        "marketConfirmation": "NIFTY -1.07%; bank indices decline; metals rebound; USDINR 92.98",
+        "contradictions": "Positive FII cash but falling index; banks relative lead improves despite weekly losses; AI equity rebound not capex",
+        "missingSignals": "Primary NSE numerical rows, NSDL, AMFI primary table, CFTC, TIC, issuer CDS, verified fresh corporate transactions"
+      },
+      "keyNumbers": [
+        {
+          "name": "NIFTY 50",
+          "value": "25607.20 (-1.07%)",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "FII buy/sell/net",
+          "value": "14259.45 / 12625.12 / +1634.33 INR crore",
+          "period": "27 Nov",
+          "dataClass": "secondary provisional combined cash",
+          "source": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+        },
+        {
+          "name": "DII buy/sell/net",
+          "value": "17263.65 / 17820.07 / -556.42 INR crore",
+          "period": "27 Nov",
+          "dataClass": "secondary provisional combined cash",
+          "source": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+        },
+        {
+          "name": "FII futures",
+          "value": "-92872 net contracts",
+          "period": "27 Nov",
+          "dataClass": "secondary positioning",
+          "source": "https://www.jivanimarkets.com/markets/fii-dii"
+        },
+        {
+          "name": "November cash FII/DII",
+          "value": "+129578.87 / -55454.13 INR crore",
+          "period": "through 27 Nov",
+          "dataClass": "secondary cumulative cash; DII vendor conflict",
+          "source": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+        },
+        {
+          "name": "Call money",
+          "value": "5.76% weighted average",
+          "period": "26 Nov",
+          "dataClass": "official rate",
+          "source": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64052"
+        },
+        {
+          "name": "USDINR",
+          "value": "92.98",
+          "period": "27 Nov",
+          "dataClass": "secondary FX",
+          "source": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece"
+        },
+        {
+          "name": "US 10y",
+          "value": "4.921% (+7.4bp)",
+          "period": "27 Nov",
+          "dataClass": "secondary yield",
+          "source": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039"
+        },
+        {
+          "name": "AMFI equity subscriptions",
+          "value": "32993.64 INR crore (-13.87% MoM)",
+          "period": "October",
+          "dataClass": "secondary fund subscriptions",
+          "source": "https://www.financialexpress.com/money/small-cap-mid-cap-funds-lose-momentum-as-equity-inflows-fall-14-in-october-2026-amfi-4381345/"
+        },
+        {
+          "name": "Net FDI",
+          "value": "-4.95 USD billion",
+          "period": "September",
+          "dataClass": "secondary direct investment",
+          "source": "https://indianexpress.com/article/business/india-net-fdi-outflow-4-95-billion-september-worst-15-years-rbi-data-10979033/"
+        },
+        {
+          "name": "Private banks",
+          "value": "3m +11.52%; relative +5.60pp; 1w -2.34%; 1m +15.75%; acceleration +14.82pp; rank 1",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "PSU banks",
+          "value": "3m +10.31%; relative +4.39pp; 1w -3.94%; 1m +16.70%; acceleration +15.36pp; rank 2",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "IT",
+          "value": "3m +4.72%; relative -1.20pp; 1w +4.58%; 1m +3.82%; acceleration -8.52pp; rank 10",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Realty",
+          "value": "3m +5.51%; relative -0.41pp; 1w +2.14%; 1m +20.19%; acceleration +26.42pp; rank 7",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Metals",
+          "value": "3m -12.18%; relative -18.10pp; 1w -3.20%; 1m +0.92%; acceleration +9.36pp; rank 19",
+          "period": "27 Nov",
+          "dataClass": "price",
+          "source": "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+        },
+        {
+          "name": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+          "value": "94.5¢ unchanged vs previous; +1pp vs prior AM; volume $351776.11; liquidity $1523137.69",
+          "period": "27 Nov 22:14:42.038818 UTC vs 09:55:09.424841 UTC",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+          "value": "3.95¢ vs 2.95¢ (+1pp); volume $1192691; liquidity $625123.95",
+          "period": "same snapshots",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/fed-decision-in-december-20260729232808632"
+        },
+        {
+          "name": "Israel x Iran ceasefire continues through November 30?",
+          "value": "95.25¢ vs 95.5¢ (-0.25pp); volume $174101.03; liquidity $81357.79",
+          "period": "same snapshots",
+          "dataClass": "betting quote",
+          "source": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+        },
+        {
+          "name": "NSDL sector",
+          "value": "Unavailable; endpoint 502",
+          "period": "latest fortnight",
+          "dataClass": "missing",
+          "source": "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx"
+        },
+        {
+          "name": "CFTC",
+          "value": "Numerical positions unavailable",
+          "period": "latest weekly",
+          "dataClass": "missing",
+          "source": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm"
+        },
+        {
+          "name": "TIC",
+          "value": "Country transactions unavailable",
+          "period": "latest monthly",
+          "dataClass": "missing",
+          "source": "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+        }
+      ],
+      "stories": [
+        {
+          "id": "2026-11-28-am-1",
+          "rank": 1,
+          "importance": "high",
+          "theme": "Flows",
+          "geography": "India",
+          "title": "Cash support fades as equities fall",
+          "whatHappened": "27 Nov NIFTY 25607.20 vs 25884.50 (-1.07%); FII +1634.33 crore vs +5843.33; DII -556.42 vs +5630.72. Combined +1077.91 vs +11474.05. Secondary futures net short 92872 vs 88469.",
+          "whyItMatters": [
+            "Lower marginal cash demand reduces liquidity support.",
+            "Futures positioning may hedge cash exposure; falling prices despite net buying imply other sellers."
+          ],
+          "smartMoney": "Secondary cash transactions and futures positioning; primary not verified",
+          "direct": "Large caps; banks",
+          "proxies": "Brokers; exchanges",
+          "whatCouldChange": "Primary turnover, breadth and subsequent cash/futures changes",
+          "caution": "Secondary sources agree daily; monthly DII totals conflict across vendors; no sector attribution.",
+          "sources": [
+            "https://www.kotakneo.com/share-market-today/fii-dii-data/",
+            "https://www.financialexpress.com/market/fiis-net-buy-rs-1634-cr-on-friday-why-did-markets-fall-even-as-nov-haul-tops-rs-1-20l-cr-4395580/",
+            "https://www.jivanimarkets.com/markets/fii-dii",
+            "https://www.nseindia.com/reports/fii-dii",
+            "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json"
+          ],
+          "evidenceType": "Corroborated secondary cash and repository price"
+        },
+        {
+          "id": "2026-11-28-am-2",
+          "rank": 2,
+          "importance": "high",
+          "theme": "Monetary policy",
+          "geography": "India",
+          "title": "RBI relaxes daily reserve maintenance, not reserve ratio",
+          "whatHappened": "27 Nov RBI reported lowering daily CRR maintenance from 99% to 90% effective fortnight starting Dec 1; underlying CRR remains 3%. Official RBI Nov 26 call money weighted average 5.76%, overnight aggregate 5.63%.",
+          "whyItMatters": [
+            "More daily reserve flexibility may reduce overnight funding volatility.",
+            "Full fortnight reserve obligation remains; liquidity flexibility is not a repo cut or permanent reserve injection."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Banks; NBFCs",
+          "proxies": "Housing finance; realty",
+          "whatCouldChange": "Call rate versus repo, system liquidity, Dec 4 MPC",
+          "caution": "Nomura 50bp hike forecast is not policy; inflation may offset funding relief.",
+          "sources": [
+            "https://www.reuters.com/world/india/india-central-bank-cuts-reserve-ratio-maintenance-90-99-2026-11-27/",
+            "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64052",
+            "https://m.economictimes.com/markets/stocks/news/rbi-may-surprise-markets-with-50-bps-rate-hike-in-december-as-inflation-risks-mount-nomura/articleshow/136217780.cms"
+          ],
+          "evidenceType": "Official money-market data plus corroborated policy reporting"
+        },
+        {
+          "id": "2026-11-28-am-3",
+          "rank": 3,
+          "importance": "high",
+          "theme": "Credit and rates",
+          "geography": "France/US",
+          "title": "France outlook turns negative as US yields rise",
+          "whatHappened": "27 Nov S&P reportedly affirmed France A+/A-1 but lowered outlook to negative; WSJ reports US 10y 4.921% (+7.4bp), 2y 4.693% (+6bp) in shortened session.",
+          "whyItMatters": [
+            "Higher sovereign yields raise global discount rates and funding hurdles.",
+            "French fiscal uncertainty may widen sovereign-bank funding risk and weaken European import demand."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Banks; duration assets; IT exporters",
+          "proxies": "NBFCs; infrastructure; textiles",
+          "whatCouldChange": "OAT-Bund spread, Treasury close, credit spreads and budget passage",
+          "caution": "Outlook is not downgrade/default/CDS event; thin holiday trading can exaggerate moves.",
+          "sources": [
+            "https://www.reuters.com/markets/currencies/sp-revises-france-outlook-negative-mounting-budget-pressures-weak-growth-2026-11-27/",
+            "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039"
+          ],
+          "evidenceType": "Publisher-reported rating action and yields"
+        },
+        {
+          "id": "2026-11-28-am-4",
+          "rank": 4,
+          "importance": "high",
+          "theme": "Trade",
+          "geography": "Bangladesh/India/US",
+          "title": "Garment orders reportedly shift toward India",
+          "whatHappened": "27 Nov Reuters cites factory owners estimating $254m diverted from Bangladesh Nov 1–18, mostly to India; Goyal says US trade talks near culmination per Hindu.",
+          "whyItMatters": [
+            "Incremental orders could raise utilization and spread fixed costs.",
+            "Capacity, labour, working capital and final US tariffs determine realized margins."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Textiles; apparel exporters",
+          "proxies": "Dyes; packaging; logistics",
+          "whatCouldChange": "Signed orders, export data, tariff legal text and shipment realization",
+          "caution": "Factory-owner estimate not audited; temporary disruption may reverse; no signed US deal verified.",
+          "sources": [
+            "https://www.reuters.com/business/retail-consumer/global-fashion-brands-shift-orders-bangladesh-india-amid-unrest-2026-11-27/",
+            "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece"
+          ],
+          "evidenceType": "Dated reporting, conditional transmission"
+        },
+        {
+          "id": "2026-11-28-am-5",
+          "rank": 5,
+          "importance": "high",
+          "theme": "FX and energy",
+          "geography": "India/Gulf",
+          "title": "Rupee weakens as oil risk returns",
+          "whatHappened": "27 Nov Hindu reports USDINR 92.98, down 60 paise; Financial Express cites higher crude and Middle East tensions. Stored ceasefire quote remains high but narrow.",
+          "whyItMatters": [
+            "Imported fuel and feedstock costs can squeeze margins and inflation.",
+            "FX weakness can support exporter rupee revenue but hedges and foreign costs offset."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "Airlines; oil importers; chemicals",
+          "proxies": "Tyres; paints; fertiliser; logistics",
+          "whatCouldChange": "Landed crude, freight, USDINR, actual cargo disruption",
+          "caution": "No verified new physical outage or precise crude close; ceasefire contract does not establish Gulf safety.",
+          "sources": [
+            "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+            "https://www.financialexpress.com/market/fiis-net-buy-rs-1634-cr-on-friday-why-did-markets-fall-even-as-nov-haul-tops-rs-1-20l-cr-4395580/",
+            "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+          ],
+          "evidenceType": "Secondary FX and conditional energy transmission"
+        },
+        {
+          "id": "2026-11-28-am-6",
+          "rank": 6,
+          "importance": "medium",
+          "theme": "Rotation",
+          "geography": "India",
+          "title": "IT relative rebound reverses; banks retain lead",
+          "whatHappened": "27 Nov repository: IT 3m relative -1.20pp vs +3.03, rank 10 vs 4; private banks +5.60 vs +5.25, PSU +4.39 vs +3.52; both bank indices fell in absolute terms.",
+          "whyItMatters": [
+            "Relative resilience can coexist with absolute losses.",
+            "IT weekly gains remain positive but monthly acceleration negative; client demand not established."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "IT; banks",
+          "proxies": "Grid equipment; brokers",
+          "whatCouldChange": "Client guidance, NIM, sector breadth and NSDL",
+          "caution": "Rolling-window base effects can move relative ranks; no institutional sector purchases inferred.",
+          "sources": [
+            "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+            "https://www.financialexpress.com/market/fiis-net-buy-rs-1634-cr-on-friday-why-did-markets-fall-even-as-nov-haul-tops-rs-1-20l-cr-4395580/"
+          ],
+          "evidenceType": "Repository price data"
+        },
+        {
+          "id": "2026-11-28-am-7",
+          "rank": 7,
+          "importance": "medium",
+          "theme": "AI",
+          "geography": "US/Europe/India",
+          "title": "AI equity rebound does not establish capex recovery",
+          "whatHappened": "27 Nov Bloomberg RSS reports Anthropic shares rebound after volatile IPO week; 12 Nov Reuters Siemens order/guidance report provides older physical demand counterevidence.",
+          "whyItMatters": [
+            "Equity financing sentiment can affect future project hurdle rates.",
+            "Existing equipment orders may persist despite valuation volatility."
+          ],
+          "smartMoney": "Not measured",
+          "direct": "IT; data centres",
+          "proxies": "Transformers; cooling; cables",
+          "whatCouldChange": "Hyperscaler capex, signed orders, credit spreads",
+          "caution": "RSS headline not full-text verified; Siemens evidence older, not new; no fresh issuer CDS quote.",
+          "sources": [
+            "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+            "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/"
+          ],
+          "evidenceType": "Headline plus dated historical counterevidence"
+        },
+        {
+          "id": "2026-11-28-am-8",
+          "rank": 8,
+          "importance": "medium",
+          "theme": "Capital flows",
+          "geography": "India",
+          "title": "Direct investment contrasts with portfolio buying",
+          "whatHappened": "26 Nov Indian Express reports September net FDI outflow $4.95bn based on detailed RBI data; first-half net inflow $8.82bn. October AMFI-derived equity subscriptions 32993.64 crore, down 13.87% monthly.",
+          "whyItMatters": [
+            "Direct investment repatriation and outward investment may pressure FX despite portfolio buying.",
+            "Slower fund subscriptions may reduce marginal domestic demand but are not DII exchange sales."
+          ],
+          "smartMoney": "Secondary FDI and fund subscriptions; distinct classes",
+          "direct": "FX-sensitive firms; asset managers",
+          "proxies": "Brokers; importers",
+          "whatCouldChange": "Primary RBI FDI components and AMFI monthly table",
+          "caution": "Different observation periods and flow classes; no causal attribution to Friday prices.",
+          "sources": [
+            "https://indianexpress.com/article/business/india-net-fdi-outflow-4-95-billion-september-worst-15-years-rbi-data-10979033/",
+            "https://www.financialexpress.com/money/small-cap-mid-cap-funds-lose-momentum-as-equity-inflows-fall-14-in-october-2026-amfi-4381345/"
+          ],
+          "evidenceType": "Secondary official-data reporting"
+        }
+      ],
+      "watchNow": [
+        {
+          "sector": "Private banks",
+          "status": "Relative lead widens; weekly cooling",
+          "transmission": "NIM and daily funding",
+          "confirmation": "NSDL, call rates, deposit costs",
+          "counterevidence": "Absolute index down; weekly -2.34%"
+        },
+        {
+          "sector": "PSU banks",
+          "status": "Relative lead widens; weekly cooling",
+          "transmission": "Credit growth and treasury marks",
+          "confirmation": "Asset quality and funding",
+          "counterevidence": "Weekly -3.94%"
+        },
+        {
+          "sector": "IT",
+          "status": "Cooling relative",
+          "transmission": "Client spending and FX",
+          "confirmation": "Orders and earnings",
+          "counterevidence": "Rank 4 to 10; weekly still positive"
+        },
+        {
+          "sector": "Realty",
+          "status": "Monthly acceleration but lagging",
+          "transmission": "Bookings and financing",
+          "confirmation": "Collections and spreads",
+          "counterevidence": "3m relative negative"
+        },
+        {
+          "sector": "Metals",
+          "status": "Early relative rebound",
+          "transmission": "Physical demand and margins",
+          "confirmation": "Inventories and premiums",
+          "counterevidence": "Relative -18.10pp"
+        },
+        {
+          "sector": "Textiles",
+          "status": "Conditional order acceleration",
+          "transmission": "Utilization and exports",
+          "confirmation": "Signed orders and tariff text",
+          "counterevidence": "Temporary diversion"
+        },
+        {
+          "sector": "Healthcare",
+          "status": "Relative lag narrows",
+          "transmission": "Occupancy and margins",
+          "confirmation": "Earnings and corporate actions",
+          "counterevidence": "3m relative -0.17pp"
+        },
+        {
+          "sector": "Tyres/paints",
+          "status": "Cost relief unproven",
+          "transmission": "Landed inputs and FX",
+          "confirmation": "Crude, rubber, freight",
+          "counterevidence": "Rupee weaker"
+        },
+        {
+          "sector": "AI equipment",
+          "status": "Physical demand unproven",
+          "transmission": "Capex and order conversion",
+          "confirmation": "Signed orders and credit",
+          "counterevidence": "Equity rebound not capex"
+        }
+      ],
+      "cooling": [
+        "IT relative leadership",
+        "Bank weekly absolute momentum",
+        "Aggregate cash support",
+        "Oil cost relief"
+      ],
+      "risks": [
+        "Foreign cash reversal",
+        "Higher US yields",
+        "French fiscal/credit stress",
+        "Rupee and landed oil costs",
+        "Tariff enactment",
+        "Garment diversion reversal",
+        "AI financing stress",
+        "Corporate action distortion in OHLCV"
+      ],
+      "whatChanged": [
+        "27 Nov PM report absent in retrieved history; compare 27 AM and completed 27 close.",
+        "Combined cash net falls 90.6%; DII flips negative; futures short increases 4403 contracts (secondary).",
+        "IT rank 4 to 10; bank relative lead improves but absolute prices fall.",
+        "RBI daily maintenance change and France outlook are new.",
+        "Company signals: JLHL 27 Nov close 345.30 vs prior 55-session high 329.70, volume 3.59x, previous close 298; new mechanical breakout but 200DMA 867.74, slope -10.613%, 120-session return -73.59% suggest corporate-action/adjustment risk. Withhold investment interpretation pending exchange bhavcopy and split/bonus history, occupancy, margins, cash flow; invalidate below 329.70. Healthcare relative -0.17pp. Max Healthcare repeated alert, close 1071.30 below 1102.10, volume 0.52x; MRF/HDFCBANK/TCS/INFY flagged bars stale 26 Nov, excluded. 22 ready, 6 flagged; ready not necessarily fresh."
+      ],
+      "tomorrowChecklist": [
+        "Monday 30 Nov: reconcile primary NSE gross/net and NSDL fortnightly sector data",
+        "Check RBI daily reserve implementation Dec 1 and overnight rates",
+        "Verify France rating release and sovereign spreads; US yields",
+        "Check official US tariff text, garment shipments and India trade agreement",
+        "Verify oil cargo and FX; monitor narrow ceasefire contract",
+        "Reconcile JLHL corporate actions and completed OHLCV; refresh stale company bars",
+        "Retrieve AMFI primary, CFTC and TIC numerical tables; verify corporate stake filings"
+      ],
+      "sources": [
+        "https://www.kotakneo.com/share-market-today/fii-dii-data/",
+        "https://www.financialexpress.com/market/fiis-net-buy-rs-1634-cr-on-friday-why-did-markets-fall-even-as-nov-haul-tops-rs-1-20l-cr-4395580/",
+        "https://www.jivanimarkets.com/markets/fii-dii",
+        "https://www.nseindia.com/reports/fii-dii",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/sector-rotation.json",
+        "https://www.reuters.com/world/india/india-central-bank-cuts-reserve-ratio-maintenance-90-99-2026-11-27/",
+        "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64052",
+        "https://m.economictimes.com/markets/stocks/news/rbi-may-surprise-markets-with-50-bps-rate-hike-in-december-as-inflation-risks-mount-nomura/articleshow/136217780.cms",
+        "https://www.reuters.com/markets/currencies/sp-revises-france-outlook-negative-mounting-budget-pressures-weak-growth-2026-11-27/",
+        "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-in-shortened-post-thanksgiving-trade-f0822039",
+        "https://www.reuters.com/business/retail-consumer/global-fashion-brands-shift-orders-bangladesh-india-amid-unrest-2026-11-27/",
+        "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+        "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+        "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+        "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+        "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+        "https://indianexpress.com/article/business/india-net-fdi-outflow-4-95-billion-september-worst-15-years-rbi-data-10979033/",
+        "https://www.financialexpress.com/money/small-cap-mid-cap-funds-lose-momentum-as-equity-inflows-fall-14-in-october-2026-amfi-4381345/",
+        "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+        "https://www.fpi.nsdl.co.in/web/Reports/FPI_Fortnightly_Selection.aspx",
+        "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "https://home.treasury.gov/data/treasury-international-capital-tic-system",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/stock-price-volume.json",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/news/scans.json",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/news/market-pulse.json",
+        "https://github.com/ashu2526/equity-atlas/blob/main/data/market-signals/polymarket-history.json",
+        "https://ashu2526.github.io/equity-atlas/company-signals.html"
+      ],
+      "limitations": [
+        "No fresh 07:00 source completion verified; archive 27 Nov 22:14:05.994263 UTC; ranked/pulse same; sector 22:14:41.943970; prediction 22:14:42.038818; stock 22:14:44.598456 UTC.",
+        "Primary NSE page accessible but numerical rows not verified; NSDL 502; AMFI/CFTC/TIC landing pages accessed but numerical tables not retrieved. No new flow database entries.",
+        "No independently verified fresh issuer CDS event, election outcome, completed corporate stake transaction or enacted tariff schedule; no quota filling.",
+        "Dashboard URL not accessible to web reader; repository data used. Fortnightly audit due 25 Nov remains outstanding; baseline file read but no audit write in this run.",
+        "Historical 11 Nov editorial and flow file remain dated; 3–14d comparison limited to retrieved reports and archive; headline source concentration 67.2%."
+      ]
+    },
+    {
       "id": "2026-11-27-am",
       "asOf": "2026-11-27",
       "createdAt": "2026-11-27T01:54:09Z",
