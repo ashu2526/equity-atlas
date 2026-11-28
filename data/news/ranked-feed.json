@@ -1,34 +1,34 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T22:14:05.994263Z",
+  "generatedAt": "2026-11-28T09:12:01.746623Z",
   "scope": {
-    "windowStart": "2026-11-13",
-    "windowEnd": "2026-11-27",
-    "headlineCount": 634,
-    "clusterCount": 609,
+    "windowStart": "2026-11-14",
+    "windowEnd": "2026-11-28",
+    "headlineCount": 627,
+    "clusterCount": 603,
     "publishedCards": 80,
     "rankingMethod": "transparent keyword-materiality, source diversity and recency; not AI"
   },
   "topThemeCounts": [
     {
       "theme": "ai_rotation",
-      "headlines": 167
+      "headlines": 161
     },
     {
       "theme": "inflation_rates",
-      "headlines": 144
+      "headlines": 146
     },
     {
       "theme": "geopolitics",
-      "headlines": 129
+      "headlines": 130
     },
     {
       "theme": "elections_policy",
-      "headlines": 76
+      "headlines": 77
     },
     {
       "theme": "trade_policy",
-      "headlines": 50
+      "headlines": 49
     },
     {
       "theme": "india_flows",
@@ -36,7 +36,7 @@
     },
     {
       "theme": "energy_shipping",
-      "headlines": 30
+      "headlines": 27
     },
     {
       "theme": "defence_capex",
@@ -52,7 +52,7 @@
     },
     {
       "theme": "auto_consumer",
-      "headlines": 5
+      "headlines": 4
     },
     {
       "theme": "sovereign_credit",
@@ -66,17 +66,17 @@
   "geographyMentions": [
     {
       "geography": "United States",
-      "headlines": 103,
+      "headlines": 101,
+      "warning": "NEWS MENTIONS, not fund flows"
+    },
+    {
+      "geography": "Europe",
+      "headlines": 67,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
       "geography": "Russia / Ukraine",
       "headlines": 67,
-      "warning": "NEWS MENTIONS, not fund flows"
-    },
-    {
-      "geography": "Europe",
-      "headlines": 66,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
@@ -86,7 +86,7 @@
     },
     {
       "geography": "Middle East",
-      "headlines": 40,
+      "headlines": 41,
       "warning": "NEWS MENTIONS, not fund flows"
     },
     {
@@ -102,11 +102,11 @@
   ],
   "cards": [
     {
-      "id": "bc4ac8882132f8668770",
-      "published": "2026-11-26T22:22:43Z",
-      "priorityScore": 22.5,
+      "id": "a732e173a0a0c3f7eeba",
+      "published": "2026-11-26T22:01:03Z",
+      "priorityScore": 21.5,
       "priority": "High — verify sources",
-      "headline": "Why Trump’s Trade War May Benefit Canada in the Long Run",
+      "headline": "How Canada May Be Winning Trump’s Trade War",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
@@ -130,16 +130,16 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
-          "published": "2026-11-26T22:22:43Z"
-        },
-        {
           "title": "How Canada May Be Winning Trump’s Trade War",
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/videos/2026-11-26/how-canada-may-be-winning-trump-s-trade-war-video",
           "published": "2026-11-26T22:01:03Z"
+        },
+        {
+          "title": "Why Trump’s Trade War May Benefit Canada in the Long Run",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/why-trump-s-trade-war-may-benefit-canada-in-the-long-run",
+          "published": "2026-11-26T22:22:43Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -149,7 +149,7 @@
     {
       "id": "343149636b1555d2ccef",
       "published": "2026-11-27T06:44:25Z",
-      "priorityScore": 17.5,
+      "priorityScore": 16.5,
       "priority": "High — verify sources",
       "headline": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
       "headlineType": "Unverified publisher RSS headline",
@@ -178,44 +178,6 @@
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
           "published": "2026-11-27T06:44:25Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "012b324bfc0a36c0a39b",
-      "published": "2026-11-24T02:38:19Z",
-      "priorityScore": 15.5,
-      "priority": "High — verify sources",
-      "headline": "Copper Edges Closer to Bear Market on Tech Rout, Tariff Anxiety",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Copper Edges Closer to Bear Market on Tech Rout, Tariff Anxiety",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/copper-resumes-decline-as-investors-look-beyond-drama-at-nvidia",
-          "published": "2026-11-24T02:38:19Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -338,6 +300,44 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
+      "id": "012b324bfc0a36c0a39b",
+      "published": "2026-11-24T02:38:19Z",
+      "priorityScore": 14.5,
+      "priority": "High — verify sources",
+      "headline": "Copper Edges Closer to Bear Market on Tech Rout, Tariff Anxiety",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Copper Edges Closer to Bear Market on Tech Rout, Tariff Anxiety",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/copper-resumes-decline-as-investors-look-beyond-drama-at-nvidia",
+          "published": "2026-11-24T02:38:19Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
       "id": "cc96fe72731a761944e1",
       "published": "2026-11-25T07:16:22Z",
       "priorityScore": 14.5,
@@ -376,275 +376,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "8098756a6e6d3c112f37",
-      "published": "2026-11-24T04:11:45Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation",
-        "trade_policy"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
-          "published": "2026-11-24T04:11:45Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "b9161de388b6fcd3e7df",
-      "published": "2026-11-26T03:35:05Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Singapore Is ‘Very Disappointed’ by Trump’s Proposed Tariff Hike",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Singapore Is ‘Very Disappointed’ by Trump’s Proposed Tariff Hike",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/singapore-is-very-disappointed-by-trump-s-proposed-tariff-hike",
-          "published": "2026-11-26T03:35:05Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "cacf60a9f7eb3b317069",
-      "published": "2026-11-26T03:45:09Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "China Vows to Defend Interests as Trump Threatens 40% Tariff",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "China"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "China Vows to Defend Interests as Trump Threatens 40% Tariff",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-s-china-tariffs-raise-threat-of-new-test-for-trade-truce",
-          "published": "2026-11-26T03:45:09Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "d10e214125b2aa8ed2e8",
-      "published": "2026-11-26T04:19:44Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Japan Protests New US Tariff Rate, Allegation of Excess Capacity",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "United States",
-        "Japan"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Japan Protests New US Tariff Rate, Allegation of Excess Capacity",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-protests-new-us-tariff-rate-allegation-of-excess-capacity",
-          "published": "2026-11-26T04:19:44Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "8c7961a12eada505ad0e",
-      "published": "2026-11-26T07:10:15Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
-      "transmissionChannel": "Cross-border equity allocation",
-      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
-      "topics": [
-        "india_flows",
-        "inflation_rates"
-      ],
-      "primaryTheme": "india_flows",
-      "geographies": [
-        "India"
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
-      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
-      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
-      "thesisInvalidation": "Two consecutive net-selling fortnights",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
-          "published": "2026-11-26T07:10:15Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "925920d0df46ddd94656",
-      "published": "2026-11-26T08:02:48Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/daybreak-europe-11-26-2026-video",
-          "published": "2026-11-26T08:02:48Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "910c140987a54f04659f",
-      "published": "2026-11-26T09:09:16Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
-      "transmissionChannel": "Tariff and supply-chain transmission",
-      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
-      "topics": [
-        "trade_policy"
-      ],
-      "primaryTheme": "trade_policy",
-      "geographies": [
-        "China"
-      ],
-      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
-      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
-      "possibleBeneficiaries": "Selective import substitution if capacity exists",
-      "possibleLosers": "Export barriers and retaliation; input import friction",
-      "thesisTest": "Implemented change in tariff with company-level exposure",
-      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-26/insight-with-haslinda-amin-11-26-2026-video",
-          "published": "2026-11-26T09:09:16Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "79a277b2bce992988a0c",
       "published": "2026-11-26T12:00:01Z",
       "priorityScore": 13.5,
@@ -676,45 +407,6 @@
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trading-partners-respond-to-trump-tariff-plans",
           "published": "2026-11-26T12:00:01Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "570d5bdb0ecff7b74016",
-      "published": "2026-11-27T05:00:00Z",
-      "priorityScore": 13.5,
-      "priority": "High — verify sources",
-      "headline": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
-      "transmissionChannel": "Geopolitical disruption and risk premiums",
-      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
-      "topics": [
-        "geopolitics"
-      ],
-      "primaryTheme": "geopolitics",
-      "geographies": [
-        "United States",
-        "Europe"
-      ],
-      "directSectors": "Energy; Shipping; Defence",
-      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
-      "possibleBeneficiaries": "Energy security and selected defence services",
-      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
-      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
-      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
-          "published": "2026-11-27T05:00:00Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -792,6 +484,45 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
           "published": "2026-11-22T06:34:21Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "8098756a6e6d3c112f37",
+      "published": "2026-11-24T04:11:45Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "topics": [
+        "ai_rotation",
+        "trade_policy"
+      ],
+      "primaryTheme": "ai_rotation",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
+      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
+      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Megaspeed, Singaporean company at heart of Nvidia scandal, added to U.S. export control list",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/sci-tech/technology/megaspeed-singaporean-company-at-heart-of-nvidia-scandal-added-to-us-export-control-list/article71737069.ece",
+          "published": "2026-11-24T04:11:45Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1031,13 +762,282 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "bb0287df64bbf0bc730a",
-      "published": "2026-11-27T06:19:10Z",
+      "id": "b9161de388b6fcd3e7df",
+      "published": "2026-11-26T03:35:05Z",
       "priorityScore": 12.5,
       "priority": "Medium — monitor",
-      "headline": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+      "headline": "Singapore Is ‘Very Disappointed’ by Trump’s Proposed Tariff Hike",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Singapore Is ‘Very Disappointed’ by Trump’s Proposed Tariff Hike",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/singapore-is-very-disappointed-by-trump-s-proposed-tariff-hike",
+          "published": "2026-11-26T03:35:05Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "cacf60a9f7eb3b317069",
+      "published": "2026-11-26T03:45:09Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "China Vows to Defend Interests as Trump Threatens 40% Tariff",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "China"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "China Vows to Defend Interests as Trump Threatens 40% Tariff",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-s-china-tariffs-raise-threat-of-new-test-for-trade-truce",
+          "published": "2026-11-26T03:45:09Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "d10e214125b2aa8ed2e8",
+      "published": "2026-11-26T04:19:44Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Japan Protests New US Tariff Rate, Allegation of Excess Capacity",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "United States",
+        "Japan"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Japan Protests New US Tariff Rate, Allegation of Excess Capacity",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-protests-new-us-tariff-rate-allegation-of-excess-capacity",
+          "published": "2026-11-26T04:19:44Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "8c7961a12eada505ad0e",
+      "published": "2026-11-26T07:10:15Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
+      "transmissionChannel": "Cross-border equity allocation",
+      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
+      "topics": [
+        "india_flows",
+        "inflation_rates"
+      ],
+      "primaryTheme": "india_flows",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
+      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
+      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
+      "thesisInvalidation": "Two consecutive net-selling fortnights",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+          "published": "2026-11-26T07:10:15Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "925920d0df46ddd94656",
+      "published": "2026-11-26T08:02:48Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/daybreak-europe-11-26-2026-video",
+          "published": "2026-11-26T08:02:48Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "910c140987a54f04659f",
+      "published": "2026-11-26T09:09:16Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
+      "transmissionChannel": "Tariff and supply-chain transmission",
+      "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
+      "topics": [
+        "trade_policy"
+      ],
+      "primaryTheme": "trade_policy",
+      "geographies": [
+        "China"
+      ],
+      "directSectors": "Exporters; Solar equipment; Chemicals; Auto ancillaries",
+      "proxySectors": "Domestic substitution; Logistics; Free-trade beneficiaries",
+      "possibleBeneficiaries": "Selective import substitution if capacity exists",
+      "possibleLosers": "Export barriers and retaliation; input import friction",
+      "thesisTest": "Implemented change in tariff with company-level exposure",
+      "thesisInvalidation": "Negotiated carve-out, tariff reversal, offsetting demand",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-26/insight-with-haslinda-amin-11-26-2026-video",
+          "published": "2026-11-26T09:09:16Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "570d5bdb0ecff7b74016",
+      "published": "2026-11-27T05:00:00Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Military events may disrupt commodities, transport, trade or procurement, but second-order effects need corroboration.",
+      "transmissionChannel": "Geopolitical disruption and risk premiums",
+      "watchNext": "Physical disruptions, sanctions implementation, commodity and credit moves",
+      "topics": [
+        "geopolitics"
+      ],
+      "primaryTheme": "geopolitics",
+      "geographies": [
+        "United States",
+        "Europe"
+      ],
+      "directSectors": "Energy; Shipping; Defence",
+      "proxySectors": "Fertilisers; Chemicals; Airlines; Pharma supply chain",
+      "possibleBeneficiaries": "Energy security and selected defence services",
+      "possibleLosers": "Fuel, freight and input-cost dependent businesses",
+      "thesisTest": "Persistent shipping attacks, physical disruptions and sanctions",
+      "thesisInvalidation": "Peace deal plus actual trade-route normalization",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
+          "published": "2026-11-27T05:00:00Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "8ed459ecc6ca94f170b4",
+      "published": "2026-11-27T15:18:46Z",
+      "priorityScore": 12.5,
+      "priority": "Medium — monitor",
+      "headline": "India-U.S. trade deal is close to culmination: Goyal",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
       "whyItMatters": "Actual enacted duties can redistribute costs and orders among exporters, importers and domestic substitutes.",
       "transmissionChannel": "Tariff and supply-chain transmission",
       "watchNext": "Published tariff text; issuer revenue exposure; order book and landed cost",
@@ -1059,16 +1059,16 @@
       "independentDomains": 2,
       "sources": [
         {
-          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
-          "published": "2026-11-27T06:19:10Z"
-        },
-        {
           "title": "India-U.S. trade deal is close to culmination: Goyal",
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
           "published": "2026-11-27T15:18:46Z"
+        },
+        {
+          "title": "India-US Trade Deal Talks Close to Culmination, Goyal Says",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/india-us-trade-deal-talks-close-to-culmination-goyal-says",
+          "published": "2026-11-27T06:19:10Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -1345,138 +1345,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "3383682e1f724d534646",
-      "published": "2026-11-26T23:36:40Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "Japan"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 2,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
-          "published": "2026-11-26T23:36:40Z"
-        },
-        {
-          "title": "BOJ’s Faster Inflation Indicator Backs Case for Another Hike",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/boj-s-faster-inflation-indicator-backs-case-for-another-hike",
-          "published": "2026-11-25T07:12:58Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "1ff0c14637703ab7f778",
-      "published": "2026-11-27T04:23:18Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
-      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
-      "transmissionChannel": "Cross-border equity allocation",
-      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
-      "topics": [
-        "india_flows"
-      ],
-      "primaryTheme": "india_flows",
-      "geographies": [
-        "India"
-      ],
-      "directSectors": "Large banks; Autos; Capital market infrastructure",
-      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
-      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
-      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
-      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
-      "thesisInvalidation": "Two consecutive net-selling fortnights",
-      "sourceCount": 3,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
-          "published": "2026-11-27T04:23:18Z"
-        },
-        {
-          "title": "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
-          "published": "2026-11-27T11:58:57Z"
-        },
-        {
-          "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
-          "publisher": "www.thehindu.com",
-          "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
-          "published": "2026-11-26T10:46:08Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
-      "id": "a805d3cd476c30e3b2c9",
-      "published": "2026-11-27T08:19:32Z",
-      "priorityScore": 11.5,
-      "priority": "Medium — monitor",
-      "headline": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "India"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
-          "published": "2026-11-27T08:19:32Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "c8a506361a0995eba572",
       "published": "2026-11-27T09:25:36Z",
       "priorityScore": 11.5,
@@ -1660,6 +1528,44 @@
           "publisher": "www.thehindu.com",
           "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
           "published": "2026-11-27T16:46:37Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "fd2fa9204da027b3a936",
+      "published": "2026-11-28T06:39:08Z",
+      "priorityScore": 11.5,
+      "priority": "Medium — monitor",
+      "headline": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+          "published": "2026-11-28T06:39:08Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -2205,44 +2111,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "d13b953c27930a863463",
-      "published": "2026-11-26T00:18:09Z",
-      "priorityScore": 10.5,
-      "priority": "Medium — monitor",
-      "headline": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
-      "transmissionChannel": "Discount rate and funding cost",
-      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
-      "topics": [
-        "inflation_rates"
-      ],
-      "primaryTheme": "inflation_rates",
-      "geographies": [
-        "United States"
-      ],
-      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
-      "proxySectors": "Banks; Consumer finance; FMCG input mix",
-      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
-      "possibleLosers": "Funding cost hikes; weaker demand",
-      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
-      "thesisInvalidation": "Energy/food inflation accelerates",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
-          "published": "2026-11-26T00:18:09Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "87452a6f093ff3bc64fe",
       "published": "2026-11-26T15:43:21Z",
       "priorityScore": 10.5,
@@ -2312,6 +2180,138 @@
           "publisher": "www.bloomberg.com",
           "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
           "published": "2026-11-26T19:41:34Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "3383682e1f724d534646",
+      "published": "2026-11-26T23:36:40Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "Japan"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 2,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
+          "published": "2026-11-26T23:36:40Z"
+        },
+        {
+          "title": "BOJ’s Faster Inflation Indicator Backs Case for Another Hike",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/boj-s-faster-inflation-indicator-backs-case-for-another-hike",
+          "published": "2026-11-25T07:12:58Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "1ff0c14637703ab7f778",
+      "published": "2026-11-27T04:23:18Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.thehindu.com; full event details require reading source article.",
+      "whyItMatters": "Flows may change the marginal equity buyer and valuation; verify actual transactions and sector attribution, not just index gains.",
+      "transmissionChannel": "Cross-border equity allocation",
+      "watchNext": "NSE FII/DII net trades; NSDL sector flows; earnings revisions",
+      "topics": [
+        "india_flows"
+      ],
+      "primaryTheme": "india_flows",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Large banks; Autos; Capital market infrastructure",
+      "proxySectors": "NBFCs; Domestic consumer; Exchange/brokers",
+      "possibleBeneficiaries": "Liquid large caps and domestic earnings",
+      "possibleLosers": "Flows can reverse on US yields; valuation expansion may be done",
+      "thesisTest": "Consistent fortnightly FPI net buying and sector breadth",
+      "thesisInvalidation": "Two consecutive net-selling fortnights",
+      "sourceCount": 3,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Rupee plunges 24 paise to 92.62 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/rupee-plunges-24-paise-to-9262-against-us-dollar/article71749383.ece",
+          "published": "2026-11-27T04:23:18Z"
+        },
+        {
+          "title": "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+          "published": "2026-11-27T11:58:57Z"
+        },
+        {
+          "title": "Rupee weakens 24 paise to settle at 92.44 against U.S. dollar",
+          "publisher": "www.thehindu.com",
+          "url": "https://www.thehindu.com/business/markets/rupee-weakens-24-paise-to-settle-at-9244-against-us-dollar/article71746086.ece",
+          "published": "2026-11-26T10:46:08Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "a805d3cd476c30e3b2c9",
+      "published": "2026-11-27T08:19:32Z",
+      "priorityScore": 10.5,
+      "priority": "Medium — monitor",
+      "headline": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
+      "topics": [
+        "inflation_rates"
+      ],
+      "primaryTheme": "inflation_rates",
+      "geographies": [
+        "India"
+      ],
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Nomura Now Sees India’s RBI Hiking by 50-Basis-Point in December",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nomura-now-sees-india-s-rbi-hiking-by-50-basis-point-in-december",
+          "published": "2026-11-27T08:19:32Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -2739,44 +2739,6 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "fe3b64d60fd37648dea1",
-      "published": "2026-11-20T23:54:51Z",
-      "priorityScore": 9.5,
-      "priority": "Medium — monitor",
-      "headline": "Historic Market Selloff Deepens After Anthropic IPO",
-      "headlineType": "Unverified publisher RSS headline",
-      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
-      "transmissionChannel": "Global technology capex economics",
-      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
-      "topics": [
-        "ai_rotation"
-      ],
-      "primaryTheme": "ai_rotation",
-      "geographies": [
-        "Unspecified / cross-border"
-      ],
-      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
-      "proxySectors": "India domestic financials; IT Services; Grid equipment",
-      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
-      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
-      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
-      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
-      "sourceCount": 1,
-      "independentDomains": 1,
-      "sources": [
-        {
-          "title": "Historic Market Selloff Deepens After Anthropic IPO",
-          "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-close-11-20-2026-video",
-          "published": "2026-11-20T23:54:51Z"
-        }
-      ],
-      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
-      "isVerified": false,
-      "smartMoneyStatus": "No direct flow measurement from this headline"
-    },
-    {
       "id": "82980ad805841f07a99d",
       "published": "2026-11-24T12:12:27Z",
       "priorityScore": 9.5,
@@ -3081,37 +3043,37 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "2cb8399a070111107e6a",
-      "published": "2026-11-27T01:00:00Z",
+      "id": "d13b953c27930a863463",
+      "published": "2026-11-26T00:18:09Z",
       "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "New Zealand’s Election Results Reveal Rare Hung Parliament",
+      "headline": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
-      "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
-      "transmissionChannel": "Policy credibility and fiscal allocation",
-      "watchNext": "Official legislation and funding; real orders and currency/rate response",
+      "whyItMatters": "Policy rates and inflation change borrowing costs and the valuation of long-duration cash flows.",
+      "transmissionChannel": "Discount rate and funding cost",
+      "watchNext": "Central bank release; yields and credit spreads; inflation surprises",
       "topics": [
-        "elections_policy"
+        "inflation_rates"
       ],
-      "primaryTheme": "elections_policy",
+      "primaryTheme": "inflation_rates",
       "geographies": [
-        "Unspecified / cross-border"
+        "United States"
       ],
-      "directSectors": "Public spending; Defence; Tariff-exposed exporters",
-      "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
-      "possibleBeneficiaries": "Policy-backed order book after implementation",
-      "possibleLosers": "Reversal/delay and fiscal reprioritization",
-      "thesisTest": "Official enacted measure and sector order/funding impact",
-      "thesisInvalidation": "Campaign rhetoric without enacted legislation",
+      "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
+      "proxySectors": "Banks; Consumer finance; FMCG input mix",
+      "possibleBeneficiaries": "Pricing power and short-duration balance sheets",
+      "possibleLosers": "Funding cost hikes; weaker demand",
+      "thesisTest": "Inflation expectations fall, yields and policy signals ease",
+      "thesisInvalidation": "Energy/food inflation accelerates",
       "sourceCount": 1,
       "independentDomains": 1,
       "sources": [
         {
-          "title": "New Zealand’s Election Results Reveal Rare Hung Parliament",
+          "title": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-zealand-s-official-election-results-reveal-hung-parliament",
-          "published": "2026-11-27T01:00:00Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+          "published": "2026-11-26T00:18:09Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -3119,11 +3081,11 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "0a09285c1b00eb274f49",
-      "published": "2026-11-27T06:15:00Z",
+      "id": "f0cfffd6579f8de85622",
+      "published": "2026-11-27T09:43:30Z",
       "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
+      "headline": "Modi’s Government to Revive Plan to Expand India’s Parliament",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
@@ -3134,7 +3096,7 @@
       ],
       "primaryTheme": "elections_policy",
       "geographies": [
-        "Unspecified / cross-border"
+        "India"
       ],
       "directSectors": "Public spending; Defence; Tariff-exposed exporters",
       "proxySectors": "Infrastructure; Utilities; Domestic manufacturing",
@@ -3146,10 +3108,10 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right",
+          "title": "Modi’s Government to Revive Plan to Expand India’s Parliament",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/spain-election-2026-how-pedro-sanchez-s-snap-vote-is-an-opening-for-far-right",
-          "published": "2026-11-27T06:15:00Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
+          "published": "2026-11-27T09:43:30Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
@@ -3157,11 +3119,11 @@
       "smartMoneyStatus": "No direct flow measurement from this headline"
     },
     {
-      "id": "3e98a2fec0cd5d411f79",
-      "published": "2026-11-27T07:15:51Z",
+      "id": "824c9f5aa8badc77ccf0",
+      "published": "2026-11-27T10:53:53Z",
       "priorityScore": 9.5,
       "priority": "Medium — monitor",
-      "headline": "What to Know Ahead of Spain’s Snap Election",
+      "headline": "Burundi Blocks Election Bid by Incumbent President’s Main Rival",
       "headlineType": "Unverified publisher RSS headline",
       "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
       "whyItMatters": "Election promises matter less than enacted laws, budgets and funding channels.",
@@ -3184,10 +3146,48 @@
       "independentDomains": 1,
       "sources": [
         {
-          "title": "What to Know Ahead of Spain’s Snap Election",
+          "title": "Burundi Blocks Election Bid by Incumbent President’s Main Rival",
           "publisher": "www.bloomberg.com",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-to-know-ahead-of-spain-s-snap-election-video",
-          "published": "2026-11-27T07:15:51Z"
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/burundi-blocks-election-bid-by-incumbent-president-s-main-rival",
+          "published": "2026-11-27T10:53:53Z"
+        }
+      ],
+      "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",
+      "isVerified": false,
+      "smartMoneyStatus": "No direct flow measurement from this headline"
+    },
+    {
+      "id": "c96034373447b9fa9a32",
+      "published": "2026-11-27T16:49:08Z",
+      "priorityScore": 9.5,
+      "priority": "Medium — monitor",
+      "headline": "Anthropic Shares Jump After Volatile First Week Since IPO",
+      "headlineType": "Unverified publisher RSS headline",
+      "whatWeKnow": "Headline reported by www.bloomberg.com; full event details require reading source article.",
+      "whyItMatters": "AI investment may help suppliers while valuation and monetisation concerns create market dislocations.",
+      "transmissionChannel": "Global technology capex economics",
+      "watchNext": "Hyperscaler capex guidance, orders, cash returns and analyst revisions",
+      "topics": [
+        "ai_rotation"
+      ],
+      "primaryTheme": "ai_rotation",
+      "geographies": [
+        "Unspecified / cross-border"
+      ],
+      "directSectors": "Data centre capex; Semiconductors; AI infrastructure",
+      "proxySectors": "India domestic financials; IT Services; Grid equipment",
+      "possibleBeneficiaries": "Relative rotation to India; lower-multiple cash earners",
+      "possibleLosers": "Data-centre value chain may still have structural orders; IT AI demand mixed",
+      "thesisTest": "Capex guidance cuts; AI basket underperforms broad market",
+      "thesisInvalidation": "Capex/order data beats; risk appetite recovers",
+      "sourceCount": 1,
+      "independentDomains": 1,
+      "sources": [
+        {
+          "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+          "publisher": "www.bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+          "published": "2026-11-27T16:49:08Z"
         }
       ],
       "sourceCoverage": "RSS headline snippets only. Multi-domain overlap is not independently verified fulltext.",

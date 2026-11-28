@@ -1,12 +1,107 @@
 {
   "schema": 1,
   "source": "Publisher and institutional RSS feeds",
-  "updatedAt": "2026-11-27T22:14:05.994263Z",
+  "updatedAt": "2026-11-28T09:12:01.746623Z",
   "retentionDays": 120,
   "firstScanAt": "2026-11-11T15:38:40.000100Z",
   "firstCoveredAt": "2026-11-11T15:38:40.000100Z",
   "coverage": "Selected source feeds and headline keyword matching only. Some publisher feeds may fail, truncate, or be stale.",
   "articles": [
+    {
+      "id": "b27da26b0ff3762fb2e3",
+      "title": "Eisenkot Edging Closer to Leading Israel With Talks Progressing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/eisenkot-edging-closer-to-leading-israel-with-talks-progressing",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-28T09:00:00Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "fd2fa9204da027b3a936",
+      "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-28T06:39:08Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Markets"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "5950ed6e3b4cd5e8f8ab",
+      "title": "Taiwan Counts Votes in Close Local Elections as China Watches",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/taiwan-goes-to-polls-in-tight-local-elections-as-china-watches",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-28T00:20:10Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "elections_policy"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "de656cefc5e2f778e752",
+      "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/vujcic-and-kocher-hint-at-more-ecb-rate-hiking-kurier-reports",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T22:49:15Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "66f15a3b7a6808a66543",
+      "title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T22:29:56Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "geopolitics"
+      ],
+      "feedSources": [
+        "Bloomberg Politics"
+      ],
+      "headlineTone": "neutral",
+      "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
     {
       "id": "4571de9aa2a87e32ff9e",
       "title": "Spanish PM and rivals rally supporters in final pitch for votes",
@@ -77,7 +172,8 @@
         "elections_policy"
       ],
       "feedSources": [
-        "Bloomberg Markets"
+        "Bloomberg Markets",
+        "Bloomberg Politics"
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
@@ -292,6 +388,25 @@
       ],
       "headlineTone": "neutral",
       "headlineLexicalScore": 0,
+      "evidenceType": "publisher RSS headline/link — source not full-text verified"
+    },
+    {
+      "id": "ba36a6a35e4caaaef150",
+      "title": "Bank Indonesia Says 2027 Focus to Be on Stability, Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/bank-indonesia-says-policy-focus-on-stability-inflation-in-2027",
+      "domain": "www.bloomberg.com",
+      "sourcecountry": "",
+      "language": "English",
+      "published": "2026-11-27T13:31:11Z",
+      "discovered": "2026-11-28T09:12:01.746623Z",
+      "topics": [
+        "inflation_rates"
+      ],
+      "feedSources": [
+        "Bloomberg Economics"
+      ],
+      "headlineTone": "negative",
+      "headlineLexicalScore": -1,
       "evidenceType": "publisher RSS headline/link — source not full-text verified"
     },
     {

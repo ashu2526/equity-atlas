@@ -2,6 +2,58 @@
   "schema": 1,
   "scans": [
     {
+      "id": "20261128T091201Z",
+      "asOf": "2026-11-28T09:12:01.746623Z",
+      "collectionMethod": "Publisher + official RSS feeds; headline title/link only",
+      "sourceFeedsConfigured": 15,
+      "queriesTotal": 15,
+      "queriesSucceeded": 15,
+      "queriesFailed": {},
+      "feedItemsSeen": {
+        "BBC World": 22,
+        "BBC Business": 53,
+        "BBC India": 27,
+        "BBC Middle East": 27,
+        "BBC Technology": 21,
+        "The Hindu Business": 60,
+        "The Hindu Markets": 60,
+        "The Hindu Economy": 60,
+        "The Hindu Industry": 60,
+        "Bloomberg Markets": 20,
+        "Bloomberg Economics": 20,
+        "Bloomberg Politics": 20,
+        "UN News": 30,
+        "Federal Reserve Monetary": 15,
+        "ECB Press": 15
+      },
+      "newUniqueArticles": 6,
+      "retainedArticles": 915,
+      "counts14d": {
+        "geopolitics": 130,
+        "inflation_rates": 146,
+        "elections_policy": 77,
+        "energy_shipping": 27,
+        "ai_rotation": 161,
+        "trade_policy": 49,
+        "climate_agri": 8,
+        "india_flows": 31,
+        "defence_capex": 17,
+        "healthcare": 7,
+        "sovereign_credit": 2,
+        "auto_consumer": 4,
+        "tech_credit": 1
+      },
+      "newByTopic": {
+        "geopolitics": 2,
+        "inflation_rates": 3,
+        "elections_policy": 1
+      },
+      "oldestRetainedAt": "2026-09-16T18:00:00Z",
+      "lookbackDays": 14,
+      "coverageWarning": "Selected publisher feeds only; RSS feeds vary in update frequency and length, no exhaustive news or CDS price data.",
+      "cdsStatus": "CDS-related press headlines; no verified live named-issuer CDS spreads"
+    },
+    {
       "id": "20261127T221405Z",
       "asOf": "2026-11-27T22:14:05.994263Z",
       "collectionMethod": "Publisher + official RSS feeds; headline title/link only",

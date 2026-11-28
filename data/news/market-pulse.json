@@ -1,36 +1,36 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T22:14:05.994263Z",
+  "generatedAt": "2026-11-28T09:12:01.746623Z",
   "model": "RULES_V1_SOURCE_BALANCED_NO_LLM",
   "mode": "observational_headline_proxy",
   "window": {
-    "start": "2026-11-13",
-    "end": "2026-11-27",
+    "start": "2026-11-14",
+    "end": "2026-11-28",
     "days": 14
   },
   "overall": {
-    "items": 634,
+    "items": 627,
     "publishers": 5,
     "positive": 65,
-    "negative": 169,
-    "neutral": 400,
+    "negative": 167,
+    "neutral": 395,
     "languageIndex": -16.2,
     "label": "Mixed headline language",
-    "sourceConcentration": 67.2,
+    "sourceConcentration": 67.0,
     "coverageSufficient": true
   },
   "topics": [
     {
       "id": "ai_rotation",
       "title": "AI rotation",
-      "items": 167,
+      "items": 161,
       "publishers": 3,
       "positive": 21,
       "negative": 11,
-      "neutral": 135,
-      "languageIndex": 4.9,
+      "neutral": 129,
+      "languageIndex": 5.1,
       "label": "Mixed headline language",
-      "sourceConcentration": 69.5,
+      "sourceConcentration": 68.3,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -66,35 +66,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 144,
+      "items": 146,
       "publishers": 4,
       "positive": 6,
       "negative": 61,
-      "neutral": 77,
-      "languageIndex": -35.5,
+      "neutral": 79,
+      "languageIndex": -35.4,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.4,
+      "sourceConcentration": 85.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+          "date": "2026-11-28T06:39:08Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/vujcic-and-kocher-hint-at-more-ecb-rate-hiking-kurier-reports",
+          "date": "2026-11-27T22:49:15Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
           "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
           "date": "2026-11-27T16:46:37Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
-          "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
-          "date": "2026-11-27T16:20:17Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
-          "date": "2026-11-27T16:18:45Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -109,35 +109,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 129,
+      "items": 130,
       "publishers": 3,
       "positive": 7,
       "negative": 49,
-      "neutral": 73,
-      "languageIndex": -41.5,
+      "neutral": 74,
+      "languageIndex": -41.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.0,
+      "sourceConcentration": 55.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Eisenkot Edging Closer to Leading Israel With Talks Progressing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/eisenkot-edging-closer-to-leading-israel-with-talks-progressing",
+          "date": "2026-11-28T09:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+          "date": "2026-11-27T22:29:56Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
           "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-27T18:42:50Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
-          "date": "2026-11-27T11:36:42Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
-          "date": "2026-11-27T05:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -152,18 +152,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 76,
+      "items": 77,
       "publishers": 3,
       "positive": 3,
       "negative": 6,
-      "neutral": 67,
+      "neutral": 68,
       "languageIndex": -3.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 78.9,
+      "sourceConcentration": 79.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Taiwan Counts Votes in Close Local Elections as China Watches",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/taiwan-goes-to-polls-in-tight-local-elections-as-china-watches",
+          "date": "2026-11-28T00:20:10Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Spanish PM and rivals rally supporters in final pitch for votes",
           "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
@@ -174,12 +180,6 @@
           "title": "France Outlook Cut to Negative by S&P in Pre-Election Warning",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-outlook-cut-to-negative-by-s-p-in-pre-election-warning",
           "date": "2026-11-27T21:17:53Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
-          "date": "2026-11-27T20:24:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -195,14 +195,14 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 50,
+      "items": 49,
       "publishers": 3,
       "positive": 6,
-      "negative": 36,
+      "negative": 35,
       "neutral": 8,
-      "languageIndex": -38.0,
+      "languageIndex": -37.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 78.0,
+      "sourceConcentration": 77.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -281,14 +281,14 @@
     {
       "id": "energy_shipping",
       "title": "Oil and shipping",
-      "items": 30,
+      "items": 27,
       "publishers": 4,
       "positive": 5,
-      "negative": 6,
-      "neutral": 19,
-      "languageIndex": -14.0,
+      "negative": 5,
+      "neutral": 17,
+      "languageIndex": -11.5,
       "label": "Mixed headline language",
-      "sourceConcentration": 36.7,
+      "sourceConcentration": 40.7,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -453,14 +453,14 @@
     {
       "id": "auto_consumer",
       "title": "Auto and demand",
-      "items": 5,
-      "publishers": 3,
+      "items": 4,
+      "publishers": 2,
       "positive": 3,
       "negative": 1,
-      "neutral": 1,
-      "languageIndex": 44.4,
+      "neutral": 0,
+      "languageIndex": 66.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 60.0,
+      "sourceConcentration": 75.0,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -635,35 +635,35 @@
     {
       "id": "inflation_rates",
       "title": "Inflation and rates",
-      "items": 144,
+      "items": 146,
       "publishers": 4,
       "positive": 6,
       "negative": 61,
-      "neutral": 77,
-      "languageIndex": -35.5,
+      "neutral": 79,
+      "languageIndex": -35.4,
       "label": "Insufficient observations",
-      "sourceConcentration": 85.4,
+      "sourceConcentration": 85.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+          "date": "2026-11-28T06:39:08Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/vujcic-and-kocher-hint-at-more-ecb-rate-hiking-kurier-reports",
+          "date": "2026-11-27T22:49:15Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
           "url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece",
           "date": "2026-11-27T16:46:37Z",
           "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
-          "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
-          "date": "2026-11-27T16:20:17Z",
-          "publisher": "www.thehindu.com"
-        },
-        {
-          "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
-          "date": "2026-11-27T16:18:45Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Rate-sensitive credit; Real estate; Capital-intensive sectors",
@@ -678,35 +678,35 @@
     {
       "id": "geopolitics",
       "title": "Geopolitics",
-      "items": 129,
+      "items": 130,
       "publishers": 3,
       "positive": 7,
       "negative": 49,
-      "neutral": 73,
-      "languageIndex": -41.5,
+      "neutral": 74,
+      "languageIndex": -41.4,
       "label": "Mostly negative headline language",
-      "sourceConcentration": 55.0,
+      "sourceConcentration": 55.4,
       "coverageSufficient": true,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
         {
+          "title": "Eisenkot Edging Closer to Leading Israel With Talks Progressing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/eisenkot-edging-closer-to-leading-israel-with-talks-progressing",
+          "date": "2026-11-28T09:00:00Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
+          "title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+          "date": "2026-11-27T22:29:56Z",
+          "publisher": "www.bloomberg.com"
+        },
+        {
           "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
           "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
           "date": "2026-11-27T18:42:50Z",
           "publisher": "www.bbc.co.uk"
-        },
-        {
-          "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
-          "date": "2026-11-27T11:36:42Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "EU Plans New Funds to Help Replace US War-Fighting Capabilities",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/eu-plans-new-funds-to-help-replace-us-war-fighting-capabilities",
-          "date": "2026-11-27T05:00:00Z",
-          "publisher": "www.bloomberg.com"
         }
       ],
       "directSectors": "Energy; Shipping; Defence",
@@ -721,18 +721,24 @@
     {
       "id": "elections_policy",
       "title": "Elections and policy",
-      "items": 76,
+      "items": 77,
       "publishers": 3,
       "positive": 3,
       "negative": 6,
-      "neutral": 67,
+      "neutral": 68,
       "languageIndex": -3.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 78.9,
+      "sourceConcentration": 79.2,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
       "exampleSources": [
+        {
+          "title": "Taiwan Counts Votes in Close Local Elections as China Watches",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-28/taiwan-goes-to-polls-in-tight-local-elections-as-china-watches",
+          "date": "2026-11-28T00:20:10Z",
+          "publisher": "www.bloomberg.com"
+        },
         {
           "title": "Spanish PM and rivals rally supporters in final pitch for votes",
           "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
@@ -743,12 +749,6 @@
           "title": "France Outlook Cut to Negative by S&P in Pre-Election Warning",
           "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-outlook-cut-to-negative-by-s-p-in-pre-election-warning",
           "date": "2026-11-27T21:17:53Z",
-          "publisher": "www.bloomberg.com"
-        },
-        {
-          "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
-          "date": "2026-11-27T20:24:01Z",
           "publisher": "www.bloomberg.com"
         }
       ],
@@ -764,14 +764,14 @@
     {
       "id": "trade_policy",
       "title": "Trade policy",
-      "items": 50,
+      "items": 49,
       "publishers": 3,
       "positive": 6,
-      "negative": 36,
+      "negative": 35,
       "neutral": 8,
-      "languageIndex": -38.0,
+      "languageIndex": -37.7,
       "label": "Insufficient observations",
-      "sourceConcentration": 78.0,
+      "sourceConcentration": 77.6,
       "coverageSufficient": false,
       "attentionDeltaPct": null,
       "changeInterpretation": "Not yet measurable",
@@ -922,7 +922,7 @@
   "topPublishers": [
     {
       "publisher": "www.bloomberg.com",
-      "stories": 426
+      "stories": 420
     },
     {
       "publisher": "www.bbc.co.uk",
@@ -930,7 +930,7 @@
     },
     {
       "publisher": "www.thehindu.com",
-      "stories": 79
+      "stories": 78
     },
     {
       "publisher": "news.un.org",
@@ -942,7 +942,7 @@
     }
   ],
   "feedCoverage": {
-    "reportedScanCount": 38,
+    "reportedScanCount": 39,
     "latestAvailableFeeds": 15,
     "latestConfiguredFeeds": 15
   },
